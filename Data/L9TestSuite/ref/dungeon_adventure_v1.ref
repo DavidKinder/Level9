@@ -1,0 +1,2929 @@
+Welcome to Dungeon Adventure from Level 9. Enter English phrases (no
+punctuation) to play, collect treasure and return to civilisation along the
+forest road to win.
+You are on a mud-bank, north of a wide river. A stone bridge spans the
+waters, reaching from the granite cliffs above to the flat lands of the far
+bank, and a path climbs up to it.
+There is a piece of driftwood here
+A huge packing case, open at one end, rests on the ground
+What next?
+
+Playing back input from script file.
+#SEED 42
+U
+You are on a wide stone bridge which stretches north-south across the placid
+waters of a huge river. At the north end, the bridge enters a gaping stone
+mouth in the cliff.
+What next?
+N
+You are in a gloomy cavern, between rows of jagged, pointed stalagmites. A
+fetid odour drifts from a wide round passage to the north.
+A faint light shines in
+What next?
+N
+You are in a smooth, round north-south passage. A flickering light is
+visible to the north.
+What next?
+N
+You are at a junction in the round, north-south passage, illuminated by a
+jet of flame from the floor.
+To the east is a treasure vault, completely filled with valuables of every
+kind.
+What next?
+N
+You are in a north-south passage. A dry red stain spreads from beneath a
+fallen stone.
+A gilt miner's helmet lies nearby
+A small jewelled crucifix rests nearby
+What next?
+TAKE HELMET
+What next?
+EXAMINE HELMET 
+It is very valuable!
+The helmet lamp has neither fuel nor wick
+What next?
+TAKE CRUCIFIX
+What next?
+EXAMINE CRUCIFIX 
+It is very valuable!
+It is enchanted!
+The crucifix should be effective against some kinds of undead
+What next?
+S
+You are at a junction in the round, north-south passage, illuminated by a
+jet of flame from the floor.
+To the east is a treasure vault, completely filled with valuables of every
+kind.
+What next?
+S
+You are in a smooth, round north-south passage. A flickering light is
+visible to the north.
+What next?
+S
+You are in a gloomy cavern, between rows of jagged, pointed stalagmites. A
+fetid odour drifts from a wide round passage to the north.
+A faint light shines in
+What next?
+S
+You are on a wide stone bridge which stretches north-south across the placid
+waters of a huge river. At the north end, the bridge enters a gaping stone
+mouth in the cliff.
+What next?
+S
+You are on an east-west road south of the river. A gigantic orc's head is
+carved into the cliff north of the river, its tongue forming a bridge over
+the waters to you. A ruined tower stands on top of the cliff.
+What next?
+W
+You are on an east-west road, south of the river and north of a steep,
+treeless hill.
+What next?
+W
+You are south of the river, on the edge of a vast field of poppies which
+stretches west as far as the eye can see. A somnolant perfume hangs heavy on
+the breeze.
+A dry poppy seed pod lies nearby
+What next?
+TAKE SEED 
+What next?
+E
+You are on an east-west road, south of the river and north of a steep,
+treeless hill.
+What next?
+E
+You are on an east-west road south of the river. A gigantic orc's head is
+carved into the cliff north of the river, its tongue forming a bridge over
+the waters to you. A ruined tower stands on top of the cliff.
+What next?
+E
+You are on an east-west road beside the river and north of a flat grassy
+plain. A line of stepping stones leads to a small island in the water.
+A young girl, with flowing locks, sits on the island
+What next?
+N 
+You are on stepping stones leading north to an island.
+A young girl, with flowing locks, sits on the island
+What next?
+WAVE POD 
+Some seeds are dislodged and fall with loud explosions
+What next?
+N 
+You're deaf to the siren's song! She flees in panic
+You are on the southern end of a small island, reached by stepping stones
+from the south. The far end of the island is occupied by a viscious-looking
+willow tree with six long rubbery branches.
+A silver mirror lies nearby
+What next?
+TAKE MIRROR 
+What next?
+THROW SEED
+The tree grabs it with a branch, raising it high into the air
+What next?
+THROW CRUCIFIX
+The tree grabs it with a branch, raising it high into the air
+What next?
+THROW HELMET 
+The tree grabs it with a branch, raising it high into the air
+What next?
+S
+You are on stepping stones leading north to an island.
+What next?
+S
+You are on an east-west road beside the river and north of a flat grassy
+plain. A line of stepping stones leads to a small island in the water.
+What next?
+E
+You are on an east-west road through the forest.
+What next?
+E 
+A sleep spell hits you! But your mirror reflects it! You hear snoring from
+the south
+You are on an east-west road through the forest.
+What next?
+S 
+Your foot breaks a twig: SNAP! A masked man leaps up and flees
+You are in a clump of bushes on the edge of the forest.
+An assortment of coins is here
+A magic wand is here
+A dice rests on the ground
+What next?
+TAKE COINS
+What next?
+TAKE WAND
+What next?
+TAKE DICE
+What next?
+EXAMINE DICE 
+It is enchanted!
+The dice is weighted and inscribed "I know I'm a die"
+What next?
+N
+You are on an east-west road through the forest.
+What next?
+W
+You are on an east-west road through the forest.
+What next?
+N 
+You are at the edge of the forest, beneath a particularly large tree. You
+can just glimpse a large clearing to the north.
+Two evil giants are asleep in the clearing
+What next?
+DROP DICE
+What next?
+U 
+You are on a sturdy branch over the clearing.
+Two fierce giants are asleep below
+A ripe berry is within reach
+What next?
+TAKE BERRY
+What next?
+DROP BERRY 
+It hits one giant, waking him. Seeing no other source for the attack, he
+attacks the other and they rush off, fighting
+What next?
+D
+You are at the edge of the forest, beneath a particularly large tree. You
+can just glimpse a large clearing to the north.
+A dice rests on the ground
+What next?
+N
+You are in a forest clearing.
+A ripe berry is within reach
+A good strong belt lies coiled on the ground
+What next?
+TAKE BELT
+What next?
+WEAR BELT 
+You feel much stronger!
+What next?
+S
+You are at the edge of the forest, beneath a particularly large tree. You
+can just glimpse a large clearing to the north.
+A dice rests on the ground
+What next?
+TAKE DICE
+What next?
+S
+You are on an east-west road through the forest.
+What next?
+W
+You are on an east-west road beside the river and north of a flat grassy
+plain. A line of stepping stones leads to a small island in the water.
+What next?
+N
+You are on stepping stones leading north to an island.
+What next?
+N 
+You are on the southern end of a small island, reached by stepping stones
+from the south. The far end of the island is occupied by a viscious-looking
+willow tree with six long rubbery branches.
+What next?
+THROW DICE
+The tree grabs it with a branch, raising it high into the air
+What next?
+THROW COINS
+The tree grabs it with a branch, raising it high into the air
+What next?
+THROW MIRROR 
+The tree grabs it with a branch, raising it high into the air
+What next?
+N 
+You are under the killer-willow tree.
+A long-handelled axe lies nearby
+What next?
+TAKE AXE
+What next?
+CHOP TREE 
+A beautiful dryad springs from the tree. "Stop! Woodman, spare that tree!
+I'll give you a reward! OK?"
+YES 
+She gives you a carving and makes the tree drop everything
+What next?
+TAKE COINS
+What next?
+TAKE HELMET
+What next?
+TAKE CRUCIFIX
+What next?
+TAKE MIRROR
+What next?
+TAKE DICE
+What next?
+TAKE POD
+What next?
+WEAR HELMET
+What next?
+S
+You are on the southern end of a small island, reached by stepping stones
+from the south. The far end of the island is occupied by a viscious-looking
+willow tree with six long rubbery branches.
+What next?
+S 
+You are on stepping stones leading north to an island.
+What next?
+S
+You are on an east-west road beside the river and north of a flat grassy
+plain. A line of stepping stones leads to a small island in the water.
+What next?
+W
+You are on an east-west road south of the river. A gigantic orc's head is
+carved into the cliff north of the river, its tongue forming a bridge over
+the waters to you. A ruined tower stands on top of the cliff.
+The sun hangs low in the sky
+What next?
+W
+You are on an east-west road, south of the river and north of a steep,
+treeless hill.
+The sun hangs low in the sky
+What next?
+W
+You are south of the river, on the edge of a vast field of poppies which
+stretches west as far as the eye can see. A somnolant perfume hangs heavy on
+the breeze.
+The sun hangs low in the sky
+What next?
+S
+You are on the side of a steep hill which rises into the clouds. Rumblings
+emanate from above.
+The sun hangs low in the sky
+What next?
+W 
+You are within a circle of distorted monoliths, etched into grotesque
+figures by the acid rain. Lightning arcs overhead, revealing the stark
+horror of this haunted place, while thunder echoes from every crag.
+The sun hangs low in the sky
+What next?
+EXAMINE CIRCLE 
+You don't find anythingDazzling lightening spears the hilltop and a host of
+fierce flames spring forth: they are Rakshasa! Their leader floats forwards.
+"How about a game: If you win I'll strengthen the flames of your soul. If
+you lose, I get your body. OK?"
+YES 
+I'll roll a dice: 1-3 you lose, 4-6 you win. And I'll even use your dice to
+be fair..
+It's a 6! YOU WIN! The Rakshasa envelop you briefly before leaving
+What next?
+E
+You are on the side of a steep hill which rises into the clouds. Rumblings
+emanate from above.
+The sun hangs low in the sky
+What next?
+E
+You are on a grassy plain.
+The sun hangs low in the sky
+What next?
+E 
+You are below a small mound which is completely dwarfed by a huge untidy
+nest.
+A grotesque bloated yellow bird with big ears squats on the nest
+The sun hangs low in the sky
+What next?
+WAVE POD 
+Some seeds are dislodged and fall with loud explosions. This sound scares
+the bird away
+What next?
+U
+You are in a huge nest.
+The sun hangs low in the sky
+A large jade egg is here
+What next?
+TAKE EGG 
+What next?
+D
+You are below a small mound which is completely dwarfed by a huge untidy
+nest.
+The sun hangs low in the sky
+What next?
+N
+You are on an east-west road beside the river and north of a flat grassy
+plain. A line of stepping stones leads to a small island in the water.
+The sun hangs low in the sky
+What next?
+W
+You are on an east-west road south of the river. A gigantic orc's head is
+carved into the cliff north of the river, its tongue forming a bridge over
+the waters to you. A ruined tower stands on top of the cliff.
+The sun hangs low in the sky
+What next?
+N
+You are on a wide stone bridge which stretches north-south across the placid
+waters of a huge river. At the north end, the bridge enters a gaping stone
+mouth in the cliff.
+The sun hangs low in the sky
+What next?
+D 
+You are on a mud-bank, north of a wide river. A stone bridge spans the
+waters, reaching from the granite cliffs above to the flat lands of the far
+bank, and a path climbs up to it.
+The sun hangs low in the sky
+There is a piece of driftwood here
+A huge packing case, open at one end, rests on the ground
+What next?
+DROP POD
+Some seeds are dislodged and fall with loud explosions
+What next?
+TAKE CASE
+What next?
+TAKE DRIFTWOOD
+What next?
+U
+You are on a wide stone bridge which stretches north-south across the placid
+waters of a huge river. At the north end, the bridge enters a gaping stone
+mouth in the cliff.
+The sun is setting!
+What next?
+N
+You are in a gloomy cavern, between rows of jagged, pointed stalagmites. A
+fetid odour drifts from a wide round passage to the north.
+A faint light shines in
+What next?
+N
+You are in a smooth, round north-south passage. A flickering light is
+visible to the north.
+What next?
+N 
+You are at a junction in the round, north-south passage, illuminated by a
+jet of flame from the floor.
+To the east is a treasure vault, completely filled with valuables of every
+kind.
+What next?
+LIGHT DRIFTWOOD
+The wood burns brightly
+You are at a junction in the round, north-south passage, illuminated by a
+jet of flame from the floor.
+To the east is a treasure vault, completely filled with valuables of every
+kind.
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+A faint light shines in
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E 
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+What next?
+DROP CARVING
+What next?
+DROP COINS
+What next?
+DROP EGG
+What next?
+DROP MIRROR
+What next?
+DROP AXE
+What next?
+PRESS BUTTON 
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are at a junction in the round, north-south passage, illuminated by a
+jet of flame from the floor.
+To the east is a treasure vault, completely filled with valuables of every
+kind.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+N
+You are in a north-south passage. A dry red stain spreads from beneath a
+fallen stone.
+What next?
+N
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+W 
+You are at the east end of a long room. Its roof is supported by dozens of
+stone pillars.
+A corpse is slumped on the ground
+What next?
+SEARCH CORPSE
+You find:
+a short bow
+an orange collar
+What next?
+TAKE BOW
+What next?
+WEAR ORANGE 
+What next?
+TAKE CORPSE
+What next?
+E
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+SE
+You are at a junction in a steeply sloping u-shaped passage which leads
+northeast and northwest. Three round rocks protrude beside an opening to the
+east.
+It's blocked by a slab of rock
+What next?
+NE 
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+Globs of carnivorous jelly are circling round
+What next?
+THROW CORPSE 
+The jellies converge onto it
+What next?
+SW
+You are at a junction in a steeply sloping u-shaped passage which leads
+northeast and northwest. Three round rocks protrude beside an opening to the
+east.
+It's blocked by a slab of rock
+What next?
+PUSH ROCK
+You turn one stone and nothing happens
+What next?
+PUSH ROCK
+Another stone turned, still nothing
+What next?
+PUSH ROCK 
+Now no stone is left unturned the slab slides from the doorway
+What next?
+E
+You are in a damp hemispherical cave with an opening to the east.
+A boulder rolls on a carpet of moss
+What next?
+PRESS BOULDER 
+The moss moves from walls and floor to the stopped stone
+You are in a damp hemispherical cave with an opening to the east.
+A mossy lump sits in one corner
+What next?
+E
+You are a room carved out of rugged rock with a large outcrop of stone in
+the middle of the floor. There is an exit to the west.
+A great sword is thrust into the stone
+What next?
+TAKE SWORD
+What next?
+W
+You are at a junction in a steeply sloping u-shaped passage which leads
+northeast and northwest. Three round rocks protrude beside an opening to the
+east.
+What next?
+NW
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+NW 
+You are dead-end room, painted matt black. You'll have to return the way you
+came.
+A cute little octopus figurine stands nearby
+What next?
+TAKE FIGURINE 
+What next?
+SE
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+NE 
+The octopus waves its arms and you can see. Thus "many hands make light
+work"!
+You are in a second dead-end black room.
+A staff of polished bone is here
+A yellow collar is here
+What next?
+TAKE STAFF
+What next?
+SW
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+W
+You are at the east end of a long room. Its roof is supported by dozens of
+stone pillars.
+What next?
+W
+You are at the west of a long room with many pillars. The only exit is at
+the other end.
+A small cube of metal rests on the ground
+What next?
+TAKE CUBE
+What next?
+EXAMINE CUBE 
+It is very valuable!
+The cube sticks to metal
+What next?
+E
+You are at the east end of a long room. Its roof is supported by dozens of
+stone pillars.
+What next?
+E
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+E
+You are in an empty stable with exits to east and west.
+What next?
+E 
+You are in a rough-hewn store room, filled by a haystack.
+What next?
+SEARCH HAYSTACK
+You find:
+a jewelled needle
+What next?
+DROP CASE
+What next?
+TAKE NEEDLE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+An ethnic carving lies nearby
+An assortment of coins is here
+A large jade egg is here
+A silver mirror lies nearby
+What next?
+DROP NEEDLE
+What next?
+DROP CUBE
+What next?
+DROP DICE
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in a rough-hewn store room, filled by a haystack.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+W
+You are in an empty stable with exits to east and west.
+What next?
+W
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+SW 
+You are on a flight of crumbling steps.
+What next?
+U
+You are in a steep earthy passage.
+What next?
+U 
+A party of skeletons stand to attention as you enter. (Greetings Master),
+they signal in semaphore, (We have captured an intruder dwarf and await your
+signals)!
+You are in the lower chamber. There are 6 exits.
+A host of skeletons are guarding a bearded dwarf
+What next?
+WAVE STAFF 
+As you wave the skeleton staff they all clank off, leaving the dwarf. "Thank
+you", she says, "You saved my life. I've found a rich vein of ore above the
+stone face and will share it if you visit the area!"
+What next?
+WAVE WAND 
+You hear a body fall into water far below
+What next?
+SE 
+You are in a wide, smelly passage opening to the outside, high above the
+river.
+A dwarf is following you
+An antique chair is here
+A green collar is here
+What next?
+WEAR GREEN
+What next?
+TAKE CHAIR
+What next?
+NW
+You are in the lower chamber. There are 6 exits.
+A dwarf is following you
+What next?
+U 
+You are in the upper chamber, warmed by a current of rising air. Openings
+lead southeast, southwest and down.
+An enormous dragon lies on a golden bed
+A dwarf is following you
+What next?
+KILL DRAGON WITH SWORD
+The sword slays the dragon and they fade away, leaving the dragon's teeth
+and its golden bed
+What next?
+TAKE TEETH 
+What next?
+TAKE BED 
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+A dwarf is following you
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+A dwarf is following you
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+A dwarf is following you
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A dwarf is following you
+A long-handelled axe lies nearby
+An ethnic carving lies nearby
+An assortment of coins is here
+A large jade egg is here
+A jewelled needle is on the ground
+A small cube of metal rests on the ground
+A silver mirror lies nearby
+A dice rests on the ground
+What next?
+DROP BED
+What next?
+DROP TEETH
+What next?
+DROP CHAIR
+What next?
+DROP STAFF
+What next?
+DROP WAND
+What next?
+DROP FIGURINE
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in the upper chamber, warmed by a current of rising air. Openings
+lead southeast, southwest and down.
+A dwarf is following you
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+D
+You are in the lower chamber. There are 6 exits.
+A dwarf is following you
+What next?
+N 
+You are at a tight junction above a narrow pit.
+A vampire cowers back
+A dwarf is following you
+What next?
+W
+You are in a winding, sticky east-west passage to the outside.
+A dwarf is following you
+A wooden cross lies nearby
+What next?
+TAKE CROSS
+What next?
+E
+You are at a tight junction above a narrow pit.
+A vampire cowers back
+A dwarf is following you
+What next?
+THROW CROSS 
+The sharp wood kills the vampire
+What next?
+TAKE CROSS
+What next?
+E
+You are in a winding, sticky east-west passage to the outside.
+A dwarf is following you
+What next?
+OUT 
+You are in a stone left ear. Paths lead west and into the rock.
+A dwarf is following you
+What next?
+W
+You are on the left cheek of the great stone face.
+A dwarf is following you
+What next?
+W
+You are standing on an enormous stone nose, projecting far out over the
+river below. To the south, at the end of the nose, is a large white building
+dwarfed to the apparant size of a pimple, and above is a great rock dome.
+A dwarf is following you
+What next?
+U
+You are on a smooth rock dome, below a narrow path.
+A fierce goat is on guard
+A dwarf is following you
+A large horn lies on the ground
+What next?
+U 
+You are in a sheltered gully below a winding staircase.
+A dwarf is following you
+What next?
+U
+You are on the "winding stairs", leading across a vertical slab of exposed
+rock.
+A dwarf is following you
+What next?
+U
+You are on the "winding stairs", carved into exposed rock.
+A dwarf is following you
+What next?
+U 
+The dwarf dives into a hidden opening. You hear frantic hammering and cries
+of "Follow me!"
+You are in a gully above the "winding stairs".
+What next?
+IN
+You are in a huge cave of glistering rock. New passages lead north and
+south.
+A lump of valuable ore lies nearby
+What next?
+TAKE ORE
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+An ethnic carving lies nearby
+An antique chair is here
+An assortment of coins is here
+A large jade egg is here
+A jewelled needle is on the ground
+A small cube of metal rests on the ground
+A golden four-poster bed almost fills the room
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP ORE
+What next?
+DROP CROSS
+What next?
+DROP CRUCIFIX
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in a huge cave of glistering rock. New passages lead north and
+south.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+S 
+You are in a gully above the "winding stairs".
+What next?
+U
+You are below the "straight stairs".
+What next?
+U
+You are half-way up the "straight stairs".
+What next?
+U
+You are at the top of the "straight stairs", a short distance below a
+gate-house.
+What next?
+U
+You are outside the gatehouse.
+What next?
+N 
+"OI! YOU CAN ONLY ENTER IF YOU SAY THE PASSWORD!"
+What next?
+SAY PASSWORD 
+"Pass friend!"
+What next?
+N
+You are in an arch-way below the gate-house. A bridge leads north to the
+foot of a shattered black tower. A violet pedestal stands to one side of the
+arch.
+What next?
+U 
+You are standing on a small round platform surrounded by a cylinder of
+violet light.
+What next?
+SAY YELLOW 
+You are standing on a small round platform surrounded by a cylinder of
+yellow light.
+What next?
+D 
+You are at the end of a long east-west corridor lined with worn flagstones.
+A yellow pedestal stands in the middle of the road and doorways lead north
+and south.
+What next?
+W
+You are in a long east-west corridor with doorways to north and south.
+What next?
+W
+You are at the junction where the corridor ends.
+What next?
+W
+You are in a neat panelled room. There is a walk-in cupboard to the south, a
+wide doorway to the east and narrow openings west and down.
+What next?
+S 
+You are in a cupboard.
+A hollow stick is on the ground
+A blue collar is here
+A jar of cold cream is here
+What next?
+TAKE STICK
+What next?
+N
+You are in a neat panelled room. There is a walk-in cupboard to the south, a
+wide doorway to the east and narrow openings west and down.
+What next?
+E
+You are at the junction where the corridor ends.
+What next?
+E
+You are in a long east-west corridor with doorways to north and south.
+What next?
+E
+You are at the end of a long east-west corridor lined with worn flagstones.
+A yellow pedestal stands in the middle of the road and doorways lead north
+and south.
+What next?
+E
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+N
+You are in a damp, musty north-south corridor.
+What next?
+N
+You are on the floor of a cavern, beside a clump of evil green toadstools.
+Liquid slime oozes from the north and paths lead south and up.
+What next?
+U
+You are clinging to a rock-face.
+What next?
+U
+You are on a wide ledge half-way up the south side of a tall cave. Steps
+lead up and down. Several small, brightly patterned, psychaedelic mushrooms
+grow at the back of the ledge.
+A rotting bridge leads north
+What next?
+U
+You are clinging to crumbling steps up the rock wall.
+What next?
+U
+You are at the end of an aqueduct designed to drip water evenly into the
+depths of a deep pit below. The aqueduct leads north, a narrow fissure leads
+south, and steps lead down into the pit.
+What next?
+S
+You are in a dry north-south fissure, apparantly blocked at the southern
+end.
+What next?
+S
+You are in a huge cave of glistering rock. New passages lead north and
+south.
+What next?
+S 
+You are in a gully above the "winding stairs".
+What next?
+U
+You are below the "straight stairs".
+What next?
+U
+You are half-way up the "straight stairs".
+What next?
+U
+You are at the top of the "straight stairs", a short distance below a
+gate-house.
+What next?
+U
+You are outside the gatehouse.
+What next?
+N
+You are in an arch-way below the gate-house. A bridge leads north to the
+foot of a shattered black tower. A violet pedestal stands to one side of the
+arch.
+What next?
+N 
+You are on a narrow north-south bridge.
+The main door north of the bridge is shut
+What next?
+BLOW STICK 
+The stick emits a reedy whistle and the door swings open
+You are on a narrow north-south bridge.
+What next?
+N
+You are in a corridor bending south and east.
+What next?
+E
+You are in a long throne room lined with skin. There is a large doorway in
+the middle of each wall and a central granite throne.
+What next?
+S
+You are in a sloping passage.
+What next?
+D
+You are on a ramp down the black tower.
+What next?
+D
+A great roc carries you off!
+You are in the roc's nest, where it brings "food" for storage.
+A large rock crystal is here
+A huge caterpillar wriggles nearby
+What next?
+TAKE CATERPILLAR
+What next?
+SQUEEZE CATERPILLAR 
+A silken rope emerges!
+You are in the roc's nest, where it brings "food" for storage.
+A silken rope lies in a heap
+A large rock crystal is here
+What next?
+DROP CATERPILLAR
+What next?
+TAKE ROPE
+What next?
+TIE ROPE
+You are in the roc's nest, where it brings "food" for storage.
+A rope hangs down
+A large rock crystal is here
+A huge caterpillar wriggles nearby
+What next?
+TAKE ROCK CRYSTAL
+What next?
+D
+You are north of the dry marsh, below a sheer cliff.
+What next?
+S
+You are beside a muddy puddle.
+A little will o'wisp floats forlornely
+A skeletal hand reaches from the earth but crumbles to dust
+What next?
+TAKE WISP 
+You catch the will o'wisp in your helmet lamp
+What next?
+S
+You are on powdery peat beside a north-south chasm.
+What next?
+S
+You are on dry, powdery peat.
+What next?
+W
+You are on a mound of rubble.
+What next?
+S 
+You are below a ramp up the outside of the black tower. Powdery peat leads
+north.
+What next?
+LOOK
+A face looks back: your gaze is locked! You stumble towards it.. Then
+CRUNCH! You tread on a mechanical mask
+You are below a ramp up the outside of the black tower. Powdery peat leads
+north.
+A battered silver face lies on the ground
+A skeletal hand reaches from the earth but crumbles to dust
+What next?
+TAKE FACE
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+An ethnic carving lies nearby
+An antique chair is here
+An assortment of coins is here
+A large jade egg is here
+A jewelled needle is on the ground
+A lump of valuable ore lies nearby
+A small cube of metal rests on the ground
+A golden four-poster bed almost fills the room
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP STICK
+What next?
+DROP CRYSTAL
+What next?
+DROP DRIFTWOOD
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are below a ramp up the outside of the black tower. Powdery peat leads
+north.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+U
+You are on a ramp down the black tower.
+What next?
+U
+You are in a sloping passage.
+What next?
+N
+You are in a long throne room lined with skin. There is a large doorway in
+the middle of each wall and a central granite throne.
+What next?
+W
+You are in a corridor bending south and east.
+What next?
+S
+You are on a narrow north-south bridge.
+What next?
+S 
+You are in an arch-way below the gate-house. A bridge leads north to the
+foot of a shattered black tower. A violet pedestal stands to one side of the
+arch.
+What next?
+U 
+You are standing on a small round platform surrounded by a cylinder of
+violet light.
+What next?
+SAY RED 
+You are standing on a small round platform surrounded by a cylinder of red
+light.
+What next?
+D
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+SE
+You are at a junction in a steeply sloping u-shaped passage which leads
+northeast and northwest. Three round rocks protrude beside an opening to the
+east.
+What next?
+NE
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+W
+You are at the end of a long east-west corridor lined with worn flagstones.
+A yellow pedestal stands in the middle of the road and doorways lead north
+and south.
+What next?
+W
+You are in a long east-west corridor with doorways to north and south.
+What next?
+S 
+You are in a filthy, dead-end cell.
+A sliver of rancid fried potato is stuck to the floor
+What next?
+TAKE SLIVER 
+What next?
+N
+You are in a long east-west corridor with doorways to north and south.
+What next?
+W
+You are at the junction where the corridor ends.
+What next?
+W
+You are in a neat panelled room. There is a walk-in cupboard to the south, a
+wide doorway to the east and narrow openings west and down.
+What next?
+S 
+You are in a cupboard.
+A blue collar is here
+A jar of cold cream is here
+What next?
+WEAR BLUE
+What next?
+TAKE CREAM 
+What next?
+N
+You are in a neat panelled room. There is a walk-in cupboard to the south, a
+wide doorway to the east and narrow openings west and down.
+What next?
+E
+You are at the junction where the corridor ends.
+What next?
+E
+You are in a long east-west corridor with doorways to north and south.
+What next?
+E
+You are at the end of a long east-west corridor lined with worn flagstones.
+A yellow pedestal stands in the middle of the road and doorways lead north
+and south.
+What next?
+S
+You are in a filthy, dead-end cell.
+A cracked pot is pushed into a corner
+What next?
+TAKE POT 
+What next?
+N
+You are at the end of a long east-west corridor lined with worn flagstones.
+A yellow pedestal stands in the middle of the road and doorways lead north
+and south.
+What next?
+E
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+E
+You are in a crude narrow east-west corridor, hacked out of the rock.
+What next?
+E 
+The rat flees from the stinking chip!
+You are at a junction between north-south and east-west passages.
+What next?
+N 
+You are in a giant, vacant, rats nest.
+There is a star pendant here
+What next?
+TAKE PENDANT
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+There is a piece of driftwood here
+An ethnic carving lies nearby
+An antique chair is here
+An assortment of coins is here
+A large jade egg is here
+A jewelled needle is on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+A small cube of metal rests on the ground
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP MASK
+What next?
+DROP SLIVER
+What next?
+DROP PENDANT
+What next?
+TAKE CROSS
+What next?
+TAKE CRUCIFIX
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in a giant, vacant, rats nest.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+S
+You are at a junction between north-south and east-west passages.
+What next?
+W
+You are in a crude narrow east-west corridor, hacked out of the rock.
+What next?
+W
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+SE 
+You are in a looted toolroom.
+There is a hammer here
+A bag of nails lies on the floor
+What next?
+TAKE HAMMER
+What next?
+TAKE NAILS
+What next?
+NW 
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+WEAR CREAM 
+You clumsily smear cold cream all over yourself
+What next?
+U 
+You are in an oppressive chimney.
+What next?
+U
+You are outside a glowing alcove.
+What next?
+IN 
+You are in a hot alcove, lit by the flames of a fire elemental.
+There is a sun medallion here
+What next?
+TAKE MEDALLION 
+What next?
+OUT
+You are outside a glowing alcove.
+What next?
+D
+You are in an oppressive chimney.
+What next?
+D
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+N
+You are in a damp, musty north-south corridor.
+What next?
+N
+You are on the floor of a cavern, beside a clump of evil green toadstools.
+Liquid slime oozes from the north and paths lead south and up.
+What next?
+FILL POT 
+You scoop up a good pot-full of slime
+What next?
+U
+You are clinging to a rock-face.
+What next?
+U
+You are on a wide ledge half-way up the south side of a tall cave. Steps
+lead up and down. Several small, brightly patterned, psychaedelic mushrooms
+grow at the back of the ledge.
+A rotting bridge leads north
+What next?
+EAT PSYCHEDELIC MUSHROOM 
+Wowee!
+You are on a wide ledge half-way up the south side of a tall cave. Steps
+lead up and down. Several small, brightly patterned, psychaedelic mushrooms
+grow at the back of the ledge.
+A fine golden pathway leads north
+What next?
+N 
+You are on a magnificent golden pathway running north-south through the air.
+A troll blocks the bridge, palm outstretched for payment
+What next?
+GIVE MEDALLION 
+The troll takes it and leaves, gloating
+What next?
+N
+You are on a narrow ledge between the splendid golden pathway and a narrow
+tunnel.
+What next?
+N
+You are in a narrow north-south passage through the rock. A peculiar sweet
+smell emerges from an opening to the west.
+What next?
+N
+You are on a wide ledge outside a tunnel entrance. A wooden bridge leads
+north across a deep cavern and steps lead up and down.
+What next?
+N
+You are on a sturdy bridge across a cave.
+What next?
+N 
+You are on a wide ledge between a sturdy bridge and a fissure in the rock.
+You keep bumping into objects that you can't see.
+What next?
+EAT MUSHROOM 
+You are invisible!
+What next?
+S
+You are on a sturdy bridge across a cave.
+What next?
+S
+You are on a wide ledge outside a tunnel entrance. A wooden bridge leads
+north across a deep cavern and steps lead up and down.
+What next?
+S
+You are in a narrow north-south passage through the rock. A peculiar sweet
+smell emerges from an opening to the west.
+What next?
+W 
+You are in the troll's squalid store room, amidst junk of every kind.
+Astrological symbols and slogans cover the walls and a cloying incense smell
+clogs your nostrils. The only exit is east, between clumps of tasty pink
+mushrooms. The troll is slumped in a stupor in one corner.
+There is a sun medallion here
+Some rare spices are here
+A red collar is here
+What next?
+TAKE SPICES
+What next?
+TAKE MEDALLION
+What next?
+E
+You are in a narrow north-south passage through the rock. A peculiar sweet
+smell emerges from an opening to the west.
+What next?
+N 
+You are on a wide ledge outside a tunnel entrance. A wooden bridge leads
+north across a deep cavern and steps lead up and down.
+What next?
+D 
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+You are visible again!
+What next?
+EAT MUSHROOM 
+You shrink
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+A short bow is here
+There is a hammer here
+A bag of nails lies on the floor
+A cracked pot is pushed into a corner, full of slime
+There is a sun medallion here
+Some rare spices are here
+A gilt miner's helmet lies nearby which shines brightly
+A good strong belt lies coiled on the ground
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A huge packing case, open at one end, rests on the ground
+A blue collar is here
+What next?
+N 
+You are in the middle of the floor of a giant cove, in a giant ants' nest.
+Small footprints lead north and south.
+Enormous ants tower overhead as they walk past, completely ignoring you
+What next?
+N 
+You are North of the cave floor, below a huge grey mushroom.
+What next?
+EAT MUSHROOM 
+You grow
+What next?
+EAT MUSHROOM 
+You grow
+What next?
+S
+You accidentally step on some little ants
+You are in the middle of the floor of a giant cove, in a giant ants' nest.
+Small footprints lead north and south.
+What next?
+S 
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+A short bow is here
+There is a hammer here
+A bag of nails lies on the floor
+A cracked pot is pushed into a corner, full of slime
+There is a sun medallion here
+Some rare spices are here
+A gilt miner's helmet lies nearby which shines brightly
+A good strong belt lies coiled on the ground
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A huge packing case, open at one end, rests on the ground
+A blue collar is here
+What next?
+EAT MUSHROOM
+You shrink
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+A short bow is here
+There is a hammer here
+A bag of nails lies on the floor
+A cracked pot is pushed into a corner, full of slime
+There is a sun medallion here
+Some rare spices are here
+A gilt miner's helmet lies nearby which shines brightly
+A good strong belt lies coiled on the ground
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A huge packing case, open at one end, rests on the ground
+A blue collar is here
+What next?
+U
+You are on a wide ledge outside a tunnel entrance. A wooden bridge leads
+north across a deep cavern and steps lead up and down.
+What next?
+N
+You are on a sturdy bridge across a cave.
+What next?
+N
+You are on a wide ledge between a sturdy bridge and a fissure in the rock.
+You keep bumping into objects that you can't see.
+What next?
+N 
+You are in a small fissure that narrows as it winds north.
+What next?
+N
+You are crawling through tiny cracks which lead west and south.
+What next?
+W 
+You are in the strong room. An iron door leads west and a narrow crack
+splits the east wall.
+The door is bolted
+A securely-fastened treasure chest is here
+What next?
+OPEN DOOR 
+The bolt slides back
+What next?
+E
+You are crawling through tiny cracks which lead west and south.
+What next?
+S
+You are in a small fissure that narrows as it winds north.
+What next?
+S
+You are on a wide ledge between a sturdy bridge and a fissure in the rock.
+You keep bumping into objects that you can't see.
+What next?
+S
+You are on a sturdy bridge across a cave.
+What next?
+S
+You are on a wide ledge outside a tunnel entrance. A wooden bridge leads
+north across a deep cavern and steps lead up and down.
+What next?
+D
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+A short bow is here
+There is a hammer here
+A bag of nails lies on the floor
+A cracked pot is pushed into a corner, full of slime
+There is a sun medallion here
+Some rare spices are here
+A gilt miner's helmet lies nearby which shines brightly
+A good strong belt lies coiled on the ground
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A huge packing case, open at one end, rests on the ground
+A blue collar is here
+What next?
+N
+You are in the middle of the floor of a giant cove, in a giant ants' nest.
+Small footprints lead north and south.
+What next?
+N
+You are North of the cave floor, below a huge grey mushroom.
+What next?
+EAT MUSHROOM 
+You grow
+What next?
+S
+You are in the middle of the floor of a giant cove, in a giant ants' nest.
+Small footprints lead north and south.
+What next?
+S
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+A short bow is here
+There is a hammer here
+A bag of nails lies on the floor
+A cracked pot is pushed into a corner, full of slime
+There is a sun medallion here
+Some rare spices are here
+A gilt miner's helmet lies nearby which shines brightly
+A good strong belt lies coiled on the ground
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A huge packing case, open at one end, rests on the ground
+A blue collar is here
+What next?
+TAKE BELT
+What next?
+WEAR BELT
+You feel much stronger!
+What next?
+WEAR HELMET
+What next?
+WEAR BLUE
+What next?
+TAKE CASE
+What next?
+TAKE CROSS
+What next?
+TAKE CRUCIFIX
+What next?
+TAKE BOW
+What next?
+TAKE HAMMER
+What next?
+TAKE NAILS
+What next?
+TAKE POT
+What next?
+TAKE MEDALLION
+What next?
+TAKE SPICES
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+There is a piece of driftwood here
+A sliver of rancid fried potato is stuck to the floor
+An ethnic carving lies nearby
+An antique chair is here
+An assortment of coins is here
+A large jade egg is here
+A jewelled needle is on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+There is a star pendant here
+A small cube of metal rests on the ground
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A battered silver face lies on the ground
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP MEDALLION
+What next?
+DROP SPICES
+What next?
+DROP BOW
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are south a vast cavern floor, beside some small grey mushrooms. Tiny
+footprints lead north.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+U
+You are on a wide ledge outside a tunnel entrance. A wooden bridge leads
+north across a deep cavern and steps lead up and down.
+What next?
+S
+You are in a narrow north-south passage through the rock. A peculiar sweet
+smell emerges from an opening to the west.
+What next?
+S
+You are on a narrow ledge between the splendid golden pathway and a narrow
+tunnel.
+What next?
+S
+You are on a magnificent golden pathway running north-south through the air.
+What next?
+S
+You are on a wide ledge half-way up the south side of a tall cave. Steps
+lead up and down. Several small, brightly patterned, psychaedelic mushrooms
+grow at the back of the ledge.
+A fine golden pathway leads north
+What next?
+D
+You are clinging to a rock-face.
+What next?
+D
+You are on the floor of a cavern, beside a clump of evil green toadstools.
+Liquid slime oozes from the north and paths lead south and up.
+What next?
+S
+You are in a damp, musty north-south corridor.
+What next?
+S
+You are in a tall cavern with a large central fireplace and a wide brick
+chimney leading upwards. There are openings all around.
+A mound of jelly wobbles on the floor
+What next?
+W
+You are at the end of a long east-west corridor lined with worn flagstones.
+A yellow pedestal stands in the middle of the road and doorways lead north
+and south.
+What next?
+U 
+You are standing on a small round platform surrounded by a cylinder of
+yellow light.
+What next?
+SAY BLUE 
+You are standing on a small round platform surrounded by a cylinder of blue
+light.
+What next?
+D 
+You force the wights back
+You are in the middle of the wight house, below a blue pedestal.
+Several wights are trying to get at you
+What next?
+S
+You force the wights back
+You are in the middle of the south wall of the wight house. A musty alcove
+opens behind you.
+Several wights are trying to get at you
+What next?
+S 
+You are in the crypt, beside a rotting coffin.
+It is slightly ajar
+A costly trident rusts nearby
+What next?
+SHUT COFFIN 
+You nail the coffin tight shut
+You are in the crypt, beside a rotting coffin.
+It is nailed shut
+A costly trident rusts nearby
+What next?
+TAKE TRIDENT
+What next?
+N
+You force the wights back
+You are in the middle of the south wall of the wight house. A musty alcove
+opens behind you.
+Several wights are trying to get at you
+What next?
+N
+You force the wights back
+You are in the middle of the wight house, below a blue pedestal.
+Several wights are trying to get at you
+What next?
+N
+You are in the middle of the north wall of the wight house.
+Several wights are trying to get at you
+What next?
+W
+You are just inside the entrance to the wight house, at the northwest corner
+of a large gloomy room with four pillars. The nearest pillar has fallen and
+blocks your way south. In the middle of the southern wall is a shadowey
+alcove.
+Several wights are trying to get at you
+What next?
+N
+You are standing on an enormous stone nose, projecting far out over the
+river below. To the south, at the end of the nose, is a large white building
+dwarfed to the apparant size of a pimple, and above is a great rock dome.
+What next?
+U 
+You are on a smooth rock dome, below a narrow path.
+A fierce goat is on guard
+A large horn lies on the ground
+What next?
+DROP POT 
+The pot shatters, and slime oozes out
+What next?
+TAKE HORN 
+The goat dances forward but loses its footing and slips off the cliff
+What next?
+U 
+You are in a sheltered gully below a winding staircase.
+What next?
+U
+You are on the "winding stairs", leading across a vertical slab of exposed
+rock.
+What next?
+U
+You are on the "winding stairs", carved into exposed rock.
+What next?
+U
+You are in a gully above the "winding stairs".
+What next?
+U
+You are below the "straight stairs".
+What next?
+U
+You are half-way up the "straight stairs".
+What next?
+U
+You are at the top of the "straight stairs", a short distance below a
+gate-house.
+What next?
+U 
+You are outside the gatehouse.
+What next?
+N
+You are in an arch-way below the gate-house. A bridge leads north to the
+foot of a shattered black tower. A violet pedestal stands to one side of the
+arch.
+What next?
+N 
+You are on a narrow north-south bridge.
+What next?
+N
+You are in a corridor bending south and east.
+What next?
+E 
+You are in a long throne room lined with skin. There is a large doorway in
+the middle of each wall and a central granite throne.
+What next?
+U 
+You are sitting on an ornate throne. There are nine numbered buttons along
+the left arm-rest.
+What next?
+PUSH BUTTON 9 
+You are somewhere else!
+What next?
+LOOK 
+You are in the pit: a large pentagonal room, blackened by some past
+explosion and with a wide crack in the east wall.
+A silver collar is here
+An evil glowing green gem is here!
+What next?
+WEAR SILVER
+What next?
+TAKE GEM 
+An evil force in the gem launches itself at your mind!
+The gem is attacking your mind
+What next?
+HIT GEM 
+The gem breaks: you are free!
+What next?
+E
+You are at the bottom of a deep chasm where the earth has been split
+assunder by a massive explosion. Narrow cracks lead west and down.
+What next?
+E
+You are on powdery peat beside a north-south chasm.
+What next?
+N
+You are on a small mound, surrounded by fallen stones.
+A skeletal hand reaches from the earth but crumbles to dust
+What next?
+S
+You are on powdery peat beside a north-south chasm.
+What next?
+S
+You are on dry, powdery peat.
+What next?
+W
+You are on a mound of rubble.
+What next?
+S
+You are below a ramp up the outside of the black tower. Powdery peat leads
+north.
+What next?
+U
+You are on a ramp down the black tower.
+What next?
+U
+You are in a sloping passage.
+What next?
+N
+You are in a long throne room lined with skin. There is a large doorway in
+the middle of each wall and a central granite throne.
+What next?
+U 
+You are sitting on an ornate throne. There are nine numbered buttons along
+the left arm-rest.
+What next?
+PUSH BUTTON 4 
+The entire throne rises through a trapdoor in the ceiling. It comes to rest
+in an odd little room
+What next?
+D
+You are in an odd little room, below a granite throne.
+A pair of lapis lazuli stand nearby
+A small onyx oryx stands on the ground
+A violet collar is here
+A mithril collar is here!
+What next?
+WEAR MITHRIL
+What next?
+DROP HAMMER
+What next?
+TAKE LAPIS
+What next?
+TAKE ONYX
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+A short bow is here
+There is a piece of driftwood here
+A sliver of rancid fried potato is stuck to the floor
+An ethnic carving lies nearby
+An antique chair is here
+An assortment of coins is here
+A large jade egg is here
+A jewelled needle is on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+There is a star pendant here
+There is a sun medallion here
+A small cube of metal rests on the ground
+Some rare spices are here
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A battered silver face lies on the ground
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP LAPIS
+What next?
+DROP ONYX
+What next?
+DROP CRUCIFIX
+What next?
+DROP TRIDENT
+What next?
+DROP CROSS
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in an odd little room, below a granite throne.
+There is a hammer here
+A huge packing case, open at one end, rests on the ground
+A violet collar is here
+A silver collar is here
+What next?
+TAKE CASE
+What next?
+U 
+You are sitting on an ornate throne. There are nine numbered buttons along
+the left arm-rest.
+What next?
+SAY SILVER 
+You are standing on a small round platform surrounded by a cylinder of
+silvery light.
+What next?
+D
+You are in a paved tunnel below a silver pedestal. Water trickles from a
+silver hoop painted on one wall and seeps south. An armoured door leads east
+and a crack splits the north wall.
+What next?
+E 
+You are in the strong room. An iron door leads west and a narrow crack
+splits the east wall.
+A securely-fastened treasure chest is here
+What next?
+TAKE CHEST 
+What next?
+W
+You are in a paved tunnel below a silver pedestal. Water trickles from a
+silver hoop painted on one wall and seeps south. An armoured door leads east
+and a crack splits the north wall.
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+A short bow is here
+There is a piece of driftwood here
+A sliver of rancid fried potato is stuck to the floor
+An ethnic carving lies nearby
+An antique chair is here
+An assortment of coins is here
+A large jade egg is here
+A pair of lapis lazuli stand nearby
+A jewelled needle is on the ground
+A small onyx oryx stands on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+There is a star pendant here
+There is a sun medallion here
+A costly trident rusts nearby
+A small cube of metal rests on the ground
+Some rare spices are here
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A battered silver face lies on the ground
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP CHEST
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in a paved tunnel below a silver pedestal. Water trickles from a
+silver hoop painted on one wall and seeps south. An armoured door leads east
+and a crack splits the north wall.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+N
+You are in the Salt Cellar, surrounded by pillars of salt.
+A small salt pig stands on the ground
+What next?
+TAKE PIG 
+What next?
+E
+You are on a massive spiral ramp which twists down into dark waters and up
+into the gloom above. Sea-spray wafts from a nearby doorway.
+What next?
+D 
+You are standing in shallow water at the foot of the ramp. A ladder slopes
+northwards to a higher part of the ramp.
+What next?
+DROP PIG 
+The pig dissolves!
+What next?
+LOOK
+You are standing in shallow water at the foot of the ramp. A ladder slopes
+northwards to a higher part of the ramp.
+A pearl is here
+What next?
+TAKE PEARL
+What next?
+U
+You are on a massive spiral ramp which twists down into dark waters and up
+into the gloom above. Sea-spray wafts from a nearby doorway.
+What next?
+U
+You are on the ramp.
+What next?
+U
+You are on the ramp, outside a doorway.
+What next?
+E 
+You are in an empty room.
+What next?
+U
+You are in an empty room.
+What next?
+E 
+You are in a treasure vault. A low crawl leads west.
+A topaz is here
+What next?
+TAKE TOPAZ
+What next?
+W
+You are in an empty room.
+What next?
+W
+You are on the ramp, outside a doorway.
+What next?
+U
+You are on the ramp. A doorway bears the following message: "To escape the
+dungeon, collect 9 gems and go through this door. Leaving without the gems
+will cause your death". Clearly you must be in the central dungeon of the
+Demon Lord!.
+What next?
+U
+You are on the ramp outside an ornate entrance. The ramp above looks dodgy.
+What next?
+E 
+You are in the statue room. An incomprehensible abstract sculpture of hoops,
+spirals and loops sprawls around on a small circular platform in the middle
+of the floor. The entrance is to the west.
+What next?
+TURN STATUE 
+An opening leads east
+What next?
+E 
+You are in an ornate, dead-end room.
+A large valuable rhinestone is here
+What next?
+TAKE RHINESTONE
+What next?
+W
+You are in the statue room. An incomprehensible abstract sculpture of hoops,
+spirals and loops sprawls around on a small circular platform in the middle
+of the floor. The entrance is to the west.
+An opening leads east
+What next?
+W
+You are on the ramp outside an ornate entrance. The ramp above looks dodgy.
+What next?
+D
+You are on the ramp. A doorway bears the following message: "To escape the
+dungeon, collect 9 gems and go through this door. Leaving without the gems
+will cause your death". Clearly you must be in the central dungeon of the
+Demon Lord!.
+What next?
+D
+You are on the ramp, outside a doorway.
+What next?
+D
+You are on the ramp.
+What next?
+D
+You are on a massive spiral ramp which twists down into dark waters and up
+into the gloom above. Sea-spray wafts from a nearby doorway.
+What next?
+D
+You are standing in shallow water at the foot of the ramp. A ladder slopes
+northwards to a higher part of the ramp.
+What next?
+N
+You are on the ramp. A ladder slopes southwards to a lower part of the ramp.
+What next?
+D 
+You are on the ramp. A sign over a doorway reads: "Congratulations! You have
+won a uniquely valuable reward! Just walk in and answer a simple question to
+claim your prize!".
+What next?
+IN 
+You are in the "Skinner box": a blank room with no way out - just nine
+buttons in a vertical line up one wall. The buttons are numbered 1 to 9 and
+a discrete notice reads "choose the best".
+What next?
+PRESS BUTTON 9 
+RIGHT! Your vision blurs...
+You are in the reward room. This is empty too and has only 5 numbered
+buttons, labelled as follows...
+ 1: Great wealth;
+ 2: Eternal life;
+ 3: World peace;
+ 4: Mystery prize;
+ 5: Nothing.
+A sign invites you to choose your prize.
+What next?
+PRESS BUTTON 4 
+You win a little present
+You are on the ramp. A sign over a doorway reads: "Congratulations! You have
+won a uniquely valuable reward! Just walk in and answer a simple question to
+claim your prize!".
+What next?
+INVENTORY 
+You have:
+a pearl
+a valuable rhinestone
+a sapphire
+a topaz
+a great horn, bound by metal hoops
+a big packing case
+And you are wearing:
+a gilt miner's helmet with a lamp which shines brightly
+a good, strong belt
+a mithril collar
+What next?
+U
+You are on the ramp. A ladder slopes southwards to a lower part of the ramp.
+What next?
+U
+You are on the ramp, outside an evil dark entrance.
+What next?
+U
+You are on the ramp, outside an opening to a pale room.
+What next?
+U 
+You are pn the ramp, outside a square doorway.
+What next?
+IN 
+You are in the box room.
+A small ornate box lies nearby
+What next?
+TAKE BOX 
+What next?
+OUT
+You are pn the ramp, outside a square doorway.
+What next?
+D
+You are on the ramp, outside an opening to a pale room.
+What next?
+D
+You are on the ramp, outside an evil dark entrance.
+What next?
+D
+You are on the ramp. A ladder slopes southwards to a lower part of the ramp.
+What next?
+S 
+You are standing in shallow water at the foot of the ramp. A ladder slopes
+northwards to a higher part of the ramp.
+What next?
+DROP BOX 
+A drowned snake floats from the box
+What next?
+OPEN BOX
+You find:
+an opal
+What next?
+TAKE OPAL
+What next?
+N
+You are on the ramp. A ladder slopes southwards to a lower part of the ramp.
+What next?
+U
+You are on the ramp, outside an evil dark entrance.
+What next?
+U
+You are on the ramp, outside an opening to a pale room.
+What next?
+U
+You are pn the ramp, outside a square doorway.
+What next?
+U
+You are on the ramp, outside a rubbery doorway.
+What next?
+IN
+You are in a short east-west corridor.
+What next?
+E 
+You are in a room surfaced with black glass.
+An emerald is here
+What next?
+TAKE EMERALD
+What next?
+W
+You are in a short east-west corridor.
+What next?
+OUT
+You are on the ramp, outside a rubbery doorway.
+What next?
+U
+You are on the ramp, outside a narrow doorway from which drifts a sharp,
+acrid smell.
+What next?
+U
+You are on the ramp. A hand sign points into a narrow opening.
+What next?
+U
+You are on the ramp, outside a long room with scratches on floor and
+ceiling.
+What next?
+U
+You are on a wobbly section of the ramp.
+You can hear a boulder rolling down from above
+What next?
+U
+You are on the ramp, outside a round opening.
+You can hear a boulder rolling down from above
+What next?
+IN 
+You're safe when the boulder passes
+You are on the brink of a deep, dark pit.
+Sounds of a bounding boulder echo up from below
+What next?
+OUT
+You are on the ramp, outside a round opening.
+Sounds of a bounding boulder echo up from below
+What next?
+U
+You are on a loose section of the ramp.
+Sounds of a bounding boulder echo up from below
+What next?
+U
+You are on the ramp, outside a dark doorway.
+What next?
+IN 
+A humming black sphere floats in mid-air!
+You are in a dead-end dark room, below a black pedastal.
+A wooden wedge lies nearby
+A black sphere follows you
+What next?
+OUT 
+You are on the ramp, outside a dark doorway.
+A black sphere follows you
+What next?
+U
+You are on the ramp, beside a doorway with small holes up one edge.
+A black sphere follows you
+What next?
+U
+You are on the ramp which descends clockwise around the edges of a very deep
+pit. To the east is an opening into a red-gold room.
+A black sphere follows you
+What next?
+U 
+You are on a wide spiral ramp which descends clockwise round an immense pit.
+A small dark tunnel leads north. But these are matters of little
+significance for the north wall of the tunnel is covered with a miriad
+moving images of writhing tormented creatures and your gaze is locked on
+them. Your sanity is draining away!! If you don't act quickly your soul will
+be captured by the wall.
+A black sphere follows you
+What next?
+CLOSE EYES
+A black sphere follows you
+What next?
+N 
+You cannot see
+The black spheres destroy each other
+What next?
+OPEN EYES 
+You are in a dead-end dark room.
+A wooden shield is propped against a wall
+A diamond is here
+What next?
+TAKE DIAMOND
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+A short bow is here
+There is a piece of driftwood here
+A sliver of rancid fried potato is stuck to the floor
+An ethnic carving lies nearby
+An antique chair is here
+A securely-fastened treasure chest is here
+An assortment of coins is here
+A large jade egg is here
+A pair of lapis lazuli stand nearby
+A jewelled needle is on the ground
+A small onyx oryx stands on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+There is a star pendant here
+There is a sun medallion here
+A costly trident rusts nearby
+A small cube of metal rests on the ground
+Some rare spices are here
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A battered silver face lies on the ground
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP TOPAZ
+What next?
+DROP DIAMOND
+What next?
+DROP OPAL
+What next?
+DROP RHINESTONE
+What next?
+DROP EMERALD
+What next?
+DROP PEARL
+What next?
+DROP SAPPHIRE
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in a dead-end dark room.
+A wooden shield is propped against a wall
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+TAKE SHIELD
+What next?
+S
+You are on a wide spiral ramp which descends clockwise round an immense pit.
+A small dark tunnel leads north. But these are matters of little
+significance for the north wall of the tunnel is covered with a miriad
+moving images of writhing tormented creatures and your gaze is locked on
+them. Your sanity is draining away!! If you don't act quickly your soul will
+be captured by the wall.
+What next?
+CLOSE EYES
+What next?
+D
+You cannot see
+What next?
+D
+You cannot see
+What next?
+D
+You cannot see
+What next?
+E 
+You cannot see
+What next?
+OPEN EYES
+You are in a dead-end dark room, below a black pedastal.
+A wooden wedge lies nearby
+What next?
+W
+You are on the ramp, outside a dark doorway.
+What next?
+U
+You are on the ramp, beside a doorway with small holes up one edge.
+What next?
+E 
+Spikes shoot from the wall but bounce off your shield
+You are in a dead end, below a gallows tree from which a bloodless corpse
+hangs by one foot.
+What next?
+EXAMINE CORPSE 
+You find:
+a leather blindfold
+a leather gauntlet
+What next?
+TAKE BLINDFOLD
+What next?
+TAKE GAUNTLET
+What next?
+OUT
+You are on the ramp, beside a doorway with small holes up one edge.
+What next?
+U
+You are on the ramp which descends clockwise around the edges of a very deep
+pit. To the east is an opening into a red-gold room.
+What next?
+E 
+You are in a circular room of red-gold metal.
+Gold rings cover the floor.
+A gold rings rolls on the ground
+What next?
+WEAR GAUNTLET 
+What next?
+TAKE RING
+What next?
+OUT
+You are on the ramp which descends clockwise around the edges of a very deep
+pit. To the east is an opening into a red-gold room.
+What next?
+D
+You are on the ramp, beside a doorway with small holes up one edge.
+What next?
+D
+You are on the ramp, outside a dark doorway.
+What next?
+IN
+You are in a dead-end dark room, below a black pedastal.
+A wooden wedge lies nearby
+What next?
+TAKE WEDGE 
+What next?
+OUT
+You are on the ramp, outside a dark doorway.
+What next?
+D
+You are on a loose section of the ramp.
+You can hear a boulder rolling down from above
+What next?
+D
+You are on the ramp, outside a round opening.
+You can hear a boulder rolling down from above
+What next?
+IN 
+You're safe when the boulder passes
+You are on the brink of a deep, dark pit.
+Sounds of a bounding boulder echo up from below
+What next?
+OUT
+You are on the ramp, outside a round opening.
+Sounds of a bounding boulder echo up from below
+What next?
+D
+You are on a wobbly section of the ramp.
+Sounds of a bounding boulder echo up from below
+What next?
+D
+You are on the ramp, outside a long room with scratches on floor and
+ceiling.
+What next?
+IN 
+You are in the east crusher room beside an opening back to the ramp.
+Iron bars slam down to block your escape
+What next?
+DROP WEDGE
+The walls at the far end clash together
+What next?
+W 
+You can't move in that direction
+The walls near you grind together but they're wedged!
+What next?
+W 
+You can't move in that direction
+The bars lift
+What next?
+W 
+You are in the west crusher room beside a door into a treasure chamber.
+What next?
+W 
+You are in a treasure chamber.
+An agate is here
+What next?
+TAKE AGATE
+What next?
+E
+You are in the west crusher room beside a door into a treasure chamber.
+What next?
+E
+You are in the east crusher room beside an opening back to the ramp.
+A wooden wedge lies nearby
+What next?
+E 
+You are on the ramp, outside a long room with scratches on floor and
+ceiling.
+What next?
+D 
+You are on the ramp. A hand sign points into a narrow opening.
+What next?
+THROW RING INTO OPENING 
+The ring lands in the hand room. You hear a struggle, then silence
+What next?
+IN 
+You are in a small soft room between five large round fleshy pillars.
+A ruby is here
+What next?
+TAKE RUBY
+What next?
+OUT
+You are on the ramp. A hand sign points into a narrow opening.
+What next?
+D 
+You are on the ramp, outside a narrow doorway from which drifts a sharp,
+acrid smell.
+What next?
+WEAR BLINDFOLD
+What next?
+IN 
+Acid sprays at your eyes but only destroys the blindfold
+You are in a dusty room, entered from the west and with a long shelf along
+the east wall.
+An elephant brooch stands nearby
+What next?
+TAKE BROOCH 
+What next?
+OUT
+You are on the ramp, outside a narrow doorway from which drifts a sharp,
+acrid smell.
+What next?
+D
+You are on the ramp, outside a rubbery doorway.
+What next?
+D
+You are pn the ramp, outside a square doorway.
+What next?
+D
+You are on the ramp, outside an opening to a pale room.
+What next?
+IN 
+You are in the condemned cell. The only way out is to go west.
+A hooded executioner blocks the only exit
+An amethyst is here
+What next?
+THROW BROOCH 
+The elephant tries to grow to full size but there's no room. It implodes.
+The executioner has been flattened
+What next?
+TAKE AMETHYST
+What next?
+W 
+You are in the guard room. An exit leads north.
+A black hood with eye-holes lies nearby
+What next?
+TAKE HOOD 
+What next?
+N
+You are on the ramp, outside an opening to a pale room.
+What next?
+D
+You are on the ramp, outside an evil dark entrance.
+What next?
+D
+You are on the ramp. A ladder slopes southwards to a lower part of the ramp.
+What next?
+S 
+You are standing in shallow water at the foot of the ramp. A ladder slopes
+northwards to a higher part of the ramp.
+A small ornate box lies nearby
+What next?
+U
+You are on a massive spiral ramp which twists down into dark waters and up
+into the gloom above. Sea-spray wafts from a nearby doorway.
+What next?
+U
+You are on the ramp.
+What next?
+U
+You are on the ramp, outside a doorway.
+What next?
+U 
+You are on the ramp. A doorway bears the following message: "To escape the
+dungeon, collect 9 gems and go through this door. Leaving without the gems
+will cause your death". Clearly you must be in the central dungeon of the
+Demon Lord!.
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+A short bow is here
+There is a piece of driftwood here
+A sliver of rancid fried potato is stuck to the floor
+An ethnic carving lies nearby
+An antique chair is here
+A securely-fastened treasure chest is here
+An assortment of coins is here
+A large jade egg is here
+A pair of lapis lazuli stand nearby
+A jewelled needle is on the ground
+A small onyx oryx stands on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+There is a star pendant here
+There is a sun medallion here
+A costly trident rusts nearby
+A diamond is here
+An emerald is here
+An opal is here
+A pearl is here
+A large valuable rhinestone is here
+A sapphire is here
+A topaz is here
+A small cube of metal rests on the ground
+Some rare spices are here
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A battered silver face lies on the ground
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A set of dragon's teeth lies on the ground
+What next?
+DROP HORN
+What next?
+DROP SHIELD
+What next?
+DROP HOOD
+What next?
+DROP GAUNTLET
+What next?
+TAKE SAPPHIRE
+What next?
+TAKE EMERALD
+What next?
+TAKE OPAL
+What next?
+TAKE DIAMOND
+What next?
+TAKE PEARL
+What next?
+TAKE TOPAZ 
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are on the ramp. A doorway bears the following message: "To escape the
+dungeon, collect 9 gems and go through this door. Leaving without the gems
+will cause your death". Clearly you must be in the central dungeon of the
+Demon Lord!.
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+IN 
+You are in the "Exit" chamber. You seem to have survived the Central
+Dungeon! There is only one way out....
+What next?
+DROP CASE
+What next?
+IN
+You are inside a large wooden box. A small door leads deeper into the box.
+What next?
+IN
+You are on the ceiling of a fine room. A chandelier lies beside you and the
+floor of the room is far above.
+What next?
+TAKE CHANDELIER
+The room inverts!
+You are on the carpetted floor of a comfortable homely room, beside a door
+to the east..
+What next?
+E
+You are in a large store room. You realise that this is the ideal place to
+leave any treasures that you find, so as to get full points for them. Doors
+lead west and to the outside. A machine resembling a six-foot cube with a
+single red button sits in one corner.
+A long-handelled axe lies nearby
+A short bow is here
+There is a piece of driftwood here
+A gauntlet lies on the floor
+A sliver of rancid fried potato is stuck to the floor
+A wooden shield is propped against a wall
+An ethnic carving lies nearby
+An antique chair is here
+A securely-fastened treasure chest is here
+An assortment of coins is here
+A large jade egg is here
+A pair of lapis lazuli stand nearby
+A jewelled needle is on the ground
+A small onyx oryx stands on the ground
+A lump of valuable ore lies nearby
+A large rock crystal is here
+There is a star pendant here
+There is a sun medallion here
+A costly trident rusts nearby
+A large valuable rhinestone is here
+A small cube of metal rests on the ground
+Some rare spices are here
+A hollow stick is on the ground
+A golden four-poster bed almost fills the room
+A wooden cross lies nearby
+A small jewelled crucifix rests nearby
+A large horn lies on the ground
+A battered silver face lies on the ground
+A silver mirror lies nearby
+A cute little octopus figurine stands nearby
+A staff of polished bone is here
+A magic wand is here
+A dice rests on the ground
+A black hood with eye-holes lies nearby
+A set of dragon's teeth lies on the ground
+What next?
+DROP PEARL
+What next?
+DROP OPAL
+What next?
+DROP SAPPHIRE
+What next?
+DROP EMERALD
+What next?
+DROP AGATE
+What next?
+DROP AMETHYST
+What next?
+DROP DIAMOND
+What next?
+DROP RUBY
+What next?
+DROP TOPAZ
+What next?
+TAKE CRUCIFIX
+What next?
+TAKE CROSS
+What next?
+TAKE TEETH
+What next?
+TAKE HORN
+What next?
+PRESS BUTTON
+A yellow light scans your body and a copy flickers in the machine
+What next?
+OUT
+You are in the "Exit" chamber. You seem to have survived the Central
+Dungeon! There is only one way out....
+A huge packing case, open at one end, rests on the ground
+What next?
+TAKE CASE
+What next?
+E 
+You force the wights back
+You are in the middle of the wight house, below a blue pedestal.
+Several wights are trying to get at you
+What next?
+U 
+You are standing on a small round platform surrounded by a cylinder of blue
+light.
+What next?
+SAY RED 
+You are standing on a small round platform surrounded by a cylinder of red
+light.
+What next?
+D
+You are in a cylindrical room with eight exits, hewn from the rock. A pride
+of lions is carved over the north door.
+What next?
+S
+You are in a north-south passage. A dry red stain spreads from beneath a
+fallen stone.
+What next?
+S
+You are at a junction in the round, north-south passage, illuminated by a
+jet of flame from the floor.
+To the east is a treasure vault, completely filled with valuables of every
+kind.
+What next?
+S
+You are in a smooth, round north-south passage. A flickering light is
+visible to the north.
+What next?
+S
+You are in a gloomy cavern, between rows of jagged, pointed stalagmites. A
+fetid odour drifts from a wide round passage to the north.
+What next?
+S
+You are on a wide stone bridge which stretches north-south across the placid
+waters of a huge river. At the north end, the bridge enters a gaping stone
+mouth in the cliff.
+What next?
+S 
+You are on an east-west road south of the river. A gigantic orc's head is
+carved into the cliff north of the river, its tongue forming a bridge over
+the waters to you. A ruined tower stands on top of the cliff.
+An army of orcs is camped all around
+What next?
+BLOW HORN 
+The sound reverberates from the hills and the orcs flee!
+You are on an east-west road south of the river. A gigantic orc's head is
+carved into the cliff north of the river, its tongue forming a bridge over
+the waters to you. A ruined tower stands on top of the cliff.
+What next?
+E
+You are on an east-west road beside the river and north of a flat grassy
+plain. A line of stepping stones leads to a small island in the water.
+What next?
+E
+You are on an east-west road through the forest.
+What next?
+E
+You are on an east-west road through the forest.
+What next?
+E 
+A hollow voice intones: "This is your referee speaking. If you continue on
+this road you will return safe to civilisation and the game will end. Are
+you sure that you want to?"
+YES
+Your score is 600 out of 600.
+All hail to thee, Grandmaster Adventurer!!
+Another game?
+
+Game Terminated

@@ -1,0 +1,1576 @@
+Welcome to the Saga of Erik the Viking from Level 9 Computing.
+What now? 
+Playing back input from script file.
+#SEED 42
+D 
+Erik is on a path. Exits are west to a cart-track and up to the
+mountainside.
+What now? W
+Erik is on a cart-track. Exits are north to a barn, east to a path, south to
+a barn and west to the farmyard.
+No one is here. Erik's family have been kidnapped!
+What now? S
+Erik is in a barn. The only exit is north to a cart-track.
+Erik can see kindling and a whetstone.
+What now? GET KINDLING
+What now? GET WHETSTONE 
+What now? N
+Erik is on a cart-track. Exits are north to a barn, east to a path, south to
+a barn and west to the farmyard.
+No one is here. Erik's family have been kidnapped!
+What now? W
+Erik is on the farmyard. Exits are north to the farmyard, east to a
+cart-track and west to the farmyard.
+What now? N
+Erik is on the farmyard. Exits are north to the ice house, south to the
+farmyard and west to the farmyard.
+What now? W
+Erik is on the farmyard. Exits are north to the smithy, east to the
+farmyard, south to the farmyard and west to the kitchen.
+What now? N
+Erik is in the smithy. Exits are north to a grassy hill and south to the
+farmyard.
+Erik can see a hammer, nails and scales.
+What now? GET HAMMER
+What now? S
+Erik is on the farmyard. Exits are north to the smithy, east to the
+farmyard, south to the farmyard and west to the kitchen.
+What now? W
+Erik is in the kitchen. Exits are east to the farmyard and south to the
+great hall.
+Erik can see a black stewpot of stew.
+What now? S
+Erik is in the great hall. Exits are north to the kitchen, east to the
+middle of a platform and south to an entrance hall.
+Everything smells of wolves
+What now? E
+Erik is in the middle of a platform. Exits are west to the great hall and
+down to furs on a bench.
+Erik can see trestle tables and assorted rushes.
+What now? BREAK TABLE 
+Crunch!
+What now? GET PLANK
+What now? EXAMINE RUSHES
+Erik finds Blueblade.
+What now? GET BLUEBLADE
+What now? D
+Erik is in furs on a bench. The only exit is up to the middle of a platform.
+Erik can see bedding.
+What now? EXAMINE BEDDING
+Erik finds a horn.
+What now? GET HORN
+What now? BLOW IT 
+Toot! Erik's friends run to the boathouse from their farms
+What now? DROP IT
+What now? U
+Erik is in the middle of a platform. Exits are west to the great hall and
+down to furs on a bench.
+Erik can see assorted rushes.
+What now? W
+Erik is in the great hall. Exits are north to the kitchen, east to the
+middle of a platform and south to an entrance hall.
+What now? N
+Erik is in the kitchen. Exits are east to the farmyard and south to the
+great hall.
+Erik can see a black stewpot of stew.
+What now? GET STEWPOT
+What now? E
+Erik is on the farmyard. Exits are north to the smithy, east to the
+farmyard, south to the farmyard and west to the kitchen.
+What now? N
+Erik is in the smithy. Exits are north to a grassy hill and south to the
+farmyard.
+Erik can see nails and scales.
+What now? DROP KINDLING
+What now? GET NAILS
+What now? N
+Erik is on a grassy hill. Exits are south to the smithy and west to the
+shore.
+What now? W
+Erik is on the shore. Exits are northeast to the boat house, east to a
+grassy hill, south to the beach, west to the sea and up to a crag.
+What now? NE
+Erik is in the boat house. The only exit is southwest to the shore.
+Erik can see the good ship Golden Dragon, Gunnar Longshanks, Ragnar
+Forkbeard, Sven the Strong and Blind Thorkhild.
+Gunnar Longshanks says 'Hurry up'.
+What now? PULL BOAT 
+Erik pulls the boat and, with help from Sven the Strong, gets it to the sea
+Erik is on the shore. Exits are east to a grassy hill, south to the beach,
+west to the sea, up to a crag and in to the deck.
+Erik can see the good ship Golden Dragon, Gunnar Longshanks, Ragnar
+Forkbeard, Sven the Strong and Blind Thorkhild.
+Ragnar Forkbeard munches buttered fish.
+What now? IN
+Golden Dragon is on the shore. Exits are east to a grassy hill, south to the
+beach, west to the sea and up to a crag.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see skates, a medallion and a leak.
+What now? MEND LEAK 
+The ship is mended
+What now? DROP HAMMER
+What now? DROP BLUEBLADE
+What now? DROP STEWPOT
+What now? U
+Golden Dragon is on the shore. Exits are east to a grassy hill, south to the
+beach, west to the sea and up to a crag.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Blind Thorkhild looks worried.
+What now? OUT
+Erik is on the shore. Exits are east to a grassy hill, south to the beach,
+west to the sea, up to a crag and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? E
+Erik is on a grassy hill. Exits are south to the smithy and west to the
+shore.
+What now? S
+Erik is in the smithy. Exits are north to a grassy hill and south to the
+farmyard.
+Erik can see kindling and scales.
+What now? GET KINDLING
+What now? GET SCALES
+What now? N
+Erik is on a grassy hill. Exits are south to the smithy and west to the
+shore.
+What now? W
+Erik is on the shore. Exits are east to a grassy hill, south to the beach,
+west to the sea, up to a crag and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on the shore. Exits are east to a grassy hill, south to the
+beach, west to the sea and up to a crag.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a hammer, skates, Blueblade, a medallion and a black stewpot of
+stew.
+What now? DROP SCALES
+What now? GET SKATES
+What now? U
+Golden Dragon is on the shore. Exits are east to a grassy hill, south to the
+beach, west to the sea and up to a crag.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Gunnar Longshanks carves some wood.
+What now? W 
+Golden Dragon is on the sea. Exits are north to the sea, east to the shore,
+south to fjords and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard sharpens his sword.
+What now? W
+Golden Dragon is on the sea. Exits are north to a deep fjord, east to the
+sea, south to the sea and west to the sea.
+Erik is on the deck. 
+Sven the Strong sings of gold.
+What now? N
+Golden Dragon is on a deep fjord. Exits are south to the sea and west to the
+shore.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the shore. Exits are east to a deep fjord and west to
+the forest.
+Erik can see driftwood and the good ship Golden Dragon.
+Erik is on the deck. 
+What now? OUT 
+Erik is on the shore. Exits are east to a deep fjord, west to the forest and
+in to the deck.
+Erik can see driftwood and the good ship Golden Dragon.
+What now? GET DRIFTWOOD
+What now? W
+Erik is in the forest. Exits are north to the forest, east to the shore,
+south to the wild wood and west to the wild wood.
+What now? N
+Erik is in the forest. Exits are north to dense forest, east to the shore,
+south to the forest and west to dense forest.
+What now? N
+Erik is in dense forest. Exits are north to a ledge and south to the wild
+wood.
+What now? N
+Erik is on a ledge. Exits are north to a rock platform and south to dense
+forest.
+What now? N
+Erik is on a rock platform. Exits are south to a ledge and in to a dark
+cave.
+What now? IN
+Erik is in a dark cave. Exits are west through an open door to a red room
+and out to a rock platform.
+'Come into my parlour', murmurs a low voice, 'I will not harm you'
+What now? W
+Erik is in a red room. Exits are east through an open door to a dark cave
+and down to a straw bed.
+Erik can see a chalice and the sly Enchantress.
+'Close the door'
+What now? CLOSE DOOR
+It closes
+'Take the chalice'
+What now? GET CHALICE
+'Now drink it!'
+What now? THROW IT 
+Erik throws the chalice, melting the evil Enchantress into smoke
+What now? GET MIRROR
+What now? OPEN DOOR
+It opens
+What now? E
+Erik is in a dark cave. Exits are west through an open door to a red room
+and out to a rock platform.
+What now? OUT
+Erik is on a rock platform. Exits are south to a ledge and in to a dark
+cave.
+What now? S
+Erik is on a ledge. Exits are north to a rock platform and south to dense
+forest.
+What now? S
+Erik is in dense forest. Exits are north to a ledge and south to the wild
+wood.
+What now? S
+Erik is in the wild wood. Exits are north to dense forest, east to the
+forest, south to dense forest and west to dense forest.
+What now? E
+Erik is in the forest. Exits are north to the forest, east to the shore,
+south to the wild wood and west to the wild wood.
+What now? E
+Erik is on the shore. Exits are east to a deep fjord, west to the forest and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN 
+Golden Dragon is on the shore. Exits are east to a deep fjord and west to
+the forest.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Ragnar Forkbeard tells sagas.
+What now? E
+Golden Dragon is on a deep fjord. Exits are south to the sea and west to the
+shore.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to a deep fjord, east to the
+sea, south to the sea and west to the sea.
+Erik is on the deck. 
+Blind Thorkhild tugs on the sail.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to jagged
+rocks, south to fjords and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to a deep
+fjord, south to the sea and west to the sea.
+Erik is on the deck. 
+Sven the Strong mutters darkly.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Blind Thorkhild says 'Hurry up'.
+What now? N
+Golden Dragon is on an iceberg ledge. Exits are north to an ice-cave and
+south to the sea.
+Erik can see the good ship Golden Dragon and icicles blocking the way north.
+Erik is on the deck. 
+What now? OUT 
+Erik is on an iceberg ledge. Exits are north to an ice-cave, south to the
+sea and in to the deck.
+Erik can see the good ship Golden Dragon and icicles blocking the way north.
+What now? LIGHT DRIFTWOOD 
+Erik makes a fire which melts the icicles
+What now? N
+Erik is in an ice-cave. Exits are north to a cold tunnel and south to an
+iceberg ledge.
+What now? N
+Erik is in a cold tunnel. Exits are north to a frost cavern and south to an
+ice-cave.
+What now? N
+Erik is in a frost cavern. Exits are north to an ice passage, east to a huge
+hall and south to a cold tunnel.
+What now? N
+Erik is in an ice passage. Exits are south to a frost cavern and west to a
+giant bedroom.
+What now? W
+Erik is in a giant bedroom. Exits are east to an ice passage and down to a
+cold cellar.
+What now? D
+Erik is in a cold cellar. The only exit is up to a giant bedroom.
+Erik can see a plug.
+What now? GET PLUG 
+Water pours in, pushing Erik back
+Erik is in a giant bedroom. Exits are east to an ice passage and down to a
+cold cellar.
+What now? E
+Erik is in an ice passage. Exits are south to a frost cavern and west to a
+giant bedroom.
+What now? S
+Erik is in a frost cavern. Exits are north to an ice passage, east to a huge
+hall and south to a cold tunnel.
+What now? S
+Erik is in a cold tunnel. Exits are north to a frost cavern and south to an
+ice-cave.
+What now? S
+Erik is in an ice-cave. Exits are north to a cold tunnel and south to an
+iceberg ledge.
+What now? S
+Erik is on an iceberg ledge. Exits are north to an ice-cave, south to the
+sea and in to the deck.
+Erik can see a bonfire and the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on an iceberg ledge. Exits are north to an ice-cave and
+south to the sea.
+Erik can see a bonfire and the good ship Golden Dragon.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a hammer, scales, Blueblade, a medallion and a black stewpot of
+stew.
+What now? DROP MIRROR
+What now? DROP KINDLING
+What now? DROP WHETSTONE
+What now? DROP SKATES
+What now? DROP PLUG
+What now? U
+Golden Dragon is on an iceberg ledge. Exits are north to an ice-cave and
+south to the sea.
+Erik can see a bonfire and the good ship Golden Dragon.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Ragnar Forkbeard munches buttered fish.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to a barren
+island, south to a deep fjord and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on a deep fjord. Exits are south to the sea and west to the
+shore.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to a barren
+island, south to a deep fjord and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks looks worried.
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Sven the Strong carves some wood.
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Blind Thorkhild sharpens his sword.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to a rocky shore.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to a grassy isle.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to a gravel
+beach, south to slimy rocks and west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Blind Thorkhild tells sagas.
+What now? S
+Golden Dragon is on slimy rocks. Exits are east to the byre of a croft,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? OUT 
+Erik is on slimy rocks. Exits are east to the byre of a croft, south to the
+sea, west to the sea and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? E
+Erik is in the byre of a croft. Exits are east to a stone room and west to
+slimy rocks.
+Erik can see a haystack.
+What now? EXAMINE HAY
+Erik finds a needle.
+What now? GET NEEDLE
+What now? E
+Erik is in a stone room. Exits are west to the byre of a croft and up to the
+loft.
+Erik can see tools.
+What now? EXAMINE TOOLS
+Erik finds clippers.
+Erik finds a spade.
+What now? GET SPADE
+What now? GET CLIPPERS
+What now? W
+Erik is in the byre of a croft. Exits are east to a stone room and west to
+slimy rocks.
+Erik can see a haystack.
+What now? W
+Erik is on slimy rocks. Exits are east to the byre of a croft, south to the
+sea, west to the sea and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on slimy rocks. Exits are east to the byre of a croft,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Gunnar Longshanks tugs on the sail.
+What now? MEND SAIL 
+Golden Dragon is on slimy rocks. Exits are east to the byre of a croft,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to a gravel
+beach, south to slimy rocks and west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are east to the sea, south to the sea and
+west to the sea.
+Erik is on the deck. 
+Blind Thorkhild mutters darkly.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to slimy
+rocks, south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to cliffs and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks says 'Hurry up'.
+What now? E
+Golden Dragon is on the sea. Exits are north to slimy rocks, east to the
+sea, south to a loch and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard munches buttered fish.
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to jagged
+rocks, south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to jagged rocks, east to the
+sea, south to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks looks worried.
+What now? E
+Golden Dragon is on the sea. Exits are north to fjords, east to a shady
+cove, south to farmland and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on a shady cove. Exits are east to the right track and west
+to the sea.
+Erik is on the deck. 
+Sven the Strong carves some wood.
+What now? OUT 
+Erik is on a shady cove. Exits are east to the right track, west to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? E
+Erik is on the right track. Exits are east to the path to a stave church and
+west to a shady cove.
+What now? E
+Erik is on the path to a stave church. Exits are south to the right track
+and in to a door.
+Erik can see a tombstone.
+What now? KNEEL
+What now? PRAY 
+'I hear you, son of Odin, and will open the door.'
+It opens
+What now? IN
+The door closes
+Erik is in the church. Exits are east to the chancel and out to a door.
+What now? E
+Erik is in the chancel. The only exit is west to the church.
+Erik can see a bell, a candle and a book.
+What now? GET BELL
+What now? GET CANDLE
+What now? GET BOOK
+What now? W
+Erik is in the church. Exits are east to the chancel and out to a door.
+What now? OPEN DOOR
+It opens
+What now? OUT
+The door closes
+Erik is on the path to a stave church. Exits are south to the right track
+and in to a door.
+Erik can see a tombstone.
+What now? S
+Erik is on the right track. Exits are east to the path to a stave church and
+west to a shady cove.
+What now? W
+Erik is on a shady cove. Exits are east to the right track, west to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on a shady cove. Exits are east to the right track and west
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a plug, a hammer, kindling, scales, skates, a whetstone, a
+mirror, Blueblade, a medallion and a black stewpot of stew.
+What now? DROP BOOK
+What now? DROP NEEDLE
+What now? DROP CLIPPERS
+What now? DROP SPADE
+What now? DROP CANDLE
+What now? DROP BELL
+What now? U
+Golden Dragon is on a shady cove. Exits are east to the right track and west
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? W
+Golden Dragon is on the sea. Exits are north to fjords, east to a shady
+cove, south to farmland and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to jagged rocks, east to the
+sea, south to the sea and west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Blind Thorkhild tells sagas.
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to a loch.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard tugs on the sail.
+What now? W
+Golden Dragon is on the sea. Exits are north to slimy rocks, east to the
+sea, south to a loch and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to cliffs and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to cliffs,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks mutters darkly.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, south to fjords,
+southeast to the sea and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard says 'Hurry up'.
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Sven the Strong munches buttered fish.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to a stone quay, southeast to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik can see the good ship Golden Dragon and the Spell Hound.
+Erik is on the deck. 
+What now? OUT 
+Erik is on a stone quay. Exits are north to a golden road, east to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon and the Spell Hound.
+What now? N
+Erik is on a golden road. Exits are north to marble slabs and south to a
+stone quay.
+Erik can see the Spell Hound.
+What now? N
+Erik is on marble slabs. Exits are north to the long gallery and south to a
+golden road.
+Erik can see the Spell Hound.
+What now? N
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+Erik can see the Spell Hound.
+What now? N 
+Erik is in a throne room. Exits are north to the throne and south to the
+long gallery.
+Erik can see an oak chest and the Spell Hound.
+A powerful voice booms out: 'Beware, Viking scum, I am Al Kwasarmi, the
+great invisible wizard!'
+What now? OPEN CHEST
+The Spell Hound growls. Are you sure? YES 
+A little round man with a megaphone is hiding in the chest. Can this really
+be Al Kwasarmi?
+He mumbles embarrassedly, 'Ahem, well, I'm not really a great wizard but
+maybe I can make up for tricking you. Bring me: the sound of a cat moving, a
+woman's beard, the roots of a mountain, the sinews of a bear, the breath of
+a fish and a bird's spittle and I'll see what I can do'. He tips some things
+onto the floor.
+What now? GET SPITTOON
+What now? GET FLASK
+What now? GET JAR
+What now? S
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+What now? S
+Erik is on marble slabs. Exits are north to the long gallery and south to a
+golden road.
+What now? S
+Erik is on a golden road. Exits are north to marble slabs and south to a
+stone quay.
+What now? S
+Erik is on a stone quay. Exits are north to a golden road, east to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Blind Thorkhild looks worried.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle, a plug, clippers, a hammer, kindling, a
+needle, scales, skates, a spade, a whetstone, a mirror, Blueblade, a book, a
+medallion and a black stewpot of stew.
+What now? DROP FLASK
+What now? DROP JAR
+What now? GET STEWPOT
+What now? U
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to a stone quay, southeast to the sea and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks sharpens his sword.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard sings of gold.
+What now? N
+Golden Dragon is on the sea. It's misty
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to hot rock, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are east to the sea, south to the sea and
+west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Ragnar Forkbeard tells sagas.
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to a gravel
+beach, south to slimy rocks and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on a gravel beach. Exits are south to the sea and up to
+steep rocks.
+Erik is on the deck. 
+Blind Thorkhild tugs on the sail.
+What now? OUT 
+Erik is on a gravel beach. Exits are south to the sea, up to steep rocks and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? EMPTY STEWPOT 
+Stew splashes out.
+Erik finds his helmet.
+What now? DROP STEWPOT
+What now? GET MUTTON
+What now? U
+Erik is on steep rocks. Exits are up to a cliff ledge and down to a gravel
+beach.
+What now? U
+Erik is on a cliff ledge. Exits are up to a ledge and down to steep rocks.
+What now? U 
+Erik is on a ledge. The only exit is down to a cliff ledge.
+Erik can see a bent stick, a silver bracelet, a monument, an untidy nest and
+an eagle.
+The eagle claws at Erik
+What now? LOOK
+Erik is on a ledge. The only exit is down to a cliff ledge.
+Erik can see a bent stick, a silver bracelet, a monument, an untidy nest and
+an eagle.
+The eagle pecks at Erik
+What now? LOOK
+Erik is on a ledge. The only exit is down to a cliff ledge.
+Erik can see a bent stick, a silver bracelet, a monument, an untidy nest and
+an eagle.
+The eagle spits into the spittoon
+What now? GIVE MUTTON
+The eagle looks much happier
+What now? GET BRACELET
+What now? GET STICK
+What now? D
+Erik is on a cliff ledge. Exits are up to a ledge and down to steep rocks.
+What now? D
+Erik is on steep rocks. Exits are up to a cliff ledge and down to a gravel
+beach.
+What now? D
+Erik is on a gravel beach. Exits are south to the sea, up to steep rocks and
+in to the deck.
+Erik can see his helmet, bear sinews, a black stewpot and the good ship
+Golden Dragon.
+What now? GET SINEWS
+What now? GET HELMET
+What now? WEAR IT
+What now? IN
+Golden Dragon is on a gravel beach. Exits are south to the sea and up to
+steep rocks.
+Erik can see a black stewpot and the good ship Golden Dragon.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Sven the Strong mutters darkly.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle, a plug, clippers, a hammer, kindling, a
+needle, scales, skates, a spade, a whetstone, a mirror, a flask, a jar,
+Blueblade, a book and a medallion.
+What now? DROP SINEWS
+What now? DROP SPITTOON
+What now? DROP BRACELET
+What now? GET JAR
+What now? U
+Golden Dragon is on a gravel beach. Exits are south to the sea and up to
+steep rocks.
+Erik can see a black stewpot and the good ship Golden Dragon.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+Blind Thorkhild says 'Hurry up'.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to a gravel
+beach, south to slimy rocks and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are east to the sea, south to the sea and
+west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Gunnar Longshanks munches buttered fish.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to slimy
+rocks, south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to cliffs and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to slimy rocks, east to the
+sea, south to a loch and west to the sea.
+Erik is on the deck. 
+Blind Thorkhild looks worried.
+What now? S
+Golden Dragon is on a loch. Exits are north to the sea and south to the
+shore.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the shore. Exits are north to a loch and east to a
+grassy bank.
+Erik is on the deck. 
+What now? OUT 
+Erik is on the shore. Exits are north to a loch, east to a grassy bank and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? E
+Erik is on a grassy bank. Exits are west to the shore and in to a tower
+entrance.
+Erik can see a silver amulet on a ledge and a pool.
+What now? THROW STICK 
+It flies in a circle and hooks the amulet
+What now? DROP STICK
+What now? GET AMULET
+What now? FILL JAR 
+What now? IN
+Erik is in a tower entrance. Exits are up to a staircase and out to a grassy
+bank.
+What now? U
+Erik is in a staircase. Exits are up to the tower room and down to a tower
+entrance.
+What now? U
+Erik is in the tower room. The only exit is down to a staircase.
+Erik can see a ring.
+What now? GET RING
+What now? D
+Erik is in a staircase. Exits are up to the tower room and down to a tower
+entrance.
+What now? D
+Erik is in a tower entrance. Exits are up to a staircase and out to a grassy
+bank.
+What now? OUT
+Erik is on a grassy bank. Exits are west to the shore and in to a tower
+entrance.
+Erik can see a bent stick and a pool.
+What now? W
+Erik is on the shore. Exits are north to a loch, east to a grassy bank and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on the shore. Exits are north to a loch and east to a
+grassy bank.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle, a plug, clippers, a hammer, kindling, a
+needle, scales, skates, a spade, a whetstone, a mirror, a flask, bear
+sinews, a spittoon of bird spittle, Blueblade, a book, a silver bracelet and
+a medallion.
+What now? DROP RING
+What now? DROP JAR
+What now? GET SCALES
+What now? GET BRACELET
+What now? GET WHETSTONE
+What now? GET CANDLE
+What now? LIGHT CANDLE
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a plug, clippers, a hammer, kindling, a needle, skates,
+a spade, a mirror, a ring, a flask, a jar of mineral water, bear sinews, a
+spittoon of bird spittle, Blueblade, a book and a medallion.
+What now? DROP WHETSTONE
+What now? GET CLIPPERS
+What now? U
+Golden Dragon is on the shore. Exits are north to a loch and east to a
+grassy bank.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? N
+Golden Dragon is on a loch. Exits are north to the sea and south to the
+shore.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Sven the Strong tells sagas.
+What now? N
+Golden Dragon is on the sea. Exits are north to slimy rocks, east to the
+sea, south to a loch and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to a loch.
+Erik is on the deck. 
+Gunnar Longshanks tugs on the sail.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to jagged rocks.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to Jorvik wharf.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on Jorvik wharf. Exits are north to a junction and east to
+the sea.
+Erik is on the deck. 
+Blind Thorkhild mutters darkly.
+What now? OUT 
+Erik is on Jorvik wharf. Exits are north to a junction, east to the sea and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? N
+Erik is on a junction. Exits are north to a street, east to grass beside a
+Viking loo, south to Jorvik wharf and west to the road to a warehouse.
+What now? N
+Erik is on a street. Exits are north to a street, east to the garden path
+and south to a junction.
+What now? E
+Erik is on the garden path. Exits are north to a house, south to a street
+and west to a smelly pig-sty.
+What now? N
+Erik is in a house. The only exit is south to the garden path.
+Erik can see a tabby cat.
+What now? GET CAT 
+Guards stop Erik. Thay want 2 ounces of silver for the cat
+Erik is in a house. The only exit is south to the garden path.
+Erik can see a tabby cat and Norse Guards.
+What now? GIVE BRACELET
+'That's never 2 ounces!'
+What now? WEIGH BRACELET 
+2 ounces of silver
+What now? GIVE IT
+OK. The cat's yours
+What now? GET CAT
+What now? DROP SCALES
+What now? S
+Erik is on the garden path. Exits are north to a house, south to a street
+and west to a smelly pig-sty.
+What now? S
+Erik is on a street. Exits are north to a street, east to the garden path
+and south to a junction.
+What now? S
+Erik is on a junction. Exits are north to a street, east to grass beside a
+Viking loo, south to Jorvik wharf and west to the road to a warehouse.
+What now? S
+Erik is on Jorvik wharf. Exits are north to a junction, east to the sea and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on Jorvik wharf. Exits are north to a junction and east to
+the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to Jorvik wharf.
+Erik is on the deck. 
+Gunnar Longshanks says 'Hurry up'.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to jagged rocks.
+Erik is on the deck. 
+Ragnar Forkbeard munches buttered fish.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to a loch.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to slimy rocks, east to the
+sea, south to a loch and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to cliffs and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks looks worried.
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. It's misty
+Erik is on the deck. 
+Sven the Strong carves some wood.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Blind Thorkhild sharpens his sword.
+What now? N
+Golden Dragon is on the sea. Exits are north to hot rock, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on hot rock. Exits are east to congealed lava and south to
+the sea.
+Erik is on the deck. 
+What now? DROP CAT 
+What now? OUT
+Erik is on hot rock. Exits are east to congealed lava, south to the sea and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? E
+Erik is on congealed lava. Exits are west to hot rock and northwest to
+smoking rocks.
+What now? NW
+Erik is on smoking rocks. Exits are east to stinking tar and southeast to
+congealed lava.
+What now? E
+Erik is on stinking tar. Exits are southeast to cancerous rock and west to
+smoking rocks.
+What now? SE 
+The ground collapses behind Erik
+Erik is on cancerous rock. The only exit is north to rocks by a cave.
+What now? N 
+Erik is on rocks by a cave. Exits are south to cancerous rock and down to a
+warm cave.
+Rocks fall past the entrance
+What now? D
+A rock hits Erik on the helmet
+Erik is in a warm cave. Exits are up to rocks by a cave and down to a hot
+passage.
+Rocks fall past the entrance
+What now? D
+A rock hits Erik on the helmet
+Erik is in a hot passage. Exits are east to a round cave and west to beaten
+ground.
+What now? E
+Erik is in a round cave. The only exit is west to a hot passage.
+Erik can see seven snoring dwarfs.
+What now? SHAVE DWARF
+Erik is in a round cave. The only exit is west to a hot passage.
+Erik can see a fine beard and seven snoring dwarfs.
+What now? DROP CLIPPERS
+What now? GET BEARD
+What now? RUB AMULET 
+Light flares.. 
+Golden Dragon is on hot rock. Exits are east to congealed lava and south to
+the sea.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a plug, a hammer, kindling, a needle, skates, a spade,
+a whetstone, a mirror, a ring, a flask, a jar of mineral water, bear sinews,
+a spittoon of bird spittle, Blueblade, a book and a medallion.
+What now? DROP AMULET
+What now? DROP HELMET
+What now? DROP CANDLE
+What now? U
+Golden Dragon is on hot rock. Exits are east to congealed lava and south to
+the sea.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? S
+Golden Dragon is on the sea. Exits are north to hot rock, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard tugs on the sail.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to a grassy
+isle, south to the sea and west to hot rock.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to a grassy isle and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to a rocky shore, east to the
+sea, south to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks mutters darkly.
+What now? N
+Golden Dragon is on a rocky shore. Exits are south to the sea and up to the
+clifftop.
+Erik is on the deck. 
+Ragnar Forkbeard says 'Hurry up'.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle burning brightly, a plug, a hammer, his
+helmet, kindling, a needle, skates, a spade, a whetstone, a silver amulet, a
+mirror, a ring, a flask, a jar of mineral water, bear sinews, a spittoon of
+bird spittle, Blueblade, a book and a medallion.
+What now? DROP BEARD
+What now? U
+Golden Dragon is on a rocky shore. Exits are south to the sea and up to the
+clifftop.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? OUT 
+Erik is on a rocky shore. Exits are south to the sea, up to the clifftop and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? U
+Erik is on the clifftop. Exits are west to a passage and down to a rocky
+shore.
+What now? W
+Erik is in a passage. Exits are east to the clifftop and west to the
+Enchanter's hall.
+What now? W 
+Erik is in the Enchanter's hall. Exits are east to a passage and west to the
+kitchen.
+Erik can see a tapestry.
+Freya is waiting: 'Welcome, Erik. My father has left what you need in his
+study'. She dances away
+What now? PULL TAPESTRY
+Erik is in the Enchanter's hall. Exits are north to a yellow room, east to a
+passage and west to the kitchen.
+Erik can see a tapestry.
+What now? N
+Erik is in a yellow room. Exits are north to a blue room, east to a red
+room, south to the Enchanter's hall and west to the Enchanter's hall.
+What now? N
+Erik is in a blue room. Exits are north to a blue room, east to a red room,
+south to a yellow room and west to a yellow room.
+What now? E
+Erik is in a red room. Exits are north to a red room, east to the
+Enchanter's hall, south to a yellow room and west to a blue room.
+What now? N
+Erik is in a red room. Exits are north to a yellow room, east to a red room,
+south to a red room and west to a yellow room.
+What now? W
+Erik is in a yellow room. Exits are north to a red room, east to a red room,
+south to a blue room and west to a red room.
+What now? W
+Erik is in a red room. Exits are north to a yellow room, east to a yellow
+room, south to a yellow room and west to a red room.
+What now? S
+Erik is in a yellow room. Exits are north to a red room, east to a blue
+room, south to a door and west to a yellow room.
+What now? OPEN DOOR
+It opens
+What now? S
+The door closes
+Erik is in the Enchanter's study. 
+Erik can see a cupboard and a lever.
+What now? OPEN CUPBOARD
+Junk falls from the cupboard
+What now? GET SCROLL
+What now? GET DUST
+What now? GET SPECTACLES
+What now? GET BEAN
+What now? GET BAG
+What now? GET TUBE
+What now? PULL LEVER 
+The floor opens..
+Erik is in the ground. The only exit is down to a rocky shore.
+What now? D
+Erik is on a rocky shore. Exits are south to the sea, up to the clifftop and
+in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on a rocky shore. Exits are south to the sea and up to the
+clifftop.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+Blind Thorkhild munches buttered fish.
+A message floats in in mid-air: 'Your family are guarded by the dreadful Dog
+Fighters, Erik. Al Kwasarmi can help!'
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle burning brightly, a plug, a hammer, his
+helmet, kindling, a needle, skates, a spade, a whetstone, a silver amulet, a
+mirror, a ring, a fine beard, a flask, a jar of mineral water, bear sinews,
+a spittoon of bird spittle, Blueblade, a book and a medallion.
+What now? DROP TUBE
+What now? DROP SPECTACLES
+What now? DROP DUST
+What now? DROP SCROLL
+What now? DROP BEAN
+What now? DROP BAG
+What now? GET SPADE
+What now? GET JAR
+What now? U
+Golden Dragon is on a rocky shore. Exits are south to the sea and up to the
+clifftop.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? S
+Golden Dragon is on the sea. Exits are north to a rocky shore, east to the
+sea, south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to a grassy isle and west to the sea.
+Erik can see the good ship Golden Dragon and an immense DRAGON.
+Erik is on the deck. 
+Gunnar Longshanks looks worried.
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to hot rock and west to the sea.
+Erik is on the deck. 
+Sven the Strong carves some wood.
+What now? W
+Golden Dragon is on the sea. Exits are north to grey ice, east to the sea,
+south to the sea and west to grey ice.
+Erik is on the deck. 
+Blind Thorkhild sharpens his sword.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to hot rock,
+south to the sea and west to a sandy shore.
+Erik is on the deck. 
+What now? W
+Golden Dragon is on a sandy shore. Exits are north to a fertile valley and
+east to the sea.
+Erik is on the deck. 
+What now? OUT 
+Erik is on a sandy shore. Exits are north to a fertile valley, east to the
+sea and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? N
+Erik is on a fertile valley. The only exit is south to a sandy shore.
+Erik can see the Stone Tree.
+What now? SHAKE TREE 
+One fruit falls
+What now? GET FRUIT
+What now? S
+Erik is on a sandy shore. Exits are north to a fertile valley, east to the
+sea and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? PLANT FRUIT
+What now? EMPTY JAR 
+Water splashes out.
+The stone grows!
+What now? GET ROOTS
+What now? IN
+Golden Dragon is on a sandy shore. Exits are north to a fertile valley and
+east to the sea.
+Erik can see a stone fruit growing slowly and the good ship Golden Dragon.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to hot rock,
+south to the sea and west to a sandy shore.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. It's misty
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Ragnar Forkbeard tells sagas.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle burning brightly, a plug, lots of dust, a
+hammer, his helmet, kindling, a needle, skates, a scroll, a whetstone, a
+silver amulet, a green bean, a mirror, a ring, spectacles, a tube, a rag
+bag, a fine beard, a flask, bear sinews, a spittoon of bird spittle,
+Blueblade, a book and a medallion.
+What now? GET FLASK
+What now? U
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? OUT
+Erik is on the sea. It's misty
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+What now? FILL JAR
+What now? FILL FLASK
+What now? IN
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle burning brightly, a plug, lots of dust, a
+hammer, his helmet, kindling, a needle, skates, a scroll, a whetstone, a
+silver amulet, a green bean, a mirror, a ring, spectacles, a tube, a rag
+bag, a fine beard, bear sinews, a spittoon of bird spittle, Blueblade, a
+book and a medallion.
+What now? DROP FLASK
+What now? U
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik can see the good ship Golden Dragon and a dolphin blowing bubbles.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+Ragnar Forkbeard tugs on the sail.
+What now? E
+Golden Dragon is on the sea. Exits are north to hot rock, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. It's misty
+Erik is on the deck. 
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks mutters darkly.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Ragnar Forkbeard says 'Hurry up'.
+What now? S
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to a stone quay, southeast to the sea and west to the sea.
+Erik is on the deck. 
+Sven the Strong munches buttered fish.
+What now? S
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a bell, a candle burning brightly, a plug, lots of dust, a
+hammer, his helmet, kindling, a needle, skates, a scroll, a whetstone, a
+silver amulet, a green bean, a mirror, a ring, spectacles, a tube, a rag
+bag, a fine beard, a flask of breath, bear sinews, a spittoon of bird
+spittle, Blueblade, a book and a medallion.
+What now? DROP SPADE
+What now? GET BELL
+What now? GET SINEWS
+What now? GET BEARD
+What now? GET FLASK
+What now? U
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+Gunnar Longshanks looks worried.
+What now? OUT 
+Erik is on a stone quay. Exits are north to a golden road, east to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? N
+Erik is on a golden road. Exits are north to marble slabs and south to a
+stone quay.
+What now? N
+Erik is on marble slabs. Exits are north to the long gallery and south to a
+golden road.
+What now? N
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+What now? N
+Erik is in a throne room. Exits are north to the throne and south to the
+long gallery.
+Erik can see an oak chest and Al Kwasarmi.
+'Do you have the ingredients'? NO
+What now? DROP ROOTS
+What now? DROP JAR
+What now? DROP FLASK
+What now? DROP BEARD
+What now? DROP SINEWS
+What now? S
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+What now? S
+Erik is on marble slabs. Exits are north to the long gallery and south to a
+golden road.
+What now? S
+Erik is on a golden road. Exits are north to marble slabs and south to a
+stone quay.
+What now? S
+Erik is on a stone quay. Exits are north to a golden road, east to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a tabby cat, a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven
+the Strong and Blind Thorkhild.
+Gunnar Longshanks carves some wood.
+What now? GET CAT
+Ragnar Forkbeard sharpens his sword.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a candle burning brightly, a plug, lots of dust, a hammer, his
+helmet, kindling, a needle, skates, a spade, a scroll, a whetstone, a silver
+amulet, a green bean, a mirror, a ring, spectacles, a tube, a rag bag, a
+spittoon of bird spittle, Blueblade, a book and a medallion.
+What now? GET SPITTOON
+What now? U
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? OUT
+Erik is on a stone quay. Exits are north to a golden road, east to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? N
+Erik is on a golden road. Exits are north to marble slabs and south to a
+stone quay.
+What now? N
+Erik is on marble slabs. Exits are north to the long gallery and south to a
+golden road.
+What now? N
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+What now? N
+Erik is in a throne room. Exits are north to the throne and south to the
+long gallery.
+Erik can see a fine beard, a flask of breath, a jar of breath, mountain
+roots, bear sinews, an oak chest and Al Kwasarmi.
+'Do you have the ingredients'? NO
+What now? TIE BELL 
+The cat shakes it loose, noisily
+What now? S
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+What now? N
+Erik is in a throne room. Exits are north to the throne and south to the
+long gallery.
+Erik can see a fine beard, a flask of breath, a jar of sound, mountain
+roots, bear sinews, an oak chest and Al Kwasarmi.
+'Do you have the ingredients'? YES 
+Al Kwasarmi takes everything. Time goes by . . . . .  Something appears!
+What now? GET RIBBON
+What now? S
+Erik is in the long gallery. Exits are north to a throne room and south to
+marble slabs.
+What now? S
+Erik is on marble slabs. Exits are north to the long gallery and south to a
+golden road.
+What now? S
+Erik is on a golden road. Exits are north to marble slabs and south to a
+stone quay.
+What now? S
+Erik is on a stone quay. Exits are north to a golden road, east to the sea
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? IN
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? D
+Erik is on the hull under the deck. The only exit is up to the deck.
+Erik can see a candle burning brightly, a plug, lots of dust, a hammer, his
+helmet, kindling, a needle, skates, a spade, a scroll, a whetstone, a silver
+amulet, a green bean, a mirror, a ring, spectacles, a tube, a rag bag,
+Blueblade, a book and a medallion.
+What now? GET BEAN
+What now? EAT IT
+Erik is stronger!
+What now? GET AMULET
+What now? WEAR AMULET
+What now? GET HELMET
+What now? WEAR IT
+What now? GET MIRROR
+What now? GET RING
+What now? WEAR IT
+What now? U
+Golden Dragon is on a stone quay. Exits are north to a golden road and east
+to the sea.
+Erik is on the deck. 
+Erik can see a sail, Gunnar Longshanks, Ragnar Forkbeard, Sven the Strong
+and Blind Thorkhild.
+What now? E
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to a stone quay, southeast to the sea and west to the sea.
+Erik is on the deck. 
+Gunnar Longshanks tells sagas.
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to fjords,
+south to the sea and west to the sea.
+Erik is on the deck. 
+What now? N
+Golden Dragon is on the sea. Exits are north to the sea, east to the sea,
+south to the sea and west to the sea.
+Erik is on the deck. 
+Sven the Strong tugs on the sail.
+What now? N
+Golden Dragon is on the sea. It's misty
+Erik is on the deck. 
+What now? W
+Golden Dragon is on the farthest shore. Exits are east to the sea and west
+to rank grass.
+Erik is on the deck. 
+What now? OUT 
+Erik is on the farthest shore. Exits are east to the sea, west to rank grass
+and in to the deck.
+Erik can see the good ship Golden Dragon.
+What now? W
+Erik is on rank grass. Exits are east to the farthest shore and west to a
+bleak plain.
+What now? W
+Erik is on a bleak plain. Exits are east to rank grass and west to crushed
+rock.
+Erik can see the Dogfighters.
+What now? W 
+The Dogfighters' fear is reflected! They run away
+Erik is on crushed rock. Exits are east to a bleak plain and west to
+wasteland.
+What now? W
+Erik is on wasteland. Exits are east to crushed rock and west to jumbled
+rock outside a prison.
+What now? W
+Erik is on jumbled rock outside a prison. Exits are east to wasteland and
+west to a door.
+Erik can see an inscription over the door and Fenris, a sleeping wolf.
+What now? READ INSCRIPTION
+'The rich want me, the wise are sure of me,
+fools know me, heroes fear me,
+to enter you must own me'.
+What now? TIE FENRIS 
+What now? DROP RING
+What now? DROP HELMET
+What now? DROP MIRROR
+What now? DROP AMULET
+What now? DROP CAT
+What now? DROP BELL
+What now? OPEN DOOR
+It opens
+What now? W 
+The door closes
+Erik's family are here. You've freed them!
+You score 975 out of 1000 and are a Norse of the Year!
+Another game? 
+Game Terminated

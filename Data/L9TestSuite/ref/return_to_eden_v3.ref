@@ -1,0 +1,1637 @@
+
+Welcome to Return to Eden, the second of the Silicon Dreams, copyright (C)
+1986 Level 9 Computing.
+After your rescue of the Snowball 9 starship, you were astonished to learn
+that fire-damaged videos from the control centre seemed to show you as the
+saboteur. Unjustly sentenced for hijacking, you managed to steal a
+stratoglider to escape and, after a brief flight, have crash-landed on Eden.
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and OOPS to "take back" bad moves).
+You are in the control room of a crashed stratoglider. A vision screen shows
+the strange plants on Eden. There's an opening behind you. 
+What now? 
+Playing back input from script file.
+#SEED 42
+QUIT
+Really stop? YES
+You score 0 out of 1000 and are a mere Earthling. 
+Press SPACE to play again. 
+Welcome to Return to Eden, the second of the Silicon Dreams, copyright (C)
+1986 Level 9 Computing.
+After your rescue of the Snowball 9 starship, you were astonished to learn
+that fire-damaged videos from the control centre seemed to show you as the
+saboteur. Unjustly sentenced for hijacking, you managed to steal a
+stratoglider to escape and, after a brief flight, have crash-landed on Eden.
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and OOPS to "take back" bad moves).
+You are in the control room of a crashed stratoglider. A vision screen shows
+the strange plants on Eden. There's an opening behind you. 
+What now? #SEED 42
+E 
+You are in a walk-in cupboard. 
+You can see a radsuit, a watch, a calculator, a compass, a geiger counter
+and a tent.
+What now? TAKE COMPASS
+OK. 
+What now? TAKE GEIGER COUNTER
+OK. 
+What now? TAKE RADSUIT
+OK. 
+What now? WEAR RADSUIT
+OK. 
+What now? W
+You are in the control room of a crashed stratoglider. A vision screen shows
+the strange plants on Eden. There's an opening behind you. Exits are south,
+in and out.
+What now? OUT
+You are beside a stratoglider in a meadow of strange bright flowers. A warm
+breeze wafts gently through the long grass. Exits are north, east, south,
+west and in.
+What now? E
+You are on a huge molehill rising from the grass. The ground is very soft.
+Exits are north, east, south and west.
+What now? DIG 
+You dig into the molehill, and find a passage leading down. 
+What now? DOWN
+You are inside the molehill. Exits are up and down.
+What now? DOWN
+You are in a sloping passage which widens as it descends. Exits are up and
+down.
+What now? DOWN
+You are in a network of earthy passages. Exits are east, south, west and up.
+A voice booms out, "Kim Kimberley, you have been found guilty of hijack and
+murder. Your sentence will now be carried out." 
+What now? E
+You are in an immense, domed cave. Exits are north, east, south and west.
+What now? S 
+You are in a comfortable cave strewn with soft leaves. The only exit is
+north.
+You start to yawn.
+What now? SLEEP 
+Tocks tick . . . . . 
+You sink into a deep and peaceful slumber. The whole room seems to close in
+and a massive explosion passes harmlessly, above. Protected by your radsuit
+from the initial fallout, you dream of how the city robots are slaughtering
+Eden's wildlife. 
+What now? N
+You are in an immense, domed cave. Exits are north, east, south and west.
+What now? E
+You are at a tunnel junction. Exits are east, west and up.
+What now? UP
+You are scrabbling on loose earth. Exits are east and down.
+What now? E
+You are in a tunnel which ends at a solid rock face. The only exit is west.
+You can see a spade.
+What now? TAKE SPADE
+OK. 
+What now? W
+You are scrabbling on loose earth. Exits are east and down.
+What now? DIG 
+You dig a passage leading upwards. 
+What now? UP 
+The geiger counter sounds a warning shriek. Do you want to wait until it is
+safer? YES 
+You wait for several hours, until the geiger counter is ticking more slowly.
+
+You are amidst the charred remains of a spacecraft on a bleak, burnt plain.
+There are no signs of life. Exits are north, east, south, west and down.
+What now? DROP RADSUIT
+OK. 
+What now? E
+You are trudging through the ashes. Exits are north, east, south and west.
+What now? E
+You are on a blasted heath. One or two plants still live. Exits are north,
+east, south and west.
+What now? E 
+You are on a well trodden path. Exits are north, east, south and west.
+A little squirrel peers through the leaves. There is a low droning noise
+overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? E
+You are in pleasant woodland. Exits are northeast, east, south and west.
+You can see a geranium beside the path.
+What now? S 
+You are at a bend in the forest path. Exits are north and southeast.
+You can see a bean on a stringy vine.
+What now? DROP GEIGER COUNTER 
+OK. 
+What now? TAKE BEAN
+OK. 
+A rat races past. 
+What now? EAT BEAN 
+You eat the bean and feel stronger. 
+What now? SE
+You are on green sward which ends at a high cliff. Exits are north, west and
+northwest.
+You can see a sweet pea nestled in the leaves.
+A brick coloured bird appears overhead. 
+What now? TAKE PEA 
+The bird swoops down and eats the pea. With a cry of "Ouija!", It lays a
+peculiar egg and departs. 
+A bird of paradise flutters through the trees. 
+What now? THROW PEA 
+You can't see a sweet pea.
+A little squirrel peers through the leaves. 
+What now? LOOK 
+You are on green sward which ends at a high cliff. Exits are north, west and
+northwest.
+You can see a brick egg.
+The see bee lands and drops something. 
+What now? TAKE TELESCOPE
+OK. 
+What now? LOOK THROUGH TELESCOPE 
+Looking onto the land below, you can see:
+a fence along the forest edge,
+a zone guarded by sensors,
+a minefield,
+a high wall,
+a field patrolled by robot vehicles
+and finally an impenetrable dome over the city. 
+What now? TAKE BRICK
+OK. 
+What now? PLANT BRICK 
+The brick sprouts into a colossal house plant. 
+What now? DROP TELESCOPE 
+OK. The see bee takes the telescope and buzzes off. 
+A rat races past. 
+What now? IN
+You are inside the houseplant. The only exit is out.
+You can see some fish fungus on a log table.
+What now? TAKE FISH FUNGUS
+OK. 
+What now? OUT
+You are on green sward which ends at a high cliff. Exits are north, west,
+northwest and in.
+You can see a house plant.
+What now? W
+You are in Keystone Coppice. Exits are north and east.
+You can see a stone fruit on a tree.
+What now? TAKE STONE FRUIT
+OK. 
+What now? N
+You are deep in bush country. Exits are north and south.
+You can see a seed growing on an air-bush.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? TAKE SEED
+OK. 
+What now? EXAMINE SEED 
+It's a large fruit honeycombed with air pockets. 
+What now? N
+You are on a well trodden path. Exits are north, east, south and west.
+What now? E
+You are in pleasant woodland. Exits are northeast, east, south and west.
+You can see a geranium beside the path.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A bird of paradise flutters through the trees. A helicopter gunship clatters
+past. 
+What now? E
+You are in a grove of young saplings. Exits are south and west.
+You can see a stem in the trees.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A little squirrel peers through the leaves. A helicopter gunship clatters
+past. 
+What now? TAKE STEM
+OK. 
+An enormous parrot appears from the undergrowth. "Har Har", she squawks,
+"I'll just take this 'ere booty and put it in my nest deep in the maize." 
+What now? EXAMINE STEM 
+It looks like a dugout canoe. 
+What now? W
+You are in pleasant woodland. Exits are northeast, east, south and west.
+You can see a geranium beside the path.
+What now? W
+You are on a well trodden path. Exits are north, east, south and west.
+What now? N
+You are on the riverbank. Reeds and bullrushes grow all around. Maize grows
+on the opposite bank. Exits are north, east and south.
+You can see some tubers beside the water.
+What now? TAKE TUBERS
+OK. 
+What now? EXAMINE TUBERS 
+They are paddle-shaped pieces of vegetation. 
+What now? N 
+You are on the river, close to the south bank. Exits are north, east, south
+and west.
+You can see the leviathan.
+What now? GIVE FISH FUNGUS TO LEVIATHAN 
+The leviathan snaps up the fungus and swims away, grinning broadly. 
+What now? N 
+You paddle the boat a little way. 
+You are below the north bank of the river. Exits are north, east, south and
+west.
+What now? N
+You are on the river bank at the north side of the river. In the distance is
+a field of maize. Exits are north, east and south.
+You can see a pill on a fir tree.
+What now? TAKE PILL 
+OK. 
+What now? EAT PILL
+OK. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? N
+You are in a maze of maize. 
+What now? E
+You are in a maze of maize. 
+What now? W
+You are in a maze of maize. 
+What now? S 
+You are in a maze of maize. 
+You can see a seed and a large nest.
+What now? TAKE SEED
+OK. 
+What now? S
+You are on the north bank of the river near a huge waterfall. Exits are
+south and west.
+You can see some foxgloves growing in the weeds.
+A rat races past. 
+What now? TAKE FOXGLOVES
+OK. 
+A bird of paradise flutters through the trees. 
+What now? EXAMINE FOXGLOVES 
+The foxgloves are large flowers with finger shaped hollow petals. 
+What now? W
+You are on the river bank at the north side of the river. In the distance is
+a field of maize. Exits are north, east and south.
+What now? S 
+You paddle the boat a little way. 
+You are below the north bank of the river. Exits are north, east, south and
+west.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? S
+You are sailing beside the south bank, just upstream from an enormous
+waterfall. Exits are north, east, south and west.
+You can see a log bobbing in the water.
+What now? TAKE LOG
+OK. 
+What now? EXAMINE LOG
+You have found a slimy chunk of sodden wood. It is so rotten that it feels
+very much like a sponge. 
+What now? S
+You are on the cliff top, south of a tremendous waterfall. Exits are north,
+southwest and west.
+You can see a figleaf.
+What now? W
+You are in soggy woodland. Exits are north, east and west.
+You can see a wishbone on an ash tree.
+What now? TAKE WISHBONE
+OK. 
+What now? EXAMINE WISHBONE 
+It's a strong Y-shape. 
+What now? E
+You are on the cliff top, south of a tremendous waterfall. Exits are north,
+southwest and west.
+You can see a figleaf.
+What now? N
+You are sailing beside the south bank, just upstream from an enormous
+waterfall. Exits are north, east, south and west.
+What now? N
+You are on a tiny island at the brink of an awe-inspiring waterfall shrouded
+in spray. The only exit is down.
+You can see a dry bulb between the rocks.
+A little squirrel peers through the leaves. 
+What now? SQUEEZE LOG 
+As the water touches the bulb, it grows into a shoot. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A rat races past. A helicopter gunship clatters past. 
+What now? TAKE SHOOT
+OK. 
+What now? EXAMINE SHOOT
+It has filmy umbrella-like projections. 
+A bird of paradise flutters through the trees. 
+What now? DOWN 
+You leap into the void and the parashoot breaks your fall. 
+You are in a dense jungle south of a huge waterfall. Exits are east and
+south.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? DROP SHOOT
+OK. 
+What now? S
+You are in the shade of great trees. Exits are north, east and south.
+A little squirrel peers through the leaves. 
+What now? E
+You are in luxuriant undergrowth. Exits are north, east, south and west.
+A rat races past. 
+What now? E
+You are amongst twisted tree roots. The soft forest earth gives way slightly
+as you step on it. The only exit is west.
+You can see a cling vine climbing a tree.
+What now? TAKE VINE
+OK. 
+What now? DIG 
+You unearth some roots. 
+What now? TAKE ROOTS
+OK. 
+What now? SCORE 
+You score 300 out of 1000 and are a 7th Class Ensign. 
+A bird of paradise flutters through the trees. There is a low droning noise
+overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A little squirrel peers through the leaves. A helicopter gunship clatters
+past. 
+What now? W
+You are in luxuriant undergrowth. Exits are north, east, south and west.
+What now? S
+You are feeling claustrophobic. The trees seem to press tightly together.
+Exits are north, east, south and west.
+What now? S 
+You are on a woodpile. The branches are lower here and one is almost within
+reach. The only exit is north.
+What now? THROW VINE 
+You hurl one end of the vine upwards, over a branch. 
+What now? UP
+You are in the very giant greenwood tree. Exits are north, west and down.
+What now? N
+You are in the heart wood, within radiating branches. Exits are northeast,
+south and west.
+You can see a bug crawling about.
+What now? TAKE BUG
+OK. 
+What now? EXAMINE BUG 
+It's a green hum-bug with a sonorous drone. 
+What now? NE
+You are amongst the aerial roots of a giant tree. Exits are south, southwest
+and west.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A rat races past. A helicopter gunship clatters past. 
+What now? S
+You are on a north-south trunk. Exits are north and south.
+A bird of paradise flutters through the trees. 
+What now? S
+You are within a confusion of tangled twigs. The only exit is north.
+You can see some plane twigs in a tangle and a cold leaf.
+What now? DROP COMPASS
+OK. 
+What now? DROP TRADCLADS
+OK. 
+What now? WEAR FOXGLOVES
+OK. 
+What now? TAKE COLD LEAF 
+The foxgloves protect you from the cold leaf. OK. 
+What now? EXAMINE COLD LEAF
+It's freezing cold! 
+What now? TAKE TWIGS
+OK. 
+What now? EXAMINE TWIGS
+The twigs resemble drum sticks. 
+What now? N
+You are on a north-south trunk. 
+A little squirrel peers through the leaves. 
+What now? N
+You are amongst the aerial roots of a giant tree. 
+What now? SW
+You are in the heart wood, within radiating branches. 
+What now? S
+You are in the very giant greenwood tree. 
+What now? DOWN
+You are on a woodpile. The branches are lower here and one is almost within
+reach. 
+You can see a cling vine.
+The vine hangs from a branch. 
+What now? N
+You are feeling claustrophobic. The trees seem to press tightly together. 
+What now? N
+You are in luxuriant undergrowth. 
+A rat races past. 
+What now? N 
+You are in a pleasant water meadow beside a quagmire. 
+You can see a clump of vegetable balloons growing beside the river and
+quicksand blocking the way east.
+What now? THROW COLD LEAF 
+OK. Frost forms round the leaf. The quicksand freezes! 
+What now? E
+You are in treacherous fenland. 
+You can see a cloak draped on a bush.
+What now? TAKE CLOAK
+OK. 
+What now? EXAMINE CLOAK
+The cloak is a flimsy reflective garment which seems to merge in with the
+background. 
+What now? WEAR CLOAK
+OK. 
+A bird of paradise flutters through the trees. 
+What now? W
+You are in a pleasant water meadow beside a quagmire. 
+You can see a clump of vegetable balloons growing beside the river.
+What now? S
+You are in luxuriant undergrowth. 
+What now? S
+You are feeling claustrophobic. The trees seem to press tightly together. 
+What now? S
+You are on a woodpile. The branches are lower here and one is almost within
+reach. 
+You can see a cling vine.
+The vine hangs from a branch. 
+What now? UP
+You are in the very giant greenwood tree. 
+What now? W
+You are in the giant redwood tree. 
+What now? N
+There's a platform to the west. 
+You are halfway up the giant tree. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? W 
+You are on the south platform, supported by a vine over a pulley. There is a
+large lever here, connected to the vine in some way. 
+What now? DROP GLOVES
+OK. 
+What now? DROP TWIGS
+OK. 
+What now? DROP TUBERS
+OK. 
+What now? E
+There's a platform to the west. 
+You are halfway up the giant tree. 
+What now? E
+You are in the heart wood, within radiating branches. 
+What now? NE
+You are amongst the aerial roots of a giant tree. 
+What now? S
+You are on a north-south trunk. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A little squirrel peers through the leaves. A helicopter gunship clatters
+past. 
+What now? S
+You are within a confusion of tangled twigs. 
+You can see tradclads and a compass.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A rat races past. A helicopter gunship clatters past. 
+What now? TAKE TRADCLADS
+OK. 
+What now? TAKE COMPASS
+OK. 
+What now? N
+You are on a north-south trunk. Exits are north and south.
+What now? N
+You are amongst the aerial roots of a giant tree. Exits are south, southwest
+and west.
+What now? SW
+You are in the heart wood, within radiating branches. Exits are northeast,
+south and west.
+What now? W
+There's a platform to the west. 
+You are halfway up the giant tree. Exits are north, east, south and west.
+What now? W
+You are on the south platform, supported by a vine over a pulley. There is a
+large lever here, connected to the vine in some way. The only exit is east.
+You can see some foxgloves, some tubers and some plane twigs.
+What now? DROP TRADCLADS
+OK. 
+What now? DROP COMPASS
+OK. 
+What now? DROP BUG
+OK. 
+What now? E
+There's a platform to the west. 
+You are halfway up the giant tree. 
+What now? N
+There's a platform to the west. 
+You are standing on bent boughs. 
+What now? DROP SPADE
+OK. 
+What now? DROP ROOTS
+OK. 
+What now? DROP WISHBONE
+OK. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? DROP STONE FRUIT
+OK. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? DROP STEM
+OK. 
+What now? DROP SEED
+OK. 
+What now? DROP CLOAK
+OK. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A bird of paradise flutters through the trees. A helicopter gunship clatters
+past. 
+What now? W 
+You are on the north platform. It's suspended by a vine over a pulley. There
+is a large lever here, which seems to be connected to the vine by some
+mechanism. 
+You can see a lever.
+What now? PULL LEVER 
+The platform shudders and seems to move. 
+What now? E
+There's a platform to the west. 
+You are in the treetops. The forest stretches south from a meandering river,
+below you, and continues on to the sea. To the east, the forest ends and
+cultivated land can be seen. Further east is an enormous dome. 
+What now? S
+You are clinging to the topmost branches. 
+You can see a very fragile branch leading east.
+What now? S
+You are at the tip of a tree. 
+You can see a blue berry in the scrub.
+What now? TAKE BLUE BERRY
+OK. 
+What now? EXAMINE BLUE BERRY
+It's more like a glue berry! 
+What now? N
+You are clinging to the topmost branches. 
+You can see a very fragile branch leading east.
+What now? GLUE BRANCH 
+You glue the branch. It might take a little weight now. 
+A little squirrel peers through the leaves. There is a low droning noise
+overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A rat races past. A helicopter gunship clatters past. 
+What now? DROP BLUE BERRY
+OK. 
+What now? E
+You are on the platform east of the branch line. 
+You can see a cherry on a twig and a stalk in the undergrowth.
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A bird of paradise flutters through the trees. A helicopter gunship clatters
+past. 
+What now? TAKE STALK
+OK. 
+What now? W
+You are clinging to the topmost branches. 
+You can see a blue berry and a very fragile branch leading east.
+What now? DROP STALK
+OK. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? E
+You are on the platform east of the branch line. 
+You can see a cherry on a twig.
+What now? TAKE CHERRY
+OK. 
+What now? W
+You are clinging to the topmost branches. 
+You can see a blue berry, a stalk and a very fragile branch leading east.
+What now? TAKE STALK
+OK. 
+What now? TAKE BLUE BERRY
+OK. 
+A little squirrel peers through the leaves. 
+What now? N
+There's a platform to the west. 
+You are in the treetops. The forest stretches south from a meandering river,
+below you, and continues on to the sea. To the east, the forest ends and
+cultivated land can be seen. Further east is an enormous dome. 
+What now? W
+You are on the north platform. It's suspended by a vine over a pulley. There
+is a large lever here, which seems to be connected to the vine by some
+mechanism. 
+You can see a lever.
+What now? PULL LEVER 
+The platform shudders and seems to move. 
+What now? E
+There's a platform to the west. 
+You are standing on bent boughs. 
+You can see a cloak, a seed, a stem, a stone fruit, a wishbone, your roots
+and a spade.
+What now? TAKE STONE FRUIT
+OK. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? TAKE WISHBONE
+OK. 
+What now? TAKE CLOAK
+OK. 
+What now? WEAR CLOAK
+OK. 
+What now? TAKE SEED
+OK. 
+What now? TAKE SPADE
+OK. 
+What now? TAKE ROOTS
+OK. 
+A rat races past. 
+What now? S
+There's a platform to the west. 
+You are halfway up the giant tree. 
+What now? W
+You are on the south platform, supported by a vine over a pulley. There is a
+large lever here, connected to the vine in some way. 
+You can see a bug, some foxgloves, some tubers, some plane twigs, tradclads
+and a compass.
+What now? DROP BLUE BERRY
+OK. 
+What now? TAKE TWIGS
+OK. 
+What now? TAKE BUG
+OK. 
+What now? E
+There's a platform to the west. 
+You are halfway up the giant tree. 
+What now? S
+You are in the giant redwood tree. 
+What now? E
+You are in the very giant greenwood tree. 
+What now? DOWN
+You are on a woodpile. The branches are lower here and one is almost within
+reach. 
+You can see a cling vine.
+The vine hangs from a branch. 
+What now? N
+You are feeling claustrophobic. The trees seem to press tightly together. 
+What now? W
+You are in the Cathedral forest. 
+What now? SCORE 
+You score 400 out of 1000 and are a mechanic. 
+A bird of paradise flutters through the trees. 
+What now? S 
+You are beside a leafpile. 
+You can see an ant army.
+A little squirrel peers through the leaves. 
+What now? PLAY STALK 
+You play a brisk march rhythm. The ants all rise in a body, salute and
+follow you. 
+The ants are following you. 
+What now? N
+You are in the Cathedral forest. 
+The ants are following you. 
+What now? E
+You are feeling claustrophobic. The trees seem to press tightly together. 
+The ants are following you. 
+What now? E
+You are squeezing through a hothouse forest. 
+You can see a rubber band on a rubber tree.
+A rat races past. The ants are following you. 
+What now? E 
+You are at the edge of the forest, looking out onto the city's defenses. 
+You can see a fence blocking the way east.
+The ants are following you. 
+What now? E 
+The ants break down the fence. The little bug hums a complicated tune to
+confuse the sensors. 
+You are on a patch of clear land. To the north-east, over the river, looms a
+huge observation tower. 
+What now? W
+You are at the edge of the forest, looking out onto the city's defenses. 
+What now? W
+You are squeezing through a hothouse forest. 
+You can see a rubber band on a rubber tree.
+What now? DROP STALK
+OK. 
+What now? TAKE RUBBER BAND
+OK. 
+What now? ATTACH RUBBER TO WISHBONE
+OK. You tie the band to the wishbone, making a catapult. 
+There is a low droning noise overhead. 
+What now? HIDE
+Tocks tick . . . . . 
+A helicopter gunship clatters past. 
+What now? TAKE STALK 
+OK. 
+What now? E
+You are at the edge of the forest, looking out onto the city's defenses. 
+What now? E
+The little bug hums a complicated tune to confuse the sensors. 
+You are on a patch of clear land. To the north-east, over the river, looms a
+huge observation tower. 
+What now? SHOOT CHERRY 
+You catapult the bomb into the centre of the minefield. It explodes
+destroying all the mines. 
+What now? E
+You are on clear land south of an observation tower. 
+What now? S
+The little bug hums a complicated tune to confuse the sensors. 
+You are on a stretch of clear land west of a high wall. 
+What now? S 
+You are on the beach. Cliffs rear up to the west. 
+You can see some seaweed.
+Some weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+A frond of weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+The autoscythe arrives. Some weed emerges from the sea and reaches for you.
+It falls back into the sea. 
+What now? IN 
+You are riding on the autoscythe. 
+You are on the beach. Cliffs rear up to the west. 
+You can see some seaweed and an autoscythe.
+Some weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+You are riding on the autoscythe. 
+You are on the beach at the edge of the sea. To the west is a gate and north
+lies a wheatfield. 
+You can see an autoscythe.
+A frond of weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+You are riding on the autoscythe. 
+You are on the beach, south of a huge wheatfield. 
+You can see an autoscythe.
+Some weed emerges from the sea and reaches for you. It falls back into the
+sea. 
+What now? WAIT 
+Tocks tick . . . . . 
+You are riding on the autoscythe. 
+You are at the east end of the beach. A warm, wide river flows lazily from
+the north. 
+You can see an autoscythe.
+Some weed claws at you. It falls back into the sea. 
+What now? OUT
+The autoscythe is waiting. It tips some rubbish into the hot river. A frond
+of weed claws at you. It falls back into the sea. 
+What now? WAIT 
+Tocks tick . . . . . 
+The autoscythe is waiting. It tips some rubbish into the hot river. Some
+weed emerges from the sea and reaches for you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+The autoscythe leaves. Some weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+A frond of weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+Some weed emerges from the sea and reaches for you. It falls back into the
+sea. 
+What now? WAIT
+Tocks tick . . . . . 
+Some weed claws at you. It falls back into the sea. 
+What now? WAIT
+Tocks tick . . . . . 
+The weeder arrives. A frond of weed claws at you. It falls back into the
+sea. 
+What now? WAIT 
+Tocks tick . . . . . 
+The weeder is waiting. It tips some rubbish into the hot river. Some weed
+emerges from the sea and reaches for you. It falls back into the sea. 
+What now? IN 
+The autoscythe arrives. You are riding on the weeder. 
+You are in a wheatfield by a wide river. 
+You can see a weeder.
+What now? WAIT
+Tocks tick . . . . . 
+You are riding on the weeder. 
+You are in the middle of a field of golden wheat. To the south lies the
+beach. 
+You can see a weeder.
+What now? WAIT
+Tocks tick . . . . . 
+You are riding on the weeder. 
+You are at the south-west edge of the wheatfield. To the west is an
+unscaleable wall. 
+You can see a weeder.
+What now? WAIT
+Tocks tick . . . . . 
+You are riding on the weeder. 
+You are in the north-west corner of the wheat, on the bank of a wide river. 
+You can see a weeder.
+What now? OUT
+The weeder leaves. 
+What now? N 
+An alarm sounds as you reach the water. Your load drags you down under the
+water. 
+You are swimming just below the surface of the cool river. 
+The suckseed provides you with air. 
+What now? E
+You are swimming underwater in the cool river. 
+The suckseed provides you with air. 
+What now? E
+You are swimming underwater through a myriad water plants. 
+The suckseed provides you with air. 
+What now? E
+You are swimming further downstream. 
+The suckseed provides you with air. 
+What now? E
+You are near the river bed. 
+The suckseed provides you with air. 
+What now? E
+You are swimming at the bottom of the river. 
+The suckseed provides you with air. 
+What now? E 
+You are swimming through a tunnel under the city wall. 
+You can see a credit card.
+The suckseed provides you with air. 
+What now? TAKE CREDIT CARD
+OK. 
+The suckseed provides you with air. 
+What now? EXAMINE CREDIT CARD 
+It's printed "American Excess - your flexible spend." 
+There are 400 creds left.
+The suckseed provides you with air. 
+What now? DROP CATAPULT
+OK. 
+The suckseed provides you with air. 
+What now? DROP TWIGS
+OK. 
+The suckseed provides you with air. 
+What now? DROP STALK
+OK. 
+The suckseed provides you with air. 
+What now? DROP SEED
+OK. 
+You are running out of air. 
+What now? UP
+You are in an east-west river tunnel. A doorway leads south. A grating noise
+echoes from the east. 
+What now? E 
+Graunch clears its throat: "Aha, a rich citizen. Here's a riddle for you,
+we'll bet 100 credits on the answer..
+A great healer, wasted yet kept by many. Beaten, she runs out and flies
+away." 
+You are south of the river. It flows east into a dark tunnel beneath the
+city wall. 
+You can see a golem called Graunch.
+What now? SAY TIME
+"Right, the credits are yours." 
+"Try another. When I came, you didn't feel me. I am here though you can't
+see me. When I've left you, you won't miss me. No one even knows what I be.
+Yet I am your most valuable possesion!" 
+What now? SAY LIFE
+"Right, the credits are yours." 
+"Try another. A pet to many folk belongs, to welcome us she licks warmly.
+Hungry, she eats with raging tongues, a dangerous playmate is she!" 
+What now? SAY FIRE
+"Right, the credits are yours." 
+"Try another. I am the genii in the box, I think but I am not. I have no
+arms or legs and yet I work until I'm hot. To talk to me you hit my head,
+and coffee makes me fail. I have no mouth and so I must eat my food through
+my tail." 
+What now? SAY COMPUTER
+"Right, the credits are yours." 
+"Try another. What goes on four feet, on two feet, then three, but the more
+feet it goes on the weaker it be?" 
+What now? SAY MAN
+"Right, the credits are yours." 
+"Try another. The rich woman wants it, the wise woman is sure of it, the
+fool understands it, but the poor woman already has it." 
+What now? SAY NOTHING
+"Right, the credits are yours." 
+"Try another. Our blood is cold. We do not sleep. Quiet whispers are our
+talk. We are the giants who eat the sun, beneath our arms men walk."
+What now? SAY TREES
+"Right, the credits are yours." 
+"Try another. This blind god conquers all, with a kind of madness.
+Foolishness from wisdom, happiness from sadness." 
+What now? SAY LOVE
+"Right, the credits are yours." 
+"Try another. You all know me, you don't trust me. Yet you give me life.
+Without muscles, I am mighty, no man is my chief. You can't see me, only
+hear me, I'm the secrets thief." 
+What now? SAY GOSSIP
+"Right, the credits are yours." Graunch looks apologetic.. "Sorry, I've run
+out of riddles. Come back next week." 
+What now? W
+You are in an east-west river tunnel. A doorway leads south. A grating noise
+echoes from the east. 
+What now? S
+You are at the north end of an echoing hall hall hall... 
+What now? S 
+You are in an echoing hall. 
+What now? S
+You are south of the echo chamber. 
+A gang of Hell's Angels appears. 
+What now? S 
+You are between massive double doors. 
+You can see a gang of Hell's Angels and Big Robot.
+What now? GIVE CREDIT CARD
+Big Robot keeps the card and salutes, mockingly, "That's better. Now get
+your carcase out of here. " 
+What now? S 
+Big Robot stretches out a heavy foot and sends you sprawling down the
+corridor. 
+You are at a cross junction. An ominous hissing noise comes from the west. 
+What now? E
+You are at a ventilator junction. 
+What now? W
+You are in a blocked ventilator shaft. 
+You can see the plug which takes power to Big Robot.
+What now? PULL PLUG 
+You pull the plug on Big Robot and hear, in the distance, the sound of him
+crashing to the ground. 
+What now? E
+You are at a ventilator junction. 
+What now? UP
+You are in the ventilation system. 
+What now? UP
+You are on a flat roof. 
+You can see a flask of water.
+What now? TAKE FLASK
+OK. 
+What now? DOWN
+You are in the ventilation system. 
+What now? DOWN
+You are at a ventilator junction. 
+What now? DOWN
+You are at a cross junction. An ominous hissing noise comes from the west. 
+What now? W
+You are in a room of twisty roots. 
+You can see a pair of cutters.
+The roots welcome you as one of their own. 
+What now? TAKE CUTTERS
+OK. 
+The roots welcome you as one of their own. 
+What now? E
+You are at a cross junction. An ominous hissing noise comes from the west. 
+What now? S
+You are at the north end of a bare hall. In the centre is a blazing fire. 
+What now? W
+You are amidst a pile of electrical cabling. 
+You can see some cables and some pillars.
+What now? PUSH PILLARS 
+The ceiling collapses, cutting the power cables. Hundreds of robots rush in
+to protect their supply of juice. 
+What now? E
+You are at the north end of a bare hall. In the centre is a blazing fire. 
+What now? SW
+You are in the huge hall to the west of the fire. 
+What now? SE
+You are at a throne made from robot parts. 
+You can see a bodyguard carrying your credit card and the Robot Godfather.
+What now? THROW FLASK 
+The Godfather cowers back from the water and drops your credit card
+immediately. 
+What now? TAKE CREDIT CARD
+OK. 
+What now? NE
+You are in the hall to the east of the fire. 
+What now? NW
+You are at the north end of a bare hall. In the centre is a blazing fire. 
+What now? E
+You are in an air conditioning duct. 
+What now? E
+You are at a duct junction. 
+What now? DOWN
+You are in a very tight recess. 
+You can see a grating.
+What now? CUT GRATING
+You destroy the grill with the cutters. 
+What now? UP
+You are at a duct junction. 
+What now? E 
+You are at the end of in the duct. 
+You can see a busker.
+What now? GIVE CREDIT CARD 
+"Thanks guv, if you want more good music, try up here", she returns the card
+and opens a hatch above her head, which had previously been invisible. 
+The busker plays: "Money makes the world go round... 
+What now? UP
+You are on many coloured sand, east of a wall, in the middle of Enoch's
+Theme Park - a recreation area for when the colonists arrive. If it's
+anything like similar sites on Earth, there will be adverts all over the
+place. 
+What now? DROP ROOTS
+OK. 
+What now? DROP CUTTERS
+OK. 
+What now? DROP CLOAK
+OK. 
+What now? DROP STONE FRUIT 
+OK. 
+What now? S
+You are on a yellow brick road. 
+What now? E
+You are at the gate of Ivril. 
+What now? N
+You are in a superb sweltering tropical hothouse. 
+What now? SEARCH 
+You find a mushroom enscribed, "Visit your friendly police force". Visit
+131. 
+What now? S
+You are at the gate of Ivril. 
+What now? S
+You are at the Fountains of Paradise. 
+You can see fountains playing merrily.
+What now? LISTEN 
+The fountains play water music to advertise the talking bank. Visit 18. 
+What now? W
+You are in the Dream Park. Cloying incense clogs the air. 
+What now? SEARCH 
+There is a message on a rock, shaped in the form of a Georgian style house:
+"Buy a Wimpish prestige family habiviron". Visit 43. 
+What now? W
+You are in Dunctonwood. 
+What now? W
+You are deep in Yearwood. 
+What now? N
+You are at the end of a road from the east. 
+You can see a tall statue with a crack in the base.
+What now? W
+You are in the Broken Lands. 
+What now? SEARCH 
+On a particularly broken rock is engraved, in a wobbly hand: "Use B&O tools
+for your DIY needs". Visit 61. 
+What now? S
+You are beside a little house on the prairie. 
+What now? IN 
+A little chef appears and asks, "Do you like nukes"? YES
+The chef smiles, "Welcome in! I'm always glad to mean another fair-minded
+and unbiased individual. There aren't many of us about - in fact, you're the
+first one." 
+You are in a little kitchen. 
+You can see a bevomat with a small slot.
+What now? INSERT CARD 
+A little cuddly bear pops out. 
+What now? TAKE KOALA
+OK. 
+What now? OUT
+You are beside a little house on the prairie. 
+What now? N
+You are in the Broken Lands. 
+What now? E
+You are at the end of a road from the east. 
+You can see a tall statue with a crack in the base.
+The koala writhes about, as if it wants to get free. 
+What now? DROP KOALA 
+OK. The koala pulls a note from under the statue. 
+What now? TAKE NOTE
+OK. 
+What now? READ NOTE 
+It reads: For a holiday you'll never forget. Visit 116. 
+What now? N
+You are at Earthsea. 
+What now? W
+You are on the Shores of Death. There is a landing stage. 
+What now? WAIT 
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+The riverboat arrives. 
+What now? IN 
+You cross to the other side on the riverboat. You arrive at the casino. It
+is really magnificent, decked out in the best tradition of the casinos of
+Monte Carlo. 
+You are in a casino on the Island of the Mighty. 
+You can see the Fabulous Riverboat and a croupier.
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? SAY RED
+The wheel spins, and lands on: RED. You win. 
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? SAY BLACK
+The wheel spins, and lands on: BLACK. You win. 
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? SAY RED
+The wheel spins, and lands on: RED. You win. 
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? SAY BLACK
+The wheel spins, and lands on: BLACK. You win. 
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? SAY RED
+The wheel spins, and lands on: RED. You win. 
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? SAY BLACK
+The wheel spins, and lands on: BLACK. You win. 
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? EXAMINE CREDIT CARD 
+It's printed "American Excess - your flexible spend." 
+There are 31200 creds left.
+The croupier speaks, in sonorous tones.. "place your bets, ladies and
+gentlemen please. Say red or black." 
+What now? IN 
+You cross to the other side on the riverboat. 
+You are on the Shores of Death. There is a landing stage. 
+You can see the Fabulous Riverboat.
+What now? S
+You are in the Broken Lands. 
+What now? E
+You are at the end of a road from the east. 
+You can see Pepsy Koala and a tall statue with a crack in the base.
+What now? S
+You are deep in Yearwood. 
+What now? S
+You are beside the Well at the World's end. 
+You can see a well.
+What now? IN 
+A seductive voice whispers: "Give generously to charity". Visit 24. 
+You are in the Well of Souls. 
+You can see a packet.
+What now? TAKE POWDER
+OK. 
+What now? EXAMINE POWDER
+"Sorelips Mutamatic for ecological whiteness". Printed on the back is a free
+ticket but you'll have to tear the packet to get at it. 
+What now? OUT
+You are beside the Well at the World's end. 
+You can see a well.
+What now? TEAR PACKET
+You tear the packet into a thousand pieces to get the ticket. 
+What now? TAKE TICKET
+OK. 
+What now? EXAMINE TICKET
+This voucher entitles the bearer to a free subway ride. 
+What now? N
+You are deep in Yearwood. 
+What now? E
+You are in Dunctonwood. 
+What now? E
+You are in the Dream Park. Cloying incense clogs the air. 
+What now? S
+You are at the station ticket barrier. 
+You can see a metal barrier marked with three 0s.
+What now? S 
+A metallic voice shouts, "Tickets please! Thank you. Please wait on the
+platform until the train arrives." 
+You are on a grubby subway platform. 
+What now? WAIT 
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+The train glides into a station, and the doors open. 
+What now? S
+You are on a tatty bench in a shabby train. 
+You can see the emergency cord.
+The train is waiting. 
+What now? WAIT 
+Tocks tick . . . . . 
+The train is waiting. 
+What now? WAIT
+Tocks tick . . . . . 
+The train leaves the station with a swoosh. 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+The train glides into a station, and the doors open. 
+What now? N
+You are on a grubby subway platform. 
+The train is waiting. 
+What now? N
+You are at the station ticket barrier. 
+You can see a metal barrier marked with three 0s.
+What now? N 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be at the station ticket barrier. 
+What now? PUSH BUTTON 
+The door slides open. 
+What now? N 
+The door shuts with a satisfied sigh. 
+You are in a blue glass elevator. 
+You can see buttons numbered 0 to 9.
+What now? PRESS 1
+Indicator lights flicker. 
+What now? PRESS 3
+Indicator lights flicker. 
+What now? PRESS 1
+The elevator shakes slightly and the door opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be at the cop shop. 
+What now? S
+You are at the cop shop. 
+You can see an identity document.
+What now? TAKE IDENTITY DOCUMENT
+OK. 
+What now? N
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be at the cop shop. 
+What now? PUSH BUTTON
+The door slides open. 
+What now? N 
+The door shuts with a satisfied sigh. 
+You are in a blue glass elevator. 
+You can see buttons numbered 0 to 9.
+What now? PRESS 0
+Indicator lights flicker. 
+What now? PRESS 1
+Indicator lights flicker. 
+What now? PRESS 8
+The elevator shakes slightly and the door opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be in the National Mid Lloyd Bank: "Come and
+listen to the talking bank". 
+What now? S 
+The kind bank manager gives you a loan. (How unlike the situation in the UK,
+back on pre-Reveline Earth, where one could get a 30,000 pound loan to buy a
+bigger house, but not a 5,000 pound short-term overdraft for one's
+partnership over Christmas. This happened, we hasten to add, in the early
+1980s.) Anyway, now banks are run logically, you get your loan without any
+difficulty. 
+What now? EXAMINE CREDIT CARD
+It's printed "American Excess - your flexible spend." 
+There are 50000 creds left.
+What now? PUSH BUTTON
+The door slides open. 
+What now? N 
+The door shuts with a satisfied sigh. 
+You are in a blue glass elevator. 
+You can see buttons numbered 0 to 9.
+What now? PRESS 0
+Indicator lights flicker. 
+What now? PRESS 6
+Indicator lights flicker. 
+What now? PRESS 1
+The elevator shakes slightly and the door opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be in Mssrs Bodger, Bungler and Co. DIY
+products for the amateur handywoman. 
+What now? S
+You are in Mssrs Bodger, Bungler and Co. DIY products for the amateur
+handywoman. 
+You can see a screwfinger.
+What now? TAKE SCREWFINGER
+OK. 
+What now? N
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be in Mssrs Bodger, Bungler and Co. DIY
+products for the amateur handywoman. 
+What now? PUSH BUTTON
+The door slides open. 
+What now? N 
+The door shuts with a satisfied sigh. 
+You are in a blue glass elevator. 
+You can see buttons numbered 0 to 9.
+What now? PRESS 0
+Indicator lights flicker. 
+What now? PRESS 4
+Indicator lights flicker. 
+What now? PRESS 3
+The elevator shakes slightly and the door opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be at Conwoman Swindler and Crook, Estate
+Agents. 
+What now? S 
+The estate agent appears, "I have the perfect house for you. Sold!" It
+disappears again. You wonder, "How come all these robots are programmed to
+be such pushy salesmen?". Visit 151. 
+What now? PUSH BUTTON
+The door slides open. 
+What now? N 
+The door shuts with a satisfied sigh. 
+You are in a blue glass elevator. 
+You can see buttons numbered 0 to 9.
+What now? PRESS 1
+Indicator lights flicker. 
+What now? PRESS 1
+Indicator lights flicker. 
+What now? PRESS 6
+The elevator shakes slightly and the door opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be in Sharkey's Travel Agents. 
+What now? S 
+You are grabbed by a huge robot whose head has a small fin on top. It grins
+broadly, says "I see you've got just enough money for a travel pass!" and
+runs off with your creds. 
+What now? TAKE TRAVEL PASS
+OK. 
+What now? EXAMINE TRAVEL PASS
+It's a subway season ticket. 
+What now? PUSH BUTTON
+The door slides open. 
+What now? N 
+The door shuts with a satisfied sigh. 
+You are in a blue glass elevator. 
+You can see buttons numbered 0 to 9.
+What now? PRESS 0
+Indicator lights flicker. 
+What now? PRESS 0
+Indicator lights flicker. 
+What now? PRESS 0
+The elevator shakes slightly and the door opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are near the floor button of the elevator. If you walked down the
+corridor to the south, you'd be at the station ticket barrier. 
+What now? S
+You are at the station ticket barrier. 
+You can see a metal barrier marked with three 0s.
+What now? S
+A metallic voice shouts, "Tickets please! Thank you. Please wait on the
+platform until the train arrives." 
+You are on a grubby subway platform. 
+What now? WAIT 
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+The train glides into a station, and the doors open. 
+What now? S
+You are on a tatty bench in a shabby train. 
+You can see the emergency cord.
+The train is waiting. 
+What now? PULL CORD 
+The brakes jam on. A sign lights: "Fine is 50 creds." 
+The train is waiting. 
+What now? N
+You are on a grubby subway platform. 
+The train is waiting. 
+What now? DOWN
+You are on the track below a platform. 
+What now? E
+You walk down the tunnel for a long way, and eventually arrive at a station
+platform. 
+You are on the track below a platform. 
+What now? UP
+You are on a grubby subway platform. 
+What now? N
+You are at the station ticket barrier. 
+You can see a metal barrier marked with three 0s.
+What now? N
+You are in the foyer of City Hall. 
+What now? N 
+An android greets you.. "Welcome, Citizen Kim. We're holding a council
+election and as you're our only human we've added your name to the ballot.
+Walk right to vote." 
+You are in the palatial reception area. 
+What now? E
+"Do you, a human of voting age, vote for Kim Kimberley"? YES
+"That completes the voting. The results are: K. Kimberley, one vote. Others,
+no votes. I hereby declare K. Kimberley duly elected as a councillor of
+Enoch." 
+You are in a cramped voting booth. 
+What now? W
+You are in the palatial reception area. 
+What now? N
+You are in the corridors of power. 
+What now? W
+You are in the corridors of power. 
+What now? N
+You are in the corridors of power. 
+What now? E
+You are in the council chamber. 
+What now? N
+You are in the board room. 
+What now? N 
+"Welcome, Councillor. As only representative of the people, er.. person,
+you'll naturally be Mayor". Canned cheering resounds through the building. 
+You are in the city fathers' computer room. 
+You can see the City Fathers.
+What now? DOWN
+You are on the seat of power under an enormous holoscreen. 
+You can see a visor and a huge screen.
+What now? TAKE VISOR
+OK. 
+What now? WEAR VISOR
+OK. 
+The screen lights:
+1 Intro.
+2 Welcome.
+3 Alien Spacecraft.
+4 War Status.
+5 Destroy Jungle.
+6 Cease fire. 
+What now? LOOK 4
+You are on the seat of power under an enormous holoscreen. 
+You can see a huge screen.
+What now? BLINK
+The screen displays:
+1 Intro.
+2 Welcome.
+3 Alien Spacecraft.
+4 War Status.
+5 Destroy Jungle.
+6 Cease fire. 
+What now? UP
+You are in the city fathers' computer room. 
+You can see the City Fathers.
+What now? SCORE 
+You score 800 out of 1000 and are a Mayor. 
+What now? S
+You are in the board room. 
+What now? S
+You are in the council chamber. 
+What now? S
+You are in the corridors of power. 
+What now? S
+You are in the corridors of power. 
+What now? E
+You are in the corridors of power. 
+What now? S
+You are in the palatial reception area. 
+What now? S
+You are in the foyer of City Hall. 
+What now? S
+You are at the station ticket barrier. 
+You can see a metal barrier marked with three 0s.
+What now? S
+A metallic voice shouts, "Tickets please! Thank you. Please wait on the
+platform until the train arrives." 
+You are on a grubby subway platform. 
+What now? WAIT 
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+The train glides into a station, and the doors open. 
+What now? S
+You are on a tatty bench in a shabby train. 
+You can see the emergency cord.
+The train is waiting. 
+What now? WAIT 
+Tocks tick . . . . . 
+The train is waiting. 
+What now? WAIT
+Tocks tick . . . . . 
+The train leaves the station with a swoosh. 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+The train glides into a station, and the doors open. 
+What now? N
+You are on a grubby subway platform. 
+The train is waiting. 
+What now? N
+You are at the station ticket barrier. 
+You can see a metal barrier marked with three 0s.
+What now? N
+You are in the spaceport waiting room. Dozens of waldroids lie around
+waiting. 
+What now? N
+You are in the embarkation lounge. 
+What now? N
+You are in the green lane through Customs. 
+What now? N 
+The space bus starts with a lurch. 
+You are in a space bus. 
+What now? DOWN
+You are in the cargo hold of the space bus. 
+You can see a radcom.
+What now? TAKE RADCOM
+OK. 
+What now? UP
+You are in a space bus. 
+What now? WAIT 
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+What now? WAIT
+Tocks tick . . . . . 
+You feel a jolt as the bus arrives at its destination. 
+What now? OUT 
+As you emerge from the bus, some robots grab you. They are preparing to
+attack the Snowball 9, believing it to be an alien craft, and want you out
+of the way in case you are a spy. You're locked in a habiviron. 
+You are in a habiviron activity area. 
+You can see a mushmat machine.
+What now? KICK MUSHMAT 
+You give the machine a resounding blow, it dispenses an empty plate. 
+What now? TAKE PLATE
+OK. 
+What now? E
+You are in a rest zone. 
+You can see a bed.
+What now? OPEN DOOR
+It opens. 
+What now? E
+The shower is on. The door shuts with a satisfied sigh. 
+You are in a small smooth cubicle. 
+You can see a drainage grid and a ventilation grill.
+The water drains away. 
+What now? DROP PLATE 
+OK. The plate blocks the drain and the shower cubicle fills with water. 
+You are floating in the shower. 
+What now? OPEN GRILL 
+You open the grill with your screwfinger, and clamber through. 
+You are in a dirty air duct. 
+What now? DOWN
+You are in a soft tube. 
+What now? W
+You are in a long tubeway beside an airlock. 
+A robot spots you! It starts to run towards you. 
+What now? W
+You are at a junction of wide cylinders. 
+A robot is chasing you. 
+What now? N
+You are at a plasteel junction. 
+Some more robots join the chase. 
+What now? OPEN DOOR
+It opens. 
+The robots are almost upon you. 
+What now? E 
+The robots run past the cupboard where you are hiding and the sound of
+pursuit fades away. The door shuts with a satisfied sigh. 
+You are in a cupboard off the plasteel tube. 
+You can see a helmet and a leotard.
+What now? TAKE HELMET
+OK. 
+What now? WEAR HELMET
+OK. 
+What now? TAKE LEOTARD
+OK. 
+What now? WEAR LEOTARD
+OK. 
+What now? OPEN DOOR
+It opens. 
+What now? W
+The door shuts with a satisfied sigh. 
+You are at a plasteel junction. 
+What now? S
+You are at a junction of wide cylinders. 
+What now? E
+You are in a long tubeway beside an airlock. 
+What now? OPEN DOOR
+It opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are in an airlock with iris doors. 
+What now? OPEN DOOR
+It opens. 
+What now? S
+The door shuts with a satisfied sigh. 
+You are east of the docking bay, beside an airlock and a starbike. 
+What now? IN 
+You are astride a starbike. 
+You can see a starter.
+What now? PULL STARTER 
+The starbike roars into life and carries you to the Snowball 9. 
+You are on a thin ledge round a red cylinder. 
+One of the Snowball crewmembers sees you and shouts, "Stop! Murderer at
+large!" 
+What now? UP
+You are on a wide sloping ramp. 
+Someone shouts "Intruder at large." 
+What now? UP
+You are in an east-west transit tube. 
+A crewmember sees you in the distance, and starts to run towards you. 
+What now? W
+You are in a T-junction. 
+One of the Snowball crewmembers sees you and shouts, "Stop! Murderer at
+large!" 
+What now? S
+You are in a north-south walkway. 
+Someone shouts "Intruder at large." 
+What now? W
+The crew seize you. Then they notice the radcom and use it to contact the
+space base, identifying the Snowball 9 properly. The Snowball is saved
+again! Your role in the whole affair is properly investigated and you are
+are acclaimed as a Mega-Hero and confirmed as Mayor of all Eden.
+Congratulations! You have won! 
+You score 1000 out of 1000 and are a Megastar Adventurer. 
+Which do you want to do, RESTART or RESTORE? 
+Game Terminated

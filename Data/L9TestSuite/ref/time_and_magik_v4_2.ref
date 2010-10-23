@@ -1,0 +1,2489 @@
+ 
+That data was probably not saved from Time and Magik.  
+Welcome to the Time and Magik trilogy, copyright (C) 1988 from Level 9 and
+Mandarin. This recreates the three key episodes in the struggle to defend
+creation. 
+Enter 1 for Lords of Time, 2 for Red Moon, or 3 for Price of Magik.
+
+Playing back input from script file.
+#SEED 42
+2
+ 
+Welcome to Red Moon, the second part of Time and Magik, copyright (C) 1988
+from Level 9 Computing and Mandarin. 
+ 
+In the parallel realm of Baskalos, the arcane arts mirror our technology. At
+the time when the the Red Moon crystal was the sole active source of magik,
+its theft was a potential disaster for the history of both worlds. You must
+recover it...
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and UNDO to retrace your steps). 
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? DIG 
+You find a crown. 
+What now? EXAMINE CROWN 
+It is not one of the clumsy modern things with mismatched, over-sized stones
+and yards of velvet and fur, but a real old crown, such as were made when
+the world was young. It has slender gold links, forged by a master smith
+into a delicate chain, interrupted every now and then by a spray of golden
+flowers: forget-me-nots, hare bells and speedwell, their tiny petals picked
+out with many-shaded blue stones, and in the heart of each, a glimmering
+yellow topaz. 
+What now? N
+You are on a steep rock slide which tumbles down in a river of shattered
+rock from the soaring precipices above. 
+What now? NW
+You are on a stony path across dry cinders and ashes, which puff into the
+air and swirl lazily around your ankles. 
+What now? NW
+You are on a rocky path up a volcano peak, zigzagging between leaning
+pillars of jagged lava. The ground is sharp beneath your feet, like dirty
+grey coral. 
+What now? NW
+You are on a crater rim towering high above the landscape. Sulphurous fumes
+swirl past. 
+What now? N 
+You are in a volcano crater covered by shattered black rocks. The ground
+seems to tremble slightly and there is a whiff of sulphur in the air. You
+can see leather gloves. 
+What now? GET GLOVES
+OK. 
+What now? EXAMINE GLOVES 
+They are of stout blue leather with reinforced seams and a small loop on
+each wristband. 
+What now? S
+You are on a crater rim towering high above the landscape. Sulphurous fumes
+swirl past. 
+What now? SE
+You are on a rocky path up a volcano peak, zigzagging between leaning
+pillars of jagged lava. The ground is sharp beneath your feet, like dirty
+grey coral. 
+What now? W 
+You are on a crumbling edge of a sheer cliff on the west flank of the
+volcano. You can see a dagger. 
+What now? GET DAGGER
+OK. 
+What now? EXAMINE DAGGER 
+Its upper edge is inlaid with a mosaic of bronze, copper and silver wire and
+its bone hilt is beautifully carved. The pommel is bound with a filigree of
+gold wire, and its single blade is completely blunt. 
+What now? E
+You are on a rocky path up a volcano peak, zigzagging between leaning
+pillars of jagged lava. The ground is sharp beneath your feet, like dirty
+grey coral. 
+What now? SE
+You are on a stony path across dry cinders and ashes, which puff into the
+air and swirl lazily around your ankles. 
+What now? W
+You are on a volcanic outcrop beside an array of tiny slits in the ground.
+The slits are much too small to climb through, but warm air rises from them,
+musky with the unmistakable smell of dragons. 
+What now? W
+You are on a bank of a bubbling lava river, watching the glowing rock ooze
+downhill. The overwhelming furnace heat of this place prevents further
+progress round the mountain. 
+What now? S 
+You are on a dry plain of volcanic ash, and rust streaks the cinders beneath
+your feet. You can see a horseshoe. 
+What now? GET HORSESHOE
+OK. 
+What now? EXAMINE HORSESHOE 
+It is quite a large horseshoe, the kind you might expect to see on a cart
+horse, except that somebody has covered it in fetching blue velvet
+embroidered with the legend "Good Luck" in cheap gold thread. It's made of
+iron. 
+What now? SE
+You are on a wide, flat grassy plain, dotted here and there with clumps of
+blueberry and heather, and crisscrossed with little meandering sheep tracks.
+It has a wild and lonely smell. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see an axe and a lamp. 
+What now? DROP CROWN
+OK. 
+What now? DROP GLOVES
+OK. 
+What now? DROP DAGGER
+OK. 
+What now? GET LAMP
+OK. 
+What now? EXAMINE LAMP 
+Its design is archaic, along the lines of those favoured by genie-hunters,
+except that this lamp is earthenware, and no amount of polishing will make
+it shine. 
+ 
+Around its sides is written ancient text which, loosely translated, means: 
+To cast a spell you need its focus. Then enter: CAST name optional-target 
+E.g CAST ESCAPE or CAST SNOOP NORTH 
+  
+Spell    Focus  Action 
+BOUNCE   BALL   Reverse fall; 
+ESCAPE   DULCIMER Teleport to/from start; 
+EXTINGUISH FAN  Put out fire; 
+FIND     LAMP   Locate object; 
+MAGIC    MEDALL'N Is object magic? 
+RESTORE  none   Restore; 
+SAVE     none   Save; 
+SHIELD   CLOAK  Ward off attacks for a while; 
+SNOOP    PEARL  Look into adjacent room; 
+STRONG   SPICES Become stronger for a while; 
+TREASURE GLOVES Is object valuable? 
+ZAP      DAGGER Attack enemy magically. 
+What now? SCORE 
+You score 100 out of 1000 and are a whingeing Nacod. You have 50 hit points
+left. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? N
+You are on a steep rock slide which tumbles down in a river of shattered
+rock from the soaring precipices above. 
+What now? SE
+You are on a junction of several sheep tracks. The castle of Cakabol,
+rumoured to be your destination, is clearly visible in the distance. Its
+towers rise bright and tall above the plain, yet they are dwarfed by the
+mountainside into which they have been built. Dark holes and entrances pock
+the cliff face, and some have smooth, crafted edges, as though put there for
+a purpose, while from others issue little plumes of smoke. 
+What now? S
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? S
+You are in a small copse of ash trees, their keys hanging in limp clusters
+that rattle dully in the breeze. 
+What now? E
+You are in a forest. The trees stand in serried, lowering ranks. Darkness
+breeds beneath their silent canopies and their scented needles lie thick
+upon the ground. All is very, very still, as though waiting - and
+watching... 
+What now? N
+You are in a tree clump beside a great lake whose surface glimmers with
+limpid lights. Small twigs and water-hoppers dot its tranquil surface. 
+What now? N 
+You are in a lakeside folly in the form of a ruined Lunar temple. An evil
+mist shrouds the landscape to the north, lapping about the imposing walls of
+castle Cakabol. You can see a square hole and some bushes. 
+What now? EXAMINE HOLE 
+It is about one inch square and lined with brass. 
+What now? EXAMINE BUSHES 
+The bushes have grown into quite a tangle. You find a handle. You find a
+key. 
+What now? INSERT HANDLE 
+The handle fits into the hole perfectly and there is a faint click as it
+slots firmly into place. 
+What now? TURN HANDLE 
+The handle cranks round and round, slowly opening the great sluices that
+confine the murky waters of the reservoir. 
+What now? N 
+You are on a dry lake bed where the muddy bottom has solidified and cracked
+into uneven plates. You can see an oyster fungus. 
+What now? EXAMINE OYSTER FUNGUS 
+You don't see a lot of these about. It's orange, with yellow markings and
+bile-green spots. You find a pearl. 
+What now? EXAMINE PEARL 
+For centuries, pearls like this have been called 'black', but as you study
+it you can see that this is not true. It is the colour of gun metal, and has
+a nacreous lustre of rainbow colours that slide fluidly across its perfect
+surface. 
+What now? N 
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin, silent as
+the grave but for occasional mouse-squeaks. 
+What now? E 
+It's dark. 
+What now? LIGHT LAMP 
+OK! You are in a grand entrance hall. Its former glory has long passed by.
+The great stone columns still soar up into the vaulted roof, yet they are
+cracked now, and crumbling; and one has toppled over and lies, broken-backed
+and dusty, across the floor. Dust hangs suspended in the air, dancing in the
+sunbeams which pierce the dingy shadows of the place. 
+What now? N 
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a grain store. Abandoned years ago, the grain store is full of
+shrivelled seed and gnawed sacking. You can see an enormous Rat. 
+What now? BURY RAT
+What now? N 
+You are in a side alcove. Once used, by the minstrels who performed at the
+castle, as a robing room, and to tune their musical instruments. You can see
+a dulcimer. 
+What now? GET DULCIMER
+OK. 
+What now? EXAMINE DULCIMER 
+It is basically a shallow closed box, shaped like an isosceles triangle with
+the point cut off, it has wires strung across it and a long red strap so
+that it may be hung around the neck. Two delicate wooden hammers with curved
+ends are laid on top of the strings. 
+What now? E
+You are in a west alcove of the Great Hall where the minstrels would wait
+for the Castellan's summons, and those pages considered too young or willful
+to attend their lords at the great feasts would be obliged to eat their
+meals. 
+What now? E
+You are in a central area of the Great Hall, a vast room, some 120 metres
+long, panelled and beamed with golden oak-wood, blackened with the smoke
+from the central firepit. 
+ 
+At the western end of the Hall is raised the great dais where the Castellan
+and his honoured guests and family would sit on feast days, backed by a
+rich, decaying tapestry depicting the chivalric stages of a boar hunt.
+Twenty feet above the floor of the Hall, and encircling it, runs the
+minstrels' gallery, its wooden timbers uncared for now and fallen into
+disrepair; and from the ceiling, a little to one side of the smoke hole,
+hangs an old mummers' dragon, its painted leather sides cracked and peeling.
+It sways slightly, creaking quietly as it does so. A few trestle tables are
+stacked along one side of the Hall, but any chairs have long since been
+removed, and all seems to be peaceful and disused. A single sunbeam slants
+down from the smoke hole, faraway in the high roof. 
+What now? E 
+You are in a far east alcove of the Great Hall where little remains of its
+former glory save dust and sunbeams and a solitary, buzzing fly. 
+What now? OPEN DOOR
+It opens. 
+What now? D
+The door slams behind you. You are in a room of manacles, a small,
+windowless cell whose clammy stone walls reflect a cold hostility. 
+What now? E
+You are in a T-junction with an arched doorway to the east and a dismal and
+gloomy entrance to the west. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. 
+What now? S 
+You are in a dimly-lit room. A faint hissing noise echoes from its walls.
+You can see Sog the Newtling. 
+What now? BURY SOG 
+What now? E
+You are in a rough-cut crawl, obviously better suited for dachshunds than
+people. 
+What now? S
+You are in a long, low room filled with odds and ends of old toys. 
+What now? S
+You are in a south alcove of a long, low room. 
+What now? S
+You open the door and walk through. The door slams behind you. You are in a
+small alcove with a human skeleton chained to the wall in one corner. 
+What now? W
+You open the door and walk through. The door slams behind you. You are in a
+dark corridor that runs from north to south. A small inscribed door is set
+into the east wall, below an incomprehensible inscription. 
+What now? S
+You are in a semi-circular room, home to a host of woodlice. Their armoured
+bodies crisscross every surface of the room, following mysterious yet
+purposeful patterns. 
+What now? W
+You are in a small, high room. Like certain other parts of the castle, this
+has lain empty and unused for many years. 
+What now? SW
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? NW 
+You are in a walk-in wardrobe, where a squadron of moths have made their
+home. Now they erupt around you, wings whirring. You can see bracers and a
+linen shirt. 
+What now? GET BRACERS
+OK. 
+What now? EXAMINE BRACERS 
+They are strong and robust with curious bionic clamps. 
+What now? WEAR BRACERS 
+OK. You feel stronger, but find you can't take them off again! 
+What now? TAKE SHIRT
+OK. 
+What now? EXAMINE SHIRT 
+It is heavily padded and looks extremely warm. 
+What now? SE
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? SW
+You are on a precarious platform, high up on the wall of the circular room.
+The swirl of the mist against the flickering lanterns casts weird shadows on
+the walls. 
+What now? SW
+You are in a stone stairway, slippery with moss and green algae. 
+What now? W 
+You are in a blocked well from which issues a foul smell of decay. You can
+see some iron coins and a grating. 
+What now? EXAMINE GRATING 
+It is stout, stalwart, made from unbreakable cast iron and completely
+immovable. 
+What now? WAVE HORSESHOE 
+The magnet attracts the coins, and with a clank they leap through the air to
+cleave to its surface. 
+What now? EXAMINE COINS 
+These are an unusual form of coinage, rarely used in human societies. They
+are very heavy, with complicated, and apparently meaningless, patterns
+etched on their faces. Each one has a neat hole bored through its middle.
+It's made of iron. 
+What now? E
+You are in a stone stairway, slippery with moss and green algae. 
+What now? NE
+You are on a precarious platform, high up on the wall of the circular room.
+The swirl of the mist against the flickering lanterns casts weird shadows on
+the walls. 
+What now? NE
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? N
+You are in a long, cramped corridor. 
+What now? N
+You are in a bone room where the followers of Litter Muurdox left the Moon
+worshippers when they had finished with them. 
+What now? E
+You are in a u-shaped tunnel, dark and evil. 
+What now? NW 
+You are in a winding tunnel lit by a solitary torch. You can see Bletch the
+Scorpion man. 
+What now? BURY BLETCH 
+What now? N
+You are in a wood-panelled library, a quiet, sunlit room, filled with the
+peaceful atmosphere that comes to such places after long and tranquil years;
+a feeling of knowledge, as though the room itself had drunk of the wisdom of
+those who used it. You can see a scroll. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a store vault: Really an enormous pantry, it is obviously still
+in use if only by a few, for strings of onions hang from the ceiling and
+several jars of preserves and pickles stand on the rickety shelves. You can
+see some meat. 
+What now? W
+You are in a castle kitchen. A sickly-sweet smell permeates through from the
+corridor to the north, yet the kitchen itself is clean and neat, save for a
+thick layer of grime over everything. The pots and pans hang on their hooks,
+well-ordered and only slightly tarnished. Unburnt logs lie in the great
+hearth, only needing the spark of flint and tinder to bring them to life
+again, and beside them the mighty spit stands idle. The platters are stacked
+neatly in their racks and the huge scrubbed-pine table is bare and empty. It
+is as if everyone, having finished their work, was suddenly spirited away,
+never to return - and several purple-red stains on the floor suggest that
+the spiriting was not done gently. 
+What now? S
+You are in a cold junction between three passages. Condensation drips from
+the roof. 
+What now? NW
+You are in a basement with oak walls, once the servants' hall, where they
+would take their meals when the work was done, having saved the best food,
+as always, for themselves. But it is silent and deserted now. 
+What now? W
+You are in a grand entrance hall. Its former glory has long passed by. The
+great stone columns still soar up into the vaulted roof, yet they are
+cracked now, and crumbling; and one has toppled over and lies, broken-backed
+and dusty, across the floor. Dust hangs suspended in the air, dancing in the
+sunbeams which pierce the dingy shadows of the place. 
+What now? W
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin, silent as
+the grave but for occasional mouse-squeaks. 
+What now? SW 
+A heavy metal gate clangs ominously shut behind you. You are in a wide
+gateway in the wall of castle Cakabol. It is surrounded by a tasteful
+montage of bones and sports a "Beware of the Rat" sign. You can see a gate
+of metal which is securely locked. 
+What now? UNLOCK GATE 
+What with? KEY
+The gate creaks open and the key falls away, disintegrating in a shower of
+rusty flakes. 
+What now? SW
+You are on a junction of several sheep tracks. The castle of Cakabol,
+rumoured to be your destination, is clearly visible in the distance. Its
+towers rise bright and tall above the plain, yet they are dwarfed by the
+mountainside into which they have been built. Dark holes and entrances pock
+the cliff face, and some have smooth, crafted edges, as though put there for
+a purpose, while from others issue little plumes of smoke. 
+What now? S
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? W
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? W
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see a crown, leather
+gloves, an axe and a dagger. 
+What now? DROP HORSESHOE
+OK. 
+What now? DROP COINS
+OK. 
+What now? DROP PEARL
+OK. 
+What now? DROP SHIRT
+OK. 
+What now? SCORE 
+You score 250 out of 1000 and are a beginner. You have 50 hit points left. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? W
+You are on a wide, flat grassy plain, dotted here and there with clumps of
+blueberry and heather, and crisscrossed with little meandering sheep tracks.
+It has a wild and lonely smell. 
+What now? S 
+You are on a plain of grass beside a marble tower, a near-cylinder of
+polished white rock: ten meters wide at the base and narrowing subtly near
+the top. It seems impossibly high. Looking carefully, you find the letters
+"Xiiz" carved into its smooth side at head-height. 
+What now? SAY HUMAK 
+You have 49 hit points left. 
+You hear a bolt slide back with a dull "thunk". 
+What now? OPEN DOOR
+It opens. 
+What now? IN 
+The door slams behind you. You are in a marble tower. The smooth walls are
+whorled and veined with shades of green, red and white. You can see a book. 
+What now? GET BOOK
+OK. 
+What now? READ BOOK 
+It is the Codex Oedipus. It is bound in dark tooled leather and its pages
+are of thick, creamy paper which give off a pleasant musty smell as you turn
+them. It is hand-written, in fine curving script that is a pleasure to look
+at and easy to read. It falls open at a page near the middle on which is
+written: "Obis to open and Ollabin for dust". 
+What now? D
+You are in a steep stairway, its marble steps polished and treacherous. 
+What now? D 
+You are in a landing which is cool and dim and has a deep blue carpet. An
+ornate wooden chair faces the stairwell, occupied by a silent figure. You
+can see Xiiz the Wizard. Xiiz demands that you give him a treasure before he
+will let you pass. 
+What now? GIVE BOOK 
+Grudgingly, Xiiz accepts your payment. 
+What now? D
+You are in a bronze stairway, its cold steps covered with a narrow
+blue-patterned carpet grown threadbare and faded. 
+What now? S
+You are in a bronze stairway with cold metal banisters and a dark and
+forbidding atmosphere. 
+What now? SE
+You are in a tiny passage. 
+What now? SW 
+You are in a tiny passage. You can see a medallion. 
+What now? GET MEDALLION
+OK. 
+What now? EXAMINE MEDALLION 
+It is of solid gold, inlaid with some black stuff which throws into relief
+the outlandish design raised upon its surface. 
+What now? NE
+You are in a tiny passage. 
+What now? NW
+You are in a bronze stairway with cold metal banisters and a dark and
+forbidding atmosphere. 
+What now? N
+You are in a bronze stairway, its cold steps covered with a narrow
+blue-patterned carpet grown threadbare and faded. 
+What now? U
+You are in a landing which is cool and dim and has a deep blue carpet. An
+ornate wooden chair faces the stairwell, occupied by a silent figure. You
+can see Xiiz the Wizard. Xiiz says "Go away. I'm busy."
+What now? U
+You are in a steep stairway, its marble steps polished and treacherous. 
+What now? U
+You are in a marble tower. The smooth walls are whorled and veined with
+shades of green, red and white. 
+What now? SAY HUMAK 
+You have 48 hit points left. 
+You hear a bolt slide back with a dull "thunk". 
+What now? OPEN DOOR
+It opens. 
+What now? OUT
+The door slams behind you. You are on a plain of grass beside a marble
+tower, a near-cylinder of polished white rock: ten meters wide at the base
+and narrowing subtly near the top. It seems impossibly high. Looking
+carefully, you find the letters "Xiiz" carved into its smooth side at
+head-height. 
+What now? N
+You are on a wide, flat grassy plain, dotted here and there with clumps of
+blueberry and heather, and crisscrossed with little meandering sheep tracks.
+It has a wild and lonely smell. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some iron coins, a
+crown, a pearl, a horseshoe, leather gloves, a linen shirt, an axe and a
+dagger. 
+What now? DROP MEDALLION
+OK. 
+What now? SAY SATARH 
+You have 47 hit points left. 
+"Phut!" A book appears! - And so does a strong smell of garlic. 
+OK. 
+What now? SCORE 
+You score 350 out of 1000 and are a real adventurer. You have 47 hit points
+left. 
+What now? GET GLOVES
+OK. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? D 
+You are in a small entrance cavern with a rough floor littered with chunks
+of rock. 
+What now? SE
+You are in a webby junction festooned with the efforts of an army of
+spiders. Their webs are thick and tangled, and cling to everything they
+touch with flaccid, clammy tendrils. They appear for the most part to be
+abandoned. 
+What now? S 
+You are in a low crawl with sharp, protruding rocks hanging from the ceiling
+and impeding movement. Other stones stick up from the floor, scraping your
+knees and hands. 
+What now? E
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a dormitory cavern where grimy sleeping furs lie scattered
+haphazardly on the floor, along with piles of smelly underwear and dirty
+socks. Mice scuttle tamely over all, gnawing at the titbits they glean from
+among the tangled bedding. 
+What now? E
+You are in a secret bedroom occupied by an enormous four-poster bed with
+crimson curtains. Elegant tapestries cover the walls and a thick rug lies on
+the polished floor. A fire smoulders in the walk-in fireplace, casting red
+lights on the fine cloth which covers the table, and on the carved wooden
+chairs. The room smells of potpourri, lavender and hot spiced wine. 
+What now? SE
+You are in a long stairway which stretches away into darkness, its steps
+slick with damp and slime. The air smells heavily of decay, catching at the
+back of your throat. You can see a mushroom. 
+What now? GET MUSHROOM
+OK. 
+What now? NW
+You are in a secret bedroom occupied by an enormous four-poster bed with
+crimson curtains. Elegant tapestries cover the walls and a thick rug lies on
+the polished floor. A fire smoulders in the walk-in fireplace, casting red
+lights on the fine cloth which covers the table, and on the carved wooden
+chairs. The room smells of potpourri, lavender and hot spiced wine. 
+What now? W
+You are in a dormitory cavern where grimy sleeping furs lie scattered
+haphazardly on the floor, along with piles of smelly underwear and dirty
+socks. Mice scuttle tamely over all, gnawing at the titbits they glean from
+among the tangled bedding. 
+What now? W 
+You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. You can see a
+sword, the Blacksmith Giant and a fire. 
+What now? BURY GIANT
+What now? GET SWORD 
+OK. 
+The burning sword sears your hand! With a yell of pain, you drop it. You
+have 46 hit points left. 
+What now? WEAR GLOVES
+OK. 
+What now? GET SWORD
+OK. 
+What now? SE
+You are in a secret canyon where gentle breezes blow, calling forth phantom
+voices from the hidden depths. Stalactites of delicate rose and blue crystal
+hang down to meet the stubby stalagmites. Between them fall translucent
+curtains of living crystal, like silent waterfalls and crests of waves,
+caught forever out of Time. 
+What now? S 
+You are in a windy cave where mysterious breezes waft from hidden shafts. 
+ou can see a flask. 
+What now? GET FLASK
+OK. 
+What now? N
+You are in a secret canyon where gentle breezes blow, calling forth phantom
+voices from the hidden depths. Stalactites of delicate rose and blue crystal
+hang down to meet the stubby stalagmites. Between them fall translucent
+curtains of living crystal, like silent waterfalls and crests of waves,
+caught forever out of Time. 
+What now? NW
+You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. You can see a fire.
+
+What now? W
+You are in a corridor of arches. Its roof is quite low and divided into a
+series of small, pointed domes. 
+What now? S
+You are in a dusty cave, lined with shelves: its floor, and every bare
+surface, covered with a layer of intermingled chaff and dust, presumably
+blown by the wind that issues from the cave beyond. 
+What now? S 
+You are in a windy store room where the breeze soughs among the high stone
+beams, fluttering the tarpaulin-covered boxes and scattering clouds of dust
+and chaff, which tumble across the floor like miniature sandstorms. You can
+see a hill of beans. 
+What now? EXAMINE BEANS 
+What a truly wonderful odour! The whole heap is rotting where it stands, and
+has attained a state of almost fluid putridity. There's a trapdoor hidden
+beneath the beans! 
+What now? OPEN TRAPDOOR
+It opens. 
+What now? D
+As the door closes, it merges invisibly with the wall, until no mortal eye
+could detect its presence. 
+You are in a dusty store room, its shelves broken and empty, its floor bare
+of all save a thick covering of dust and chaff, which has fallen through
+from the room above. Cobwebs depend from the ceiling, tattered and
+abandoned, waving lazily in the draft. 
+What now? S
+You are in a polished tunnel whose curved sides glisten black, like the
+scales of a brittle insect. Tissue-thin fragments of strange rock scrunch
+satisfyingly under your feet. 
+What now? S 
+You are in a tube room. Everything here is black; a dusty black with a
+faintly tacky surface that deadens sound and gives slightly to the touch.
+You can see some tubing. 
+What now? GET TUBING
+OK. 
+What now? EXAMINE TUBING 
+It is about eighteen inches long with screw and socket ends. 
+What now? N
+You are in a polished tunnel whose curved sides glisten black, like the
+scales of a brittle insect. Tissue-thin fragments of strange rock scrunch
+satisfyingly under your feet. 
+What now? NE
+You are in a complex junction. The mouths of tunnels dot the walls like the
+holes in cheese, but only a few of them are wide enough for you to enter. 
+What now? SE 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a treasure vault which is almost, but not quite, completely
+empty. You can see a dial and a safe. 
+What now? EXAMINE SAFE 
+It is very, very tightly shut and displays an impressive array of locks,
+chains and handles. There are also several badly-written notices all
+requesting the reader to "Keep Out" with varying degrees of politeness
+(actually they don't vary at all - they're all extremely rude), and a large
+black dial. 
+What now? TURN DIAL 
+You hear the whisper of a closing catch. 
+What now? TURN SAFE 
+As the safe turns round, you can see that its back is missing! On its top
+shelf, among the dust and cobwebs, was a box. 
+What now? GET BOX
+OK. 
+What now? EXAMINE BOX 
+It is made of dull, beaten metal with a flowery pattern stamped on its lid.
+The lock is broken and the hinges twisted, so that the lid does not quite
+close properly and rattles when the box is moved. 
+What now? SW 
+You are in a guardian cave. You can see the Guardian. 
+What now? BURY GUARDIAN
+What now? NW
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a polished tunnel whose curved sides glisten black, like the
+scales of a brittle insect. Tissue-thin fragments of strange rock scrunch
+satisfyingly under your feet. 
+What now? NE 
+You are in a complex junction. The mouths of tunnels dot the walls like the
+holes in cheese, but only a few of them are wide enough for you to enter. 
+What now? E
+You open the door and walk through. The door slams behind you. You are in a
+carpeted hallway. The thick, jewel-coloured pile deadens every sound. 
+What now? NE 
+You are in a work room belonging to Ziix, which is a clutter of bizarre
+equipment, books, papers and unidentifiable gadgets. You can see rare spices
+and Ziix the Magician. "If you let me live I will let you have these
+spices", Ziix whines. 
+What now? GET SPICES
+OK. 
+What now? SW
+You are in a carpeted hallway. The thick, jewel-coloured pile deadens every
+sound. 
+What now? W
+You open the door and walk through. The door slams behind you. You are in a
+complex junction. The mouths of tunnels dot the walls like the holes in
+cheese, but only a few of them are wide enough for you to enter. 
+What now? SE
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a treasure vault which is almost, but not quite, completely
+empty. You can see a dial and a safe. 
+What now? SW
+You are in a guardian cave. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a tiny passage. 
+What now? NW
+You are in a tiny passage. 
+What now? N
+You are in a tiny passage. 
+What now? NW
+You are in a tiny passage. 
+What now? E
+You are in a tiny passage. 
+What now? NW
+You are in a bronze stairway with cold metal banisters and a dark and
+forbidding atmosphere. 
+What now? N 
+You are in a bronze stairway, its cold steps covered with a narrow
+blue-patterned carpet grown threadbare and faded. 
+What now? U
+You are in a landing which is cool and dim and has a deep blue carpet. An
+ornate wooden chair faces the stairwell, occupied by a silent figure. You
+can see Xiiz the Wizard. Xiiz says "Oh it's you. Push off before I lose my
+temper!"
+What now? U
+You are in a steep stairway, its marble steps polished and treacherous. 
+What now? U 
+You are in a marble tower. The smooth walls are whorled and veined with
+shades of green, red and white. 
+What now? SAY HUMAK 
+You have 45 hit points left. 
+You hear a bolt slide back with a dull "thunk". 
+What now? OPEN DOOR
+It opens. 
+What now? OUT
+The door slams behind you. You are on a plain of grass beside a marble
+tower, a near-cylinder of polished white rock: ten meters wide at the base
+and narrowing subtly near the top. It seems impossibly high. Looking
+carefully, you find the letters "Xiiz" carved into its smooth side at
+head-height. 
+What now? N
+You are on a wide, flat grassy plain, dotted here and there with clumps of
+blueberry and heather, and crisscrossed with little meandering sheep tracks.
+It has a wild and lonely smell. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? D 
+You are in a small entrance cavern with a rough floor littered with chunks
+of rock. 
+What now? SE
+You are in a webby junction festooned with the efforts of an army of
+spiders. Their webs are thick and tangled, and cling to everything they
+touch with flaccid, clammy tendrils. They appear for the most part to be
+abandoned. 
+What now? D
+You are in a steep stairway its steps high and narrow, worn down by the
+passage of centuries of labouring feet. It is scrupulously clean, and every
+step has been painstakingly red-leaded and polished. 
+What now? D 
+You are in a small, neat cave whose smooth floor has been swept clean of
+dust and stones. 
+What now? OPEN DOOR
+It opens. 
+What now? E 
+The door is too small for you to pass through! 
+What now? EAT MUSHROOM 
+You nibble the mushroom. Instantly, your stomach churns, and with a
+sickening rush, everything around you shoots up and away, apparently
+expanding to an incredible size! 
+ 
+It takes some time to realize that the world is unchanged, but you have
+shrunk. 
+What now? E 
+The door slams behind you. You are in a secret cupboard about five feet high
+and three across. It is clean and smells pleasantly of mothballs and
+lavender and beeswax polish. You can see a suit of chain mail and a gas
+mask. 
+What now? GET CHAIN MAIL
+OK. 
+What now? GET GAS MASK
+OK. 
+What now? OPEN DOOR
+It opens. 
+What now? W 
+The door slams behind you. You are in a small, neat cave whose smooth floor
+has been swept clean of dust and stones. You feel the now-familiar rushing
+sensation in the pit of your stomach as you shoot back to normal size. 
+What now? EXAMINE CHAIN MAIL 
+Even though it has short sleeves and only reaches to just below the hips, it
+is very heavy. The steel links are butted together and run into a series of
+points at the bottom. A wide leather belt and baldric are folded up inside
+it, and they are needed to help distribute the weight of the mail - if it
+just hung free from the shoulders, its wearer would be doubled up inside of
+half-an-hour. It's made of iron. 
+What now? EXAMINE GAS MASK 
+It is a complicated affair with lots of perspex and brightly coloured
+plastic. It has a tubular flap at the bottom which fits closely around the
+neck. 
+What now? U
+You are in a steep stairway its steps high and narrow, worn down by the
+passage of centuries of labouring feet. It is scrupulously clean, and every
+step has been painstakingly red-leaded and polished. 
+What now? U
+You are in a webby junction festooned with the efforts of an army of
+spiders. Their webs are thick and tangled, and cling to everything they
+touch with flaccid, clammy tendrils. They appear for the most part to be
+abandoned. 
+What now? NW
+You are in a small entrance cavern with a rough floor littered with chunks
+of rock. 
+What now? U
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? W
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? W
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some iron coins, a
+crown, a medallion, a pearl, a book, a horseshoe, a linen shirt, an axe and
+a dagger. 
+What now? DROP SWORD
+OK. 
+What now? DROP GLOVES
+OK. 
+What now? DROP SPICES
+OK. 
+What now? DROP CHAIN MAIL
+OK. 
+What now? N 
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. 
+What now? WEAR GAS MASK
+OK. 
+What now? OPEN BOX 
+The box contains a large emerald, but opening it triggers a jet of poison,
+hidden in the velvet lining, which squirts into your face! 
+Your mask saves you, the poison splashing harmlessly off its surface. 
+What now? GET EMERALD
+OK. 
+What now? DROP BOX
+OK. 
+What now? S
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some iron coins, a
+crown, a medallion, a pearl, a book, a horseshoe, rare spices, a sword,
+leather gloves, a suit of chain mail, a linen shirt, an axe and a dagger. 
+What now? DROP EMERALD
+OK. 
+What now? DROP MASK 
+OK. 
+What now? GET MASK
+OK. 
+What now? SCORE 
+You score 400 out of 1000 and are a real adventurer. You have 45 hit points
+left. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? N
+You are on a junction of several sheep tracks. The castle of Cakabol,
+rumoured to be your destination, is clearly visible in the distance. Its
+towers rise bright and tall above the plain, yet they are dwarfed by the
+mountainside into which they have been built. Dark holes and entrances pock
+the cliff face, and some have smooth, crafted edges, as though put there for
+a purpose, while from others issue little plumes of smoke. 
+What now? NE
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. You can
+see a gate of metal. 
+What now? NE
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin, silent as
+the grave but for occasional mouse-squeaks. 
+What now? E
+You are in a grand entrance hall. Its former glory has long passed by. The
+great stone columns still soar up into the vaulted roof, yet they are
+cracked now, and crumbling; and one has toppled over and lies, broken-backed
+and dusty, across the floor. Dust hangs suspended in the air, dancing in the
+sunbeams which pierce the dingy shadows of the place. 
+What now? E
+You are in a basement with oak walls, once the servants' hall, where they
+would take their meals when the work was done, having saved the best food,
+as always, for themselves. But it is silent and deserted now. 
+What now? NE 
+You are in a stinking corridor. The wooden panels and once-shiny floor seem
+to exude an all-pervading odour of decay. 
+What now? N
+You open the door and walk through. The door slams behind you. You are in a
+central area of the Great Hall, a vast room, some 120 metres long, panelled
+and beamed with golden oak-wood, blackened with the smoke from the central
+firepit. 
+ 
+At the western end of the Hall is raised the great dais where the Castellan
+and his honoured guests and family would sit on feast days, backed by a
+rich, decaying tapestry depicting the chivalric stages of a boar hunt.
+Twenty feet above the floor of the Hall, and encircling it, runs the
+minstrels' gallery, its wooden timbers uncared for now and fallen into
+disrepair; and from the ceiling, a little to one side of the smoke hole,
+hangs an old mummers' dragon, its painted leather sides cracked and peeling.
+It sways slightly, creaking quietly as it does so. A few trestle tables are
+stacked along one side of the Hall, but any chairs have long since been
+removed, and all seems to be peaceful and disused. A single sunbeam slants
+down from the smoke hole, faraway in the high roof. 
+What now? E
+You are in a far east alcove of the Great Hall where little remains of its
+former glory save dust and sunbeams and a solitary, buzzing fly. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+room of manacles, a small, windowless cell whose clammy stone walls reflect
+a cold hostility. 
+What now? E
+You are in a T-junction with an arched doorway to the east and a dismal and
+gloomy entrance to the west. 
+What now? E 
+You are on a sanctum of alchemy belonging to Nezzon the Alchemist. Most of
+her chemicals and instruments are securely locked in diamond-glass cabinets,
+but the litter of her present project is scattered haphazardly all around.
+One cabinet bears a neat array of her finished products, each labelled in
+careful hand with such legends as: "For to Banish the Nits", "To Make Whole
+the Half-hearted", and "A Sure-fire Cure for Caries". You can see pink
+pills, a chalk chunk and Nezzon the Healer. Nezzon's eyes gleam: "Goods for
+barter! Goods for trade!" she exclaims, "Many have need of my wares when
+a-questing, adventurer, so buy now while you have the chance!"
+What now? BURY NEZZON
+What now? GET PINK PILLS
+OK. 
+What now? GET CHALK
+OK. 
+What now? W
+You are in a T-junction with an arched doorway to the east and a dismal and
+gloomy entrance to the west. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. 
+What now? S
+You are in a dimly-lit room. A faint hissing noise echoes from its walls. 
+What now? E
+You are in a rough-cut crawl, obviously better suited for dachshunds than
+people. 
+What now? S
+You are in a long, low room filled with odds and ends of old toys. 
+What now? S 
+You are in a south alcove of a long, low room. 
+What now? S
+You open the door and walk through. The door slams behind you. You are in a
+small alcove with a human skeleton chained to the wall in one corner. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+stained room, its walls and floor blotched with a smelly residue that
+trickles from cracks in its northern wall. Further stains have dribbled down
+from the ceiling. 
+What now? SE
+You are on a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. 
+What now? W
+You are in a confusing cave, filled with that strange quality of light you
+get just before dawn and just after sunset, when everything seems clearly
+visible, but is really hidden in the darkness. 
+What now? W
+You are in a room without walls, bounded only by ferocious white light. 
+What now? SW
+You are on a platform above steps which plunge into murky darkness. 
+What now? NW 
+You are in a beautiful room of classic proportions, decorated in the best of
+good taste with muted, unobtrusive colours and elegant, carved-oak
+furniture. It is embellished with several fine paintings and tapestries, and
+a superb collection of hand-thrown, painted pottery. You can see Bostog the
+Dwarf. "Oh *@!!*! - Not another puling adventurer!" he thunders, "I had
+hoped for some entertainment, a few moments of refinement; perhaps a
+madrigal or two... but I get THIS!" 
+What now? PLAY DULCIMER 
+The dulcimer takes control and plays a hauntingly beautiful melody. "Ah, it
+is good to meet a mortal with some culture! Most of them are such miserably
+vulgar beings that it makes me quite depressed to think about it. Allow me
+to contribute my poor mite to your quest - even though it is bound to be
+hopeless - and tell you that there is a spell hidden in these caves which
+can turn an acorn into a bridge". Bostog's mouth writhes briefly and you
+realize that he is trying to smile, an exercise to which he is almost
+entirely unaccustomed. "I must go now", he says dejectedly. "I won't bid you
+farewell, because you probably won't. Nobody ever does in these caves". And
+he shuffles away, humming a whimsical little dirge. 
+What now? SE 
+You are on a platform above steps which plunge into murky darkness. 
+What now? WEAR MASK 
+OK. 
+What now? S 
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a watery passage: acrid water percolates down from the roof,
+leaving trails of evil-coloured residuum. 
+What now? W
+You are in a small pool of stagnant water. All kinds of debris floats on its
+surface, rank and unwholesome. 
+What now? S 
+You are by a brightly illuminated pedestal which lights up the water in this
+cave, clearly showing a hole in the north wall. Eyeless fish cluster round,
+as if they can feed on the radiance. You can see a ring. 
+What now? GET RING
+OK. 
+What now? N
+You are in a small pool of stagnant water. All kinds of debris floats on its
+surface, rank and unwholesome. 
+What now? E
+You are in a watery passage: acrid water percolates down from the roof,
+leaving trails of evil-coloured residuum. 
+What now? E
+You are in a blue, flooded cave where cerulean light slants, shimmering,
+through the silent waters; reflecting from the serene, blue-crystal walls. 
+ou are swimming easily underwater, with all the facility and skill of a
+lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? S
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a watery graveyard. A soft voice seems to whisper inside your
+head: 
+ 
+"Here is the place where the dead crabs go, 
+And mermaids play midst silent shells. 
+Here five-armed starfish feed and grow, 
+And here the Sea-Girl dwells. 
+ 
+One stormy night she sank to rest 
+Upon this God-forsaken strand. 
+Yet who can say they be not blest 
+Who sleep thus far from land? 
+ 
+Her shining spars now draped with weeds, 
+Her empty cabins dream. 
+And in her berths the pale squid feeds, 
+And old bones whitely gleam". You are swimming easily underwater, with all
+the facility and skill of a lifetime's practice. It is as if this is your
+natural element. 
+Your lamp is still alight! 
+What now? E
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a bottle-shaped cave, lit with a deep green light. You are
+swimming easily underwater, with all the facility and skill of a lifetime's
+practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? N
+You are by a cave lake where the still, dark waters lie tranquil, barely
+troubled by the currents which flow busily beneath the surface, each
+hurrying from some unknown, unseen source to its unimaginable destination.
+You are swimming easily underwater, with all the facility and skill of a
+lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? N
+You are in a period stairway. A monument to Gothic kitsch, it has stone
+balustrades carved into rampant curlicues and scrolls, gargoyles wherever
+gargoyles could conceivably be fitted in, and lattice-work wherever they
+couldn't. 
+What now? N
+You are in a confusing cave, filled with that strange quality of light you
+get just before dawn and just after sunset, when everything seems clearly
+visible, but is really hidden in the darkness. 
+What now? E
+You are on a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. 
+What now? NW 
+You are in a stained room, its walls and floor blotched with a smelly
+residue that trickles from cracks in its northern wall. Further stains have
+dribbled down from the ceiling. 
+What now? U
+You open the door and walk through. The door slams behind you. You are in a
+small alcove with a human skeleton chained to the wall in one corner. 
+What now? W
+You open the door and walk through. The door slams behind you. You are in a
+dark corridor that runs from north to south. A small inscribed door is set
+into the east wall, below an incomprehensible inscription. 
+What now? S
+You are in a semi-circular room, home to a host of woodlice. Their armoured
+bodies crisscross every surface of the room, following mysterious yet
+purposeful patterns. 
+What now? S
+You are in a cluttered office absolutely choked with the accumulation of
+years. Bulging filing-cabinets lean crazily against the walls, papers
+spilling from their half-open drawers. Rough notes and jottings are strewn
+over the desk and chairs, and the floor is covered with piles of old essays
+and manuscripts bound together with tattered red ribbons. 
+What now? S
+You are in a junction between narrow caves with no distinguishing features
+whatsoever. 
+What now? E 
+You are in a cabinet of dead wood - the traditional material for cabinets.
+Dry, brown olive leaves, (or "olivetti"), are mingled with other assorted
+woodland refuse on the floor. You can see some leaves. 
+What now? DROP MASK 
+OK. 
+What now? GET MASK
+OK. 
+What now? EXAMINE LEAVES 
+They are remarkably well-preserved, but crackle underfoot and fall to dust
+when you squeeze them between your fingers. You find an acorn. 
+What now? W
+You are in a junction between narrow caves with no distinguishing features
+whatsoever. 
+What now? N
+You are in a cluttered office absolutely choked with the accumulation of
+years. Bulging filing-cabinets lean crazily against the walls, papers
+spilling from their half-open drawers. Rough notes and jottings are strewn
+over the desk and chairs, and the floor is covered with piles of old essays
+and manuscripts bound together with tattered red ribbons. 
+What now? N
+You are in a semi-circular room, home to a host of woodlice. Their armoured
+bodies crisscross every surface of the room, following mysterious yet
+purposeful patterns. 
+What now? W
+You are in a small, high room. Like certain other parts of the castle, this
+has lain empty and unused for many years. 
+What now? SW
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? N
+You are in a long, cramped corridor. 
+What now? N
+You are in a bone room where the followers of Litter Muurdox left the Moon
+worshippers when they had finished with them. 
+What now? E
+You are in a u-shaped tunnel, dark and evil. 
+What now? NW
+You are in a winding tunnel lit by a solitary torch. 
+What now? N 
+You are in a wood-panelled library, a quiet, sunlit room, filled with the
+peaceful atmosphere that comes to such places after long and tranquil years;
+a feeling of knowledge, as though the room itself had drunk of the wisdom of
+those who used it. You can see a scroll. 
+What now? GET SCROLL
+OK. 
+What now? EXAMINE SCROLL 
+It is made of crisp new parchment and bound with a red satin ribbon. The
+writing on it is thin and spiky, and its heading reads: "A Spell for
+Chasms". 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a store vault: Really an enormous pantry, it is obviously still
+in use if only by a few, for strings of onions hang from the ceiling and
+several jars of preserves and pickles stand on the rickety shelves. You can
+see some meat. 
+What now? W
+You are in a castle kitchen. A sickly-sweet smell permeates through from the
+corridor to the north, yet the kitchen itself is clean and neat, save for a
+thick layer of grime over everything. The pots and pans hang on their hooks,
+well-ordered and only slightly tarnished. Unburnt logs lie in the great
+hearth, only needing the spark of flint and tinder to bring them to life
+again, and beside them the mighty spit stands idle. The platters are stacked
+neatly in their racks and the huge scrubbed-pine table is bare and empty. It
+is as if everyone, having finished their work, was suddenly spirited away,
+never to return - and several purple-red stains on the floor suggest that
+the spiriting was not done gently. 
+What now? N
+You are in a stinking corridor. The wooden panels and once-shiny floor seem
+to exude an all-pervading odour of decay. 
+What now? N
+You open the door and walk through. The door slams behind you. You are in a
+central area of the Great Hall, a vast room, some 120 metres long, panelled
+and beamed with golden oak-wood, blackened with the smoke from the central
+firepit. 
+ 
+At the western end of the Hall is raised the great dais where the Castellan
+and his honoured guests and family would sit on feast days, backed by a
+rich, decaying tapestry depicting the chivalric stages of a boar hunt.
+Twenty feet above the floor of the Hall, and encircling it, runs the
+minstrels' gallery, its wooden timbers uncared for now and fallen into
+disrepair; and from the ceiling, a little to one side of the smoke hole,
+hangs an old mummers' dragon, its painted leather sides cracked and peeling.
+It sways slightly, creaking quietly as it does so. A few trestle tables are
+stacked along one side of the Hall, but any chairs have long since been
+removed, and all seems to be peaceful and disused. A single sunbeam slants
+down from the smoke hole, faraway in the high roof. 
+What now? E 
+You are in a far east alcove of the Great Hall where little remains of its
+former glory save dust and sunbeams and a solitary, buzzing fly. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+room of manacles, a small, windowless cell whose clammy stone walls reflect
+a cold hostility. 
+What now? E
+You are in a T-junction with an arched doorway to the east and a dismal and
+gloomy entrance to the west. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. 
+What now? S
+You are in a dimly-lit room. A faint hissing noise echoes from its walls. 
+What now? E
+You are in a rough-cut crawl, obviously better suited for dachshunds than
+people. 
+What now? S
+You are in a long, low room filled with odds and ends of old toys. 
+What now? S
+You are in a south alcove of a long, low room. 
+What now? S 
+You open the door and walk through. The door slams behind you. You are in a
+small alcove with a human skeleton chained to the wall in one corner. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+stained room, its walls and floor blotched with a smelly residue that
+trickles from cracks in its northern wall. Further stains have dribbled down
+from the ceiling. 
+What now? SE 
+You are on a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. 
+What now? DROP ACORN
+OK. 
+What now? READ SCROLL 
+It is made of crisp new parchment and bound with a red satin ribbon. The
+writing on it is thin and spiky, and its heading reads: "A Spell for
+Chasms". As you read the scroll the acorn expands, arcing up through the
+air, across and down again, forming a bridge over the chasm. 
+What now? S 
+You are in the Helix of Het. This strange collection of room-sculptures were
+said to embody the entire history of the world; and it was through her study
+of them and her practice of the forbidden rites that Het gained her
+knowledge of things to come, and so nearly overthrew the world and all
+contained therein... You can see a bridge over the chasm. 
+What now? E
+You are in a well-trodden junction, where centuries of passing feet have
+worn runnels in the stone floor. 
+What now? S
+You are in a vacant void, very vacant and very void. 
+What now? S
+You are in a very empty cell. Not even dust is allowed in here. This cell
+likes its privacy. 
+What now? E 
+You are by a fountain abyss, edging around a narrow ledge which skirts the
+depths below. A mighty jet of water shoots up from the abyss, in a roaring
+column that drenches the ledge with icy spray. You can see a pool of acid. 
+What now? DROP CHALK 
+OK. 
+For a few moments, the pool fizzles frantically, then becomes still. The
+chalk and the acid have reacted together to form a harmless solution. 
+What now? N
+You are by a stone statue of a God, possibly Zog of Snortlenose, but nobody
+is really sure any more, because all his followers got so fed up with the
+way he kept answering their prayers by doing exactly what they said and not
+what they meant, that they became Socialists instead. Zog himself went back
+to his former profession of dreaming up new forms of pollution to sell to
+Mankind for a huge profit, and is doing very nicely, thank you. 
+What now? NW 
+You are in a stunningly fantastic chamber composed entirely of jade,
+sapphire and aquamarine, whose shimmering blues and greens fill the room
+with the rippling luminescence of an undersea grotto. You can see some
+silver bars. 
+What now? GET SILVER BARS
+OK. 
+What now? N 
+You are in a room of blinding light. You can see a fan. 
+What now? GET FAN
+OK. 
+What now? CAST ESCAPE 
+You have 44 hit points left. 
+Your spell works. You are on a grassy mound which rises a few metres above a
+sea of waving grass. The plain seems to go on for ever, broken only by three
+landmarks: a small, steeply pointed, volcanic mountain to the north; a thin,
+marble tower to the southwest; and a wide, dark forest to the east. Red
+flowers cover the mound, perfuming the air with the heady smell of magik. 
+ou can see a box. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some iron coins, a
+crown, a medallion, a pearl, an emerald, a book, a horseshoe, rare spices, a
+sword, leather gloves, a suit of chain mail, a linen shirt, an axe and a
+dagger. 
+What now? DROP SILVER BARS
+OK. 
+What now? DROP RING
+OK. 
+What now? DROP SCROLL
+OK. 
+What now? DROP FAN
+OK. 
+What now? DROP PILLS
+OK. 
+What now? SCORE 
+You score 500 out of 1000 and are a real adventurer. You have 44 hit points
+left. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. 
+What now? D
+You are in a small entrance cavern with a rough floor littered with chunks
+of rock. 
+What now? SE
+You are in a webby junction festooned with the efforts of an army of
+spiders. Their webs are thick and tangled, and cling to everything they
+touch with flaccid, clammy tendrils. They appear for the most part to be
+abandoned. 
+What now? S
+You are in a low crawl with sharp, protruding rocks hanging from the ceiling
+and impeding movement. Other stones stick up from the floor, scraping your
+knees and hands. 
+What now? E
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a dormitory cavern where grimy sleeping furs lie scattered
+haphazardly on the floor, along with piles of smelly underwear and dirty
+socks. Mice scuttle tamely over all, gnawing at the titbits they glean from
+among the tangled bedding. 
+What now? E
+You are in a secret bedroom occupied by an enormous four-poster bed with
+crimson curtains. Elegant tapestries cover the walls and a thick rug lies on
+the polished floor. A fire smoulders in the walk-in fireplace, casting red
+lights on the fine cloth which covers the table, and on the carved wooden
+chairs. The room smells of potpourri, lavender and hot spiced wine. 
+What now? SE
+You are in a long stairway which stretches away into darkness, its steps
+slick with damp and slime. The air smells heavily of decay, catching at the
+back of your throat. 
+What now? N 
+You are in a recess containing a well, its rough stone surrounds flaky with
+age and covered with dank green moss. A lid of rotting timber rests against
+it and a broken bucket lies discarded in one corner. 
+What now? WEAR MASK 
+OK. 
+What now? D 
+You lose your grip and tumble helplessly down the well. 
+You are in a well-bottom, its muddy floor oozing around your ankles. A dim
+light shines down through the water from above. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? D
+You are in a channel underground. Pallid fish with huge, blind eyes slither
+past, sparks of phosphorescence on their teeth and tails. You are swimming
+easily underwater, with all the facility and skill of a lifetime's practice.
+It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? S
+You are in a flooded cave. Strange lights glimmer in its murky depths; reds
+and yellows and greens wavering in the cold currents, like the lights of a
+far-off city seen from a great height. You are swimming easily underwater,
+with all the facility and skill of a lifetime's practice. It is as if this
+is your natural element. 
+Your lamp is still alight! 
+What now? S
+You are in a river junction where an icy current flows strongly from some
+unseen entrance, mingling with the rushing waters. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? U
+You are in a secret chamber where the waters play; burbling over rocks and
+stones and echoing down long tunnels to invisible and fathomless
+cavern-depths. Here of old, in the unseen waters of the world, did Leviathan
+spawn, and the mighty Kraken crawl, before ever they emerged to cast their
+awesome shadows upon the bright waters under the sun, and the memory of
+their passing lingers still. You are swimming easily underwater, with all
+the facility and skill of a lifetime's practice. It is as if this is your
+natural element. 
+Your lamp is still alight! 
+What now? E
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a damp stone area, The ground drops away to one side in a damp
+tumble of rocks, and phantom sounds emerge from the darkness. 
+What now? N 
+You are in a stone cell, its bare surrounds stark and menacing. Chunks of
+rusty iron protrude from the walls and floor, some still bearing the remains
+of gyves and chains. You can see a cloak. 
+What now? GET CLOAK
+OK. 
+What now? W
+You are in a secret chamber. An old table is pushed crazily against one
+wall, its surface covered with dust and cobwebs. 
+What now? S
+You are in a secret chamber where the waters play; burbling over rocks and
+stones and echoing down long tunnels to invisible and fathomless
+cavern-depths. Here of old, in the unseen waters of the world, did Leviathan
+spawn, and the mighty Kraken crawl, before ever they emerged to cast their
+awesome shadows upon the bright waters under the sun, and the memory of
+their passing lingers still. You are swimming easily underwater, with all
+the facility and skill of a lifetime's practice. It is as if this is your
+natural element. 
+Your lamp is still alight! 
+What now? E
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a damp stone area, The ground drops away to one side in a damp
+tumble of rocks, and phantom sounds emerge from the darkness. 
+What now? D
+You are in a flooded tunnel and the dark waters pound above your head, while
+little pebbles and sharp stones scour your skin. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? S 
+You are in a flooded tunnel, its cold, dark waters gurgling dully around
+your body. You can see a crowbar. You are swimming easily underwater, with
+all the facility and skill of a lifetime's practice. It is as if this is
+your natural element. 
+Your lamp is still alight! 
+What now? GET CROWBAR
+OK. 
+What now? S
+You are in a flooded tunnel, and the water holds you with fingers of ice.
+You are swimming easily underwater, with all the facility and skill of a
+lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? U
+You are in a brown corridor which runs from north to south, dipping into a
+pool of water at the southern end. 
+What now? N
+You are in a junction between narrow caves with no distinguishing features
+whatsoever. 
+What now? DROP MASK 
+OK. 
+What now? GET MASK
+OK. 
+What now? N
+You are in a cluttered office absolutely choked with the accumulation of
+years. Bulging filing-cabinets lean crazily against the walls, papers
+spilling from their half-open drawers. Rough notes and jottings are strewn
+over the desk and chairs, and the floor is covered with piles of old essays
+and manuscripts bound together with tattered red ribbons. 
+What now? N
+You are in a semi-circular room, home to a host of woodlice. Their armoured
+bodies crisscross every surface of the room, following mysterious yet
+purposeful patterns. 
+What now? W
+You are in a small, high room. Like certain other parts of the castle, this
+has lain empty and unused for many years. 
+What now? SW
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? N
+You are in a long, cramped corridor. 
+What now? N
+You are in a bone room where the followers of Litter Muurdox left the Moon
+worshippers when they had finished with them. 
+What now? W
+You are in a carved cave where Moon worshippers inscribed runes during the
+Era of Gods, to ward off the evil influence of Litter Muurdox. 
+What now? WEAR CLOAK
+OK. 
+What now? NW 
+You are in a dark junction where shadows coil; sinister tendrils of
+misbegotten night. You can see a cloaked statue. 
+What now? E 
+You are in a temple to Litter Muurdox the God of light and darkness, evil
+Lord of the Dying Sun. You can see a black ball. 
+What now? Who is the god of light and darkness]
+I don't understand what you mean by the word "who". 
+What now? GET BALL 
+OK. 
+What now? W
+You are in a dark junction where shadows coil; sinister tendrils of
+misbegotten night. You can see a cloaked statue. 
+What now? W 
+You are in a rubber room dedicated to the tired God, Dunnlop. You can see
+wellington boots. 
+What now? GET BOOTS 
+OK. 
+What now? E
+You are in a dark junction where shadows coil; sinister tendrils of
+misbegotten night. You can see a cloaked statue. 
+What now? SE
+You are in a carved cave where Moon worshippers inscribed runes during the
+Era of Gods, to ward off the evil influence of Litter Muurdox. 
+What now? DROP CLOAK 
+OK. 
+What now? GET CLOAK
+OK. 
+What now? E
+You are in a bone room where the followers of Litter Muurdox left the Moon
+worshippers when they had finished with them. 
+What now? S
+You are in a long, cramped corridor. 
+What now? S
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? S
+You are in a cramped corridor, lit by a dim, flickering light at one end,
+and blue sparks at the other. 
+What now? S 
+Zzzzzammo! A hefty electric shock sizzles through your body and you leap
+back, quivering. Coils of smoke drift up from the charred patches in your
+clothes. You are in a cramped corridor, lit by a dim, flickering light at
+one end, and blue sparks at the other. 
+What now? WEAR BOOTS
+OK. 
+What now? S 
+You are in a metal room whose floor crackles with a blue fire of
+electricity, leaving a hot, tickly smell in the air. You can see a grid. 
+What now? E 
+You are in a brackish river tunnel with greasy rivulets running down from
+the roof. You can see a crucifix. 
+What now? GET CRUCIFIX
+OK. 
+What now? W
+You are in a metal room whose floor crackles with a blue fire of
+electricity, leaving a hot, tickly smell in the air. You can see a grid. 
+What now? N
+You are in a cramped corridor, lit by a dim, flickering light at one end,
+and blue sparks at the other. 
+What now? N
+You are in a vast, lamplit circular room, almost a hundred metres across,
+the high roof could only be supported by magik. A thin layer of pink and
+blue mist covers the floor, swirling into eddies as you walk. 
+What now? N
+You are in a long, cramped corridor. 
+What now? N
+You are in a bone room where the followers of Litter Muurdox left the Moon
+worshippers when they had finished with them. 
+What now? E
+You are in a u-shaped tunnel, dark and evil. 
+What now? NW
+You are in a winding tunnel lit by a solitary torch. 
+What now? N 
+You are in a wood-panelled library, a quiet, sunlit room, filled with the
+peaceful atmosphere that comes to such places after long and tranquil years;
+a feeling of knowledge, as though the room itself had drunk of the wisdom of
+those who used it. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a store vault: Really an enormous pantry, it is obviously still
+in use if only by a few, for strings of onions hang from the ceiling and
+several jars of preserves and pickles stand on the rickety shelves. You can
+see some meat. 
+What now? W
+You are in a castle kitchen. A sickly-sweet smell permeates through from the
+corridor to the north, yet the kitchen itself is clean and neat, save for a
+thick layer of grime over everything. The pots and pans hang on their hooks,
+well-ordered and only slightly tarnished. Unburnt logs lie in the great
+hearth, only needing the spark of flint and tinder to bring them to life
+again, and beside them the mighty spit stands idle. The platters are stacked
+neatly in their racks and the huge scrubbed-pine table is bare and empty. It
+is as if everyone, having finished their work, was suddenly spirited away,
+never to return - and several purple-red stains on the floor suggest that
+the spiriting was not done gently. 
+What now? S
+You are in a cold junction between three passages. Condensation drips from
+the roof. 
+What now? NW
+You are in a basement with oak walls, once the servants' hall, where they
+would take their meals when the work was done, having saved the best food,
+as always, for themselves. But it is silent and deserted now. 
+What now? W
+You are in a grand entrance hall. Its former glory has long passed by. The
+great stone columns still soar up into the vaulted roof, yet they are
+cracked now, and crumbling; and one has toppled over and lies, broken-backed
+and dusty, across the floor. Dust hangs suspended in the air, dancing in the
+sunbeams which pierce the dingy shadows of the place. 
+What now? W
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin, silent as
+the grave but for occasional mouse-squeaks. 
+What now? SW
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. You can
+see a gate of metal. 
+What now? SW
+You are on a junction of several sheep tracks. The castle of Cakabol,
+rumoured to be your destination, is clearly visible in the distance. Its
+towers rise bright and tall above the plain, yet they are dwarfed by the
+mountainside into which they have been built. Dark holes and entrances pock
+the cliff face, and some have smooth, crafted edges, as though put there for
+a purpose, while from others issue little plumes of smoke. 
+What now? S
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. A sibilant voice hisses from nowhere, "Satarh". 
+What now? W
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? W
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a box. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some silver bars, some
+iron coins, a crown, a medallion, a pearl, an emerald, a book, a fan, a
+horseshoe, pink pills, a scroll, rare spices, a sword, leather gloves, a
+ring, a suit of chain mail, a linen shirt, an axe and a dagger. 
+What now? DROP CLOAK
+OK. 
+What now? DROP CRUCIFIX
+OK. 
+What now? DROP BOOTS
+OK. 
+What now? DROP BALL 
+The room is plunged into darkness - and for the space of seven heartbeats
+you can see nothing save the phantom images at the back of your eyes. 
+OK. 
+What now? LOOK
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some silver bars, some
+iron coins, a crown, a medallion, a pearl, an emerald, a book, a black ball,
+a fan, a horseshoe, pink pills, a scroll, rare spices, a sword, a cloak, a
+crucifix, leather gloves, a ring, a suit of chain mail, a linen shirt,
+wellington boots, an axe and a dagger. 
+What now? LIGHT LAMP
+OK! You are in a ruined stone house, scarcely more than a heap of rubble,
+though a deep alcove survives in the remains of one overgrown wall. This
+house seems an ideal place to cache your loot. You can see some silver bars,
+some iron coins, a crown, a medallion, a pearl, an emerald, a book, a black
+ball, a fan, a horseshoe, pink pills, a scroll, rare spices, a sword, a
+cloak, a crucifix, leather gloves, a ring, a suit of chain mail, a linen
+shirt, wellington boots, an axe and a dagger. 
+What now? SCORE 
+You score 500 out of 1000 and are a real adventurer. You have 44 hit points
+left. 
+What now? GET FAN
+OK. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. A sibilant voice hisses from nowhere, "Satarh". 
+What now? D 
+You are in a small entrance cavern with a rough floor littered with chunks
+of rock. 
+What now? SE
+You are in a webby junction festooned with the efforts of an army of
+spiders. Their webs are thick and tangled, and cling to everything they
+touch with flaccid, clammy tendrils. They appear for the most part to be
+abandoned. 
+What now? S
+You are in a low crawl with sharp, protruding rocks hanging from the ceiling
+and impeding movement. Other stones stick up from the floor, scraping your
+knees and hands. 
+What now? E 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a dormitory cavern where grimy sleeping furs lie scattered
+haphazardly on the floor, along with piles of smelly underwear and dirty
+socks. Mice scuttle tamely over all, gnawing at the titbits they glean from
+among the tangled bedding. 
+What now? DROP CROWBAR
+OK. 
+What now? W 
+You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. You can see a fire.
+
+What now? CAST EXTINGUISH
+You have 43 hit points left. 
+The room is plunged into darkness - and for the space of seven heartbeats
+you can see nothing save the phantom images at the back of your eyes. 
+What now? LOOK 
+You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. 
+What now? LIGHT LAMP
+OK! You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. 
+What now? E
+You are in a dormitory cavern where grimy sleeping furs lie scattered
+haphazardly on the floor, along with piles of smelly underwear and dirty
+socks. Mice scuttle tamely over all, gnawing at the titbits they glean from
+among the tangled bedding. You can see a crowbar. 
+What now? GET CROWBAR
+OK. 
+What now? W
+You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. 
+What now? U 
+You are in a chimney, filled with soot whose darkness hides a veritable
+minefield of sharp bricks and crumbling stonework. You can see a grill. 
+What now? REMOVE GRILL 
+What with? CROWBAR
+You prise the grill free and it falls down the chimney, rattling against the
+sooty sides until it lands with a dull clang, far below. 
+What now? U 
+You are in a chimney stack. Light shafts in through the uneven opening far
+above, highlighting every black smudge and stain on your clothes and skin
+and imparting a magical aura to the jagged stones. You can see a necklace. 
+What now? GET NECKLACE
+OK. 
+What now? D
+You are in a chimney, filled with soot whose darkness hides a veritable
+minefield of sharp bricks and crumbling stonework. 
+What now? D
+You are in a giant forge where a mighty fire burns white-hot, its heat
+fanned by rushing air. Weaponry and armour in various stages of completion
+litters the three great tables and hangs from the walls. 
+What now? W
+You are in a corridor of arches. Its roof is quite low and divided into a
+series of small, pointed domes. 
+What now? S
+You are in a dusty cave, lined with shelves: its floor, and every bare
+surface, covered with a layer of intermingled chaff and dust, presumably
+blown by the wind that issues from the cave beyond. 
+What now? S
+You are in a windy store room where the breeze soughs among the high stone
+beams, fluttering the tarpaulin-covered boxes and scattering clouds of dust
+and chaff, which tumble across the floor like miniature sandstorms. You can
+see a hill of beans. 
+What now? D
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a dusty store room, its shelves broken and empty, its floor bare
+of all save a thick covering of dust and chaff, which has fallen through
+from the room above. Cobwebs depend from the ceiling, tattered and
+abandoned, waving lazily in the draft. 
+What now? E
+You are in a complex junction. The mouths of tunnels dot the walls like the
+holes in cheese, but only a few of them are wide enough for you to enter. 
+What now? SE
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a treasure vault which is almost, but not quite, completely
+empty. You can see a dial and a safe. 
+What now? SW
+You are in a guardian cave. 
+What now? N 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a tiny passage. 
+What now? NW
+You are in a tiny passage. 
+What now? N
+You are in a tiny passage. 
+What now? NW
+You are in a tiny passage. 
+What now? E
+You are in a tiny passage. 
+What now? NW 
+You are in a bronze stairway with cold metal banisters and a dark and
+forbidding atmosphere. 
+What now? N
+You are in a bronze stairway, its cold steps covered with a narrow
+blue-patterned carpet grown threadbare and faded. 
+What now? U
+You are in a landing which is cool and dim and has a deep blue carpet. An
+ornate wooden chair faces the stairwell, occupied by a silent figure. You
+can see Xiiz the Wizard. Xiiz says "Go away. I'm busy."
+What now? U
+You are in a steep stairway, its marble steps polished and treacherous. 
+What now? U 
+You are in a marble tower. The smooth walls are whorled and veined with
+shades of green, red and white. 
+What now? SAY HUMAK 
+You have 42 hit points left. 
+You hear a bolt slide back with a dull "thunk". 
+What now? OPEN DOOR
+It opens. 
+What now? OUT
+The door slams behind you. You are on a plain of grass beside a marble
+tower, a near-cylinder of polished white rock: ten meters wide at the base
+and narrowing subtly near the top. It seems impossibly high. Looking
+carefully, you find the letters "Xiiz" carved into its smooth side at
+head-height. 
+What now? N
+You are on a wide, flat grassy plain, dotted here and there with clumps of
+blueberry and heather, and crisscrossed with little meandering sheep tracks.
+It has a wild and lonely smell. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a box. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some silver bars, some
+iron coins, a crown, a medallion, a pearl, an emerald, a book, a black ball,
+a horseshoe, pink pills, a scroll, rare spices, a sword, a cloak, a
+crucifix, leather gloves, a ring, a suit of chain mail, a linen shirt,
+wellington boots, an axe and a dagger. 
+What now? DROP CROWBAR
+OK. 
+What now? DROP NECKLACE
+OK. 
+What now? DROP FAN
+OK. 
+What now? SCORE 
+You score 550 out of 1000 and are a real adventurer. You have 42 hit points
+left. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints crisscross the surrounding area, joining a wide path which leads
+down into the ground. A sibilant voice hisses from nowhere, "Satarh". 
+What now? N
+You are on a junction of several sheep tracks. The castle of Cakabol,
+rumoured to be your destination, is clearly visible in the distance. Its
+towers rise bright and tall above the plain, yet they are dwarfed by the
+mountainside into which they have been built. Dark holes and entrances pock
+the cliff face, and some have smooth, crafted edges, as though put there for
+a purpose, while from others issue little plumes of smoke. 
+What now? NE
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. You can
+see a gate of metal. 
+What now? NE
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin, silent as
+the grave but for occasional mouse-squeaks. 
+What now? E
+You are in a grand entrance hall. Its former glory has long passed by. The
+great stone columns still soar up into the vaulted roof, yet they are
+cracked now, and crumbling; and one has toppled over and lies, broken-backed
+and dusty, across the floor. Dust hangs suspended in the air, dancing in the
+sunbeams which pierce the dingy shadows of the place. 
+What now? E
+You are in a basement with oak walls, once the servants' hall, where they
+would take their meals when the work was done, having saved the best food,
+as always, for themselves. But it is silent and deserted now. 
+What now? NE 
+You are in a stinking corridor. The wooden panels and once-shiny floor seem
+to exude an all-pervading odour of decay. 
+What now? N
+You open the door and walk through. The door slams behind you. You are in a
+central area of the Great Hall, a vast room, some 120 metres long, panelled
+and beamed with golden oak-wood, blackened with the smoke from the central
+firepit. 
+ 
+At the western end of the Hall is raised the great dais where the Castellan
+and his honoured guests and family would sit on feast days, backed by a
+rich, decaying tapestry depicting the chivalric stages of a boar hunt.
+Twenty feet above the floor of the Hall, and encircling it, runs the
+minstrels' gallery, its wooden timbers uncared for now and fallen into
+disrepair; and from the ceiling, a little to one side of the smoke hole,
+hangs an old mummers' dragon, its painted leather sides cracked and peeling.
+It sways slightly, creaking quietly as it does so. A few trestle tables are
+stacked along one side of the Hall, but any chairs have long since been
+removed, and all seems to be peaceful and disused. A single sunbeam slants
+down from the smoke hole, faraway in the high roof. 
+What now? E
+You are in a far east alcove of the Great Hall where little remains of its
+former glory save dust and sunbeams and a solitary, buzzing fly. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+room of manacles, a small, windowless cell whose clammy stone walls reflect
+a cold hostility. 
+What now? E
+You are in a T-junction with an arched doorway to the east and a dismal and
+gloomy entrance to the west. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. 
+What now? S
+You are in a dimly-lit room. A faint hissing noise echoes from its walls. 
+What now? D 
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a straw-strewn room, where the presence of large, striped linen
+bags and reels of cotton suggest that mattresses were made. 
+What now? S 
+You open the door and walk through. The door slams behind you. You are in a
+hospital chamber with herbs, potions and leeches. Barbaric, antediluvian
+surgical instruments are tidily displayed in wall cabinets, and one bottle
+full of leeches has fallen over and its contents escaped. Watch where you
+tread - they're squelchy!. You can see a purple potion. 
+What now? GET POTION 
+OK. 
+What now? N
+You open the door and walk through. The door slams behind you. You are in a
+straw-strewn room, where the presence of large, striped linen bags and reels
+of cotton suggest that mattresses were made. 
+What now? W
+You are in a wood-panelled library, a quiet, sunlit room, filled with the
+peaceful atmosphere that comes to such places after long and tranquil years;
+a feeling of knowledge, as though the room itself had drunk of the wisdom of
+those who used it. 
+What now? N 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall, until no mortal eye could detect its presence. 
+You are in a store vault: Really an enormous pantry, it is obviously still
+in use if only by a few, for strings of onions hang from the ceiling and
+several jars of preserves and pickles stand on the rickety shelves. You can
+see some meat. 
+What now? GET MEAT
+OK. 
+What now? W
+You are in a castle kitchen. A sickly-sweet smell permeates through from the
+corridor to the north, yet the kitchen itself is clean and neat, save for a
+thick layer of grime over everything. The pots and pans hang on their hooks,
+well-ordered and only slightly tarnished. Unburnt logs lie in the great
+hearth, only needing the spark of flint and tinder to bring them to life
+again, and beside them the mighty spit stands idle. The platters are stacked
+neatly in their racks and the huge scrubbed-pine table is bare and empty. It
+is as if everyone, having finished their work, was suddenly spirited away,
+never to return - and several purple-red stains on the floor suggest that
+the spiriting was not done gently. 
+What now? N
+You are in a stinking corridor. The wooden panels and once-shiny floor seem
+to exude an all-pervading odour of decay. 
+What now? N
+You open the door and walk through. The door slams behind you. You are in a
+central area of the Great Hall, a vast room, some 120 metres long, panelled
+and beamed with golden oak-wood, blackened with the smoke from the central
+firepit. 
+ 
+At the western end of the Hall is raised the great dais where the Castellan
+and his honoured guests and family would sit on feast days, backed by a
+rich, decaying tapestry depicting the chivalric stages of a boar hunt.
+Twenty feet above the floor of the Hall, and encircling it, runs the
+minstrels' gallery, its wooden timbers uncared for now and fallen into
+disrepair; and from the ceiling, a little to one side of the smoke hole,
+hangs an old mummers' dragon, its painted leather sides cracked and peeling.
+It sways slightly, creaking quietly as it does so. A few trestle tables are
+stacked along one side of the Hall, but any chairs have long since been
+removed, and all seems to be peaceful and disused. A single sunbeam slants
+down from the smoke hole, faraway in the high roof. 
+What now? E 
+You are in a far east alcove of the Great Hall where little remains of its
+former glory save dust and sunbeams and a solitary, buzzing fly. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+room of manacles, a small, windowless cell whose clammy stone walls reflect
+a cold hostility. 
+What now? E
+You are in a T-junction with an arched doorway to the east and a dismal and
+gloomy entrance to the west. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. 
+What now? S
+You are in a dimly-lit room. A faint hissing noise echoes from its walls. 
+What now? E
+You are in a rough-cut crawl, obviously better suited for dachshunds than
+people. 
+What now? N 
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a room of mirrors: a cube of reflective diamond-glass.
+Uncountable reflections line up into the distance, mimicking your every
+movement. You can see a bottle. As you enter, a perfect copy of yourself
+flicks into existence and advances, eyes glittering, to the attack! 
+What now? BURY REFLECTION
+What now? GET BOTTLE
+OK. 
+What now? SE
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a rough-cut crawl, obviously better suited for dachshunds than
+people. 
+What now? S
+You are in a long, low room filled with odds and ends of old toys. 
+What now? S
+You are in a south alcove of a long, low room. 
+What now? S
+You open the door and walk through. The door slams behind you. You are in a
+small alcove with a human skeleton chained to the wall in one corner. 
+What now? W
+You open the door and walk through. The door slams behind you. You are in a
+dark corridor that runs from north to south. A small inscribed door is set
+into the east wall, below an incomprehensible inscription. 
+What now? S
+You are in a semi-circular room, home to a host of woodlice. Their armoured
+bodies crisscross every surface of the room, following mysterious yet
+purposeful patterns. 
+What now? S
+You are in a cluttered office absolutely choked with the accumulation of
+years. Bulging filing-cabinets lean crazily against the walls, papers
+spilling from their half-open drawers. Rough notes and jottings are strewn
+over the desk and chairs, and the floor is covered with piles of old essays
+and manuscripts bound together with tattered red ribbons. 
+What now? S
+You are in a junction between narrow caves with no distinguishing features
+whatsoever. 
+What now? S 
+You are in a brown corridor which runs from north to south, dipping into a
+pool of water at the southern end. 
+What now? WEAR MASK 
+OK. 
+What now? D
+You are in a flooded tunnel, and the water holds you with fingers of ice. 
+ou are swimming easily underwater, with all the facility and skill of a
+lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? N
+You are in a flooded tunnel, its cold, dark waters gurgling dully around
+your body. You are swimming easily underwater, with all the facility and
+skill of a lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? N
+You are in a flooded tunnel and the dark waters pound above your head, while
+little pebbles and sharp stones scour your skin. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? U
+You are in a damp stone area, The ground drops away to one side in a damp
+tumble of rocks, and phantom sounds emerge from the darkness. 
+What now? N
+You are in a stone cell, its bare surrounds stark and menacing. Chunks of
+rusty iron protrude from the walls and floor, some still bearing the remains
+of gyves and chains. 
+What now? W
+You are in a secret chamber. An old table is pushed crazily against one
+wall, its surface covered with dust and cobwebs. 
+What now? S
+You are in a secret chamber where the waters play; burbling over rocks and
+stones and echoing down long tunnels to invisible and fathomless
+cavern-depths. Here of old, in the unseen waters of the world, did Leviathan
+spawn, and the mighty Kraken crawl, before ever they emerged to cast their
+awesome shadows upon the bright waters under the sun, and the memory of
+their passing lingers still. You are swimming easily underwater, with all
+the facility and skill of a lifetime's practice. It is as if this is your
+natural element. 
+Your lamp is still alight! 
+What now? D
+You are in a river junction where an icy current flows strongly from some
+unseen entrance, mingling with the rushing waters. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? N
+You are in a flooded cave. Strange lights glimmer in its murky depths; reds
+and yellows and greens wavering in the cold currents, like the lights of a
+far-off city seen from a great height. You are swimming easily underwater,
+with all the facility and skill of a lifetime's practice. It is as if this
+is your natural element. 
+Your lamp is still alight! 
+What now? N
+You are in a channel underground. Pallid fish with huge, blind eyes slither
+past, sparks of phosphorescence on their teeth and tails. You are swimming
+easily underwater, with all the facility and skill of a lifetime's practice.
+It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? U 
+You are in a well-bottom, its muddy floor oozing around your ankles. A dim
+light shines down through the water from above. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? FILL BOTTLE 
+OK! 
+What now? D
+You are in a channel underground. Pallid fish with huge, blind eyes slither
+past, sparks of phosphorescence on their teeth and tails. You are swimming
+easily underwater, with all the facility and skill of a lifetime's practice.
+It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? S
+You are in a flooded cave. Strange lights glimmer in its murky depths; reds
+and yellows and greens wavering in the cold currents, like the lights of a
+far-off city seen from a great height. You are swimming easily underwater,
+with all the facility and skill of a lifetime's practice. It is as if this
+is your natural element. 
+Your lamp is still alight! 
+What now? S
+You are in a river junction where an icy current flows strongly from some
+unseen entrance, mingling with the rushing waters. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? U
+You are in a secret chamber where the waters play; burbling over rocks and
+stones and echoing down long tunnels to invisible and fathomless
+cavern-depths. Here of old, in the unseen waters of the world, did Leviathan
+spawn, and the mighty Kraken crawl, before ever they emerged to cast their
+awesome shadows upon the bright waters under the sun, and the memory of
+their passing lingers still. You are swimming easily underwater, with all
+the facility and skill of a lifetime's practice. It is as if this is your
+natural element. 
+Your lamp is still alight! 
+What now? E
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a damp stone area, The ground drops away to one side in a damp
+tumble of rocks, and phantom sounds emerge from the darkness. 
+What now? D
+You are in a flooded tunnel and the dark waters pound above your head, while
+little pebbles and sharp stones scour your skin. You are swimming easily
+underwater, with all the facility and skill of a lifetime's practice. It is
+as if this is your natural element. 
+Your lamp is still alight! 
+What now? S
+You are in a flooded tunnel, its cold, dark waters gurgling dully around
+your body. You are swimming easily underwater, with all the facility and
+skill of a lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? S
+You are in a flooded tunnel, and the water holds you with fingers of ice.
+You are swimming easily underwater, with all the facility and skill of a
+lifetime's practice. It is as if this is your natural element. 
+Your lamp is still alight! 
+What now? U
+You are in a brown corridor which runs from north to south, dipping into a
+pool of water at the southern end. 
+What now? N
+You are in a junction between narrow caves with no distinguishing features
+whatsoever. 
+What now? N
+You are in a cluttered office absolutely choked with the accumulation of
+years. Bulging filing-cabinets lean crazily against the walls, papers
+spilling from their half-open drawers. Rough notes and jottings are strewn
+over the desk and chairs, and the floor is covered with piles of old essays
+and manuscripts bound together with tattered red ribbons. 
+What now? N 
+You are in a semi-circular room, home to a host of woodlice. Their armoured
+bodies crisscross every surface of the room, following mysterious yet
+purposeful patterns. 
+What now? DROP MASK 
+OK. 
+What now? GET MASK
+OK. 
+What now? N
+You are in a dark corridor that runs from north to south. A small inscribed
+door is set into the east wall, below an incomprehensible inscription. 
+What now? E
+You open the door and walk through. The door slams behind you. You are in a
+small alcove with a human skeleton chained to the wall in one corner. 
+What now? D
+You open the door and walk through. The door slams behind you. You are in a
+stained room, its walls and floor blotched with a smelly residue that
+trickles from cracks in its northern wall. Further stains have dribbled down
+from the ceiling. 
+What now? SE
+You are on a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. You can see a bridge over the chasm. 
+What now? W
+You are in a confusing cave, filled with that strange quality of light you
+get just before dawn and just after sunset, when everything seems clearly
+visible, but is really hidden in the darkness. 
+What now? W
+You are in a room without walls, bounded only by ferocious white light. 
+What now? NW 
+You are in a wide armory, stripped of most of its weapons. Suits of ancient
+armour mounted on iron crosses stand around the room, their links and
+metalwork rusty and crumbling, their helmets, perched above them, dinted and
+useless. Only a few broken swords and bent spears remain in the weapon
+racks. You can see a shield. 
+What now? GET SHIELD
+OK. 
+What now? E 
+You are in a cubbyhole, a mean, cramped place that smells of damp and
+misery. You can see Kellf the human. Kellf is dying of thirst! 
+What now? GIVE BOTTLE 
+Kellf gulps the drink down in one long swallow. His thirst quenched, he
+thanks you gravely, and to repay you tells you that he has heard a rumour
+that mummies can only be slain by magic. Then, thanking you again, he takes
+his leave and shambles away. 
+What now? CAST ESCAPE 
+You have 41 hit points left. 
+Your spell works. You are on a grassy mound which rises a few metres above a
+sea of waving grass. The plain seems to go on for ever, broken only by three
+landmarks: a small, steeply pointed, volcanic mountain to the north; a thin,
+marble tower to the southwest; and a wide, dark forest to the east. Red
+flowers cover the mound, perfuming the air with the heady smell of magik. 
+ou can see a box. 
+What now? DROP POTION
+OK. 
+What now? S
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some silver bars, some
+iron coins, a crown, a medallion, a necklace, a pearl, an emerald, a book, a
+black ball, a fan, a horseshoe, pink pills, a scroll, rare spices, a sword,
+a cloak, a crucifix, leather gloves, a ring, a suit of chain mail, a linen
+shirt, wellington boots, an axe, a crowbar and a dagger. 
+What now? DROP TUBING
+OK. 
+What now? DROP FLASK
+OK. 
+What now? DROP MASK
+OK. 
+What now? DROP SHIELD
+OK. 
+What now? SCORE 
+You score 600 out of 1000 and are a senior Adventurer. You have 41 hit
+points left. 
+What now? GET CRUCIFIX
+OK. 
+What now? GET FAN
+OK. 
+What now? GET PILLS
+OK. 
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a purple
+potion and a box. 
+What now? CAST ESCAPE 
+You have 40 hit points left. 
+Your spell works. You are in a cubbyhole, a mean, cramped place that smells
+of damp and misery. 
+What now? W
+You are in a wide armory, stripped of most of its weapons. Suits of ancient
+armour mounted on iron crosses stand around the room, their links and
+metalwork rusty and crumbling, their helmets, perched above them, dinted and
+useless. Only a few broken swords and bent spears remain in the weapon
+racks. 
+What now? SE
+You are in a room without walls, bounded only by ferocious white light. 
+What now? SW
+You are on a platform above steps which plunge into murky darkness. 
+What now? NW
+You are in a beautiful room of classic proportions, decorated in the best of
+good taste with muted, unobtrusive colours and elegant, carved-oak
+furniture. It is embellished with several fine paintings and tapestries, and
+a superb collection of hand-thrown, painted pottery. 
+What now? N 
+You are in a cave of sloping slabs where some cataclysmic force has cloven
+the blue-grey slate of roof and walls and upraised the floor into jagged
+plates and pyramids. You can see the Grasper. 
+What now? BURY GRASPER
+What now? N 
+You are in a crypt of evil mist where nonmort worshippers gather for their
+evil rites. Open coffins are stacked against the walls and a foul miasma of
+rottenness rises from their mouths. You can see Mandana the Vampire. The
+vampire cowers back, held at bay and unable to attack because of the
+crucifix. 
+What now? NE
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a peculiarly-shaped room whose dimensions are hard to pin down. 
+What now? N
+You are in a tilted room. Everything leans at a crazy angle: floor, walls,
+ceiling - even the squat stone seats are distorted. The whole effect is
+eye-wrenching; it is impossible to judge the perspective of the place. 
+What now? NW
+You are in a carved cave lit from the north by a dull, red light. 
+What now? N 
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a tomb of an avatar of Litter Muurdox, lord of light and
+darkness. An inscription set in the west wall reads "And Muurdox shall be
+with you always, for he sends messages from the sky". The room is lit by
+strange globes fastened high upon the walls, giving off a brilliant, ruddy
+light. You can see a sarcophagus. 
+What now? SAY OBIS 
+You have 39 hit points left. 
+The sarcophagus creaks open, to reveal a well-preserved mummy, wrapped in
+ancient cerecloths, with a brooch lying upon its breast. 
+What now? SAY OLLABIN 
+You have 38 hit points left. 
+The mummy's body seems to slump, then it collapses into itself and crumbles
+away, until only a pile of dust is left. 
+What now? GET BROOCH
+OK. 
+What now? E 
+You are in a Sun Temple to Litter Muurdox, built by evil yellow elves in
+times past; its power protected by cunning warding spells. It has one huge
+window, which is set into the curving wall at such an angle that the light
+of the setting sun would be cast upon the altar. You can see a raisin. 
+What now? GET RAISIN
+OK. 
+What now? S
+You are in a cave of ice, abode of the evil wizard, Aiken Bonze. Freezing
+air blasts down from above, sending tremors through the columns of ice that
+link ceiling and floor. Each one vibrates with a different note, and their
+foul voices rise together in excruciating harmony. 
+What now? NE
+You are in a room with cool walls but a warm floor. Steam rises through
+cracks in the floor and condenses when it meets the freezing air above. The
+result is most unpleasant. 
+What now? S
+You are in a room of sparkling rock, whose purpose remains a total mystery
+to one and all. 
+What now? S 
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a debris pile where slides of fallen debris have accumulated. 
+What now? INSERT PILLS 
+Carefully, you conceal the pills in the meat. 
+What now? E 
+You are in a stone kennel south of an impressive door on which is engraved
+in spidery letters the legend: "Cave Canum". You can see the Watchdog. 
+What now? GIVE MEAT TO DOG 
+The dog wolfs the meat down as if it hasn't had a decent meal in weeks. 
+Seconds later it dies. And quite right too - there are far too many dogs
+around, and owners never clean up after their pests. 
+What now? OPEN DOOR
+It opens. 
+What now? N
+As the door closes, it merges invisibly with the wall, until no mortal eye
+could detect its presence. 
+You are in a smoke-filled room which makes your eyes water and hurts your
+nose. 
+What now? E
+You are on a bridge over a sea of flames within a crystal cavern. Heat
+reflects from every gleaming wall. Four fragile walkways arc through the
+shimmering air to meet at a tiny platform, supported high in the dead centre
+of the cave. Gouts of glowing magma jet upwards, splashing onto the rocks
+all around before falling back into the liquid fire below. The noise and
+vibration are terrifying, but the central platform where you stand is
+clearly protected by powerful magik and is probably safe. 
+What now? S 
+You are in a red room, decorated entirely in shades of red. You can see a
+thin red line on the floor. As you enter, a demonic voice hisses, "Be
+warned, human, for I shall slay anyone who crosses this line!"
+What now? I must kill anyone who crosses the line on the floor"]
+I don't understand what you mean by the word "must". 
+What now? ERASE LINE 
+You erase the line in a choking of red chalk dust. 
+What now? S
+You open the door and walk through. The door slams behind you. You are in a
+room with many doors which all look exactly the same. 
+What now? E 
+You open the door and walk through. The door slams behind you. You are
+surrounded by thousands of brilliant flashing lights, which dazzle your eyes
+and effectively blind you. 
+What now? CAST EXTINGUISH 
+You have 37 hit points left. 
+The room is plunged into darkness - and for the space of seven heartbeats
+you can see nothing save the phantom images at the back of your eyes. 
+What now? LOOK
+You are in a room of flashing lights. Multicoloured squares cover the floor,
+flickering hypnotically round your feet as distorted sound booms out. 
+What now? E 
+You are on a vault containing a great pedestal. It must be the central vault
+of Cakabol. You can see the Moon Crystal of Baskalos. 
+What now? GET MOON CRYSTAL 
+As you pick up the crystal, two dragons appear from the side rooms. They
+lumber crabwise across the floor and circle you menacingly, cutting off any
+escape. 
+What now? WAVE FAN 
+This must be a magical fan, for a few gentle waves call forth a howling
+gale, which whistles round the room! 
+And blows the dragons' fire back at them, enveloping them in a sea of
+flames. Through the conflagration, you can just make out their bulky figures
+staggering backwards. 
+What now? W
+You are in a room of flashing lights. Multicoloured squares cover the floor,
+flickering hypnotically round your feet as distorted sound booms out. 
+What now? W
+You open the door and walk through. The door slams behind you. You are in a
+room with many doors which all look exactly the same. 
+What now? N
+You open the door and walk through. The door slams behind you. It's dark. 
+What now? LIGHT LAMP
+OK! You are in a red room, decorated entirely in shades of red. 
+What now? N
+You are on a bridge over a sea of flames within a crystal cavern. Heat
+reflects from every gleaming wall. Four fragile walkways arc through the
+shimmering air to meet at a tiny platform, supported high in the dead centre
+of the cave. Gouts of glowing magma jet upwards, splashing onto the rocks
+all around before falling back into the liquid fire below. The noise and
+vibration are terrifying, but the central platform where you stand is
+clearly protected by powerful magik and is probably safe. 
+What now? N
+You are in a yellow sulphur room, carved out of solid volcanic sulphur.
+Steam escaping from the room next door swirls around its upper reaches,
+mingling with other gases that vent themselves from numerous small holes,
+the whole poisonous mixture finally escaping through a hole in the high
+ceiling. 
+What now? U
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a yellow hole, its sides streaked with sulphurous deposits and
+tumescent crystals. It reeks with the bad-egg smell of volcanic gases, and
+acrid fumes sear your nose and lungs. 
+What now? D
+You slide helplessly down a precipitate chute, which closes tightly behind
+you. 
+You are in a volcano crater covered by shattered black rocks. The ground
+seems to tremble slightly and there is a whiff of sulphur in the air. 
+What now? S
+You are on a crater rim towering high above the landscape. Sulphurous fumes
+swirl past. 
+What now? SE
+You are on a rocky path up a volcano peak, zigzagging between leaning
+pillars of jagged lava. The ground is sharp beneath your feet, like dirty
+grey coral. 
+What now? SE
+You are on a stony path across dry cinders and ashes, which puff into the
+air and swirl lazily around your ankles. 
+What now? SE
+You are on a steep rock slide which tumbles down in a river of shattered
+rock from the soaring precipices above. 
+What now? S
+You are on a wide, flat grassy plain, baked by the yellow sun. 
+What now? W 
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide, dark forest to the east. Red flowers cover the
+mound, perfuming the air with the heady smell of magik. You can see a purple
+potion and a box. 
+What now? GET POTION
+OK. 
+What now? DRINK POTION 
+You feel stronger. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. You can see some silver bars, some
+iron coins, a crown, a medallion, a necklace, a pearl, an emerald, a book, a
+black ball, a horseshoe, a scroll, rare spices, a sword, a cloak, leather
+gloves, a ring, a shield, a suit of chain mail, a linen shirt, wellington
+boots, a gas mask, a flask, some tubing, an axe, a crowbar and a dagger.
+Congratulations! You have completed your quest, restored the Red Moon, and
+saved the Kingdom of Baskalos! 
+You score 1000 out of 1000 and are a grandmaster Adventurer. You have 50 hit
+points left. 
+ 
+Do you want to go on to The Price Of Magik? 
+Game Terminated

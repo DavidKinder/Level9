@@ -1,0 +1,1413 @@
+Welcome to the Price of Magik, copyright (C) 1986 from Level 9. 
+You're on a winding drive outside a magnificent front door. Exits are west
+to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? 
+Playing back input from script file.
+#SEED 42
+QUIT
+Really restart? YES
+Press space. 
+Welcome to the Price of Magik, copyright (C) 1986 from Level 9. 
+You're on a winding drive outside a magnificent front door. Exits are west
+to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? #SEED 42
+W 
+You're in a woodshed in the swamp. Exits are east to a winding drive and
+west to a herb garden. You can see a candle and a woodpile. 
+What now? EXAMINE WOODPILE 
+Ready for a fire. Underneath it is something nasty. 
+What now? EXAMINE NASTY 
+The nasty oozes away. 
+Your sanity is shaken. 
+What now? GET CANDLE
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE CANDLE 
+Tallow. It's burning weakly. 
+What now? LIGHT WOODPILE 
+The woodpile burns. 
+What now? EXTINGUISH CANDLE 
+The candle goes out. 
+What now? GET ASHES
+Taken. 
+Your sanity is shaken. 
+What now? W 
+You're on a herb garden. An exit leads east to a woodshed. You can see an
+elder cross, a mandrake and some eyebright. 
+What now? TAKE ALL 
+Eyebright: taken. 
+Mandrake: the mandrake screams. Continue? YES 
+Things fall from around its roots. 
+Skull: taken. 
+Knucklebone: taken. 
+Elder cross: taken. 
+Your sanity is shaken. 
+What now? EXAMINE ALL 
+Eyebright: rub it into your eyes. 
+Mandrake: a vile weed. 
+Skull: human. 
+Knucklebone: human. Around it is a ring. 
+Ashes: ordinary. 
+Candle: tallow. 
+Elder cross: wooden. 
+What now? EXAMINE RING 
+With a diamond. 
+What now? DROP MANDRAKE
+Dropped. 
+What now? REMOVE RING FROM KNUCKLEBONE
+OK. 
+What now? DROP KNUCKLEBONE
+Dropped. 
+What now? DROP SKULL
+Dropped. 
+What now? E
+You're in a woodshed in the swamp. Exits are east to a winding drive and
+west to a herb garden. 
+What now? E
+You're on a winding drive outside a magnificent front door. Exits are west
+to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? U 
+You're on a vine. Exits are upwards to a vine and downwards to a winding
+drive. 
+What now? U
+You're on a vine. Exits are upwards to the vine top and downwards to a vine.
+
+What now? U 
+You're on the vine top. Exits are upwards to a sloping roof and downwards to
+a vine. 
+What now? U 
+You're on a sloping roof. Exits are upwards to a roof and downwards to the
+vine top. 
+What now? U
+You're on a roof. Exits are west to the east attic and downwards to a
+sloping roof. 
+What now? RUB EYEBRIGHT INTO EYES
+You can see better. 
+You're on a roof. Exits are west to the east attic and downwards to a
+sloping roof. 
+What now? W 
+You're in the east attic. Exits are north to a shadowy alcove, east to a
+roof and west to the west attic. You can see a mirror. Your sanity is
+shaken. 
+What now? N
+You're in a shadowy alcove. An exit leads south to the east attic. You can
+see a wardrobe. There's a feeling of magik. Your sanity is shaken. 
+What now? EXAMINE WARDROBE
+Mahogany. In it are some robes. 
+What now? GET ROBES
+Taken. 
+What now? WEAR ROBES
+Worn. 
+What now? S 
+You're in the east attic. Exits are north to a shadowy alcove, east to a
+roof and west to the west attic. You can see a mirror. 
+What now? CUT MIRROR WITH DIAMOND
+You cut out a circle. 
+What now? GET SMALL MIRROR
+Taken. 
+Your sanity is shaken. 
+What now? LOOK 
+You're in the east attic. Exits are north to a shadowy alcove, east to a
+roof, south to a recess and west to the west attic. 
+What now? S 
+You're in a recess. An exit leads north to the east attic. You can see a
+prism. 
+What now? GET PRISM
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE PRISM 
+Inscribed XAM. 
+Your sanity is shaken. 
+What now? N
+You're in the east attic. Exits are north to a shadowy alcove, east to a
+roof, south to a recess and west to the west attic. 
+What now? W
+You're in the west attic. Exits are east to the east attic and southwest to
+the attic exit. You can see a cage. 
+What now? GET CAGE 
+Taken. 
+What now? SW
+You're in the attic exit. Exits are northeast to the west attic, southeast
+to an office and west to a landing. 
+What now? SE 
+You're in an office. An exit leads northwest to the attic exit. You can see
+a table. 
+What now? EXAMINE TABLE 
+Inscribed MAD. On it is a scroll and a knife. 
+Your sanity is shaken. 
+What now? GET SCROLL
+Taken. 
+What now? GET KNIFE
+Taken. 
+What now? READ SCROLL 
+CAST spell,
+CAST spell AT target,
+or CAST spell direction.. 
+Your sanity is shaken. 
+What now? NW
+You're in the attic exit. Exits are northeast to the west attic, southeast
+to an office and west to a landing. 
+What now? NE
+You're in the west attic. Exits are east to the east attic and southwest to
+the attic exit. 
+What now? E
+You're in the east attic. Exits are north to a shadowy alcove, east to a
+roof, south to a recess and west to the west attic. 
+What now? E 
+You're on a roof. Exits are west to the east attic and downwards to a
+sloping roof. 
+What now? D 
+You're on a sloping roof. Exits are upwards to a roof and downwards to the
+vine top. 
+What now? D
+You're on the vine top. Exits are upwards to a sloping roof and downwards to
+a vine. 
+What now? D
+You're on a vine. Exits are upwards to the vine top and downwards to a vine.
+
+What now? D
+You're on a vine. Exits are upwards to a vine and downwards to a winding
+drive. 
+What now? D 
+You're on a winding drive outside a magnificent front door. Exits are west
+to a woodshed, upwards to a vine and in through a door. You can see a vine. 
+What now? CUT VINE 
+You cut a staff. 
+What now? GET STAFF
+Taken. 
+Your sanity is shaken. 
+What now? KNOCK DOOR
+OK. 
+You hear noises. 
+What now? OPEN DOOR
+OK. 
+The noises are louder. 
+What now? IN 
+The door closes behind you. 
+You're in an entrance hall. Exits are west to a passage, northwest to an
+entrance hall and outside through a door. You can see a postcard. The noises
+die away. 
+What now? EXAMINE POSTCARD 
+From Transylvania. 
+What now? NW
+You're in an entrance hall. Exits are north to an alcove, northeast to an
+elm corridor, east to a broom cupboard, southeast to an entrance hall and
+northwest to tentacles. You can see a grandmother clock. The clock goes BOM.
+Your sanity is shaken. 
+What now? EXAMINE CLOCK
+Antique. The time is 6: 2 am. In it is a pendulum. 
+What now? GET PENDULUM
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE PENDULUM 
+Inscribed DOW. 
+Your sanity is shaken. 
+What now? WAIT 
+Time passes. 
+What now? E 
+You're in a broom cupboard. An exit leads west to an entrance hall. You can
+see a broom. 
+What now? GET BROOM
+Taken. 
+A clock strikes nearby. Your sanity is shaken. 
+What now? W
+You're in an entrance hall. Exits are north to an alcove, northeast to an
+elm corridor, east to a broom cupboard, southeast to an entrance hall and
+northwest to tentacles. You can see a grandmother clock. 
+What now? SE
+You're in an entrance hall. Exits are west to a passage, northwest to an
+entrance hall and outside through a door. You can see a postcard. 
+What now? W
+You're in a passage. Exits are east to an entrance hall and west to a
+rock-walled room. 
+What now? W
+You're in a rock-walled room. Exits are east to a passage, south to a
+scullery and northwest to a yellow river. You can see a picture. 
+What now? NW
+You're on a yellow river. Exits are north to a junction, south to a slime
+slide and southeast to a rock-walled room. 
+What now? N
+You're in a junction. Exits are north to a better hole, northeast to an
+anti-chapel and south to a yellow river. 
+What now? NE
+You're in an anti-chapel. Exits are north to an anti-alcove, south to
+tentacles and southwest to a junction. There's a feeling of magik. 
+What now? N 
+You're in an anti-alcove. An exit leads south to an anti-chapel. You can see
+an altar. On it is a red moon. There's a feeling of magik. 
+What now? TOUCH MOON 
+You're young again! 
+What now? S
+You're in an anti-chapel. Exits are north to an anti-alcove, south to
+tentacles and southwest to a junction. There's a feeling of magik. 
+What now? SW
+You're in a junction. Exits are north to a better hole, northeast to an
+anti-chapel and south to a yellow river. 
+What now? N
+You're in a better hole. Exits are north to a hole and south to a junction. 
+What now? N
+You're in a hole. Exits are south to a better hole and upwards to a
+stairway. 
+What now? UP
+You're in a stairway. Exits are east to an oak panelled corridor, upwards to
+a landing and downwards to a hole. 
+What now? E
+You're in an oak panelled corridor. Exits are north to a misty corridor,
+southeast to an oak panelled corridor and west to a stairway. 
+What now? N
+You're in a misty corridor. There's a feeling of magik. 
+What now? NE
+You're in a marble hall. Exits are northeast to a roof garden, southwest to
+a misty corridor and west to a once good room. 
+What now? NE 
+You're on a roof garden. Exits are southeast to a table room, southwest to a
+marble hall and northwest to the north tower. You can see a valerian plant
+and a wolfsbane plant. 
+What now? GET VALERIAN
+Taken. 
+Your sanity is shaken. 
+What now? EXAMINE VALERIAN 
+A magik herb. 
+What now? GET WOLFSBANE
+Taken. 
+What now? NW
+You're in the north tower. An exit leads southeast to a roof garden. You can
+see a rope. There's a feeling of magik. 
+What now? UP 
+Ding dong! 
+You're in a belfry. An exit leads downwards to the north tower. You can see
+a bat and a bell. The bat peeps. You hear noises. 
+What now? GET BAT
+Taken. 
+The noises are louder. 
+What now? EXAMINE BELL 
+. 
+A nameless horror oozes past! Your sanity is shaken. 
+What now? D
+You're in the north tower. An exit leads southeast to a roof garden. You can
+see a rope. There's a feeling of magik. The bat bares its teeth. 
+What now? SE
+You're on a roof garden. Exits are southeast to a table room, southwest to a
+marble hall and northwest to the north tower. The bat scratches. 
+What now? SE
+You're in a table room. Exits are southwest to a little landing and
+northwest to a roof garden. You can see a wargame. The bat peeps. 
+What now? EXAMINE WARGAME 
+Showing the past. 
+The bat bares its teeth. 
+What now? SW
+You're in a little landing. Exits are northeast to a table room, south to a
+musty hall, southwest to the pentagonal room and west to below a huge
+gallows. The bat scratches. 
+What now? W
+You're in below a huge gallows. Exits are east to a little landing and west
+to a misty corridor. There's a feeling of magik. The bat peeps. 
+What now? W
+You're in a misty corridor. There's a feeling of magik. You trip over a
+wheel. The bat bares its teeth. 
+What now? DROP BAT 
+Dropped. 
+What now? CAST HYP AT BAT
+The bat looks expectant. 
+You trip over a wheel. It scratches. Your sanity is shaken. 
+What now? BAT TAKE WHEEL 
+The bat gets you the wheel. 
+What now? GET WHEEL
+Taken. 
+The bat peeps. Your sanity is shaken. 
+What now? GET BAT
+Taken. 
+What now? S
+You're in an oak panelled corridor. Exits are north to a misty corridor,
+southeast to an oak panelled corridor and west to a stairway. The bat bares
+its teeth. 
+What now? SE 
+You're in an oak panelled corridor. Exits are north to the pentagonal room,
+south to a white wood corridor and northwest to an oak panelled corridor. 
+What now? PUSH PANEL 
+The panels swing back. 
+What now? LOOK 
+You're in an oak panelled corridor. Exits are north to the pentagonal room,
+east to a store room, south to a white wood corridor and northwest to an oak
+panelled corridor. The bat scratches. 
+What now? E 
+You're in a store room. An exit leads west to an oak panelled corridor. You
+can see a lever and a sword point. The bat peeps. 
+What now? EXAMINE SWORD 
+Sticks up through the floor. 
+The bat bares its teeth. The existing HYP spell wears off. 
+What now? PULL LEVER 
+The sword drops away. 
+The bat scratches. 
+What now? W
+You're in an oak panelled corridor. Exits are north to the pentagonal room,
+east to a store room, south to a white wood corridor and northwest to an oak
+panelled corridor. The bat peeps. 
+What now? S
+You're in a white wood corridor. Exits are north to an oak panelled
+corridor, east to a store room, southwest to an arched corridor and
+northwest to an old sea room. The bat bares its teeth. 
+What now? E 
+You're in a store room. An exit leads west to a white wood corridor. You can
+see a shovel. The bat scratches. 
+What now? GET SHOVEL
+Taken. 
+What now? W
+You're in a white wood corridor. Exits are north to an oak panelled
+corridor, east to a store room, southwest to an arched corridor and
+northwest to an old sea room. The bat peeps. 
+What now? NW
+You're in an old sea room. Exits are southeast to a white wood corridor and
+southwest to a cellar. The bat bares its teeth. 
+What now? SW 
+You're in a cellar. An exit leads northeast to an old sea room. You can see
+some chests. 
+What now? EXAMINE CHESTS 
+The chests are coloured black, brown, red, orange, yellow, green, blue,
+violet, grey and white. 
+The bat scratches. 
+What now? CAST DOW AT BLUE CHEST 
+The pendulum swings. 
+Your sanity is shaken. 
+What now? OPEN BLUE CHEST
+OK. 
+The bat peeps. Your sanity is shaken. 
+What now? EXAMINE BLUE CHEST
+In it is a pinch of salt. 
+The bat bares its teeth. 
+What now? GET SALT
+Taken. 
+What now? NE
+You're in an old sea room. Exits are southeast to a white wood corridor and
+southwest to a cellar. The bat scratches. 
+What now? SE
+You're in a white wood corridor. Exits are north to an oak panelled
+corridor, east to a store room, southwest to an arched corridor and
+northwest to an old sea room. The bat peeps. 
+What now? SW 
+You're in an arched corridor. Exits are northeast to a white wood corridor
+and west to a dead end. You can see an inscription on the ceiling. The bat
+bares its teeth. 
+What now? CAST FLY AT ME 
+You float upwards. 
+The bat scratches. Your sanity is shaken. 
+What now? READ INSCRIPTION 
+Reads HYP. 
+The bat peeps. Your sanity is shaken. 
+What now? WAIT 
+Time passes. The bat bares its teeth. The existing FLY spell wears off. 
+What now? NE
+You're in a white wood corridor. Exits are north to an oak panelled
+corridor, east to a store room, southwest to an arched corridor and
+northwest to an old sea room. 
+What now? N
+You're in an oak panelled corridor. Exits are north to the pentagonal room,
+east to a store room, south to a white wood corridor and northwest to an oak
+panelled corridor. 
+What now? N
+You're in the pentagonal room. Exits are northeast to a little landing and
+south to an oak panelled corridor. There's a feeling of magik. The bat
+scratches. 
+What now? NE
+You're in a little landing. Exits are northeast to a table room, south to a
+musty hall, southwest to the pentagonal room and west to below a huge
+gallows. The bat peeps. 
+What now? S 
+You're in a musty hall. Exits are north to a little landing and east to a
+spiral stair. You can see a tapestry. 
+What now? EXAMINE TAPESTRY 
+Showing a healer. 
+The bat bares its teeth. 
+What now? E
+You're in a spiral stair. Exits are west to a musty hall and downwards to an
+alcove. 
+What now? D
+You're in an alcove. Exits are west to a hall and upwards to a spiral stair.
+
+What now? W
+You're in a hall. Exits are east to an alcove and northwest to a bone
+chamber. You can see a picture. The bat scratches. 
+What now? NW 
+You're in a bone chamber. Exits are east to a rest room, south to a rough
+tunnel, southeast to a hall and west to an echoing crypt. You can see some
+bones. There's a feeling of magik. The bat peeps. 
+What now? GET BONES
+Taken. 
+What now? EXAMINE BONES 
+Human. 
+What now? S
+You're in a rough tunnel. Exits are north to a bone chamber and southeast to
+a panelled corridor. The bat bares its teeth. 
+What now? SE
+You're in a panelled corridor. Exits are south to an elm corridor and
+northwest to a rough tunnel. You can see a sword. The bat scratches. 
+What now? GET SWORD
+Taken. 
+The bat peeps. 
+What now? EXAMINE SWORD 
+Sharp. 
+What now? S 
+You're in an elm corridor. Exits are north to a panelled corridor, east to a
+cupboard and southwest to an entrance hall. You can see a werewolf. It
+grinds its teeth. 
+What now? SW
+You're in an entrance hall. Exits are north to an alcove, northeast to an
+elm corridor, east to a broom cupboard, southeast to an entrance hall and
+northwest to tentacles. You can see a grandmother clock. The bat scratches. 
+What now? SE
+You're in an entrance hall. Exits are west to a passage, northwest to an
+entrance hall and outside through a door. You can see a postcard. The bat
+peeps. A clock strikes nearby. 
+What now? OPEN DOOR
+OK. 
+The bat bares its teeth. 
+What now? OUT
+The door closes behind you. 
+You're on a winding drive outside a magnificent front door. Exits are west
+to a woodshed, upwards to a vine and in through a door. You can see a vine.
+The bat scratches. 
+What now? W
+You're in a woodshed in the swamp. Exits are east to a winding drive and
+west to a herb garden. The bat peeps. 
+What now? W 
+You're on a herb garden. An exit leads east to a woodshed. You can see a
+knucklebone, a skull and a mandrake. The bat bares its teeth. 
+What now? GET SKULL
+Taken. 
+The bat scratches. 
+What now? GET KNUCKLEBONE
+Taken. 
+The bat peeps. 
+What now? BURY BONES
+OK. You dig a little hole. You throw it into the hole. You fill it again. A
+ghost appears. It says, "I thank thee, but the job is yet undone". 
+What now? BURY SKULL
+OK. You dig a little hole. You throw it into the hole. You fill it again. A
+ghost appears. It says, "I thank thee, but the job is yet undone". 
+What now? BURY KNUCKLEBONE 
+OK. You dig a little hole. You throw it into the hole. You fill it again. A
+ghost appears. It says, "Now I can rest". 
+What now? E
+You're in a woodshed in the swamp. Exits are east to a winding drive and
+west to a herb garden. The bat bares its teeth. 
+What now? E
+You're on a winding drive outside a magnificent front door. Exits are west
+to a woodshed, upwards to a vine and in through a door. You can see a vine.
+The bat scratches. 
+What now? OPEN DOOR
+OK. 
+The bat peeps. 
+What now? IN
+The door closes behind you. 
+You're in an entrance hall. Exits are west to a passage, northwest to an
+entrance hall and outside through a door. You can see a postcard. 
+What now? NW
+You're in an entrance hall. Exits are north to an alcove, northeast to an
+elm corridor, east to a broom cupboard, southeast to an entrance hall and
+northwest to tentacles. You can see a grandmother clock. 
+What now? NE
+You're in an elm corridor. Exits are north to a panelled corridor, east to a
+cupboard and southwest to an entrance hall. You can see a werewolf. It
+grinds its teeth. A clock strikes nearby. 
+What now? N
+You're in a panelled corridor. Exits are south to an elm corridor and
+northwest to a rough tunnel. 
+What now? NW
+You're in a rough tunnel. Exits are north to a bone chamber and southeast to
+a panelled corridor. The bat scratches. 
+What now? N
+You're in a bone chamber. Exits are east to a rest room, south to a rough
+tunnel, southeast to a hall and west to an echoing crypt. There's a feeling
+of magik. 
+What now? W 
+You're in an echoing crypt. An exit leads east to a bone chamber. You can
+see some plate armour. There's a feeling of magik. The bat peeps. 
+What now? GET PLATE ARMOUR
+Taken. 
+What now? E
+You're in a bone chamber. Exits are east to a rest room, south to a rough
+tunnel, southeast to a hall and west to an echoing crypt. There's a feeling
+of magik. The bat bares its teeth. 
+What now? E
+You're in a rest room. Exits are north to a library and west to a bone
+chamber. The bat scratches. 
+What now? N
+You're in a library. Exits are north to a library, south to a rest room and
+northwest to a sagging corridor. You can see some books. 
+What now? N 
+You're in a library. Exits are south to a library and northwest to a study.
+You can see a grimoire. 
+What now? EXAMINE GRIMOIRE 
+It says you must be mad to use magik. 
+Your sanity is shaken. 
+What now? GET GRIMOIRE
+Taken. 
+What now? NW 
+You're in a study in the dark. An exit leads southeast to a library. You can
+see a desk. 
+What now? EXAMINE DESK
+Sturdy oak. In it is a parchment. 
+What now? GET PARCHMENT
+Taken. 
+The bat peeps. 
+What now? READ PARCHMENT 
+Try ZEN. 
+The bat bares its teeth. Your sanity is shaken. 
+What now? SE
+You're in a library. Exits are south to a library and northwest to a study.
+The bat scratches. 
+What now? S
+You're in a library. Exits are north to a library, south to a rest room and
+northwest to a sagging corridor. You can see some books. 
+What now? NW
+You're in a sagging corridor. Exits are southeast to a library and southwest
+to a collapsing junction. The bat peeps. 
+What now? SW 
+You're in a collapsing junction. Exits are north to a solarium and northeast
+to a sagging corridor. You can see a curtain. 
+What now? CUT CURTAIN 
+The magik curtain disappears. 
+The bat bares its teeth. 
+What now? LOOK 
+You're in a collapsing junction. Exits are north to a solarium, northeast to
+a sagging corridor and west to a sanctum. The bat scratches. 
+What now? W
+You're in a sanctum. Exits are east to a collapsing junction and south to an
+inner sanctum. There's a feeling of magik. The bat peeps. 
+What now? S 
+You're in an inner sanctum. An exit leads north to a sanctum. You can see a
+feldspar lens. There's a feeling of magik. The bat bares its teeth. 
+What now? GET FELDSPAR LENS
+Taken. 
+The bat scratches. Your sanity is shaken. 
+What now? N
+You're in a sanctum. Exits are east to a collapsing junction and south to an
+inner sanctum. There's a feeling of magik. The bat peeps. 
+What now? E
+You're in a collapsing junction. Exits are north to a solarium, northeast to
+a sagging corridor and west to a sanctum. 
+What now? N
+You're in a solarium. Exits are south to a collapsing junction and northwest
+to a laboratory. 
+What now? NW 
+You're in a laboratory where SEE is written. An exit leads southeast to a
+solarium. Your sanity is shaken. 
+What now? SE
+You're in a solarium. Exits are south to a collapsing junction and northwest
+to a laboratory. The bat bares its teeth. 
+What now? S
+You're in a collapsing junction. Exits are north to a solarium, northeast to
+a sagging corridor and west to a sanctum. The bat scratches. 
+What now? NE
+You're in a sagging corridor. Exits are southeast to a library and southwest
+to a collapsing junction. The bat peeps. 
+What now? SE
+You're in a library. Exits are north to a library, south to a rest room and
+northwest to a sagging corridor. You can see some books. 
+What now? N
+You're in a library. Exits are south to a library and northwest to a study.
+The bat bares its teeth. 
+What now? NW 
+You're in a study in the dark. An exit leads southeast to a library. You can
+see a desk. The bat scratches. 
+What now? CAST SEE 
+A secret exit leads north. 
+The bat peeps. Your sanity is shaken. 
+What now? N 
+You're in a dusty hole where DET is written. Exits are south to a study and
+southeast to a cold room. The bat bares its teeth. Your sanity is shaken. 
+What now? SE
+You're in a cold room. Exits are north to a treasury and northwest to a
+dusty hole. The bat scratches. 
+What now? N 
+You're in a treasury. An exit leads south to a cold room. You can see a bag.
+Your sanity is shaken. 
+What now? GET BAG
+Taken. 
+The bat peeps. 
+What now? EXAMINE BAG 
+Canvas. In it is some gold. 
+The bat bares its teeth. 
+What now? S
+You're in a cold room. Exits are north to a treasury and northwest to a
+dusty hole. The bat scratches. 
+What now? NW
+You're in a dusty hole where DET is written. Exits are south to a study and
+southeast to a cold room. 
+What now? S
+You're in a study in the dark. An exit leads southeast to a library. You can
+see a desk. The bat peeps. 
+What now? SE
+You're in a library. Exits are south to a library and northwest to a study. 
+What now? S
+You're in a library. Exits are north to a library, south to a rest room and
+northwest to a sagging corridor. You can see some books. The bat bares its
+teeth. 
+What now? S
+You're in a rest room. Exits are north to a library and west to a bone
+chamber. The bat scratches. 
+What now? W
+You're in a bone chamber. Exits are east to a rest room, south to a rough
+tunnel, southeast to a hall and west to an echoing crypt. There's a feeling
+of magik. The bat peeps. 
+What now? S
+You're in a rough tunnel. Exits are north to a bone chamber and southeast to
+a panelled corridor. 
+What now? SE
+You're in a panelled corridor. Exits are south to an elm corridor and
+northwest to a rough tunnel. The bat bares its teeth. 
+What now? S
+You're in an elm corridor. Exits are north to a panelled corridor, east to a
+cupboard and southwest to an entrance hall. You can see a werewolf. The bat
+scratches. 
+What now? SW
+You're in an entrance hall. Exits are north to an alcove, northeast to an
+elm corridor, east to a broom cupboard, southeast to an entrance hall and
+northwest to tentacles. You can see a grandmother clock. 
+What now? SE
+You're in an entrance hall. Exits are west to a passage, northwest to an
+entrance hall and outside through a door. You can see a postcard. 
+What now? W
+You're in a passage. Exits are east to an entrance hall and west to a
+rock-walled room. The bat peeps. 
+What now? W
+You're in a rock-walled room. Exits are east to a passage, south to a
+scullery and northwest to a yellow river. You can see a picture. 
+What now? NW
+You're on a yellow river. Exits are north to a junction, south to a slime
+slide and southeast to a rock-walled room. The bat bares its teeth. 
+What now? N
+You're in a junction. Exits are north to a better hole, northeast to an
+anti-chapel and south to a yellow river. The bat scratches. 
+What now? NE
+You're in an anti-chapel. Exits are north to an anti-alcove, south to
+tentacles and southwest to a junction. There's a feeling of magik. The bat
+peeps. 
+What now? N 
+You're in an anti-alcove. An exit leads south to an anti-chapel. You can see
+an altar. On it is a red moon. There's a feeling of magik. The bat bares its
+teeth. 
+What now? TOUCH MOON
+You're young again! 
+What now? S
+You're in an anti-chapel. Exits are north to an anti-alcove, south to
+tentacles and southwest to a junction. There's a feeling of magik. The bat
+scratches. 
+What now? SW
+You're in a junction. Exits are north to a better hole, northeast to an
+anti-chapel and south to a yellow river. The bat peeps. 
+What now? S
+You're on a yellow river. Exits are north to a junction, south to a slime
+slide and southeast to a rock-walled room. The bat bares its teeth. 
+What now? S 
+You're on a slime slide. Exits are north to a yellow river and downwards to
+some steps. You can see a giant slug. It attacks you but you dodge. The bat
+scratches. 
+What now? THROW SALT AT SLUG 
+The salt drives the slug away. 
+The bat peeps. 
+What now? DOWN
+You're in some steps. Exits are upwards to a slime slide and downwards to a
+circular room. You can see a marble statue. Your sanity is shaken. 
+What now? EXAMINE STATUE 
+Inscribed SPY. It is carrying a claymore. 
+Your sanity is shaken. 
+What now? DOWN 
+The exit closes behind you. 
+You're in a circular room. An exit leads south to a pentagonal room. The bat
+peeps. 
+What now? S
+The exit closes behind you. 
+You're in a pentagonal room. Exits are south to a triangular room, southeast
+to a store room and southwest to a store room. 
+What now? SW
+The exit closes behind you. 
+You're in a store room. Exits are north to a store room and southeast to an
+altar. The bat bares its teeth. 
+What now? SE
+You're in an altar. Exits are north to a reflecting room, northeast to a
+cloakroom, southwest to a sloping room and northwest to a store room.
+There's a feeling of magik. The bat scratches. 
+What now? NE
+You're in a cloakroom. Exits are south to a short corridor and southwest to
+an altar. 
+What now? S
+You're in a short corridor. Exits are north to a cloakroom and south to a
+low cellar. 
+What now? S
+You're in a low cellar. Exits are north to a short corridor and east to an
+ominous chamber. 
+What now? E 
+You're in an ominous chamber where FLY is written. An exit leads west to a
+low cellar. There's a feeling of magik. The bat peeps. Your sanity is
+shaken. 
+What now? W
+You're in a low cellar. Exits are north to a short corridor and east to an
+ominous chamber. 
+What now? N
+You're in a short corridor. Exits are north to a cloakroom and south to a
+low cellar. 
+What now? N
+You're in a cloakroom. Exits are south to a short corridor and southwest to
+an altar. The bat bares its teeth. 
+What now? SW
+You're in an altar. Exits are north to a reflecting room, northeast to a
+cloakroom, southwest to a sloping room and northwest to a store room.
+There's a feeling of magik. 
+What now? SW
+You're in a sloping room. Exits are northeast to an altar and northwest to a
+red room. 
+What now? NW
+You're in a red room. Exits are north to a dark room, northeast to a store
+room, south to a dark dead end, southeast to a sloping room and northwest to
+a green room. The bat scratches. 
+What now? NW
+You're in a green room. Exits are south to a silvery room and southeast to a
+red room. The bat peeps. 
+What now? S
+You're in a silvery room. Exits are north to a green room and south to a
+winding corridor. You can see a picture. The bat bares its teeth. 
+What now? S
+You're in a winding corridor. Exits are north to a silvery room and west to
+some steps. You can see a picture. 
+What now? W 
+You're in some steps. Exits are east to a winding corridor and downwards to
+some steps. You can see a golem. The bat scratches. The golem shuffles
+about. 
+What now? EXAMINE METALLIC GOLEM 
+Plate armour: metallic. 
+Golem: metallic. It is wearing some silver mail. 
+The bat bares its teeth. The golem flexes its muscles. 
+What now? REMOVE ROBES
+OK. 
+The bat peeps. 
+What now? GIVE ROBES TO GOLEM 
+The golem gives you the silver mail. 
+The golem stamps its feet. 
+What now? DOWN
+You're in some steps. Exits are northwest to a boardwalk and upwards to some
+steps. Your sanity is shaken. 
+What now? NW
+You're on a boardwalk. Exits are southeast to some steps, southwest to a
+morgue and west to the landing stage. The bat scratches. 
+What now? SW
+You're in a morgue. Exits are northeast to a boardwalk and west to a tomb.
+There's a feeling of magik. The bat peeps. 
+What now? W
+You're in a tomb. Exits are east to a morgue, southeast to a cavern and
+southwest to a marble vault. There's a feeling of magik. 
+What now? SE
+You're in a cavern. Exits are east to a grotto, south to a stone platform
+and northwest to a tomb. The bat bares its teeth. 
+What now? E
+You're in a grotto. Exits are southeast to web cavern and west to a cavern.
+The bat scratches. 
+What now? SE 
+You're in web cavern. Exits are west to a stone platform and northwest to a
+grotto. You can see a crowbar and a web. On it is a giant spider. There's a
+feeling of magik. It attacks you. The blow strikes your plate armour, which
+has 46 stamina points left. The giant spider shuffles about. The bat bares
+its teeth. 
+What now? CUT WEB 
+The web falls on the spider. 
+What now? GET CROWBAR
+Taken. 
+The bat scratches. 
+What now? W
+You're in a stone platform. Exits are north to a cavern, east to web cavern,
+southwest to a rotting room and northwest to a stone cave. The bat peeps. 
+What now? N
+You're in a cavern. Exits are east to a grotto, south to a stone platform
+and northwest to a tomb. The bat bares its teeth. 
+What now? NW
+You're in a tomb. Exits are east to a morgue, southeast to a cavern and
+southwest to a marble vault. There's a feeling of magik. The bat scratches. 
+What now? E
+You're in a morgue. Exits are northeast to a boardwalk and west to a tomb.
+There's a feeling of magik. The bat peeps. 
+What now? NE
+You're on a boardwalk. Exits are southeast to some steps, southwest to a
+morgue and west to the landing stage. The bat bares its teeth. 
+What now? W 
+You're on the landing stage. Exits are north to the river and east to a
+boardwalk. You can see a boat. In it is a ferryman. It scratches. The bat
+peeps. 
+What now? GIVE CROWBAR 
+"OK. Hop in". 
+The bat bares its teeth. 
+What now? HOP IN 
+You are standing on the boat. The ferryman scratches. The bat peeps. The
+boat moves steadily on. 
+You're on the river. Exits are north to a damp cave, south to the landing
+stage and downwards to a river bed. You can see a boat. In it is a ferryman.
+You are standing on the boat. 
+What now? CAST FIN AT ME 
+You become a fish. 
+Your sanity is shaken. 
+What now? DOWN 
+You're on a river bed. An exit leads upwards to the river. You can see a
+plaque. 
+What now? READ PLAQUE 
+Reads SAN. 
+Your sanity is shaken. 
+What now? WAIT 
+Time passes. The existing FIN spell wears off. You can't stay under water
+for very long. 
+You're on the river. Exits are north to a damp cave, south to the landing
+stage and downwards to a river bed. You can see a grimoire, a pendulum, a
+feldspar lens, a valerian plant, a prism, an elder cross, a candle, a little
+mirror, a broom, some ashes, a wheel, a staff, a bag, a cage, a parchment,
+some plate armour, a ring, a scroll, a knife, a sword, a bat, a wolfsbane
+plant, a shovel and a boat. In it is a ferryman. 
+What now? TAKE ALL 
+Boat: "Hands off my boat"
+shovel: taken. 
+Wolfsbane plant: taken. 
+Bat: taken. 
+Ferryman: it won't move. 
+Sword: taken. 
+Knife: taken. 
+Scroll: taken. 
+Ring: taken. 
+Plate armour: taken. 
+Parchment: taken. 
+Cage: taken. 
+Bag: taken. 
+Staff: taken. 
+Wheel: taken. 
+Ashes: taken. 
+Broom: taken. 
+Little mirror: taken. 
+Candle: taken. 
+Elder cross: taken. 
+Prism: taken. 
+Valerian plant: taken. 
+Feldspar lens: taken. 
+Pendulum: taken. 
+Grimoire: taken. 
+The bat scratches. 
+What now? N
+You're on a damp cave. Exits are north to a watery tunnel and south to the
+river. You can see a boat. In it is a ferryman. It curses. 
+What now? N
+You're on a watery tunnel. Exits are north to a watery tunnel and south to a
+damp cave. 
+What now? N 
+You're on a watery tunnel. Exits are north to a boardwalk and south to a
+watery tunnel. You can see a giant bloodworm. It attacks you. The blow
+strikes your plate armour, which has 40 stamina points left. The bat chases
+the bloodworm away. 
+What now? N
+You're in a boardwalk. Exits are south to a watery tunnel and northwest to a
+short corridor. 
+What now? NW
+The exit closes behind you. 
+You're in a short corridor. Exits are north to a bubble junction and east to
+a storeroom. The bat bares its teeth. 
+What now? N
+You're in a bubble junction. Exits are northeast to the hall of statues,
+south to a short corridor, southwest to a glass cave and northwest to a
+laboratory. 
+What now? SW
+You're in a glass cave. Exits are northeast to a bubble junction and south
+to a temple. 
+What now? S 
+You're in a temple. Exits are north to a glass cave and southeast to a misty
+room. You can see an altar. On it is a talisman. Hanging over the altar is a
+weight. There's a feeling of magik. The bat scratches. 
+What now? CAST FLY AT WEIGHT 
+The weight remains still. 
+The bat peeps. 
+What now? GET TALISMAN
+You hear a click. The weight remains suspended. 
+What now? N
+You're in a glass cave. Exits are northeast to a bubble junction and south
+to a temple. 
+What now? NE
+You're in a bubble junction. Exits are northeast to the hall of statues,
+south to a short corridor, southwest to a glass cave and northwest to a
+laboratory. 
+What now? NE 
+You're in the hall of statues. Exits are southeast to a dry gallery and
+southwest to a bubble junction. You can see a stone cherub. 
+What now? EXAMINE CHERUB 
+A statue. It is carrying a trumpet. 
+What now? CAST ZAP AT CHERUB 
+The stone cherub is hit by lightning. It has 23 stamina points. 
+The bat peeps. Your sanity is shaken. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 21 stamina points. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 17 stamina points. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 13 stamina points. 
+The bat peeps. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 12 stamina points. 
+The bat bares its teeth. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 6 stamina points. 
+The bat peeps. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It's dead and its body disappears. 
+What now? LOOK
+You're in the hall of statues. Exits are southeast to a dry gallery and
+southwest to a bubble junction. You can see a trumpet. The bat bares its
+teeth. 
+What now? GET TRUMPET
+Taken. 
+The bat scratches. Your sanity is shaken. 
+What now? SE
+You're in a dry gallery. Exits are northeast to a glowing gateway, south to
+a glass room and northwest to the hall of statues. You can see a crowbar. 
+What now? NE
+You're in a glowing gateway. Exits are north to a grassy plain and southwest
+to a dry gallery. There's a feeling of magik. 
+What now? N 
+You charge towards the gate. A voice says, "First give something to Myglar."
+
+What now? GIVE PENDULUM
+"I suppose that will do." The pendulum disappears. 
+The bat peeps. 
+What now? N 
+You charge towards the gate. A monkey drops onto your back! 
+You're on a grassy plain. Exits are north to a grassy plain and south to a
+glowing gateway. The monkey glares at you. The bat scratches. 
+What now? S
+You're in a glowing gateway. Exits are north to a grassy plain and southwest
+to a dry gallery. There's a feeling of magik. The monkey bares its teeth.
+The bat bares its teeth. 
+What now? SW
+You're in a dry gallery. Exits are northeast to a glowing gateway, south to
+a glass room and northwest to the hall of statues. You can see a crowbar.
+The bat scratches. 
+What now? CAST ZEN 
+You are transported. The exit closes behind you. 
+You're in the mists of time. An exit leads south to the mists of time. 
+The monkey bares its teeth. The bat bares its teeth. Your sanity is shaken. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time and downwards to an entrance
+hall. The monkey wriggles about. The bat peeps. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a cold store. The monkey glares at you. The bat scratches. 
+What now? D 
+The exit closes behind you. 
+You're in a cold store. An exit leads north to a junction. You can see some
+snow. The monkey bares its teeth. The bat bares its teeth. 
+What now? WAIT 
+Time passes. The bat scratches. The monkey is shivering. Now the monkey's
+teeth chatter. There's a loud crack, something falls and the monkey flees. 
+What now? EXAMINE SNOW
+Flaky. In it is a crystal ball and a black ball. 
+What now? GET CRYSTAL BALL
+Taken. 
+Your sanity is shaken. 
+What now? GET BLACK BALL
+Taken. 
+The bat peeps. 
+What now? CAST ZEN 
+You are transported. The exit closes behind you. 
+You're in the mists of time. An exit leads south to the mists of time. 
+The bat bares its teeth. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time and downwards to an entrance
+hall. The bat scratches. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to an anti-alcove. The bat peeps. 
+What now? D 
+The exit closes behind you. 
+You're in an anti-alcove. An exit leads south to an anti-chapel. You can see
+an altar. On it is a red moon. There's a feeling of magik. The bat bares its
+teeth. 
+What now? TOUCH MOON
+You're young again! 
+What now? S
+You're in an anti-chapel. Exits are north to an anti-alcove, south to
+tentacles and southwest to a junction. There's a feeling of magik. 
+What now? SW
+You're in a junction. Exits are north to a better hole, northeast to an
+anti-chapel and south to a yellow river. 
+What now? S
+You're on a yellow river. Exits are north to a junction, south to a slime
+slide and southeast to a rock-walled room. The bat scratches. 
+What now? SE 
+You're in a rock-walled room. Exits are east to a passage, south to a
+scullery and northwest to a yellow river. You can see a picture. The bat
+peeps. 
+What now? EXAMINE PICTURE 
+Showing Stonehenge. 
+The bat bares its teeth. 
+What now? CAST BOM AT PICTURE 
+You're sucked into Stonehenge. 
+You're on a standing stone. Exits are north to a rock-walled room, southeast
+to a standing stone and southwest to a pillar. 
+The bat scratches. Your sanity is shaken. 
+What now? SE
+You're on a standing stone. Exits are southeast to a pillar and northwest to
+a standing stone. The bat peeps. 
+What now? SE
+You're on a pillar. Exits are southwest to a standing stone, west to a
+standing stone and northwest to a standing stone. The bat bares its teeth. 
+What now? W
+You're on a standing stone. Exits are east to a pillar, southwest to a
+standing stone and northwest to a pillar. The bat scratches. 
+What now? NW
+You're on a pillar. Exits are south to a pedestal, southeast to a standing
+stone and southwest to a standing stone. The bat peeps. 
+What now? S 
+You're on a pedestal. An exit leads north to a pillar. You can see a blue
+box. Your sanity is shaken. 
+What now? GET BLUE BOX
+Taken. 
+The bat bares its teeth. Your sanity is shaken. 
+What now? EXAMINE BLUE BOX 
+Inscribed IBM. 
+What now? N
+You're on a pillar. Exits are south to a pedestal, southeast to a standing
+stone and southwest to a standing stone. 
+What now? SW
+You're on a standing stone. Exits are northeast to a pillar, southeast to a
+standing stone and west to a pillar. 
+What now? W
+You're on a pillar. Exits are northeast to a pillar, east to a standing
+stone and southeast to a standing stone. 
+What now? NE
+You're on a pillar. Exits are northeast to a standing stone and southwest to
+a pillar. The bat scratches. 
+What now? NE
+You're on a standing stone. Exits are north to a rock-walled room, southeast
+to a standing stone and southwest to a pillar. The bat peeps. 
+What now? N 
+The exit closes behind you. 
+You're in a rock-walled room. Exits are east to a passage, south to a
+scullery and northwest to a yellow river. You can see a picture. 
+What now? RUB TALISMAN 
+You're thrown through space. The exit closes behind you. 
+You're in a stone archway. An exit leads north to a rock outcrop. 
+The bat bares its teeth. Your sanity is shaken. 
+What now? N
+The exit closes behind you. 
+You're on a rock outcrop. An exit leads northeast to a grassy plain. The bat
+scratches. 
+What now? NE
+You're on a grassy plain. Exits are east to a stone outcrop and southwest to
+a rock outcrop. The bat peeps. 
+What now? E
+You're on a stone outcrop. Exits are east to a grassy plain and west to a
+grassy plain. The ghost of the stone cherub appears! The bat bares its
+teeth. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 29 stamina points. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 28 stamina points. 
+The bat peeps. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 19 stamina points. 
+The bat scratches. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 14 stamina points. 
+The bat peeps. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It has 6 stamina points. 
+The bat scratches. 
+What now? CAST ZAP AT CHERUB
+The stone cherub is hit by lightning. It's dead and its body disappears. 
+What now? E
+You're on a grassy plain. Exits are southwest to a lake shore, west to a
+stone outcrop and in to a pillar. 
+What now? IN 
+You're in a pillar. Exits are downwards to some steps and outside to a
+grassy plain. The bat peeps. 
+What now? D 
+You're in some steps. Exits are upwards to a pillar and downwards to some
+steps. 
+What now? D
+You're in some steps. Exits are upwards to some steps and downwards to some
+steps. The bat bares its teeth. 
+What now? D
+You're in some steps. Exits are southwest to a rock bubble and upwards to
+some steps. The bat scratches. 
+What now? SW
+You're in a rock bubble. Exits are north to a rock bubble, northeast to some
+steps and east to a rock bubble. The bat peeps. 
+What now? N 
+You're in a rock bubble. An exit leads south to a rock bubble. You can see a
+riddle. The bat bares its teeth. 
+What now? READ RIDDLE 
+"My father is dark,
+My mummy unknown.
+I dwell in high places,
+and where the ghosts moan". 
+What now? S
+You're in a rock bubble. Exits are north to a rock bubble, northeast to some
+steps and east to a rock bubble. The bat scratches. 
+What now? NE
+You're in some steps. Exits are southwest to a rock bubble and upwards to
+some steps. The bat peeps. 
+What now? U
+You're in some steps. Exits are upwards to some steps and downwards to some
+steps. 
+What now? U
+You're in some steps. Exits are upwards to a pillar and downwards to some
+steps. 
+What now? U
+You're in a pillar. Exits are downwards to some steps and outside to a
+grassy plain. The bat bares its teeth. 
+What now? OUT
+You're on a grassy plain. Exits are southwest to a lake shore, west to a
+stone outcrop and in to a pillar. 
+What now? SW 
+You're on a lake shore. An exit leads northeast to a grassy plain. You can
+see a magik lake. 
+What now? EXAMINE LAKE 
+Bright water. 
+What now? DRINK WATER
+Mm. 
+The bat scratches. Your sanity is shaken. 
+What now? RUB TALISMAN 
+You're thrown through space. The exit closes behind you. 
+You're in a rock-walled room. Exits are east to a passage, south to a
+scullery and northwest to a yellow river. You can see a picture. 
+The bat peeps. 
+What now? CAST ZEN 
+You are transported. The exit closes behind you. 
+You're in the mists of time. An exit leads south to the mists of time. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time and downwards to an entrance
+hall. The bat bares its teeth. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to an anti-alcove. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a morgue. The bat scratches. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time and west to the mists of time.
+The bat peeps. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, south to
+the mists of time, west to the mists of time and downwards to the north
+tower. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a standing stone. The bat bares its teeth. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a temple. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a portico. The bat scratches. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a winding corridor. 
+What now? D 
+The exit closes behind you. 
+You're in a winding corridor. Exits are north to a silvery room and west to
+some steps. You can see a picture. The bat peeps. 
+What now? N
+You're in a silvery room. Exits are north to a green room and south to a
+winding corridor. You can see a picture. The bat bares its teeth. 
+What now? N
+You're in a green room. Exits are south to a silvery room and southeast to a
+red room. 
+What now? SE
+You're in a red room. Exits are north to a dark room, northeast to a store
+room, south to a dark dead end, southeast to a sloping room and northwest to
+a green room. 
+What now? N 
+You're in a dark room. An exit leads south to a red room. You can see a
+picture. The bat scratches. 
+What now? EXAMINE PICTURE 
+Showing a vicious dark spawn. 
+What now? CAST BOM AT PICTURE 
+A dark spawn leaps from the picture. It breaks a claw on the frame. 
+The bat peeps. The dark spawn attacks you. The blow strikes your plate
+armour, which has 32 stamina points left. The dark spawn flexes its muscles.
+
+What now? GET CLAW
+Taken. 
+The bat scratches. The dark spawn attacks you. The blow strikes your plate
+armour, which has 23 stamina points left. Your sanity is shaken. 
+What now? S
+You're in a red room. Exits are north to a dark room, northeast to a store
+room, south to a dark dead end, southeast to a sloping room and northwest to
+a green room. 
+What now? CAST ZEN 
+You are transported. The exit closes behind you. 
+You're in the mists of time. An exit leads south to the mists of time. 
+The bat peeps. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time and downwards to an entrance
+hall. The bat bares its teeth. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to an anti-alcove. The bat scratches. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a morgue. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time and west to the mists of time.
+The bat peeps. 
+What now? E
+You're in the mists of time. Exits are north to the mists of time, south to
+the mists of time, west to the mists of time and downwards to the north
+tower. The bat bares its teeth. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a standing stone. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a temple. 
+What now? S
+You're in the mists of time. Exits are north to the mists of time, east to
+the mists of time, south to the mists of time, west to the mists of time and
+downwards to a portico. The bat scratches. 
+What now? D 
+The exit closes behind you. 
+You're in a portico. Exits are east to some steps, west to some steps and in
+through a door. You can see some ant army. The bat peeps. The ant army
+attack you. The blow strikes your plate armour, which has 18 stamina points
+left. 
+What now? CAST IBM AT ANT ARMY 
+The ant army are terrified. 
+They wave their antennae. Your sanity is shaken. 
+What now? OPEN DOOR
+OK. 
+The bat bares its teeth. The ant army wave their antennae. 
+What now? IN
+The door closes behind you. 
+You're in an entrance hall. Exits are north to a statue-lined room and
+outside through a door. The bat scratches. 
+What now? N
+You're in a statue-lined room. Exits are south to an entrance hall and
+northwest to an arched corridor. 
+What now? NW
+You're in an arched corridor. Exits are north to an arched corridor and
+southeast to a statue-lined room. 
+What now? N
+You're in an arched corridor. Exits are north to an arched corridor, south
+to an arched corridor and southeast to a jade room. The bat peeps. 
+What now? N
+You're in an arched corridor. Exits are north to an arched corridor, south
+to an arched corridor and southeast to a stone room. 
+What now? SE 
+You're in a stone room. Exits are east through a door and northwest to an
+arched corridor. The bat bares its teeth. 
+What now? CAST ESP EAST 
+Your astral body floats out.. . 
+You're in a huge hall mist. Exits are northeast to a cylindrical chamber and
+west through a door. You can see a stone idol. Your sanity is shaken. 
+What now? EXAMINE IDOL 
+658;stone. 
+You return to your body. 
+You're in a stone room. Exits are east through a door and northwest to an
+arched corridor. 
+What now? CAST ESP EAST 
+Your astral body floats out.. . 
+You're in a huge hall mist. Exits are northeast to a cylindrical chamber and
+west through a door. You can see a stone idol. 
+What now? CAST BOM AT IDOL 
+The stone idol wakes. 
+You return to your body. 
+You're in a stone room. Exits are east through a door and northwest to an
+arched corridor. 
+What now? CAST ESP EAST
+Your astral body floats out.. . 
+You're in a huge hall mist. Exits are northeast to a cylindrical chamber and
+west through a door. You can see a stone idol. 
+What now? CAST HYP AT IDOL 
+The stone idol looks expectant. 
+You return to your body. 
+You're in a stone room. Exits are east through a door and northwest to an
+arched corridor. 
+What now? CAST ESP EAST
+Your astral body floats out.. . 
+You're in a huge hall mist. Exits are northeast to a cylindrical chamber and
+west through a door. You can see a stone idol. 
+What now? IDOL OPEN DOOR
+What now? LOOK 
+You're in a huge hall mist. Exits are northeast to a cylindrical chamber and
+west through an open door. You can see a stone idol. You return to your
+body. 
+You're in a stone room. Exits are east through an open door and northwest to
+an arched corridor. 
+What now? E
+The door closes behind you. 
+You're in a huge hall mist. Exits are northeast to a cylindrical chamber and
+west through a door. You can see a stone idol. The bat scratches. 
+What now? NE
+You're in a cylindrical chamber. Exits are south to the great chamber and
+southwest to a huge hall mist. The bat peeps. 
+What now? S 
+You're in the great chamber. Exits are north to a cylindrical chamber and
+south to an ice room. 
+What now? S 
+You're in an ice room. Exits are north to the great chamber and south to the
+moon room. There's a feeling of magik. The floor is so cold you leap back. 
+You're in the great chamber. Exits are north to a cylindrical chamber and
+south to an ice room. The bat bares its teeth. 
+What now? CAST FLY AT ME 
+The black ball absorbs the spell and crumbles to dust. 
+The bat scratches. 
+What now? CAST FLY AT ME 
+You float upwards. 
+What now? S
+You're in an ice room. Exits are north to the great chamber and south to the
+moon room. There's a feeling of magik. The bat peeps. 
+What now? S 
+You're in the moon room. Exits are north to an ice room and northwest to the
+tomb of Myglar. You can see a gargoyle and a moonbeast. There's a feeling of
+magik. The gargoyle lumbers forwards. The moonbeast attacks you but you
+dodge. The moonbeast bares its teeth. 
+What now? EXAMINE GARGOYLE 
+Ugly. 
+The moonbeast attacks you. The blow strikes your plate armour, which has 12
+stamina points left. The moonbeast glares at you. 
+What now? NW 
+The moonbeast won't let you. The gargoyle lumbers forwards. The moonbeast
+attacks you but you dodge. The moonbeast bares its teeth. The bat peeps. 
+What now? FEAR
+The gargoyle says, "You may pass". 
+What now? CAST ESP NW 
+Your astral body floats out.. . 
+You're in the tomb of Myglar. An exit leads southeast to the moon room. You
+can see Myglar. Your sanity is shaken. 
+What now? CAST SAN AT MYGLAR 
+Myglar stares in sane horror. . 
+Myglar shuffles about. You return to your body. 
+You're in the moon room. Exits are north to an ice room and northwest to the
+tomb of Myglar. You can see a gargoyle and a moonbeast. There's a feeling of
+magik. Your sanity is shaken. 
+What now? CAST ESP NW
+Your astral body floats out.. . 
+You're in the tomb of Myglar. An exit leads southeast to the moon room. You
+can see Myglar. 
+What now? CAST DED AT MYGLAR 
+Myglar's magik stops! He crumbles to dust. 
+ 
+Well done, you have defeated Myglar! There are two views of your future. Do
+you want the good one? YES
+You dwell in a luxurious castle, tended hand and foot by loyal servants and
+using your magik wisely. You have beaten the Price of Magik! 
+Type RESTORE or RESTART: 
+Game Terminated

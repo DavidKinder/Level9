@@ -1,0 +1,2053 @@
+Welcome to "Lords of Time" from Level 9 Computing. You are sitting in the
+comfort of your own home, debugging your latest program before submitting it
+for us to market. Suddenly there is a blinding flash...
+What now?
+
+Playing back input from script file.
+#SEED 42
+LOOK 
+You are in your own living room. You can see a fine golden hourglass on the
+mantlepiece and a picture of a kindly old man.
+The only visible exit is north.
+What now?
+GET HOURGLASS
+What now?
+GET PICTURE 
+The picture comes to life: "I am Father Time and I have chosen you to help
+defend history against 9 evil Timelords. You must collect 9 items, each
+marked with an hourglass. Good Luck!"
+What now?
+N
+You are in a large, cold looking room. You can see a matchbox on the table,
+a candle and a grandfather clock large enough to climb into.
+Exits are south and in to a door.
+What now?
+GET CANDLE
+What now?
+GET MATCHBOX
+What now?
+WIND CLOCK
+The door opens.
+What now?
+IN
+The door closes behind you
+You are inside a gigantic clock. You can see huge cogs numbered 1 to 9 and a
+massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP HOURGLASS 
+What now?
+TURN COG 1
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are at the end of a gravel drive which bends to the southwest. The
+grassy lawns beside the drive are edged with the vibrant colours of summer
+flowers. A narrow country road runs north-south. 
+Exits are north, south to a door and west.
+What now?
+N
+You are at a crossing of country roads. 
+Exits are north, east, south and west.
+What now?
+N
+You are at roadworks where the road ends. You can see a grubby pick and two
+short planks.
+The only visible exit is south.
+What now?
+GET PICK
+What now?
+GET PLANKS
+What now?
+S
+You are at a crossing of country roads. 
+Exits are north, east, south and west.
+What now?
+S
+You are at the end of a gravel drive which bends to the southwest. The
+grassy lawns beside the drive are edged with the vibrant colours of summer
+flowers. A narrow country road runs north-south. 
+Exits are north, south to a door and west.
+What now?
+W
+You are on a winding gravel drive. 
+Exits are east and west.
+What now?
+W
+You are outside a delightful country cottage. 
+Exits are east and west to a door.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+W
+The door closes behind you
+You are in a bright hallway at the foot of a carpetted stairway. You can see
+a Masai spear hanging on the wall.
+Exits are east to a door, south, west and up.
+What now?
+U
+You are on the landing at the top of the stairs. 
+Exits are north, west and down.
+What now?
+N
+You are in a cramped store-room. You can see a coil of rope, a battered
+rucksack and a pile of family rubbish.
+The only visible exit is south.
+What now?
+DROP PICK
+What now?
+GET RUCKSACK
+What now?
+WEAR IT 
+What now?
+GET PICK
+What now?
+GET ROPE
+What now?
+EXAMINE RUBBISH
+You find a tin opener.
+What now?
+GET OPENER
+What now?
+S
+You are on the landing at the top of the stairs. 
+Exits are north, west and down.
+What now?
+W
+You are in a plushly carpeted master bedroom. You can see a jewellery case
+on the dressing table.
+The only visible exit is east.
+What now?
+GET CASE
+What now?
+E
+You are on the landing at the top of the stairs. 
+Exits are north, west and down.
+What now?
+D
+You are in a bright hallway at the foot of a carpetted stairway. You can see
+a Masai spear hanging on the wall.
+Exits are east to a door, south, west and up.
+What now?
+GET SPEAR
+What now?
+S
+You are in a lovely old-fashioned kitchen. You can see a wall cupboard.
+Exits are north and west.
+What now?
+OPEN CUPBOARD
+You find a tin of catfood.
+What now?
+GET TIN
+What now?
+W
+You are in the living room, a long comfortable room decorated in autumn
+shades of brown and gold. A patio door leads to the garden. You can see an
+inlaid looking-glass on the wall and a fine metronome in pride of place.
+Exits are east, south and west to a door.
+What now?
+GET GLASS
+What now?
+GET METRONOME
+What now?
+OPEN DOOR
+The door opens.
+What now?
+W
+The door closes behind you
+You are on a patio, decorated with urns of flowers. A crazy-paving path
+winds southwest across the lawn to a garden shed. The garden ends at a
+wooden fence. 
+Exits are east to a door, southwest, west and northwest.
+What now?
+NW
+You are in the flower garden. You can see valerian hidden amongst the
+delphiniums.
+The only visible exit is southeast.
+What now?
+GET VALERIAN
+What now?
+SE
+You are on a patio, decorated with urns of flowers. A crazy-paving path
+winds southwest across the lawn to a garden shed. The garden ends at a
+wooden fence. 
+Exits are east to a door, southwest, west and northwest.
+What now?
+W
+You are at the end of the garden beside a five foot fence covered in ivy. 
+Exits are east and up.
+What now?
+U
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. 
+Exits are north, south and up.
+What now?
+N
+You are further upstream where the filthy stream is quite narrow. A lone
+narcissus grows amidst the nettles on the opposite bank. 
+The only visible exit is south.
+What now?
+TIE PLANKS 
+You tie the planks into a longer plank
+What now?
+DROP IT
+The tied planks bridge the stream
+What now?
+W
+You are west of the stream. You can see a single beautiful narcissus
+standing proudly amongst the weeds.
+Planks bridge the stream
+The only visible exit is across.
+What now?
+GIVE GLASS 
+The narcissus squeaks with joy and rewards you with a lodestone. He admires
+himself delightedly in the looking-glass
+What now?
+E
+You are further upstream where the filthy stream is quite narrow. A lone
+narcissus grows amidst the nettles on the opposite bank. You can see two
+short planks tied together.
+Planks bridge the stream
+The only visible exit is south.
+What now?
+S
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. 
+Exits are north, south and up.
+What now?
+U
+You are at the end of the garden beside a five foot fence covered in ivy. 
+Exits are east and up.
+What now?
+E
+You are on a patio, decorated with urns of flowers. A crazy-paving path
+winds southwest across the lawn to a garden shed. The garden ends at a
+wooden fence. 
+Exits are east to a door, southwest, west and northwest.
+What now?
+SW
+You are outside a garden shed. You can see a bunch of keys pushed out of
+reach under the shed door.
+Exits are northeast, east and in to a door.
+What now?
+GET KEYS WITH LODESTONE
+What now?
+OPEN DOOR
+The door opens.
+What now?
+IN
+The door closes behind you
+You are in a cluttered garden shed. You can see a sharp axe and a shovel.
+The only visible exit is out to a door.
+What now?
+GET AXE
+What now?
+GET SHOVEL
+What now?
+OPEN DOOR
+The door opens.
+What now?
+OUT
+The door closes behind you
+You are outside a garden shed. 
+Exits are northeast, east and in to a door.
+What now?
+NE
+You are on a patio, decorated with urns of flowers. A crazy-paving path
+winds southwest across the lawn to a garden shed. The garden ends at a
+wooden fence. 
+Exits are east to a door, southwest, west and northwest.
+What now?
+W
+You are at the end of the garden beside a five foot fence covered in ivy. 
+Exits are east and up.
+What now?
+U
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. 
+Exits are north, south and up.
+What now?
+S
+You are beside the polluted stream. You can see a weeping willow.
+Tears rain down from the willow tree
+The only visible exit is north.
+What now?
+CHOP WILLOW 
+With one swift blow you cut down the tree and it falls with a peaceful sigh.
+One sparkling teardrop remains.
+What now?
+GET * TEAR *
+What now?
+N
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. 
+Exits are north, south and up.
+What now?
+U
+You are at the end of the garden beside a five foot fence covered in ivy. 
+Exits are east and up.
+What now?
+E
+You are on a patio, decorated with urns of flowers. A crazy-paving path
+winds southwest across the lawn to a garden shed. The garden ends at a
+wooden fence. 
+Exits are east to a door, southwest, west and northwest.
+What now?
+SW
+You are outside a garden shed. 
+Exits are northeast, east and in to a door.
+What now?
+E
+You are at a garden gate which opens onto a paved path leading east. 
+Exits are east and west.
+What now?
+E
+You are on a paved path which leads east-west beside the garden. You can see
+a compost heap, spilling onto the path.
+Exits are east and west.
+What now?
+EXAMINE HEAP
+You find a silver coin.
+What now?
+EXAMINE HEAP 
+You find a mushroom ring.
+What now?
+EAT MUSHROOM 
+Your vision clears. Someone's here!
+What now?
+LOOK
+You are on a paved path which leads east-west beside the garden. You can see
+a silver coin, a compost heap, spilling onto the path and the Tooth Fairy.
+Exits are east and west.
+What now?
+E
+You are in a carport with an an examination pit in the floor. You can see a
+red Porsche.
+Exits are west and down.
+What now?
+EXAMINE CAR
+You find a gallon petrol can.
+What now?
+GET PETROL
+What now?
+D
+You are inside a gigantic clock. You can see a fine golden hourglass, huge
+cogs numbered 1 to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP AXE
+What now?
+DROP METRONOME
+What now?
+DROP LODESTONE
+What now?
+DROP VALERIAN
+What now?
+DROP CASE
+What now?
+DROP TEAR
+What now?
+TURN COG 2
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are standing on splintered ice in a deep valley. The sky is very grey
+and the wind is blowing very hard. 
+Exits are north, northeast and south to a door.
+What now?
+N
+You are walking unsteadily across a slippery ice sheet. 
+Exits are north, northeast and south.
+What now?
+NE
+You are where a rocky track leads up the mountain. 
+Exits are southwest, west and up.
+What now?
+W
+You are at the edge of the ice, where drifting snow has banked up at the
+foot of the mountains. You can see a jumble of dry wood and a woolly mammoth
+blocking your escape.
+Exits are east and south.
+What now?
+POUR PETROL
+You pour out the petrol and discard its can
+What now?
+LIGHT MATCH
+It burns well
+What now?
+LIGHT PETROL 
+The petrol burns up with a whoosh! The mammoth is so surprised that it jumps
+clean out of its skin and runs off in terror!
+What now?
+GET * TUSK *
+What now?
+GET COAT
+What now?
+WEAR COAT 
+What now?
+E
+You are where a rocky track leads up the mountain. 
+Exits are southwest, west and up.
+What now?
+U
+You are laboriously climbing the snow-covered mountain. 
+Exits are up and down.
+What now?
+U
+You are at an armchair hollow in the mountainside, below a cave. You can see
+a meaty bone lying on blood-stained snow.
+Exits are up and down.
+The match goes out
+What now?
+GET BONE
+What now?
+U 
+You are on a ledge outside an odoriferous cave. You can see a sabre-toothed
+tiger.
+Exits are down and in.
+What now?
+OPEN TIN
+The vile smell of whale-meat assails your nostrils
+What now?
+GIVE TIN 
+The tiger gulps down the food greedily and purrs at you
+The tiger purrs deafeningly
+What now?
+GET TOOTH
+The bad tooth comes loose easily. The tiger is delighted and bounds off
+joyfully
+What now?
+LIGHT MATCH
+It burns well
+What now?
+LIGHT CANDLE
+It burns well
+What now?
+IN
+You are in a huge subterranean chamber with smooth walls. 
+Exits are east, south, southeast and out.
+What now?
+S
+You are in the freezing cave. You can see a little icicle hanging from the
+ceiling.
+The only visible exit is north.
+What now?
+SHOUT 
+Noisy little beggar, aren't you!
+The din shakes the icicle loose
+What now?
+GET ICICLE
+What now?
+N
+You are in a huge subterranean chamber with smooth walls. 
+Exits are east, south, southeast and out.
+What now?
+E
+You are at a junction. 
+Exits are east, south, southwest and west.
+The match goes out
+What now?
+E
+You are in a silver fox lair. You can see a silver fox.
+Exits are east, south and west.
+What now?
+GIVE BONE 
+The fox grabs the bone and slinks off
+What now?
+E
+You are in the silver-veined cave. You can see a wall of ice blocking the
+way south.
+The only visible exit is west.
+What now?
+HIT WALL 
+The ice wall shatters
+What now?
+S
+You are in the hidden silver vault. You can see a silver candelabra.
+The only visible exit is north.
+What now?
+GET CANDELABRA
+What now?
+N
+You are in the silver-veined cave. There's a hole to the south
+The only visible exit is west.
+What now?
+W
+You are in a silver fox lair. 
+Exits are east, south and west.
+What now?
+S
+You are in the frozen forest, amidst tall, snow-laden trees. You can see a
+clear lake of very cold water to the northwest.
+Exits are north and northeast.
+What now?
+THROW ICICLE 
+The lake freezes round the icicle!
+What now?
+NW
+You are in an intricate alpine garden. 
+Exits are southeast and northwest.
+What now?
+NW
+You are in a miniature throne room. A crack in the ice leads south. You can
+see a cube of ice round the throne.
+Exits are south and southeast.
+What now?
+SMASH CUBE 
+The ice cube shatters, freeing the Snow Queen. She smiles, taps your
+shoulder with a sword and glides away
+What now?
+S
+You are  beside a pool of icy water. 
+Exits are north and in.
+What now?
+IN
+You are ankle-deep in icy water. 
+Exits are west and out.
+What now?
+W
+You are sloshing along, thigh deep in icy water which is getting deeper. 
+Exits are east and down.
+What now?
+D
+You are swimming in freezing water. 
+The only visible exit is down.
+What now?
+D
+You are inside a gigantic clock. You can see a diamond teardrop, a jewellery
+case, a fine golden hourglass, a fine metronome, valerian, a sharp axe, a
+carved lodestone, huge cogs numbered 1 to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP SPEAR
+What now?
+DROP OPENER
+What now?
+DROP TUSK
+What now?
+DROP CANDELABRA
+What now?
+DROP PICK
+What now?
+TURN COG 1
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are at the end of a gravel drive which bends to the southwest. The
+grassy lawns beside the drive are edged with the vibrant colours of summer
+flowers. A narrow country road runs north-south. 
+Exits are north, south to a door and west.
+What now?
+W
+You are on a winding gravel drive. 
+Exits are east and west.
+What now?
+W
+You are outside a delightful country cottage. 
+Exits are east and west to a door.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+W
+The door closes behind you
+You are in a bright hallway at the foot of a carpetted stairway. 
+Exits are east to a door, south, west and up.
+What now?
+W
+You are in the living room, a long comfortable room decorated in autumn
+shades of brown and gold. A patio door leads to the garden. 
+Exits are east, south and west to a door.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+W
+The door closes behind you
+You are on a patio, decorated with urns of flowers. A crazy-paving path
+winds southwest across the lawn to a garden shed. The garden ends at a
+wooden fence. 
+Exits are east to a door, southwest, west and northwest.
+What now?
+SW
+You are outside a garden shed. 
+Exits are northeast, east and in to a door.
+What now?
+E
+You are at a garden gate which opens onto a paved path leading east. 
+Exits are east and west.
+What now?
+E
+You are on a paved path which leads east-west beside the garden. You can see
+a silver coin, a compost heap, spilling onto the path and the Tooth Fairy.
+Exits are east and west.
+What now?
+GIVE TOOTH
+The tooth fairy examines it closely and says, "This isn't our usual kind of
+tooth, most odd - tell you what, I'll swap it for one silver coin. Is that a
+deal?"
+NO 
+"Mmm. Perhaps I could throw in a firefly too. OK?"
+YES
+The fairy takes your tooth and leaves.
+What now?
+E
+You are in a carport with an an examination pit in the floor. You can see a
+red Porsche.
+Exits are west and down.
+What now?
+D
+You are inside a gigantic clock. You can see a diamond teardrop, an ivory
+tusk, a jewellery case, a fine golden hourglass, a fine metronome, a Masai
+spear, valerian, a sharp axe, a silver candelabra, a carved lodestone, a tin
+opener, a grubby pick, huge cogs numbered 1 to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP COIN
+What now?
+TURN COG 3
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are standing below a small hill rising from a lush green grassy valley.
+There's an opening in the hillside. Far to the east is a watering hole,
+surrounded by grazing animals. 
+Exits are east, south to a door, west and up.
+What now?
+E
+You are west of the waterhole. The grazing animals watch you with interest:
+some of them look very large. 
+Exits are east and west.
+What now?
+E 
+You are by a pool of muddy water. The grazing dinosaurs walk slowly away as
+you approach. You can see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly
+The only visible exit is west.
+What now?
+W
+You are west of the waterhole. The grazing animals watch you with interest:
+some of them look very large. You can see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly
+Exits are east and west.
+What now?
+W
+You are standing below a small hill rising from a lush green grassy valley.
+There's an opening in the hillside. Far to the east is a watering hole,
+surrounded by grazing animals. You can see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly
+Exits are east, south to a door, west and up.
+What now?
+W
+You are west of the hill. You can see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly
+Exits are east and west.
+What now?
+W 
+You are on the prairie. You can see an Allosaurus and a Tyrannosaurus Rex.
+The dinosaur approaches menacingly
+Exits are east and west.
+The killer dinosaurs kill each other
+What now?
+W
+You are in a deep pit, presumably an animal trap. You can see a bunch of
+green leaves scattered about, a mirror half-buried in the earth and a
+Brontosaurus peering down from above.
+What now?
+GET LEAVES
+What now?
+GET MIRROR
+What now?
+GIVE LEAVES 
+The brontosaurus grabs the leaves and pulls them into the air. It carries
+you out of the pit!
+You are by the edge of the pit. You can see a Brontosaurus.
+Exits are east and south.
+What now?
+WAVE MIRROR 
+The air shimmers
+You are by the edge of the pit. 
+Exits are east and south.
+What now?
+E
+You are climbing a well-worn path. 
+Exits are up and down.
+What now?
+U
+You are on a wide ledge outside a warm cave. 
+Exits are down and in.
+What now?
+IN
+You are in a large dry cave, warmed by a blazing fire. You can see a group
+of cavemen.
+Exits are north and out.
+What now?
+DROP MIRROR 
+Oops! Smashed to smithereens and from the debris appears a Brontosaurus.
+It wanders away, chasing the cavemen
+What now?
+N
+You are in a store cave. You can see a dinosaur egg balanced precariously on
+a shelf.
+Exits are north, northeast, south and west.
+What now?
+GET * EGG *
+What now?
+NE
+You are in the stone age armoury. You can see a stone club.
+Exits are east, southwest and northwest.
+What now?
+GET CLUB
+What now?
+NW
+You are in the smallest cave. 
+Exits are southeast and west.
+What now?
+W
+You are the junk-strewn pebble and shell room where the cave people make
+cheap gifts for barter with travellers. You can see a painted pebble.
+Exits are east, south, southeast and west.
+What now?
+GET PEBBLE
+What now?
+SE
+You are in the painting studio. Clearly minimalism is all the rage. 
+Exits are north and northwest.
+What now?
+N
+You are in the trophy cave. Skeleton heads hang from the walls - some of
+them were human. You can see an animated cave skeleton.
+Exits are north, east, southeast and west.
+What now?
+THROW PEBBLE 
+The skeleton collapses in a heap of dry bones
+What now?
+E
+You are in the treasure vault. You can see an onyx figurine.
+The only visible exit is west.
+What now?
+GET FIGURINE
+What now?
+W
+You are in the trophy cave. Skeleton heads hang from the walls - some of
+them were human. You can see a painted pebble.
+Exits are north, east, southeast and west.
+What now?
+SE
+You are crossing a wooden bridge over an exceedingly deep crevasse. You can
+see a caveman dragging a struggling cavewoman by her hair.
+Exits are south and northwest.
+What now?
+THROW CLUB 
+The vile caveman is knocked off the bridge. The rescued woman thanks you
+profusely and presses something into your hand
+What now?
+S
+You are in the invention room. You find odd scribblings on the walls and
+find half-finished tools on the floor. 
+Exits are north and in to a door.
+What now?
+EUREKA
+The door opens.
+What now?
+IN
+The door closes behind you
+You are in the invention alcove: "JWAAMTETS" is enscribed high on one wall. 
+Exits are in to a door and out to a door.
+What now?
+JAMES WATT 
+The door opens.
+What now?
+IN
+The door closes behind you
+You are in a small recess which sounds hollow underfoot. You can see The
+Wheel propped up in a corner.
+Exits are down and out to a door.
+What now?
+GET WHEEL
+What now?
+D
+You are inside a gigantic clock. You can see a diamond teardrop, an ivory
+tusk, a jewellery case, a fine golden hourglass, a fine metronome, a Masai
+spear, valerian, a sharp axe, a silver candelabra, a silver coin, a carved
+lodestone, a tin opener, a grubby pick, huge cogs numbered 1 to 9 and a
+massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP WHEEL
+What now?
+DROP EGG
+What now?
+DROP FIGURINE
+What now?
+TURN COG 4
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are on a beach in a small bay surrounded by overhanging cliffs. Breakers
+roll in from the sea to the north, rocking the viking longship drawn up on
+the sand north of you. 
+Exits are north and southeast.
+What now?
+N
+You are at the edge of the sea. You can see a moored viking longship with a
+fierce dragon prow and a shivering Viking guard.
+Exits are south and up.
+What now?
+GIVE COAT 
+The viking is delighted by the warm fur and hands you a lur. "There is a
+reward for capturing the pirate", he says
+What now?
+SE
+You are between the sea and towering cliffs. 
+Exits are east, southeast, west and northwest.
+What now?
+E
+You are in an empty cave. 
+Exits are north, east and southwest.
+What now?
+E
+You are an old, musty, dry cave floored with very soft earth. 
+The only visible exit is west.
+What now?
+DIG
+You are an old, musty, dry cave floored with very soft earth. 
+You're in a hole
+The only visible exit is west.
+What now?
+DIG
+You find a scrap of parchment.
+You are an old, musty, dry cave floored with very soft earth. You can see a
+scrap of parchment.
+You're in a deep hole
+The only visible exit is west.
+What now?
+GET PARCHMENT
+What now?
+READ IT 
+To the sunset you must go,
+keeping high and never low.
+In a sheltered, hidden cove
+you will find a treasure trove.
+Pitfalls you are sure to meet,
+you may even get wet feet!,
+But in the end you're sure to greet
+that dreadful scoundrel, Pirate Pete!
+What now?
+DROP IT
+What now?
+W
+You are in an empty cave. 
+Exits are north, east and southwest.
+What now?
+SW
+You are in a low cave smelling of seaweed. You can see a rocking stone to
+the west.
+Exits are northeast, west and out.
+What now?
+PUSH STONE
+It rolls away
+What now?
+W
+You are walking along a sloping east-west passage. The ground is very damp
+and seaweed clings to the walls. 
+Exits are east and west.
+What now?
+W
+You are further along the damp passage, beside the entrance to a small cave.
+
+Exits are east, south, west and down.
+What now?
+W
+You are in a hands and knees crawl. An opening slopes down to the north. 
+Exits are east, south, west and down.
+What now?
+W
+You are at a junction of the tunnel and a vertical fissure. 
+Exits are east, up and down.
+What now?
+U
+You are in a tight fissure. 
+Exits are up and down.
+What now?
+U
+You are above the hole in a cave which shows signs of habitation: the ashes
+from a recent fire smoulder acridly. 
+Exits are east and down.
+What now?
+E
+You are in the pirate's hideout. You can see a huge iron-bound chest.
+The only visible exit is west.
+What now?
+OPEN CHEST 
+The chest opens and a bearded rogue leaps out: "Ahoy there me hearty! Oi be
+Pirate Pete what gets me pleasure from robbing weary travellers like thee!"
+Pirate Pete steals a bunch of keys.
+What now?
+BLOW LUR 
+The lur booms out, summoning a horde of Vikings. They grab the pirate and
+drag him off, rewarding you with an olive branch
+What now?
+IN
+You are in the large, empty chest. You can see a bunch of keys and a
+recessed handle.
+What now?
+GET KEYS 
+What now?
+PULL HANDLE
+The ground under your feet gives way
+You are inside a gigantic clock. You can see a diamond teardrop, an ivory
+tusk, a dinosaur egg, a jewellery case, a fine golden hourglass, a fine
+metronome, a Masai spear, valerian, The Wheel, a sharp axe, a silver
+candelabra, a silver coin, an onyx figurine, a carved lodestone, a tin
+opener, a grubby pick, huge cogs numbered 1 to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP LUR
+What now?
+DROP BRANCH
+What now?
+TURN COG 5
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are at the end of a road leading north. High stone walls block the view
+to east and west. 
+Exits are north and south to a door.
+What now?
+N
+You are at a bend in the enclosed road. You can see a milestone beside the
+road.
+Exits are east and south.
+What now?
+GET MILESTONE
+What now?
+E
+You are on the road, which now cuts across a small village green. To the
+north is a small mediaeval ale-house with wattled walls and a thatched roof.
+
+Exits are northeast, east, west and in to a door.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+N
+The door closes behind you
+You are in the bar: a grubby room with straw on the floor - not at all the
+sort of place you usually frequent. You can see a cask of ale on a rough
+wooden table and a rotund bartender.
+The only visible exit is out to a door.
+What now?
+GIVE NUGGET
+"OK, the ale's yours"
+What now?
+GET ALE
+What now?
+OPEN DOOR
+The door opens.
+What now?
+S
+The door closes behind you
+You are on the road, which now cuts across a small village green. To the
+north is a small mediaeval ale-house with wattled walls and a thatched roof.
+
+Exits are northeast, east, west and in to a door.
+What now?
+E
+You are on a cobbled street leading past a dense copse to a splendid castle
+in the east. 
+Exits are north, east, west and northwest.
+What now?
+E
+You are at the Cobble Square west of the castle. There are pillories and
+stocks here, surrounded by a jeering crowd. You can see a rotten apple
+rolling on the ground and an unfortunate wretch in the stocks.
+Exits are east, southeast and west.
+What now?
+E
+You are in front of the imposing castle entrance. The drawbridge is raised.
+You can see a thirsty messenger of the King.
+Exits are south and west.
+What now?
+GIVE ALE 
+"Thanks very much! Just what I wanted!" The messenger drinks the ale and
+shares some of his food with you
+What now?
+W
+You are at the Cobble Square west of the castle. There are pillories and
+stocks here, surrounded by a jeering crowd. You can see a rotten apple
+rolling on the ground and an unfortunate wretch in the stocks.
+Exits are east, southeast and west.
+What now?
+W
+You are on a cobbled street leading past a dense copse to a splendid castle
+in the east. 
+Exits are north, east, west and northwest.
+What now?
+N
+You are in the copse. 
+Exits are north, east and west.
+What now?
+E
+You are deep in the copse. 
+Exits are east, south, west and northwest.
+What now?
+E
+You are in the copse. You can see a genuine fire-breathing dragon.
+The only visible exit is west.
+What now?
+GIVE FOOD 
+The dragon eats the food with obvious relish: "Thanks mate, that was very
+good - could have done with a touch more mustard though."
+"I feel like a walk now, would you like a ride on my back?"
+YES 
+The dragon lets you climb on his back and you travel along quite happily,
+back the way you came, until you reach the edge of a moat. The dragon tries
+to fly over it but only succeeds in belly-flopping into the water. It slinks
+off, dripping
+You are standing in ankle deep scummy water below the south bank of the
+moat. You can see a little dragon's wing and a green frog sitting on a lily
+pad.
+The only visible exit is south.
+What now?
+GET * WING *
+What now?
+KISS FROG 
+The frog turns into a handsome prince!
+What now?
+GIVE SWORD
+"Ta, love"
+What now?
+S
+You are at the castle entrance, between two tall battle-scarred towers. You
+can see a fair prince.
+Exits are north and in.
+What now?
+IN
+You are in the courtyard within the castle walls. Battered armour and
+notched swords litter the blood-soaked ground. The Keep stands open to the
+southeast. You can see a rugged gauntlet in the dust and a fair prince.
+Exits are southeast and out.
+What now?
+GET GAUNTLET
+What now?
+WEAR IT
+What now?
+SE
+You are at the Keep entrance, in a small stone room. You can see a fair
+prince.
+Exits are south, southwest, west and northwest.
+What now?
+W
+You are in the armoury. You can see a battered suit of armour hanging on the
+wall and a fair prince.
+Exits are east and south.
+What now?
+GET ARMOUR
+What now?
+WEAR IT
+What now?
+S
+You are in the rush-strewn Great Hall. You can see the Black Knight and a
+fair prince.
+Exits are north, northeast, east and west.
+The Black Knight strides forwards
+What now?
+WAIT
+Time goes by . . . . . 
+The Black Knight draws his sword
+What now?
+WAIT 
+Time goes by . . . . . 
+The Black Knight attacks but the armour protects you. The prince leaps to
+your defence and kills the evil Black Knight. He carries the body away
+What now?
+W
+You are above a narrow flight of stairs. 
+Exits are south and down.
+What now?
+D
+You are descending the steep stairs. 
+Exits are up and down.
+What now?
+D
+You are in the dungeons which are dank and depressing. There's a red cross
+on the wall and the earth floor looks disturbed. 
+The only visible exit is up.
+What now?
+DIG
+You are in the dungeons which are dank and depressing. There's a red cross
+on the wall and the earth floor looks disturbed. 
+You're in a hole
+The only visible exit is up.
+What now?
+DIG
+You find a jewelled coffer.
+You are in the dungeons which are dank and depressing. There's a red cross
+on the wall and the earth floor looks disturbed. You can see a jewelled
+coffer.
+You're in a deep hole
+The only visible exit is up.
+What now?
+GET COFFER
+What now?
+DIG
+The ground under your feet gives way
+You are inside a gigantic clock. You can see an olive branch, a diamond
+teardrop, an ivory tusk, a dinosaur egg, a jewellery case, a fine golden
+hourglass, a fine metronome, a Masai spear, valerian, The Wheel, a sharp
+axe, a silver candelabra, a silver coin, an onyx figurine, a carved
+lodestone, a lur, a tin opener, a grubby pick, huge cogs numbered 1 to 9 and
+a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP WING
+What now?
+DROP COFFER
+What now?
+DROP MILESTONE
+What now?
+TURN COG 6
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are in the entrance porch of an impressive country house with exposed
+oak beams. 
+The only visible exit is north.
+What now?
+N
+You are in a u-shaped hallway with doors to east and west. A magnificent
+staircase sweeps upwards to a gallery above. 
+Exits are east, south, west and up.
+What now?
+W
+You are at the north end of the banqueting hall. 
+Exits are east and south.
+What now?
+S
+You are at the south end of the hall. You can see a drinking horn on a table
+and some sweetmeats on a carved sideboard.
+The only visible exit is north.
+What now?
+GET SWEETMEATS
+What now?
+GET HORN
+What now?
+N
+You are at the north end of the banqueting hall. 
+Exits are east and south.
+What now?
+E
+You are in a u-shaped hallway with doors to east and west. A magnificent
+staircase sweeps upwards to a gallery above. 
+Exits are east, south, west and up.
+What now?
+E
+You are at the north end of a long room used for relaxation. 
+Exits are south and west.
+What now?
+S
+You are at the south end of the long room, between two tables. You can see a
+pack of playing cards on a green-baize table and a silver bell.
+The only visible exit is north.
+What now?
+GET CARDS
+What now?
+GET BELL
+What now?
+RING BELL 
+A jester appears: "The Lord of Misrule is angry for I have lost one of the
+tools of my trade. Have you seen it?"
+What now?
+SHUFFLE CARDS 
+You find a joker.
+What now?
+GET JOKER
+What now?
+GIVE JOKER 
+The Jester laughs with glee, "Thank you my friend"! He gives you his belled
+cap before dancing off
+What now?
+N
+You are at the north end of a long room used for relaxation. 
+Exits are south and west.
+The candle flickers
+What now?
+W
+You are in a u-shaped hallway with doors to east and west. A magnificent
+staircase sweeps upwards to a gallery above. 
+Exits are east, south, west and up.
+The candle flickers
+What now?
+U
+You are at the top of the stairway, in the minstrel's gallery. A short
+staircase leads up. 
+Exits are up and down.
+The candle flickers
+What now?
+U
+You are climbing the short stairs. Several wall panels sound hollow. 
+Exits are up and down.
+The candle flickers
+What now?
+U
+You are in the middle of a long east-west portrait gallery. Leaded windows
+overlook the beautiful knot gardens below. 
+Exits are east, west and down.
+The candle flickers
+What now?
+W
+You are at the west end of the portrait gallery. 
+Exits are east and south.
+The candle flickers
+What now?
+S
+You are in a bedroom with a four poster bed. You can see an oriental rug
+hanging on the wall.
+Exits are north and south.
+The candle flickers
+What now?
+GET RUG
+The candle flickers
+What now?
+S
+You are in the bedroom of the master of the house. You can see an ottoman
+and two hunting dogs.
+The only visible exit is north.
+The candle flickers
+"Woof!"
+What now?
+GIVE SWEETMEATS
+The dogs gulp down the delicacies, wagging their tails, before waddling off
+for a nap
+The candle flickers
+What now?
+OPEN OTTOMAN
+You are in the bedroom of the master of the house. You can see an ottoman
+which is open.
+The only visible exit is north.
+The candle flickers
+What now?
+EXAMINE IT
+You find a jewelled crown.
+The candle flickers
+What now?
+GET CROWN
+The candle flickers
+What now?
+N
+You are in a bedroom with a four poster bed. 
+Exits are north and south.
+The candle flickers
+What now?
+N
+You are at the west end of the portrait gallery. 
+Exits are east and south.
+The candle flickers
+What now?
+E
+You are in the middle of a long east-west portrait gallery. Leaded windows
+overlook the beautiful knot gardens below. 
+Exits are east, west and down.
+The candle flickers
+And goes out.
+What now?
+E
+You are at the east end of the long gallery. 
+Exits are south and west.
+What now?
+S
+You are in a bedroom, hung about with lavender. 
+Exits are north and south.
+What now?
+S
+You are in the music room. You can see a lute propped in the corner.
+The only visible exit is north.
+What now?
+GET LUTE
+What now?
+N
+You are in a bedroom, hung about with lavender. 
+Exits are north and south.
+What now?
+N
+You are at the east end of the long gallery. 
+Exits are south and west.
+What now?
+W
+You are in the middle of a long east-west portrait gallery. Leaded windows
+overlook the beautiful knot gardens below. 
+Exits are east, west and down.
+What now?
+D
+You are climbing the short stairs. Several wall panels sound hollow. 
+Exits are up and down.
+What now?
+PLAY LUTE 
+A panel moves!
+You are climbing the short stairs. Several wall panels sound hollow. A
+secret door leads east
+Exits are up and down.
+What now?
+E
+You are in a hedge maze. 
+What now?
+W
+You are in a hedge maze. 
+What now?
+W
+You are in a hedge maze. 
+What now?
+SW
+You are in a hedge maze. 
+What now?
+SE
+You are in the middle of the maze. You can see a twee little well labelled
+"Water of Strength".
+What now?
+D
+You are down the well, within reach of the water. 
+The only visible exit is north.
+What now?
+DRINK
+Just what you needed! You feel VERY strong!
+What now?
+N
+You are inside a gigantic clock. You can see an olive branch, a diamond
+teardrop, an ivory tusk, a little dragon's wing, a dinosaur egg, a jewellery
+case, a fine golden hourglass, a fine metronome, a milestone, a Masai spear,
+valerian, The Wheel, a sharp axe, a silver candelabra, a jewelled coffer, a
+silver coin, an onyx figurine, a carved lodestone, a lur, a tin opener, a
+grubby pick, huge cogs numbered 1 to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP RUG
+What now?
+DROP LUTE
+What now?
+DROP CROWN
+What now?
+DROP BELL
+What now?
+GET COIN
+What now?
+TURN COG 7
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are on a flat rocky plain which stretches for miles. It is covered by
+fine grey dust. The night air is cold. Luminous walkways travel east and
+west. 
+Exits are east and west.
+What now?
+W
+You are at a walkway junction. 
+Exits are north, east, south and west.
+What now?
+W
+You are at the Intergalactic Bureau-de-Change. You can see a galactic groat
+and a splendid android.
+The only visible exit is east.
+What now?
+GIVE COIN 
+The android exchanges your coin for a Galactic Groat
+What now?
+E
+You are at a walkway junction. 
+Exits are north, east, south and west.
+What now?
+N
+You are at the foot of the Milky Way, a long sparkling pathway which climbs
+up into space. 
+Exits are northeast, south and up.
+What now?
+U
+You are halfway up the Milky Way. 
+Exits are east, up and down.
+What now?
+U
+You are at the top of the Milky Way, amidst brightly twinkling stars. You
+can see a fallen star glowing white-hot.
+Exits are north, southeast and down.
+What now?
+GET STAR 
+What now?
+D
+You are halfway up the Milky Way. 
+Exits are east, up and down.
+What now?
+D
+You are at the foot of the Milky Way, a long sparkling pathway which climbs
+up into space. 
+Exits are northeast, south and up.
+What now?
+S
+You are at a walkway junction. 
+Exits are north, east, south and west.
+What now?
+E
+You are on a flat rocky plain which stretches for miles. It is covered by
+fine grey dust. The night air is cold. Luminous walkways travel east and
+west. 
+Exits are east and west.
+What now?
+E
+You are at a walkway junction on the grey plain. 
+Exits are north, east and west.
+What now?
+N
+You are at the end of the north walkway. If you continue it will be on foot.
+
+Exits are north and south.
+What now?
+N
+You are standing on a floating metal platform, suspended in mid-air. To the
+north is a starship. 
+Exits are north to a door and south.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+N
+The door closes behind you
+You are inside the starship. 
+Exits are north, east, south to a door and west.
+What now?
+W
+The water cools the star in a hissing of steam
+You are in a space swimming pool, splashing around on a colossal water drop
+which wobbles in mid-air. You can see an emerald.
+The only visible exit is east.
+What now?
+GET EMERALD
+What now?
+E
+You are inside the starship. 
+Exits are north, east, south to a door and west.
+What now?
+N
+You are in a green sleep room. You can see an old mattress and a
+grapple-firing rocket.
+The only visible exit is south.
+What now?
+GET MATTRESS
+What now?
+GET ROCKET
+What now?
+S
+You are inside the starship. 
+Exits are north, east, south to a door and west.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+S
+The door closes behind you
+You are standing on a floating metal platform, suspended in mid-air. To the
+north is a starship. 
+Exits are north to a door and south.
+What now?
+S
+You are at the end of the north walkway. If you continue it will be on foot.
+
+Exits are north and south.
+What now?
+S
+You are at a walkway junction on the grey plain. 
+Exits are north, east and west.
+What now?
+E
+You are on the edge of a wide crater. 
+Exits are west and down.
+What now?
+D 
+The mattress breaks your fall
+You are in a dull, lifeless crater. High up the west wall is an opening. 
+Exits are east, south and up.
+What now?
+S
+You are in a long room. A guard stands beside each door. 
+Exits are north, east and south.
+What now?
+E
+You are in the alcove room. Only one alcove is open. You can see a
+lightsabre standing in a rack.
+The only visible exit is west.
+What now?
+GET SABRE
+What now?
+W
+You are in a long room. A guard stands beside each door. 
+Exits are north, east and south.
+What now?
+S
+You are in a cubicle. 
+Exits are north and west to a door.
+What now?
+OPEN DOOR
+The door opens.
+What now?
+W
+The door closes behind you
+You are in a room with no roof. An opening is visible far above. You can see
+a glass phial.
+The only visible exit is east to a door.
+What now?
+GET PHIAL
+What now?
+FIRE ROCKET 
+The rocket shoots up and you climb its rope
+You are outside a sports and aerobotics arena. 
+Exits are north, down and in.
+What now?
+IN
+A force field blocks you: "Payment, please"
+What now?
+GIVE GROAT
+"Entry now authorised today"
+What now?
+IN
+You are beside a deep tropical pool. 
+Exits are down and out.
+What now?
+D
+The mattress breaks your fall
+You are in a dark, dingy hole between a ladder and a low tunnel. You can see
+a curved ruby.
+Exits are up and down.
+What now?
+GET RUBY
+What now?
+U
+You are beside a deep tropical pool. 
+Exits are down and out.
+What now?
+OUT
+You are outside a sports and aerobotics arena. 
+Exits are north, down and in.
+What now?
+N
+You are in the fencing hall. You can see a fierce cyberman waving a sword.
+Exits are east and south.
+What now?
+KILL CYBERMAN 
+Your lightsabre makes short work of the cyberman
+What now?
+E
+You are in a robot repair shop. You can see a silicate workbench.
+The only visible exit is west.
+What now?
+EXAMINE WORKBENCH
+You find a delicate little screwdriver.
+What now?
+GET SCREWDRIVER
+What now?
+W
+You are in the fencing hall. You can see a jumble of broken robots.
+Exits are east and south.
+What now?
+OPEN ROBOTS 
+An inspection panel opens
+What now?
+EXAMINE ROBOTS 
+You find a silicon chip.
+What now?
+DROP CARDS
+What now?
+GET * CHIP *
+What now?
+S
+You are outside a sports and aerobotics arena. 
+Exits are north, down and in.
+What now?
+IN
+You are beside a deep tropical pool. 
+Exits are down and out.
+What now?
+D
+The mattress breaks your fall
+You are in a dark, dingy hole between a ladder and a low tunnel. 
+Exits are up and down.
+What now?
+D
+You are inside a gigantic clock. You can see an olive branch, a diamond
+teardrop, an ivory tusk, a little dragon's wing, a dinosaur egg, an oriental
+rug, a jewellery case, a fine golden hourglass, a lute, a fine metronome, a
+milestone, a Masai spear, valerian, The Wheel, a sharp axe, a silver bell, a
+silver candelabra, a jewelled coffer, a jewelled crown, an onyx figurine, a
+carved lodestone, a lur, a tin opener, a grubby pick, huge cogs numbered 1
+to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP RUBY
+What now?
+DROP SCREWDRIVER
+What now?
+DROP CHIP
+What now?
+DROP MATTRESS
+What now?
+DROP STAR
+What now?
+DROP EMERALD
+What now?
+TURN COG 8
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are on a road leading north through the gates of a walled city. You can
+see two Roman sentries beside the gate.
+Exits are north and south.
+What now?
+N
+You are just inside the gates, at a junction. 
+Exits are north, northeast, south and west.
+What now?
+W
+You are on the steps of a small temple. Stone columns support the lintel
+over its doorway. 
+Exits are east and in.
+What now?
+IN
+You are inside the temple, which contains shrines to many gods. 
+The only visible exit is out.
+What now?
+KNEEL
+What now?
+PRAY 
+The god Mercury appears and solemnly hands you a pair of winged sandals
+What now?
+WEAR SHOES
+What now?
+E
+You are on the steps of a small temple. Stone columns support the lintel
+over its doorway. 
+Exits are east and in.
+What now?
+E
+You are just inside the gates, at a junction. 
+Exits are north, northeast, south and west.
+What now?
+NE
+You are at a road junction. 
+Exits are northeast, east and southwest.
+What now?
+E
+You are in a spartan barracks, beside an iron-bound locker. 
+Exits are west and in.
+What now?
+IN
+You are inside the locker where soldiers store their weapons. You can see a
+weighted net and a long trident.
+The only visible exit is out.
+What now?
+GET NET
+What now?
+GET TRIDENT
+What now?
+OUT
+You are in a spartan barracks, beside an iron-bound locker. 
+Exits are west and in.
+What now?
+W
+You are at a road junction. 
+Exits are northeast, east and southwest.
+What now?
+SW
+You are just inside the gates, at a junction. 
+Exits are north, northeast, south and west.
+What now?
+N
+You are on a long straight road north from the gatehouse. Around you are the
+buildings of a small garrison town. 
+Exits are north and south.
+What now?
+N
+You are in the forum: an open courtyard surrounded by buildings. 
+Exits are north, northeast, east, south, west and northwest.
+What now?
+N
+You are in the deserted treasury. You can see a golden buckle.
+The only visible exit is south.
+What now?
+GET BUCKLE 
+A gladiator steals the buckle and runs south to the arena!
+What now?
+S
+You are in the forum: an open courtyard surrounded by buildings. 
+Exits are north, northeast, east, south, west and northwest.
+What now?
+S
+You are on a long straight road north from the gatehouse. Around you are the
+buildings of a small garrison town. 
+Exits are north and south.
+What now?
+S
+You are just inside the gates, at a junction. 
+Exits are north, northeast, south and west.
+What now?
+S
+You are on a road leading north through the gates of a walled city. You can
+see two Roman sentries beside the gate.
+Exits are north and south.
+What now?
+S
+You are outside the north entrance of an amphitheatre: an enormous circular
+building of gleaming marble and decorated with heroic statues. You can hear
+the roar of the crowds inside. 
+Exits are east and in through an open door.
+What now?
+W
+The door closes behind you
+You are in the arena of the amphitheatre, surrounded by an immense cheering
+crowd. You can see a golden buckle, a massively-muscled gladiator and a
+fierce lion.
+The only visible exit is out to a door.
+What now?
+THROW NET
+It entangles the lion
+What now?
+THROW TRIDENT 
+The trident pins the net in place, holding the lion securely
+What now?
+GET * BUCKLE *
+What now?
+OPEN DOOR
+The door opens.
+What now?
+E 
+The door closes behind you
+You are outside the north entrance of an amphitheatre: an enormous circular
+building of gleaming marble and decorated with heroic statues. You can hear
+the roar of the crowds inside. 
+Exits are east and in through an open door.
+What now?
+E
+You are on a road leading north through the gates of a walled city. You can
+see two Roman sentries beside the gate.
+Exits are north and south.
+What now?
+N
+You are just inside the gates, at a junction. 
+Exits are north, northeast, south and west.
+What now?
+NE
+You are at a road junction. 
+Exits are northeast, east and southwest.
+What now?
+NE
+You are in the south end of the caldarium. Steps lead down into a great
+square bath decorated with dolphin mosaics. 
+Exits are northeast, east and southwest.
+What now?
+NE
+You are beside a stone dolphin which pours out cold water. You can see a
+marble basin full of water.
+Exits are south and southwest.
+What now?
+FILL HORN
+What now?
+S
+You are in the hot baths. You can see a grate in the south wall.
+Exits are north, south and west.
+What now?
+PULL GRATE
+It comes loose
+What now?
+S
+You are in the hypocaust. 
+Exits are north, east, south, southeast and west.
+What now?
+SE
+You are in the hypocaust. 
+Exits are north, east, south, west and northwest.
+It's very hot
+What now?
+W
+You are in the hypocaust. 
+Exits are north, east, south and west.
+You'll die without water!
+What now?
+DRINK WATER
+Just what you needed! 
+What now?
+W
+You are in the hypocaust. 
+Exits are east, south and west.
+It's very hot
+What now?
+W
+You are in the hypocaust. 
+Exits are east and south.
+You'll die without water!
+What now?
+S
+You are inside a gigantic clock. You can see an olive branch, a silicon
+chip, a diamond teardrop, an ivory tusk, a little dragon's wing, a dinosaur
+egg, an oriental rug, a jewellery case, a fine golden hourglass, a lute, a
+fine metronome, a milestone, a delicate little screwdriver, a Masai spear,
+valerian, The Wheel, a sharp axe, a silver bell, a silver candelabra, a
+jewelled coffer, a jewelled crown, an emerald, an onyx figurine, a carved
+lodestone, a lur, an old mattress, a tin opener, a grubby pick, a curved
+ruby, a fallen star, huge cogs numbered 1 to 9 and a massive pendulum.
+The only visible exit is north to a door.
+What now?
+DROP HORN
+What now?
+GET BRANCH
+What now?
+GET EGG
+What now?
+GET TUSK
+What now?
+GET TEAR
+What now?
+GET WING
+What now?
+GET CHIP
+What now?
+GET MILESTONE
+What now?
+TURN COG 9
+The room shakes
+What now?
+PUSH PENDULUM
+The door opens.
+What now?
+N 
+The door closes behind you
+You are in a fair field full of flowers. Butterflies flitter happily in the
+bright sunshine and a heady perfume fills the air. You could be in paradise.
+
+The only visible exit is south.
+What now?
+S
+You are in front of an ugly arch: "ABANDON HOPE ALL YE WHO ENTER HERE". You
+can see a crude black archway.
+Exits are north and south to a door.
+What now?
+DROP MILESTONE 
+Father Time appears. "Do not be afraid. What you are about to see is the
+future if the Timelords win. There is still time to defeat them."
+The door opens.
+What now?
+S
+The door closes behind you
+You are in the Ruined Land. Where trees and grasses once grew is a
+smouldering wasteland and the sun hangs low as a huge ball of red fire. The
+heat is terrible and the ground below your feet quivers as though in agony. 
+The only visible exit is south.
+What now?
+S
+You are amidst the smoking ruins of a small village. 
+Exits are north and south.
+What now?
+S
+You are on the brink of a deep crack. 
+Exits are north and down.
+What now?
+D
+You are at the bottom of a deep, earthy pit. The walls are too crumbly to
+climb. 
+Exits are east, south, west and up.
+What now?
+W
+You are in a stifling maze of decayed earthy passages. 
+Exits are north, east, south, southwest and west.
+What now?
+S
+You are in a putrescent chamber. You can see a grimy brown bottle poking out
+of the earth.
+The only visible exit is north.
+What now?
+DIG 
+The bottle is loosened
+You are in a putrescent chamber. You can see a grimy brown bottle poking out
+of the earth.
+You're in a hole
+The only visible exit is north.
+What now?
+DROP SHOVEL
+What now?
+GET  BOTTLE
+What now?
+N
+You are in a stifling maze of decayed earthy passages. 
+Exits are north, east, south, southwest and west.
+What now?
+E
+You are at the bottom of a deep, earthy pit. The walls are too crumbly to
+climb. 
+Exits are east, south, west and up.
+What now?
+S
+You are in a square white room, some sort of experimental laboratory. You
+can see many cruel metal cages in which the evil Timelords have imprisoned
+zillions of cute creatures.
+Exits are north, northeast and south.
+What now?
+OPEN CAGES 
+The animals bound away
+What now?
+S
+You are in a worse laboratory. You can see thick bars which imprison
+hundreds of poor people.
+Exits are north and east.
+What now?
+OPEN BARS 
+The people are free and hurry away, handing you a reward
+What now?
+E
+You are at a junction between foul passages. 
+Exits are east, south, southwest and west.
+What now?
+E
+You are in a room full of strange plants which grab at you. One flower is
+enormous. 
+Exits are west and in.
+What now?
+IN
+You are inside the plant. Sharp hairs block your escape and the walls ooze
+digestive juices. 
+The only visible exit is down.
+What now?
+D
+You are climbing down a sticky tube. 
+The only visible exit is down.
+What now?
+D
+You are inside the tangled roots of the giant plant. The plant is eating you
+What now?
+THROW BOTTLE 
+Oops! Smashed to smithereens releasing liquid paraquat which kills the plant
+What now?
+E
+You are in a low, earthy tunnel. 
+The only visible exit is east.
+What now?
+E
+You are at the end of the earthy tunnel. Crude steps lead upwards. 
+Exits are west and up.
+What now?
+U
+You are climbing steep, treacherous stairs. 
+Exits are up and down.
+What now?
+U
+You are squeezing your way up the narrow stairs. 
+Exits are up and down.
+What now?
+U
+You are at the top of the stairs. You can feel a trapdoor above. You can see
+a filmy cloak.
+Exits are up to a door and down.
+What now?
+GET CLOAK
+What now?
+WEAR IT 
+What now?
+OPEN DOOR
+The door opens.
+What now?
+U
+The door closes behind you
+You are under a long table. Seated round it are nine men, presumably the
+Evil Timelords. 
+Exits are up and down to a door.
+What now?
+U
+You are standing behind the Evil Timelords as they discuss their evil plans.
+
+The only visible exit is east.
+What now?
+E
+You are lost in the mists of time. You can see a cast-iron cauldron.
+The only visible exit is west.
+What now?
+THROW WING 
+Into the cauldron!
+What now?
+THROW BRANCH
+Into the cauldron!
+What now?
+THROW EGG
+Into the cauldron!
+What now?
+THROW TUSK
+Into the cauldron!
+What now?
+W
+You are standing behind the Evil Timelords as they discuss their evil plans.
+
+The only visible exit is east.
+What now?
+E
+You are lost in the mists of time. You can see a cast-iron cauldron.
+The only visible exit is west.
+What now?
+THROW BOX
+Into the cauldron!
+What now?
+THROW CAP
+Into the cauldron!
+What now?
+THROW TEAR
+Into the cauldron!
+What now?
+THROW BUCKLE
+Into the cauldron!
+What now?
+W
+You are standing behind the Evil Timelords as they discuss their evil plans.
+
+The only visible exit is east.
+What now?
+E
+You are lost in the mists of time. You can see a cast-iron cauldron.
+The only visible exit is west.
+What now?
+THROW CHIP 
+Into the cauldron!
+The recipe is complete! Your surroundings fade away as the structure of time
+is repaired. You have won!
+You score 975 out of 1000
+Another game?
+
+Game Terminated

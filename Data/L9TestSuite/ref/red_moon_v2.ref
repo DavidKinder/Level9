@@ -1,0 +1,2199 @@
+Welcome to Red Moon, copyright (C) 1985 from Level 9 Computing.
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? 
+Playing back input from script file.
+#SEED 42
+DIG 
+You find a crown. 
+What now? EXAMINE CROWN 
+Bejewelled. 
+What now? N
+You are on a steep rock slide. Exits are south to a wide, flat grassy plain,
+southeast to a junction of sheep tracks and northwest to a stony path. 
+What now? NW
+You are on a stony path across dry cinders. Exits are southeast to a steep
+rock slide, west to a volcanic outcrop and northwest to a rocky path up a
+volcano. 
+What now? NW
+You are on a rocky path up a volcano peak, zig-zagging between leaning
+pillars of jagged lava. The ground is sharp, like grey coral. Exits are
+southeast to a stony path, west to a crumbling edge of a sheer cliff and
+northwest to a crater rim. 
+What now? NW
+You are on a crater rim high above the landscape. Sulphurous fumes swirl
+past. Exits are north to a volcano crater and southeast to a rocky path up a
+volcano. 
+What now? N 
+You are in a volcano crater covered by shattered black rocks. The ground
+seems to tremble slightly. Exits are south to a crater rim and down to a
+lava-filled chamber. You can see leather gloves. 
+What now? GET GLOVES
+What now? EXAMINE GLOVES 
+Thick leather. 
+What now? S
+You are on a crater rim high above the landscape. Sulphurous fumes swirl
+past. Exits are north to a volcano crater and southeast to a rocky path up a
+volcano. 
+What now? SE
+You are on a rocky path up a volcano peak, zig-zagging between leaning
+pillars of jagged lava. The ground is sharp, like grey coral. Exits are
+southeast to a stony path, west to a crumbling edge of a sheer cliff and
+northwest to a crater rim. 
+What now? W 
+You are on a crumbling edge of a sheer cliff on the west flank of the
+volcano. Exits are east to a rocky path up a volcano and west to a crumbling
+rock-fall. You can see a dagger. 
+What now? GET DAGGER
+What now? EXAMINE DAGGER 
+Blunt. 
+What now? E
+You are on a rocky path up a volcano peak, zig-zagging between leaning
+pillars of jagged lava. The ground is sharp, like grey coral. Exits are
+southeast to a stony path, west to a crumbling edge of a sheer cliff and
+northwest to a crater rim. 
+What now? SE
+You are on a stony path across dry cinders. Exits are southeast to a steep
+rock slide, west to a volcanic outcrop and northwest to a rocky path up a
+volcano. 
+What now? W
+You are on a volcanic outcrop beside an array of tiny slits in the ground.
+The slits are much to small to climb through. Warm air rises through them,
+musky with the unmistakable smell of dragons. Exits are east to a stony
+path, south to a grassy mound and west to a bank of a lava river. 
+What now? W
+You are on a bank of a lava river, watching the glowing rock ooze downhill.
+The overwhelming furnace-heat of this place prevents further progress round
+the mountain. Exits are east to a volcanic outcrop and south to a dry plain
+of volcanic ash. 
+What now? S 
+You are on a dry plain of volcanic ash, streaks of rust at your feet. Exits
+are north to a bank of a lava river and southeast to a wide, flat grassy
+plain. You can see a horseshoe. 
+What now? GET HORSESHOE
+What now? EXAMINE HORSESHOE 
+It feels vaguely magical. It's made of iron. 
+What now? SE
+You are on a wide, flat grassy plain. Exits are north to a wide, flat grassy
+plain, east to a grassy mound, south to a plain of grass beside a marble
+tower and northwest to a dry plain of volcanic ash. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see an axe and a lamp. 
+What now? DROP CROWN
+What now? DROP GLOVES
+What now? DROP DAGGER
+What now? GET LAMP
+What now? EXAMINE LAMP 
+Very Old. 
+What now? SCORE 
+You score 100/1000 and are a wingeing Nacod. You have 50 hit points left.
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? N
+You are on a steep rock slide. Exits are south to a wide, flat grassy plain,
+southeast to a junction of sheep tracks and northwest to a stony path. 
+What now? SE
+You are on a junction of sheep tracks. The castle of Cakabol, rumoured to be
+your destination, is clearly visible in the distance. Exits are northeast to
+a wide gateway, south to a pothole and northwest to a steep rock slide. 
+What now? S
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? S
+You are in a small copse of ash trees. Exits are north to a pothole, east to
+a forest and south to a forest. 
+What now? E
+You are in a forest. Exits are north to a tree clump beside a great lake,
+east to a forest, south to a forest and west to a small copse. 
+What now? N
+You are in a tree clump beside a great lake. Exits are north to a lakeside
+folly and south to a forest. 
+What now? N 
+You are in a lakeside folly in the form of a ruined Lunar temple. An evil
+mist shrouds the landscape to the north, lapping about the imposing walls of
+castle Cakabol. Exits are north to a lake and south to a tree clump beside a
+great lake. You can see a square hole and some bushes. 
+What now? EXAMINE HOLE 
+Small and lined with brass. 
+What now? EXAMINE BUSHES 
+Healthy. You find a handle. You find a key. 
+What now? INSERT HANDLE 
+The handle fits the hole perfectly.
+What now? TURN HANDLE 
+The handle opens sluices to drain the lake.
+What now? N 
+You are on a dry lake bed. Exits are north to a forbidding castle entrance
+and south to a lakeside folly. You can see an oyster fungus. 
+What now? EXAMINE OYSTER FUNGUS 
+An unusual plant. You find a pearl. 
+What now? EXAMINE PEARL 
+Black. 
+What now? N 
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin; silent as
+the grave but for occasional rat-squeaks. Exits are east to a grand entrance
+hall, south to a dry lake bed and southwest to a wide gateway. 
+What now? E 
+It's dark
+What now? LIGHT LAMP 
+Ok!
+You are in a grand entrance hall. Exits are north to a grain store, east to
+a basement with oak walls and west to a forbidding castle entrance. 
+What now? N 
+You slide down a chute which closes behind you.
+You are in a grain store. Abandoned years ago, the grain store is full of
+shrivelled seed and gnawed sacking. The only exit is north to a side alcove.
+You can see an enormous Rat. 
+What now? BURY RAT
+What now? N 
+You are in a side alcove used by the minstrels who once performed at the
+castle. Exits are east to a west alcove of the Great Hall and south to a
+grain store. You can see a dulcimer. 
+What now? GET DULCIMER
+What now? EXAMINE DULCIMER 
+A musical instrument. 
+What now? E
+You are in a west alcove of the Great Hall. Exits are east to a central area
+of the Great Hall and west to a side alcove. 
+What now? E
+You are in a central area of the Great Hall. From here, you judge the length
+of its wood-panelled walls to be about 120 metres. Exits are east to a far
+east alcove of the Great Hall, south to a door and west to a west alcove of
+the Great Hall. 
+What now? E 
+You are in a far east alcove of the Great Hall. Exits are west to a central
+area of the Great Hall, northwest to a tiny passage and down to a door. 
+What now? OPEN DOOR
+It opens
+What now? D
+The door slams behind you.
+You are in a room of manacles, apparently a small, windowless cell. The
+clammy, stone walls reflect a cold hostility. Exits are east to a T-junction
+and up to a door. 
+What now? E
+You are in a T-junction. Exits are east to a sanctum of alchemy, south to a
+torchlit corridor and west to a room of manacles. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. Exits are north to a T-junction, south
+to a dimly-lit room and west to a hot room. 
+What now? S 
+You are in a dimly-lit room. Exits are north to a torchlit corridor, east to
+a rough-cut crawl and down to a straw-strewn room. You can see Sog the
+Newtling. 
+What now? BURY SOG 
+What now? E
+You are in a rough-cut crawl. Exits are north to a room of mirrors, south to
+a long, low room and west to a dimly-lit room. 
+What now? S
+You are in a long, low room. Exits are north to a rough-cut crawl and south
+to a south alcove of a long, low room. 
+What now? S
+You are in a south alcove of a long, low room. Exits are north to a long,
+low room and south to a door. 
+What now? S
+You open the door and walk through. The door slams behind you.
+You are in a small alcove with a human skeleton in one corner. Exits are
+north to a door, west to a door and down to a door. 
+What now? W
+You open the door and walk through. The door slams behind you.
+You are in a dark corridor that runs north-south. A small inscribed door is
+set into the east wall, below an incomprehensible inscription. Exits are
+north to a rock-strewn chamber, east to a door and south to a semi-circular
+room. 
+What now? S
+You are in a semi-circular room, home of a host of woodlice. Their armoured
+bodies criss-cross every surface of the room, following mysterious patterns.
+Exits are north to a dark corridor, south to a cluttered office and west to
+a small, high room. 
+What now? W
+You are in a small, high room. Like certain other parts of the castle, this
+has lain dormant and unused for many years. Exits are east to a
+semi-circular room and southwest to a vast, lamplit circular room. 
+What now? SW
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? NW 
+You are in a walk-in wardrobe, home of a squadron of moths. The only exit is
+southeast to a vast, lamplit circular room. You can see bracers and a linen
+shirt. 
+What now? GET BRACERS
+What now? EXAMINE BRACERS 
+Robust. 
+What now? WEAR BRACERS 
+You feel stronger, but find you can't take them off again!
+What now? TAKE SHIRT
+What now? EXAMINE SHIRT 
+Padded. 
+What now? SE
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? SW
+You are on a precarious platform. Exits are northeast to a vast, lamplit
+circular room and southwest to a stone stairway. 
+What now? SW
+You are in a stone stairway. Exits are northeast to a precarious platform
+and west to a blocked well. 
+What now? W 
+You are in a blocked well. The only exit is east to a stone stairway. You
+can see some iron coins and a grating. 
+What now? EXAMINE GRATING 
+Stout. 
+What now? WAVE HORSESHOE 
+The magnet captures the coins.
+What now? EXAMINE COINS 
+Rare. It's made of iron. 
+What now? E
+You are in a stone stairway. Exits are northeast to a precarious platform
+and west to a blocked well. 
+What now? NE
+You are on a precarious platform. Exits are northeast to a vast, lamplit
+circular room and southwest to a stone stairway. 
+What now? NE
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? N
+You are in a long, cramped corridor. Exits are north to a bone room and
+south to a vast, lamplit circular room. 
+What now? N
+You are in a bone room. Exits are east to a U-shaped tunnel, south to a
+long, cramped corridor and west to a carved cave. 
+What now? E
+You are in a U-shaped tunnel, dark and evil. Exits are west to a bone room
+and northwest to a winding tunnel. 
+What now? NW 
+You are in a winding tunnel lit by a solitary torch. Exits are north to a
+wood-panelled library and southeast to a U-shaped tunnel. You can see Bletch
+the Scorpion man. 
+What now? BURY BLETCH 
+What now? N
+You are in a wood-panelled library, a peaceful room with a feeling of
+knowledge about it. Exits are north to a door, east to a straw-strewn room
+and south to a winding tunnel. You can see a scroll. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a store vault. The only exit is west to a castle kitchen. You can
+see some meat. 
+What now? W
+You are in a castle kitchen. Exits are north to a stinking corridor, east to
+a store vault and south to a cold junction. 
+What now? S
+You are in a cold junction between three passages. Condensation drips from
+the roof. Exits are north to a castle kitchen, west to a castle armoury and
+northwest to a basement with oak walls. 
+What now? NW
+You are in a basement with oak walls. Exits are northeast to a stinking
+corridor, southeast to a cold junction and west to a grand entrance hall. 
+What now? W
+You are in a grand entrance hall. Exits are north to a grain store, east to
+a basement with oak walls and west to a forbidding castle entrance. 
+What now? W
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin; silent as
+the grave but for occasional rat-squeaks. Exits are east to a grand entrance
+hall, south to a dry lake bed and southwest to a wide gateway. 
+What now? SW 
+A metal gate clangs shut behind you.
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. Exits are
+northeast to a forbidding castle entrance and southwest to a junction of
+sheep tracks. You can see a gate of metal which is securily locked. 
+What now? UNLOCK GATE 
+What with? KEY
+The gate creaks open and the key turns to dust.
+What now? SW
+You are on a junction of sheep tracks. The castle of Cakabol, rumoured to be
+your destination, is clearly visible in the distance. Exits are northeast to
+a wide gateway, south to a pothole and northwest to a steep rock slide. 
+What now? S
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? W
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? W
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see a crown, leather gloves, an axe and a dagger. 
+What now? DROP HORSESHOE
+What now? DROP COINS
+What now? DROP PEARL
+What now? DROP SHIRT
+What now? SCORE 
+You score 250/1000 and are a beginner. You have 50 hit points left.
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? W
+You are on a wide, flat grassy plain. Exits are north to a wide, flat grassy
+plain, east to a grassy mound, south to a plain of grass beside a marble
+tower and northwest to a dry plain of volcanic ash. 
+What now? S 
+You are on a plain of grass beside a marble tower, a near-cylinder of
+polished white rock: ten meters wide at the base and narrowing subtly near
+the top. It seems impossibly high. Looking carefully, you find the letters
+"XIIZ" carved at head-hight. Exits are north to a wide, flat grassy plain,
+west to a plain of grass beside a marble tower and in to a door. 
+What now? SAY HUMAK 
+You have 49 hit points left.
+You hear a bolt slide back.
+What now? OPEN DOOR
+It opens
+What now? IN 
+The door slams behind you.
+You are in a marble tower. Exits are down to a steep stairway and out to a
+door. You can see a book. 
+What now? GET BOOK
+What now? READ BOOK 
+The Codex Oedipus. In it is written 'Obis to open' and 'Ollabin for dust'.. 
+What now? D
+You are in a steep stairway. Exits are up to a marble tower and down to a
+landing. 
+What now? D 
+You are in a landing. Exits are up to a steep stairway and down to a bronze
+stairway. You can see Xiiz the Wizard. Xiiz demands a treasure to let you
+pass.
+What now? GIVE BOOK 
+Xiiz grudgingly accepts your payment.
+What now? D
+You are in a bronze stairway. Exits are south to a bronze stairway and up to
+a landing. 
+What now? S
+You are in a bronze stairway. Exits are north to a bronze stairway and
+southeast to a tiny passage. 
+What now? SE
+You are in a tiny passage. Exits are north to a tiny passage, northeast to a
+tiny passage, east to a tiny passage, southwest to a tiny passage, west to a
+tiny passage and northwest to a bronze stairway. 
+What now? SW 
+You are in a tiny passage. Exits are northeast to a tiny passage and
+southeast to a tiny passage. You can see a medallion. 
+What now? GET MEDALLION
+What now? EXAMINE MEDALLION 
+Gold. 
+What now? NE
+You are in a tiny passage. Exits are north to a tiny passage, northeast to a
+tiny passage, east to a tiny passage, southwest to a tiny passage, west to a
+tiny passage and northwest to a bronze stairway. 
+What now? NW
+You are in a bronze stairway. Exits are north to a bronze stairway and
+southeast to a tiny passage. 
+What now? N
+You are in a bronze stairway. Exits are south to a bronze stairway and up to
+a landing. 
+What now? U
+You are in a landing. Exits are up to a steep stairway and down to a bronze
+stairway. You can see Xiiz the Wizard. Xiiz says 'Go away I'm busy.'
+What now? U
+You are in a steep stairway. Exits are up to a marble tower and down to a
+landing. 
+What now? U
+You are in a marble tower. Exits are down to a steep stairway and out to a
+door. 
+What now? SAY HUMAK 
+You have 48 hit points left.
+You hear a bolt slide back.
+What now? OPEN DOOR
+It opens
+What now? OUT
+The door slams behind you.
+You are on a plain of grass beside a marble tower, a near-cylinder of
+polished white rock: ten meters wide at the base and narrowing subtly near
+the top. It seems impossibly high. Looking carefully, you find the letters
+"XIIZ" carved at head-hight. Exits are north to a wide, flat grassy plain,
+west to a plain of grass beside a marble tower and in to a door. 
+What now? N
+You are on a wide, flat grassy plain. Exits are north to a wide, flat grassy
+plain, east to a grassy mound, south to a plain of grass beside a marble
+tower and northwest to a dry plain of volcanic ash. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some iron coins, a crown, a pearl, a horseshoe, leather
+gloves, a linen shirt, an axe and a dagger. 
+What now? DROP MEDALLION
+What now? SAY SATARH 
+You have 47 hit points left.
+A book appears!
+What now? SCORE 
+You score 350/1000 and are a real adventurer. You have 47 hit points left.
+What now? GET GLOVES
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? D 
+You are in a small entrance cavern. Exits are southeast to a webby junction,
+southwest to a rubble cave and up to a pothole. 
+What now? SE
+You are in a webby junction. Exits are south to a low crawl, northwest to a
+small entrance cavern and down to a steep stairway. 
+What now? S 
+You are in a low crawl. Exits are north to a webby junction and east to a
+door. 
+What now? E
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a dormitory cavern. Exits are east to a secret bedroom and west
+to a giant forge. 
+What now? E
+You are in a secret bedroom. Exits are southeast to a long stairway and west
+to a dormitory cavern. 
+What now? SE
+You are in a long stairway. Exits are north to a recess containing a well
+and northwest to a secret bedroom. You can see a mushroom. 
+What now? GET MUSHROOM
+What now? NW
+You are in a secret bedroom. Exits are southeast to a long stairway and west
+to a dormitory cavern. 
+What now? W
+You are in a dormitory cavern. Exits are east to a secret bedroom and west
+to a giant forge. 
+What now? W 
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. You can
+see a sword, the Blacksmith Giant and a fire. 
+What now? BURY GIANT
+What now? GET SWORD 
+You can't keep hold of the burning sword! You have 46 hit points left.
+What now? WEAR GLOVES
+What now? GET SWORD
+What now? SE
+You are in a secret canyon. Exits are south to a windy cave and northwest to
+a giant forge. 
+What now? S 
+You are in a windy cave. The only exit is north to a secret canyon. You can
+see a flask. 
+What now? GET FLASK
+What now? N
+You are in a secret canyon. Exits are south to a windy cave and northwest to
+a giant forge. 
+What now? NW
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. You can
+see a fire. 
+What now? W
+You are in a corridor of arches. Exits are east to a giant forge and south
+to a dusty cave, lined with shelves. 
+What now? S
+You are in a dusty cave, lined with shelves. Exits are north to a corridor
+of arches and south to a windy store room. 
+What now? S 
+You are in a windy store room. The only exit is north to a dusty cave, lined
+with shelves. You can see a hill of beans. 
+What now? EXAMINE BEANS 
+Rotting. There's a trapdoor under the beans!
+What now? OPEN TRAPDOOR
+It opens
+What now? D
+As the door closes, it merges invisibly with the wall.
+You are in a dusty store room. Exits are east to a complex junction and
+south to a polished tunnel. 
+What now? S
+You are in a polished tunnel. Exits are north to a dusty store room,
+northeast to a complex junction and south to a tube room. 
+What now? S 
+You are in a tube room. The only exit is north to a polished tunnel. You can
+see some tubing. 
+What now? GET TUBING
+What now? EXAMINE TUBING 
+With screw and socket ends. 
+What now? N
+You are in a polished tunnel. Exits are north to a dusty store room,
+northeast to a complex junction and south to a tube room. 
+What now? NE
+You are in a complex junction. Exits are east to a door, southeast to a
+door, southwest to a polished tunnel and west to a dusty store room. 
+What now? SE 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a treasure vault. The only exit is southwest to a guardian cave.
+You can see a dial and a safe. 
+What now? EXAMINE SAFE 
+Tight shut. 
+What now? TURN DIAL 
+You hear a catch closing.
+What now? TURN SAFE 
+As the safe turns round, you notice that it has no back! There's a box
+inside.
+What now? GET BOX
+What now? EXAMINE BOX 
+It has a loose lid. 
+What now? SW 
+You are in a guardian cave. Exits are north to a door, northeast to a
+treasure vault and northwest to a polished tunnel. You can see The Guardian.
+
+What now? BURY GUARDIAN
+What now? NW
+You slide down a chute which closes behind you.
+You are in a polished tunnel. Exits are north to a dusty store room,
+northeast to a complex junction and south to a tube room. 
+What now? NE 
+You are in a complex junction. Exits are east to a door, southeast to a
+door, southwest to a polished tunnel and west to a dusty store room. 
+What now? E
+You open the door and walk through. The door slams behind you.
+You are in a carpetted hallway. Exits are northeast to a work room belonging
+to Ziix, southeast to a sleeping cave and west to a door. 
+What now? NE 
+You are in a work room belonging to Ziix. Exits are south to a sleeping
+cave, southwest to a carpetted hallway and down to a well-bottom. You can
+see rare spices and Ziix the Magician. Ziix says 'If you let me live I will
+give you these spices.'
+What now? GET SPICES
+What now? SW
+You are in a carpetted hallway. Exits are northeast to a work room belonging
+to Ziix, southeast to a sleeping cave and west to a door. 
+What now? W
+You open the door and walk through. The door slams behind you.
+You are in a complex junction. Exits are east to a door, southeast to a
+door, southwest to a polished tunnel and west to a dusty store room. 
+What now? SE
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a treasure vault. The only exit is southwest to a guardian cave.
+You can see a dial and a safe. 
+What now? SW
+You are in a guardian cave. Exits are north to a door, northeast to a
+treasure vault and northwest to a polished tunnel. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a tiny passage. Exits are north to a tiny passage, west to a tiny
+passage and northwest to a tiny passage. 
+What now? NW
+You are in a tiny passage. Exits are north to a tiny passage, northeast to a
+tiny passage, east to a tiny passage, south to a tiny passage, southeast to
+a tiny passage, west to a tiny passage and northwest to a tiny passage. 
+What now? N
+You are in a tiny passage. Exits are east to a tiny passage, south to a tiny
+passage, southwest to a tiny passage and northwest to a tiny passage. 
+What now? NW
+You are in a tiny passage. Exits are east to a tiny passage and southeast to
+a tiny passage. 
+What now? E
+You are in a tiny passage. Exits are north to a tiny passage, northeast to a
+tiny passage, east to a tiny passage, southwest to a tiny passage, west to a
+tiny passage and northwest to a bronze stairway. 
+What now? NW
+You are in a bronze stairway. Exits are north to a bronze stairway and
+southeast to a tiny passage. 
+What now? N 
+You are in a bronze stairway. Exits are south to a bronze stairway and up to
+a landing. 
+What now? U
+You are in a landing. Exits are up to a steep stairway and down to a bronze
+stairway. You can see Xiiz the Wizard. Xiiz says 'Oh it's only you, leave
+quickly before I lose my temper.'
+What now? U
+You are in a steep stairway. Exits are up to a marble tower and down to a
+landing. 
+What now? U 
+You are in a marble tower. Exits are down to a steep stairway and out to a
+door. 
+What now? SAY HUMAK 
+You have 45 hit points left.
+You hear a bolt slide back.
+What now? OPEN DOOR
+It opens
+What now? OUT
+The door slams behind you.
+You are on a plain of grass beside a marble tower, a near-cylinder of
+polished white rock: ten meters wide at the base and narrowing subtly near
+the top. It seems impossibly high. Looking carefully, you find the letters
+"XIIZ" carved at head-hight. Exits are north to a wide, flat grassy plain,
+west to a plain of grass beside a marble tower and in to a door. 
+What now? N
+You are on a wide, flat grassy plain. Exits are north to a wide, flat grassy
+plain, east to a grassy mound, south to a plain of grass beside a marble
+tower and northwest to a dry plain of volcanic ash. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. A dead voice intones "Humkaat".
+What now? D 
+You are in a small entrance cavern. Exits are southeast to a webby junction,
+southwest to a rubble cave and up to a pothole. 
+What now? SE
+You are in a webby junction. Exits are south to a low crawl, northwest to a
+small entrance cavern and down to a steep stairway. 
+What now? D
+You are in a steep stairway. Exits are up to a webby junction and down to a
+small, neat cave. 
+What now? D 
+You are in a small, neat cave. Exits are east to a door and up to a steep
+stairway. 
+What now? OPEN DOOR
+It opens
+What now? E 
+The door is too small to let you through!
+What now? EAT MUSHROOM 
+You nibble the mushroom and shrink!
+What now? E 
+The door slams behind you.
+You are in a secret cupboard. The only exit is west to a door. You can see a
+suit of chain mail and a gas mask. 
+What now? GET CHAIN MAIL
+What now? GET GAS MASK
+What now? OPEN DOOR
+It opens
+What now? W 
+The door slams behind you.
+You are in a small, neat cave. Exits are east to a door and up to a steep
+stairway. You return to normal size.
+What now? EXAMINE CHAIN MAIL 
+Robust steel chain mail. It's made of iron. 
+What now? EXAMINE GAS MASK 
+Airtight with socket attachment. 
+What now? U
+You are in a steep stairway. Exits are up to a webby junction and down to a
+small, neat cave. 
+What now? U
+You are in a webby junction. Exits are south to a low crawl, northwest to a
+small entrance cavern and down to a steep stairway. 
+What now? NW
+You are in a small entrance cavern. Exits are southeast to a webby junction,
+southwest to a rubble cave and up to a pothole. 
+What now? U
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? W
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? W
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some iron coins, a crown, a medallion, a pearl, a book, a
+horseshoe, a linen shirt, an axe and a dagger. 
+What now? DROP SWORD
+What now? DROP GLOVES
+What now? DROP SPICES
+What now? DROP CHAIN MAIL
+What now? N 
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. 
+What now? WEAR GAS MASK
+What now? OPEN BOX 
+There's a large emerald in the box, but poison gas squirts out.
+Your mask saves you.
+What now? GET EMERALD
+What now? DROP BOX
+What now? S
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some iron coins, a crown, a medallion, a pearl, a book, a
+horseshoe, rare spices, a sword, leather gloves, a suit of chain mail, a
+linen shirt, an axe and a dagger. 
+What now? DROP EMERALD
+What now? DROP MASK 
+What now? GET MASK
+What now? SCORE 
+You score 400/1000 and are a real adventurer. You have 45 hit points left.
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. A voice hisses Satarh.
+What now? N
+You are on a junction of sheep tracks. The castle of Cakabol, rumoured to be
+your destination, is clearly visible in the distance. Exits are northeast to
+a wide gateway, south to a pothole and northwest to a steep rock slide. 
+What now? NE
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. Exits are
+northeast to a forbidding castle entrance and southwest to a junction of
+sheep tracks. You can see a gate of metal. 
+What now? NE
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin; silent as
+the grave but for occasional rat-squeaks. Exits are east to a grand entrance
+hall, south to a dry lake bed and southwest to a wide gateway. 
+What now? E
+You are in a grand entrance hall. Exits are north to a grain store, east to
+a basement with oak walls and west to a forbidding castle entrance. 
+What now? E
+You are in a basement with oak walls. Exits are northeast to a stinking
+corridor, southeast to a cold junction and west to a grand entrance hall. 
+What now? NE 
+You are in a stinking corridor. Exits are north to a door, south to a castle
+kitchen, southwest to a basement with oak walls and west to a wine cellar. 
+What now? N
+You open the door and walk through. The door slams behind you.
+You are in a central area of the Great Hall. From here, you judge the length
+of its wood-panelled walls to be about 120 metres. Exits are east to a far
+east alcove of the Great Hall, south to a door and west to a west alcove of
+the Great Hall. 
+What now? E
+You are in a far east alcove of the Great Hall. Exits are west to a central
+area of the Great Hall, northwest to a tiny passage and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a room of manacles, apparently a small, windowless cell. The
+clammy, stone walls reflect a cold hostility. Exits are east to a T-junction
+and up to a door. 
+What now? E
+You are in a T-junction. Exits are east to a sanctum of alchemy, south to a
+torchlit corridor and west to a room of manacles. 
+What now? E 
+You are on a sanctum of alchemy belonging to Nezzon the Alchemist. Most of
+his chemicals and instruments are securely locked in diamond-glass cabinets.
+The only exit is west to a T-junction. You can see pink pills, a chalk chunk
+and Nezzon the Healer. Nezzon cries 'Goods to barter! You will need my wares
+on your quest, buy while stocks last!'
+What now? BURY NEZZON
+What now? GET PINK PILLS
+What now? GET CHALK
+What now? W
+You are in a T-junction. Exits are east to a sanctum of alchemy, south to a
+torchlit corridor and west to a room of manacles. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. Exits are north to a T-junction, south
+to a dimly-lit room and west to a hot room. 
+What now? S
+You are in a dimly-lit room. Exits are north to a torchlit corridor, east to
+a rough-cut crawl and down to a straw-strewn room. 
+What now? E
+You are in a rough-cut crawl. Exits are north to a room of mirrors, south to
+a long, low room and west to a dimly-lit room. 
+What now? S
+You are in a long, low room. Exits are north to a rough-cut crawl and south
+to a south alcove of a long, low room. 
+What now? S 
+You are in a south alcove of a long, low room. Exits are north to a long,
+low room and south to a door. 
+What now? S
+You open the door and walk through. The door slams behind you.
+You are in a small alcove with a human skeleton in one corner. Exits are
+north to a door, west to a door and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a stained room. Exits are north to a slime room, southeast to a
+north wall of a chasm and up to a door. 
+What now? SE
+You are in a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. Exits are north to a disused temple, west to a
+confusing cave and northwest to a stained room. 
+What now? W
+You are in a confusing cave. Exits are east to a north wall of a chasm,
+south to a period stairway and west to a room without walls. 
+What now? W
+You are in a room without walls, bounded only by ferocious white light; so
+bright as to be tangible. Exits are east to a confusing cave, southwest to a
+platform above steps and northwest to a wide armoury. 
+What now? SW
+You are on a platform above steps. Exits are northeast to a room without
+walls, south to a watery passage and northwest to a beautiful room. 
+What now? NW 
+You are in a beautiful room decorated with fine paintings, tapestries and
+superb pottery. The clothes of an aspiring fop hang on pegs. Exits are north
+to a cave of sloping slabs and southeast to a platform above steps. You can
+see Bostog the Dwarf. 'Not another adventurer!, I had hoped for some
+entertainment.'
+What now? PLAY DULCIMER 
+The dulcimer takes control and plays an incredibly beautiful tune.
+'At last some culture! In thanks I will tell you that there is a spell which
+can turn an acorn into a bridge hidden in these caves.' Bostog then walks
+off in another melancholic mood.
+What now? SE 
+You are on a platform above steps. Exits are northeast to a room without
+walls, south to a watery passage and northwest to a beautiful room. 
+What now? WEAR MASK 
+What now? S 
+You slide down a chute which closes behind you.
+You are in a watery passage. Exits are east to a blue, flooded cave and west
+to a small pool. 
+What now? W
+You are in a small pool. Exits are north to a slanting room, east to a
+watery passage and south to a brightly illuminated pedestal. 
+What now? S 
+You are a brightly illuminated pedestal which lights up the water in this
+cave, clearly showing a hole in the north wall. Eyeless fish cluster round,
+as if they can feel the radiance and feed on it. The only exit is north to a
+small pool. You can see a ring. 
+What now? GET RING
+What now? N
+You are in a small pool. Exits are north to a slanting room, east to a
+watery passage and south to a brightly illuminated pedestal. 
+What now? E
+You are in a watery passage. Exits are east to a blue, flooded cave and west
+to a small pool. 
+What now? E
+You are in a blue, flooded cave. Exits are east to a cave lake, south to a
+watery graveyard and west to a watery passage. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You slide down a chute which closes behind you.
+You are in a watery graveyard. The only exit is east to a bottle-shaped
+cave. You are swimming underwater.
+Your lamp is still alight!
+What now? E
+You slide down a chute which closes behind you.
+You are in a bottle-shaped cave. The only exit is north to a cave lake. You
+are swimming underwater.
+Your lamp is still alight!
+What now? N
+You are a cave lake. Exits are north to a period stairway, south to a
+bottle-shaped cave and west to a blue, flooded cave. You are swimming
+underwater.
+Your lamp is still alight!
+What now? N
+You are in a period stairway. Exits are north to a confusing cave and south
+to a cave lake. 
+What now? N
+You are in a confusing cave. Exits are east to a north wall of a chasm,
+south to a period stairway and west to a room without walls. 
+What now? E
+You are in a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. Exits are north to a disused temple, west to a
+confusing cave and northwest to a stained room. 
+What now? NW 
+You are in a stained room. Exits are north to a slime room, southeast to a
+north wall of a chasm and up to a door. 
+What now? U
+You open the door and walk through. The door slams behind you.
+You are in a small alcove with a human skeleton in one corner. Exits are
+north to a door, west to a door and down to a door. 
+What now? W
+You open the door and walk through. The door slams behind you.
+You are in a dark corridor that runs north-south. A small inscribed door is
+set into the east wall, below an incomprehensible inscription. Exits are
+north to a rock-strewn chamber, east to a door and south to a semi-circular
+room. 
+What now? S
+You are in a semi-circular room, home of a host of woodlice. Their armoured
+bodies criss-cross every surface of the room, following mysterious patterns.
+Exits are north to a dark corridor, south to a cluttered office and west to
+a small, high room. 
+What now? S
+You are in a cluttered office. Exits are north to a semi-circular room and
+south to a junction between narrow caves. 
+What now? S
+You are in a junction between narrow caves. Exits are north to a cluttered
+office, east to a cabinet, south to a brown corridor and west to a door. 
+What now? E 
+You are in a cabinet of dead wood (traditional material for cabinets).
+Crumbled olive leaves, or "olivetti", are mingled with assorted woodland
+refuse on the floor. The only exit is west to a junction between narrow
+caves. You can see some leaves. 
+What now? DROP MASK 
+What now? GET MASK
+What now? EXAMINE LEAVES 
+Well preserved. You find an acorn. 
+What now? W
+You are in a junction between narrow caves. Exits are north to a cluttered
+office, east to a cabinet, south to a brown corridor and west to a door. 
+What now? N
+You are in a cluttered office. Exits are north to a semi-circular room and
+south to a junction between narrow caves. 
+What now? N
+You are in a semi-circular room, home of a host of woodlice. Their armoured
+bodies criss-cross every surface of the room, following mysterious patterns.
+Exits are north to a dark corridor, south to a cluttered office and west to
+a small, high room. 
+What now? W
+You are in a small, high room. Like certain other parts of the castle, this
+has lain dormant and unused for many years. Exits are east to a
+semi-circular room and southwest to a vast, lamplit circular room. 
+What now? SW
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? N
+You are in a long, cramped corridor. Exits are north to a bone room and
+south to a vast, lamplit circular room. 
+What now? N
+You are in a bone room. Exits are east to a U-shaped tunnel, south to a
+long, cramped corridor and west to a carved cave. 
+What now? E
+You are in a U-shaped tunnel, dark and evil. Exits are west to a bone room
+and northwest to a winding tunnel. 
+What now? NW
+You are in a winding tunnel lit by a solitary torch. Exits are north to a
+wood-panelled library and southeast to a U-shaped tunnel. 
+What now? N 
+You are in a wood-panelled library, a peaceful room with a feeling of
+knowledge about it. Exits are north to a door, east to a straw-strewn room
+and south to a winding tunnel. You can see a scroll. 
+What now? GET SCROLL
+What now? EXAMINE SCROLL 
+A spell for chasms. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a store vault. The only exit is west to a castle kitchen. You can
+see some meat. 
+What now? W
+You are in a castle kitchen. Exits are north to a stinking corridor, east to
+a store vault and south to a cold junction. 
+What now? N
+You are in a stinking corridor. Exits are north to a door, south to a castle
+kitchen, southwest to a basement with oak walls and west to a wine cellar. 
+What now? N
+You open the door and walk through. The door slams behind you.
+You are in a central area of the Great Hall. From here, you judge the length
+of its wood-panelled walls to be about 120 metres. Exits are east to a far
+east alcove of the Great Hall, south to a door and west to a west alcove of
+the Great Hall. 
+What now? E 
+You are in a far east alcove of the Great Hall. Exits are west to a central
+area of the Great Hall, northwest to a tiny passage and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a room of manacles, apparently a small, windowless cell. The
+clammy, stone walls reflect a cold hostility. Exits are east to a T-junction
+and up to a door. 
+What now? E
+You are in a T-junction. Exits are east to a sanctum of alchemy, south to a
+torchlit corridor and west to a room of manacles. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. Exits are north to a T-junction, south
+to a dimly-lit room and west to a hot room. 
+What now? S
+You are in a dimly-lit room. Exits are north to a torchlit corridor, east to
+a rough-cut crawl and down to a straw-strewn room. 
+What now? E
+You are in a rough-cut crawl. Exits are north to a room of mirrors, south to
+a long, low room and west to a dimly-lit room. 
+What now? S
+You are in a long, low room. Exits are north to a rough-cut crawl and south
+to a south alcove of a long, low room. 
+What now? S
+You are in a south alcove of a long, low room. Exits are north to a long,
+low room and south to a door. 
+What now? S 
+You open the door and walk through. The door slams behind you.
+You are in a small alcove with a human skeleton in one corner. Exits are
+north to a door, west to a door and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a stained room. Exits are north to a slime room, southeast to a
+north wall of a chasm and up to a door. 
+What now? SE 
+You are in a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. Exits are north to a disused temple, west to a
+confusing cave and northwest to a stained room. 
+What now? DROP ACORN
+What now? READ SCROLL 
+A spell for chasms. As you read the scroll the acorn expands to form a
+bridge across the chasm.
+What now? S 
+You are in a helix of Het. These strange room-sculptures are said to show
+the history of the World, and allowed Het to see into the future. Exits are
+north to a north wall of a chasm and east to a well-trodden junction. You
+can see a bridge over the chasm. 
+What now? E
+You are in a well-trodden junction. Exits are south to a vacant void,
+southwest to a hall of winds and west to a helix of Het. 
+What now? S
+You are in a vacant void. Exits are north to a well-trodden junction and
+south to a very empty cell. 
+What now? S
+You are in a very empty cell. Exits are north to a vacant void, east to a
+fountain abyss and northwest to a hall of winds. 
+What now? E 
+You are a fountain abyss. Exits are north to a stone statue of a God and
+west to a very empty cell. You can see a pool of acid. 
+What now? DROP CHALK 
+The chalk and the acid react to form a harmless solution.
+What now? N
+You are a stone statue of a God, possibly Clive of the Colours. Exits are
+north to a door, south to a fountain abyss and northwest to a stunningly
+fantastic chamber. 
+What now? NW 
+You are in a stunningly fantastic chamber of jade, sapphire and aquamarine.
+Exits are north to a room of blinding light, southeast to a stone statue of
+a God and down to a well-trodden junction. You can see some silver bars. 
+What now? GET SILVER BARS
+What now? N 
+You are in a room of blinding light. Exits are south to a stunningly
+fantastic chamber and southeast to a plundered temple to Ath. You can see a
+fan. 
+What now? GET FAN
+What now? CAST ESCAPE 
+You have 44 hit points left.
+Your spell works.
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some iron coins, a crown, a medallion, a pearl, an
+emerald, a book, a horseshoe, rare spices, a sword, leather gloves, a suit
+of chain mail, a linen shirt, an axe and a dagger. 
+What now? DROP SILVER BARS
+What now? DROP RING
+What now? DROP SCROLL
+What now? DROP FAN
+What now? DROP PILLS
+What now? SCORE 
+You score 500/1000 and are a real adventurer. You have 44 hit points left.
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? D
+You are in a small entrance cavern. Exits are southeast to a webby junction,
+southwest to a rubble cave and up to a pothole. 
+What now? SE
+You are in a webby junction. Exits are south to a low crawl, northwest to a
+small entrance cavern and down to a steep stairway. 
+What now? S
+You are in a low crawl. Exits are north to a webby junction and east to a
+door. 
+What now? E
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a dormitory cavern. Exits are east to a secret bedroom and west
+to a giant forge. 
+What now? E
+You are in a secret bedroom. Exits are southeast to a long stairway and west
+to a dormitory cavern. 
+What now? SE
+You are in a long stairway. Exits are north to a recess containing a well
+and northwest to a secret bedroom. 
+What now? N 
+You are in a recess containing a well. Exits are south to a long stairway
+and down to a well-bottom. 
+What now? WEAR MASK 
+What now? D 
+You lose your grip and fall down the well.
+You are in a well-bottom. Exits are up to a work room belonging to Ziix and
+down to a channel underground. You are swimming underwater.
+Your lamp is still alight!
+What now? D
+You are in a channel underground. Exits are south to a flooded cave and up
+to a well-bottom. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You are in a flooded cave. Exits are north to a channel underground and
+south to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You are in a river junction. Exits are north to a flooded cave, south to a
+grotto which narrows to a crack, west to a river junction and up to a secret
+chamber. You are swimming underwater.
+Your lamp is still alight!
+What now? U
+You are in a secret chamber. Exits are north to a secret chamber, east to a
+damp stone area and down to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? E
+You slide down a chute which closes behind you.
+You are in a damp stone area. Exits are north to a stone cell and down to a
+flooded tunnel. 
+What now? N 
+You are in a stone cell. Exits are south to a damp stone area and west to a
+secret chamber. You can see a cloak. 
+What now? GET CLOAK
+What now? W
+You are in a secret chamber. Exits are east to a stone cell and south to a
+secret chamber. 
+What now? S
+You are in a secret chamber. Exits are north to a secret chamber, east to a
+damp stone area and down to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? E
+You slide down a chute which closes behind you.
+You are in a damp stone area. Exits are north to a stone cell and down to a
+flooded tunnel. 
+What now? D
+You are in a flooded tunnel. Exits are south to a flooded tunnel and up to a
+damp stone area. You are swimming underwater.
+Your lamp is still alight!
+What now? S 
+You are in a flooded tunnel. Exits are north to a flooded tunnel and south
+to a flooded tunnel. You can see a crowbar. You are swimming underwater.
+Your lamp is still alight!
+What now? GET CROWBAR
+What now? S
+You are in a flooded tunnel. Exits are north to a flooded tunnel and up to a
+brown corridor. You are swimming underwater.
+Your lamp is still alight!
+What now? U
+You are in a brown corridor which runs north-south, dipping into a pool of
+water at the southern end. Exits are north to a junction between narrow
+caves and down to a flooded tunnel. 
+What now? N
+You are in a junction between narrow caves. Exits are north to a cluttered
+office, east to a cabinet, south to a brown corridor and west to a door. 
+What now? DROP MASK 
+What now? GET MASK
+What now? N
+You are in a cluttered office. Exits are north to a semi-circular room and
+south to a junction between narrow caves. 
+What now? N
+You are in a semi-circular room, home of a host of woodlice. Their armoured
+bodies criss-cross every surface of the room, following mysterious patterns.
+Exits are north to a dark corridor, south to a cluttered office and west to
+a small, high room. 
+What now? W
+You are in a small, high room. Like certain other parts of the castle, this
+has lain dormant and unused for many years. Exits are east to a
+semi-circular room and southwest to a vast, lamplit circular room. 
+What now? SW
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? N
+You are in a long, cramped corridor. Exits are north to a bone room and
+south to a vast, lamplit circular room. 
+What now? N
+You are in a bone room. Exits are east to a U-shaped tunnel, south to a
+long, cramped corridor and west to a carved cave. 
+What now? W
+You are in a carved cave where Moon worshippers inscribed runes during the
+Era of Gods, to ward off the evil influence of Litter Muurdox. Exits are
+east to a bone room and northwest to a dark junction. 
+What now? WEAR CLOAK
+What now? NW 
+You are in a dark junction. Exits are north to a door, east to a temple to
+Litter Muurdox, southeast to a carved cave, southwest to a very unhygienic
+closet and west to a rubber room. You can see a cloaked statue. 
+What now? E 
+You are in a temple to Litter Muurdox the god of light and darkness, evil
+lord of the Sun. The only exit is west to a dark junction. You can see a
+black ball. 
+What now? Who is the god of light and darkness]
+You can't move that way
+What now? GET BALL 
+What now? W
+You are in a dark junction. Exits are north to a door, east to a temple to
+Litter Muurdox, southeast to a carved cave, southwest to a very unhygienic
+closet and west to a rubber room. You can see a cloaked statue. 
+What now? W 
+You are in a rubber room dedicated to the tired god, Dunnlop. The only exit
+is east to a dark junction. You can see wellington boots. 
+What now? GET BOOTS 
+What now? E
+You are in a dark junction. Exits are north to a door, east to a temple to
+Litter Muurdox, southeast to a carved cave, southwest to a very unhygienic
+closet and west to a rubber room. You can see a cloaked statue. 
+What now? SE
+You are in a carved cave where Moon worshippers inscribed runes during the
+Era of Gods, to ward off the evil influence of Litter Muurdox. Exits are
+east to a bone room and northwest to a dark junction. 
+What now? DROP CLOAK 
+What now? GET CLOAK
+What now? E
+You are in a bone room. Exits are east to a U-shaped tunnel, south to a
+long, cramped corridor and west to a carved cave. 
+What now? S
+You are in a long, cramped corridor. Exits are north to a bone room and
+south to a vast, lamplit circular room. 
+What now? S
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? S
+You are in a cramped corridor. Exits are north to a vast, lamplit circular
+room and south to a metal room. 
+What now? S 
+You receive an electric shock and jump back.
+You are in a cramped corridor. Exits are north to a vast, lamplit circular
+room and south to a metal room. 
+What now? WEAR BOOTS
+What now? S 
+You are in a metal room with an electrified floor. Exits are north to a
+cramped corridor, east to a brackish river tunnel and west to a brackish
+river tunnel. You can see a grid. 
+What now? E 
+You are in a brackish river tunnel. The only exit is west to a metal room.
+You can see a crucifix. 
+What now? GET CRUCIFIX
+What now? W
+You are in a metal room with an electrified floor. Exits are north to a
+cramped corridor, east to a brackish river tunnel and west to a brackish
+river tunnel. You can see a grid. 
+What now? N
+You are in a cramped corridor. Exits are north to a vast, lamplit circular
+room and south to a metal room. 
+What now? N
+You are in a vast, lamplit circular room, almost a hundred metres across.
+Perhaps the roof is supported by magik. A thin layer of pink and blue mist
+covers the floor, swirling into eddies as you walk through it. Exits are
+north to a long, cramped corridor, northeast to a small, high room, east to
+a door, south to a cramped corridor, southeast to a dark cell, southwest to
+a precarious platform, west to a fork in a wide corridor and northwest to a
+walk-in wardrobe. 
+What now? N
+You are in a long, cramped corridor. Exits are north to a bone room and
+south to a vast, lamplit circular room. 
+What now? N
+You are in a bone room. Exits are east to a U-shaped tunnel, south to a
+long, cramped corridor and west to a carved cave. 
+What now? E
+You are in a U-shaped tunnel, dark and evil. Exits are west to a bone room
+and northwest to a winding tunnel. 
+What now? NW
+You are in a winding tunnel lit by a solitary torch. Exits are north to a
+wood-panelled library and southeast to a U-shaped tunnel. 
+What now? N 
+You are in a wood-panelled library, a peaceful room with a feeling of
+knowledge about it. Exits are north to a door, east to a straw-strewn room
+and south to a winding tunnel. 
+What now? N
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a store vault. The only exit is west to a castle kitchen. You can
+see some meat. 
+What now? W
+You are in a castle kitchen. Exits are north to a stinking corridor, east to
+a store vault and south to a cold junction. 
+What now? S
+You are in a cold junction between three passages. Condensation drips from
+the roof. Exits are north to a castle kitchen, west to a castle armoury and
+northwest to a basement with oak walls. 
+What now? NW
+You are in a basement with oak walls. Exits are northeast to a stinking
+corridor, southeast to a cold junction and west to a grand entrance hall. 
+What now? W
+You are in a grand entrance hall. Exits are north to a grain store, east to
+a basement with oak walls and west to a forbidding castle entrance. 
+What now? W
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin; silent as
+the grave but for occasional rat-squeaks. Exits are east to a grand entrance
+hall, south to a dry lake bed and southwest to a wide gateway. 
+What now? SW
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. Exits are
+northeast to a forbidding castle entrance and southwest to a junction of
+sheep tracks. You can see a gate of metal. 
+What now? SW
+You are on a junction of sheep tracks. The castle of Cakabol, rumoured to be
+your destination, is clearly visible in the distance. Exits are northeast to
+a wide gateway, south to a pothole and northwest to a steep rock slide. 
+What now? S
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? W
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? W
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some silver bars, some iron coins, a crown, a medallion,
+a pearl, an emerald, a book, a fan, a horseshoe, pink pills, a scroll, rare
+spices, a sword, leather gloves, a ring, a suit of chain mail, a linen
+shirt, an axe and a dagger. 
+What now? DROP CLOAK
+What now? DROP CRUCIFIX
+What now? DROP BOOTS
+What now? DROP BALL 
+The room is blacked out for several seconds.
+What now? LOOK
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some silver bars, some iron coins, a crown, a medallion,
+a pearl, an emerald, a book, a black ball, a fan, a horseshoe, pink pills, a
+scroll, rare spices, a sword, a cloak, a crucifix, leather gloves, a ring, a
+suit of chain mail, a linen shirt, wellington boots, an axe and a dagger. 
+What now? LIGHT LAMP
+Ok!
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some silver bars, some iron coins, a crown, a medallion,
+a pearl, an emerald, a book, a black ball, a fan, a horseshoe, pink pills, a
+scroll, rare spices, a sword, a cloak, a crucifix, leather gloves, a ring, a
+suit of chain mail, a linen shirt, wellington boots, an axe and a dagger. 
+What now? SCORE 
+You score 500/1000 and are a real adventurer. You have 44 hit points left.
+What now? GET FAN
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. A voice hisses Satarh.
+What now? D 
+You are in a small entrance cavern. Exits are southeast to a webby junction,
+southwest to a rubble cave and up to a pothole. 
+What now? SE
+You are in a webby junction. Exits are south to a low crawl, northwest to a
+small entrance cavern and down to a steep stairway. 
+What now? S
+You are in a low crawl. Exits are north to a webby junction and east to a
+door. 
+What now? E 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a dormitory cavern. Exits are east to a secret bedroom and west
+to a giant forge. 
+What now? DROP CROWBAR
+What now? W 
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. You can
+see a fire. 
+What now? CAST EXTINGUISH
+You have 43 hit points left.
+The room is blacked out for several seconds.
+What now? LOOK 
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. 
+What now? LIGHT LAMP
+Ok!
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. 
+What now? E
+You are in a dormitory cavern. Exits are east to a secret bedroom and west
+to a giant forge. You can see a crowbar. 
+What now? GET CROWBAR
+What now? W
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. 
+What now? U 
+You are in a chimney. Exits are up to a chimney stack and down to a giant
+forge. You can see a grill. 
+What now? REMOVE GRILL 
+What with? CROWBAR
+You prize the grill free and it falls down the chimney.
+What now? U 
+You are in a chimney stack. The only exit is down to a chimney. You can see
+a necklace. 
+What now? GET NECKLACE
+What now? D
+You are in a chimney. Exits are up to a chimney stack and down to a giant
+forge. 
+What now? D
+You are in a giant forge. Exits are east to a dormitory cavern, southeast to
+a secret canyon, west to a corridor of arches and up to a chimney. 
+What now? W
+You are in a corridor of arches. Exits are east to a giant forge and south
+to a dusty cave, lined with shelves. 
+What now? S
+You are in a dusty cave, lined with shelves. Exits are north to a corridor
+of arches and south to a windy store room. 
+What now? S
+You are in a windy store room. Exits are north to a dusty cave, lined with
+shelves and down to a door. You can see a hill of beans. 
+What now? D
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a dusty store room. Exits are east to a complex junction and
+south to a polished tunnel. 
+What now? E
+You are in a complex junction. Exits are east to a door, southeast to a
+door, southwest to a polished tunnel and west to a dusty store room. 
+What now? SE
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a treasure vault. The only exit is southwest to a guardian cave.
+You can see a dial and a safe. 
+What now? SW
+You are in a guardian cave. Exits are north to a door, northeast to a
+treasure vault and northwest to a polished tunnel. 
+What now? N 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a tiny passage. Exits are north to a tiny passage, west to a tiny
+passage and northwest to a tiny passage. 
+What now? NW
+You are in a tiny passage. Exits are north to a tiny passage, northeast to a
+tiny passage, east to a tiny passage, south to a tiny passage, southeast to
+a tiny passage, west to a tiny passage and northwest to a tiny passage. 
+What now? N
+You are in a tiny passage. Exits are east to a tiny passage, south to a tiny
+passage, southwest to a tiny passage and northwest to a tiny passage. 
+What now? NW
+You are in a tiny passage. Exits are east to a tiny passage and southeast to
+a tiny passage. 
+What now? E
+You are in a tiny passage. Exits are north to a tiny passage, northeast to a
+tiny passage, east to a tiny passage, southwest to a tiny passage, west to a
+tiny passage and northwest to a bronze stairway. 
+What now? NW 
+You are in a bronze stairway. Exits are north to a bronze stairway and
+southeast to a tiny passage. 
+What now? N
+You are in a bronze stairway. Exits are south to a bronze stairway and up to
+a landing. 
+What now? U
+You are in a landing. Exits are up to a steep stairway and down to a bronze
+stairway. You can see Xiiz the Wizard. Xiiz says 'Go away I'm busy.'
+What now? U
+You are in a steep stairway. Exits are up to a marble tower and down to a
+landing. 
+What now? U 
+You are in a marble tower. Exits are down to a steep stairway and out to a
+door. 
+What now? SAY HUMAK 
+You have 42 hit points left.
+You hear a bolt slide back.
+What now? OPEN DOOR
+It opens
+What now? OUT
+The door slams behind you.
+You are on a plain of grass beside a marble tower, a near-cylinder of
+polished white rock: ten meters wide at the base and narrowing subtly near
+the top. It seems impossibly high. Looking carefully, you find the letters
+"XIIZ" carved at head-hight. Exits are north to a wide, flat grassy plain,
+west to a plain of grass beside a marble tower and in to a door. 
+What now? N
+You are on a wide, flat grassy plain. Exits are north to a wide, flat grassy
+plain, east to a grassy mound, south to a plain of grass beside a marble
+tower and northwest to a dry plain of volcanic ash. 
+What now? E
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some silver bars, some iron coins, a crown, a medallion,
+a pearl, an emerald, a book, a black ball, a horseshoe, pink pills, a
+scroll, rare spices, a sword, a cloak, a crucifix, leather gloves, a ring, a
+suit of chain mail, a linen shirt, wellington boots, an axe and a dagger. 
+What now? DROP CROWBAR
+What now? DROP NECKLACE
+What now? DROP FAN
+What now? SCORE 
+You score 550/1000 and are a real adventurer. You have 42 hit points left.
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? E
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? E
+You are in a pothole which could lead to an extensive cave system. Large
+footprints criss-cross the surrounding area, joining a wide path down into
+the ground. Exits are north to a junction of sheep tracks, south to a small
+copse, west to a wide, flat grassy plain and down to a small entrance
+cavern. 
+What now? N
+You are on a junction of sheep tracks. The castle of Cakabol, rumoured to be
+your destination, is clearly visible in the distance. Exits are northeast to
+a wide gateway, south to a pothole and northwest to a steep rock slide. 
+What now? NE
+You are in a wide gateway in the wall of castle Cakabol. It is surrounded by
+a tasteful montage of bones and sports a "Beware of the Rat" sign. Exits are
+northeast to a forbidding castle entrance and southwest to a junction of
+sheep tracks. You can see a gate of metal. 
+What now? NE
+You are in a forbidding castle entrance, a great archway through the granite
+walls of castle Cakabol. The building seems deserted; a near-ruin; silent as
+the grave but for occasional rat-squeaks. Exits are east to a grand entrance
+hall, south to a dry lake bed and southwest to a wide gateway. 
+What now? E
+You are in a grand entrance hall. Exits are north to a grain store, east to
+a basement with oak walls and west to a forbidding castle entrance. 
+What now? E
+You are in a basement with oak walls. Exits are northeast to a stinking
+corridor, southeast to a cold junction and west to a grand entrance hall. 
+What now? NE 
+You are in a stinking corridor. Exits are north to a door, south to a castle
+kitchen, southwest to a basement with oak walls and west to a wine cellar. 
+What now? N
+You open the door and walk through. The door slams behind you.
+You are in a central area of the Great Hall. From here, you judge the length
+of its wood-panelled walls to be about 120 metres. Exits are east to a far
+east alcove of the Great Hall, south to a door and west to a west alcove of
+the Great Hall. 
+What now? E
+You are in a far east alcove of the Great Hall. Exits are west to a central
+area of the Great Hall, northwest to a tiny passage and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a room of manacles, apparently a small, windowless cell. The
+clammy, stone walls reflect a cold hostility. Exits are east to a T-junction
+and up to a door. 
+What now? E
+You are in a T-junction. Exits are east to a sanctum of alchemy, south to a
+torchlit corridor and west to a room of manacles. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. Exits are north to a T-junction, south
+to a dimly-lit room and west to a hot room. 
+What now? S
+You are in a dimly-lit room. Exits are north to a torchlit corridor, east to
+a rough-cut crawl and down to a straw-strewn room. 
+What now? D 
+You slide down a chute which closes behind you.
+You are in a straw-strewn room. Exits are south to a door and west to a
+wood-panelled library. 
+What now? S 
+You open the door and walk through. The door slams behind you.
+You are in a hospital chamber with herbs, potions and leeches. The only exit
+is north to a door. You can see a purple potion. 
+What now? GET POTION 
+What now? N
+You open the door and walk through. The door slams behind you.
+You are in a straw-strewn room. Exits are south to a door and west to a
+wood-panelled library. 
+What now? W
+You are in a wood-panelled library, a peaceful room with a feeling of
+knowledge about it. Exits are north to a door, east to a straw-strewn room
+and south to a winding tunnel. 
+What now? N 
+You open the door and walk through. As the door closes, it merges invisibly
+with the wall.
+You are in a store vault. The only exit is west to a castle kitchen. You can
+see some meat. 
+What now? GET MEAT
+What now? W
+You are in a castle kitchen. Exits are north to a stinking corridor, east to
+a store vault and south to a cold junction. 
+What now? N
+You are in a stinking corridor. Exits are north to a door, south to a castle
+kitchen, southwest to a basement with oak walls and west to a wine cellar. 
+What now? N
+You open the door and walk through. The door slams behind you.
+You are in a central area of the Great Hall. From here, you judge the length
+of its wood-panelled walls to be about 120 metres. Exits are east to a far
+east alcove of the Great Hall, south to a door and west to a west alcove of
+the Great Hall. 
+What now? E 
+You are in a far east alcove of the Great Hall. Exits are west to a central
+area of the Great Hall, northwest to a tiny passage and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a room of manacles, apparently a small, windowless cell. The
+clammy, stone walls reflect a cold hostility. Exits are east to a T-junction
+and up to a door. 
+What now? E
+You are in a T-junction. Exits are east to a sanctum of alchemy, south to a
+torchlit corridor and west to a room of manacles. 
+What now? S
+You are in a torchlit corridor, winding from north to south. Flickering
+shadows play across its rough walls. Exits are north to a T-junction, south
+to a dimly-lit room and west to a hot room. 
+What now? S
+You are in a dimly-lit room. Exits are north to a torchlit corridor, east to
+a rough-cut crawl and down to a straw-strewn room. 
+What now? E
+You are in a rough-cut crawl. Exits are north to a room of mirrors, south to
+a long, low room and west to a dimly-lit room. 
+What now? N 
+You slide down a chute which closes behind you.
+You are in a room of mirrors: a cube of reflective diamond-glass.
+Uncountable reflections line up into the distance, mimicking your every
+movement. You can see a bottle and a reflection. As you enter a perfect copy
+of yourself appears and moves forward to attack.
+What now? BURY REFLECTION
+What now? GET BOTTLE
+What now? SE
+You slide down a chute which closes behind you.
+You are in a rough-cut crawl. Exits are north to a room of mirrors, south to
+a long, low room and west to a dimly-lit room. 
+What now? S
+You are in a long, low room. Exits are north to a rough-cut crawl and south
+to a south alcove of a long, low room. 
+What now? S
+You are in a south alcove of a long, low room. Exits are north to a long,
+low room and south to a door. 
+What now? S
+You open the door and walk through. The door slams behind you.
+You are in a small alcove with a human skeleton in one corner. Exits are
+north to a door, west to a door and down to a door. 
+What now? W
+You open the door and walk through. The door slams behind you.
+You are in a dark corridor that runs north-south. A small inscribed door is
+set into the east wall, below an incomprehensible inscription. Exits are
+north to a rock-strewn chamber, east to a door and south to a semi-circular
+room. 
+What now? S
+You are in a semi-circular room, home of a host of woodlice. Their armoured
+bodies criss-cross every surface of the room, following mysterious patterns.
+Exits are north to a dark corridor, south to a cluttered office and west to
+a small, high room. 
+What now? S
+You are in a cluttered office. Exits are north to a semi-circular room and
+south to a junction between narrow caves. 
+What now? S
+You are in a junction between narrow caves. Exits are north to a cluttered
+office, east to a cabinet, south to a brown corridor and west to a door. 
+What now? S 
+You are in a brown corridor which runs north-south, dipping into a pool of
+water at the southern end. Exits are north to a junction between narrow
+caves and down to a flooded tunnel. 
+What now? WEAR MASK 
+What now? D
+You are in a flooded tunnel. Exits are north to a flooded tunnel and up to a
+brown corridor. You are swimming underwater.
+Your lamp is still alight!
+What now? N
+You are in a flooded tunnel. Exits are north to a flooded tunnel and south
+to a flooded tunnel. You are swimming underwater.
+Your lamp is still alight!
+What now? N
+You are in a flooded tunnel. Exits are south to a flooded tunnel and up to a
+damp stone area. You are swimming underwater.
+Your lamp is still alight!
+What now? U
+You are in a damp stone area. Exits are north to a stone cell and down to a
+flooded tunnel. 
+What now? N
+You are in a stone cell. Exits are south to a damp stone area and west to a
+secret chamber. 
+What now? W
+You are in a secret chamber. Exits are east to a stone cell and south to a
+secret chamber. 
+What now? S
+You are in a secret chamber. Exits are north to a secret chamber, east to a
+damp stone area and down to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? D
+You are in a river junction. Exits are north to a flooded cave, south to a
+grotto which narrows to a crack, west to a river junction and up to a secret
+chamber. You are swimming underwater.
+Your lamp is still alight!
+What now? N
+You are in a flooded cave. Exits are north to a channel underground and
+south to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? N
+You are in a channel underground. Exits are south to a flooded cave and up
+to a well-bottom. You are swimming underwater.
+Your lamp is still alight!
+What now? U 
+You are in a well-bottom. Exits are up to a work room belonging to Ziix and
+down to a channel underground. You are swimming underwater.
+Your lamp is still alight!
+What now? FILL BOTTLE 
+Ok!
+What now? D
+You are in a channel underground. Exits are south to a flooded cave and up
+to a well-bottom. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You are in a flooded cave. Exits are north to a channel underground and
+south to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You are in a river junction. Exits are north to a flooded cave, south to a
+grotto which narrows to a crack, west to a river junction and up to a secret
+chamber. You are swimming underwater.
+Your lamp is still alight!
+What now? U
+You are in a secret chamber. Exits are north to a secret chamber, east to a
+damp stone area and down to a river junction. You are swimming underwater.
+Your lamp is still alight!
+What now? E
+You slide down a chute which closes behind you.
+You are in a damp stone area. Exits are north to a stone cell and down to a
+flooded tunnel. 
+What now? D
+You are in a flooded tunnel. Exits are south to a flooded tunnel and up to a
+damp stone area. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You are in a flooded tunnel. Exits are north to a flooded tunnel and south
+to a flooded tunnel. You are swimming underwater.
+Your lamp is still alight!
+What now? S
+You are in a flooded tunnel. Exits are north to a flooded tunnel and up to a
+brown corridor. You are swimming underwater.
+Your lamp is still alight!
+What now? U
+You are in a brown corridor which runs north-south, dipping into a pool of
+water at the southern end. Exits are north to a junction between narrow
+caves and down to a flooded tunnel. 
+What now? N
+You are in a junction between narrow caves. Exits are north to a cluttered
+office, east to a cabinet, south to a brown corridor and west to a door. 
+What now? N
+You are in a cluttered office. Exits are north to a semi-circular room and
+south to a junction between narrow caves. 
+What now? N 
+You are in a semi-circular room, home of a host of woodlice. Their armoured
+bodies criss-cross every surface of the room, following mysterious patterns.
+Exits are north to a dark corridor, south to a cluttered office and west to
+a small, high room. 
+What now? DROP MASK 
+What now? GET MASK
+What now? N
+You are in a dark corridor that runs north-south. A small inscribed door is
+set into the east wall, below an incomprehensible inscription. Exits are
+north to a rock-strewn chamber, east to a door and south to a semi-circular
+room. 
+What now? E
+You open the door and walk through. The door slams behind you.
+You are in a small alcove with a human skeleton in one corner. Exits are
+north to a door, west to a door and down to a door. 
+What now? D
+You open the door and walk through. The door slams behind you.
+You are in a stained room. Exits are north to a slime room, southeast to a
+north wall of a chasm and up to a door. 
+What now? SE
+You are in a north wall of a chasm which is much too wide to jump. Mist
+surges in the depths. Exits are north to a disused temple, south to a helix
+of Het, west to a confusing cave, northwest to a stained room and across to
+a helix of Het. You can see a bridge over the chasm. 
+What now? W
+You are in a confusing cave. Exits are east to a north wall of a chasm,
+south to a period stairway and west to a room without walls. 
+What now? W
+You are in a room without walls, bounded only by ferocious white light; so
+bright as to be tangible. Exits are east to a confusing cave, southwest to a
+platform above steps and northwest to a wide armoury. 
+What now? NW 
+You are in a wide armoury. Exits are northeast to a gallery of graven
+images, east to a cubbyhole and southeast to a room without walls. You can
+see a shield. 
+What now? GET SHIELD
+What now? E 
+You are in a cubbyhole. Exits are east to a stained room and west to a wide
+armoury. You can see Kellf the human. Kellf is dying of thirst!
+What now? GIVE BOTTLE 
+Kelly drinks gratefully and thanks you. In return, he offers the rumour that
+mummies can only be slain by magic. He then thanks you again and staggers
+off.
+What now? CAST ESCAPE 
+You have 41 hit points left.
+Your spell works.
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a box. 
+What now? DROP POTION
+What now? S
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some silver bars, some iron coins, a crown, a medallion,
+a necklace, a pearl, an emerald, a book, a black ball, a fan, a horseshoe,
+pink pills, a scroll, rare spices, a sword, a cloak, a crucifix, leather
+gloves, a ring, a suit of chain mail, a linen shirt, wellington boots, an
+axe, a crowbar and a dagger. 
+What now? DROP TUBING
+What now? DROP FLASK
+What now? DROP MASK
+What now? DROP SHIELD
+What now? SCORE 
+You score 600/1000 and are a Senior Adventurer. You have 41 hit points left.
+What now? GET CRUCIFIX
+What now? GET FAN
+What now? GET PILLS
+What now? N
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a purple potion and
+a box. 
+What now? CAST ESCAPE 
+You have 40 hit points left.
+Your spell works.
+You are in a cubbyhole. Exits are east to a stained room and west to a wide
+armoury. 
+What now? W
+You are in a wide armoury. Exits are northeast to a gallery of graven
+images, east to a cubbyhole and southeast to a room without walls. 
+What now? SE
+You are in a room without walls, bounded only by ferocious white light; so
+bright as to be tangible. Exits are east to a confusing cave, southwest to a
+platform above steps and northwest to a wide armoury. 
+What now? SW
+You are on a platform above steps. Exits are northeast to a room without
+walls, south to a watery passage and northwest to a beautiful room. 
+What now? NW
+You are in a beautiful room decorated with fine paintings, tapestries and
+superb pottery. The clothes of an aspiring fop hang on pegs. Exits are north
+to a cave of sloping slabs and southeast to a platform above steps. 
+What now? N 
+You are in a cave of sloping slabs. Exits are north to a crypt of evil mist,
+south to a beautiful room and up to a very unhygienic closet. You can see
+the Grasper. 
+What now? BURY GRASPER
+What now? N 
+You are in a crypt of evil mist where nonmort worshippers gather for their
+evil rites. Open coffins are stacked against the walls. Exits are north to a
+misty corridor, northeast to a peculiarly-shaped room, south to a cave of
+sloping slabs and southeast to a wide armoury. You can see Mandana the
+Vampire. The vampire cannot attack because of the crucifix.
+What now? NE
+You slide down a chute which closes behind you.
+You are in a peculiarly-shaped room. Exits are north to a tilted room,
+southeast to a gallery of graven images and northwest to a greasy room. 
+What now? N
+You are in a tilted room. Exits are east to a debris pile, south to a
+peculiarly-shaped room and northwest to a carved cave. 
+What now? NW
+You are in a carved cave lit from the north. Exits are north to a tomb of an
+avatar of Litter Muurdox and southeast to a tilted room. 
+What now? N 
+You slide down a chute which closes behind you.
+You are in a tomb of an avatar of Litter Muurdox, lord of light and
+darkness. An inscription reads 'And Muurdox will be with you always, for he
+sends messages from the sky'. The only exit is east to a Sun Temple to
+Litter Muurdox. You can see a sarcophagus. 
+What now? SAY OBIS 
+You have 39 hit points left.
+The sarcophagus opens revealing a brooch lying on a mummy.
+What now? SAY OLLABIN 
+You have 38 hit points left.
+The mummy disintegrates to a pile of dust.
+What now? GET BROOCH
+What now? E 
+You are in a Sun Temple to Litter Muurdox, built by yellow elves in times
+past; its power protected by cunning warding spells. Exits are south to a
+cave of ice and west to a tomb of an avatar of Litter Muurdox. You can see a
+raisin. 
+What now? GET RAISIN
+What now? S
+You are in a cave of ice, abode of the evil wizard, Aiken Dishun. Freezing
+air blasts from above. Exits are north to a Sun Temple to Litter Muurdox and
+northeast to a room with cool walls. 
+What now? NE
+You are in a room with cool walls but a warm floor. Steam rises through
+cracks in the floor and condenses when it meets freezing air from above. The
+result is most unpleasant. Exits are east to a Turkish bath, south to a room
+of sparkling rock and southwest to a cave of ice. 
+What now? S
+You are in a room of sparkling rock, its purpose a total mystery to one and
+all. Exits are north to a room with cool walls and south to a debris pile. 
+What now? S 
+You slide down a chute which closes behind you.
+You are in a debris pile. Exits are east to a stone kennel and south to a
+prison corridor. 
+What now? INSERT PILLS 
+You carefully hide the pills in the meat.
+What now? E 
+You are in a stone kennel south of an impressive door. Exits are north to a
+door, south to a twisted corridor and west to a debris pile. You can see the
+Watchdog. 
+What now? GIVE MEAT TO DOG 
+The dog eats the meat.
+Seconds later it dies.
+What now? OPEN DOOR
+It opens
+What now? N
+As the door closes, it merges invisibly with the wall.
+You are in a smoke-filled room. The only exit is east to a bridge over a sea
+of flames. 
+What now? E
+You are on a bridge over a sea of flames within a crystal cavern. Heat
+reflects from every gleaming wall. Four fragile walkways arch through the
+shimmering air to meet at a tiny platform, supported high in the dead centre
+of the cave. Gouts of glowing magma jet upwards, crashing onto the rocks all
+around before falling back into the liquid fire below. The noise and
+vibration are terrifying, but the central platform where you stand is
+clearly protected by powerful magik and is probably safe. Exits are north to
+a yellow sulphur room, east to a cool-ish room, south to a red room, west to
+a smoke-filled room and down to a lava-filled chamber. 
+What now? S 
+You are in a red room, decorated entirely in shades of red. Exits are north
+to a bridge over a sea of flames, northeast to a door and south to a door.
+You can see a thin red line on the floor. As you enter, a demonic voice
+hisses, "Be warned, human, I must kill anyone who crosses the line on the
+floor!"
+What now? I must kill anyone who crosses the line on the floor"]
+No one attacks that.
+What now? ERASE LINE 
+You erase the red line.
+What now? S
+You open the door and walk through. The door slams behind you.
+You are in a room with many doors. Exits are north to a door, east to a
+door, south to a door and west to a door. 
+What now? E 
+You open the door and walk through. The door slams behind you.
+You are surrounded by flashing lights which blind you.
+What now? CAST EXTINGUISH 
+You have 37 hit points left.
+The room is blacked out for several seconds.
+What now? LOOK
+You are in a room of flashing lights. Multi-coloured squares cover the
+floor, flickering hypnotically round your feet as distorted sound booms out.
+Exits are north to a dead end, east to a vault containing a great pedestal,
+south to a gem room and west to a door. 
+What now? E 
+You are on a vault containing a great pedestal. It must be the central vault
+of Cakabol. Exits are north to a platinum-walled cell, south to a
+silver-walled cell and west to a room of flashing lights. You can see the
+Moon Crystal of Baskalos. 
+What now? GET MOON CRYSTAL 
+As you pick up the crystal two dragons appear from the side rooms, they
+quickly circle you leaving no exit.
+What now? WAVE FAN 
+As you wave the fan, it produces a strong wind!
+ This blows the dragons' fire back at them. The fire envelopes them and they
+disappear.
+What now? W
+You are in a room of flashing lights. Multi-coloured squares cover the
+floor, flickering hypnotically round your feet as distorted sound booms out.
+Exits are north to a dead end, east to a vault containing a great pedestal,
+south to a gem room and west to a door. 
+What now? W
+You open the door and walk through. The door slams behind you.
+You are in a room with many doors. Exits are north to a door, east to a
+door, south to a door and west to a door. 
+What now? N
+You open the door and walk through. The door slams behind you.
+It's dark
+What now? LIGHT LAMP
+Ok!
+You are in a red room, decorated entirely in shades of red. Exits are north
+to a bridge over a sea of flames, northeast to a door and south to a door. 
+What now? N
+You are on a bridge over a sea of flames within a crystal cavern. Heat
+reflects from every gleaming wall. Four fragile walkways arch through the
+shimmering air to meet at a tiny platform, supported high in the dead centre
+of the cave. Gouts of glowing magma jet upwards, crashing onto the rocks all
+around before falling back into the liquid fire below. The noise and
+vibration are terrifying, but the central platform where you stand is
+clearly protected by powerful magik and is probably safe. Exits are north to
+a yellow sulphur room, east to a cool-ish room, south to a red room, west to
+a smoke-filled room and down to a lava-filled chamber. 
+What now? N
+You are in a yellow sulphur room, so called because the whole room is carved
+out of solid volcanic sulphur. Exits are south to a bridge over a sea of
+flames, west to a Turkish bath and up to a yellow hole. 
+What now? U
+You slide down a chute which closes behind you.
+You are in a yellow hole. The only exit is down to a volcano crater. 
+What now? D
+You slide down a chute which closes behind you.
+You are in a volcano crater covered by shattered black rocks. The ground
+seems to tremble slightly. Exits are south to a crater rim and down to a
+lava-filled chamber. 
+What now? S
+You are on a crater rim high above the landscape. Sulphurous fumes swirl
+past. Exits are north to a volcano crater and southeast to a rocky path up a
+volcano. 
+What now? SE
+You are on a rocky path up a volcano peak, zig-zagging between leaning
+pillars of jagged lava. The ground is sharp, like grey coral. Exits are
+southeast to a stony path, west to a crumbling edge of a sheer cliff and
+northwest to a crater rim. 
+What now? SE
+You are on a stony path across dry cinders. Exits are southeast to a steep
+rock slide, west to a volcanic outcrop and northwest to a rocky path up a
+volcano. 
+What now? SE
+You are on a steep rock slide. Exits are south to a wide, flat grassy plain,
+southeast to a junction of sheep tracks and northwest to a stony path. 
+What now? S
+You are on a wide, flat grassy plain, baked by the yellow sun. Exits are
+north to a steep rock slide, east to a pothole, south to a grassy mound and
+west to a grassy mound. 
+What now? W 
+You are on a grassy mound which rises a few metres above a sea of waving
+grass. The plain seems to go on for ever, broken only by three landmarks: a
+small, steeply pointed, volcanic mountain to the north; a thin, marble tower
+to the southwest; and a wide forest to the east. Red flowers cover the
+mound, perfuming the air with a smell of magic. Exits are north to a
+volcanic outcrop, east to a wide, flat grassy plain, south to a ruined stone
+house and west to a wide, flat grassy plain. You can see a purple potion and
+a box. 
+What now? GET POTION
+What now? DRINK POTION 
+You feel stronger.
+What now? S 
+You are in a ruined stone house, scarcely more than a heap of rubble, though
+a deep alcove survives in the remains of one overgrown wall. This house
+seems an ideal place to cache your loot. The only exit is north to a grassy
+mound. You can see some silver bars, some iron coins, a crown, a medallion,
+a necklace, a pearl, an emerald, a book, a black ball, a horseshoe, a
+scroll, rare spices, a sword, a cloak, leather gloves, a ring, a shield, a
+suit of chain mail, a linen shirt, wellington boots, a gas mask, a flask,
+some tubing, an axe, a crowbar and a dagger. Congratulations! You have
+completed Red Moon and saved the Kingdom of Baskalos!
+You score 1000/1000 and are a Grandmaster Adventurer. You have 50 hit points
+left.
+Another game? 
+Game Terminated

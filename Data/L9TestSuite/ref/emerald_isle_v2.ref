@@ -1,0 +1,2416 @@
+
+Welcome to Level 9's Emerald Isle, copyright (C) 1985.
+You are in the treetops. The exit is down to tree branches. You're hanging
+from a parachute.
+What next? 
+Playing back input from script file.
+#SEED 42
+RELEASE PARACHUTE 
+You fall free
+You are in tree branches. Exits are north to branches, east to branches,
+south to branches, west to branches and up to the treetops. 
+What next? U
+You are in the treetops. The exit is down to tree branches. You can see a
+parachute. 
+What next? GET PARACHUTE
+What next? D
+You are in tree branches. Exits are north to branches, east to branches,
+south to branches, west to branches and up to the treetops. 
+What next? S
+You are in tree branches. Exits are north to branches, east to branches,
+south to branches, west to branches and up to the treetops. 
+What next? S
+You are in tree branches. Exits are north to branches, east to branches,
+south to branches, west to branches and up to the treetops. 
+What next? S
+You are in branches. Exits are north to tree branches, east to a
+tree-bridge, south to tree branches, west to tree branches and up to a tall
+tree. You can see a silver coin. 
+What next? GET COIN
+What next? E
+You are on a tree-bridge. Exits are east to the city square and west to
+branches. 
+What next? E
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? N
+You are on the north bridge. Exits are north to tree branches and south to
+the city square. You can see a glue pot and an ermine robe. 
+What next? GET GLUE
+What next? GET * ROBE *
+What next? WEAR ROBE
+What next? S
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? E
+You are on the plaza. Exits are west to the city square and up to a
+clocktower. 
+What next? U
+You are on a clocktower. The exit is down to the plaza. You can see a manual
+and a fine clock that is stopped. 
+What next? GET MANUAL
+What next? D
+You are on the plaza. Exits are west to the city square and up to a
+clocktower. 
+What next? W
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? S
+You are in an alleyway. Exits are north to the city square and south to the
+palace quad. 
+What next? S 
+A guard sees your robes and welcomes you.
+You are in the palace quad. Exits are north to an alleyway, east to hanging
+gardens and south to the east hall. 
+What next? E 
+You are in hanging gardens. The exit is west to the palace quad. You can see
+'W'. 
+What next? W
+You are in the palace quad. Exits are north to an alleyway, east to hanging
+gardens and south to the east hall. 
+What next? S
+You are in the east hall. Exits are north to the palace quad, east to the
+dress circle and west to the west hall. 
+What next? E
+You are in the dress circle. The exit is west to the east hall. You can see
+a seamstress. 
+What next? GIVE PARACHUTE 
+'Just what I need! Here's a reward'
+What next? W
+You are in the east hall. Exits are north to the palace quad, east to the
+dress circle and west to the west hall. 
+What next? W
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? U
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? READ SIGN 
+Looks about a heir restore contest.
+What next? W 
+You are in the throneroom. Exits are east to the landing and west to a tiny
+room. You can see the King. He tosses a coin and leaves
+What next? E
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? D
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? S
+You are in a copper room. The exit is north to the west hall. You can see a
+copper coin. 
+What next? GET COIN
+What next? N
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? W
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? W
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? D
+It's dark.
+What next? D
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. 
+What next? E
+You are in a ticket office. The exit is west to a railway platform. You can
+see a machine with a slot. 
+What next? INSERT SILVER COIN 
+The machine produces a season ticket.
+What next? W 
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. A train arrives. 
+What next? N 
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. 
+What next? E 
+You are in a signal box. The exit is west to a seaside platform. You can see
+pliers. 
+What next? GET PLIERS
+What next? W
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. A
+train arrives. 
+What next? N
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. 
+What next? DROP ALL
+What next? GET GLUE
+What next? GET MANUAL
+What next? W
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see an anchor and thick threads. 
+What next? THROW GLUE 
+The spider happily leaves
+What next? W 
+It's dark.
+What next? S
+It's dark.
+What next? W
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? NW
+You are in volcanic fumes. The exit is southeast to a hot place. You can see
+a necklace. 
+What next? GET * NECKLACE *
+What next? SE
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? SW
+You are in cracked lava. The exit is northeast to a hot place. You can see a
+flat pan. 
+What next? GET PAN
+What next? NE
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? SE
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? S
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? S
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? S
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? E
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. 
+What next? PAN FOR GOLD 
+You pan for gold. You find a gold nugget.
+What next? DROP PAN
+What next? S
+You are in a soggy path. Exits are north to stream gravel, east to a hill
+moor and west to the riverside. 
+What next? E
+You are in a hill moor. Exits are east to a hill, west to a soggy path and
+down to scree. 
+What next? D
+You are in scree. Exits are north to a hill, south to the woodland edge and
+up to a hill moor. 
+What next? S
+You are in the woodland edge. Exits are north to scree, south to deciduous
+domains and west to dead woodland. 
+What next? S
+You are in deciduous domains. Exits are north to the woodland edge, south to
+a copse and west to dead woodland. 
+What next? S
+You are in a copse. Exits are north to deciduous domains, south to clammy
+shrubs and west to a clearing. You can see an axe. 
+What next? GET AXE
+What next? N
+You are in deciduous domains. Exits are north to the woodland edge, south to
+a copse and west to dead woodland. 
+What next? N
+You are in the woodland edge. Exits are north to scree, south to deciduous
+domains and west to dead woodland. 
+What next? N
+You are in scree. Exits are north to a hill, south to the woodland edge and
+up to a hill moor. 
+What next? U
+You are in a hill moor. Exits are east to a hill, west to a soggy path and
+down to scree. 
+What next? W
+You are in a soggy path. Exits are north to stream gravel, east to a hill
+moor and west to the riverside. 
+What next? N
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. You can see a flat pan. 
+What next? W
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? N
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? E 
+You are in more foothills. Exits are north to tedious foothills, east to
+tedious foothills, south to Boot Hill and west to Boot Hill. You can see
+'A'. 
+What next? W
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? N
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? NW
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? E
+It's dark.
+What next? N
+It's dark.
+What next? E
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see an anchor and thick threads. 
+What next? GET ANCHOR
+What next? S
+You are in sand dunes. Exits are north to between rugged rocks, northeast to
+the middle of the beach and east to a tumbledown shack. You can see a log. 
+What next? CARVE LOG 
+You make a canoe
+What next? TIE ANCHOR TO CANOE
+What next? NE
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a copper coin, a bronze coin, a
+gold coin, a season ticket and pliers. 
+What next? DROP ALL
+What next? SW
+You are in sand dunes. Exits are north to between rugged rocks, northeast to
+the middle of the beach and east to a tumbledown shack. You can see an
+anchor tied to the canoe and a canoe. 
+What next? GET CANOE
+What next? NE
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a copper coin, a bronze coin, a
+gold coin, a season ticket, an anchor tied to the canoe, an axe, a manual,
+pliers, a necklace and a gold nugget. 
+What next? GET COPPER COIN
+What next? GET BRONZE COIN
+What next? DROP CANOE
+What next? IN
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, an
+anchor tied to the canoe, an axe, a manual, pliers, a canoe holding you, a
+necklace and a gold nugget. 
+What next? N
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? N
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? N
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? N
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? E
+You are in dire straights. Exits are east to a shady cove and west to desert
+island dunes. You can see an anchor tied to the canoe and a canoe holding
+you. 
+What next? E
+You are in a shady cove. Exits are west to dire straights and up to cliff
+grass. You can see an anchor tied to the canoe, a ladder and a canoe holding
+you. 
+What next? U
+You leave the canoe. 
+You are in cliff grass. Exits are east to the dust edge and down to a shady
+cove. You can see a fixed telescope. 
+What next? INSERT COPPER COIN
+Click!
+What next? LOOK IN TELESCOPE 
+Looks onto a city on a nearby island.
+What next? BREAK TELESCOPE 
+Smash!
+What next? GET LENS
+What next? E
+You are on the dust edge. Exits are north to wasteland, east to dust flats,
+south to dustlands, southeast to baked sand and west to cliff grass. 
+What next? N
+You are on wasteland. Exits are east to pudding desert, south to the dust
+edge and southeast to dust flats. 
+What next? E
+You are on pudding desert. Exits are east to deadlands, south to dust flats,
+southeast to semi-desert and west to wasteland. 
+What next? E
+You are on deadlands. Exits are south to semi-desert and west to pudding
+desert. You can see a scarecrow. 
+What next? EXAMINE SCARECROW 
+Looks scruffy.
+You find some overalls.
+What next? S
+You are on semi-desert. Exits are north to deadlands, south to scree,
+southeast to a plain plain, west to dust flats and northwest to pudding
+desert. 
+What next? SE 
+You are on a plain plain. Exits are south to a sandy plain and northwest to
+semi-desert. You can see 'L'. 
+What next? S
+You are on a sandy plain. Exits are north to a plain plain, south to the
+garden path, west to the plain and northwest to scree. 
+What next? S
+You are on the garden path. Exits are north to a sandy plain, south to a
+winding track and northwest to the plain. 
+What next? S
+You are on a winding track. Exits are north to the garden path, east to a
+mall and west to a crossroad. 
+What next? E
+You are on a mall. Exits are southwest to a straight street and west to a
+winding track. You can see a matchbox. 
+What next? GET MATCHBOX
+What next? W
+You are on a winding track. Exits are north to the garden path, east to a
+mall and west to a crossroad. 
+What next? W
+You are on a crossroad. Exits are east to a winding track, south to the
+green and west to a footpath. You can see a boathook. 
+What next? GET BOATHOOK
+What next? W
+You are on a footpath. Exits are east to a crossroad and south to a small
+town high street. 
+What next? S
+You are on a small town high street. Exits are north to a footpath, east to
+the green and west to a cobble square. 
+What next? W
+You are on a cobble square. Exits are north to an antique shop, east to a
+small town high street, south to an ironmonger's, southwest to a chemist's
+and northwest to a grocer's. You can see a phrase book. 
+What next? GET BOOK 
+What next? SW
+You are in a chemist's. The exit is northeast to a cobble square. You can
+see carbide granules and a shopkeeper. 
+What next? BUY GRANULES 
+Pay what? BRONZE COIN
+He sells carbide granules.
+What next? NE
+You are on a cobble square. Exits are north to an antique shop, east to a
+small town high street, south to an ironmonger's, southwest to a chemist's
+and northwest to a grocer's. 
+What next? E
+You are on a small town high street. Exits are north to a footpath, east to
+the green and west to a cobble square. 
+What next? N
+You are on a footpath. Exits are east to a crossroad and south to a small
+town high street. 
+What next? E
+You are on a crossroad. Exits are east to a winding track, south to the
+green and west to a footpath. 
+What next? E
+You are on a winding track. Exits are north to the garden path, east to a
+mall and west to a crossroad. 
+What next? N
+You are on the garden path. Exits are north to a sandy plain, south to a
+winding track and northwest to the plain. 
+What next? NW
+You are on the plain. Exits are north to baked sand, northeast to scree,
+east to a sandy plain, southeast to the garden path and west to dustlands. 
+What next? N
+You are on baked sand. Exits are north to dust flats, east to scree, south
+to the plain, southwest to dustlands and northwest to the dust edge. 
+What next? NW
+You are on the dust edge. Exits are north to wasteland, east to dust flats,
+south to dustlands, southeast to baked sand and west to cliff grass. 
+What next? W
+You are in cliff grass. Exits are east to the dust edge and down to a shady
+cove. 
+What next? D
+You are in a shady cove. Exits are west to dire straights and up to cliff
+grass. You can see an anchor tied to the canoe, a ladder and a canoe. 
+What next? GET LADDER
+What next? IN
+You are in a shady cove. Exits are west to dire straights and up to cliff
+grass. You can see an anchor tied to the canoe and a canoe holding you. 
+What next? W
+You are in dire straights. Exits are east to a shady cove and west to desert
+island dunes. You can see an anchor tied to the canoe and a canoe holding
+you. 
+What next? W
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? NE
+You leave the canoe. 
+You are in the north isle. Exits are south to dire straights, southwest to
+desert island dunes and west to cool shade. You can see a lamp. 
+What next? GET LAMP
+What next? SW
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe. 
+What next? IN
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? S
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? W
+You are in crystal water. Exits are east to island waters, west to sand
+under a cliff and down to bright coral. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? FILL LAMP 
+If you must
+What next? INSERT GRANULES 
+You try putting granules in the lampThe lamp is lit
+What next? E
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? S
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? S
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? S
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, an
+anchor tied to the canoe, an axe, a manual, pliers, a canoe holding you, a
+necklace and a gold nugget. 
+What next? DROP LADDER
+What next? DROP BOOK
+What next? DROP BOATHOOK
+What next? DROP OVERALLS
+What next? DROP ROBE
+What next? E 
+You leave the canoe. 
+You are in clifftop scrub. Exits are east to a grassy area and west to the
+middle of the beach. 
+What next? E
+You are in a grassy area. Exits are east to a mine entrance and west to
+clifftop scrub. You can see a fence post. 
+What next? GET POST
+What next? E
+You are in a mine entrance. Exits are south to a mine tunnel and west to a
+grassy area. 
+What next? S
+You are in a mine tunnel. Exits are north to a mine entrance, east to a
+cavern and south to a dusty tunnel. 
+What next? E
+You are in a cavern. Exits are east to a dead end and west to a mine tunnel.
+
+What next? E
+You are in a dead end. The exit is west to a cavern. You can see a shovel. 
+What next? GET SHOVEL
+What next? DIG 
+You demolish a wall. You find a platinum pyramid.
+What next? W
+You are in a cavern. Exits are east to a dead end and west to a mine tunnel.
+
+What next? W
+You are in a mine tunnel. Exits are north to a mine entrance, east to a
+cavern and south to a dusty tunnel. 
+What next? S
+You are in a dusty tunnel. Exits are north to a mine tunnel and south to
+mining debris. You can see the ceiling. 
+What next? SUPPORT CEILING 
+What next? S
+You are in mining debris. The exit is north to a dusty tunnel. You can see a
+short rope and a rusty pick. 
+What next? DIG 
+You find an opal.
+What next? GET ROPE
+What next? GET PICK
+What next? N
+You are in a dusty tunnel. Exits are north to a mine tunnel and south to
+mining debris. You can see a fence post supporting the ceiling and the
+ceiling. 
+What next? GET POST
+What next? N
+You are in a mine tunnel. Exits are north to a mine entrance, east to a
+cavern and south to a dusty tunnel. 
+What next? N
+You are in a mine entrance. Exits are south to a mine tunnel and west to a
+grassy area. 
+What next? W
+You are in a grassy area. Exits are east to a mine entrance and west to
+clifftop scrub. 
+What next? W
+You are in clifftop scrub. Exits are east to a grassy area and west to the
+middle of the beach. 
+What next? W
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, an
+anchor tied to the canoe, an axe, a ladder, a manual, some overalls, pliers,
+a phrase book, a boathook, a canoe, a necklace, an ermine robe and a gold
+nugget. 
+What next? DIG 
+You find sharp spikes.
+What next? DROP SPIKES
+What next? GET LADDER
+What next? W
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? W
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. You can see a map. 
+What next? GET * MAP *
+What next? READ IT 
+Looks like a cross by a tree and small and valuable.
+What next? S
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? W
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? SE
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? S
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? S
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? S
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? E
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. You can see a flat pan. 
+What next? S
+You are in a soggy path. Exits are north to stream gravel, east to a hill
+moor and west to the riverside. 
+What next? W
+You are in the riverside. Exits are east to a soggy path, west to a river
+valley and across to hill slopes. 
+What next? W
+You are in a river valley. Exits are east to the riverside, up to a windy
+ridge and across to hill slopes. 
+What next? EXTEND LADDER
+It stretches
+What next? DROP IT 
+You are in a river valley. Exits are east to the riverside, up to a windy
+ridge and across to hill slopes. You can see a ladder across the river. 
+What next? S
+You are in hill slopes. Exits are west to spray above a waterfall and across
+to a river valley. You can see a ladder across the river and a treasure
+chest. 
+What next? GET * CHEST *
+What next? N
+You are in a river valley. Exits are east to the riverside, up to a windy
+ridge and across to hill slopes. You can see a ladder across the river. 
+What next? U
+You are in a windy ridge. Exits are east to boring foothills and down to a
+river valley. 
+What next? E
+You are in boring foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to a windy ridge. 
+What next? E
+You are in more foothills. Exits are north to tedious foothills, east to
+tedious foothills, south to Boot Hill and west to Boot Hill. You can see
+'A'. 
+What next? W
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? N
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? NW
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? E
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? N
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. 
+What next? E
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? E
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, an
+anchor tied to the canoe, an axe, a manual, some overalls, pliers, sharp
+spikes, a phrase book, a boathook, a canoe, a necklace, an ermine robe and a
+gold nugget. 
+What next? DROP ROPE
+What next? DROP LENS
+What next? DROP PICK
+What next? GET NUGGET
+What next? GET NECKLACE
+What next? GET TICKET
+What next? S 
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to a carriage and west to the police station.
+You can see a train. 
+What next? S
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. 
+What next? U
+You are in tree stairs. Exits are up to the palace yard and down to a
+railway platform. 
+What next? U
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? E
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? E
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? U
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? N
+You are in a treasure chamber. Exits are south to the landing and west to a
+beautiful room. You can see a notice and a dangling cord. 
+What next? DROP MAP
+What next? DROP CHEST
+What next? DROP OPAL
+What next? DROP PYRAMID
+What next? DROP NUGGET
+What next? DROP NECKLACE
+What next? S
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? D
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? W
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? W
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? D
+You are in tree stairs. Exits are up to the palace yard and down to a
+railway platform. 
+What next? D 
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. A train arrives. 
+What next? N
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. A
+train arrives. 
+What next? N
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, an anchor tied to the
+canoe, an axe, a manual, a short rope, a lens, some overalls, pliers, a
+rusty pick, sharp spikes, a phrase book, a boathook, a canoe and an ermine
+robe. 
+What next? DROP TICKET
+What next? GET SPIKES
+What next? WEAR THEM
+What next? GET OVERALLS
+What next? WEAR THEM
+What next? IN 
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, an
+anchor tied to the canoe, an axe, a manual, a short rope, a lens, pliers, a
+rusty pick, a phrase book, a boathook, a canoe holding you and an ermine
+robe. 
+What next? N
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? N
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? N
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? W
+You are in crystal water. Exits are east to island waters, west to sand
+under a cliff and down to bright coral. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? W
+You are on sand under a cliff. Exits are north to a cliff, northeast to
+crystal water, east to crystal water, south to a smooth beach and southeast
+to crystal water. You can see an anchor tied to the canoe and a canoe
+holding you. 
+What next? S
+You leave the canoe. 
+You are on a smooth beach. Exits are north to sand under a cliff, northeast
+to crystal water, east to crystal water, south to crystal water and in to a
+sea cave. 
+What next? IN
+You are in a sea cave. Exits are up to a blow-hole and out to a smooth
+beach. 
+What next? U
+You are in a blow-hole. Exits are down to a sea cave and out to an
+overhanging clifftop. 
+What next? OUT
+You are on an overhanging clifftop. Exits are north to a cleft cliff, west
+to a path and in to a blow-hole. 
+What next? W
+You are on a path. Exits are north to the shore path, east to an overhanging
+clifftop, south to a road and west to a parking bay. 
+What next? W
+You are on a parking bay. Exits are east to a path and south to a corner.
+You can see a wallet. 
+What next? GET WALLET
+What next? S
+You are on a corner. Exits are north to a parking bay and east to a road. 
+What next? E
+You are on a road. Exits are north to a path, south to city suburbs and west
+to a corner. 
+What next? S
+You are on city suburbs. Exits are north to a road, east to streets of
+shame, south to city streets and west to mean streets. 
+What next? S
+You are on city streets. Exits are north to city suburbs, east to streets of
+shame, south to the way out and west to mean streets. Cars jam the road
+What next? W
+You are on mean streets. Exits are east to city streets, south to ancient
+parkland and west to mean streets. Cars jam the road
+What next? S
+You are on ancient parkland. Exits are north to mean streets, east to the
+way out, south to the city park and west to a token park. Cars jam the road
+What next? S
+You are in the city park. Exits are north to ancient parkland and south to a
+busy road. 
+What next? S
+You are in a busy road. Exits are north to the city park, east to the main
+road and west to the road. 
+What next? W
+You are in the road. Exits are east to a busy road and south to the way. You
+can see a signpost. 
+What next? S
+You are in the way. Exits are north to the road and east to a lorrypark. 
+What next? E
+You are in a lorrypark. Exits are south to the airport lounge and west to
+the way. 
+What next? S
+You are in the airport lounge. Exits are north to a lorrypark and east to
+the runway. 
+What next? E 
+You are in the runway. Exits are east to the shade of an aircraft and west
+to the airport lounge. 
+What next? E
+You are in the shade of an aircraft. Exits are west to the runway and in to
+the plane. 
+What next? IN
+You are in the plane. Exits are south to the cockpit, down to an aircraft
+hold and out to the shade of an aircraft. 
+What next? D
+You are in an aircraft hold. The exit is up to the plane. You can see a
+brooch. 
+What next? GET * BROOCH *
+What next? U
+You are in the plane. Exits are south to the cockpit, down to an aircraft
+hold and out to the shade of an aircraft. 
+What next? OUT
+You are in the shade of an aircraft. Exits are west to the runway and in to
+the plane. 
+What next? W
+You are in the runway. Exits are east to the shade of an aircraft and west
+to the airport lounge. 
+What next? W
+You are in the airport lounge. Exits are north to a lorrypark and east to
+the runway. 
+What next? N
+You are in a lorrypark. Exits are south to the airport lounge and west to
+the way. 
+What next? W
+You are in the way. Exits are north to the road and east to a lorrypark. 
+What next? N
+You are in the road. Exits are east to a busy road and south to the way. You
+can see a signpost. 
+What next? E
+You are in a busy road. Exits are north to the city park, east to the main
+road and west to the road. 
+What next? N
+You are in the city park. Exits are north to ancient parkland and south to a
+busy road. 
+What next? N
+You are on ancient parkland. Exits are north to mean streets, east to the
+way out, south to the city park and west to a token park. Cars jam the road
+What next? E
+You are on the way out. Exits are north to city streets, east to cobbles,
+south to the main road and west to ancient parkland. Cars jam the road
+What next? N
+You are on city streets. Exits are north to city suburbs, east to streets of
+shame, south to the way out and west to mean streets. Cars jam the road
+What next? N
+You are on city suburbs. Exits are north to a road, east to streets of
+shame, south to city streets and west to mean streets. 
+What next? N
+You are on a road. Exits are north to a path, south to city suburbs and west
+to a corner. 
+What next? N
+You are on a path. Exits are north to the shore path, east to an overhanging
+clifftop, south to a road and west to a parking bay. 
+What next? E
+You are on an overhanging clifftop. Exits are north to a cleft cliff, west
+to a path and in to a blow-hole. 
+What next? IN
+You are in a blow-hole. Exits are down to a sea cave and out to an
+overhanging clifftop. 
+What next? D
+You are in a sea cave. Exits are up to a blow-hole and out to a smooth
+beach. 
+What next? OUT
+You are on a smooth beach. Exits are north to sand under a cliff, northeast
+to crystal water, east to crystal water, south to crystal water and in to a
+sea cave. 
+What next? N
+You are on sand under a cliff. Exits are north to a cliff, northeast to
+crystal water, east to crystal water, south to a smooth beach and southeast
+to crystal water. You can see an anchor tied to the canoe and a canoe. 
+What next? IN
+You are on sand under a cliff. Exits are north to a cliff, northeast to
+crystal water, east to crystal water, south to a smooth beach and southeast
+to crystal water. You can see an anchor tied to the canoe and a canoe
+holding you. 
+What next? E
+You are in crystal water. Exits are east to island waters, west to sand
+under a cliff and down to bright coral. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? E
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? N
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? NW
+You leave the canoe. 
+You are in cool shade. Exits are east to the north isle, southeast to desert
+island dunes and up to the palm. 
+What next? DIG 
+You find a figurine.
+You find oodles of dubloons.
+What next? U
+You are in the palm. The exit is down to cool shade. You can see a coconut. 
+What next? DROP OVERALLS
+It's swept away!
+What next? GET * COCONUT *
+What next? D
+You are in cool shade. Exits are east to the north isle, southeast to desert
+island dunes and up to the palm. 
+What next? SE
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe. 
+What next? IN
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? S
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? S
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? S
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? S
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, an
+anchor tied to the canoe, an axe, a manual, a short rope, a lens, pliers, a
+rusty pick, a phrase book, a boathook, a canoe holding you and an ermine
+robe. 
+What next? DROP LAMP
+What next? GET TICKET
+What next? S 
+You leave the canoe. 
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to a carriage and west to the police station.
+You can see a train. 
+What next? S
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. A train arrives. 
+What next? U
+It's dark.
+What next? U
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? E
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? E
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? U
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? N
+You are in a treasure chamber. Exits are south to the landing and west to a
+beautiful room. You can see a map, an opal, a necklace, a gold nugget, a
+platinum pyramid, a treasure chest, a notice and a dangling cord. 
+What next? DROP BROOCH
+What next? DROP DUBLOONS
+What next? DROP FIGURINE
+What next? DROP COCONUT
+What next? S
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? D
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? W
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? W
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? D
+It's dark.
+What next? D 
+You are in a railway platform. Exits are north to a carriage, east to a
+ticket office, west to a gate and up to tree stairs. You can see a train. 
+What next? N
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. 
+What next? W
+You are in the police station. The exit is east to a seaside platform. 
+What next? DROP WALLET 
+A policeman rewards you
+What next? E
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. 
+What next? N
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, an anchor tied to the
+canoe, an axe, a lamp glowing brightly, a manual, a short rope, a lens,
+pliers, a rusty pick, a phrase book, a boathook, a canoe and an ermine robe.
+
+What next? DROP TICKET
+What next? DROP MATCHBOX
+What next? DROP POST
+What next? GET PICK
+What next? GET LAMP
+What next? IN 
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, a
+matchbox, an anchor tied to the canoe, an axe, a manual, a short rope, a
+lens, pliers, a phrase book, a fence post, a boathook, a canoe holding you
+and an ermine robe. 
+What next? N
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? N
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? N
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? N
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? E
+You are in dire straights. Exits are east to a shady cove and west to desert
+island dunes. You can see an anchor tied to the canoe and a canoe holding
+you. 
+What next? E
+You are in a shady cove. Exits are west to dire straights and up to cliff
+grass. You can see an anchor tied to the canoe and a canoe holding you. 
+What next? U
+You leave the canoe. 
+You are in cliff grass. Exits are east to the dust edge and down to a shady
+cove. 
+What next? E
+You are on the dust edge. Exits are north to wasteland, east to dust flats,
+south to dustlands, southeast to baked sand and west to cliff grass. 
+What next? S
+You are on dustlands. Exits are north to the dust edge, northeast to baked
+sand and east to the plain. 
+What next? E
+You are on the plain. Exits are north to baked sand, northeast to scree,
+east to a sandy plain, southeast to the garden path and west to dustlands. 
+What next? SE
+You are on the garden path. Exits are north to a sandy plain, south to a
+winding track and northwest to the plain. 
+What next? S
+You are on a winding track. Exits are north to the garden path, east to a
+mall and west to a crossroad. 
+What next? W
+You are on a crossroad. Exits are east to a winding track, south to the
+green and west to a footpath. 
+What next? S
+You are on the green. Exits are north to a crossroad, east to a straight
+street and west to a small town high street. 
+What next? W
+You are on a small town high street. Exits are north to a footpath, east to
+the green and west to a cobble square. 
+What next? W
+You are on a cobble square. Exits are north to an antique shop, east to a
+small town high street, south to an ironmonger's, southwest to a chemist's
+and northwest to a grocer's. 
+What next? NW
+You are in a grocer's. The exit is southeast to a cobble square. You can see
+yummy food and a shopkeeper. 'You buying?'.
+What next? BUY FOOD
+Pay what? 5 NOTES
+He takes 5 notes for yummy food.
+'Level 9 sell well'.
+What next? SE
+You are on a cobble square. Exits are north to an antique shop, east to a
+small town high street, south to an ironmonger's, southwest to a chemist's
+and northwest to a grocer's. 
+What next? S
+You are in an ironmonger's. The exit is north to a cobble square. You can
+see a claw hammer, a screwdriver and a shopkeeper. 
+What next? BUY HAMMER
+Pay what? 10 NOTES
+He takes 10 notes for a claw hammer.
+The shopkeeper watches you.
+What next? BUY SCREWDRIVER
+Pay what? 5 NOTES
+He takes 5 notes for a screwdriver.
+'You buying?'.
+What next? N
+You are on a cobble square. Exits are north to an antique shop, east to a
+small town high street, south to an ironmonger's, southwest to a chemist's
+and northwest to a grocer's. 
+What next? N
+You are in an antique shop. The exit is south to a cobble square. You can
+see a painting and a shopkeeper. 'Level 9 sell well'.
+What next? BUY * PAINTING *
+Pay what? 5 NOTES 
+He takes 76 notes for a painting.
+What next? S
+You are on a cobble square. Exits are north to an antique shop, east to a
+small town high street, south to an ironmonger's, southwest to a chemist's
+and northwest to a grocer's. 
+What next? E
+You are on a small town high street. Exits are north to a footpath, east to
+the green and west to a cobble square. 
+What next? E
+You are on the green. Exits are north to a crossroad, east to a straight
+street and west to a small town high street. 
+What next? N
+You are on a crossroad. Exits are east to a winding track, south to the
+green and west to a footpath. 
+What next? E
+You are on a winding track. Exits are north to the garden path, east to a
+mall and west to a crossroad. 
+What next? N
+You are on the garden path. Exits are north to a sandy plain, south to a
+winding track and northwest to the plain. 
+What next? NW
+You are on the plain. Exits are north to baked sand, northeast to scree,
+east to a sandy plain, southeast to the garden path and west to dustlands. 
+What next? NE
+You are on scree. Exits are north to semi-desert, south to the plain,
+southeast to a sandy plain, west to baked sand and up to the mountainside. 
+What next? U
+You are on the mountainside. Exits are up to a rock peak and down to scree. 
+What next? U
+You are on a rock peak. Exits are down to the mountainside and in to riven
+rocks. 
+What next? IN
+You are in riven rocks. Exits are down to a smooth shaft and out to a rock
+peak. 
+What next? D
+You are in a smooth shaft. Exits are up to riven rocks and down to a lava
+chamber. 
+What next? D
+You are in a lava chamber. The exit is up to a smooth shaft. 
+What next? DROP NOTES
+What next? DIG 
+You demolish a wall. You find diamonds.
+What next? U
+You are in a smooth shaft. Exits are up to riven rocks and down to a lava
+chamber. 
+What next? U
+You are in riven rocks. Exits are down to a smooth shaft and out to a rock
+peak. 
+What next? OUT
+You are on a rock peak. Exits are down to the mountainside and in to riven
+rocks. 
+What next? D
+You are on the mountainside. Exits are up to a rock peak and down to scree. 
+What next? D
+You are on scree. Exits are north to semi-desert, south to the plain,
+southeast to a sandy plain, west to baked sand and up to the mountainside. 
+What next? W
+You are on baked sand. Exits are north to dust flats, east to scree, south
+to the plain, southwest to dustlands and northwest to the dust edge. 
+What next? NW
+You are on the dust edge. Exits are north to wasteland, east to dust flats,
+south to dustlands, southeast to baked sand and west to cliff grass. 
+What next? W
+You are in cliff grass. Exits are east to the dust edge and down to a shady
+cove. 
+What next? D
+You are in a shady cove. Exits are west to dire straights and up to cliff
+grass. You can see an anchor tied to the canoe and a canoe. 
+What next? IN
+You are in a shady cove. Exits are west to dire straights and up to cliff
+grass. You can see an anchor tied to the canoe and a canoe holding you. 
+What next? W
+You are in dire straights. Exits are east to a shady cove and west to desert
+island dunes. You can see an anchor tied to the canoe and a canoe holding
+you. 
+What next? W
+You are in desert island dunes. Exits are northeast to the north isle, east
+to dire straights, south to island waters and northwest to cool shade. You
+can see an anchor tied to the canoe and a canoe holding you. 
+What next? S
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? S
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? S
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? S
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, a
+matchbox, an anchor tied to the canoe, an axe, a manual, a short rope, a
+lens, pliers, a phrase book, a fence post, a boathook, a canoe holding you
+and an ermine robe. 
+What next? DROP SPIKES
+What next? DROP PICK
+What next? SW
+You leave the canoe. 
+You are in sand dunes. Exits are north to between rugged rocks, northeast to
+the middle of the beach and east to a tumbledown shack. 
+What next? E
+You are in a tumbledown shack. The exit is west to sand dunes. You can see a
+plank. 
+What next? UNDO PLANK 
+It comes free. 
+What next? GET PLANK
+What next? W
+You are in sand dunes. Exits are north to between rugged rocks, northeast to
+the middle of the beach and east to a tumbledown shack. 
+What next? N
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? W
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. 
+What next? S
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? W
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? SE
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? S
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? S
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? S
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? E
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. You can see a flat pan. 
+What next? N
+You are in a shallow stream. Exits are south to stream gravel and up to
+sedge tussocks. 
+What next? U
+You are in sedge tussocks. Exits are north to the high moors, up to horrid
+heights and down to a shallow stream. 
+What next? DROP PLANK
+You are in sedge tussocks. Exits are north to the high moors, up to horrid
+heights and down to a shallow stream. You can see a plank across the marsh. 
+What next? U
+You are in horrid heights. Exits are north to harsh moors, west to the high
+moors and down to sedge tussocks. 
+What next? N
+You are in harsh moors. Exits are south to horrid heights, up to a rock
+hollow and in to a hollow. 
+What next? U
+You are in a rock hollow. The exit is down to harsh moors. You can see a
+boulder. 
+What next? EXAMINE BOULDER 
+Looks rough.
+You find a small key.
+What next? D
+You are in harsh moors. Exits are south to horrid heights, up to a rock
+hollow and in to a hollow. 
+What next? S
+You are in horrid heights. Exits are north to harsh moors, west to the high
+moors and down to sedge tussocks. 
+What next? D
+You are in sedge tussocks. Exits are north to the high moors, up to horrid
+heights and down to a shallow stream. You can see a plank across the marsh. 
+What next? D
+You are in a shallow stream. Exits are south to stream gravel and up to
+sedge tussocks. 
+What next? S
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. You can see a flat pan. 
+What next? W
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? N
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? N
+You are in endless foothills. Exits are north to tedious foothills, east to
+boring foothills, south to endless foothills and west to endless foothills. 
+What next? E
+You are in boring foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to a windy ridge. 
+What next? E
+You are in more foothills. Exits are north to tedious foothills, east to
+tedious foothills, south to Boot Hill and west to Boot Hill. You can see
+'A'. 
+What next? W
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? N
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? NW
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? E
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? N
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. 
+What next? E
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? E
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a gold coin, a season ticket, a
+matchbox, an anchor tied to the canoe, an axe, a manual, a short rope, a
+lens, pliers, a rusty pick, sharp spikes, a phrase book, a fence post, a
+boathook, a canoe and an ermine robe. 
+What next? DROP LAMP
+What next? GET COIN
+What next? GET ROBE
+What next? WEAR IT
+What next? GET TICKET
+What next? S 
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. A
+train arrives. 
+What next? S
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. A train arrives. 
+What next? U
+It's dark.
+What next? U
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? E
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? E
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? U
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? N
+You are in a treasure chamber. Exits are south to the landing and west to a
+beautiful room. You can see a brooch, a map, an opal, oodles of dubloons, a
+necklace, a gold nugget, a figurine, a coconut, a platinum pyramid, a
+treasure chest, a notice and a dangling cord. 
+What next? DROP PAINTING
+What next? DROP DIAMONDS
+What next? S
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? D
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? E
+You are in the east hall. Exits are north to the palace quad, east to the
+dress circle and west to the west hall. 
+What next? N
+You are in the palace quad. Exits are north to an alleyway, east to hanging
+gardens and south to the east hall. 
+What next? N
+You are in an alleyway. Exits are north to the city square and south to the
+palace quad. 
+What next? N
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? E
+You are on the plaza. Exits are west to the city square and up to a
+clocktower. 
+What next? U
+You are on a clocktower. The exit is down to the plaza. You can see a fine
+clock that is stopped. 
+What next? WIND CLOCK
+The clock chimes
+What next? DROP SMALL KEY
+What next? D 
+You are on the plaza. Exits are west to the city square and up to a
+clocktower. Cheering crowds surround the clock and present the key to the
+city. 
+What next? W
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? S
+You are in an alleyway. Exits are north to the city square and south to the
+palace quad. 
+What next? S
+A guard sees your robes and welcomes you.
+You are in the palace quad. Exits are north to an alleyway, east to hanging
+gardens and south to the east hall. 
+What next? S
+You are in the east hall. Exits are north to the palace quad, east to the
+dress circle and west to the west hall. 
+What next? W
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? W
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? W
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? D
+It's dark.
+What next? D
+You are in a railway platform. Exits are north to a carriage, east to a
+ticket office, west to a gate and up to tree stairs. You can see a train.
+The train leaves. 
+What next? UNLOCK GATE
+It opens
+A train arrives. 
+What next? W
+The door closes
+You are on bridge steps. Exits are north to a railway bridge and east to a
+gate. 
+What next? N
+You are on a railway bridge. Exits are north to bridge steps and south to
+bridge steps. 
+What next? N
+You are on bridge steps. Exits are east to a dirty platform and south to a
+railway bridge. 
+What next? E
+You are on a dirty platform. Exits are south to the track and west to bridge
+steps. You can see a mesh armband. 
+What next? GET ARMBAND 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+A train arrives. 
+What next? S 
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are in a terminus. Exits are north to a village and west to the track. A
+train arrives. 
+What next? N
+You are in a village. Exits are north to a square, east to a mudpatch and
+south to a terminus. You can see an old beggar. The beggar taps you.
+What next? GIVE FOOD 
+She presses something into your hand
+What next? N
+You are in a square. Exits are north to a hospital and south to a village. 
+What next? N
+You are in a hospital. The exit is south to a square. You can see a nurse. 
+What next? GIVE GOLD COIN 
+You're inoculated
+What next? S
+You are in a square. Exits are north to a hospital and south to a village. 
+What next? S
+You are in a village. Exits are north to a square, east to a mudpatch and
+south to a terminus. 
+What next? E
+You are in a mudpatch. Exits are east to grey ooze and west to a village. 
+What next? E
+You are in grey ooze. Exits are north to the mud, east to mist marshes,
+south to a swamp and west to a mudpatch. 
+What next? S
+You are in a swamp. Exits are north to grey ooze and east to a marsh. 
+What next? E
+You are in a marsh. Exits are north to mist marshes, northeast to a dense
+forest, east to rainforest and west to a swamp. 
+What next? E
+You are in rainforest. Exits are north to a dense forest, east to whispering
+grass and west to a marsh. 
+What next? E
+You are in whispering grass. Exits are north to long reeds, east to the far
+bank, south to rainforest and west to rainforest. You can see a bowl and
+hanging vines. 
+What next? GET BOWL
+What next? W
+You are in rainforest. Exits are north to a dense forest, east to whispering
+grass and west to a marsh. 
+What next? W
+You are in a marsh. Exits are north to mist marshes, northeast to a dense
+forest, east to rainforest and west to a swamp. 
+What next? W
+You are in a swamp. Exits are north to grey ooze and east to a marsh. 
+What next? N
+You are in grey ooze. Exits are north to the mud, east to mist marshes,
+south to a swamp and west to a mudpatch. 
+What next? W
+You are in a mudpatch. Exits are east to grey ooze and west to a village. 
+What next? W
+You are in a village. Exits are north to a square, east to a mudpatch and
+south to a terminus. 
+What next? S 
+You are in a terminus. Exits are north to a village and west to a carriage.
+You can see a train. 
+What next? W
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are on a dirty platform. Exits are south to the track and west to bridge
+steps. 
+What next? W
+You are on bridge steps. Exits are east to a dirty platform and south to a
+railway bridge. 
+What next? S
+You are on a railway bridge. Exits are north to bridge steps and south to
+bridge steps. 
+What next? S
+You are on bridge steps. Exits are north to a railway bridge and east to a
+gate. 
+What next? OPEN GATE
+It opens
+What next? E 
+The door closes
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. 
+What next? WAIT
+Time passes . . . . . 
+What next? WAIT
+Time passes . . . . . 
+A train arrives. 
+What next? N
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. 
+What next? N
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a matchbox, an anchor tied to the
+canoe, an axe, a lamp glowing brightly, a manual, a short rope, a lens,
+pliers, a rusty pick, sharp spikes, a phrase book, a fence post, a boathook
+and a canoe. 
+What next? DROP BOWL
+What next? DROP ROBE
+What next? DROP TICKET
+What next? DROP HAMMER
+What next? GET LAMP
+What next? GET POST
+What next? GET ROPE
+What next? W
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? W
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. 
+What next? S
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? W
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? SE
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? S
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? S
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? S
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? E
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. You can see a flat pan. 
+What next? S
+You are in a soggy path. Exits are north to stream gravel, east to a hill
+moor and west to the riverside. 
+What next? E
+You are in a hill moor. Exits are east to a hill, west to a soggy path and
+down to scree. 
+What next? D
+You are in scree. Exits are north to a hill, south to the woodland edge and
+up to a hill moor. 
+What next? S
+You are in the woodland edge. Exits are north to scree, south to deciduous
+domains and west to dead woodland. 
+What next? S
+You are in deciduous domains. Exits are north to the woodland edge, south to
+a copse and west to dead woodland. 
+What next? W
+You are in dead woodland. Exits are north to the high wood, east to
+deciduous domains, south to a clearing and west to the high wood. 
+What next? W
+You are in the high wood. Exits are north to dead woodland, east to dead
+woodland, south to rich vegetation and west to dying trees. 
+What next? W 
+You are in dying trees. Exits are east to the high wood and south to sparse
+shrubs. You can see 'T'. 
+What next? S
+You are in sparse shrubs. Exits are north to dying trees, east to rich
+vegetation, southeast to dappled sunlight and west to scrub. 
+What next? E
+You are in rich vegetation. Exits are north to the high wood, east to a
+clearing, south to dappled sunlight and west to sparse shrubs. 
+What next? WEAR ARMBAND
+What next? W 
+You are in sparse shrubs. Exits are north to dying trees, east to rich
+vegetation, southeast to dappled sunlight and west to scrub. 
+What next? W
+A giant logger clanks forward but turns aside
+You are in scrub. Exits are north to dying trees, east to sparse shrubs and
+west to a faint path. 
+What next? W
+You are on a faint path. Exits are north to gravestones and east to scrub. 
+What next? N
+You are on gravestones. The exit is south to a faint path. You can see a
+weird monument. 
+What next? EXAMINE MONUMENT
+Looks odd.
+You find a plaque with a hole.
+What next? INSERT POST 
+An opening appears
+What next? D
+You are in a carved chamber. The exit is up to gravestones. You can see
+carvings. 
+What next? PUSH CARVINGS 
+An exit opens
+What next? S
+You are in a hi-tech complex. Exits are north to a carved chamber, east to a
+bare room and south to a door. You can see a slot. 
+What next? INSERT CARD
+It opens
+What next? S
+The door closes
+You are in the control centre. The exit is north to a door. You can see a
+lever, monitor screens and small switches. 
+What next? EXAMINE MONITORS 
+Looks like a view of a traffic jam.
+What next? PULL LEVER 
+The traffic moves. 'Come to my office for a reward'
+What next? OPEN DOOR
+It opens
+What next? N
+The door closes
+You are in a hi-tech complex. Exits are north to a carved chamber, east to a
+bare room and south to a door. You can see a slot. 
+What next? E
+You are in a bare room. The exit is west to a hi-tech complex. You can see a
+long rope. 
+What next? DROP POST
+What next? GET ROPE
+What next? W
+You are in a hi-tech complex. Exits are north to a carved chamber, east to a
+bare room and south to a door. You can see a slot. 
+What next? N
+You are in a carved chamber. Exits are south to a hi-tech complex and up to
+gravestones. You can see carvings. 
+What next? U
+You are on gravestones. Exits are south to a faint path and down to a carved
+chamber. You can see a weird monument and a plaque with a hole. 
+What next? S
+You are on a faint path. Exits are north to gravestones and east to scrub. 
+What next? E
+You are in scrub. Exits are north to dying trees, east to sparse shrubs and
+west to a faint path. 
+What next? N
+You are in dying trees. Exits are east to the high wood and south to sparse
+shrubs. You can see 'T'. 
+What next? E
+You are in the high wood. Exits are north to dead woodland, east to dead
+woodland, south to rich vegetation and west to dying trees. 
+What next? E
+You are in dead woodland. Exits are north to the high wood, east to
+deciduous domains, south to a clearing and west to the high wood. 
+What next? E
+You are in deciduous domains. Exits are north to the woodland edge, south to
+a copse and west to dead woodland. 
+What next? N
+You are in the woodland edge. Exits are north to scree, south to deciduous
+domains and west to dead woodland. 
+What next? N
+You are in scree. Exits are north to a hill, south to the woodland edge and
+up to a hill moor. 
+What next? U
+You are in a hill moor. Exits are east to a hill, west to a soggy path and
+down to scree. 
+What next? W
+You are in a soggy path. Exits are north to stream gravel, east to a hill
+moor and west to the riverside. 
+What next? W
+You are in the riverside. Exits are east to a soggy path, west to a river
+valley and across to hill slopes. You can see a ladder across the river. 
+What next? W
+You are in a river valley. Exits are east to the riverside, up to a windy
+ridge and across to hill slopes. You can see a ladder across the river. 
+What next? S
+You are in hill slopes. Exits are west to spray above a waterfall and across
+to a river valley. You can see a ladder across the river. 
+What next? W
+You are in spray above a waterfall. The exit is east to hill slopes. You can
+see rock pinnacles. 
+What next? TIE ROPE
+You are in spray above a waterfall. Exits are east to hill slopes and down
+to a rock-throat. You can see a short rope hanging from a rock and rock
+pinnacles. 
+What next? TIE ROPE 
+You are in spray above a waterfall. Exits are east to hill slopes and down
+to a rock-throat. You can see a short rope hanging from a rock, a long rope
+hanging from a rock and rock pinnacles. 
+What next? D
+You are in a rock-throat. Exits are east to crude caverns and up to spray
+above a waterfall. 
+What next? E
+You are in crude caverns. Exits are north to a cleft and west to a
+rock-throat. 
+What next? N
+You are in a cleft. Exits are east to a damp hollow and south to crude
+caverns. 
+What next? E
+You are in a damp hollow. The exit is west to a cleft. You can see a
+coronet. 
+What next? GET * CORONET *
+What next? W
+You are in a cleft. Exits are east to a damp hollow and south to crude
+caverns. 
+What next? S
+You are in crude caverns. Exits are north to a cleft and west to a
+rock-throat. 
+What next? W
+You are in a rock-throat. Exits are east to crude caverns and up to spray
+above a waterfall. 
+What next? U
+You are in spray above a waterfall. Exits are east to hill slopes and down
+to a rock-throat. You can see a short rope hanging from a rock, a long rope
+hanging from a rock and rock pinnacles. 
+What next? GET SHORT ROPE
+What next? D
+You are in the smallest cave. Exits are south to a tight place, west to the
+middle of the beach and up to spray above a waterfall. 
+What next? S
+You are in a tight place. Exits are north to the smallest cave and south to
+a twisty tunnel. 
+What next? S
+You are in a twisty tunnel. Exits are north to a tight place and east to a
+grotty grotto. 
+What next? E
+You are in a grotty grotto. The exit is west to a twisty tunnel. You can see
+a pit. 
+What next? DIG
+You enlarge the hole
+What next? D
+You are in a cosy cave. Exits are west to the middle of the beach and up to
+a grotty grotto. You can see a ruby. 
+What next? DROP SHORT ROPE
+What next? GET * RUBY *
+What next? W 
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a season ticket, a matchbox, an
+anchor tied to the canoe, an axe, a claw hammer, a manual, a lens, pliers, a
+rusty pick, sharp spikes, a phrase book, a bowl, a boathook, a canoe and an
+ermine robe. 
+What next? DROP CARD
+What next? DROP SHOVEL
+What next? DROP ARMBAND
+What next? DROP KEY
+What next? GET BOWL
+What next? GET PLIERS
+What next? GET SPIKES
+What next? WEAR THEM
+What next? IN
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a season ticket, a matchbox, an
+identity card, an ornate key, an anchor tied to the canoe, an axe, a claw
+hammer, a manual, a lens, a rusty pick, a mesh armband, a shovel, a phrase
+book, a boathook, a canoe holding you and an ermine robe. 
+What next? N 
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? N
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? N
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? W
+You are in crystal water. Exits are east to island waters, west to sand
+under a cliff and down to bright coral. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? W
+You are on sand under a cliff. Exits are north to a cliff, northeast to
+crystal water, east to crystal water, south to a smooth beach and southeast
+to crystal water. You can see an anchor tied to the canoe and a canoe
+holding you. 
+What next? S
+You leave the canoe. 
+You are on a smooth beach. Exits are north to sand under a cliff, northeast
+to crystal water, east to crystal water, south to crystal water and in to a
+sea cave. 
+What next? IN
+You are in a sea cave. Exits are up to a blow-hole and out to a smooth
+beach. 
+What next? U
+You are in a blow-hole. Exits are down to a sea cave and out to an
+overhanging clifftop. 
+What next? OUT
+You are on an overhanging clifftop. Exits are north to a cleft cliff, west
+to a path and in to a blow-hole. 
+What next? W
+You are on a path. Exits are north to the shore path, east to an overhanging
+clifftop, south to a road and west to a parking bay. 
+What next? S
+You are on a road. Exits are north to a path, south to city suburbs and west
+to a corner. 
+What next? S
+You are on city suburbs. Exits are north to a road, east to streets of
+shame, south to city streets and west to mean streets. 
+What next? S
+You are on city streets. Exits are north to city suburbs, east to streets of
+shame, south to the way out and west to mean streets. 
+What next? S
+You are on the way out. Exits are north to city streets, east to cobbles,
+south to the main road and west to ancient parkland. 
+What next? E
+You are on cobbles. Exits are north to streets of shame, south to the foyer
+and west to the way out. 
+What next? S
+You are in the foyer. Exits are north to cobbles and east to the elevator. 
+What next? E
+You are in the elevator. The exit is west to the foyer. You can see elevator
+controls. 
+What next? EXAMINE CONTROLS
+Looks Victorian.
+You find a metal plate.
+What next? EXAMINE PLATE
+Looks loose.
+What next? OPEN PLATE 
+It comes free. You find a button.
+What next? LOOK
+You are in the elevator. The exit is west to the foyer. You can see a
+button, elevator controls and tangled wires which are broken. 
+What next? MEND WIRES 
+You mend the wires
+What next? PRESS BUTTON 
+The room moves
+What next? W
+You are in the front passage. Exits are north to the office, east to the
+elevator and south to the back corridor. 
+What next? N 
+A reward is here
+You are in the office. The exit is south to the front passage. 
+What next? S
+You are in the front passage. Exits are north to the office, east to the
+elevator and south to the back corridor. 
+What next? E
+You are in the elevator. The exit is west to the front passage. You can see
+a button, elevator controls and tangled wires. 
+What next? PRESS BUTTON
+The room moves
+What next? W
+You are in the foyer. Exits are north to cobbles and east to the elevator. 
+What next? N
+You are on cobbles. Exits are north to streets of shame, south to the foyer
+and west to the way out. 
+What next? N
+You are on streets of shame. Exits are south to cobbles and west to city
+streets. 
+What next? W
+You are on city streets. Exits are north to city suburbs, east to streets of
+shame, south to the way out and west to mean streets. 
+What next? N
+You are on city suburbs. Exits are north to a road, east to streets of
+shame, south to city streets and west to mean streets. 
+What next? N
+You are on a road. Exits are north to a path, south to city suburbs and west
+to a corner. 
+What next? N
+You are on a path. Exits are north to the shore path, east to an overhanging
+clifftop, south to a road and west to a parking bay. 
+What next? E
+You are on an overhanging clifftop. Exits are north to a cleft cliff, west
+to a path and in to a blow-hole. 
+What next? IN
+You are in a blow-hole. Exits are down to a sea cave and out to an
+overhanging clifftop. 
+What next? D
+You are in a sea cave. Exits are up to a blow-hole and out to a smooth
+beach. 
+What next? OUT
+You are on a smooth beach. Exits are north to sand under a cliff, northeast
+to crystal water, east to crystal water, south to crystal water and in to a
+sea cave. 
+What next? N
+You are on sand under a cliff. Exits are north to a cliff, northeast to
+crystal water, east to crystal water, south to a smooth beach and southeast
+to crystal water. You can see an anchor tied to the canoe and a canoe. 
+What next? IN
+You are on sand under a cliff. Exits are north to a cliff, northeast to
+crystal water, east to crystal water, south to a smooth beach and southeast
+to crystal water. You can see an anchor tied to the canoe and a canoe
+holding you. 
+What next? E
+You are in crystal water. Exits are east to island waters, west to sand
+under a cliff and down to bright coral. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? E
+You are in island waters. Exits are north to desert island dunes, south to
+the ocean and west to crystal water. You can see an anchor tied to the canoe
+and a canoe holding you. 
+What next? S
+You are in the ocean. Exits are north to island waters, south to breaking
+surf, southeast to seaweed and down to seaweed. You can see an anchor tied
+to the canoe and a canoe holding you. 
+What next? S
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor tied to the
+canoe and a canoe holding you. 
+What next? GET ANCHOR
+What next? THROW IT 
+The canoe is anchored
+What next? INVERT BOWL 
+What next? DROP PLIERS
+It's swept away!
+What next? DROP SCREWDRIVER
+It's swept away!
+What next? DROP SPIKES
+It's swept away!
+What next? D
+You leave the canoe. The bowl protects the lamp. 
+You are in an old wreck. The exit is up to breaking surf. You can see a
+sapphire and a sword. You're under water. 
+What next? GET * SAPPHIRE *
+You're under water. 
+What next? GET * SWORD *
+You're under water. 
+What next? U
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor anchoring the
+canoe and a canoe. 
+What next? IN
+You are in breaking surf. Exits are north to the ocean, south to the middle
+of the beach and down to an old wreck. You can see an anchor anchoring the
+canoe and a canoe holding you. 
+What next? GET ANCHOR
+What next? S
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a season ticket, a matchbox, an
+identity card, an ornate key, an axe, a claw hammer, a manual, a lens, a
+rusty pick, a mesh armband, a shovel, a phrase book, a boathook, a canoe
+holding you and an ermine robe. 
+What next? DROP ANCHOR
+What next? DROP BOWL
+What next? GET KEY
+What next? GET TICKET
+What next? GET ROBE
+What next? WEAR IT
+What next? GET BOATHOOK
+What next? W
+You leave the canoe. 
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? W
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. 
+What next? S
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? W
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? SE
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? S
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? S
+You are in tedious foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to Boot Hill. 
+What next? S
+You are in dull foothills. Exits are north to tedious foothills, east to
+stream gravel, south to dull foothills and west to boring foothills. 
+What next? E
+You are in stream gravel. Exits are north to a shallow stream, south to a
+soggy path and west to dull foothills. You can see a flat pan. 
+What next? S
+You are in a soggy path. Exits are north to stream gravel, east to a hill
+moor and west to the riverside. 
+What next? W
+You are in the riverside. Exits are east to a soggy path, west to a river
+valley and across to hill slopes. You can see a ladder across the river. 
+What next? S
+You are in hill slopes. Exits are west to spray above a waterfall and across
+to a river valley. You can see a ladder across the river. 
+What next? W
+You are in spray above a waterfall. Exits are east to hill slopes and down
+to the smallest cave. You can see a long rope hanging from a rock and rock
+pinnacles. 
+What next? GET ROPE
+What next? E
+You are in hill slopes. Exits are west to spray above a waterfall and across
+to a river valley. You can see a ladder across the river. 
+What next? N
+You are in a river valley. Exits are east to the riverside, up to a windy
+ridge and across to hill slopes. You can see a ladder across the river. 
+What next? U
+You are in a windy ridge. Exits are east to boring foothills and down to a
+river valley. 
+What next? E
+You are in boring foothills. Exits are north to endless foothills, east to
+more foothills, south to dull foothills and west to a windy ridge. 
+What next? E
+You are in more foothills. Exits are north to tedious foothills, east to
+tedious foothills, south to Boot Hill and west to Boot Hill. You can see
+'A'. 
+What next? W
+You are in Boot Hill. Exits are north to the foothills, east to more
+foothills, south to tedious foothills and west to the foothills. 
+What next? N
+You are in the foothills. Exits are north to the foothills, east to Boot
+Hill, south to Boot Hill, west to the foothills and northwest to a hot
+place. 
+What next? NW
+You are in a hot place. Exits are east to a mud tunnel, southeast to the
+foothills, southwest to cracked lava and northwest to volcanic fumes. 
+What next? E
+You are in a mud tunnel. Exits are north to a gloomy cave and west to a hot
+place. 
+What next? N
+You are in a gloomy cave. Exits are east to between rugged rocks and south
+to a mud tunnel. 
+What next? E
+You are in between rugged rocks. Exits are north to breaking surf, east to
+the middle of the beach, south to sand dunes and west to a gloomy cave. You
+can see thick threads. 
+What next? E
+You are in the middle of the beach. Exits are north to breaking surf, east
+to clifftop scrub, south to a seaside platform, southwest to sand dunes and
+west to between rugged rocks. You can see a matchbox, an identity card, an
+anchor tied to the canoe, an axe, a claw hammer, a manual, a lens, a rusty
+pick, a mesh armband, a shovel, a phrase book, a bowl upside down and a
+canoe. 
+What next? S 
+You are on a seaside platform. Exits are north to the middle of the beach,
+east to a signal box, south to the track and west to the police station. A
+train arrives. 
+What next? S
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. 
+What next? U
+You are in tree stairs. Exits are up to the palace yard and down to a
+railway platform. 
+What next? U
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? E
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? E
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? U
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? N
+You are in a treasure chamber. Exits are south to the landing and west to a
+beautiful room. You can see a brooch, a map, an opal, oodles of dubloons, a
+necklace, a gold nugget, a figurine, a coconut, a painting, a platinum
+pyramid, a treasure chest, diamonds, a notice and a dangling cord. 
+What next? DROP SWORD
+What next? DROP SAPPHIRE
+What next? DROP RUBY
+What next? DROP CORONET
+What next? DROP GEMS
+What next? S
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? D
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? W
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? W
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? D
+You are in tree stairs. Exits are up to the palace yard and down to a
+railway platform. 
+What next? D
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. 
+What next? OPEN GATE 
+It opens
+What next? W
+The door closes
+You are on bridge steps. Exits are north to a railway bridge and east to a
+gate. 
+What next? N
+You are on a railway bridge. Exits are north to bridge steps and south to
+bridge steps. 
+What next? N
+You are on bridge steps. Exits are east to a dirty platform and south to a
+railway bridge. 
+What next? E 
+You are on a dirty platform. Exits are south to the track and west to bridge
+steps. 
+What next? WAIT
+Time passes . . . . . 
+A train arrives. 
+What next? S
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are in a terminus. Exits are north to a village and west to the track. A
+train arrives. 
+What next? N
+You are in a village. Exits are north to a square, east to a mudpatch and
+south to a terminus. 
+What next? E
+You are in a mudpatch. Exits are east to grey ooze and west to a village. 
+What next? E
+You are in grey ooze. Exits are north to the mud, east to mist marshes,
+south to a swamp and west to a mudpatch. 
+What next? E
+You are in mist marshes. Exits are north to the mire, east to a dense
+forest, south to a marsh and west to grey ooze. 
+What next? E
+You are in a dense forest. Exits are north to cloud forest, east to long
+reeds, south to rainforest, southwest to a marsh and west to mist marshes. 
+What next? E
+You are in long reeds. Exits are north to river shallows, east to the river
+cliff, south to whispering grass and west to a dense forest. You can see
+hanging vines. 
+What next? PULL VINES 
+The boathook just reaches it.
+What next? E 
+You swing on the vine
+You are in the river cliff. Exits are north to the east riverbank, east to
+the forest, south to the far bank and west to long reeds. You can see
+hanging vines. 
+What next? E
+You are in the forest. Exits are north to rainforest, east to a path, south
+to tall trees and west to the river cliff. 
+What next? N
+You are in rainforest. Exits are north to tall trees, northeast to wall
+flowers, south to the forest and northwest to the east riverbank. 
+What next? N 
+You are in tall trees. Exits are south to rainforest, southeast to wall
+flowers and west to the east riverbank. You can see 'E'. 
+What next? SE
+You are in wall flowers. Exits are south to a path, southwest to rainforest
+and northwest to tall trees. 
+What next? S
+You are in a path. Exits are north to wall flowers, east to a tree avenue,
+south to a mound and west to the forest. 
+What next? E
+You are in a tree avenue. Exits are east to an arch and west to a path. 
+What next? E
+You are in an arch. Exits are north to a courtyard, west to a tree avenue
+and down to a temple. 
+What next? D
+You are in a temple. Exits are south to the crypt and up to an arch. 
+What next? S
+You are in the crypt. The exit is north to a temple. You can see a stone
+block and a stone statue. 
+What next? EXAMINE STATUE
+Looks ugly.
+You find an arm.
+What next? STAND ON BLOCK
+You are in the crypt. The exit is north to a temple. You're on the block.
+You can see a stone block, an arm and a stone statue. 
+What next? THROW ROPE
+You are in the crypt. The exit is north to a temple. You're on the block.
+You can see a long rope hanging from the arm, a stone block, an arm and a
+stone statue. 
+What next? PULL ROPE 
+A slab moves
+What next? DROP ALL
+What next? GET BLOCK
+What next? GET LAMP
+What next? IN
+You are in a stone chamber. Exits are east to a thin tunnel and out to the
+crypt. You can see rude runes. 
+What next? E
+You are in a thin tunnel. Exits are south to a granite grotto and west to a
+stone chamber. 
+What next? S
+You are in a granite grotto. Exits are north to a thin tunnel and south to
+an ornate opening. You can see odd writing. 
+What next? THROW BLOCK 
+It lands to the south and triggers the spear which breaks
+What next? N
+You are in a thin tunnel. Exits are south to a granite grotto and west to a
+stone chamber. 
+What next? W
+You are in a stone chamber. Exits are east to a thin tunnel and out to the
+crypt. You can see rude runes. 
+What next? OUT
+You are in the crypt. Exits are north to a temple and in to a stone chamber.
+You can see a season ticket, an ornate key, a long rope hanging from the
+arm, a boathook, an arm and a stone statue. 
+What next? GET ALL
+What next? IN
+You are in a stone chamber. Exits are east to a thin tunnel and out to the
+crypt. You can see rude runes. 
+What next? E
+You are in a thin tunnel. Exits are south to a granite grotto and west to a
+stone chamber. 
+What next? S
+You are in a granite grotto. Exits are north to a thin tunnel and south to
+an ornate opening. You can see odd writing. 
+What next? S
+You are in an ornate opening. Exits are north to a granite grotto and west
+to a tiny tunnel. You can see a stone block and graffiti. 
+What next? W
+You are in a tiny tunnel. Exits are east to an ornate opening and south to
+an antechamber. 
+What next? S
+You are in an antechamber. Exits are north to a tiny tunnel and west to a
+low crawl. You can see a tunnel. 
+What next? W
+You are in a low crawl. The exit is east to an antechamber. You can see a
+drawing and the roof. 
+What next? PUSH ROOF 
+The boathook just reaches it.
+A slab moves
+What next? D
+You are in a greasy grotto. The exit is up to a low crawl. You can see an
+idol. 
+What next? GET * IDOL *
+What next? U
+You are in a low crawl. Exits are east to an antechamber and down to a
+greasy grotto. You can see a drawing and the roof. 
+What next? E
+You are in an antechamber. Exits are north to a tiny tunnel and west to a
+low crawl. You can see a tunnel. 
+What next? N
+You are in a tiny tunnel. Exits are east to an ornate opening and south to
+an antechamber. 
+What next? E
+You are in an ornate opening. Exits are north to a granite grotto and west
+to a tiny tunnel. You can see a stone block and graffiti. 
+What next? N
+You are in a granite grotto. Exits are north to a thin tunnel and south to
+an ornate opening. You can see odd writing. 
+What next? N
+You are in a thin tunnel. Exits are south to a granite grotto and west to a
+stone chamber. 
+What next? W
+You are in a stone chamber. Exits are east to a thin tunnel and out to the
+crypt. You can see rude runes. 
+What next? OUT
+You are in the crypt. Exits are north to a temple and in to a stone chamber.
+You can see an arm and a stone statue. 
+What next? N
+You are in a temple. Exits are south to the crypt and up to an arch. 
+What next? U
+You are in an arch. Exits are north to a courtyard, west to a tree avenue
+and down to a temple. 
+What next? W
+You are in a tree avenue. Exits are east to an arch and west to a path. 
+What next? W
+You are in a path. Exits are north to wall flowers, east to a tree avenue,
+south to a mound and west to the forest. 
+What next? W
+You are in the forest. Exits are north to rainforest, east to a path, south
+to tall trees and west to the river cliff. 
+What next? W
+You are in the river cliff. Exits are north to the east riverbank, east to
+the forest, south to the far bank and west to long reeds. You can see
+hanging vines. 
+What next? PULL VINE
+The boathook just reaches it.
+What next? W
+You swing on the vine
+You are in long reeds. Exits are north to river shallows, east to the river
+cliff, south to whispering grass and west to a dense forest. You can see
+hanging vines. 
+What next? W
+You are in a dense forest. Exits are north to cloud forest, east to long
+reeds, south to rainforest, southwest to a marsh and west to mist marshes. 
+What next? W
+You are in mist marshes. Exits are north to the mire, east to a dense
+forest, south to a marsh and west to grey ooze. 
+What next? W
+You are in grey ooze. Exits are north to the mud, east to mist marshes,
+south to a swamp and west to a mudpatch. 
+What next? W
+You are in a mudpatch. Exits are east to grey ooze and west to a village. 
+What next? W
+You are in a village. Exits are north to a square, east to a mudpatch and
+south to a terminus. 
+What next? S 
+You are in a terminus. Exits are north to a village and west to a carriage.
+You can see a train. 
+What next? W
+A guard jumps up and checks your ticket while you travel to the next
+station.
+You are on a dirty platform. Exits are south to the track and west to bridge
+steps. 
+What next? W
+You are on bridge steps. Exits are east to a dirty platform and south to a
+railway bridge. 
+What next? S
+You are on a railway bridge. Exits are north to bridge steps and south to
+bridge steps. 
+What next? S
+You are on bridge steps. Exits are north to a railway bridge and east to a
+gate. 
+What next? OPEN GATE
+It opens
+What next? E
+The door closes
+You are in a railway platform. Exits are north to the track, east to a
+ticket office, west to a gate and up to tree stairs. 
+What next? U
+You are in tree stairs. Exits are up to the palace yard and down to a
+railway platform. 
+What next? U
+You are in the palace yard. Exits are east to the kitchen and down to tree
+stairs. 
+What next? E
+You are in the kitchen. Exits are east to the west hall and west to the
+palace yard. 
+What next? E
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? E
+You are in the east hall. Exits are north to the palace quad, east to the
+dress circle and west to the west hall. 
+What next? N
+You are in the palace quad. Exits are north to an alleyway, east to hanging
+gardens and south to the east hall. 
+What next? N
+You are in an alleyway. Exits are north to the city square and south to the
+palace quad. 
+What next? N
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? OPEN GATE 
+It opens
+What next? SE
+The door closes
+You are on a path. Exits are west to a pond edge, northwest to a gate and up
+to wooden steps. 
+What next? W 
+You are on a pond edge. The exit is east to a path. You can see 'H'. 
+What next? E
+You are on a path. Exits are west to a pond edge, northwest to a gate and up
+to wooden steps. 
+What next? U
+You are on wooden steps. Exits are up to the garden and down to a path. 
+What next? U
+You are in the garden. Exits are north to a museum and down to wooden steps.
+
+What next? N
+You are in a museum. The exit is south to the garden. 
+What next? DROP IDOL 
+The curator rewards you
+What next? GET IDOL
+What next? S
+You are in the garden. Exits are north to a museum and down to wooden steps.
+
+What next? D
+You are on wooden steps. Exits are up to the garden and down to a path. 
+What next? D
+You are on a path. Exits are west to a pond edge, northwest to a gate and up
+to wooden steps. 
+What next? OPEN GATE
+It opens
+What next? NW
+The door closes
+You are on the city square. Exits are north to the north bridge, east to the
+plaza, south to an alleyway, southeast to a gate and west to a tree-bridge. 
+What next? S
+You are in an alleyway. Exits are north to the city square and south to the
+palace quad. 
+What next? S
+A guard sees your robes and welcomes you.
+You are in the palace quad. Exits are north to an alleyway, east to hanging
+gardens and south to the east hall. 
+What next? S
+You are in the east hall. Exits are north to the palace quad, east to the
+dress circle and west to the west hall. 
+What next? W
+You are in the west hall. Exits are east to the east hall, south to a copper
+room, west to the kitchen and up to the landing. 
+What next? U
+You are in the landing. Exits are north to a treasure chamber, west to the
+throneroom and down to the west hall. You can see a sign. 
+What next? N
+You are in a treasure chamber. Exits are south to the landing and west to a
+beautiful room. You can see a brooch, a map, an opal, a ruby, a sapphire,
+rare gems, a sword, oodles of dubloons, a coronet, a necklace, a gold
+nugget, a figurine, a coconut, a painting, a platinum pyramid, a treasure
+chest, diamonds, a notice and a dangling cord. 
+What next? DROP ROBE
+What next? DROP IDOL
+What next? DROP BAG
+What next? PULL CORD 
+A solemn Butler arrives and summons a guard.
+'Who goes there?'.
+What next? SAY WEALTH 
+'Correct!', The guard leaves
+What next? W 
+You are in a beautiful room. The exit is east to a treasure chamber.
+Congratulations, you've won!
+You score 1000/1000 and are a super adventurer.
+Another game? 
+Game Terminated

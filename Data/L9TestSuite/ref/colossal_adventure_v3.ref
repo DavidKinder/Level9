@@ -1,0 +1,1688 @@
+
+Welcome to Colossal Adventure, the first of the Jewels of Darkness,
+copyright (C) 1986 Level 9 Computing.
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and OOPS to "take back" bad moves).
+You are standing beside a small brick building at the end of a road from the
+north. A river flows south. To the north is open country and all around is
+dense forest. 
+What now? 
+Playing back input from script file.
+#SEED 42
+E 
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There is a bunch of keys here.
+There is a small brass lamp here.
+There is an empty bottle here.
+What now? DOWN
+It is dark, you cannot see. 
+What now? TAKE COINS
+OK. 
+What now? UP
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There is a bunch of keys here.
+There is a small brass lamp here.
+There is an empty bottle here.
+What now? DROP COINS
+Dropped. 
+What now? TAKE LAMP
+OK. 
+What now? EXAMINE LAMP
+You've never seen anything like this lamp before. In place of a wick and oil
+reservoir, it contains a tiny egg-shaped bead of glass, and a couple of
+metal cylinders. 
+What now? TAKE KEYS
+OK. 
+What now? TAKE BOTTLE
+OK. 
+What now? E
+You are on a small hill. To the north, an active volcano throws a plume of
+ash into the air. A path leads east and you can see a small brick building
+surrounded by woodland far away to the west. To the south, a spire rises
+into the clouds. 
+What now? S
+You are lost in the forest. 
+What now? S
+You are standing beside a huge oak tree in the depths of the forest. A
+partly-broken branch hangs down, resting one end on the ground, and you
+could easily climb the tree if you tried. 
+What now? S
+You are at a picnic spot littered with small tables and benches carved
+roughly from tree-trunks. In the centre, a large stencilled sign saying 'no
+litter' is attached to one of the tables. 
+There are some sandwiches here.
+What now? TAKE SANDWICHES
+OK. 
+What now? EXAMINE SANDWICHES 
+The sandwiches seem to be organic honey between wholemeal bread. 
+What now? W
+You are in a valley beside a stream which cascades along a rocky bed on its
+way south. The valley is lined by woodland trees and you can hear birds
+singing from their branches. 
+What now? FILL BOTTLE
+OK. 
+What now? S
+You are in a tree-lined valley beside a stream which seeps away down many
+small cracks in the ground. Downstream, to the south, the valley narrows and
+the streambed contains only dry rocks. 
+What now? S
+You are in a 20-foot depression in a deep, narrow valley sloping down to the
+south. The steep sides of the valley are overgrown with brambles. 
+There is a large padlocked grate set into the ground. 
+What now? EXAMINE GRATE
+It is made of wrought-iron and set firmly into the ground. The grate looks
+just large enough for you to go through. 
+What now? OPEN GRATE 
+The grate is unlocked. 
+What now? N
+You are in a tree-lined valley beside a stream which seeps away down many
+small cracks in the ground. Downstream, to the south, the valley narrows and
+the streambed contains only dry rocks. 
+What now? N
+You are in a valley beside a stream which cascades along a rocky bed on its
+way south. The valley is lined by woodland trees and you can hear birds
+singing from their branches. 
+What now? N
+You are standing beside a small brick building at the end of a road from the
+north. A river flows south. To the north is open country and all around is
+dense forest. 
+What now? E
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There are some coins here.
+What now? SAY PLUGH
+It is dark, you cannot see. 
+What now? ON LAMP 
+The lamp is on. You are in a huge room with passages to the south and west
+and a maze of broken rock to the east. 'Y2' is carved on a rock in the very
+centre of the room. 
+What now? S
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+There are silver bars here.
+What now? DOWN
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? W
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? DOWN
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? W
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? W
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? W
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? W
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? DOWN 
+You are at the bottom of the west pit - 20 feet below the floor of twopit.
+You can see a large hole in the wall far above. 
+A tiny wilting seedling whispers 'water, water'
+What now? WATER PLANT 
+The plant bursts into incredible growth, reaching upwards into the air and
+throwing out enormous leaves. Eventually it stops, towering over your head
+and yelling 'WATER! WATER!' in your ear. 
+What now? UP
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? E
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? E
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NE
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? E
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? UP
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? E
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? E
+You are on the brink of a small, clean, climbable pit. A crawl leads west. 
+What now? DOWN
+You are at the bottom of a pit, standing in about 6 inches of icy water. 
+What now? FILL BOTTLE
+OK. 
+What now? UP
+You are on the brink of a small, clean, climbable pit. A crawl leads west. 
+What now? W
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? W
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? DOWN
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? W
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? W
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? W
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? W
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? DOWN
+You are at the bottom of the west pit - 20 feet below the floor of twopit.
+You can see a large hole in the wall far above. 
+A fair-sized beanstalk sways about, waving its leaves and shouting 'WATER!
+WATER!'
+What now? WATER PLANT 
+The beanstalk grows even larger than before, almost filling the pit and
+stretching high into the air. The tip reaches into an opening in the wall
+above! 
+What now? UP
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? E
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? DOWN
+You are in the east pit beside an oil well. 
+What now? FILL BOTTLE 
+OK. 
+What now? UP
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? W
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? DOWN
+You are at the bottom of the west pit - 20 feet below the floor of twopit.
+You can see a large hole in the wall far above. 
+A huge beanstalk reaches up to an opening above. 
+What now? CLIMB PLANT
+You are in a long narrow corridor, stretching out of sight to the west. To
+the east is a hole through which you can see a profusion of leaves. 
+What now? W 
+You are in the Giant Room filled with enormous furniture and with no ceiling
+(or perhaps it is just too high for your lamp to show it). Cavernous
+passages lead north, south and east. On the west wall is the inscription
+'FEE FIE FOE FOO'. 
+There are some golden eggs here.
+What now? N
+You are in a gigantic north-south passage. 
+A rusty gate blocks the way north. 
+What now? OIL GATE 
+The gate creaks open, dislodging a shower of rusty flakes. 
+What now? DROP BOTTLE
+Dropped. 
+What now? S
+You are in the Giant Room filled with enormous furniture and with no ceiling
+(or perhaps it is just too high for your lamp to show it). Cavernous
+passages lead north, south and east. On the west wall is the inscription
+'FEE FIE FOE FOO'. 
+There are some golden eggs here.
+What now? TAKE EGGS
+OK. 
+What now? S
+You are in a long narrow corridor, stretching out of sight to the west. To
+the east is a hole through which you can see a profusion of leaves. 
+What now? E
+You are at the bottom of the west pit - 20 feet below the floor of twopit.
+You can see a large hole in the wall far above. 
+A huge beanstalk reaches up to an opening above. 
+What now? UP
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? E
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? E
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NW 
+This is the oriental room. Oriental tapestries and drawings cover the walls
+and chimes make quiet music high above. Gently sloping passages lead north,
+west and southeast. 
+There is a Ming Vase here.
+What now? W
+You are in a large low room with exits to north, southeast and southwest. 
+What now? SW
+You are in a twisting corridor which leads north in one direction and slopes
+down in the other. 
+What now? N
+You are on the southwest side of a chasm crossed by a rickety bridge. The
+path crossing the bridge joins a tunnel to the southwest. 
+What now? CROSS BRIDGE 
+A huge troll jumps out and blocks your way, snarling 'Gotcha! Thought you
+could evade paying the toll did you? Well I was much too quick for you.. you
+had no chance of outwitting me.. an expert bridge-keeper for a thousand
+years.. never missed a day..' etc. etc. Eventually the troll shuts up and
+stands blocking the bridge, one hand outstretched for payment of a treasure.
+
+What now? GIVE EGGS 
+The troll takes the treasure and leaves, chortling. 
+What now? CROSS BRIDGE
+You are on the northeast side of a deep chasm crossed by a rickety bridge. A
+draught blows towards an opening where the path enters the cliff to the
+northeast. 
+What now? FEE
+What now? FIE
+What now? FOE
+What now? FOO 
+What now? NE
+You are in a low east-west corridor. 
+What now? E
+You are at a fork in the path with openings to west, northeast and
+southeast. A steady draught blows northeast and you can hear a quiet
+rumbling noise. 
+What now? NE
+You are at a junction with warm walls. From a passage to the north comes a
+continuous roar, so loud that the entire cave trembles. Other entrances lead
+east and south. 
+What now? E
+You are in a small chamber filled with huge boulders. The walls are very
+warm and the heated air is stifling. The only exit is a crawl to the west,
+from which direction comes a low rumbling. 
+There are some rare spices here.
+What now? TAKE SPICES
+OK. 
+What now? W
+You are at a junction with warm walls. From a passage to the north comes a
+continuous roar, so loud that the entire cave trembles. Other entrances lead
+east and south. 
+What now? S
+You are at a fork in the path with openings to west, northeast and
+southeast. A steady draught blows northeast and you can hear a quiet
+rumbling noise. 
+What now? DOWN
+You are in a steeply sloping limestone passage lined with twisted rock
+formations. 
+What now? DOWN
+You are in a barren room outside a small room used for keeping animals: a
+sign reads 'WARE BEAR'. A passage slopes upwards. 
+What now? IN
+You are inside the bear room. 
+A bear strains at its chain, trying to get at you.
+What now? FEED BEAR 
+The bear gobbles the food hungrily, and licks your face in thanks. It seems
+quite placid. 
+What now? OPEN CHAIN 
+The chain clicks open and falls to the floor. The bear is free and stretches
+joyfully. 
+What now? DROP KEYS
+Dropped. 
+What now? TAKE BEAR
+OK. 
+What now? TAKE CHAIN
+OK. 
+What now? OUT
+You are in a barren room outside a small room used for keeping animals: a
+sign reads 'WARE BEAR'. A passage slopes upwards. 
+What now? UP
+You are in a steeply sloping limestone passage lined with twisted rock
+formations. 
+What now? UP
+You are at a fork in the path with openings to west, northeast and
+southeast. A steady draught blows northeast and you can hear a quiet
+rumbling noise. 
+What now? W
+You are in a low east-west corridor. 
+What now? W
+You are on the northeast side of a deep chasm crossed by a rickety bridge. A
+draught blows towards an opening where the path enters the cliff to the
+northeast. 
+What now? CROSS BRIDGE 
+A huge troll jumps out and blocks your way, snarling 'Gotcha! Thought you
+could evade paying the toll did you? Well I was much too quick for you.. you
+had no chance of outwitting me.. an expert bridge-keeper for a thousand
+years.. never missed a day..' etc. etc. Eventually the troll shuts up and
+stands blocking the bridge, one hand outstretched for payment of a treasure.
+
+What now? THROW BEAR 
+The bear shambles towards the troll and rears up on its hind legs. The troll
+gives a loud shriek and runs away in panic. The bear follows it for a short
+distance and then returns. 
+What now? CROSS BRIDGE
+You are on the southwest side of a chasm crossed by a rickety bridge. The
+path crossing the bridge joins a tunnel to the southwest. 
+What now? SW
+You are in a twisting corridor which leads north in one direction and slopes
+down in the other. 
+What now? DOWN
+You are in a large low room with exits to north, southeast and southwest. 
+What now? SE
+This is the oriental room. Oriental tapestries and drawings cover the walls
+and chimes make quiet music high above. Gently sloping passages lead north,
+west and southeast. 
+There is a Ming Vase here.
+What now? SE
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NE
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? E
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? UP
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? E
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? UP
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+There are silver bars here.
+What now? N
+You are in a huge room with passages to the south and west and a maze of
+broken rock to the east. 'Y2' is carved on a rock in the very centre of the
+room. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? SAY PLUGH 
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There are some coins here.
+What now? DROP CHAIN
+Dropped. 
+What now? DROP SPICES
+Dropped. 
+What now? W
+You are standing beside a small brick building at the end of a road from the
+north. A river flows south. To the north is open country and all around is
+dense forest. 
+What now? S
+You are in a valley beside a stream which cascades along a rocky bed on its
+way south. The valley is lined by woodland trees and you can hear birds
+singing from their branches. 
+What now? S
+You are in a tree-lined valley beside a stream which seeps away down many
+small cracks in the ground. Downstream, to the south, the valley narrows and
+the streambed contains only dry rocks. 
+What now? S
+You are in a 20-foot depression in a deep, narrow valley sloping down to the
+south. The steep sides of the valley are overgrown with brambles. 
+The grate is open. 
+What now? DOWN
+You are in a tiny rocky cave below a grate to the surface. A low crawl leads
+west into darkness. 
+The grate is open and light streams in through it. 
+What now? W
+It is dark, you cannot see. 
+What now? TAKE CAGE
+OK. 
+What now? ON LAMP
+The lamp is on. You are crawling painfully over cobbles in a low passage. A
+dim light filters from the east. 
+What now? W 
+You are in a room filled with debris washed from the surface. The cobbles
+end here, but an awkward canyon continues west. 'The magic word is XYZZY' is
+scratched on the wall in crude runes. 
+There is a black rod here.
+What now? W
+You are in an awkwardly sloping east-west canyon. 
+What now? W
+You are in a splendid chamber in an east-west canyon. The walls are frozen
+rivers of orange stone and a carved pillar rises to the ceiling 30 feet
+above. The floor is formed from smooth marble slabs and is slightly worn in
+the centre. 
+There is a little bird here, singing merrily.
+What now? TAKE BIRD 
+OK. 
+What now? W
+The passage from the east ends here. At your feet is a pit from which mist
+coils upwards. 
+What now? DOWN
+You are at the east end of the Hall of Mists, filled with wisps of cloud
+which sway to and fro as if alive. There are passages on both sides and a
+narrow path leading up to a small opening above. A grand stone staircase
+leads downwards to the north. 
+What now? DOWN
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+A huge green snake hisses fiercely at you. 
+What now? FREE BIRD 
+The bird attacks the snake and in a flurry of feathers drives it off! 
+What now? DROP CAGE
+Dropped. A dwarf appears and throws an axe which misses you. The dwarf
+curses and runs off round a corner. 
+What now? TAKE AXE
+OK. 
+What now? S
+You are in the south side chamber of the Hall of the Mountain Kings. 
+There is some jewellery here.
+What now? TAKE JEWELLERY
+OK. 
+What now? N
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? SW
+You are in a secret east-west canyon above a very tight north-south canyon
+15 feet below. If you climbed down, you might not be able to get back up
+again. 
+What now? W
+You are at the junction between the south end of a secret north-south canyon
+and the west end of a secret east-west canyon. 
+There is a large oriental dragon here, sitting on a large oriental carpet. 
+What now? KILL DRAGON
+It looks a tough beast. Are you sure? YES 
+You attack the dragon with your bare hands and with an incredible display of
+martial arts prowess you win! Who would have thought it possible? 
+What now? TAKE RUG
+OK. 
+What now? E
+You are in a secret east-west canyon above a very tight north-south canyon
+15 feet below. If you climbed down, you might not be able to get back up
+again. 
+What now? E
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+There are silver bars here.
+What now? N
+You are in a huge room with passages to the south and west and a maze of
+broken rock to the east. 'Y2' is carved on a rock in the very centre of the
+room. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? SAY PLUGH
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There are some coins here.
+There is a fine silver chain here.
+There are some rare spices here.
+What now? DROP JEWELLERY
+Dropped. 
+What now? DROP RUG
+Dropped. 
+What now? SAY PLUGH 
+It is dark, you cannot see. 
+What now? SAY PLOVER 
+You are in the Plover room: a small chamber glowing with an eerie green
+light. An extremely narrow crack leads west and an ominous dark corridor
+exits to the northeast. 
+There is an emerald here as big as a plovers egg.
+What now? NE
+It is dark, you cannot see. 
+What now? TAKE PYRAMID
+OK. 
+What now? S
+You are in the Plover room: a small chamber glowing with an eerie green
+light. An extremely narrow crack leads west and an ominous dark corridor
+exits to the northeast. 
+There is an emerald here as big as a plovers egg.
+What now? SAY PLOVER 
+It is dark, you cannot see. 
+What now? ON LAMP
+The lamp is on. You are in a huge room with passages to the south and west
+and a maze of broken rock to the east. 'Y2' is carved on a rock in the very
+centre of the room. 
+What now? S
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+There are silver bars here.
+What now? TAKE BARS
+OK. 
+What now? N
+You are in a huge room with passages to the south and west and a maze of
+broken rock to the east. 'Y2' is carved on a rock in the very centre of the
+room. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? SAY PLUGH
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There is some jewellery here.
+There are some coins here.
+There is a fine silver chain here.
+There is an oriental rug here.
+There are some rare spices here.
+What now? DROP PYRAMID
+Dropped. 
+What now? DROP BARS
+Dropped. 
+What now? DROP AXE
+Dropped. 
+What now? SAY PLUGH
+It is dark, you cannot see. 
+What now? ON LAMP
+The lamp is on. You are in a huge room with passages to the south and west
+and a maze of broken rock to the east. 'Y2' is carved on a rock in the very
+centre of the room. 
+What now? S
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? DOWN
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? W
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? DOWN
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? W
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? W
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? W
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? W
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? DOWN
+You are at the bottom of the west pit - 20 feet below the floor of twopit.
+You can see a large hole in the wall far above. 
+A huge beanstalk reaches up to an opening above. 
+What now? CLIMB PLANT
+You are in a long narrow corridor, stretching out of sight to the west. To
+the east is a hole through which you can see a profusion of leaves. 
+What now? W 
+You are in the Giant Room filled with enormous furniture and with no ceiling
+(or perhaps it is just too high for your lamp to show it). Cavernous
+passages lead north, south and east. On the west wall is the inscription
+'FEE FIE FOE FOO'. 
+There are some golden eggs here.
+What now? N
+You are in a gigantic north-south passage. 
+The north gate is open. 
+There is an empty bottle here.
+What now? N
+You are in a magnificent cavern with a rushing stream which cascades over a
+sparkling waterfall, flows into a roaring whirlpool and disappears through a
+hole in the floor. Huge passages exit to south and west. 
+There is a trident here.
+What now? TAKE TRIDENT
+OK. 
+What now? S
+You are in a gigantic north-south passage. 
+The north gate is open. 
+There is an empty bottle here.
+What now? S
+You are in the Giant Room filled with enormous furniture and with no ceiling
+(or perhaps it is just too high for your lamp to show it). Cavernous
+passages lead north, south and east. On the west wall is the inscription
+'FEE FIE FOE FOO'. 
+There are some golden eggs here.
+What now? TAKE EGGS
+OK. 
+What now? S
+You are in a long narrow corridor, stretching out of sight to the west. To
+the east is a hole through which you can see a profusion of leaves. 
+What now? E
+You are at the bottom of the west pit - 20 feet below the floor of twopit.
+You can see a large hole in the wall far above. 
+A huge beanstalk reaches up to an opening above. 
+What now? UP
+You are at the west end of the twopit room, above a deep pit. A passage
+continues west. 
+What now? E
+You are at the eastern end of a long room with two pits in the floor. You
+are near the east pit, and the many thin stone slabs littering the room
+would make descending it simple. A path bypasses the pits to connect
+passages from east and west. There are holes all around, but the only large
+one is high above the west pit, out of easy reach. 
+What now? E
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NE
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? E
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? N
+You are in a room decorated with millions of shells embedded in the walls. A
+shallow passage leads down and a steeper one leads up. A low passage leaves
+to the south. You can hear the sound of the sea far away and seem to feel
+salt spray on your face. 
+A huge clam is anchored firmly to the floor. 
+What now? OPEN CLAM 
+The clam opens and you realise that it is really an oyster. A gleaming pearl
+springs out and rolls away out of sight. 
+What now? S
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? UP 
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+Out from the shadows behind you pounces a bearded pirate! "HAR, HAR", he
+chortles, "I'll just take this here booty and hide it with me chest deep in
+the maze!". He snatches all of your hard-won treasure and vanishes into the
+gloom. 
+What now? E
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? UP
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? W
+You are in the west side chamber of the Hall of the Mountain Kings. A
+passage continues west. 
+What now? W
+You are at a cross-over of a high north-south passage and a low east-west
+one. 
+What now? S
+You are at the west end of a very long featureless hall which joins up with
+a narrow north-south passage. 
+What now? E
+You are at the east end of a very long hall apparently without side
+chambers. A low crawl continues east, and to the north is a small round
+hole. 
+What now? U
+You are at the west end of the Hall of Mists. To the south is a little
+passage, six feet off the ground. A low wide crawl continues west and
+another goes north. 
+What now? S
+You are in a twisty maze of little passages, all the same. 
+What now? E
+You are in a maze of twisty little passages, all the same. 
+What now? S
+You are in a twisty maze of little passages, all the same. 
+What now? S
+You are in a maze of little twisty passages, all the same. 
+What now? S
+You are in a twisty maze of little passages, all the same. 
+What now? N
+You are in a maze of twisty little passages, all the same. 
+What now? E
+You are in a maze of twisty little passages, all the same. You could climb
+down a massive orange column, but might not be able to climb back up. The
+maze continues on this level. 
+What now? E
+You are in a maze of little twisty passages, all the same. 
+What now? NW
+You are at a dead end. 
+There are some golden eggs here.
+There is a trident here.
+There is the pirate's chest here.
+What now? TAKE EGGS
+OK. 
+What now? TAKE TRIDENT
+OK. 
+What now? TAKE CHEST
+OK. 
+What now? SE
+You are in a maze of little twisty passages, all the same. 
+What now? N
+You are in a maze of twisty little passages, all the same. You could climb
+down a massive orange column, but might not be able to climb back up. The
+maze continues on this level. 
+What now? DOWN
+You are in a splendid chamber in an east-west canyon. The walls are frozen
+rivers of orange stone and a carved pillar rises to the ceiling 30 feet
+above. The floor is formed from smooth marble slabs and is slightly worn in
+the centre. 
+What now? E
+You are in an awkwardly sloping east-west canyon. 
+What now? E
+You are in a room filled with debris washed from the surface. The cobbles
+end here, but an awkward canyon continues west. 'The magic word is XYZZY' is
+scratched on the wall in crude runes. 
+There is a black rod here.
+What now? SAY XYZZY
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There are silver bars here.
+There is some jewellery here.
+There is a platinum pyramid here.
+There are some coins here.
+There is a fine silver chain here.
+There is an oriental rug here.
+There are some rare spices here.
+There is a small axe here.
+What now? DROP TRIDENT
+Dropped. 
+What now? DROP EGGS
+Dropped. 
+What now? DROP CHEST
+Dropped. 
+What now? TAKE AXE
+OK. 
+What now? SAY XYZZY 
+You are in a room filled with debris washed from the surface. The cobbles
+end here, but an awkward canyon continues west. 'The magic word is XYZZY' is
+scratched on the wall in crude runes. 
+There is a black rod here.
+What now? TAKE ROD
+OK. 
+What now? W
+You are in an awkwardly sloping east-west canyon. 
+What now? W
+You are in a splendid chamber in an east-west canyon. The walls are frozen
+rivers of orange stone and a carved pillar rises to the ceiling 30 feet
+above. The floor is formed from smooth marble slabs and is slightly worn in
+the centre. 
+What now? W
+The passage from the east ends here. At your feet is a pit from which mist
+coils upwards. 
+What now? DOWN
+You are at the east end of the Hall of Mists, filled with wisps of cloud
+which sway to and fro as if alive. There are passages on both sides and a
+narrow path leading up to a small opening above. A grand stone staircase
+leads downwards to the north. 
+What now? S
+You are in a long low room with a crude note pinned to the wall saying 'You
+won't get it up to the pit'. 
+There is a large gold nugget here.
+What now? TAKE NUGGET
+OK. 
+What now? N
+You are at the east end of the Hall of Mists, filled with wisps of cloud
+which sway to and fro as if alive. There are passages on both sides and a
+narrow path leading up to a small opening above. A grand stone staircase
+leads downwards to the north. 
+What now? W
+You are on the east bank of a wide fissure slicing completely across the
+Hall of Mists. The white fog is very thick here and the fissure is much too
+wide to jump. 
+What now? WAVE ROD 
+Zingg! A crystal bridge appears spanning the chasm. 
+What now? DROP ROD
+Dropped. 
+What now? W
+You are on the west bank of a wide fissure slicing completely across the
+Hall of Mists. Dense fog rises from the fissure and spreads out on either
+side of it. 
+A crystal bridge spans the fissure. 
+There are some diamonds here.
+What now? TAKE DIAMONDS
+OK. 
+What now? E
+You are on the east bank of a wide fissure slicing completely across the
+Hall of Mists. The white fog is very thick here and the fissure is much too
+wide to jump. 
+A crystal bridge spans the fissure. 
+There is a black rod here.
+What now? E
+You are at the east end of the Hall of Mists, filled with wisps of cloud
+which sway to and fro as if alive. There are passages on both sides and a
+narrow path leading up to a small opening above. A grand stone staircase
+leads downwards to the north. 
+What now? DOWN
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? N
+You are in a huge room with passages to the south and west and a maze of
+broken rock to the east. 'Y2' is carved on a rock in the very centre of the
+room. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? SAY PLUGH
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There are silver bars here.
+There is some jewellery here.
+There is a platinum pyramid here.
+There are some golden eggs here.
+There is a trident here.
+There are some coins here.
+There is a fine silver chain here.
+There is an oriental rug here.
+There is the pirate's chest here.
+There are some rare spices here.
+What now? DROP DIAMONDS
+Dropped. 
+What now? DROP NUGGET
+Dropped. 
+What now? SAY PLUGH
+It is dark, you cannot see. A hollow voice says 'PLUGH'. 
+What now? ON LAMP
+The lamp is on. You are in a huge room with passages to the south and west
+and a maze of broken rock to the east. 'Y2' is carved on a rock in the very
+centre of the room. 
+What now? S
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+An evil little dwarf appears! 
+What now? DOWN
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+There is one threatening little dwarf here. A sharp little knife is thrown
+at you. It misses! 
+What now? THROW AXE
+Missed! The axe clatters to the ground. 
+What now? TAKE AXE
+OK. 
+What now? THROW AXE
+A hit! The dwarf vanishes in a puff of foul smelling, greasy smoke. 
+What now? TAKE AXE
+OK. 
+What now? W
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? DOWN
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? E
+You are in an ante-room leading to a large passage to the east. Small
+passages go west and up. The remains of recent digging are evident and a
+sign floating in mid-air flashes 'CAVE UNDER CONSTRUCTION: PROCEED AT YOUR
+OWN RISK (Witt Construction PLC)'. 
+There is a copy of Spelunker's Gazette here.
+What now? TAKE GAZETTE
+OK. 
+What now? E
+You are at Witt's End. A maze of tiny passages have been dug in all
+directions as the first phase in constructing a new cavern. 
+What now? DROP GAZETTE
+Dropped. 
+What now? S 
+You are in an ante-room leading to a large passage to the east. Small
+passages go west and up. The remains of recent digging are evident and a
+sign floating in mid-air flashes 'CAVE UNDER CONSTRUCTION: PROCEED AT YOUR
+OWN RISK (Witt Construction PLC)'. 
+What now? W
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? W
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NW 
+You can't move in that direction. 
+What now? NW
+This is the oriental room. Oriental tapestries and drawings cover the walls
+and chimes make quiet music high above. Gently sloping passages lead north,
+west and southeast. 
+There is a Ming Vase here.
+What now? N
+You are following a wide path round the outer edge of a large cavern far
+below. Through thick white mist, splashing water can be heard in the
+distance below. The mist rises from the cavern and up through a hole in the
+roof. The path exits to south and west. 
+What now? W
+You are in an alcove at the end of a winding path from the northwest. An
+eerie light shines through an extremely tight entrance to the east. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? DROP LAMP
+Dropped. 
+What now? DROP AXE
+Dropped. 
+What now? E
+You are in the Plover room: a small chamber glowing with an eerie green
+light. An extremely narrow crack leads west and an ominous dark corridor
+exits to the northeast. 
+There is an emerald here as big as a plovers egg.
+What now? TAKE EMERALD
+OK. 
+What now? W
+It is dark, you cannot see. 
+What now? TAKE AXE
+OK. 
+What now? TAKE LAMP
+OK. 
+What now? ON LAMP
+The lamp is on. You are in an alcove at the end of a winding path from the
+northwest. An eerie light shines through an extremely tight entrance to the
+east. 
+What now? NW
+You are following a wide path round the outer edge of a large cavern far
+below. Through thick white mist, splashing water can be heard in the
+distance below. The mist rises from the cavern and up through a hole in the
+roof. The path exits to south and west. 
+What now? S
+This is the oriental room. Oriental tapestries and drawings cover the walls
+and chimes make quiet music high above. Gently sloping passages lead north,
+west and southeast. 
+There is a Ming Vase here.
+What now? TAKE VASE
+OK. 
+What now? SE
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NE
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? E
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? UP
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? E
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? UP
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? N
+You are in a huge room with passages to the south and west and a maze of
+broken rock to the east. 'Y2' is carved on a rock in the very centre of the
+room. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. A hollow voice says 'PLUGH'. 
+What now? SAY PLUGH
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There is a large gold nugget here.
+There are silver bars here.
+There is some jewellery here.
+There are some diamonds here.
+There is a platinum pyramid here.
+There are some golden eggs here.
+There is a trident here.
+There are some coins here.
+There is a fine silver chain here.
+There is an oriental rug here.
+There is the pirate's chest here.
+There are some rare spices here.
+What now? DROP EMERALD 
+Dropped. 
+What now? SAY PLUGH
+It is dark, you cannot see. 
+What now? ON LAMP
+The lamp is on. You are in a huge room with passages to the south and west
+and a maze of broken rock to the east. 'Y2' is carved on a rock in the very
+centre of the room. 
+A hollow voice says 'PLUGH'. 
+What now? S
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? DOWN
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? W
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? DOWN
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? W
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? W
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? E
+You are in the soft room. The walls are hidden behind velvet curtains, a
+thick pile carpet covers the floor, and dense moss grows on the ceiling. 
+There is a pillow here.
+What now? TAKE PILLOW
+OK. 
+What now? W
+You are in a room whose walls resemble swiss cheese. It smells a bit cheesy
+too. Obvious passages lead west, east and northeast, but there could well be
+others. 
+What now? NE
+You are in Bedquilt, a long east-west passage with holes all around. There
+are so many holes that you can't tell which is which and so exploration can
+only be at random. 
+What now? E
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? UP
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? E
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? UP
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? N
+You are in a huge room with passages to the south and west and a maze of
+broken rock to the east. 'Y2' is carved on a rock in the very centre of the
+room. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? SAY PLUGH
+You are in a small building with a well in the middle of the only room. A
+rusty ladder leads down the well into darkness. 
+There is a large gold nugget here.
+There are silver bars here.
+There is some jewellery here.
+There are some diamonds here.
+There is a platinum pyramid here.
+There is an emerald here as big as a plovers egg.
+There are some golden eggs here.
+There is a trident here.
+There are some coins here.
+There is a fine silver chain here.
+There is an oriental rug here.
+There is the pirate's chest here.
+There are some rare spices here.
+What now? DROP PILLOW
+Dropped. 
+What now? DROP VASE 
+Dropped. 
+What now? SAY PLUGH
+It is dark, you cannot see. 
+What now? ON LAMP
+The lamp is on. You are in a huge room with passages to the south and west
+and a maze of broken rock to the east. 'Y2' is carved on a rock in the very
+centre of the room. 
+What now? S
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? DOWN
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? W
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+What now? DOWN
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? N
+You are in a room decorated with millions of shells embedded in the walls. A
+shallow passage leads down and a steeper one leads up. A low passage leaves
+to the south. You can hear the sound of the sea far away and seem to feel
+salt spray on your face. 
+There is a huge oyster here. 
+What now? DOWN
+You are in a steeply sloping corridor with sharp walls. 
+What now? DOWN
+You are in a cul-de-sac at the lower end of a steeply sloping passage.
+Pieces of broken shell are strewn all over the floor. 
+There is a glistening pearl here.
+What now? TAKE PEARL
+OK. 
+What now? UP
+You are in a steeply sloping corridor with sharp walls. 
+What now? UP
+You are in a room decorated with millions of shells embedded in the walls. A
+shallow passage leads down and a steeper one leads up. A low passage leaves
+to the south. You can hear the sound of the sea far away and seem to feel
+salt spray on your face. 
+There is a huge oyster here. 
+What now? S
+You are at a complex junction. A low hands and knees passage from the north
+joins a higher crawl from the east to make a 5 foot passage going west. You
+could also climb up through a hole in the ceiling. A salty smell blows from
+the north and you can hear a quiet murmuring. 
+What now? UP
+You are in a large room knee-deep in dust. There are cracks everywhere and a
+passage leading east. You could wriggle down a hole to a junction below. 
+'CLICK. The cave is closing. Please leave by the main door. Thank you.
+'CLICK.' 
+What now? E
+You are in a dirty broken passage. To the east is a low crawl and to the
+west is a large passage. There is a hole in the ceiling above. 
+What now? UP
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+Your lamp is flickering and growing dim: its batteries are running out. You
+would be advised to find the vending machine and buy some new batteries from
+it. 
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S 
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+What now? S
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+There is a gilded cage here.
+There is a little bird here, singing merrily.
+What now? N
+You are in a low north-south passage at a hole in the floor. This goes down
+to an east-west passage below. 
+An elf appears - you recognise him as the warrior who gave you the map to
+Colossal Cavern. He congratulates you on your success and then says 'Please
+free my people, for their plight is an abomination. Will you do this?' YES 
+Good luck! Be careful, and make sure to rescue ALL the elves. The elf waves
+his cloak over you and your surroundings shimmer and fade. All is dark, but
+then the darkness grows less and you realise that you are at one end of a
+huge room. 
+What now? N
+It is dark, you cannot see. 
+What now? S 
+You are at the southwest end of a vast hall filled with a loud snoring
+emerging from a large heap at the other side. Bats skim around the ceiling
+far above and high in one wall is stuck a trident (perhaps it lodged in a
+crevice when thrown at one of the bats). The cavern walls are honeycombed
+with tiny passages, just too small for you. 
+There is a bunch of keys here.
+There is a small brass lamp here.
+There are some sandwiches here.
+There is a black rod here.
+There is a pillow here.
+There is a small axe here.
+There is a stick of dynamite here.
+What now? TAKE KEYS
+OK. 
+What now? TAKE LAMP
+OK. 
+What now? TAKE DYNAMITE
+OK. 
+What now? ON LAMP
+The lamp is on. You are at the southwest end of a vast hall filled with a
+loud snoring emerging from a large heap at the other side. Bats skim around
+the ceiling far above and high in one wall is stuck a trident (perhaps it
+lodged in a crevice when thrown at one of the bats). The cavern walls are
+honeycombed with tiny passages, just too small for you. 
+There are some sandwiches here.
+There is a black rod here.
+There is a pillow here.
+There is a small axe here.
+What now? N
+You are at the northeast end of a vast cave, surrounded by snoring dwarves.
+A welded grate covers a pit of green snakes and young beanstalks, and bits
+of broken vending machine litter the floor. Hundreds of small passages, just
+large enough for the dwarves but not for you, lead in all directions. 
+What now? DROP DYNAMITE
+Dropped. 
+What now? SW
+You are at the southwest end of a vast hall filled with a loud snoring
+emerging from a large heap at the other side. Bats skim around the ceiling
+far above and high in one wall is stuck a trident (perhaps it lodged in a
+crevice when thrown at one of the bats). The cavern walls are honeycombed
+with tiny passages, just too small for you. 
+There are some sandwiches here.
+There is a black rod here.
+There is a pillow here.
+There is a small axe here.
+What now? TAKE ROD
+OK. 
+What now? BLAST 
+The dynamite explodes. The blast collapses the ceiling at the northwest end
+of the cavern, killing most of the evil dwarves. The vibration from the
+collapse causes a huge hole to appear in the western wall through which you
+can see a corridor. 
+Water is trickling in from nearby. 
+What now? W
+You are in a narrow east-west corridor, carved crudely out of the rock. The
+floor is littered with rock fragments left when the secret stone door at the
+east end of the corridor was shattered. 
+What now? W
+The east-west corridor continues. 
+What now? W
+You are in an east-west corridor beside an iron ladder which reaches up
+through a round hole in the ceiling. The corridor continues. 
+What now? UP
+You are on a metal ladder rising up a stone shaft. 
+What now? UP
+You are further up the ladder. 
+What now? UP
+You are on a metal ladder, climbing up through a stone shaft. 
+What now? UP
+You are near the top of the metal ladder. There is a circular opening above.
+
+What now? UP
+You are a in network of stone passages beside a pit. The passages lead in
+all directions. 
+What now? E
+You are in a network of stone passages, which lead in all directions. 
+What now? DOWN
+You are in an east-west passage lined with large square stones, from each of
+which hangs a set of rusty iron manacles. The ceiling drips water which
+falls onto heaps of decaying refuse covering the floor. There is an open
+trap-door in the roof and a small stone staircase leads up into the darkness
+behind it. 
+What now? W
+You are in long straight passage, lined with slabs of stone from which hang
+rusted manacles. The passage gets wider to the west. Scratches on the floor
+lead to a narrow entrance sloping downwards to the north, as if many heavy
+objects had been dragged in that direction. 
+What now? W
+You are in a wide east-west dungeon walkway between cells to the north and
+south. The passage continues to east and west. The cells have no doors:
+clearly these would not be necessary as there are enough chains suspended
+from the walls to hold any number of prisoners. 
+What now? W
+You are on the east bank of a wide fissure which cuts completely across the
+dungeon walkway. A river of lava bubbles far below in the chasm, and foul
+acrid fumes rise up. 
+What now? WAVE ROD 
+Zingg! A crystal bridge appears spanning the chasm. 
+What now? W
+You are on the west bank of the wide fissure which cuts right across the
+dungeon walkway. Far below in the fissure a river of lava bubbles gently. 
+A crystal bridge spans the fissure. 
+What now? W
+You are in an east-west dungeon walkway near the dungeon entrance. 
+What now? W
+You are on a spiral stone staircase. 
+A heavy dungeon door opens onto the stairway. 
+What now? DOWN
+You are on a spiral stone staircase. 
+What now? DOWN
+You are on a spiral stone staircase. 
+What now? DOWN
+You are at the bottom of the pit, in a large pentagonal room inscribed with
+weird symbols. The floor is caked with dried blood, scratched with complex
+markings. A wide stone staircase winds up from the pit towards a dim circle
+of light, far above. 
+There is a small jade pentacle here.
+There is some elixir here.
+What now? TAKE ELIXIR
+OK. 
+What now? OFF LAMP
+The lamp is off. It is dark, you cannot see. 
+What now? DROP ROD
+Dropped. 
+What now? TAKE PENTACLE
+OK. 
+What now? UP
+You are on a spiral stone staircase. 
+What now? UP
+You are on a spiral stone staircase. 
+What now? UP
+You are on a spiral stone staircase. 
+A heavy dungeon door opens onto the stairway. 
+What now? E
+You are in an east-west dungeon walkway near the dungeon entrance. 
+What now? E
+You are on the west bank of the wide fissure which cuts right across the
+dungeon walkway. Far below in the fissure a river of lava bubbles gently. 
+A crystal bridge spans the fissure. 
+What now? E
+You are on the east bank of a wide fissure which cuts completely across the
+dungeon walkway. A river of lava bubbles far below in the chasm, and foul
+acrid fumes rise up. 
+A crystal bridge spans the fissure. 
+What now? E
+You are in a wide east-west dungeon walkway between cells to the north and
+south. The passage continues to east and west. The cells have no doors:
+clearly these would not be necessary as there are enough chains suspended
+from the walls to hold any number of prisoners. 
+What now? E
+You are in long straight passage, lined with slabs of stone from which hang
+rusted manacles. The passage gets wider to the west. Scratches on the floor
+lead to a narrow entrance sloping downwards to the north, as if many heavy
+objects had been dragged in that direction. 
+What now? N 
+You are at a dead end. 
+Lots of skeletons are chained to the walls. 
+What now? DROP ELIXIR 
+The skeletons regenerate back into handsome elves, and you notice a few
+humans amongst them (possibly former adventurers). All the resurrected folk
+cluster round you, proclaiming their thanks. Then, as if at some secret
+signal, they dance off singing joyfully, leaving you alone. 
+What now? S
+You are in long straight passage, lined with slabs of stone from which hang
+rusted manacles. The passage gets wider to the west. Scratches on the floor
+lead to a narrow entrance sloping downwards to the north, as if many heavy
+objects had been dragged in that direction. 
+What now? W
+You are in a wide east-west dungeon walkway between cells to the north and
+south. The passage continues to east and west. The cells have no doors:
+clearly these would not be necessary as there are enough chains suspended
+from the walls to hold any number of prisoners. 
+What now? N
+You are in a dingy dungeon cell with an entrance to the south. Rows of
+manacles line the east and west walls. 
+A hundred elves are chained to the wall. 
+What now? OPEN CHAIN 
+You free a few elves and they unlock the rest. They all dance off, singing
+your praises. 
+What now? S
+You are in a wide east-west dungeon walkway between cells to the north and
+south. The passage continues to east and west. The cells have no doors:
+clearly these would not be necessary as there are enough chains suspended
+from the walls to hold any number of prisoners. 
+What now? S
+You are in a dingy dungeon cell with an entrance to the north. Rows of
+manacles line the east and west walls. 
+A hundred elves are chained to the wall. 
+What now? OPEN CHAIN 
+You free a few elves and they unlock the rest. They all dance off, singing
+your praises. 
+What now? N
+You are in a wide east-west dungeon walkway between cells to the north and
+south. The passage continues to east and west. The cells have no doors:
+clearly these would not be necessary as there are enough chains suspended
+from the walls to hold any number of prisoners. 
+What now? W
+You are on the east bank of a wide fissure which cuts completely across the
+dungeon walkway. A river of lava bubbles far below in the chasm, and foul
+acrid fumes rise up. 
+A crystal bridge spans the fissure. 
+What now? W
+You are on the west bank of the wide fissure which cuts right across the
+dungeon walkway. Far below in the fissure a river of lava bubbles gently. 
+A crystal bridge spans the fissure. 
+What now? W
+You are in an east-west dungeon walkway near the dungeon entrance. 
+What now? W
+You are on a spiral stone staircase. 
+A heavy dungeon door opens onto the stairway. 
+What now? LOCK DOOR
+It clangs shut. 
+What now? UP
+You are on a spiral stone staircase. 
+What now? UP
+You are on a spiral stone staircase. 
+What now? UP
+You are on a spiral stone staircase. 
+What now? UP
+You are on a spiral stone staircase. 
+What now? E 
+You are at the edge of a huge cavern which is almost filled by cobwebs
+hanging from the centre of the ceiling. Behind you, to the west, is an exit
+back to the spiral staircase. 
+What now? N
+You are northwest of a huge web, rising up towards the cavern ceiling. 
+There is an orb here.
+An enormous blast rocks the dungeon as water meets lava. 
+What now? TAKE ORB
+OK. 
+What now? E
+You are north of a huge web which hangs in folds from the cavern ceiling. 
+What now? E
+You are northeast of a huge web which hangs heavily from the cavern roof. 
+There is a sceptre here.
+What now? DROP KEYS
+Dropped. 
+What now? TAKE SCEPTRE
+OK. 
+What now? S
+You are east of a huge web which hangs down from the cavern roof. 
+What now? W
+You are in amongst the strands of a huge web that rises to the roof. You
+might be able to escape up a strand. 
+A giant spider lurks on the web. 
+What now? W 
+You are at the edge of a huge cavern which is almost filled by cobwebs
+hanging from the centre of the ceiling. Behind you, to the west, is an exit
+back to the spiral staircase. 
+A huge spider is staring at the pentacle. 
+What now? W 
+You are on a spiral stone staircase. 
+A huge spider is staring at the pentacle. 
+What now? UP
+You are on a spiral stone staircase. 
+A huge spider is staring at the pentacle. 
+What now? UP
+You are on a spiral stone staircase. 
+A huge spider is staring at the pentacle. 
+What now? UP
+You are at the top of a the Pinnacle of Obdurat, surrounded by clouds. You
+look down through gaps between them and see a carpet of trees far below,
+stretching in all directions. To the north, the forest eventually thins into
+scrub as it approaches the slopes of a volcano. To the west a stream winds
+south along a narrow valley, and to the east the woodland continues as far
+as the eye can see. The staircase is the only way down. 
+A huge spider is staring at the pentacle. 
+What now? THROW PENTACLE 
+You hurl the pentacle into space and the spider follows. 
+What now? ON LAMP
+The lamp is on. You are at the top of a the Pinnacle of Obdurat, surrounded
+by clouds. You look down through gaps between them and see a carpet of trees
+far below, stretching in all directions. To the north, the forest eventually
+thins into scrub as it approaches the slopes of a volcano. To the west a
+stream winds south along a narrow valley, and to the east the woodland
+continues as far as the eye can see. The staircase is the only way down. 
+What now? DOWN
+You are on a spiral stone staircase. 
+What now? DOWN
+You are on a spiral stone staircase. 
+What now? DOWN
+You are on a spiral stone staircase. 
+What now? E
+You are at the edge of a huge cavern which is almost filled by cobwebs
+hanging from the centre of the ceiling. Behind you, to the west, is an exit
+back to the spiral staircase. 
+What now? E
+You are in amongst the strands of a huge web that rises to the roof. You
+might be able to escape up a strand. 
+What now? E
+You are east of a huge web which hangs down from the cavern roof. 
+What now? S
+You are southeast of a huge web which sags heavily from the cavern ceiling. 
+There is a crown here.
+What now? TAKE CROWN
+OK. 
+What now? W
+You are south of a huge, dirty web. 
+What now? N
+You are in amongst the strands of a huge web that rises to the roof. You
+might be able to escape up a strand. 
+What now? UP
+You are clinging to thick strands of sticky grey web in the middle of a huge
+cavern. You can either go up, further into the web, or back down to the
+cavern floor far below. 
+What now? UP
+You are on a ledge above the cavern. It was once a magnificent place,
+judging from the fabulous carvings jutting out of the mess. A large round
+passage, exactly the same size as the spider, leads west. 
+What now? W
+You are in the spider's lair, surrounded by thick sticky web. The stench is
+unbearable but fortunately there is no spider in sight. Round, narrow
+entrances lead east and west through the web. 
+What now? W
+You are in a slimy east-west passage, almost blocked by strands of thick
+grey web to the east. A rain of water cascades from the walls and ceiling,
+forming a small stream which trickles away to the west. The drip of water
+drowns out all other sounds. 
+What now? W
+You are in a low east-west passage beside an underground stream. Water
+trickles down the sides of the passage leaving brown stains and the stream
+is really getting quite deep. 
+What now? W
+You are beside an underground stream. To the west the water completely fills
+the passage, but there is a narrow opening to the north. 
+What now? W 
+You are swept along by the stream and held below the water. The current is
+not particularly strong, however, so you feel that you are in no danger. 
+What now? UP 
+You are on the edge of a massive underground reservoir which stretches as
+far as the eye can see. An opaque cloud of white mist rises from the lake
+and streams upwards and south through the only exit. You can hear splashing
+water from within the mist: obviously the lake is filled by a large stream. 
+What now? S
+You are in a huge north-south canyon, partly filled by white mist seeping
+from the north. Far above, an enormous two-sided mirror is suspended between
+the cavern walls. (The mirror is obviously provided for the use of the
+dwarves who are extremely vain.) There is a small window in either wall,
+level with the mirror. 
+What now? S
+You are in a wide north-south canyon partly filled with shifting mist, at a
+place where a slab of floor has collapsed into the room below to leave a
+large hole. 
+What now? S
+You are at the junction between the south end of a secret north-south canyon
+and the west end of a secret east-west canyon. 
+What now? E
+You are in a secret east-west canyon above a very tight north-south canyon
+15 feet below. If you climbed down, you might not be able to get back up
+again. 
+What now? E
+You are in the Hall of the Mountain Kings, a huge room decorated with
+majestic statues. The east wall is covered by trophies and the mounted heads
+of elves and monsters with a carved granite throne standing beneath them.
+The hall is hung about with the tattered remains of rich tapestries and has
+large doorways on all sides. 
+What now? UP
+You are at the east end of the Hall of Mists, filled with wisps of cloud
+which sway to and fro as if alive. There are passages on both sides and a
+narrow path leading up to a small opening above. A grand stone staircase
+leads downwards to the north. 
+What now? E
+The passage from the east ends here. At your feet is a pit from which mist
+coils upwards. 
+What now? E
+You are in a splendid chamber in an east-west canyon. The walls are frozen
+rivers of orange stone and a carved pillar rises to the ceiling 30 feet
+above. The floor is formed from smooth marble slabs and is slightly worn in
+the centre. 
+What now? E
+You are in an awkwardly sloping east-west canyon. 
+What now? E
+You are in a room filled with debris washed from the surface. The cobbles
+end here, but an awkward canyon continues west. 'The magic word is XYZZY' is
+scratched on the wall in crude runes. 
+What now? E
+You are crawling painfully over cobbles in a low passage. A dim light
+filters from the east. 
+What now? E
+You are in a tiny rocky cave below a grate to the surface. A low crawl leads
+west into darkness. 
+The grate is open and light streams in through it. 
+What now? UP
+The elves are waiting for you in a golden host surrounding their king. They
+cheer wildly as you emerge into the sunlight. 
+You scored 1100 out of 1100. The elves raise you on high and carry you
+through the forest in triumph, singing 'All hail to the conquering hero,
+victorious over the perils of the depths!
+All hail to the saviour of the elvish race! All hail to thee, GRANDMASTER
+ADVENTURER!' 
+ 
+If you now SAVE this position to disk/cassette, and RESTORE it at the start
+of the next game, you can go on to achieve the maximum score for the whole
+trilogy. Do you want to SAVE? 
+Game Terminated

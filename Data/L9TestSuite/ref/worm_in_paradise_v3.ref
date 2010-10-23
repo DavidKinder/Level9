@@ -1,0 +1,3122 @@
+Welcome to the Worm in Paradise, the last of the Silicon Dreams, copyright
+(C) 1986 from Level 9 Computing.
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and OOPS to "take back" bad moves).
+You are in the northwest corner of a garden paradise, protected by a high
+wall up which flowers climb. Bright butterflies flutter on the balmy breeze
+and skylarks sing overhead. Exits are east and south. You can see a bench. 
+What now? 
+Playing back input from script file.
+#SEED 42
+RESTART
+Really restart? YES
+Press space to play again. 
+Welcome to the Worm in Paradise, the last of the Silicon Dreams, copyright
+(C) 1986 from Level 9 Computing.
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and OOPS to "take back" bad moves).
+You are in the northwest corner of a garden paradise, protected by a high
+wall up which flowers climb. Bright butterflies flutter on the balmy breeze
+and skylarks sing overhead. Exits are east and south. You can see a bench. 
+What now? #SEED 42
+TAKE BENCH
+Taken. 
+What now? E
+You are in a tidy alpine garden south of the wall, with narrow brick paths
+winding between thousands of heather mounds and lichen-covered boulders.
+Exits are east, south and west. 
+What now? S
+You are on a beautiful lawn in the centre of the paradise garden. Exits are
+north, east, south and west. You can see a tree. 
+What now? DROP BENCH
+Dropped. 
+What now? ON BENCH
+You are standing on the bench. 
+What now? EXAMINE TREE
+You are in front of a splendid apple tree, though not of a profligate
+variety. It is about six metres high, with the lowest branches three metres
+up. Hanging from the tree is an apple. 
+What now? TAKE APPLE
+Taken. 
+What now? BITE APPLE
+It's delicious and you polish it off with relish.
+ 
+Then most of a worm falls from the core and wriggles, growing, on the
+ground. The worm lashes out with its tail. The worm leaves, going west. 
+What now? W
+You are beside the neat beds of flowers, seed packet perfect, which line the
+west wall. Exits are north, east and south. You can see a worm. The worm is
+still growing. The worm leaves, going west, smashing through the garden
+wall. 
+What now? W
+You are standing on a scarred hill beyond the shattered wall. Wasteland
+surrounds the garden. Exits are east and west. You can see a worm and a hole
+in the wall. The worm hisses at you. The worm leaves, going west. 
+What now? W
+You are on worm-blasted gravel. Exits are north, east, south and west. You
+can see a worm. The worm lashes out with its tail. The worm leaves, going
+west. 
+What now? N
+You are on Doom Dune in the desert. Exits are north, east, south and west.
+You can see a behemoth. 
+What now? KICK BEHEMOTH
+The behemoth wakes up. It doesn't look at all pleased. The behemoth is
+following you. 
+What now? N
+You are on a plain of bones. Exits are north, east, south and west. The
+enraged behemoth is right behind. 
+What now? W
+You are in a thornbush thicket. There's only just room to squeeze through
+without being entangled. Exits are north, east, south and west. The behemoth
+is almost on you now. 
+What now? WAIT
+Time passes... The behemoth rushes at you. You dodge nimbly, it overshoots
+and becomes entangled in the brambles! That was too close for comfort. 
+What now? N
+You are in an east-west sand furrow. Exits are north, east, south and west.
+The behemoth is following you. 
+What now? W
+You are in a deep east-west sand furrow. Exits are north, east, south and
+west. The enraged behemoth is right behind. 
+What now? W
+You are faced by a narrow, north-south ravine which splits the dry desert.
+The grass looks greener on the other side. An exit leads east. You can see a
+chasm. The behemoth is almost on you now. 
+What now? WAIT
+Time passes... The behemoth rushes at you. You dodge nimbly, it overshoots
+and slides majestically into the chasm. 
+What now? W
+The behemoth wriggles angrily. You are standing on the behemoth. 
+What now? EXAMINE BEHEMOTH
+Massive and menacing, this armoured giant roams the desert, seeking humans
+to devour. Loose on the behemoth is a scale. 
+What now? TAKE SCALE
+Taken. 
+What now? W
+You are on the grassy west side of the ravine. Exits are north and east. You
+can see a chasm. Jammed in it is a behemoth. 
+What now? N
+You are on a battered meadow beside the ravine. Exits are north and south. 
+What now? N
+You are following the worm tracks. Exits are north and south. 
+What now? N
+You are south of a glowing gate marked 'EXIT'. A heap of rubble is piled
+against a high brick wall to the west. Exits are north, south and west. You
+can see a worm. The worm is still growing. 
+What now? N 
+The worm spits fuming acid but the behemoth scale protects you for long
+enough to reach the exit. Well done. 
+You are in an alcove decorated like a beautiful garden. An exit leads south.
+
+What now? DROP VISOR
+Dropped. 
+What now? BREAK COLLAR
+The collar breaks with a snap. 
+What now? WEAR COLLAR 
+Worn. 
+What now? S
+You are between the eight brick arches of a beautiful octagonal room. The
+west arch is widest. Exits are north, northeast, east, south, southeast,
+southwest, west and northwest. 
+What now? NW
+You are in a room featuring Reveline's fabulous Silicon Dreams. An exit
+leads southeast. You can see a visor. 
+What now? WEAR VISOR
+The visor clicks nine times and everything fades... Your dream is long and
+complex, about the colony starship, Snowball, its return to Eden, and how it
+was heroically saved by Mayor Kimberley. 
+What now? SE
+You are between the eight brick arches of a beautiful octagonal room. The
+west arch is widest. Exits are north, northeast, east, south, southeast,
+southwest, west and northwest. 
+What now? W
+You are in a plastic tunnel, lined with adverts for Reveline's thousands of
+dream simulations. Exits are east and west. 
+What now? W
+You are in a north-south corridor between a casino and Reveline's massive
+dream palace. Exits are north, east, south and west. 
+What now? S
+You are in the north-south corridor outside the museum. Exits are north,
+south and west. You can see some tourists. The tourists leave, going west. 
+What now? S
+You are in the north-south corridor between the zoo and a pet shop. Exits
+are north, east, south and west. 
+What now? S
+You are in a north-south corridor between a comfortable habihall and a
+kiosk. Exits are north, east, south and west. 
+What now? S
+You are beside a turnstile. Exits are north and south. A droid speeds
+quickly off into the distance. 
+What now? S
+You are at the entrance to the pleasure dome. Exits are north and west. A
+uniformed citizen strides into view and marches on past. 
+What now? W
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. A group of smiling
+people jog by. 
+What now? S
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. A droid speeds quickly off into the distance. A fuzbot
+appears and looks you over, then walks on. 
+What now? E
+You are on the lefthand drive to the municipal buildings. Exits are east and
+west. 
+What now? E
+You are in the cobbled city square, surrounded by stained concrete
+buildings. Exits are north, south and west. 
+What now? S
+You are beside the municipal hospital. Exits are north and in. 
+What now? IN
+You are in a hospital foyer outside the body bank. Exits are southeast and
+out. 
+What now? SE 
+You are in the body bank where giblets are traded. Exits are east and
+northwest. You can see a consultant. The consultant looks up. "Greetings
+citizen. Would you like to sell your spare organs?" YES
+The consultant smiles. "I'm delighted to hear it, citizen. The operation is
+quite painless and takes no time at all". The consultant motions to a room
+off to the east. "Please walk this way". 
+What now? E 
+The operation is routine and you are released from hospital the following
+morning. You wake up to find a droid standing beside you. It escorts you
+gently outside. 
+You are in a hospital foyer outside the body bank. Exits are southeast and
+out. 
+What now? OUT
+You are beside the municipal hospital. Exits are north and in. 
+What now? N
+You are in the cobbled city square, surrounded by stained concrete
+buildings. Exits are north, south and west. 
+What now? W
+You are on the lefthand drive to the municipal buildings. Exits are east and
+west. 
+What now? W
+You are at the theme park roundabout exit. Exits are south and southwest. 
+What now? S
+You are on east-west Glory Road. Exits are north and east. You can see a
+newsvendor. It is selling a newspaper. A uniformed citizen strides into view
+and marches on past. A fuzbot appears and looks you over, then walks on. 
+What now? E
+You are on flatlands. Exits are north, east, south and west. A fuzbot
+appears and looks you over, then walks on. 
+What now? E
+You are at the west end of the road. Exits are north, east, south and west.
+You can see a memorial. A group of smiling people jog by. 
+What now? E
+You are on a long and winding east-west road. Exits are east, south and
+west. 
+What now? E
+You are on a yellow brick road leading west. Exits are north, east, south
+and west. 
+What now? E
+You are at the gate of Ivril. Exits are north, east, south and west. You can
+see a flagseller. It is selling a flag. 
+What now? E
+You are in ancient Lankhmar. Exits are north and west. 
+What now? N
+You are in an old curiosity shop. An exit leads south. You can see a
+medallion. 
+What now? TAKE MEDALLION
+Taken. 
+What now? S
+You are in ancient Lankhmar. Exits are north and west. 
+What now? W
+You are at the gate of Ivril. Exits are north, east, south and west. You can
+see a flagseller. It is selling a flag. 
+What now? BUY FLAG 
+The salesdroid speaks. "The cost is 9 creds, OK?" YES
+"Sold!" Taken. 
+What now? S
+You are beside the fountain of paradise. Exits are north and west. 
+What now? W
+You are in the fragrant dream park. Exits are north, east and west. 
+What now? W
+You are in Duncton Wood. Exits are north, east and west. 
+What now? W
+You are in Year Wood. Exits are north, east, south and west. 
+What now? W
+You are beside a disgusting little house on the prairie. Exits are north,
+east and in. 
+What now? IN
+You are in a little plastic kitchen full of additives. An exit leads out.
+You can see a Pieman. It is selling a box. 
+What now? BUY BOX 
+The salesdroid speaks. "The cost is 9 creds, OK?" YES
+"Sold!" Taken. 
+What now? OUT
+You are beside a disgusting little house on the prairie. Exits are north,
+east and in. 
+What now? N
+You are on flatlands. Exits are north, east, south and west. 
+What now? E
+You are at the west end of the road. Exits are north, east, south and west.
+You can see a memorial. A droid speeds quickly off into the distance. 
+What now? EXAMINE MEMORIAL
+It's a memorial to the dead of the third world war. 
+What now? WAIT 
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... A potential socialist enters from the west. 
+What now? LOOK
+You are at the west end of the road. Exits are north, east, south and west.
+You can see a potential socialist and a memorial. The potential socialist
+seems to be waiting for someone. Suddenly fuzbots descend on the suspicious
+looking man from everywhere and drag him off. He drops something in the
+struggle. 
+What now? TAKE WALLET
+Taken. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+plaque on the wall, a crack, a poster and a chair. 
+What now? EXAMINE WALLET
+It's made of imitation leather. In the wallet is a brooch. 
+What now? EXAMINE BROOCH 
+It's decorated with: brown orange brown brown blue green white. 
+What now? DROP WALLET
+Dropped. 
+What now? DROP FLAG
+Dropped. 
+What now? DROP BOX
+Dropped. 
+What now? DROP MEDALLION
+Dropped. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? N
+You are in your tiled bodymaint cubicle. An exit leads south. You can see a
+nozzle. 
+What now? SAY ON
+The shower is most refreshing and is followed by warm air jets. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? S
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a wallet, a flag, a box, a plaque on the wall, a crack, a poster
+and a chair. 
+What now? EXAMINE POSTER
+It's just a a plastic wall panel
+What now? SAY ON
+The poster clicks. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 4:92 and that you have 873 creds
+left. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? WAIT
+Time passes... The tattoo beeps. 
+The current program is today's minutes, a documentary about cute dancers. 
+What now? WAIT
+Time passes... 
+The current program is today's minutes, a sitcom about athletic doctors. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is today's squares, a sitcom about athletic
+relationships. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast. The government has
+offered a massive reward for evidence about alien spies. 
+What now? WAIT
+Time passes... 
+The current program is super minutes, a soap opera about young doctors. 
+What now? WAIT
+Time passes... 
+The current program is cross minutes, a documentary about wacky animals. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... The tattoo beeps. 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is today's minutes, a sitcom about athletic dancers. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast. The government has
+offered a massive reward for evidence about alien spies. 
+What now? WAIT
+Time passes... The tattoo beeps. 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? WAIT
+Time passes... 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is super faces, a play about cute doctors. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is today's faces, a sitcom about wacky animals. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast. The government has
+offered a massive reward for evidence about alien spies. 
+What now? WAIT
+Time passes... The tattoo beeps. 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... 
+The current program is cross minutes, a documentary about wacky animals. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is today's minutes, a sitcom about athletic dancers. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... The tattoo beeps. Your tattoo buzzes. "Curfew in one hour".
+You feel rather tired. 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? SLEEP
+The bed is comfortable and sleep comes quickly. You dream about bouncing
+buffalos. You awake refreshed. Your tattoo buzzes. "Curfew over". 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? N
+You are in your tiled bodymaint cubicle. An exit leads south. You can see a
+nozzle. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? SAY ON
+The shower is most refreshing and is followed by warm air jets. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? S
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a wallet, a flag, a box, a bed, a plaque on the wall, a poster
+and a chair. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? E
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. The floor is colour coded: red black black
+black black black black. People rush past purposefully. 
+What now? SE 
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: red brown violet
+violet brown yellow violet. 
+What now? S  
+You are on an inner ET ring. The floor is colour coded: red brown violet
+violet brown yellow violet. A few people hurry past, ignoring you
+completely. 
+What now? S  
+You are on an ET ring. The floor is colour coded: red brown violet violet
+brown yellow violet. A crowd of people push past you on their way somewhere.
+
+What now? SW 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown violet black
+green grey blue. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown blue yellow
+black red green. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green violet
+yellow blue yellow. People rush past purposefully. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green black
+white black orange. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown yellow yellow
+orange yellow red. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown orange violet
+violet grey brown. A few people hurry past, ignoring you completely. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown orange brown red
+red black. A fuzbot appears and looks you over, then walks on. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red yellow blue
+green white. 
+What now? SW 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown red red
+yellow violet red. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: red brown red red
+yellow violet red. 
+What now? SE 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown red red
+violet brown green. 
+What now? E  
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown red red
+white green grey. 
+What now? SW 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red red grey
+violet violet. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red red violet
+white blue. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red red violet
+brown green. A crowd of people push past you on their way somewhere. A
+fuzbot appears and looks you over, then walks on. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red red blue
+orange yellow. A fuzbot appears and looks you over, then walks on. 
+What now? SE 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red red blue
+blue brown. People rush past purposefully. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown red red blue
+grey grey. 
+What now? S  
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown red red blue grey grey. 
+What now? SW 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown red red blue grey green. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown red red blue grey red. 
+What now? SW 
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red brown red red blue grey
+brown. 
+What now? S  
+You are in a fragrant florist shop. An exit leads north. You can see a
+florist. It is selling a bouquet of flowers, a pot plant and a wreath. 
+What now? BUY WREATH
+The salesdroid speaks. "The cost is 19 creds, OK?" YES
+"Sold!" Taken. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red brown red red blue grey
+brown. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. A
+few people hurry past, ignoring you completely. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. A crowd of people push
+past you on their way somewhere. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast.
+People rush past purposefully. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. 
+What now? S
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. A few people hurry past, ignoring you completely. 
+What now? SE
+You are at the theme park roundabout exit. Exits are south and southwest. 
+What now? S
+You are on east-west Glory Road. Exits are north and east. You can see a
+newsvendor. It is selling a newspaper. 
+What now? E
+You are on flatlands. Exits are north, east, south and west. A crowd of
+people push past you on their way somewhere. 
+What now? E
+You are at the west end of the road. Exits are north, east, south and west.
+You can see a memorial. 
+What now? DROP WREATH
+Dropped. 
+What now? W
+You are on flatlands. Exits are north, east, south and west. 
+What now? W
+You are on east-west Glory Road. Exits are north and east. You can see a
+newsvendor. It is selling a newspaper. 
+What now? N
+You are at the work place roundabout exit. Exits are west and northwest. 
+What now? NW
+You are west of a roundabout. Exits are north and northeast. 
+What now? N
+You are on a north-bound pedway. An exit leads north. 
+What now? N
+You are south of a roundabout. Exits are west and northwest. 
+What now? NW
+You are west of a roundabout. Exits are north, northeast and southeast.
+People rush past purposefully. A fuzbot appears and looks you over, then
+walks on. 
+What now? N
+You are on a north-bound pedway. An exit leads north. A fuzbot appears and
+looks you over, then walks on. 
+What now? N
+You are at the roundabout exit to ET west. Exits are west and northwest. A
+few people hurry past, ignoring you completely. 
+What now? NW
+You are at the roundabout exit to ET north. Exits are north and northeast. 
+What now? NE
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? E
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. The floor is colour coded: red black black
+black black black black. 
+What now? SE 
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: red brown violet
+violet brown yellow violet. 
+What now? S  
+You are on an inner ET ring. The floor is colour coded: red brown violet
+violet brown yellow violet. A crowd of people push past you on their way
+somewhere. 
+What now? S  
+You are on an ET ring. The floor is colour coded: red brown violet violet
+brown yellow violet. 
+What now? SW 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown violet black
+green grey blue. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown blue yellow
+black red green. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green violet
+yellow blue yellow. 
+What now? SW 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown green
+green red violet violet. People rush past purposefully. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: red brown green
+green red violet violet. A few people hurry past, ignoring you completely. 
+What now? SE 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown green
+green green red black. 
+What now? S  
+You are on an ET ring. The floor is colour coded: red brown green green
+green red black. 
+What now? SE 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green green
+green yellow violet. A crowd of people push past you on their way somewhere.
+
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green green
+green violet yellow. 
+What now? SW 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown green green green blue green. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown green green green green blue. People rush past purposefully. 
+What now? SE 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown green green green green white. 
+What now? SW 
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red brown green green green
+green grey. 
+What now? S  
+You are in a plastic porch decorated with posters about the great job the
+third Kim has done to ensure jobs for all. Exits are north and south. 
+What now? S
+You are in an open-plan jobs warehouse. Exits are north and west. You can
+see a notice. 
+What now? W
+You are standing at a plastic counter. An exit leads east. You can see a
+jobcentre droid. The droid greets you and says: "How about doing a YTS
+course?" NO
+The droid says, "What about doing an educational YOP course?" NO
+The droid says, "Do you really need a job?" YES
+The droid says, "Are you quite sure?" YES
+The droid says, "OK, I'll have a look". It rummages under the counter for a
+while, then reappears and says: "What about being a clerk?" YES
+The droid says, "OK, take this card to the workplace". 
+What now? TAKE CARD
+Taken. 
+What now? E
+You are in an open-plan jobs warehouse. Exits are north and west. You can
+see a notice. 
+What now? N
+You are in a plastic porch decorated with posters about the great job the
+third Kim has done to ensure jobs for all. Exits are north and south. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red brown green green green
+green grey. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast.
+A few people hurry past, ignoring you completely. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. 
+What now? S
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. 
+What now? SE
+You are at the theme park roundabout exit. Exits are south and southwest. 
+What now? S
+You are on east-west Glory Road. Exits are north and east. You can see a
+newsvendor. It is selling a newspaper. A crowd of people push past you on
+their way somewhere. 
+What now? N
+You are at the work place roundabout exit. Exits are west and northwest. 
+What now? W
+A droid takes your jobcentre card. 
+You are in one corner of a massive office. Exits are east and downwards. 
+What now? D
+You are at a workstation. An exit leads upwards. You do a clerk job and are
+escorted out. 
+You are west of a roundabout. Exits are north and northeast. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a wallet, a flag, a box, a plaque on the wall, a crack, a poster
+and a chair. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is super faces, a documentary about wacky relationships.
+
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is cross minutes, a documentary about wacky animals. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... The tattoo beeps. Your tattoo buzzes. "Curfew in one hour".
+You feel rather tired. 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? SLEEP
+The bed is comfortable and sleep comes quickly. You dream about bouncing
+buffalos. You awake refreshed. Your tattoo buzzes. "Curfew over". 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? N
+You are in your tiled bodymaint cubicle. An exit leads south. You can see a
+nozzle. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? SAY ON
+The shower is most refreshing and is followed by warm air jets. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? S
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a wallet, a flag, a box, a bed, a plaque on the wall, a poster
+and a chair. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. A fuzbot appears and looks you over, then walks on. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. A
+few people hurry past, ignoring you completely. 
+What now? E
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. The floor is colour coded: red black black
+black black black black. 
+What now? SE 
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: red brown violet
+violet brown yellow violet. 
+What now? S  
+You are on an inner ET ring. The floor is colour coded: red brown violet
+violet brown yellow violet. 
+What now? S  
+You are on an ET ring. The floor is colour coded: red brown violet violet
+brown yellow violet. A crowd of people push past you on their way somewhere.
+
+What now? SW 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown violet black
+green grey blue. People rush past purposefully. A fuzbot appears and looks
+you over, then walks on. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown blue yellow
+black red green. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green violet
+yellow blue yellow. 
+What now? SW 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown green
+green red violet violet. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: red brown green
+green red violet violet. 
+What now? SE 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: red brown green
+green green red black. A few people hurry past, ignoring you completely. 
+What now? S  
+You are on an ET ring. The floor is colour coded: red brown green green
+green red black. A crowd of people push past you on their way somewhere. 
+What now? SE 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green green
+green yellow violet. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: red brown green green
+green violet yellow. 
+What now? SW 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown green green green blue green. People rush past purposefully. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown green green green green blue. 
+What now? SE 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+red brown green green green green white. 
+What now? SW 
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red brown green green green
+green grey. A few people hurry past, ignoring you completely. 
+What now? S  
+You are in a plastic porch decorated with posters about the great job the
+third Kim has done to ensure jobs for all. Exits are north and south. 
+What now? S
+You are in an open-plan jobs warehouse. Exits are north and west. You can
+see a notice. 
+What now? W
+You are standing at a plastic counter. An exit leads east. You can see a
+jobcentre droid. The droid greets you and says: "How about doing a YTS
+course?" NO
+The droid says, "What about doing an educational YOP course?" NO
+The droid says, "Do you really need a job?" YES
+The droid says, "Are you quite sure?" YES
+The droid says, "OK, I'll have a look". It rummages under the counter for a
+while, then reappears and says: "What about being a clerk?" NO
+The droid says, "What about being a labourer?" YES
+The droid says, "OK, take this card to the workplace". 
+What now? TAKE CARD
+Taken. 
+What now? E
+You are in an open-plan jobs warehouse. Exits are north and west. You can
+see a notice. 
+What now? N
+You are in a plastic porch decorated with posters about the great job the
+third Kim has done to ensure jobs for all. Exits are north and south. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red brown green green green
+green grey. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. A crowd of people push
+past you on their way somewhere. A fuzbot appears and looks you over, then
+walks on. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast.
+A fuzbot appears and looks you over, then walks on. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. People rush
+past purposefully. 
+What now? S
+You are on a south-bound pedway. An exit leads south. 
+What now? S
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. 
+What now? SE
+You are at the theme park roundabout exit. Exits are south and southwest. 
+What now? S
+You are on east-west Glory Road. Exits are north and east. You can see a
+newsvendor. It is selling a newspaper. 
+What now? N
+You are at the work place roundabout exit. Exits are west and northwest. 
+What now? W
+A droid takes your jobcentre card. 
+You are in a disgusting workshop. Exits are north, east and west. You can
+see a waldroid. 
+What now? W
+You are in a waldroid control cocoon. An exit leads east. You are soon
+comfortably settled in the cocoon. The waldroid is in the workshop, and you
+soon forget about your immediate surroundings and can move the waldroid
+about as if it was you. After stacking boxes for hours, you get a little
+time to yourself. Your waldroid is in a disgusting workshop. Exits are north
+and east. 
+What now? E
+Your waldroid is west of a roundabout. Exits are north and northeast. 
+What now? N
+Your waldroid is on a north-bound pedway. An exit leads north. 
+What now? N
+Your waldroid is south of a roundabout. Exits are west and northwest. 
+What now? NW
+Your waldroid is west of a roundabout. Exits are north, northeast and
+southeast. 
+What now? N
+Your waldroid is on a north-bound pedway. An exit leads north. 
+What now? N
+Your waldroid is at the roundabout exit to ET west. Exits are west and
+northwest. 
+What now? NW
+Your waldroid is at the roundabout exit to ET north. Exits are north and
+northeast. 
+What now? N
+Your waldroid is on a walkway around the Eden Transport system, a force grid
+which looks like a massive dart target. Exits lead north-ish to the 12 ET
+rings. An exit leads south. The floor is colour coded: brown black black
+black black black black. 
+What now? JUMP
+Your waldroid is south of the ET hub wall. Exits lead south-ish to the rest
+of the massive Eden Transport system. The floor is colour coded: brown black
+black black black black black. 
+What now? SW 
+Force fields amplify your move. Your waldroid is on an inner ET ring. The
+floor is colour coded: brown grey red red grey green orange. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an inner ET ring. The
+floor is colour coded: brown blue yellow green violet black blue. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an inner ET ring. The
+floor is colour coded: brown yellow blue grey green green white. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an inner ET ring. The
+floor is colour coded: brown red white brown yellow brown red. A uniformed
+citizen strides into view and marches on past. 
+What now? SW 
+Force fields amplify your move. Your waldroid is on an inner ET ring. The
+floor is colour coded: brown red orange red orange blue orange. 
+What now? S  
+Your waldroid is on an ET ring. The floor is colour coded: brown red orange
+red orange blue orange. 
+What now? S  
+Your waldroid is on an ET ring. The floor is colour coded: brown red orange
+red orange blue orange. 
+What now? S  
+Your waldroid is on a central ET ring. The floor is colour coded: brown red
+orange red orange blue orange. 
+What now? SE 
+Force fields amplify your move. Your waldroid is on a central ET ring. The
+floor is colour coded: brown red orange orange black white red. 
+What now? S  
+Your waldroid is on a central ET ring. The floor is colour coded: brown red
+orange orange black white red. 
+What now? SE 
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange brown violet orange. 
+What now? E  
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange red green yellow. A group of smiling
+people jog by. A fuzbot appears and looks you over, then walks on. 
+What now? E  
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange orange orange green. A fuzbot appears
+and looks you over, then walks on. 
+What now? E  
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange yellow brown blue. A droid speeds
+quickly off into the distance. 
+What now? E  
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange yellow white violet. 
+What now? E  
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange green violet grey. 
+What now? E  
+Force fields amplify your move. Your waldroid is on an ET ring. The floor is
+colour coded: brown red orange orange blue green white. 
+What now? S  
+Your waldroid is on an ET ring. The floor is colour coded: brown red orange
+orange blue green white. 
+What now? SW 
+Force fields amplify your move. Your waldroid is on an outer ET ring with
+exits all round. The floor is colour coded: brown red orange orange blue
+green black. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an outer ET ring with
+exits all round. The floor is colour coded: brown red orange orange blue
+yellow brown. A uniformed citizen strides into view and marches on past. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an outer ET ring with
+exits all round. The floor is colour coded: brown red orange orange blue
+orange red. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an outer ET ring with
+exits all round. The floor is colour coded: brown red orange orange blue red
+orange. 
+What now? W  
+Force fields amplify your move. Your waldroid is on an outer ET ring with
+exits all round. The floor is colour coded: brown red orange orange blue
+brown yellow. 
+What now? S  
+Your waldroid is on an outer ET ring with exits all round. The floor is
+colour coded: brown red orange orange blue brown yellow. 
+What now? SW 
+Force fields amplify your move. Your waldroid is on a walkway around the
+Eden Transport system, a force grid which looks like a massive dart target.
+Exits lead north-ish to the 12 ET rings. An exit leads south. The floor is
+colour coded: brown red orange orange blue brown orange. A group of smiling
+people jog by. 
+What now? S  
+Your waldroid is in a hardware discount warehouse. An exit leads north. You
+can see a hardware salesdroid. It is selling a valve and a personal vidcam. 
+What now? BUY VALVE
+The droid says, "OK, you can have that on the city account for authorised
+repairs". Taken. 
+What now? N
+Your waldroid is on a walkway around the Eden Transport system, a force grid
+which looks like a massive dart target. Exits lead north-ish to the 12 ET
+rings. An exit leads south. The floor is colour coded: brown red orange
+orange blue brown orange. A droid speeds quickly off into the distance. 
+What now? SAY EXIT
+Force fields amplify your move. Your waldroid is on a walkway around the
+Eden Transport system, a force grid which looks like a massive dart target.
+Exits lead north-ish to the 12 ET rings. An exit leads south. The floor is
+colour coded: brown black black black black black black. 
+What now? S
+Your waldroid is at the roundabout exit to ET north. Exits are north and
+northeast. A uniformed citizen strides into view and marches on past. 
+What now? NE
+Your waldroid is at the roundabout exit to ET east. Exits are east and
+southeast. 
+What now? SE
+Your waldroid is east of a roundabout. Exits are south and southwest. A
+group of smiling people jog by. 
+What now? S
+Your waldroid is on a south-bound pedway. An exit leads south. A droid
+speeds quickly off into the distance. A fuzbot appears and looks you over,
+then walks on. 
+What now? S
+Your waldroid is at the pleasure dome roundabout exit. Exits are east and
+southeast. 
+What now? SE
+Your waldroid is east of a roundabout. Exits are south and southwest. 
+What now? S
+Your waldroid is on a south-bound pedway. An exit leads south. 
+What now? S
+Your waldroid is at the roundabout exit to the municipal buildings. Exits
+are east and southeast. 
+What now? SE
+Your waldroid is at the theme park roundabout exit. Exits are south and
+southwest. A uniformed citizen strides into view and marches on past. 
+What now? SW
+Your waldroid is at the work place roundabout exit. Exits are west and
+northwest. 
+What now? W
+Your waldroid is in a disgusting workshop. Exits are north and east. As you
+enter the workshop, the waldroid controls go dead and your attention returns
+to the cocoon. 
+You are in a waldroid control cocoon. An exit leads east. 
+What now? E
+You are in a disgusting workshop. Exits are north, east and west. You can
+see a waldroid. 
+What now? EXAMINE WALDROID
+It's a robot. The waldroid is carrying a valve. 
+What now? TAKE VALVE
+Taken. 
+What now? E
+You are west of a roundabout. Exits are north and northeast. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a wallet, a flag, a box, a plaque on the wall, a crack, a poster
+and a chair. 
+What now? DROP VALVE
+Dropped. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is cross roads, a play about young doctors. 
+What now? WAIT
+Time passes... 
+The current program is super faces, a play about cute doctors. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... The tattoo beeps. 
+The current program is today's faces, a sitcom about wacky animals. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast. The government has
+offered a massive reward for evidence about alien spies. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is cross minutes, a documentary about wacky animals. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The current program is today's minutes, a sitcom about athletic dancers. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... The tattoo beeps. Your tattoo buzzes. "Curfew in one hour".
+You feel rather tired. 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? SLEEP
+The bed is comfortable and sleep comes quickly. You dream about happy robots
+playing in the sun. You awake refreshed. Your tattoo buzzes. "Curfew over". 
+The current program is cross roads, a soap opera about young relationships. 
+What now? N
+You are in your tiled bodymaint cubicle. An exit leads south. You can see a
+nozzle. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? SAY ON
+The shower is most refreshing and is followed by warm air jets. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? S
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a valve, a wallet, a flag, a box, a bed, a plaque on the wall, a
+poster and a chair. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast. 
+What now? E
+You are at the entrance to the pleasure dome. Exits are north and west. 
+What now? N
+You are beside a turnstile. Exits are north and south. 
+What now? N
+The turnstile whispers: "You are about to enter the paradise pleasure dome
+for just 9 creds, OK?" YES
+You are in a north-south corridor between a comfortable habihall and a
+kiosk. Exits are north, east, south and west. 
+What now? N
+You are in the north-south corridor between the zoo and a pet shop. Exits
+are north, east, south and west. Some tourists enter from the north. 
+What now? E
+You are in a pet shop. An exit leads west. You can see a pet shop
+salesdroid. It is selling a dagget. The dagget looks very sad. 
+What now? BUY DAGGET
+The salesdroid speaks. "The cost is 500 creds, OK?" YES
+"Sold!" The dagget leaps about in a frenzy of joy. Taken. 
+What now? EXAMINE DAGGET
+The dagget is a cute robot dog, like a plastic Labrador. In the dagget is a
+batpak. 
+The dagget snuffles in your ear. 
+What now? W
+You are in the north-south corridor between the zoo and a pet shop. Exits
+are north, east, south and west. 
+The dagget snuffles in your ear. 
+What now? N
+You are in the north-south corridor outside the museum. Exits are north,
+south and west. 
+What now? W
+You are in a small museum, decorated with fake exhibits from Enoch history.
+An exit leads east. You can see a inflatable Kim Kimberley and some
+tourists. The tourists seem thrilled. The tourists leave, going east. 
+The dagget snuffles in your ear. 
+What now? REMOVE BATPAK
+OK. "Oy! I need those batteries. My emergency power is limited". The screen
+slides back into place, completely covering the exhibits. 
+The dagget struggles as if it wants to get free. 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+The dagget snuffles in your ear. 
+What now? WAIT
+Time passes... Some tourists enter from the east. The screen slides up into
+the ceiling. 
+The dagget snuffles in your ear. 
+What now? WAIT
+Time passes... The tourists photograph the exhibits. The tourists examine
+the exhibits while the guide gives a running commentary. "Sorry boss, I
+can't continue on emergency power any longer". The dagget grinds to a stop. 
+What now? WAIT
+Time passes... The tourists chatter exitedly. The tourists leave, going
+east. 
+What now? TAKE HELMET AND LEOTARD
+Bubble helmet: taken. 
+Leotard: taken. The screen slides back into place, completely covering the
+exhibits. 
+What now? PUT HELMET IN DAGGET
+OK. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? WEAR LEOTARD
+Worn. 
+What now? WEAR TRADCLADS
+The tradclads hide the leotard. Some tourists enter from the east. The
+screen slides up into the ceiling. 
+What now? E
+You are in the north-south corridor outside the museum. Exits are north,
+south and west. A crowd of people push past you on their way somewhere. 
+What now? S
+You are in the north-south corridor between the zoo and a pet shop. Exits
+are north, east, south and west. 
+What now? S
+You are in a north-south corridor between a comfortable habihall and a
+kiosk. Exits are north, east, south and west. 
+What now? S
+You are beside a turnstile. Exits are north and south. 
+What now? S
+You are at the entrance to the pleasure dome. Exits are north and west. 
+What now? W
+You are east of a roundabout. Exits are south and southwest. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a valve, a wallet, a flag, a box, a plaque on the wall, a crack,
+a poster and a chair. 
+What now? REMOVE HELMET
+OK. 
+What now? DROP HELMET
+Dropped. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? REMOVE LEOTARD
+OK. 
+What now? DROP LEOTARD
+Dropped. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? PUT BATPAK IN DAGGET
+OK. 
+The dagget says, "Thank you!". It is obviously delighted to get the batpak
+back and dashes round the room. 
+The dagget snuffles in your ear. 
+What now? GET BROOCH
+Taken. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+The dagget licks your face. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. A droid speeds quickly off into the distance. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+The dagget struggles as if it wants to get free. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+The dagget licks your face. 
+What now? SW
+You are at the roundabout exit to ET west. Exits are west and northwest. 
+The dagget snuffles in your ear. A uniformed citizen strides into view and
+marches on past. 
+What now? NW
+You are at the roundabout exit to ET north. Exits are north and northeast. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown black black black
+black black black. 
+The dagget licks your face. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. The floor is colour coded: brown black black
+black black black black. 
+What now? SE 
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown brown violet
+violet brown yellow violet. 
+The dagget licks your face. A group of smiling people jog by. 
+What now? E  
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown orange green
+yellow red white yellow. 
+The dagget struggles as if it wants to get free. A fuzbot appears and looks
+you over, you are fined 9 creds for possession of illegal objects. 
+What now? S  
+You are on an inner ET ring. The floor is colour coded: brown orange green
+yellow red white yellow. 
+What now? SW 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown orange orange yellow
+blue brown brown. 
+The dagget snuffles in your ear. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown orange brown yellow
+white red grey. 
+The dagget struggles as if it wants to get free. A droid speeds quickly off
+into the distance. A fuzbot appears and looks you over, you are fined 9
+creds for possession of illegal objects. 
+What now? S  
+You are on an ET ring. The floor is colour coded: brown orange brown yellow
+white red grey. 
+The dagget struggles as if it wants to get free. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: brown orange brown
+yellow white red grey. A uniformed citizen strides into view and marches on
+past. 
+What now? SW 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: brown orange brown
+yellow brown white white. 
+What now? W  
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: brown orange brown
+orange yellow violet black. 
+The dagget struggles as if it wants to get free. A group of smiling people
+jog by. 
+What now? W  
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: brown orange brown
+red violet yellow brown. 
+The dagget licks your face. 
+What now? W  
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: brown orange brown
+red black brown red. 
+The dagget struggles as if it wants to get free. A droid speeds quickly off
+into the distance. 
+What now? W  
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: brown orange brown
+brown red grey orange. A uniformed citizen strides into view and marches on
+past. A fuzbot appears and looks you over, you are fined 9 creds for
+possession of illegal objects. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: brown orange brown
+brown red grey orange. 
+What now? SE 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown orange brown brown
+orange blue yellow. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown orange brown brown
+yellow yellow green. A group of smiling people jog by. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown orange brown brown
+green red blue. 
+The dagget licks your face. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown orange brown brown
+blue black violet. 
+The dagget struggles as if it wants to get free. 
+What now? S  
+You are on an ET ring. The floor is colour coded: brown orange brown brown
+blue black violet. 
+The dagget struggles as if it wants to get free. 
+What now? SE 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown orange brown brown blue brown blue. 
+The dagget snuffles in your ear. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown orange brown brown blue red green. 
+The dagget licks your face. A droid speeds quickly off into the distance. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown orange brown brown blue orange yellow. 
+The dagget snuffles in your ear. A uniformed citizen strides into view and
+marches on past. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown orange brown brown blue yellow orange. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown orange brown brown blue green red. 
+The dagget licks your face. 
+What now? S  
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown orange brown brown blue green red. 
+The dagget snuffles in your ear. A group of smiling people jog by. 
+What now? SE 
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green orange. 
+What now? E  
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green yellow. 
+The dagget licks your face. 
+What now? E  
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green green. 
+What now? E  
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green blue. 
+The dagget licks your face. A droid speeds quickly off into the distance. 
+What now? E  
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green violet. 
+The dagget struggles as if it wants to get free. A fuzbot appears and looks
+you over, you are fined 9 creds for possession of illegal objects. 
+What now? E  
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green grey. 
+What now? E  
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green white. 
+The dagget snuffles in your ear. 
+What now? S  
+You are in a habihall decorated with disgusting agitprop. Exits are north
+and east. You can see some peeling wallpaper. 
+The dagget struggles as if it wants to get free. The dagget finds an
+invitation behind the wallpaper. 
+What now? GET INVITATION
+Taken. 
+The dagget snuffles in your ear. 
+What now? READ INVITATION
+It's an invitation to a meeting of some secret society at 6. To join, bring
+the marks of a Bison: valve and medallion. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown orange brown brown
+blue green white. A uniformed citizen strides into view and marches on past.
+
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+The dagget licks your face. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a valve, a wallet, a bubble helmet, a flag, a box, a leotard, a
+plaque on the wall, a crack, a poster and a chair. 
+What now? REMOVE BATPAK
+OK. "Oy! I need those batteries. My emergency power is limited". 
+The dagget licks your face. 
+What now? DROP BATPAK
+Dropped. 
+The dagget licks your face. 
+What now? DROP DAGGET
+Dropped. 
+What now? DROP BROOCH
+Dropped. 
+The dagget jumps up and licks you. 
+What now? TAKE MEDALLION
+Taken. 
+What now? TAKE VALVE
+Taken. 
+What now? WAIT
+Time passes... The tattoo beeps. 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+The dagget jumps up and licks you. 
+What now? WAIT
+Time passes... "Sorry boss, I can't continue on emergency power any longer".
+The dagget grinds to a stop. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. A
+group of smiling people jog by. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. A droid speeds quickly
+off into the distance. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast.
+A uniformed citizen strides into view and marches on past. A fuzbot appears
+and looks you over, you are fined 9 creds for possession of illegal objects.
+
+What now? E
+You are at the entrance to the pleasure dome. Exits are north and west. 
+What now? N
+You are beside a turnstile. Exits are north and south. 
+What now? N
+The turnstile whispers: "You are about to enter the paradise pleasure dome
+for just 9 creds, OK?" YES
+You are in a north-south corridor between a comfortable habihall and a
+kiosk. Exits are north, east, south and west. 
+What now? N
+You are in the north-south corridor between the zoo and a pet shop. Exits
+are north, east, south and west. Some tourists enter from the west. 
+What now? N
+You are in the north-south corridor outside the museum. Exits are north,
+south and west. Some tourists enter from the south. 
+What now? N
+You are in a north-south corridor between a casino and Reveline's massive
+dream palace. Exits are north, east, south and west. 
+What now? N
+You are at the entrance to a fabulous temple. Exits are north, south and
+west. You can see a Custodian. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 5:56 and that you have 321 creds
+left. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 5:57 and that you have 321 creds
+left. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 5:58 and that you have 321 creds
+left. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 5:59 and that you have 321 creds
+left. 
+What now? N
+The Custodian glances at your invitation and says "Pass friend". 
+You are in the inner sanctum of the temple. An exit leads south. 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... The tattoo beeps. 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... Some people come in. The Grand Master Bison greets you: "At
+last, a suitable candidate! The fee is 100 creds, OK?" YES
+You hold up your tap and bath plug and roll down your left sock in
+accordance with the ancient ceremony of the watch Bisons. They teach you the
+secret Bison hoofshake which can earn wealth, power and a council job. Then
+people slip away. 
+What now? S
+You are at the entrance to a fabulous temple. Exits are north, south and
+west. You can see a Custodian. 
+What now? W
+The Custodian glances at your invitation and says "Pass friend". 
+You are at the temple bar and souvenir stall. An exit leads east. You can
+see a temple salesdroid. It is selling a bottle of champagne. 
+What now? EXAMINE BOTTLE
+It's plastic. In the bottle of champagne is a cork and some wine. 
+What now? BUY BOTTLE
+The salesdroid speaks. "The cost is 9 creds, OK?" YES
+"Sold!" Taken. 
+What now? E
+You are at the entrance to a fabulous temple. Exits are north, south and
+west. You can see a Custodian. 
+What now? S
+You are in a north-south corridor between a casino and Reveline's massive
+dream palace. Exits are north, east, south and west. A group of smiling
+people jog by. 
+What now? S
+You are in the north-south corridor outside the museum. Exits are north,
+south and west. 
+What now? S
+You are in the north-south corridor between the zoo and a pet shop. Exits
+are north, east, south and west. You can see some tourists. The tourists
+photograph the exhibits. The tourists leave, going north. 
+What now? S
+You are in a north-south corridor between a comfortable habihall and a
+kiosk. Exits are north, east, south and west. A fuzbot appears and looks you
+over, you are fined 9 creds for possession of illegal objects. 
+What now? S
+You are beside a turnstile. Exits are north and south. 
+What now? S
+You are at the entrance to the pleasure dome. Exits are north and west. 
+What now? W
+You are east of a roundabout. Exits are south and southwest. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+brooch, a batpak, a wallet, a bubble helmet, a flag, a box, a dagget, a
+leotard, a plaque on the wall, a crack, a poster and a chair. 
+What now? DROP MEDALLION
+Dropped. 
+What now? DROP VALVE
+Dropped. 
+What now? DROP BOTTLE
+Dropped. 
+What now? TAKE WALLET
+Taken. 
+What now? TAKE BROOCH
+Taken. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? S
+You are on a south-bound pedway. An exit leads south. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast.
+A uniformed citizen strides into view and marches on past. A fuzbot appears
+and looks you over, you are fined 9 creds for possession of illegal objects.
+
+What now? SE
+You are east of a roundabout. Exits are south and southwest. A fuzbot
+appears and looks you over, you are fined 9 creds for possession of illegal
+objects. 
+What now? S
+You are on a south-bound pedway. An exit leads south. A group of smiling
+people jog by. 
+What now? S
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. 
+What now? E
+You are on the lefthand drive to the municipal buildings. Exits are east and
+west. 
+What now? E
+You are in the cobbled city square, surrounded by stained concrete
+buildings. Exits are north, south and west. 
+What now? N
+You are beside the police station. Exits are south and in. 
+What now? IN
+You are beside a reception desk. An exit leads out. You can see a fuzbot.
+You are fined 9 creds for possession of illegal objects. 
+What now? GIVE INVITATION
+The fuzbot takes it. "Thank you, I will have this checked." The police robot
+leaves for a while, then returns. "Thank you for your evidence. Although we
+can find no proof of crimes, it's on file for future reference". 
+What now? GIVE BROOCH
+The fuzbot takes it. "Thank you, I will have this checked." The police robot
+leaves for a while, then returns. "Thank you for your evidence. Although we
+can find no proof of crimes, it's on file for future reference". 
+What now? GIVE WALLET
+The fuzbot takes it. "Thank you, I will have this checked." The police robot
+leaves for a while, then returns. "The wallet belonged to a socialist
+criminal who was recently arrested for crimes against the state". "Your
+conscientious action in returning this wallet may well lead to many further
+arrests. As a reward, you are authorised to say HOME in open areas and use
+the robot sedan". 
+What now? OUT
+You are beside the police station. Exits are south and in. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a batpak, a valve, a bubble helmet, a flag, a bottle of
+champagne, a box, a dagget, a leotard, a plaque on the wall, a crack, a
+poster and a chair. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is super faces, a documentary about wacky relationships.
+
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? WAIT
+Time passes... 
+The current program is super minutes, a sitcom about athletic relationships.
+
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is super minutes, a soap opera about athletic
+relationships. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... The tattoo beeps. 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... 
+The current program is super faces, a soap opera about young dancers. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast. The government has
+offered a massive reward for evidence about alien spies. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast about the ET system.
+"Jump to reach the centre, or say exit to leave quickly." 
+What now? WAIT
+Time passes... 
+The current program is a newsflash about aliens massing beyond the planets.
+All citizens must support the government. 
+What now? WAIT
+Time passes... 
+The current program is cross roads, a play about young doctors. 
+What now? WAIT
+Time passes... 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... The tattoo beeps. Your tattoo buzzes. "Curfew in one hour".
+You feel rather tired. 
+The current program is a newsflash about the arrest of a police suspect in
+the theme park. 
+What now? SLEEP
+The bed is comfortable and sleep comes quickly. You dream about enemies
+behind the walls. You awake refreshed. Your tattoo buzzes. "Curfew over". 
+The current program is today's minutes, a documentary about cute dancers. 
+What now? N
+You are in your tiled bodymaint cubicle. An exit leads south. You can see a
+nozzle. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? SAY ON
+The shower is most refreshing and is followed by warm air jets. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? S
+You are in your habihome. Exits are north, east and west. You can see a
+medallion, a batpak, a valve, a bubble helmet, a flag, a bottle of
+champagne, a box, a dagget, a leotard, a bed, a plaque on the wall, a poster
+and a chair. 
+What now? TAKE BATPAK
+Taken. 
+What now? PUT BATPAK IN DAGGET
+OK. 
+The dagget says, "Thank you!". It is obviously delighted to get the batpak
+back and dashes round the room. 
+What now? TAKE MEDALLION
+Taken. 
+The dagget follows you very closely. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see a dagget and some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+yellow black black violet brown blue. A few people hurry past, ignoring you
+completely. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+black black black black black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. You
+can see a dagget. 
+The dagget jumps up and licks you. 
+What now? E
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+black black black black black black. 
+The dagget sniffs the air suspiciously. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. You can see a dagget. The floor is colour
+coded: red black black black black black black. 
+The dagget follows you very closely. A crowd of people push past you on
+their way somewhere. 
+What now? SE 
+Force fields amplify your move. 
+You are on an inner ET ring. You can see a dagget. The floor is colour
+coded: red brown violet violet brown yellow violet. 
+The dagget jumps up and licks you. 
+What now? S  
+You are on an inner ET ring. You can see a dagget. The floor is colour
+coded: red brown violet violet brown yellow violet. 
+What now? S  
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown violet violet brown yellow violet. 
+The dagget sniffs the air suspiciously. 
+What now? SW 
+Force fields amplify your move. 
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown violet black green grey blue. 
+The dagget jumps up and licks you. People rush past purposefully. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown blue yellow black red green. 
+The dagget follows you very closely. A few people hurry past, ignoring you
+completely. 
+What now? W  
+Force fields amplify your move. 
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown green violet yellow blue yellow. A crowd of people push past you on
+their way somewhere. 
+What now? SW 
+Force fields amplify your move. 
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red brown green green red violet violet. 
+What now? S  
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red brown green green red violet violet. People rush past
+purposefully. 
+What now? SE 
+Force fields amplify your move. 
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red brown green green green red black. 
+The dagget jumps up and licks you. 
+What now? S  
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown green green green red black. 
+The dagget follows you very closely. 
+What now? SE 
+Force fields amplify your move. 
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown green green green yellow violet. 
+The dagget sniffs the air suspiciously. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+brown green green green violet yellow. 
+The dagget follows you very closely. 
+What now? SW 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red brown green green green blue green. 
+The dagget follows you very closely. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red brown green green green green blue. A fuzbot
+appears and looks you over, you are fined 9 creds for possession of illegal
+objects. 
+What now? SE 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red brown green green green green white. 
+What now? SW 
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+brown green green green green grey. 
+What now? S  
+You are in a plastic porch decorated with posters about the great job the
+third Kim has done to ensure jobs for all. Exits are north and south. You
+can see a dagget. 
+The dagget follows you very closely. 
+What now? S
+You are in an open-plan jobs warehouse. Exits are north and west. You can
+see a dagget and a notice. 
+The dagget sniffs the air suspiciously. 
+What now? W
+You are standing at a plastic counter. An exit leads east. You can see a
+dagget and a jobcentre droid. The droid greets you and says: "How about
+doing a YTS course?" NO
+The droid says, "What about doing an educational YOP course?" NO
+The droid says, "Do you really need a job?" YES
+The droid says, "Are you quite sure?" YES
+The droid says, "OK, I'll have a look". It rummages under the counter for a
+while, then reappears and says: "What about being a clerk?" NO
+The droid says, "What about being a labourer?" NO
+The droid says, "Sorry, I have no more jobs. Come back tomorrow". It shakes
+your hand as you turn away. Then its voice changes. "Oops, my mistake, there
+is one trivial little job I forgot. How about being managing director of
+Enoch's direct labour organisation?" YES
+The droid says, "OK, take this card to the workplace". 
+The dagget jumps up and licks you. 
+What now? TAKE CARD
+Taken. 
+The dagget sniffs the air suspiciously. 
+What now? E
+You are in an open-plan jobs warehouse. Exits are north and west. You can
+see a dagget and a notice. 
+The dagget follows you very closely. 
+What now? N
+You are in a plastic porch decorated with posters about the great job the
+third Kim has done to ensure jobs for all. Exits are north and south. You
+can see a dagget. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+brown green green green green grey. 
+The dagget sniffs the air suspiciously. A few people hurry past, ignoring
+you completely. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+black black black black black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. You
+can see a dagget. 
+The dagget follows you very closely. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. You can see a
+dagget. 
+The dagget sniffs the air suspiciously. 
+What now? S
+You are on a south-bound pedway. An exit leads south. You can see a dagget. 
+The dagget jumps up and licks you. A crowd of people push past you on their
+way somewhere. 
+What now? S
+You are at the pleasure dome roundabout exit. Exits are east and southeast.
+You can see a dagget. 
+The dagget sniffs the air suspiciously. People rush past purposefully. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. You can see a
+dagget. 
+The dagget jumps up and licks you. 
+What now? S
+You are on a south-bound pedway. An exit leads south. You can see a dagget. 
+The dagget jumps up and licks you. 
+What now? S
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. You can see a dagget. 
+What now? SE
+You are at the theme park roundabout exit. Exits are south and southwest.
+You can see a dagget. 
+The dagget sniffs the air suspiciously. 
+What now? S
+You are on east-west Glory Road. Exits are north and east. You can see a
+dagget and a newsvendor. It is selling a newspaper. 
+The dagget jumps up and licks you. A few people hurry past, ignoring you
+completely. 
+What now? N
+You are at the work place roundabout exit. Exits are west and northwest. You
+can see a dagget. 
+The dagget follows you very closely. A crowd of people push past you on
+their way somewhere. 
+What now? W
+A droid takes your jobcentre card. 
+You are at a fabulous office entrance. Exits are north and east. You can see
+a dagget. 
+What now? N
+You are surrounded by head-high carpet. Exits are north, east, south and
+west. You can see a dagget and a carpet. 
+The dagget jumps up and licks you. 
+What now? W
+The carpet snuggles round you to make movement difficult, but the dagget
+keeps it at bay. . 
+You are surrounded by head-high carpet. Exits are north and east. You can
+see a dagget and a carpet. 
+The dagget sniffs the air suspiciously. 
+What now? N
+The carpet snuggles round you to make movement difficult, but the dagget
+keeps it at bay. . 
+You are surrounded by head-high carpet. Exits are north, east and south. You
+can see a dagget and a carpet. 
+The dagget follows you very closely. 
+What now? N
+The carpet snuggles round you to make movement difficult, but the dagget
+keeps it at bay. . 
+You are at an massive floodlit desk, completely surrounded by thick carpet
+in the direct labour organisation boardroom. Exits are east and south. You
+can see a dagget. You enjoy yourself as managing director for a day and are
+escorted out. 
+You are west of a roundabout. Exits are north and northeast. You can see a
+dagget. A fuzbot appears and looks you over, you are fined 9 creds for
+possession of illegal objects. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 7:51 and that you have 958 creds
+left. 
+What now? N
+You are on a north-bound pedway. An exit leads north. You can see a dagget. 
+What now? N
+You are south of a roundabout. Exits are west and northwest. You can see a
+dagget. 
+The dagget follows you very closely. 
+What now? NW
+You are west of a roundabout. Exits are north, northeast and southeast. You
+can see a dagget. 
+The dagget follows you very closely. 
+What now? N
+You are on a north-bound pedway. An exit leads north. You can see a dagget.
+A fuzbot appears and looks you over, you are fined 9 creds for possession of
+illegal objects. 
+What now? N
+You are at the roundabout exit to ET west. Exits are west and northwest. You
+can see a dagget. 
+What now? NW
+You are at the roundabout exit to ET north. Exits are north and northeast.
+You can see a dagget. 
+What now? NE
+You are at the roundabout exit to ET east. Exits are east and southeast. You
+can see a dagget. 
+The dagget jumps up and licks you. 
+What now? E
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+black black black black black black. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. You can see a dagget. The floor is colour
+coded: red black black black black black black. 
+What now? SW 
+Force fields amplify your move. 
+You are on an inner ET ring. You can see a dagget. The floor is colour
+coded: red grey red red grey green orange. 
+The dagget follows you very closely. A droid speeds quickly off into the
+distance. 
+What now? W  
+Force fields amplify your move. 
+You are on an inner ET ring. You can see a dagget. The floor is colour
+coded: red blue yellow green violet black blue. 
+What now? S  
+You are on an inner ET ring. You can see a dagget. The floor is colour
+coded: red blue yellow green violet black blue. 
+The dagget sniffs the air suspiciously. 
+What now? S  
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+blue yellow green violet black blue. 
+The dagget follows you very closely. 
+What now? S  
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+blue yellow green violet black blue. 
+The dagget sniffs the air suspiciously. 
+What now? SE 
+Force fields amplify your move. 
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red blue yellow violet grey white orange. 
+The dagget jumps up and licks you. A uniformed citizen strides into view and
+marches on past. 
+What now? S  
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red blue yellow violet grey white orange. 
+The dagget sniffs the air suspiciously. A group of smiling people jog by. 
+What now? SW 
+Force fields amplify your move. 
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red blue yellow violet blue green black. 
+The dagget jumps up and licks you. 
+What now? W  
+Force fields amplify your move. 
+You are on a central ET ring. You can see a dagget. The floor is colour
+coded: red blue yellow violet yellow black violet. 
+The dagget jumps up and licks you. 
+What now? S  
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+blue yellow violet yellow black violet. 
+What now? S  
+You are on an ET ring. You can see a dagget. The floor is colour coded: red
+blue yellow violet yellow black violet. 
+The dagget sniffs the air suspiciously. 
+What now? SE 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red blue yellow violet yellow brown blue. 
+The dagget jumps up and licks you. A droid speeds quickly off into the
+distance. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red blue yellow violet yellow red green. 
+The dagget follows you very closely. A uniformed citizen strides into view
+and marches on past. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red blue yellow violet yellow orange yellow. A group
+of smiling people jog by. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red blue yellow violet yellow yellow orange. 
+What now? E  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red blue yellow violet yellow green red. A droid
+speeds quickly off into the distance. 
+What now? SE 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. You can see a dagget. The
+floor is colour coded: red blue yellow violet yellow green green. 
+The dagget jumps up and licks you. 
+What now? S  
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+blue yellow violet yellow green green. 
+The dagget follows you very closely. 
+What now? S
+You are in a travel agent. An exit leads north. You can see a dagget and a
+travel agent. It is selling a ticket. 
+The dagget sniffs the air suspiciously. 
+What now? BUY TICKET
+The travel agent shakes your hand. "Greetings, fellow Bison". The salesdroid
+speaks. "The cost is 90 creds, OK?" YES
+"Sold!" Taken. 
+The dagget sniffs the air suspiciously. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+blue yellow violet yellow green green. 
+The dagget sniffs the air suspiciously. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. You can see a dagget. The floor is colour coded: red
+yellow black black violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see a dagget and some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+valve, a bubble helmet, a flag, a bottle of champagne, a box, a dagget, a
+leotard, a plaque on the wall, a crack, a poster and a chair. 
+The dagget sniffs the air suspiciously. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is today's minutes, a documentary about cute dancers. 
+What now? WAIT
+Time passes... 
+The dagget sniffs the air suspiciously. 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? WAIT
+Time passes... 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? WAIT
+Time passes... 
+The dagget follows you very closely. 
+The current program is a travel agent advert. Get your ticket at red blue
+yellow violet yellow green green. 
+What now? WAIT
+Time passes... 
+The dagget follows you very closely. 
+The current program is today's faces, a sitcom about wacky animals. 
+What now? WAIT
+Time passes... 
+The dagget jumps up and licks you. 
+The current program is super squares, a play about young dancers. 
+What now? WAIT
+Time passes... 
+The current program is a public information broadcast. The government has
+offered a massive reward for evidence about alien spies. 
+What now? WAIT
+Time passes... 
+The current program is super minutes, a sitcom about athletic relationships.
+
+What now? WAIT
+Time passes... 
+The dagget jumps up and licks you. 
+The current program is an advert for a florist at red brown red red blue
+grey brown. 
+What now? WAIT
+Time passes... 
+The dagget follows you very closely. 
+The current program is super minutes, a soap opera about athletic
+relationships. 
+What now? WAIT
+Time passes... 
+The dagget sniffs the air suspiciously. The tattoo beeps. Your tattoo
+buzzes. "Curfew in one hour". You feel rather tired. 
+The current program is an advert for a seedy hardware warehouse. Some items
+are offered to robots for low, low prices at brown red orange orange blue
+brown orange. 
+What now? SLEEP
+The bed is comfortable and sleep comes quickly. 
+The dagget says, "Goodnight, boss". You dream about enemies behind the
+walls. You awake refreshed. Your tattoo buzzes. "Curfew over". 
+The current program is forty squares, a play about young doctors. 
+What now? REMOVE BATPAK
+OK. "Oy! I need those batteries. My emergency power is limited". 
+The dagget follows you very closely. 
+The current program is an advert for the jobcentre. Government jobs. Come to
+red brown green green green green grey. 
+What now? N
+You are in your tiled bodymaint cubicle. An exit leads south. You can see a
+dagget and a nozzle. 
+What now? REMOVE TRADCLADS
+OK. 
+The dagget jumps up and licks you. 
+What now? SAY ON
+The shower is most refreshing and is followed by warm air jets. 
+What now? WEAR TRADCLADS
+Worn. 
+The dagget follows you very closely. 
+What now? S
+You are in your habihome. Exits are north, east and west. You can see a
+valve, a bubble helmet, a flag, a bottle of champagne, a box, a dagget, a
+leotard, a bed, a plaque on the wall, a poster and a chair. 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+The dagget follows you very closely. 
+What now? WAIT
+Time passes... 
+The dagget jumps up and licks you. 
+What now? WAIT
+Time passes... 
+The dagget follows you very closely. 
+What now? WAIT
+Time passes... 
+The dagget sniffs the air suspiciously. "Sorry boss, I can't continue on
+emergency power any longer". The dagget grinds to a stop. 
+What now? W
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. A fuzbot appears and looks you over, you are fined 9
+creds for possession of illegal objects. 
+What now? SAY EXIT
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red black black black black
+black black. 
+What now? S
+You are at the roundabout exit to ET east. Exits are east and southeast. 
+What now? SE
+You are east of a roundabout. Exits are south and southwest. 
+What now? SW
+You are at the roundabout exit to ET west. Exits are west and northwest. 
+What now? NW
+You are at the roundabout exit to ET north. Exits are north and northeast. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown black black black
+black black black. 
+What now? JUMP
+You are south of the ET hub wall. Exits lead south-ish to the rest of the
+massive Eden Transport system. The floor is colour coded: brown black black
+black black black black. 
+What now? SW 
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown grey red red
+grey green orange. 
+What now? W  
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown blue yellow
+green violet black blue. 
+What now? W  
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown yellow blue
+grey green green white. A crowd of people push past you on their way
+somewhere. 
+What now? W  
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown red white
+brown yellow brown red. 
+What now? SW 
+Force fields amplify your move. 
+You are on an inner ET ring. The floor is colour coded: brown red orange red
+orange blue orange. People rush past purposefully. 
+What now? S  
+You are on an ET ring. The floor is colour coded: brown red orange red
+orange blue orange. A few people hurry past, ignoring you completely. A
+fuzbot appears and looks you over, you are fined 9 creds for possession of
+illegal objects. 
+What now? S  
+You are on an ET ring. The floor is colour coded: brown red orange red
+orange blue orange. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: brown red orange
+red orange blue orange. 
+What now? SE 
+Force fields amplify your move. 
+You are on a central ET ring. The floor is colour coded: brown red orange
+orange black white red. 
+What now? S  
+You are on a central ET ring. The floor is colour coded: brown red orange
+orange black white red. 
+What now? SE 
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+brown violet orange. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+red green yellow. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+orange orange green. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+yellow brown blue. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+yellow white violet. A crowd of people push past you on their way somewhere.
+A fuzbot appears and looks you over, you are fined 9 creds for possession of
+illegal objects. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+green violet grey. 
+What now? E  
+Force fields amplify your move. 
+You are on an ET ring. The floor is colour coded: brown red orange orange
+blue green white. People rush past purposefully. 
+What now? S  
+You are on an ET ring. The floor is colour coded: brown red orange orange
+blue green white. 
+What now? SW 
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown red orange orange blue green black. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown red orange orange blue yellow brown. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown red orange orange blue orange red. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown red orange orange blue red orange. 
+What now? W  
+Force fields amplify your move. 
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown red orange orange blue brown yellow. A few people hurry past, ignoring
+you completely. 
+What now? S  
+You are on an outer ET ring with exits all round. The floor is colour coded:
+brown red orange orange blue brown yellow. 
+What now? SW 
+Force fields amplify your move. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown red orange orange blue
+brown orange. 
+What now? S  
+You are in a hardware discount warehouse. An exit leads north. You can see a
+hardware salesdroid. It is selling a personal vidcam. 
+What now? BUY VIDCAM
+The salesdroid speaks. "The cost is 300 creds, OK?" YES
+"Sold!" Taken. 
+What now? N
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: brown red orange orange blue
+brown orange. 
+What now? SAY HOME
+Two droids run up with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+valve, a bubble helmet, a flag, a bottle of champagne, a box, a dagget, a
+leotard, a plaque on the wall, a crack, a poster and a chair. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is today's faces, a sitcom about wacky animals. 
+What now? SAY BED
+The bed swings up, with you on it! You find yourself sliding, then falling,
+and then nothing for a while. When you come to, you find that... 
+You are surrounded by thousands of concrete pillars. An exit leads west. 
+What now? W
+You are at a humming junction. Exits are north, east, south and west. You
+can see a manhole cover in the ceiling. A little droid enters from the
+south. A dumpy droid enters from the west. 
+What now? S
+You are in a north-south concrete corridor. Exits are north and south. You
+can see a manhole cover in the ceiling. 
+What now? S
+You are at a concrete junction. Exits are north, east, south and west. You
+can see a manhole cover in the ceiling. 
+What now? S 
+You are at a disgusting junction. Exits are north, east and west. You can
+see a manhole cover in the ceiling. 
+What now? W
+You are in a cluttered, stained room with a waterfall cascading down the
+north wall. An exit leads east. You can see a junk heap and a signboard. 
+What now? READ SIGNBOARD
+It reads, "Dump garbage here". A tiny droid enters from the east. 
+What now? GET SIGNBOARD
+Taken. The tiny droid shuffles about, cleaning. The tiny droid leaves, going
+east. 
+What now? E
+You are at a disgusting junction. Exits are north, east and west. You can
+see a tiny droid and a manhole cover in the ceiling. The tiny droid leaves,
+going north. 
+What now? DROP SIGNBOARD
+Dropped. 
+What now? W
+You are in a cluttered, stained room with a waterfall cascading down the
+north wall. An exit leads east. You can see a junk heap. 
+What now? N
+You are on a ledge behind the waterfall. Exits are north and south. 
+What now? N
+You are completely surrounded by disgusting wiggly white roots. Through the
+roots to the north, you can see a floodlit cave in which sits an alien
+flying saucer! Concrete evidence of alien invaders. Exits are north and
+south. There's a smell of gas. 
+What now? SQUEEZE VIDCAM
+The camera buzzes and records the scene. 
+What now? S
+You are on a ledge behind the waterfall. Exits are north and south. 
+What now? S
+You are in a cluttered, stained room with a waterfall cascading down the
+north wall. An exit leads east. You can see a junk heap. 
+What now? E
+You are at a disgusting junction. Exits are north, east and west. You can
+see a manhole cover in the ceiling and a signboard. A dumpy droid enters
+from the east. 
+What now? WAIT
+Time passes... The dumpy droid picks up some litter. The dumpy droid leaves,
+going west. 
+What now? WAIT
+Time passes... A little droid enters from the north. 
+What now? WAIT
+Time passes... The dumpy droid drops some rubbish near the signboard. A
+dumpy droid enters from the west. 
+What now? WAIT
+Time passes... The dumpy droid drops some rubbish near the signboard. The
+dumpy droid complains about all the dust. The dumpy droid leaves, going
+north. 
+What now? LOOK
+You are at a disgusting junction. Exits are north, east and west. You can
+see a little droid, a junk heap, a manhole cover in the ceiling and a
+signboard. The dumpy droid drops some rubbish near the signboard. 
+What now? CLIMB HEAP
+You are standing on the junk heap. The little droid shuffles about,
+cleaning. The little droid leaves, going east. 
+What now? U
+You climb through the manhole cover, which seals invisibly behind you. 
+You are at the work place roundabout exit. Exits are west and northwest. 
+What now? NW
+You are west of a roundabout. Exits are north and northeast. A droid speeds
+quickly off into the distance. 
+What now? NE
+You are at the roundabout exit to the municipal buildings. Exits are east
+and southeast. 
+What now? E
+You are on the lefthand drive to the municipal buildings. Exits are east and
+west. 
+What now? E
+You are in the cobbled city square, surrounded by stained concrete
+buildings. Exits are north, south and west. A uniformed citizen strides into
+view and marches on past. 
+What now? N
+You are beside the police station. Exits are south and in. 
+What now? IN
+You are beside a reception desk. An exit leads out. You can see a fuzbot.
+You are fined 9 creds for possession of illegal objects. 
+What now? GIVE VIDCAM
+The fuzbot takes it. "Thank you, I will have this checked." The police robot
+leaves for a while, then returns. "Your valuable evidence proves that the
+alien threat is real, no matter what enemies of the state may claim. It will
+persuade the people to rally behind their government. Go to the pyramid of
+power for a tv interview. It's beyond the riverboat". 
+What now? OUT
+You are beside the police station. Exits are south and in. 
+What now? S
+You are in the cobbled city square, surrounded by stained concrete
+buildings. Exits are north, south and west. 
+What now? W
+You are on the lefthand drive to the municipal buildings. Exits are east and
+west. A group of smiling people jog by. 
+What now? W
+You are at the theme park roundabout exit. Exits are south and southwest. 
+What now? S
+You are on east-west Glory Road. Exits are north and east. You can see a
+newsvendor. It is selling a newspaper. A droid speeds quickly off into the
+distance. 
+What now? E
+You are on flatlands. Exits are north, east, south and west. A uniformed
+citizen strides into view and marches on past. A fuzbot appears and looks
+you over, you are fined 9 creds for possession of illegal objects. 
+What now? N
+You are at a landing stage on the shore of Death where the fabulous
+riverboat is moored. Exits are north, east and south. 
+What now? N
+The riverboat attendant inspects your ticket and then takes you across the
+straights. 
+You are on the Island of the Mighty where the fabulous riverboat is now
+moored. Exits are south and west. 
+What now? W
+You are in an avenue of trees. Exits are east and west. 
+What now? W
+You are beside a gate leading to a massive pyramid. Exits are north and
+east. 
+What now? N
+You are at a guarded gate. Exits are east and south. 
+What now? E
+You are in the quad south of the pyramid of power. Exits are north and west.
+
+What now? N
+You are south of a fabulous foyer. Exits are northeast, south and northwest.
+You can see a pyramid reception droid. You are escorted in the right
+elevator to the tv studio on the topmost floor of the Pyramid of Power and
+interviewed about the aliens on tv. Despite the scepticism of the
+interviewer, you are have actually seen aliens and so are very convincing.
+Afterwards, the third Kimberley herself rewards you for providing further
+evidence that enemy aliens exist, and so strengthening the hand of the
+government in their attempt to hold onto power. The Kim tries to look
+genuinely grateful as she rewards you with full party membership, but you
+can't help feeling that your usefulness is at an end and - indeed - your
+life is in danger unless you can get some leverage on her. Two droids run up
+with a sedan chair and carry you home. 
+You are on a walkway around the Eden Transport system, a force grid which
+looks like a massive dart target. Exits lead north-ish to the 12 ET rings.
+An exit leads south. The floor is colour coded: red yellow black black
+violet brown blue. 
+What now? EXAMINE TATTOO
+Looking closer, you see it's really a one-piece colour LCD implanted in your
+wrist. The display shows that the time is 5:13 and that you have 1514 creds
+left. 
+What now? S
+You are in the habihall of your habihome. Exits are north and east. You can
+see some peeling wallpaper. 
+What now? E
+You are in your habihome. Exits are north, east and west. You can see a
+valve, a bubble helmet, a flag, a bottle of champagne, a box, a dagget, a
+leotard, a plaque on the wall, a crack, a poster and a chair. 
+What now? REMOVE TRADCLADS
+OK. 
+What now? TAKE LEOTARD
+Taken. 
+What now? WEAR LEOTARD
+Worn. 
+What now? TAKE HELMET
+Taken. 
+What now? TAKE BOTTLE
+Taken. 
+What now? TAKE VALVE
+Taken. 
+What now? TAKE BOX
+Taken. 
+What now? PUT BATPAK IN DAGGET
+OK. 
+The dagget says, "Thank you!". It is obviously delighted to get the batpak
+back and dashes round the room. 
+The dagget follows you very closely. 
+What now? TAKE DAGGET
+Taken. 
+What now? SAY BED
+A bed swings down from the crack. 
+What now? LIE ON BED
+You are lying on the bed. 
+The current program is super faces, a play about cute doctors. 
+What now? SAY BED
+The bed swings up, with you on it! You find yourself sliding, then falling,
+and then nothing for a while. When you come to, you find that... 
+You are surrounded by thousands of concrete pillars. An exit leads west. 
+What now? DROP DAGGET
+Dropped. 
+What now? W
+You are at a humming junction. Exits are north, east, south and west. You
+can see a dagget and a manhole cover in the ceiling. 
+The dagget follows you very closely. 
+What now? S
+You are in a north-south concrete corridor. Exits are north and south. You
+can see a dagget and a manhole cover in the ceiling. 
+The dagget sniffs the air suspiciously. 
+What now? S
+You are at a concrete junction. Exits are north, east, south and west. You
+can see a dagget and a manhole cover in the ceiling. A dumpy droid enters
+from the south. 
+What now? S
+You are at a disgusting junction. Exits are north, east and west. You can
+see a dagget, a junk heap, a manhole cover in the ceiling and a signboard. 
+What now? TAKE SIGNBOARD
+Taken. A little droid enters from the east. 
+The dagget sniffs the air suspiciously. 
+What now? E
+You are between dry pillars festooned with red tape. An exit leads west. You
+can see a dagget and a manhole cover in the ceiling. 
+What now? DROP SIGNBOARD
+Dropped. 
+What now? W
+You are at a disgusting junction. Exits are north, east and west. You can
+see a dagget, a junk heap and a manhole cover in the ceiling. 
+The dagget sniffs the air suspiciously. 
+What now? W
+You are in a cluttered, stained room with a waterfall cascading down the
+north wall. Exits are east and south. You can see a dagget, a little droid
+and a grill. The little droid shuffles about, cleaning. The dumpy droid
+sweeps some rubbish into a dustpan in its chest. 
+What now? N
+You are on a ledge behind the waterfall. Exits are north and south. You can
+see a dagget. 
+The dagget jumps up and licks you. 
+What now? WEAR HELMET
+Worn. 
+What now? N
+You are completely surrounded by disgusting wiggly white roots. Through the
+roots to the north, you can see a floodlit cave in which sits an alien
+flying saucer! Concrete evidence of alien invaders. Exits are north and
+south. You can see a dagget. 
+The dagget follows you very closely. An alien head pokes out of the saucer,
+looks around and goes back in. 
+What now? THROW MEDALLION SOUTH
+OK. An alarm sounds, lasers flash and gas pours from outlets on the saucer.
+A technician wearing a gas mask looks out of the saucer and shouts inside,
+"False alarm". 
+The dagget follows you very closely. 
+You are on a ledge behind the waterfall. Exits are north and south. You can
+see a dagget. 
+The dagget follows you very closely. 
+What now? N
+You are completely surrounded by disgusting wiggly white roots. Through the
+roots to the north, you can see a floodlit cave in which sits an alien
+flying saucer! Concrete evidence of alien invaders. Exits are north and
+south. You can see a dagget. 
+The dagget sniffs the air suspiciously. 
+What now? THROW VALVE SOUTH
+OK. An alarm sounds, lasers flash and gas pours from outlets on the saucer.
+A technician looks out of the saucer and shouts inside, "Another false
+alarm. Turn it off and ask maintenance to check it in the morning". 
+The dagget follows you very closely. An alien head pokes out of the saucer,
+looks around and goes back in. 
+You are on a ledge behind the waterfall. Exits are north and south. You can
+see a dagget. 
+The dagget sniffs the air suspiciously. 
+What now? N
+You are completely surrounded by disgusting wiggly white roots. Through the
+roots to the north, you can see a floodlit cave in which sits an alien
+flying saucer! Concrete evidence of alien invaders. Exits are north and
+south. You can see a dagget. 
+The dagget follows you very closely. 
+What now? N
+You are in a floodlit cave. Exits are north and south. You can see a
+medallion, a valve, a dagget and a saucer. 
+The dagget follows you very closely. 
+What now? N
+You are inside a fake flying saucer made of cardboard. Exits are east and
+south. You can see a dagget, an alien costume and a scruffy human
+technician. Two human technicians are playing cards as you enter. They are
+not at all pleased to see you. One shouts, "Kill the intruder, if proof of
+this gets out the government is finished!" and reaches for a gun at her
+side. The dagget rushes in heroically and knocks both technicians flying. It
+shouts, "Save yourself, boss, I'll hold them off for as long as I can". 
+What now? TAKE COSTUME
+Taken. 
+The dagget sniffs the air suspiciously. 
+What now? E
+The dagget says, "Goodbye, boss" as it watches you move off. 
+You are in an east-west concrete corridor. Exits are east and west. You can
+see a manhole cover in the ceiling. 
+What now? REMOVE HELMET
+OK. 
+What now? DROP HELMET
+Dropped. 
+What now? REMOVE LEOTARD
+OK. 
+What now? DROP LEOTARD
+Dropped. 
+What now? WEAR TRADCLADS
+Worn. 
+What now? E
+You are at a concrete junction. Exits are north, east, south and west. You
+can see a dumpy droid and a manhole cover in the ceiling. The dumpy droid
+picks up some litter. The dumpy droid sweeps some rubbish into a dustpan in
+its chest. 
+What now? S
+You are at a disgusting junction. Exits are north, east and west. You can
+see a junk heap and a manhole cover in the ceiling. 
+What now? E
+You are between dry pillars festooned with red tape. An exit leads west. You
+can see a manhole cover in the ceiling and a signboard. 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... 
+What now? WAIT
+Time passes... A dumpy droid enters from the west. The tattoo beeps. 
+What now? WAIT
+Time passes... The dumpy droid complains about all the dust. The dumpy droid
+drops some rubbish near the signboard. 
+What now? LOOK
+You are between dry pillars festooned with red tape. An exit leads west. You
+can see a dumpy droid, a junk heap, a manhole cover in the ceiling and a
+signboard. A little droid enters from the west. The dumpy droid drops some
+rubbish near the signboard. 
+What now? CLIMB HEAP
+You are standing on the junk heap. The little droid shuffles about,
+cleaning. The dumpy droid drops some rubbish near the signboard. The dumpy
+droid picks up some litter. The dumpy droid drops some rubbish near the
+signboard. 
+What now? U
+The cover seems to be rusted up. Needs lubricating. The little droid
+complains about all the dust. The dumpy droid drops some rubbish near the
+signboard. The dumpy droid shuffles about, cleaning. The dumpy droid drops
+some rubbish near the signboard. A tiny droid enters from the west. 
+What now? REMOVE CORK
+The cork pops out and the wine sprays over everything. The wine from the
+bottle lubricates the manhole cover. The little droid picks up some litter.
+The little droid leaves, going west. The dumpy droid drops some rubbish near
+the signboard. The tiny droid complains about all the dust. The dumpy droid
+drops some rubbish near the signboard. 
+What now? TAKE CORK
+Taken. The dumpy droid drops some rubbish near the signboard. The tiny droid
+shuffles about, cleaning. The tiny droid leaves, going west. 
+What now? U
+You climb through the manhole cover, which seals invisibly behind you. 
+You are in the quad south of the pyramid of power. Exits are north and west.
+
+What now? N
+You are south of a fabulous foyer. Exits are northeast, south and northwest.
+You can see a pyramid reception droid. 
+What now? NE
+The reception droid looks up, smiles, and waves you past. 
+You are at the northeast of an attractive foyer. Exits are north, southwest
+and in. 
+What now? N
+You are in an elevator. Exits are south and out. You can see some buttons. 
+What now? EXAMINE BUTTONS
+There are 10 buttons, each of which can be backlit. Reading from left to
+right, they are coloured black, brown, red, orange, yellow, green, blue,
+violet, grey and white. 
+What now? PUSH WHITE BUTTON
+The elevator starts with a jerk and moves upwards. . . . . . . . . . . . . .
+. . . It comes to a stop and the doors open. 
+What now? PUSH WHITE BUTTON
+The elevator starts with a jerk and moves upwards. It comes to a stop and
+the doors open. 
+What now? S
+You are beside an alcove with a reception desk. Exits are north, east, south
+and in. You can see a pyramid reception droid. 
+What now? E
+The reception droid looks up, smiles, and waves you past. 
+You are in a short east-west corridor which ends at a mirror. Exits are
+north, south and west. You can see a mirror. 
+What now? PUSH MIRROR
+The mirror revolves and you find yourself on the other side. 
+You are on secret spiral stairs. Exits are west and upwards. 
+What now? U
+You are at the top of the secret spiral stairs. Exits are north and
+downwards. 
+What now? THROW BOX NORTH
+It lands below the partition. 
+You are in the city fathers' centre of power. Exits are north and south. You
+can see a box. The partition slides down onto the box and stops, whirrs, and
+goes back up a little way. The box has been flattened. 
+What now? N
+You are on the seat of power on a floodlit dais, facing thousands of bugs
+and vidcams. An exit leads south. You can see an orifice and some scanners.
+Fire extinguisher foam starts to pour from the orifice! It's filling up the
+dais, prevented from escaping by the partition! 
+What now? PUT CORK IN ORIFICE
+OK. You block the orifice and stop the foam. You threaten to tell the truth
+about the fake aliens and wave the costume as proof. Eventually a deal is
+struck. You give back the alien costume and, in return, are adopted into the
+party leadership. This means wealth, power and status. Congratulations! You
+have won! You score 1000 out of 1000 and are deputy Kimberley and heir to
+the planet Eden. 
+Press space to play again. 
+Welcome to the Worm in Paradise, the last of the Silicon Dreams, copyright
+(C) 1986 from Level 9 Computing.
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and OOPS to "take back" bad moves).
+You are in the northwest corner of a garden paradise, protected by a high
+wall up which flowers climb. Bright butterflies flutter on the balmy breeze
+and skylarks sing overhead. Exits are east and south. You can see a bench. 
+What now? 
+Game Terminated

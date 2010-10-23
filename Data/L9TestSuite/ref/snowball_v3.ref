@@ -1,0 +1,1680 @@
+
+Welcome to Snowball, the first of the Silicon Dreams, copyright (C) 1986
+Level 9 Computing. (This version allows you to use RAM SAVE and RAM RESTORE
+to save a position in memory, and OOPS to "take back" bad moves).
+It is dark, you cannot see. 
+What now? 
+Playing back input from script file.
+#SEED 42
+QUIT
+Really stop? 
+YES
+Press SPACE to play again. 
+Welcome to Snowball, the first of the Silicon Dreams, copyright (C) 1986
+Level 9 Computing. (This version allows you to use RAM SAVE and RAM RESTORE
+to save a position in memory, and OOPS to "take back" bad moves).
+It is dark, you cannot see. 
+What now? EXAMINE 
+You notice a lever beside you. 
+What now? PULL LEVER 
+The lid above rises, a light comes on and a low voice murmurs beside your
+head, "Good Morning, Kim Kimberley. Please lie still while your metabolism
+stabilises: you have been hibernating for a long while." Treakly musak plays
+for a few minutes and then the voice returns, "Welcome to the interstellar
+colony spaceship, Snowball 9. As you'll have realised, you've been wakened
+while I am still in flight because we have a problem: my central control
+room has been occupied by a hijacker who is not - and please excuse my
+criticism of a human being - entirely sane. She seems obsessed with the idea
+of crashing into the sun. I've told her it's impossible but she just laughs.
+I'm sure you'll be more than a match for her, though, provided you avoid the
+Night.." The voice cuts off in mid-sentence. 
+You are in a sponge lined coffin. The only visible exit is out.
+What now? OUT
+The coffin slides away into the wall. 
+You are in a blue mortuary beside a smooth ceramic slab. Lights twinkle
+beside a trapdoor on the ceiling. Exits lead north and up.
+What now? N
+You are at the entrance to a blue mortuary beside indicator lights and a
+control panel. Exits lead north (through a door) and south.
+What now? PUSH RED BUTTON
+Indicator lights flicker red black white black black red.
+What now? PUSH RED BUTTON
+Indicator lights flicker red black white black red red.
+What now? PUSH RED BUTTON 
+Indicator lights flicker red black white red red red.
+A coffin slides from an aperture at the other end of the mortuary. 
+What now? S
+You are in a blue mortuary beside a smooth ceramic slab. Lights twinkle
+beside a trapdoor on the ceiling. Exits lead north and up.
+You can see a freezer coffin.
+What now? UP 
+You're standing on a coffin. Exits lead north and up.
+You can see a freezer coffin.
+What now? UP 
+You scramble through a trapdoor. 
+You are in a blue mortuary beside a smooth ceramic slab. Lights twinkle
+beside a trapdoor on the ceiling. Exits lead north, up and down.
+What now? WAIT 
+Time passes. . . . . . 
+What now? WAIT
+Time passes. . . . . . 
+What now? WAIT
+Time passes. . . . . . 
+There's a faint mechanical noise. 
+What now? WAIT
+Time passes. . . . . . 
+You hear quiet clanking outside. 
+What now? WAIT
+Time passes. . . . . . 
+Loud clanking comes from outside. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking pauses outside your room.. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking fades away. 
+What now? N
+You are at the entrance to a blue mortuary beside indicator lights and a
+control panel. Exits lead north (through a door) and south.
+What now? OPEN DOOR
+The door slides open. 
+What now? N
+The door closes behind you. 
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor south of a wide entrance. A button
+protrudes from the floor and indicator lights decorate the ceiling. Exits
+lead north, east, south (through a door) and west.
+What now? PUSH BUTTON 
+The elevator arrives with a whoosh and its door opens. 
+What now? S
+The door closes behind you. 
+You are in a blue glass elevator. A sliding door makes up one wall; the
+others are featureless apart from a panel of multi-coloured buttons. Square
+trapdoors show in floor and ceiling. The only visible exit is north (through
+a door).
+What now? DOWN 
+You are clinging to a single rope below the elevator. The only visible exit
+is down.
+What now? DOWN
+You are in a grimy pit. A rope hangs down from above. The only visible exit
+is up.
+You can see a toolbox (tight shut).
+What now? TAKE TOOLBOX
+OK. 
+What now? UP
+You are clinging to a single rope below the elevator. The only visible exit
+is down.
+What now? UP
+You are in a blue glass elevator. A sliding door makes up one wall; the
+others are featureless apart from a panel of multi-coloured buttons. Square
+trapdoors show in floor and ceiling. The only visible exit is north (through
+a door).
+What now? PRESS BLACK BUTTON
+The floor shakes and the door opens. 
+What now? N
+The door closes behind you. 
+You are on a curving path in a 100m torus. A wide glassy tube spans the
+space above through a net of wires and pipes. A button protrudes from the
+floor. Exits lead east, south (through a door) and west.
+What now? W
+You are on a toroidal walkway. Exits lead east and west.
+What now? W
+You are on a toroidal walkway. Exits lead east and west.
+What now? W
+You are on a toroidal walkway beside a ramp. Tubes criss-cross the space
+above. Exits lead east, west and up.
+What now? UP 
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S 
+You are in a featureless cylindrical airlock between two iris doors. There
+is a small control panel on the wall. Exits lead north (through a door) and
+south (through a door).
+What now? PRESS YELLOW BUTTON 
+The door slides open. 
+What now? S
+The door closes behind you. 
+You are at the north end of a widening marblon cylinder. A button pokes from
+the floor beside an airlock door. Exits lead north (through a door) and
+south.
+What now? S
+You are standing inside a substantial smooth cylinder. A ramp leads down
+beside you and a similar, larger ramp is just visible opposite, across the
+tube. Exits lead north, east, south, west and down.
+What now? DOWN
+You are in a carpetted massage parlour hung about with red velcron drapes.
+The ceiling is polished to a mirror finish. A sumptuous leather couch stands
+in the middle of the floor. Exits lead east and up.
+What now? DOWN 
+You are lying on a comfortable couch.
+What now? SCORE 
+You scored 150 out of 1000. 
+The couch massages you. It's most invigorating and counteracts the
+after-effects of hibernation. You feel stronger. 
+What now? UP 
+You are in a carpetted massage parlour hung about with red velcron drapes.
+The ceiling is polished to a mirror finish. A sumptuous leather couch stands
+in the middle of the floor. Exits lead east and up.
+What now? E
+You are in a bare storeroom. The only visible exit is west.
+You can see an ultrasound scalpel and a stacker lift.
+What now? TAKE STACKER LIFT
+OK. 
+A scruffy robot shuffles from the west. 
+What now? W
+You are in a carpetted massage parlour hung about with red velcron drapes.
+The ceiling is polished to a mirror finish. A sumptuous leather couch stands
+in the middle of the floor. Exits lead east and up.
+A scruffy robot shuffles from the east. 
+What now? UP
+You are standing inside a substantial smooth cylinder. A ramp leads down
+beside you and a similar, larger ramp is just visible opposite, across the
+tube. Exits lead north, east, south, west and down.
+A scruffy robot shuffles from the ramp below. 
+What now? S
+You are standing on smooth simrock to the side of a large tube. A cyladder
+descends through red light. Exits lead north, east, south, west and down.
+What now? WAIT 
+Time passes. . . . . . 
+What now? WAIT
+Time passes. . . . . . 
+What now? WAIT
+Time passes. . . . . . 
+What now? WAIT
+Time passes. . . . . . 
+A scruffy robot shuffles from the east. 
+What now? WAIT
+Time passes. . . . . . 
+The scruffy robot shuffles onto the cyladder and is carried down. 
+What now? DOWN 
+You fall through the open cyladder. 
+You are in a large low room, surrounded by lights and vids. A barely audible
+high pitched humming emerges from a vast display panel with the legend
+"Snowball IX Freezer Control" to the south. A luminous cyladder rises
+through the ceiling. Exits lead north, east, south and up.
+A dumpy droid scuffles about.
+The scruffy robot shuffles onto the cyladder and is carried up. 
+What now? S
+You are in the southwest corner of Freezer Control, beside a control chair.
+The south wall is a wavery and obscure confusion of flickery projected vids.
+Exits lead north, east, south and down.
+What now? DOWN 
+You are seated at the console. The only visible exit is up.
+You can see a translucent visor.
+What now? WEAR VISOR 
+OK. 
+The screen lights! 
+What now? LOOK AT 2 
+It becomes brighter. 
+What now? BLINK 
+The screen changes to show 
+INFO.
+1 Damage.
+2 Flight Log.
+3 Droids.
+4 Passengers.
+5 Exit.
+What now? UP
+The screen fades. 
+You are in the southwest corner of Freezer Control, beside a control chair.
+The south wall is a wavery and obscure confusion of flickery projected vids.
+Exits lead north, east, south and down.
+What now? S
+You are behind the display panel. You are surrounded by the shiny warm cases
+of a dozen holojectors. The only visible exit is north.
+You can see the body of a crewmember.
+What now? SEARCH BODY
+You find an intricate bracelet, a kevlar leotard and a glittering necklace.
+What now? WEAR LEOTARD
+OK. 
+What now? WEAR NECKLACE
+OK. 
+What now? WEAR BRACELET
+OK. 
+What now? N
+You are in the southwest corner of Freezer Control, beside a control chair.
+The south wall is a wavery and obscure confusion of flickery projected vids.
+Exits lead north, east, south and down.
+What now? N
+You are in a large low room, surrounded by lights and vids. A barely audible
+high pitched humming emerges from a vast display panel with the legend
+"Snowball IX Freezer Control" to the south. A luminous cyladder rises
+through the ceiling. Exits lead north, east, south and up.
+What now? N
+You are in a wood grained library. Exits lead north and south.
+You can see a floating table.
+What now? EXAMINE TABLE
+It floats in mid-air. It holds a video viewer.
+What now? TAKE VIEWER
+OK. 
+What now? N
+You are in a cramped mempak archive. Locked racks hold titles like Fusion
+Mechanics, Genetics by Numbers, The Last Christians, Choosing Your Small
+Business Android, COBOL for the Arcturan Gigabrain, Playgirl the First
+Hundred Years, and The Human Race and How To Win. Each pack zaps selected
+highlights (much better than its real contents) at your midbrain. The only
+visible exit is south.
+You can see a mempak.
+What now? TAKE MEMPAK
+OK. 
+What now? INSERT MEMPAK
+OK. 
+What now? EXAMINE VIEWER 
+Your coffin code is blue mortuary red black white black yellow black.
+And there's a frozen crewmember in green with code green green orange brown
+green red.
+What now? OPEN TOOLBOX
+OK. 
+What now? TAKE SPANNER
+OK. 
+What now? DROP SPANNER
+OK. 
+What now? TAKE SCREWDRIVER
+OK. 
+What now? TAKE BATPAK 
+You lever it out with the screwdriver. 
+What now? DROP SCREWDRIVER
+OK. 
+What now? DROP VIEWER
+OK. 
+What now? S
+You are in a wood grained library. Exits lead north and south.
+You can see a floating table.
+What now? S
+You are in a large low room, surrounded by lights and vids. A barely audible
+high pitched humming emerges from a vast display panel with the legend
+"Snowball IX Freezer Control" to the south. A luminous cyladder rises
+through the ceiling. Exits lead north, east, south and up.
+What now? E
+You are in the northeast corner of Freezer Control. Exits lead north, south
+and west.
+What now? N
+You are in the condo: a small, comfortable rest area. An airbed is suspended
+from the ceiling. Exits lead east, south, west and down.
+What now? E
+You are in the diner: a minute corner of the condo, equipped for eating etc.
+A "natural wholefood no chemicals" machine is fixed to the wall, alongside a
+square hole for garbage. Exits lead north, west and in.
+What now? N
+You are in a cupboard. The only visible exit is south.
+You can see a square cup and a lamp.
+What now? TAKE LAMP
+OK. 
+What now? INSERT BATPAK
+OK. 
+What now? TAKE CUP
+OK. 
+What now? S
+You are in the diner: a minute corner of the condo, equipped for eating etc.
+A "natural wholefood no chemicals" machine is fixed to the wall, alongside a
+square hole for garbage. Exits lead north, west and in.
+What now? INSERT CUP 
+The machine fills it with thin lentil custard. 
+What now? W
+You are in the condo: a small, comfortable rest area. An airbed is suspended
+from the ceiling. Exits lead east, south, west and down.
+What now? LOOK UNDER BED
+There are LEDs under the bed. 
+What now? TAKE LEDS
+OK. 
+What now? S
+You are in the northeast corner of Freezer Control. Exits lead north, south
+and west.
+What now? W
+You are in a large low room, surrounded by lights and vids. A barely audible
+high pitched humming emerges from a vast display panel with the legend
+"Snowball IX Freezer Control" to the south. A luminous cyladder rises
+through the ceiling. Exits lead north, east, south and up.
+What now? UP 
+You're carried up. 
+You are standing on smooth simrock to the side of a large tube. A cyladder
+descends through red light. Exits lead north, east, south, west and down.
+What now? S
+You are at the south end of a narrowing marblon cylinder. A button emerges
+beside an airlock door. Exits lead north and south (through a door).
+What now? N
+You are in a wide simulated marble tube. An immovable grill is set into the
+floor, and an empty padded cell can be seen between the bars. Exits lead
+north, east, south and west.
+A dumpy droid scuffles about: "Tsk! Tsk! Always dusty".
+The scruffy robot shuffles west. 
+What now? N
+You are in a vast smooth-surfaced cylinder beside a contoured ramp. Exits
+lead north, east, south, west and down.
+What now? DOWN 
+A robot head pokes out "Greetings, Respected Citizen. You are most welcome!"
+
+You are on a wide ramp to a heavy plasteel door. A bank of videyes surround
+a notable flashing sign: "DROID-HANDLED STORE SERVICE. PRIVATE". Exits lead
+up and down (through an open door).
+What now? DOWN
+The door closes behind you. 
+You are on a gently sloping spiral ramp above a vast warehouse. Crates reach
+the ceiling. Exits lead up (through a door) and down.
+What now? DOWN
+You are at the base of a spiral ramp, surrounded by stacked crates and
+containers. Exits lead north, east, south and up.
+What now? S
+You are in a gangway between stacked cases. Exits lead north, east and
+south.
+What now? S
+You are at a small counter staffed by a faceless android. Exits lead north,
+east and up.
+You can see an orange form and a green form.
+What now? U
+You are sitting on a plasteel container high up in the robot stores. More
+crates stretch south as far as you can see, while to the north is a
+revolting expanse of garbage. There's a square aperture in the wall by your
+head. Exits lead west, up, down and in.
+What now? W
+You are in a dusty corner. Exits lead north and east.
+What now? N 
+You are on a rubbish tip. A garbage chute is supported by corroded wires far
+above, much too high for you to reach it. Exits lead north, east and south.
+A damaged janitor droid is slumped amidst the junk. "Please give me a spare
+part", it wheezes. 
+What now? ATTACH PROBE 
+The droid needs a bumble bearing.
+What now? E
+You are north of a wall of crates. Exits lead north, west and down.
+You can see a peg warp.
+What now? N
+You are in a cramped space between crates and piles of rubbish. Exits lead
+north, south and west.
+You can see a bumble bearing.
+What now? TAKE BUMBLE BEARING
+OK. 
+What now? N
+You are on a sloping junk heap. Exits lead south and west.
+You can see a 101 way ribbon cable.
+What now? W
+You are in an overflowing, broken junk processor (made by GIGO industries).
+Exits lead east and south.
+What now? S
+You are on a great pile of garbage. Exits lead north, east and south.
+You can see a maxwell sink.
+What now? S
+You are on a rubbish tip. A garbage chute is supported by corroded wires far
+above, much too high for you to reach it. Exits lead north, east and south.
+A damaged janitor droid is slumped amidst the junk. Clank.. Scratch.. "Help
+me". 
+What now? GIVE BUMBLE BEARING 
+The robot tries it in place: it's OK. The droid is mended! It rummages
+around for a reward to give you, then bounces away. 
+What now? DROP PROBE
+OK. 
+What now? E
+You are north of a wall of crates. Exits lead north, west and down.
+You can see a peg warp.
+What now? DOWN
+You are sitting on a plasteel container high up in the robot stores. More
+crates stretch south as far as you can see, while to the north is a
+revolting expanse of garbage. There's a square aperture in the wall by your
+head. Exits lead west, up, down and in.
+What now? DOWN
+You are at a small counter staffed by a faceless android. Exits lead north,
+east and up.
+You can see an orange form and a green form.
+What now? E
+You are in a gangway between stacked cases. Exits lead north, east and west.
+What now? E
+You are in a corner, beside a red ticket machine. Exits lead north and west.
+You can see a red ticket.
+What now? TAKE RED TICKET
+OK. 
+What now? N
+You are in an aisle between crates in the stores. Exits lead north, south
+and west.
+What now? N
+You are in a gangway between stacked containers. Exits lead north, south and
+west.
+What now? N
+You are in a corner, beside a green ticket machine. Exits lead south and
+west.
+You can see a green ticket.
+What now? TAKE GREEN TICKET
+OK. 
+What now? W
+You are in an aisle between stacked cases in the stores. Exits lead east,
+south and west.
+What now? W
+You are at a wide counter staffed by a faceless android. Exits lead east and
+south.
+You can see a red form, a yellow form and a lance.
+What now? GIVE RED TICKET
+"OK, take something." 
+What now? TAKE RED FORM
+OK. 
+What now? S
+You are at the base of a spiral ramp, surrounded by stacked crates and
+containers. Exits lead north, east, south and up.
+What now? S
+You are in a gangway between stacked cases. Exits lead north, east and
+south.
+What now? S
+You are at a small counter staffed by a faceless android. Exits lead north,
+east and up.
+You can see an orange form and a green form.
+What now? GIVE GREEN TICKET
+"OK, take something." 
+What now? GIVE RED FORM
+"Spose I could let you have something.." 
+What now? TAKE ORANGE FORM
+OK. 
+What now? E
+You are in a gangway between stacked cases. Exits lead north, east and west.
+What now? E
+You are in a corner, beside a red ticket machine. Exits lead north and west.
+You can see a red ticket.
+What now? TAKE RED TICKET
+OK. 
+What now? N
+You are in an aisle between crates in the stores. Exits lead north, south
+and west.
+What now? N
+You are in a gangway between stacked containers. Exits lead north, south and
+west.
+What now? N
+You are in a corner, beside a green ticket machine. Exits lead south and
+west.
+You can see a green ticket.
+What now? TAKE GREEN TICKET
+OK. 
+What now? W
+You are in an aisle between stacked cases in the stores. Exits lead east,
+south and west.
+What now? W
+You are at a wide counter staffed by a faceless android. Exits lead east and
+south.
+You can see a red form, a yellow form and a lance.
+What now? GIVE RED TICKET
+"OK, take something." 
+What now? GIVE ORANGE FORM
+"Spose I could let you have something.." 
+What now? TAKE YELLOW FORM
+OK. 
+What now? S
+You are at the base of a spiral ramp, surrounded by stacked crates and
+containers. Exits lead north, east, south and up.
+What now? S
+You are in a gangway between stacked cases. Exits lead north, east and
+south.
+What now? S
+You are at a small counter staffed by a faceless android. Exits lead north,
+east and up.
+You can see an orange form and a green form.
+What now? GIVE GREEN TICKET
+"OK, take something." 
+What now? GIVE YELLOW FORM
+"Spose I could let you have something.." 
+What now? TAKE GREEN FORM
+OK. 
+What now? E
+You are in a gangway between stacked cases. Exits lead north, east and west.
+What now? E
+You are in a corner, beside a red ticket machine. Exits lead north and west.
+You can see a red ticket.
+What now? TAKE RED TICKET
+OK. 
+What now? N
+You are in an aisle between crates in the stores. Exits lead north, south
+and west.
+What now? N
+You are in a gangway between stacked containers. Exits lead north, south and
+west.
+What now? N
+You are in a corner, beside a green ticket machine. Exits lead south and
+west.
+You can see a green ticket.
+What now? W
+You are in an aisle between stacked cases in the stores. Exits lead east,
+south and west.
+What now? W
+You are at a wide counter staffed by a faceless android. Exits lead east and
+south.
+You can see a red form, a yellow form and a lance.
+What now? GIVE RED TICKET
+"OK, take something." 
+What now? GIVE GREEN FORM
+"Spose I could let you have something.." 
+What now? TAKE LANCE
+OK. 
+What now? S
+You are at the base of a spiral ramp, surrounded by stacked crates and
+containers. Exits lead north, east, south and up.
+What now? UP
+You are on a gently sloping spiral ramp above a vast warehouse. Crates reach
+the ceiling. Exits lead up (through a door) and down.
+What now? OPEN DOOR
+The door slides open. 
+What now? U
+The door closes behind you. 
+You are on a wide ramp to a heavy plasteel door. A bank of videyes surround
+a notable flashing sign: "DROID-HANDLED STORE SERVICE. PRIVATE". Exits lead
+up and down (through a door).
+What now? U
+You are in a vast smooth-surfaced cylinder beside a contoured ramp. Exits
+lead north, east, south, west and down.
+What now? N
+You are at the north end of a widening marblon cylinder. A button pokes from
+the floor beside an airlock door. Exits lead north (through a door) and
+south.
+What now? PRESS BUTTON 
+The door slides open. 
+What now? N 
+The door closes behind you. 
+You are in a featureless cylindrical airlock between two iris doors. There
+is a small control panel on the wall. Exits lead north (through a door) and
+south (through a door).
+What now? SCORE 
+You scored 450 out of 1000. 
+What now? PRESS YELLOW BUTTON
+The door slides open. 
+What now? N 
+The door closes behind you. 
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? N
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green brown black black. 
+What now? N
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green red black black. 
+What now? N
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? N
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green brown black brown. 
+What now? N
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green red black brown. 
+What now? N
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? N
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green brown black red. 
+What now? N
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green red black red. 
+What now? N
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? N
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green brown black orange. 
+What now? N
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green red black orange. 
+What now? N
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? N
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green brown black yellow. 
+What now? N
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green red black yellow. 
+What now? N
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? N
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? EXAMINE BRACELET
+Clustered glowgems around the edge indicate green brown black green. 
+What now? DOWN 
+You are on a toroidal walkway beside a ramp. Tubes criss-cross the space
+above. Exits lead east, west and up.
+What now? E
+You are on a toroidal walkway. Exits lead east and west.
+What now? E
+You are on a toroidal walkway. Exits lead east and west.
+What now? E
+You are on a curving path in a 100m torus. A wide glassy tube spans the
+space above through a net of wires and pipes. A button protrudes from the
+floor. Exits lead east, south (through a door) and west.
+What now? PRESS BUTTON 
+The elevator arrives with a whoosh and its door opens. 
+What now? IN
+The door closes behind you. 
+You are in a blue glass elevator. A sliding door makes up one wall; the
+others are featureless apart from a panel of multi-coloured buttons. Square
+trapdoors show in floor and ceiling. The only visible exit is north (through
+a door).
+What now? PRESS ORANGE BUTTON 
+The floor shakes and the door opens. 
+What now? N 
+The door closes behind you. 
+You are in a curving east-west corridor south of a wide entrance. A button
+protrudes from the floor and indicator lights decorate the ceiling. Exits
+lead north, east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? EXAMINE LIGHTS
+The indicator lights are green white orange.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? EXAMINE LIGHTS
+The indicator lights are green grey orange.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+You can hear quiet clanking. 
+What now? W
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+A clanking noise comes from the west. 
+What now? OPEN DOOR
+The door slides open. 
+A black spherical Nightingale is advancing from the west. 
+What now? IN
+The door closes behind you. 
+You are at the entrance to a blue mortuary beside indicator lights and a
+control panel. Exits lead north (through a door) and south.
+The clanking pauses outside your room.. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking fades away. 
+What now? OPEN DOOR
+The door slides open. 
+What now? OUT
+The door closes behind you. 
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? EXAMINE LIGHTS
+The indicator lights are green purple orange.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? EXAMINE LIGHTS
+The indicator lights are green blue orange.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+You can hear quiet clanking. 
+What now? OPEN DOOR
+The door slides open. 
+A clanking noise comes from the west. 
+What now? IN
+The door closes behind you. 
+You are by the entrance to a green mortuary beside lights and a panel. Exits
+lead north and south (through a door).
+Loud clanking comes from outside. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking pauses outside your room.. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking fades away. 
+What now? OPEN DOOR
+The door slides open. 
+What now? OUT
+The door closes behind you. 
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? EXAMINE LIGHTS
+The indicator lights are green green orange.
+What now? OPEN DOOR
+The door slides open. 
+What now? IN 
+The door closes behind you. 
+You are by the entrance to a green mortuary beside lights and a panel. Exits
+lead north and south (through a door).
+What now? PRESS BROWN BUTTON
+Indicator lights flicker green green orange black black brown.
+What now? PRESS GREEN BUTTON
+Indicator lights flicker green green orange black brown green.
+What now? PRESS RED BUTTON 
+Indicator lights flicker green green orange brown green red.
+A coffin slides from an aperture at the other end of the mortuary. 
+What now? N
+You are in a green mortuary beside a smooth slab. Indicators illuminate a
+trapdoor above. Exits lead south, up and down.
+You can see a freezer coffin.
+What now? TAKE COFFIN
+The stacker helps you carry it. 
+What now? S
+You are by the entrance to a green mortuary beside lights and a panel. Exits
+lead north and south (through a door).
+What now? WAIT 
+Time passes. . . . . . 
+There's a faint mechanical noise. 
+What now? WAIT
+Time passes. . . . . . 
+You hear quiet clanking outside. 
+What now? WAIT
+Time passes. . . . . . 
+Loud clanking comes from outside. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking pauses outside your room.. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking fades away. 
+What now? OPEN DOOR
+The door slides open. 
+What now? OUT
+The door closes behind you. 
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? E 
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+You can hear quiet clanking. 
+What now? OPEN DOOR
+The door slides open. 
+A clanking noise comes from the west. 
+What now? IN
+The door closes behind you. 
+You are at the entrance to a blue mortuary beside indicator lights and a
+control panel. Exits lead north (through a door) and south.
+Loud clanking comes from outside. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking pauses outside your room.. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking fades away. 
+What now? OPEN DOOR
+The door slides open. 
+What now? OUT
+The door closes behind you. 
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor below indicator lights. Exits lead
+east and west.
+What now? E
+You are in a curving east-west corridor beside a green door. Lights show
+above it. Exits lead north (through a door), east and west.
+What now? E
+You are in a curving east-west corridor beside a blue door. Lights show
+above it. Exits lead east, south (through a door) and west.
+What now? E
+You are in a curving east-west corridor south of a wide entrance. A button
+protrudes from the floor and indicator lights decorate the ceiling. Exits
+lead north, east, south (through a door) and west.
+What now? N 
+A machine grabs and opens the coffin! A crewmember is inside. 
+You are in a spotless white alcove beside a complex revival machine. The
+only visible exit is south.
+You can see a freezer coffin.
+The coffin holding the crewmember is held in place. 
+"Gimme Liquid Sustenance!" 
+What now? GIVE LIQUID 
+The crewmember drinks it gratefully. She is still suffering from the
+after-effects of hibernation and cannot provide much help, but does know the
+entry code for the habidome, where you may find some useful tools. The code
+is red brown white. 
+What now? S
+You are in a curving east-west corridor south of a wide entrance. A button
+protrudes from the floor and indicator lights decorate the ceiling. Exits
+lead north, east, south (through a door) and west.
+You can hear quiet clanking. 
+What now? PUSH BUTTON
+The elevator arrives with a whoosh and its door opens. 
+A clanking noise comes from the west. 
+What now? IN
+The door closes behind you. 
+You are in a blue glass elevator. A sliding door makes up one wall; the
+others are featureless apart from a panel of multi-coloured buttons. Square
+trapdoors show in floor and ceiling. The only visible exit is north (through
+a door).
+Loud clanking comes from outside. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking pauses outside your room.. 
+What now? WAIT
+Time passes. . . . . . 
+The clanking fades away. 
+What now? PUSH BLACK BUTTON
+The floor shakes and the door opens. 
+What now? N
+The door closes behind you. 
+You are on a curving path in a 100m torus. A wide glassy tube spans the
+space above through a net of wires and pipes. A button protrudes from the
+floor. Exits lead east, south (through a door) and west.
+What now? W
+You are on a toroidal walkway. Exits lead east and west.
+What now? W
+You are on a toroidal walkway. Exits lead east and west.
+What now? W
+You are on a toroidal walkway beside a ramp. Tubes criss-cross the space
+above. Exits lead east, west and up.
+What now? UP
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S 
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are floating in a flexible transpex tube through the central torus of a
+major freezer unit. Scaled up mechanisms are visible through the soft walls
+and, far below, a circular path surrounds you. Exits lead north, south and
+down.
+What now? S
+You are on a significant cylindrical ledge above steps to a toroidal
+walkway. Transpex tubes lead away through a maze of wires and machinery.
+Exits lead north, south and down.
+What now? S
+You are following a winding transpex tunnel between vast lumpy metallic
+discs. Tiny light sources flicker far below, providing the only
+illumination. Exits lead north and south.
+What now? S
+You are in a featureless cylindrical airlock between two iris doors. There
+is a small control panel on the wall. Exits lead north (through a door) and
+south (through a door).
+What now? PUSH YELLOW BUTTON
+The door slides open. 
+What now? S 
+The door closes behind you. 
+You are at the north end of a widening marblon cylinder. A button pokes from
+the floor beside an airlock door. Exits lead north (through a door) and
+south.
+What now? S
+You are standing inside a substantial smooth cylinder. A ramp leads down
+beside you and a similar, larger ramp is just visible opposite, across the
+tube. Exits lead north, east, south, west and down.
+What now? S
+You are standing on smooth simrock to the side of a large tube. A cyladder
+descends through red light. Exits lead north, east, south, west and down.
+A dumpy droid scuffles about.
+The scruffy robot shuffles onto the cyladder and is carried down. 
+What now? S
+You are at the south end of a narrowing marblon cylinder. A button emerges
+beside an airlock door. Exits lead north and south (through a door).
+What now? WEAR HELMET
+OK. 
+What now? PUSH YELLOW BUTTON
+The door slides open. 
+What now? S
+The door closes behind you. 
+You are in a cylindrical airlock between two iris doors. There is a small
+control panel on the wall. Exits lead north (through a door) and south
+(through a door).
+What now? PUSH YELLOW BUTTON
+The door slides open. 
+What now? S
+The door closes behind you. 
+You are in a vast docking bay, surrounded by piles of metallic junk. The
+massive exterior doors are open to space and, through them, lights are
+visible in the far south. A thickly knotted rope stretches into the void. At
+the back of the docking bay is an airlock iris with a floor button. Exits
+lead north (through a door) and south.
+You can see a handgun.
+What now? TAKE GUN
+OK. 
+What now? LIGHT LAMP
+It illuminates brightly. 
+You are in a vast docking bay, surrounded by piles of metallic junk. The
+massive exterior doors are open to space and, through them, lights are
+visible in the far south. A thickly knotted rope stretches into the void. At
+the back of the docking bay is an airlock iris with a floor button. Exits
+lead north (through a door) and south.
+What now? S
+You are at a junction of monomol ropes. Some look negotiable. Exits lead
+north and south.
+What now? S
+You are at a junction in the web. Plasteel ropes lead away. Exits lead
+north, east, south and west.
+What now? S
+You are at a junction of the web. Exits lead north and west.
+What now? JUMP 
+There's no web that way. Are you sure?
+YES
+You are floating in space, between the freezer disks and the ice snowball
+which surrounds them.
+What now? SHOOT GUN 
+The recoil spins you round. 
+You float down.. 
+You are in space near the inner surface of the hollow snowball.
+What now? SHOOT GUN 
+The recoil spins you round. 
+You float down.. 
+You are about to hit the fast moving ice below. You'd better match
+velocities...
+What now? SHOOT GUN 
+The gun matches your speed to the ground's. 
+You are on a flat snowfield north of an immense, unclimbably smooth cliff. A
+pylon stands nearby. Exits lead north and up.
+What now? DROP GUN
+OK. 
+What now? UP
+You are on a ladder up the pylon. Exits lead up and down.
+What now? UP
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? PUSH BUTTON 
+The monorail shuttle arrives and its doors open. 
+What now? IN
+The door closes behind you. 
+You are in a snowrail carriage. Uncomfortable lumpy benches are moulded from
+the trash strewn floor and the filthy windows are opaque. There's a "go"
+button. The only visible exit is out (through a door).
+What now? PRESS BUTTON 
+The shuttle rushes to the next station and opens its doors. 
+What now? OUT
+The door closes behind you. 
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? DOWN
+You are on a ladder up the pylon. Exits lead up and down.
+What now? DOWN
+You are on trodden snow between a tall pylon and a hemidome calling itself
+the "Snowball Hilton". Exits lead up and in.
+What now? IN
+You are in the bright, tidy docking bay of the crew habidome. An airlock
+iris (with button) leads further into the dome. Exits lead south (through a
+door) and out.
+You could enter a spidroid hopper. 
+What now? PRESS BUTTON
+The door slides open. 
+What now? S
+The door closes behind you. 
+You are in a cubic airlock between two iris doors. There is a small control
+panel on the wall. Exits lead north (through a door) and south (through a
+door).
+What now? PRESS YELLOW BUTTON
+The door slides open. 
+What now? S
+The door closes behind you. 
+You are in a beige, kidney shaped entrance hall south of a buttoned airlock.
+Exits lead north (through a door), south and down.
+What now? DOWN 
+You are in a tasteful pink and green alcove beside a security door. There's
+a combination panel. Exits lead up and in (through a door).
+What now? PRESS RED BUTTON 
+An encouraging beep sounds from within the door mechanism. 
+What now? PRESS BROWN BUTTON 
+An encouraging beep sounds from within the door mechanism. 
+What now? PRESS WHITE BUTTON 
+The door slides open. 
+What now? IN
+The door closes behind you. 
+You are in a small round room. Exits lead down and out (through a door).
+What now? DOWN 
+You are in a forest glade (yes, really). Warm sunlight filters through the
+branches overhead, and cute little furry animals peer out from the
+undergrowth. Narrow leaf strewn pathways lead in all directions through
+fragrant vegetation. Exits lead north, northeast (through a door), east,
+south, southeast, west, northwest, up and down.
+What now? E
+You are in a grey room, lit by flickering candles. Exits lead east and west.
+What now? E
+You are in a solid black room filled with a glaring white light. Despite the
+intensity of the illumination, you know it does not show everything clearly.
+Yet increasing the brightness would only dazzle. The only visible exit is
+west.
+What now? IN
+You are in a snake pit. Venomous reptiles are slithering towards you.
+You can see a debt card and a holo wand.
+What now? TAKE WAND
+OK. 
+What now? OUT
+You are in a solid black room filled with a glaring white light. Despite the
+intensity of the illumination, you know it does not show everything clearly.
+Yet increasing the brightness would only dazzle. The only visible exit is
+west.
+What now? W
+You are in a grey room, lit by flickering candles. Exits lead east and west.
+What now? W
+You are in a forest glade (yes, really). Warm sunlight filters through the
+branches overhead, and cute little furry animals peer out from the
+undergrowth. Narrow leaf strewn pathways lead in all directions through
+fragrant vegetation. Exits lead north, northeast (through a door), east,
+south, southeast, west, northwest, up and down.
+What now? WAVE WAND 
+It whistles. 
+You are in a large round room with many exits. Exits lead north, northeast
+(through a door), east, south, southeast, west, northwest, up and down.
+What now? DROP WAND
+OK. 
+What now? DOWN
+You are on narrow, winding stairs leading down to an airlock iris. There is
+the usual floor button. Exits lead up and down (through a door).
+What now? PUSH BUTTON
+The door slides open. 
+What now? DOWN
+The door closes behind you. 
+You are in a vertical airlock between two iris doors. There is a small
+control panel on the wall. Exits lead up (through a door) and down (through
+a door).
+What now? PUSH YELLOW BUTTON
+The door slides open. 
+What now? DOWN
+The door closes behind you. 
+You are in a ruined bubble farm. There is a small button on the floor. Exits
+lead up (through a door) and down.
+What now? DOWN
+You are in an observatory. All the equipment has been systematically broken
+and the room is in chaos. The only visible exit is up.
+You can see dark glasses.
+What now? WEAR GLASSES
+OK. 
+What now? UP
+You are in a ruined bubble farm. There is a small button on the floor. Exits
+lead up (through a door) and down.
+What now? PUSH BUTTON
+The door slides open. 
+What now? UP
+The door closes behind you. 
+You are in a vertical airlock between two iris doors. There is a small
+control panel on the wall. Exits lead up (through a door) and down (through
+a door).
+What now? PUSH YELLOW BUTTON
+The door slides open. 
+What now? UP
+The door closes behind you. 
+You are on narrow, winding stairs leading down to an airlock iris. There is
+the usual floor button. Exits lead up and down (through a door).
+What now? UP
+You are in a forest glade (yes, really). Warm sunlight filters through the
+branches overhead, and cute little furry animals peer out from the
+undergrowth. Narrow leaf strewn pathways lead in all directions through
+fragrant vegetation. Exits lead north, northeast (through a door), east,
+south, southeast, west, northwest, up and down.
+You can see a holo wand.
+What now? SE
+You are in one cubicle of a great library. Thousands of people are studying
+at similar cubicles all around, their hushed voices filling the air with a
+low murmuring. Exits lead southeast and northwest.
+What now? SE
+You are in a soft, pink room. Gentle shapes move restfully across the walls
+to soft musical rhythms. The only visible exit is northwest.
+You can see a cute pussy cat.
+What now? TAKE CAT
+OK. 
+What now? NW
+You are in one cubicle of a great library. Thousands of people are studying
+at similar cubicles all around, their hushed voices filling the air with a
+low murmuring. Exits lead southeast and northwest.
+What now? NW
+You are in a forest glade (yes, really). Warm sunlight filters through the
+branches overhead, and cute little furry animals peer out from the
+undergrowth. Narrow leaf strewn pathways lead in all directions through
+fragrant vegetation. Exits lead north, northeast (through a door), east,
+south, southeast, west, northwest, up and down.
+You can see a holo wand.
+What now? OPEN DOOR
+The door slides open. 
+What now? NE
+The door closes behind you. On entering, you stumble over a distraught
+butler robot, slumped beside the door. "Oh, thank you, thank you. I have
+been trapped for hours", it babbles, climbing shakily to its feet. "And
+there is so much to do." The robot pushes past you, apologises for its
+rudeness, brushes you down, drops a silver tray as it does so, apologises
+for its clumsiness, shakes visibly - unable to choose between taking the
+tray or catching up with its other duties, sobs, spins on its heel and
+sprints away. 
+You are in a superb recreation lounge, surrounded by a great variety of ways
+of passing the time: dream games, exercisers, learndromats, fundroids etc.
+All are irreparably smashed. The only visible exit is southwest (through a
+door).
+You can see a silver tray.
+What now? TAKE TRAY
+OK. 
+What now? OPEN DOOR
+The door slides open. 
+What now? SW
+The door closes behind you. 
+You are in a forest glade (yes, really). Warm sunlight filters through the
+branches overhead, and cute little furry animals peer out from the
+undergrowth. Narrow leaf strewn pathways lead in all directions through
+fragrant vegetation. Exits lead north, northeast (through a door), east,
+south, southeast, west, northwest, up and down.
+You can see a holo wand.
+What now? UP
+You are in a small round room. Exits lead down and out (through a door).
+What now? OPEN DOOR
+The door slides open. 
+What now? OUT
+The door closes behind you. 
+You are in a tasteful pink and green alcove beside a security door. There's
+a combination panel. Exits lead up and in (through a door).
+What now? UP
+You are in a beige, kidney shaped entrance hall south of a buttoned airlock.
+Exits lead north (through a door), south and down.
+What now? S
+You are in a store room. The only visible exit is north.
+You can see an aerosol paint can and a sealed flask.
+What now? TAKE CAN
+OK. 
+What now? PUT CAN IN TOOLBOX
+OK. 
+What now? CLOSE TOOLBOX
+OK. 
+What now? TAKE FLASK
+OK. 
+What now? N
+You are in a beige, kidney shaped entrance hall south of a buttoned airlock.
+Exits lead north (through a door), south and down.
+What now? PUSH BUTTON
+The door slides open. 
+What now? N
+The door closes behind you. 
+You are in a cubic airlock between two iris doors. There is a small control
+panel on the wall. Exits lead north (through a door) and south (through a
+door).
+What now? PUSH YELLOW BUTTON
+The door slides open. 
+What now? N
+The door closes behind you. 
+You are in the bright, tidy docking bay of the crew habidome. An airlock
+iris (with button) leads further into the dome. Exits lead south (through a
+door) and out.
+You could enter a spidroid hopper. 
+What now? OUT
+You are on trodden snow between a tall pylon and a hemidome calling itself
+the "Snowball Hilton". Exits lead up and in.
+What now? UP
+You are on a ladder up the pylon. Exits lead up and down.
+What now? UP
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? PUSH BUTTON 
+The monorail shuttle arrives and its doors open. 
+What now? IN
+The door closes behind you. 
+You are in a snowrail carriage. Uncomfortable lumpy benches are moulded from
+the trash strewn floor and the filthy windows are opaque. There's a "go"
+button. The only visible exit is out (through a door).
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? OUT
+The door closes behind you. 
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? DOWN
+You are on a ladder up the pylon. Exits lead up and down.
+What now? DOWN
+You are beside the northern ice cliff which has a tiny cave at its base. A
+pylon stands nearby. Exits lead north and up.
+You can see a titanium shovel.
+What now? TAKE SHOVEL
+OK. 
+What now? UP
+You are on a ladder up the pylon. Exits lead up and down.
+What now? UP
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? PUSH BUTTON
+The monorail shuttle arrives and its doors open. 
+What now? IN
+The door closes behind you. 
+You are in a snowrail carriage. Uncomfortable lumpy benches are moulded from
+the trash strewn floor and the filthy windows are opaque. There's a "go"
+button. The only visible exit is out (through a door).
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? OUT
+The door closes behind you. 
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? DOWN
+You are on a ladder up the pylon. Exits lead up and down.
+What now? DOWN
+You are on trampled snow outside a major snowdesic dome. Brilliant light
+from an entrance split in the hemidome illuminates a nearby pylon. Exits
+lead up and in.
+What now? IN
+You are in the Robodome. A wide, rippled ramp leads down into the ground.
+Exits lead down and out.
+What now? DOWN
+You are on a straight ramp. Exits lead up and down.
+What now? DOWN
+You are at the base of a straight ramp, in the middle of a cave hacked from
+the ice. Exits lead north, east, south, west and up.
+What now? S
+You are at the south corner. Exits lead north, northeast and northwest.
+You can see a set of linked cylinders.
+What now? DROP STACKER LIFT
+OK. 
+What now? TAKE CYLINDERS
+OK. 
+What now? N
+You are at the base of a straight ramp, in the middle of a cave hacked from
+the ice. Exits lead north, east, south, west and up.
+What now? UP
+You are on a straight ramp. Exits lead up and down.
+What now? UP
+You are in the Robodome. A wide, rippled ramp leads down into the ground.
+Exits lead down and out.
+What now? OUT
+You are on trampled snow outside a major snowdesic dome. Brilliant light
+from an entrance split in the hemidome illuminates a nearby pylon. Exits
+lead up and in.
+What now? UP
+You are on a ladder up the pylon. Exits lead up and down.
+What now? UP
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? PUSH BUTTON
+The monorail shuttle arrives and its doors open. 
+What now? IN
+The door closes behind you. 
+You are in a snowrail carriage. Uncomfortable lumpy benches are moulded from
+the trash strewn floor and the filthy windows are opaque. There's a "go"
+button. The only visible exit is out (through a door).
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? OUT
+The door closes behind you. 
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? DOWN
+You are on a ladder up the pylon. Exits lead up and down.
+What now? DOWN
+You are on soft snow outside a sagging warehouse. A dark plastic path leads
+from the warehouse to a nearby pylon. Exits lead up and in (through a door).
+What now? OPEN DOOR
+The door slides open. 
+What now? IN
+The door closes behind you. 
+You are in a large hanger packed with stratogliders queued for launch. The
+doors of the first are open ready for embarkation. Exits lead in and out
+(through a door).
+You can see ceramic armour.
+What now? WEAR ARMOUR
+OK. 
+What now? OPEN DOOR
+The door slides open. 
+What now? OUT
+The door closes behind you. 
+You are on soft snow outside a sagging warehouse. A dark plastic path leads
+from the warehouse to a nearby pylon. Exits lead up and in (through a door).
+What now? UP
+You are on a ladder up the pylon. Exits lead up and down.
+What now? UP
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? PUSH BUTTON
+The monorail shuttle arrives and its doors open. 
+What now? IN
+The door closes behind you. 
+You are in a snowrail carriage. Uncomfortable lumpy benches are moulded from
+the trash strewn floor and the filthy windows are opaque. There's a "go"
+button. The only visible exit is out (through a door).
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? OUT
+The door closes behind you. 
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? DOWN
+You are on a ladder up the pylon. Exits lead up and down.
+What now? DOWN
+You are on churned and rutted snow below a tall pylon. The only visible exit
+is up.
+A massive snowdozer stands beside a pile of fuel blocks, a doorway leads
+into it. One wide track needs welding. 
+What now? DIG 
+You find a bunch of keys.
+You're in a tiny hole. 
+What now? DROP SHOVEL
+OK. 
+What now? TAKE KEYS
+OK. 
+What now? MEND SNOWDOZER 
+You successfully weld the snowdozer's track. It is mended! 
+What now? DROP LANCE
+OK. 
+What now? DROP CYLINDERS
+OK. 
+What now? IN
+You are in the high control bubble of the Snowdozer. An engraved panel at
+the front of the cab has a keyhole set into it. The only visible exit is
+down.
+What now? DOWN
+You are in the snowdozer's engine room. The only visible exit is up.
+You can see a fire extinguisher.
+What now? TAKE EXTINGUISHER
+OK. 
+What now? UP
+You are in the high control bubble of the Snowdozer. An engraved panel at
+the front of the cab has a keyhole set into it. The only visible exit is
+down.
+What now? TURN KEYS 
+It turns! A voice intones "Please leave the snowdozer." 
+What now? OUT 
+The dozer lumbers off, pushing iceblocks into the great hole nearby. You
+catch a brief glimpse of a skyhook as it catches the first block below the
+hole, twitching it away northwards towards the space tug where it will be
+used as fuel. In other words, you have refuelled the Snowball starship. 
+You are on churned and rutted snow below a tall pylon. The only visible exit
+is up.
+You can see a set of linked cylinders, a lance and a titanium shovel.
+What now? DROP KEYS
+OK. 
+What now? EXAMINE TRAY 
+The butler has polished it to a fine finish. It holds an electroflute.
+What now? TAKE FLUTE
+OK. 
+What now? UP
+You are on a ladder up the pylon. Exits lead up and down.
+What now? UP
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? PUSH BUTTON
+The monorail shuttle arrives and its doors open. 
+What now? IN
+The door closes behind you. 
+You are in a snowrail carriage. Uncomfortable lumpy benches are moulded from
+the trash strewn floor and the filthy windows are opaque. There's a "go"
+button. The only visible exit is out (through a door).
+What now? PUSH BUTTON
+The shuttle rushes to the next station and opens its doors. 
+What now? OUT
+The door closes behind you. 
+You are on a shuttle platform. A button protrudes from the barrier. Exits
+lead down and in (through a door).
+What now? DOWN
+You are on a ladder up the pylon. Exits lead up and down.
+What now? DOWN
+You are beside the northern ice cliff which has a tiny cave at its base. A
+pylon stands nearby. Exits lead north and up.
+What now? N
+You are in an ice tunnel. Exits lead north and south.
+What now? N 
+You are at the base of Jacob's Ladder. A very long opaque tube, wound about
+with plaitted plasteel fibres, rises dead straight above you. A ladder runs
+up the middle. Exits lead south and up.
+A massive waldroid guards the ladder. 
+What now? OPEN TOOLBOX 
+OK. 
+The pressurised paint can isn't strong enough to survive in a vacuum and
+explodes messily! The paint coats the waldroid's sensors, effectively
+blinding it. The robot flails about aimlessly and staggers away. 
+What now? UP
+You are climbing Jacob's Ladder. Looking up and down, you realise it must be
+miles long! However, in some mysterious way, it seems easier to climb than
+it should. Exits lead up and down.
+What now? UP
+You are climbing Jacob's Ladder. Although you're climbing slowly, it feels
+as if you're moving very rapidly... Exits lead up and down.
+What now? UP
+You are near the top of Jacob's Ladder. Above is the light at the end of the
+tunnel. Exits lead up and down.
+What now? UP
+You are on a tiny platform, suspended in the middle of a colossal metallic
+cylinder. A yawning gulf separates the platform from a seemingly small
+metallic lip round the outside. Four frail walkways join it across the abyss
+and a major twisted rope hangs down to support a corroded 5 klom snowball
+far below. Exits lead north, east, south, west and down.
+What now? N 
+You are on a wide ledge round the north edge of a huge red cylinder. A thick
+ramp winds upwards, an insubstantial bridge is suspended over the abyss
+below the cylinder, and if you feel tired of life there's always down...
+Exits lead south, southeast, southwest and up.
+The ramp is coated in unislime. 
+What now? DROP CAT 
+OK. The cat scuffles about, cleaning. It completely cleans the ramp. 
+What now? UP
+You are on a wide sloping ramp west of the red cylinder. Exits lead up and
+down.
+What now? UP
+You are on a wide sloping ramp south of the red cylinder. Exits lead up and
+down.
+What now? UP
+You are on a wide sloping ramp east of the red cylinder. Squinting up
+through the glare, you can make out a bunch of enormous clawhooks, each
+attached to a segmented wire. Exits lead up and down.
+What now? UP
+You are at the top of the wide ramp, north of the red cylinder. The ramp
+curves west through a pair of heavy blast doors. Exits lead down and in
+(through a door).
+What now? OPEN DOOR
+The door slides open. 
+What now? IN
+The door closes behind you. 
+You are in a wide, dark east-west corridor. A snowdozer is jammed in a pair
+of buckled blast doors to the east. Exits lead west and out (through a
+door).
+What now? ATTACH FLASK 
+The flask joins invisibly with the helmet, recharging its air. 
+What now? W
+You are at a T-junction where the dark passage ends at a brightly lit
+corridor. Looks risky... Exits lead east and west.
+What now? WAVE TRAY 
+The tray reflects a laser beam back on itself. You hear an explosion from
+the south. 
+What now? W
+You are at a junction in a north-south corridor. Exits lead north, east and
+south.
+What now? S
+You are at the end of the corridor, beside the entrance to the control room.
+Exits lead north and in (through a door).
+You can see a portable laser.
+What now? OPEN DOOR
+The door slides open. 
+What now? IN 
+The door closes behind you. 
+You are in an open plan control room. As the ship flies itself there are few
+controls, just an assortment of computers and displays of no interest to
+anyone. They're decades out of date - only kept in case the modern stuff
+fails. Exits lead west and out (through a door).
+A figure with a glass petrol bomb stands at the west of the room. 
+The hijacker shouts, "Keep back or I throw the bomb!" 
+What now? PLAY FLUTE 
+It plays a scale, from low notes to very high. . The petrol bomb shatters,
+surrounding its owner in fire. She staggers back through a hidden airlock to
+vacuum and safety, but you will not see her again! Unfortunately, the fire
+envelopes the control room vidcams and the central Snowball computer. 
+What now? PRESS EXTINGUISHER 
+Inert gas blasts out. And kills the fire! 
+What now? W
+You are beside the main instrument panel. The only control that you can
+understand (without psychomods/RNA boosts) is a red lever:
+"manual/autopilot". Exits lead east and out (through a door).
+What now? PULL LEVER
+It turns! Engines Roar! The Spacecraft turns away from the sun. You have
+preserved the Snowball, saved the sleeping colonists and won the game. If
+you now SAVE this position to disk/cassette, and RESTORE it at the start of
+the next game, you can go on to achieve the maximum score for the whole
+trilogy. Do you want to SAVE? 
+Game Terminated

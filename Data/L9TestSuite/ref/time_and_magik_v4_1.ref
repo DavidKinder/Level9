@@ -1,0 +1,1721 @@
+ 
+Welcome to the Time and Magik trilogy, copyright (C) 1988 from Level 9 and
+Mandarin. This recreates the three key episodes in the struggle to defend
+creation. 
+Enter 1 for Lords of Time, 2 for Red Moon, or 3 for Price of Magik.
+
+Playing back input from script file.
+#SEED 42
+1
+When a wave of change sweeps across History, triggered by the Timelords'
+meddling, only one person is unaffected. You are sitting in the comfort of
+your own home, debugging your latest program, when suddenly there is a
+blinding flash...
+(This version allows you to use RAM SAVE and RAM RESTORE to save a position
+in memory, and UNDO to "take back" wrong moves).
+You are in your own living room, surrounded by the usual clutter of books,
+mags, half-full cups of cold coffee and the remains of yesterday's lunch.
+Your hi-fi is blaring out a very loud remixed noise, and the cat is asleep
+on top of the fish tank. All is well with the world. You can see a fine
+golden hourglass on the mantelpiece and a picture of a kindly old man.
+What now? LOOK 
+You are in your own living room, surrounded by the usual clutter of books,
+mags, half-full cups of cold coffee and the remains of yesterday's lunch.
+Your hi-fi is blaring out a very loud remixed noise, and the cat is asleep
+on top of the fish tank. All is well with the world. You can see a fine
+golden hourglass on the mantelpiece and a picture of a kindly old man.
+What now? GET HOURGLASS
+OK. 
+What now? GET PICTURE 
+The picture stirs. Its surface ripples, the old man's figure swells out from
+the flat canvas and he steps forth to stand before you. 
+ 
+He regards you solemnly, his long nose quivering with disapproval, "I am he
+whom the people of your benighted world name Father Time", he intones. "You
+have been chosen - though really, I fail to see why - to aid in the defence
+of history against the evil Timelords. They are nine in number, and all
+their will and power is bent to mould time for their own vile ends. Your
+task is to collect nine critical objects from Earth's history - each is
+marked with the Holy Hourglass - and place them in the cauldron at the end
+of Time. May Fortune smile upon you!" 
+ 
+His message complete, Father Time steps back into the picture. 
+What now? N
+You are in a large, cold looking room, whose grey stone walls are bare and
+threatening. The rushes on the floor smell faintly of mould and old food,
+and the furniture is of dark, carved oak. You can see a matchbox on the
+table, a candle and a grandfather clock.
+What now? GET CANDLE
+OK. 
+What now? GET MATCHBOX
+OK. 
+What now? WIND CLOCK
+The door swings open. 
+What now? IN
+The door closes behind you. The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see huge cogs numbered 1 to 9 and a
+massive pendulum, hanging from the ceiling.
+What now? DROP HOURGLASS 
+OK. 
+What now? TURN COG 1
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are at the end of a gravel drive which bends to the southwest. The
+grassy lawns beside the drive are edged with the vibrant colours of summer
+flowers. A narrow country road runs north-south and the buzzing of bees
+fills the warm air. 
+What now? N
+You are at a crossing of country roads. 
+What now? N
+You are by some roadworks where the road ends. A red-and-white striped
+barrier bars the way to some rough diggings, with heaps of sand and gravel.
+You can see a grubby pick and two short planks.
+What now? GET PICK
+OK. 
+What now? GET PLANKS
+OK. 
+What now? S
+You are at a crossing of country roads. 
+What now? S
+You are at the end of a gravel drive which bends to the southwest. The
+grassy lawns beside the drive are edged with the vibrant colours of summer
+flowers. A narrow country road runs north-south and the buzzing of bees
+fills the warm air. 
+What now? W
+You are on a winding gravel drive whose edges are planted with lavender
+bushes, full of bees and butterflies. From all over the garden comes the hum
+of toiling insects. 
+What now? W
+You are outside a delightful half-timbered country cottage, its pale pink
+walls covered with trailing sprays of red and white roses. Fragrant herbs
+grow beneath its windows. 
+What now? OPEN DOOR
+The door swings open. 
+What now? W
+The door closes behind you. 
+You are in a bright hallway at the foot of a carpeted stairway. Dust-flecked
+beams of sunlight play upon the rich blue treads, and waken golden lights in
+the carved wooden banisters. You can see a Masai spear hanging on the wall.
+What now? U
+You are on the dim landing at the top of the stairs, where all is still and
+silence hangs heavy upon the musty air. 
+What now? N
+You are in a cramped store-room; along with fifty-seven spiders and a dead
+mouse. The shelves seem to be empty and the air is dank and chill. You can
+see a coil of rope, a battered rucksack and a pile of family rubbish.
+What now? DROP PICK
+OK. 
+What now? GET RUCKSACK
+OK. 
+What now? WEAR IT 
+OK. 
+What now? GET PICK
+OK. 
+What now? GET ROPE
+OK. 
+What now? EXAMINE RUBBISH
+You find an opener.
+OK. 
+What now? GET OPENER
+You already have an opener.
+What now? S
+You are on the dim landing at the top of the stairs, where all is still and
+silence hangs heavy upon the musty air. 
+What now? W
+You are in a plushly carpeted master bedroom. A mighty four-poster bed
+stands in the centre of the room, surmounted by a complicated coat-of-arms
+in lacquered wood. Brocade-covered chairs and a rose-wood table stand near
+the fireplace, and elegant tapestries hang upon the walls. You can see a
+jewellery case on the dressing table.
+What now? GET CASE
+OK. 
+What now? E
+You are on the dim landing at the top of the stairs, where all is still and
+silence hangs heavy upon the musty air. 
+What now? D
+You are in a bright hallway at the foot of a carpeted stairway. Dust-flecked
+beams of sunlight play upon the rich blue treads, and waken golden lights in
+the carved wooden banisters. You can see a Masai spear hanging on the wall.
+What now? GET SPEAR
+OK. 
+What now? S
+You are in a lovely old-fashioned kitchen, with a central, scrubbed-pine
+table running most of its length. Copper pots and pans gleam on the walls,
+and archaic cooking irons stand around the huge fireplace. Cupboards cover
+the walls. You can see a wall cupboard.
+What now? OPEN CUPBOARD
+You find a tin of catfood.
+OK. 
+What now? GET TIN
+You already have a tin of catfood.
+What now? W
+You are in the living room, a long comfortable room decorated with autumn
+shades of brown and gold. A patio door leads out to the garden, sunshine
+streaming through its leaded panes. You can see an inlaid looking glass on
+the wall and a fine metronome in pride of place.
+What now? GET GLASS
+OK. 
+What now? GET METRONOME
+OK. 
+What now? OPEN DOOR
+The door swings open. 
+What now? W
+The door closes behind you. 
+You are on a patio, dotted with urns of flowers. A crazy-paving path winds
+southwest across the lawn to a garden shed. The garden ends at a wooden
+fence. 
+What now? NW
+You are in the flower garden, which is ablaze with flowers, their colours
+shining like jewels against the green turf. The air is heavy with pollen and
+the sonorous perfumes of summer. As you brush against the flowers, their
+yellow pollen spills out, covering your clothes in a torrent of fragrant
+dust. You can see a stalk of valerian hidden among the delphiniums.
+What now? GET VALERIAN
+OK. 
+What now? SE
+You are on a patio, dotted with urns of flowers. A crazy-paving path winds
+southwest across the lawn to a garden shed. The garden ends at a wooden
+fence. 
+What now? W
+You are at the end of the garden beside a five foot fence, covered in ivy. 
+What now? U
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. A greasy, evil-looking slick swirls
+lazily on its surface; a faint, greenish fume spiralling up from its centre.
+
+What now? N
+You are further upstream where the filthy stream is quite narrow. Something
+is growing amid the nettles on the opposite bank and the ground is faintly
+marshy beneath your feet. 
+What now? TIE PLANKS 
+You tie the planks together, making a longer plank. 
+What now? DROP IT
+OK. The tied planks bridge the stream. 
+What now? W
+You are west of the stream. The grass is yellowed and dying, and the few
+scrawny plants grow in strange, distorted shapes, as though writhing in
+pain. You can see a single beautiful narcissus standing proudly among the
+weeds.
+Planks bridge the stream. 
+What now? GIVE GLASS 
+The narcissus squeals with pleasure and flips you an unprepossessing hunk of
+lodestone. He wanders away, admiring his reflection in the looking glass. 
+What now? E
+You are further upstream where the filthy stream is quite narrow. Something
+is growing amid the nettles on the opposite bank and the ground is faintly
+marshy beneath your feet. You can see two short planks tied together.
+Planks bridge the stream. 
+What now? S
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. A greasy, evil-looking slick swirls
+lazily on its surface; a faint, greenish fume spiralling up from its centre.
+
+What now? U
+You are at the end of the garden beside a five foot fence, covered in ivy. 
+What now? E
+You are on a patio, dotted with urns of flowers. A crazy-paving path winds
+southwest across the lawn to a garden shed. The garden ends at a wooden
+fence. 
+What now? SW
+You are outside a garden shed whose timbers are pungent with sun-heated
+creosote. Ants run busily up and down its sides. You can see a bunch of keys
+pushed out of reach under the shed door.
+What now? GET KEYS WITH LODESTONE
+OK. 
+What now? OPEN DOOR
+The door swings open. 
+What now? IN
+The door closes behind you. 
+You are in a cluttered garden shed, among a jumble of old boots, bits of
+rotten timber, broken tools and rusty tins full of nails that nobody will
+ever use. It is stiflingly hot. You can see a sharp axe and a shovel.
+What now? GET AXE
+OK. 
+What now? GET SHOVEL
+OK. 
+What now? OPEN DOOR
+The door swings open. 
+What now? OUT
+The door closes behind you. 
+You are outside a garden shed whose timbers are pungent with sun-heated
+creosote. Ants run busily up and down its sides. 
+What now? NE
+You are on a patio, dotted with urns of flowers. A crazy-paving path winds
+southwest across the lawn to a garden shed. The garden ends at a wooden
+fence. 
+What now? W
+You are at the end of the garden beside a five foot fence, covered in ivy. 
+What now? U
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. A greasy, evil-looking slick swirls
+lazily on its surface; a faint, greenish fume spiralling up from its centre.
+
+What now? S
+You are beside the polluted stream, its oily surface swirling. Occasionally,
+a bubble glops to the surface and bursts with a noxious smell. You can see a
+weeping willow.
+Glistening tears rain down from the willow tree. 
+What now? CHOP WILLOW 
+That must be a good axe for, with one swift blow, you sever the tree's trunk
+and it falls with a peaceful sigh, to rest forever alongside its beloved
+stream. Looking down, you see that one of the iridescent teardrops remains,
+glistening at your feet. 
+What now? GET * TEAR *
+OK. 
+What now? N
+You are beside a fence on the east bank of a wide, dirty stream clogged with
+crisp packets and MacRonalds boxes. A greasy, evil-looking slick swirls
+lazily on its surface; a faint, greenish fume spiralling up from its centre.
+
+What now? U
+You are at the end of the garden beside a five foot fence, covered in ivy. 
+What now? E
+You are on a patio, dotted with urns of flowers. A crazy-paving path winds
+southwest across the lawn to a garden shed. The garden ends at a wooden
+fence. 
+What now? SW
+You are outside a garden shed whose timbers are pungent with sun-heated
+creosote. Ants run busily up and down its sides. 
+What now? E
+You are at a red-painted garden gate which opens onto a paved path leading
+east. Blades of grass and sweet-smelling camomile grow in the cracks between
+the stones. 
+What now? E
+You are on a paved path which leads east-west beside the garden, its pale
+stones cracked and flaking. You can see a compost heap, spilling onto the
+path.
+What now? EXAMINE HEAP
+You find a silver coin.
+Something slaps the coin from your hand! 
+What now? EXAMINE HEAP 
+You find a mushroom ring.
+What now? EAT MUSHROOM 
+Your vision clears and you realise that there is someone here! 
+What now? LOOK
+You are on a paved path which leads east-west beside the garden, its pale
+stones cracked and flaking. You can see a silver coin, a compost heap,
+spilling onto the path and the Tooth Fairy.
+What now? E
+You are in a carport with an examination pit sunk into the floor. Dark, oily
+marks stain the dry ground, and there is a strong smell of petrol. You can
+see a red Porsche.
+What now? EXAMINE CAR
+You find a gallon petrol can.
+OK. 
+What now? GET PETROL
+You already have a gallon petrol can.
+What now? D
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see a fine golden hourglass, huge
+cogs numbered 1 to 9 and a massive pendulum, hanging from the ceiling.
+What now? DROP AXE
+OK. 
+What now? DROP METRONOME
+OK. 
+What now? DROP LODESTONE
+OK. 
+What now? DROP VALERIAN
+OK. 
+What now? DROP CASE
+OK. 
+What now? DROP TEAR
+OK. 
+What now? TURN COG 2
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are standing on splintered ice in a deep valley. The sky is very grey
+and an icy wind howls dejectedly across the glacier, its gusts like icy
+needles against your skin. Fell voices echo from the faraway hills. 
+What now? N
+You are walking unsteadily across a slippery ice sheet, whose treacherous
+pits and ridges are hidden beneath a light dusting of snow. 
+What now? NE
+You are where a rocky track leads up the mountain, snaking across the steep,
+white slopes in icy, hairpin curves. 
+What now? W
+You are at the edge of the ice, where drifting snow has banked up at the
+foot of the mountains, making walking a misery. It reaches up to your
+thighs, dragging at your legs with icy hands as you flounder through it. You
+can see a jumble of dry wood, half-buried in the ice and a woolly mammoth
+blocking your escape.
+What now? POUR PETROL
+You pour out the petrol and fling the can away. 
+What now? LIGHT MATCH
+WHOOSH! The petrol burns away in a sheet of roaring flame! The mammoth is so
+surprised that it jumps clean out of its skin and gallops off, goosebumps
+quivering. 
+What now? LIGHT PETROL 
+You can't. 
+What now? GET * TUSK *
+OK. 
+What now? GET COAT
+OK. 
+What now? WEAR COAT 
+OK. 
+What now? E
+You are where a rocky track leads up the mountain, snaking across the steep,
+white slopes in icy, hairpin curves. 
+What now? U
+You are laboriously climbing the snow-covered mountain, your fingers and
+toes numb with cold. Your hands are bruised from bashing against stones as
+you scrabble for a hold, and your feet continually slide out from under you
+on the icy surface. 
+What now? U
+You are in an armchair-shaped hollow on the mountainside, below a cave with
+a ledge running outside its mouth. You can see a meaty bone lying on
+blood-stained snow.
+What now? GET BONE
+OK. 
+What now? U 
+You are on a ledge outside an odoriferous cave, whose smell fairly leaps out
+to meet you. You can see a sabre-toothed tiger.
+What now? OPEN TIN
+The vile stench of whalemeat assails your nostrils. 
+What now? GIVE TIN 
+The tiger gulps down the food greedily and purrs at you. 
+The tiger purrs deafeningly. 
+What now? GET TOOTH
+The bad tooth comes loose easily and drops into your hand. The tiger beams
+happily, rubs its head affectionately against your leg, and trots away. 
+What now? LIGHT MATCH
+It burns well. 
+What now? LIGHT CANDLE
+It burns well. 
+What now? IN
+You are in a huge subterranean chamber with smooth walls, its limits out of
+sight in the surrounding darkness. 
+What now? S
+You are in the freezing cave, where ice crusts the walls, glittering like
+diamonds. You can see a little icicle hanging from the ceiling.
+What now? SHOUT 
+Noisy little beggar, aren't you! The din shakes the icicle loose. 
+What now? GET ICICLE
+OK. 
+What now? N
+You are in a huge subterranean chamber with smooth walls, its limits out of
+sight in the surrounding darkness. 
+What now? E
+You are at a junction. 
+The match goes out. 
+What now? E
+You are in a silver fox lair, its floor strewn with long, white,
+black-tipped hairs. You can see a silver fox.
+What now? GIVE BONE 
+The fox grabs the bone and slinks off, leaving you thinking uncharitable
+thoughts about traps and the current market value of silver fox furs. 
+What now? E
+You are in the silver-veined cave, so-called because its dark walls are shot
+with veins of the purest silver ore, glimmering with a pallid light. You can
+see a wall of ice blocking the way south.
+What now? HIT WALL 
+The ice wall shatters, tinkling melodically as it falls. 
+What now? S
+You are in the hidden silver vault, a large cube carved out of living rock
+by long-dead hands. You can see a silver candelabra.
+What now? GET CANDELABRA
+OK. 
+What now? N
+You are in the silver-veined cave, so-called because its dark walls are shot
+with veins of the purest silver ore, glimmering with a pallid light. There's
+a hole to the south. 
+What now? W
+You are in a silver fox lair, its floor strewn with long, white,
+black-tipped hairs. 
+What now? S
+You are in the frozen forest, amid tall, snow-laden trees, bowed down
+beneath their chilly burden. Every now and then, a branch rids itself of its
+load of snow with a soft "flump". You can see a clear lake of super-cold
+water blocking the way to the northwest.
+What now? THROW ICICLE 
+OK. Crackling ice radiates from the icicle as the super-cold lake water
+freezes around it. 
+What now? NW
+You are in an intricate alpine garden, filled with carefully-tended plants.
+Here are silver-furry eidelweiss and radiant blue gentians, delicate violets
+and tiny yellow irises; tall foxgloves with tiny, brown-spotted,
+white-and-gold flowers, and a delicate, purple primula. 
+What now? NW
+You are in a miniature throne room. A crack in the ice leads south. A tiny
+gilded throne, studded with diamonds, stands at one end; and graceful
+pillars curve up to the vaulted roof, barely ten feet high. You can see a
+cube of ice round the throne.
+What now? SMASH CUBE 
+The ice cube shatters, freeing the Snow Queen. "Thank you". she breathes,
+her voice as lilting as the cold winds which play among the glimmering snow
+vaults of Seracia. She takes a finely-wrought sword from beneath the folds
+of her robe, touches both your shoulders lightly with its glinting blade,
+and glides away. 
+What now? S
+You are beside a glinting ice tunnel, whose translucent walls contain a
+pallid heart of fire. 
+What now? IN
+You are a little way into an ice tunnel: the walls glow faintly with
+reflected light, their cold fires dimmed. 
+What now? W
+You are a long way along a dim ice tunnel. Faint colours glimmer deep in the
+translucent walls, like a forgotten echo of former fires. 
+What now? D
+You are deep in a dark ice tunnel, with a passage leading downwards. 
+What now? D
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see a diamond teardrop, a jewellery
+case, a fine golden hourglass, a fine metronome, a stalk of valerian, a
+sharp axe, a carved lodestone, huge cogs numbered 1 to 9 and a massive
+pendulum, hanging from the ceiling.
+What now? DROP SPEAR
+OK. 
+What now? DROP OPENER
+OK. 
+What now? DROP TUSK
+OK. 
+What now? DROP CANDELABRA
+OK. 
+What now? DROP PICK
+OK. 
+What now? TURN COG 1
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are at the end of a gravel drive which bends to the southwest. The
+grassy lawns beside the drive are edged with the vibrant colours of summer
+flowers. A narrow country road runs north-south and the buzzing of bees
+fills the warm air. 
+What now? W
+You are on a winding gravel drive whose edges are planted with lavender
+bushes, full of bees and butterflies. From all over the garden comes the hum
+of toiling insects. 
+What now? W
+You are outside a delightful half-timbered country cottage, its pale pink
+walls covered with trailing sprays of red and white roses. Fragrant herbs
+grow beneath its windows. 
+What now? OPEN DOOR
+The door swings open. 
+What now? W
+The door closes behind you. 
+You are in a bright hallway at the foot of a carpeted stairway. Dust-flecked
+beams of sunlight play upon the rich blue treads, and waken golden lights in
+the carved wooden banisters. 
+What now? W
+You are in the living room, a long comfortable room decorated with autumn
+shades of brown and gold. A patio door leads out to the garden, sunshine
+streaming through its leaded panes. 
+What now? OPEN DOOR
+The door swings open. 
+What now? W
+The door closes behind you. 
+You are on a patio, dotted with urns of flowers. A crazy-paving path winds
+southwest across the lawn to a garden shed. The garden ends at a wooden
+fence. 
+What now? SW
+You are outside a garden shed whose timbers are pungent with sun-heated
+creosote. Ants run busily up and down its sides. 
+What now? E
+You are at a red-painted garden gate which opens onto a paved path leading
+east. Blades of grass and sweet-smelling camomile grow in the cracks between
+the stones. 
+What now? E
+You are on a paved path which leads east-west beside the garden, its pale
+stones cracked and flaking. You can see a silver coin, a compost heap,
+spilling onto the path and the Tooth Fairy.
+What now? GIVE TOOTH
+The tooth fairy examines it closely and says, "This isn't our usual kind of
+tooth. It's huge!" Her eyes flicker as she continues, "Tell you what, I'll
+swap it for one silver coin. Is that a deal?" 
+NO 
+"Mmm. Well, perhaps I could throw in a firefly as well. OK?" 
+YES
+The fairy takes your tooth and flits away, giggling so hard that it crosses
+your mind to wonder whether the dear little soul may have just ripped you
+off. 
+What now? E
+You are in a carport with an examination pit sunk into the floor. Dark, oily
+marks stain the dry ground, and there is a strong smell of petrol. You can
+see a red Porsche.
+What now? D
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see a diamond teardrop, an ivory
+tusk, a jewellery case, a fine golden hourglass, a fine metronome, a Masai
+spear, a stalk of valerian, a sharp axe, a silver candelabra, a carved
+lodestone, an opener, a grubby pick, huge cogs numbered 1 to 9 and a massive
+pendulum, hanging from the ceiling.
+What now? DROP COIN
+OK. 
+What now? TURN COG 3
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are standing below a small hill rising from a lush green grassy valley.
+There is an opening in the hillside. Far to the east is a watering hole,
+surrounded by grazing animals. A hazy shimmer of heat rises above the plain.
+
+What now? E
+You are west of the waterhole. The grazing animals watch you with interest:
+some of them look very large. 
+What now? E 
+You are by a pool of muddy water. The grazing dinosaurs walk slowly away as
+you approach, their lumbering feet making the ground shake. You can see a
+Tyrannosaurus Rex.
+The dinosaur approaches menacingly, shaking the ground with every step of
+its gigantic feet. 
+What now? W
+You are west of the waterhole. The grazing animals watch you with interest:
+some of them look very large. You can see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly, shaking the ground with every step of
+its gigantic feet. 
+What now? W
+You are standing below a small hill rising from a lush green grassy valley.
+There is an opening in the hillside. Far to the east is a watering hole,
+surrounded by grazing animals. A hazy shimmer of heat rises above the plain.
+You can see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly, shaking the ground with every step of
+its gigantic feet. 
+What now? W
+You are west of the hill. The sun beats warm upon your shoulders. You can
+see a Tyrannosaurus Rex.
+The dinosaur approaches menacingly, shaking the ground with every step of
+its gigantic feet. 
+What now? W 
+You are on the prairie, and a small breeze chases hither and thither among
+the tall grass, so that it ripples and whispers like a wide, green sea. You
+can see an Allosaurus and a Tyrannosaurus Rex.
+The dinosaur approaches menacingly, shaking the ground with every step of
+its gigantic feet. 
+The killer dinosaurs meet, stare furiously and leap for each others'
+throats, bellowing with rage. They certainly aren't worried about puny
+humans any more! You hug the ground as they grapple and roll into the
+distance. 
+What now? W
+You are in a deep pit, presumably an animal trap, and it is by the purest
+good fortune that you have missed being impaled on the sharp, fire-blackened
+stakes that surround you. You can see a bunch of green leaves scattered
+about, a mirror half-buried in the earth and a Brontosaurus peering down
+from above.
+What now? GET LEAVES
+OK. 
+What now? GET MIRROR
+OK. 
+What now? GIVE LEAVES 
+The brontosaurus grabs the leaves and jerks them into the air, carrying you
+out of the pit! 
+You are by the edge of the pit. You can see a Brontosaurus.
+What now? WAVE MIRROR 
+The air shimmers. 
+You are by the edge of the pit. 
+What now? E
+You are climbing a well-worn path, its dusty surface rutted by the passage
+of many feet. 
+What now? U
+You are on a wide ledge outside a warm cave, high up on the hillside. 
+What now? IN
+You are in a large dry cave, warmed by a blazing fire and clouded by
+billowing smoke. You can see a group of cavemen.
+What now? DROP MIRROR 
+OK. Oops! Butter-fingers! It smashes to smithereens. From the debris appears
+a Brontosaurus.
+It wanders away and, with terrified yells, the cavemen scamper off in every
+direction. 
+What now? N
+You are in a store cave, filled with roughly-cured hides, deers' antlers and
+large chalk-covered nodules of unworked flint. You can see a dinosaur egg
+balanced precariously on a shelf.
+What now? GET * EGG *
+OK. 
+What now? NE
+You are in the stone age armoury, stacked with an impressive array of stone
+axes, spears, knives, bows and arrows. You can see a stone club.
+What now? GET CLUB
+OK. 
+What now? NW
+You are in the smallest cave where a rudely-fashioned wooden seat hangs over
+a small crevasse. A pile of soft leaves lies beside the seat, and a thin
+trickle of water runs perpetually from a hole near the roof. 
+What now? W
+You are in the junk-strewn pebble and shell room where the cave people make
+cheap gifts for barter with travellers. You can see a painted pebble.
+What now? GET PEBBLE
+OK. 
+What now? SE
+You are in the painting studio. Clearly minimalism is all the rage, and
+matchstalk men chase matchstalk mammoths across the walls. 
+What now? N
+You are in the trophy cave. Skeleton heads hang from the walls - some of
+them human. You can see an animated cave skeleton.
+What now? THROW PEBBLE 
+OK. The skeleton collapses in a heap of dry bones. A little cloud of dust
+drifts into the air and floats away. 
+What now? E
+You are in the treasure vault, an echoing limestone chamber. You can see an
+onyx figurine.
+What now? GET FIGURINE
+OK. 
+What now? W
+You are in the trophy cave. Skeleton heads hang from the walls - some of
+them human. You can see a painted pebble.
+What now? SE
+You are crossing a rickety wooden bridge over an exceedingly deep crevasse;
+its timbers groan beneath your weight. You can see a caveman dragging a
+struggling cavewoman by her hair.
+What now? THROW CLUB 
+OK. The vile caveman is knocked off the bridge and falls shrieking into the
+gulf beneath. The rescued woman thanks you profusely and presses something
+into your hand. 
+What now? S
+You are in the invention room. You find a cartoon of a man in a bath on one
+wall, and find the cryptic slogan, "backwardness can make rueful". 
+What now? SAY EUREKA
+The door swings open. 
+What now? IN
+The door closes behind you. 
+You are in the invention alcove: "JWAAMTETS (5,4 inventor)" is inscribed
+high on one wall, and the rest of the contents are equally incomprehensible.
+
+What now? SAY JAMES WATT 
+The door swings open. 
+What now? IN
+The door closes behind you. 
+You are in a small recess which sounds hollow underfoot. You can see the
+first wheel propped up in a corner.
+What now? GET WHEEL
+OK. 
+What now? D
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see a diamond teardrop, an ivory
+tusk, a jewellery case, a fine golden hourglass, a fine metronome, a Masai
+spear, a stalk of valerian, a sharp axe, a silver candelabra, a silver coin,
+a carved lodestone, an opener, a grubby pick, huge cogs numbered 1 to 9 and
+a massive pendulum, hanging from the ceiling.
+What now? DROP WHEEL
+OK. 
+What now? DROP EGG
+OK. 
+What now? DROP FIGURINE
+OK. 
+What now? TURN COG 4
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are on a beach in a small bay surrounded by overhanging cliffs. Breakers
+roll in from the sea to the north, rocking the Viking longship drawn up on
+the sand to the north of you. 
+What now? N
+You are at the edge of the sea where little wavelets ripple on the sand, and
+the seagulls mewl. You can see a moored Viking longship with a fierce dragon
+prow and a shivering Viking guard.
+What now? GIVE COAT 
+The Viking is delighted by the warm fur. He throws it over his shoulders and
+prances around, admiring himself in the polished surface of his shield. He
+gives you his lur in exchange. "There is a reward for capturing the pirate",
+he says. 
+What now? SE
+You are between the sea and towering cliffs, which, when you look up at
+them, and the scudding clouds in the sky beyond, seem about to topple. 
+What now? E
+You are in an empty cave. 
+What now? E
+You are in an old, musty, dry cave floored with very soft earth. 
+What now? DIG
+You are in an old, musty, dry cave floored with very soft earth. 
+You're in a hole. 
+What now? DIG
+You find a scrap of parchment.
+OK. 
+You are in an old, musty, dry cave floored with very soft earth. 
+You're in a deep hole. 
+What now? GET PARCHMENT
+You already have a scrap of parchment.
+What now? READ IT 
+Written on it in a scrawly, hurried hand are the words: 
+"To the sunset you must go, 
+keeping high and never low. 
+In a sheltered, hidden cove 
+you will find a treasure trove. 
+Pitfalls you are sure to meet, 
+you may even get wet feet!, 
+But in the end you're sure to greet 
+that frightful scoundrel, Pirate Pete!" 
+ 
+Below this is the remains of a map, but most of it has been torn away and
+what is left is useless. 
+What now? DROP IT
+OK. 
+What now? W
+You are in an empty cave. 
+What now? SW
+You are in a low cave smelling of seaweed, and still, salty air. The echoes
+of the waves resonate eerily from the moisture-slick walls. You can see a
+rocking boulder to the west.
+What now? PUSH STONE
+It rolls away. 
+What now? W
+You are walking along a sloping east-west passage. The ground is very damp
+and seaweed clings to the walls. 
+What now? W
+You are further along the damp passage, beside the entrance to a small cave.
+
+What now? W
+You are in a hands and knees crawl. An opening slopes down to the north. 
+What now? W
+You are at a junction between the tunnel and a vertical fissure. 
+What now? U
+You are in a tight fissure, jagged, sharp rocks pressing into your chest and
+back. 
+What now? U
+You are above the hole, in a cave which shows signs of habitation: the ashes
+from a recent fire smoulder acridly. 
+What now? E
+You are in the pirate's hideout, a filthy tip of a place that smells of
+rotting shellfish. You can see a huge iron-bound chest.
+What now? OPEN CHEST 
+The chest opens and a bearded rogue leaps out: "Ahoy there, me hearty! Oi be
+Pirate Pete what gets me pleasure from robbin' weary travellers like 'ee!"
+Pirate Pete steals a bunch of keys.
+What now? BLOW LUR 
+The lur booms out, its extraordinary harmonics reverberating through the
+air. It is answered by fierce shouts and yelling, the stamp of marching feet
+and the rattle of many weapons. A dozen Vikings surge into view. They fall
+upon the pirate and bind his hands tightly. Then, tying a rope around his
+neck, the Vikings lead him away, pausing only to hand you an olive branch,
+with their thanks. 
+What now? IN
+You are in the large, empty chest. You can see a bunch of keys and a
+recessed handle.
+What now? GET KEYS 
+OK. 
+What now? PULL HANDLE
+The ground under your feet gives way. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see a diamond teardrop, an ivory
+tusk, a dinosaur egg, a jewellery case, a fine golden hourglass, a fine
+metronome, a Masai spear, a stalk of valerian, the first wheel, a sharp axe,
+a silver candelabra, a silver coin, an onyx figurine, a carved lodestone, an
+opener, a grubby pick, huge cogs numbered 1 to 9 and a massive pendulum,
+hanging from the ceiling.
+What now? DROP LUR
+OK. 
+What now? DROP BRANCH
+OK. 
+What now? TURN COG 5
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are at the end of a road leading north. High stone walls block the view
+to east and west, and its surface is dusty and strewn with stones. 
+What now? N
+You are at a bend in the walled road. You can see a milestone beside the
+road.
+What now? GET MILESTONE
+OK. 
+What now? E
+You are on the road, which now cuts across a small village green. To the
+north is a little mediaeval ale-house with wattled walls and a thatched
+roof. 
+What now? OPEN DOOR
+The door swings open. 
+What now? N
+The door closes behind you. 
+You are in the bar a grubby room with straw on the floor; and a liberal
+spattering of rat droppings on the stained bar top - not at all the sort of
+place you usually frequent. You can see a cask of ale on a rough wooden
+table and a rotund bartender.
+What now? GIVE NUGGET
+The innkeeper's eyes light up as he struggles to lift the gold. "OK", he
+says nonchalantly, "I'm robbing myself really, but I'll let you take the ale
+if you want". 
+What now? GET ALE
+OK. 
+What now? OPEN DOOR
+The door swings open. 
+What now? S
+The door closes behind you. 
+You are on the road, which now cuts across a small village green. To the
+north is a little mediaeval ale-house with wattled walls and a thatched
+roof. 
+What now? E
+You are on a cobbled street leading past a dense copse to a splendid castle
+visible in the east, its grey stone walls shining in the afternoon sun. 
+What now? E
+You are in the cobbled square west of the castle. There are pillories and a
+pair of stocks, surrounded by a jeering crowd, who are happily lobbing
+rotten tomatoes, eggs, hard green apples and anything else they can get
+their hands on. You can see a rotten apple rolling on the ground and an
+unfortunate wretch in the stocks.
+What now? E
+You are in front of the imposing castle entrance. The drawbridge is raised
+and the moat looks extremely deep and smelly. You can see a thirsty
+messenger of the King.
+What now? GIVE ALE 
+"Thank you, thank you, thank you a thousand times, good traveller!" says the
+messenger, gulping at the ale. "Methought I was nigh spent from thirst". He
+drinks every last drop and gratefully shares some of his food with you. 
+What now? W
+You are in the cobbled square west of the castle. There are pillories and a
+pair of stocks, surrounded by a jeering crowd, who are happily lobbing
+rotten tomatoes, eggs, hard green apples and anything else they can get
+their hands on. You can see a rotten apple rolling on the ground and an
+unfortunate wretch in the stocks.
+What now? W
+You are on a cobbled street leading past a dense copse to a splendid castle
+visible in the east, its grey stone walls shining in the afternoon sun. 
+What now? N
+You are in the copse, which has been invaded by tangled masses of
+rhododendron that makes movement difficult. 
+What now? E
+You are deep in the copse. The dense tangle of twigs and branches catches in
+your clothes and pulls your hair. 
+What now? E
+You are in the copse, struggling through the tangled undergrowth, your hands
+scratched and bleeding. You can see a genuine fire-breathing dragon.
+What now? GIVE FOOD 
+The dragon eats the food ravenously, apparently oblivious to the gouts of
+flame which periodically belch from his mouth. "Thanks pal, that was
+delish". he says finally. "Could have done with a bit more charcoal and
+mustard, though". 
+"I think I'll go for a little fly now, to work this lot off. Would you like
+to come along for a ride?" 
+YES 
+The dragon lets you climb on to his shoulders and you flap merrily back the
+way you came until you reach the edge of a wide moat surrounded by a high,
+turfed bank. The dragon tries to fly over it, but he is, unfortunately, a
+very SMALL genuine fire-breathing dragon, and not really equipped for this
+sort of thing. He gives a despairing whimper (incinerating a couple of wasps
+and a bluebottle who had been dreamily tootling along wondering where to
+stand for dinner), and belly-flops into the water. There is a horrible
+hissing noise, strongly reminiscent of an awful lot of water being poured
+over hot coals, and a soggy cloud of black smoke and steam squelches to the
+bank. The dragon coughs and slinks away miserably. 
+You are standing in ankle-deep, scummy water below the south bank of the
+moat, savouring the heady stench that glurps up from its muddy bottom. You
+can see a little dragon's wing and a green frog sitting on a lily pad.
+What now? GET * WING *
+OK. 
+What now? KISS FROG 
+There is a puff of slimy smoke and the frog turns into a handsome prince. He
+sneezes a couple of times. "Ghastly smoke they use round here" he remarks
+chattily. 
+What now? GIVE SWORD
+"Ta, love". 
+What now? S
+You are at the castle entrance, between two tall battle-scarred towers. The
+sinister mouth of a murder hole opens in the arch above your head, and the
+cold grey stones are dank and forbidding. You can see a fair prince.
+What now? IN
+You are in the courtyard within the castle walls. Battered armour and
+notched swords litter the blood-soaked ground. The Keep stands open to the
+southeast, and the air is unnaturally still. You can see a rugged gauntlet
+in the dust and a fair prince.
+What now? GET GAUNTLET
+OK. 
+What now? WEAR IT
+OK. 
+What now? SE
+You are in a small stone room at the Keep entrance. There is a hole in one
+wall through which everyone entering or leaving the living quarters can be
+secretly vetted. You can see a fair prince.
+What now? W
+You are in the armoury, a long, high-ceilinged room with a stone flagged
+floor. You can see a battered suit of armour hanging on the wall and a fair
+prince.
+What now? GET ARMOUR
+OK. 
+What now? WEAR IT
+OK. 
+What now? S
+You are in the rush-strewn Great Hall. A sweet scent rises as you crush the
+rushes underfoot, and you realize that fragrant herbs have been mixed among
+them. You can see the Black Knight and a fair prince.
+Armour clanking, the Black Knight strides forwards. 
+What now? WAIT
+Time goes by . . . . . 
+The Black Knight draws his sword, the wicked blade hissing as it leaves the
+scabbard. 
+What now? WAIT 
+Time goes by . . . . . 
+The Black Knight springs to the attack, his sword slashing through the air.
+Fortunately your armour deflects his blows. With a heroic yell, the prince
+leaps to your defence and with one, mighty blow, slays the evil Black
+Knight. Carefully, he cleans his blade, nods to you, then hefts the body
+over his shoulder and carries it away. 
+What now? W
+You are above a narrow flight of stairs, shrouded in darkness. 
+What now? D
+You are descending the steep stairs, which shine with moisture and are
+stained with patches of livid green algae. 
+What now? D
+You are in the dungeons, which are dismal, dank and depressing. There's a
+red cross on the wall and the earth floor looks disturbed. 
+What now? DIG
+You are in the dungeons, which are dismal, dank and depressing. There's a
+red cross on the wall and the earth floor looks disturbed. 
+You're in a hole. 
+What now? DIG
+You find a jewelled coffer.
+OK. 
+You are in the dungeons, which are dismal, dank and depressing. There's a
+red cross on the wall and the earth floor looks disturbed. 
+You're in a deep hole. 
+What now? GET COFFER
+You already have a jewelled coffer.
+What now? DIG
+The ground under your feet gives way. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see an olive branch, a diamond
+teardrop, an ivory tusk, a dinosaur egg, a jewellery case, a fine golden
+hourglass, a fine metronome, a Masai spear, a stalk of valerian, the first
+wheel, a sharp axe, a silver candelabra, a silver coin, an onyx figurine, a
+carved lodestone, a lur, an opener, a grubby pick, huge cogs numbered 1 to 9
+and a massive pendulum, hanging from the ceiling.
+What now? DROP WING
+OK. 
+What now? DROP COFFER
+OK. 
+What now? DROP MILESTONE
+OK. 
+What now? TURN COG 6
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are in the entrance porch of an impressive country house with exposed
+oak beams. 
+What now? N
+You are in a u-shaped hallway with doors to east and west. A magnificent
+staircase sweeps upwards to a gallery above, its wood glowing like golden
+honey. 
+What now? W
+You are at the north end of the banqueting hall, on a large dais, raised
+some four feet above the rest of the room. 
+What now? S
+You are at the south end of the hall where dust motes dance in a beam of
+sunlight. You can see a drinking horn on a table and some sweetmeats on a
+carved sideboard.
+What now? GET SWEETMEATS
+OK. 
+What now? GET HORN
+OK. 
+What now? N
+You are at the north end of the banqueting hall, on a large dais, raised
+some four feet above the rest of the room. 
+What now? E
+You are in a u-shaped hallway with doors to east and west. A magnificent
+staircase sweeps upwards to a gallery above, its wood glowing like golden
+honey. 
+What now? E
+You are at the north end of a long room used for relaxation. 
+What now? S
+You are at the south end of the long room, between two tables. You can see a
+pack of playing cards on a green-baize table and a silver bell.
+What now? GET CARDS
+OK. 
+What now? GET BELL
+OK. 
+What now? RING BELL 
+A jester appears, wringing his hands, his head drooping dejectedly: "The
+Lord of Misrule is displeased, for I have mislaid one of the tools of my
+trade. Hast thou seen it?" 
+What now? SHUFFLE CARDS 
+You find the joker of the pack.
+OK. 
+What now? GET JOKER
+You already have the joker of the pack.
+What now? GIVE JOKER 
+The Jester capers madly with glee. "A million thanks, good traveller". he
+chortles. Taking off his motley cap, he throws it to you, bells gaily
+jingling, and skips off into the distance. 
+What now? N
+You are at the north end of a long room used for relaxation. 
+The candle flickers. 
+What now? W
+You are in a u-shaped hallway with doors to east and west. A magnificent
+staircase sweeps upwards to a gallery above, its wood glowing like golden
+honey. 
+The candle flickers. 
+What now? U
+You are at the top of the stairway, in the minstrel's gallery. A short
+staircase leads up through the wall, steep and narrow. 
+The candle flickers. 
+What now? U
+You are climbing the short stairs. Several wall panels sound hollow. 
+The candle flickers. 
+What now? U
+You are in the middle of a long east-west portrait gallery. Leaded windows
+overlook the beautiful knot gardens below. 
+The candle flickers. 
+What now? W
+You are at the west end of the portrait gallery. 
+The candle flickers. 
+What now? S
+You are in a bedroom with a four poster bed hung with crimson draperies. You
+can see an oriental rug hanging on the wall.
+The candle flickers. 
+What now? GET RUG
+OK. 
+The candle flickers. 
+What now? S
+You are in the bedroom of the master of the house, a magnificent room done
+in the oriental style, with red lacquered furniture picked out in gold and
+black. You can see an ottoman and two hunting dogs.
+The candle flickers. The dogs notice you and growl quietly. 
+What now? GIVE SWEETMEATS
+The dogs gulp down the delicacies, wag their tails and waddle off for a nap.
+
+The candle flickers. 
+What now? OPEN OTTOMAN
+You are in the bedroom of the master of the house, a magnificent room done
+in the oriental style, with red lacquered furniture picked out in gold and
+black. You can see an ottoman which is open.
+The candle flickers. 
+What now? EXAMINE IT
+You find a jewelled crown.
+OK. 
+The candle flickers. 
+What now? GET CROWN
+You already have a jewelled crown.
+The candle flickers. 
+What now? N
+You are in a bedroom with a four poster bed hung with crimson draperies. 
+The candle flickers. 
+What now? N
+You are at the west end of the portrait gallery. 
+The candle flickers. 
+What now? E
+You are in the middle of a long east-west portrait gallery. Leaded windows
+overlook the beautiful knot gardens below. 
+The candle flickers. It goes out. 
+What now? E
+You are at the east end of the long gallery. 
+What now? S
+You are in a bedroom, hung about with lavender, and with pretty chintz
+curtains. 
+What now? S
+You are in the music room. Straight-backed chairs face empty music stands,
+and a large bookcase is filled with books and sheets of music, in manuscript
+form and all neatly filed and labelled. You can see a lute propped in the
+corner.
+What now? GET LUTE
+OK. 
+What now? N
+You are in a bedroom, hung about with lavender, and with pretty chintz
+curtains. 
+What now? N
+You are at the east end of the long gallery. 
+What now? W
+You are in the middle of a long east-west portrait gallery. Leaded windows
+overlook the beautiful knot gardens below. 
+What now? D
+You are climbing the short stairs. Several wall panels sound hollow. 
+What now? PLAY LUTE 
+A panel moves! 
+You are climbing the short stairs. Several wall panels sound hollow. A
+secret door leads east. 
+What now? E
+You are in a hedge maze, tall, unclipped privet bushes tower above your
+head. 
+What now? W
+You are in a hedge maze, tall, unclipped privet bushes tower above your
+head. 
+What now? W
+You are in a hedge maze, tall, unclipped privet bushes tower above your
+head. 
+What now? SW
+You are in a hedge maze, tall, unclipped privet bushes tower above your
+head. 
+What now? SE
+You are in the middle of the maze, a grassy, open space with a small mound
+in the centre. You can see a twee little well labelled "Water of Strength".
+What now? D
+You are down the well, within reach of the water. 
+What now? DRINK
+That was just what you needed! You feel VERY strong indeed! 
+What now? N
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see an olive branch, a diamond
+teardrop, an ivory tusk, a little dragon's wing, a dinosaur egg, a jewellery
+case, a fine golden hourglass, a fine metronome, a milestone, a Masai spear,
+a stalk of valerian, the first wheel, a sharp axe, a silver candelabra, a
+jewelled coffer, a silver coin, an onyx figurine, a carved lodestone, a lur,
+an opener, a grubby pick, huge cogs numbered 1 to 9 and a massive pendulum,
+hanging from the ceiling.
+What now? DROP RUG
+OK. 
+What now? DROP LUTE
+OK. 
+What now? DROP CROWN
+OK. 
+What now? DROP BELL
+OK. 
+What now? GET COIN
+OK. 
+What now? TURN COG 7
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are on a starlit plain which stretches for many miles. It is covered by
+fine grey dust. The night air is cold. Luminous walkways travel east and
+west. 
+What now? W
+You are at a walkway junction. The curving walkways arc into the darkness,
+their flimsy spans twinkling with pale light. 
+What now? W
+You are at the Intergalactic Bureau-de-Change. You can see a galactic groat
+and a splendid android.
+What now? GIVE COIN 
+The android exchanges your coin for a galactic groat. 
+What now? E
+You are at a walkway junction. The curving walkways arc into the darkness,
+their flimsy spans twinkling with pale light. 
+What now? N
+You are at the foot of the Milky Way, a long sparkling pathway which soars
+upwards into space. 
+What now? U
+You are halfway up the Milky Way and the star-fields glimmer all around you.
+
+What now? U
+You are at the top of the Milky Way, amid a sea of brightly twinkling stars.
+You can see a fallen star glowing white-hot.
+What now? GET STAR 
+OK. 
+What now? D
+You are halfway up the Milky Way and the star-fields glimmer all around you.
+
+What now? D
+You are at the foot of the Milky Way, a long sparkling pathway which soars
+upwards into space. 
+What now? S
+You are at a walkway junction. The curving walkways arc into the darkness,
+their flimsy spans twinkling with pale light. 
+What now? E
+You are on a starlit plain which stretches for many miles. It is covered by
+fine grey dust. The night air is cold. Luminous walkways travel east and
+west. 
+What now? E
+You are at a walkway junction on the grey plain. 
+What now? N
+You are at the end of the north walkway. If you continue it will be on foot.
+
+What now? N
+You are perched on a floating metal platform, suspended in mid-air. To the
+north is a starship, the sharp contrast between light and dark cutting its
+squat shape in half. 
+What now? OPEN DOOR
+The door swings open. 
+What now? N
+The door closes behind you. 
+You are inside the starship, which is decorated in really exciting shades of
+pus yellow, gan green, and bile brown. 
+What now? W
+The water cools the star in a cloud of hissing steam. 
+You are in a space swimming pool, splashing around on a colossal water drop
+which wobbles around uncertainly in mid-air. You can see an emerald.
+What now? GET EMERALD
+OK. 
+What now? E
+You are inside the starship, which is decorated in really exciting shades of
+pus yellow, gan green, and bile brown. 
+What now? N
+You are in a green sleep room which would be really cozy if you were a
+tapeworm. You can see an old mattress and a grapple-firing rocket.
+What now? GET MATTRESS
+OK. 
+What now? GET ROCKET
+OK. 
+What now? S
+You are inside the starship, which is decorated in really exciting shades of
+pus yellow, gan green, and bile brown. 
+What now? OPEN DOOR
+The door swings open. 
+What now? S
+The door closes behind you. 
+You are perched on a floating metal platform, suspended in mid-air. To the
+north is a starship, the sharp contrast between light and dark cutting its
+squat shape in half. 
+What now? S
+You are at the end of the north walkway. If you continue it will be on foot.
+
+What now? S
+You are at a walkway junction on the grey plain. 
+What now? E
+You are on the edge of a wide crater which was left when a few hundred
+tonnes of classified waste from planet Earth went up with a flash and a bang
+and a mushroom-shaped cloud, nearly getting Earth booted out of the
+Federation in the process. It glows with a fetching blue light. 
+What now? D 
+The mattress breaks your fall. 
+You are in a dull, lifeless crater. High up the west wall is an opening. 
+What now? S
+You are in a long room. A guard stands beside each door, stun-guns cradled
+against their chests. 
+What now? E
+You are in the alcove room. Only one alcove is accessible. You can see a
+lightsabre standing in a rack.
+What now? GET SABRE
+OK. 
+What now? W
+You are in a long room. A guard stands beside each door, stun-guns cradled
+against their chests. 
+What now? S
+You are in a cubicle with metal walls. 
+What now? OPEN DOOR
+The door swings open. 
+What now? W
+The door closes behind you. 
+You are in a room with no roof. An opening is visible far above. You can see
+a glass phial.
+What now? GET PHIAL
+OK. 
+What now? FIRE ROCKET 
+The rocket shoots upwards in a shower of sparks and you climb its rope. 
+You are outside a sports and aerobotics arena, designed for low-grav
+manoeuvres. 
+What now? IN
+You bump your nose painfully against the empty air. "Payment, please",
+chirps a mechanical voice. 
+What now? GIVE GROAT
+"You are authorised to enter". 
+What now? IN
+You are beside a deep tropical pool with clear blue water and exotic plastic
+plants. 
+What now? D
+The mattress breaks your fall. 
+You are in a dark, dingy hole between a ladder and a low tunnel. You can see
+a curved ruby.
+What now? GET RUBY
+OK. 
+What now? U
+You are beside a deep tropical pool with clear blue water and exotic plastic
+plants. 
+What now? OUT
+You are outside a sports and aerobotics arena, designed for low-grav
+manoeuvres. 
+What now? N
+You are in the fencing hall which has an empty smell of hot people and floor
+polish. Racks of foils, rapiers and other swords line the walls. You can see
+a fierce cyberman waving a sword.
+What now? KILL CYBERMAN 
+Your lightsabre makes short work of the cyberman - reducing him from seven
+feet tall to two in seconds. Electricity arcs through the debris, while his
+legs stomp off through a wall, leaving the burned-out body whirring on the
+floor. 
+What now? E
+You are in a robot repair shop, surrounded by all kinds of electrical and
+solid-state junk, most of which are beyond your comprehension. You can see a
+silicate workbench.
+What now? EXAMINE WORKBENCH
+You find a delicate little screwdriver.
+OK. 
+What now? GET SCREWDRIVER
+You already have a delicate little screwdriver.
+What now? W
+You are in the fencing hall which has an empty smell of hot people and floor
+polish. Racks of foils, rapiers and other swords line the walls. You can see
+a jumble of broken robots.
+What now? OPEN ROBOTS 
+The cover of an inspection panel flips open, narrowly missing your face. 
+What now? EXAMINE ROBOTS 
+You find a silicon chip.
+OK. 
+What now? DROP CARDS
+OK. 
+What now? GET * CHIP *
+You already have a silicon chip.
+What now? S
+You are outside a sports and aerobotics arena, designed for low-grav
+manoeuvres. 
+What now? IN
+You are beside a deep tropical pool with clear blue water and exotic plastic
+plants. 
+What now? D
+The mattress breaks your fall. 
+You are in a dark, dingy hole between a ladder and a low tunnel. 
+What now? D
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see an olive branch, a diamond
+teardrop, an ivory tusk, a little dragon's wing, a dinosaur egg, an oriental
+rug, a jewellery case, a fine golden hourglass, a lute, a fine metronome, a
+milestone, a Masai spear, a stalk of valerian, the first wheel, a sharp axe,
+a silver bell, a silver candelabra, a jewelled coffer, a jewelled crown, an
+onyx figurine, a carved lodestone, a lur, an opener, a grubby pick, huge
+cogs numbered 1 to 9 and a massive pendulum, hanging from the ceiling.
+What now? DROP RUBY
+OK. 
+What now? DROP SCREWDRIVER
+OK. 
+What now? DROP CHIP
+OK. 
+What now? DROP MATTRESS
+OK. 
+What now? DROP STAR
+OK. 
+What now? DROP EMERALD
+OK. 
+What now? TURN COG 8
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are on a road leading north through the gates of a walled city, its
+surface paved with meticulously cut and placed stone flags. You can see two
+Roman sentries beside the gate.
+What now? N
+You are just inside the gates, at a junction. 
+What now? W
+You are on the steps of a small temple. Stone columns support the lintel
+over its doorway and, all around, caryatids stare sightlessly from beneath
+their stone urns. 
+What now? IN
+You are inside the temple, which contains shrines to many gods. 
+What now? KNEEL
+OK. 
+What now? PRAY 
+The god Mercury appears in a puff of celestial smoke. He sneezes solemnly,
+and hands you a pair of winged sandals. 
+What now? WEAR SHOES
+OK. 
+What now? E
+You are on the steps of a small temple. Stone columns support the lintel
+over its doorway and, all around, caryatids stare sightlessly from beneath
+their stone urns. 
+What now? E
+You are just inside the gates, at a junction. 
+What now? NE
+You are at a road junction. 
+What now? E
+You are in a spartan barracks, beside an iron-bound locker. 
+What now? IN
+You are inside the locker where soldiers store their weapons. You can see a
+weighted net and a long trident.
+What now? GET NET
+OK. 
+What now? GET TRIDENT
+OK. 
+What now? OUT
+You are in a spartan barracks, beside an iron-bound locker. 
+What now? W
+You are at a road junction. 
+What now? SW
+You are just inside the gates, at a junction. 
+What now? N
+You are on a long straight road north of the gatehouse. Around you are the
+buildings of a small garrison town; mud huts for the most part, with the
+occasional low, stone villa housing an official or ranking officer. Where
+the road passes through the shopping areas, it is sunk below the pavement,
+with stepping-stones placed at regular intervals so that citizens can cross
+to the other side without falling into the swill of refuse and dung that
+covers its surface. The stones are carefully placed so that cart and chariot
+wheels can - just - run between them. 
+What now? N
+You are in the forum: an open courtyard surrounded by buildings. 
+What now? N
+You are in the deserted treasury. You can see a golden buckle.
+What now? GET BUCKLE 
+A gladiator steals the buckle and flees south to the arena! 
+What now? S
+You are in the forum: an open courtyard surrounded by buildings. 
+What now? S
+You are on a long straight road north of the gatehouse. Around you are the
+buildings of a small garrison town; mud huts for the most part, with the
+occasional low, stone villa housing an official or ranking officer. Where
+the road passes through the shopping areas, it is sunk below the pavement,
+with stepping-stones placed at regular intervals so that citizens can cross
+to the other side without falling into the swill of refuse and dung that
+covers its surface. The stones are carefully placed so that cart and chariot
+wheels can - just - run between them. 
+What now? S
+You are just inside the gates, at a junction. 
+What now? S
+You are on a road leading north through the gates of a walled city, its
+surface paved with meticulously cut and placed stone flags. You can see two
+Roman sentries beside the gate.
+What now? S
+You are outside the north entrance of an amphitheatre: an enormous circular
+building made from gleaming marble and decorated with heroic statues. You
+can hear the roar of the crowds inside. 
+What now? W
+The door closes behind you. 
+You are in the arena of the amphitheatre, surrounded by an immense cheering
+crowd. You can see a golden buckle, a massively-muscled gladiator and a
+fierce lion.
+What now? THROW NET
+OK. It entangles the lion in its meshes. 
+What now? THROW TRIDENT 
+OK. The trident pins the net in place, securely imprisoning the lion. 
+What now? GET * BUCKLE *
+OK. 
+What now? OPEN DOOR
+The door swings open. 
+What now? E 
+The door closes behind you. 
+You are outside the north entrance of an amphitheatre: an enormous circular
+building made from gleaming marble and decorated with heroic statues. You
+can hear the roar of the crowds inside. 
+What now? E
+You are on a road leading north through the gates of a walled city, its
+surface paved with meticulously cut and placed stone flags. You can see two
+Roman sentries beside the gate.
+What now? N
+You are just inside the gates, at a junction. 
+What now? NE
+You are at a road junction. 
+What now? NE
+You are in the south end of the caldarium. Steps lead down into a great
+square bath decorated with dolphin mosaics. A pair of flabby praetors are
+floating in the water, splashing and shivering, and slaves pad silently
+about, waiting to attend to your every need. 
+What now? NE
+You are beside a stone dolphin which pours out cold water. You can see a
+marble basin full of water.
+What now? FILL HORN
+OK. 
+What now? S
+You are in the hot baths where, between the drifting steam, you can see
+naked figures cleaning the accumulated sweat and grime from their skins with
+some sort of scraper. You can see a grate in the south wall.
+What now? PULL GRATE
+It comes loose. 
+What now? S
+You are in the hypocaust. 
+What now? SE
+You are in the hypocaust. 
+It's very hot. 
+What now? W
+You are in the hypocaust. 
+You'll die without water! 
+What now? DRINK WATER
+That was just what you needed! 
+What now? W
+You are in the hypocaust. 
+It's very hot. 
+What now? W
+You are in the hypocaust. 
+You'll die without water! 
+What now? S
+The mists of time envelop you.. 
+You are inside a gigantic clock, which smells of old wood, dust and cobwebs.
+It is very gloomy and cramped. You can see an olive branch, a silicon chip,
+a diamond teardrop, an ivory tusk, a little dragon's wing, a dinosaur egg,
+an oriental rug, a jewellery case, a fine golden hourglass, a lute, a fine
+metronome, a milestone, a delicate little screwdriver, a Masai spear, a
+stalk of valerian, the first wheel, a sharp axe, a silver bell, a silver
+candelabra, a jewelled coffer, a jewelled crown, an emerald, an onyx
+figurine, a carved lodestone, a lur, an old mattress, an opener, a grubby
+pick, a curved ruby, a fallen star, huge cogs numbered 1 to 9 and a massive
+pendulum, hanging from the ceiling.
+What now? DROP HORN
+OK. 
+What now? GET BRANCH
+OK. 
+What now? GET EGG
+OK. 
+What now? GET TUSK
+OK. 
+What now? GET TEAR
+OK. 
+What now? GET WING
+OK. 
+What now? GET CHIP
+OK. 
+What now? GET MILESTONE
+OK. 
+What now? TURN COG 9
+The clock strikes! Dust showers from the ceiling and the floor rocks beneath
+your feet. 
+What now? PUSH PENDULUM
+The door swings open. 
+What now? N 
+The door closes behind you. 
+You are in a fair field full of flowers. Butterflies flitter happily in the
+bright sunshine and a heady perfume fills the air. You could be in paradise.
+You could also be excused for thinking it's too good to be true. 
+What now? S
+You are in front of an ugly arch: "ABANDON HOPE ALL YE WHO ENTER HERE" it
+declares, in friendly red-neon letters. You can see a crude black archway.
+What now? DROP MILESTONE 
+OK. 
+With a puff of ancient smoke, Father Time appears. 
+ 
+He sneezes loudly, flapping his wizened hands ineffectually at the pallid
+vapour. "Nasty stuff". he mutters, then clears his throat and draws himself
+up his full height. "Do not be afraid!" he declaims nobly, ruining the
+effect by another fit of sneezing, "What you are about to - ashoo! -
+Witness, is the future as it will be if the Timelords are victorious. Time
+grows short, yet there may still be enough to defeat them". He sniffs and
+blows his nose vigorously into a corner of his robe, then shuffles away.
+The door swings open. 
+What now? S
+The door closes behind you. 
+You are in the Ruined Land. Where trees and grasses once grew is now a
+smouldering wasteland and the sun hangs low: a huge ball of molten red fire.
+The heat is terrible and the ground below your feet quivers as though in
+agony. 
+What now? S
+You are amid the smoking ruins of a small village, its pathetic remains
+hiding who-knows-what tragedies. 
+What now? S
+You are on the brink of a deep crack, which plunges into darkness. 
+What now? D
+You are at the bottom of a deep, earthy pit. The walls are too crumbly to
+climb. 
+What now? W
+You are in a stifling maze of decayed earthy passages, their walls pallid
+with mould. 
+What now? S
+You are in a putrescent chamber that glows faintly with a sickly light. You
+can see a grimy brown bottle poking out of the earth.
+What now? DIG 
+The earth around the bottle is loosened. 
+You are in a putrescent chamber that glows faintly with a sickly light. You
+can see a grimy brown bottle poking out of the earth.
+You're in a hole. 
+What now? DROP SHOVEL
+OK. 
+What now? GET  BOTTLE
+OK. 
+What now? N
+You are in a stifling maze of decayed earthy passages, their walls pallid
+with mould. 
+What now? E
+You are at the bottom of a deep, earthy pit. The walls are too crumbly to
+climb. 
+What now? S
+You are in a square white room, some sort of experimental laboratory, filled
+with incomprehensible equipment. It smells of rotten eggs and sulphur. You
+can see many cruel metal cages in which the evil Timelords have imprisoned
+zillions of cute creatures.
+What now? OPEN CAGES 
+With a chorus of squeaks, mews, and barks, belling, chirruping, purring, and
+squealing, squiggling, wriggling, leaping and frolicking, the animals surge
+joyfully away. 
+What now? S
+You are in a worse laboratory, dirty, as well as smelly. You can see thick
+bars which imprison hundreds of poor people.
+What now? OPEN BARS 
+The people are free! Couples long-separated rush to greet each other,
+children tear frantically into their parents' arms, the air is filled with
+the buzz of happy voices. Then by twos and threes and families they begin to
+leave the scene of their miserable confinement - but not before they have
+thanked you and rewarded you for their liberation. 
+What now? E
+You are at a junction between foul passages, each adding its own
+contribution to the general stench. 
+What now? E
+You are in a room full of strange plants which grab at you. One flower is
+particularly enormous. 
+What now? IN
+You are inside the plant. Sharp hairs block your escape and the walls ooze
+digestive juices. 
+What now? D
+You are climbing down a sticky tube, lined with hairs that make good
+stepping-stones. 
+What now? D
+You are inside the tangled roots of the giant plant. In case you hadn't
+noticed, the plant is eating YOU! 
+What now? THROW BOTTLE 
+OK. Oops! Butter-fingers! It smashes to smithereens. Releasing liquid
+paraquat. The plant gives a little whimper and shrivels into a wrinkled
+mess. 
+What now? E
+You are in a low, earthy tunnel. 
+What now? E
+You are at the end of the earthy tunnel. Crude steps lead upwards. 
+What now? U
+You are climbing steep, treacherous stairs. 
+What now? U
+You are squeezing your way up the narrow stairs, between jagged,
+constricting walls. 
+What now? U
+You are at the top of the stairs. You can feel a trapdoor above, through
+which comes a faint burr of conversation. You can see a filmy cloak.
+What now? GET CLOAK
+OK. 
+What now? WEAR IT 
+OK. 
+What now? OPEN DOOR
+The door swings open. 
+What now? U
+The door closes behind you. 
+You are under a long table. Seated round it are nine men, presumably the
+Evil Timelords, though you cannot see their faces, having only a wonderful
+view of their knees, or tentacles, as the case may be. 
+What now? U
+You are standing behind the Evil Timelords as they discuss their wicked
+plans. They are of different races and species, and probably from different
+planets. Some look like lizards, another like a dog. Two bear more relation
+to giant squids than anything else, and one is a heap of green slime that
+glurbles and splots on the table. 
+What now? E
+You are lost in the mists of time. You can see a cast-iron cauldron.
+What now? THROW WING 
+OK. Into the cauldron! 
+What now? THROW BRANCH
+OK. Into the cauldron! 
+What now? THROW EGG
+OK. Into the cauldron! 
+What now? THROW TUSK
+OK. Into the cauldron! 
+What now? W
+You are standing behind the Evil Timelords as they discuss their wicked
+plans. They are of different races and species, and probably from different
+planets. Some look like lizards, another like a dog. Two bear more relation
+to giant squids than anything else, and one is a heap of green slime that
+glurbles and splots on the table. 
+What now? E
+You are lost in the mists of time. You can see a cast-iron cauldron.
+What now? THROW BOX
+OK. Into the cauldron! 
+What now? THROW CAP
+OK. Into the cauldron! 
+What now? THROW TEAR
+OK. Into the cauldron! 
+What now? THROW BUCKLE
+OK. Into the cauldron! 
+What now? W
+You are standing behind the Evil Timelords as they discuss their wicked
+plans. They are of different races and species, and probably from different
+planets. Some look like lizards, another like a dog. Two bear more relation
+to giant squids than anything else, and one is a heap of green slime that
+glurbles and splots on the table. 
+What now? E
+You are lost in the mists of time. You can see a cast-iron cauldron.
+What now? THROW CHIP 
+OK. Into the cauldron! The recipe is complete! Your surroundings fade away
+as the structure of time is repaired. You have won! But suddenly, you feel a
+new force upon you. You feel yourself propelled by an unfamiliar entity into
+a new place, at a different time...
+You score 975 out of 1000.
+ 
+Do you want to go on to Red Moon? 
+
+Game Terminated
