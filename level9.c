@@ -1576,7 +1576,11 @@ L9UINT16 *getvar(void)
 
 void Goto(void)
 {
-	codeptr=getaddr();
+	L9BYTE* target = getaddr();
+	if (target == codeptr - 2)
+		Running = FALSE; /* Endless loop! */
+	else
+		codeptr = target;
 }
 
 void intgosub(void)
