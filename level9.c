@@ -162,7 +162,6 @@ int L9V1Game = -1;
 
 /* Prototypes */
 L9BOOL LoadGame2(char *filename,char *picname);
-L9BOOL checksubs(void);
 int getlongcode(void);
 L9BOOL GetWordV2(char *buff,int Word);
 L9BOOL GetWordV3(char *buff,int Word);
@@ -1338,6 +1337,75 @@ void FullScan(L9BYTE* StartFile,L9UINT32 FileSize)
 }
 #endif
 
+L9BOOL findsubs(L9BYTE** picdata, L9UINT32 *picsize)
+{
+	int i, length, count;
+	L9BYTE *picptr, *startptr;
+	L9BOOL first;
+	
+	/*
+		Try to traverse the graphics subroutines backwards.
+		Check for this 4-byte pattern: rr | nn | nl | ll
+		rr  : end of the previous subroutine ( == 0x0ff )
+		nnn : the subroutine number          ( <= 0x7ff ) 
+		lll : the subroutine length          ( <= 0x7ff )
+		If the pattern matches, try to find the next subroutines.
+	*/
+	for (i = FileSize - (acodeptr - startdata) - 2; i >= 0; i--)
+	{
+		picptr = acodeptr + i;
+
+		if ((*picptr & 0x80) || (*(picptr - 1) != 0xff) || (*(picptr + 1) &  0x08))
+			continue;
+
+		picptr -= 4;
+		count = 0;
+		length = 4;
+		first = TRUE;
+
+		while (TRUE)
+		{
+			if (length > 0x7ff || picptr < acodeptr)
+				break;
+
+			if ((*picptr & 0x80) || (*(picptr + 1) & 0x08)
+			 || *(picptr + 2) + ((*(picptr + 1) & 0x0f) << 8) != length)
+			{				
+				picptr--;
+				length++;
+				continue;
+			}
+
+			if (first)
+			{
+				startptr = picptr;
+				first = FALSE;
+			}
+
+			if (*(picptr - 1) == 0xff)
+			{
+				count++;
+				startptr = picptr;
+				first = TRUE;
+				length = 0;
+			}
+
+			picptr--;
+			length++;
+		}
+
+		if (count > 40)
+		{
+			*picdata = startptr;
+			picptr = acodeptr + i;
+			*picsize = picptr - startptr;
+			*picsize += *(picptr + 2) + ((*(picptr + 1) & 0x0f) << 8);
+			return TRUE;
+		}
+	}
+	return FALSE;
+}
+
 L9BOOL intinitialise(char*filename,char*picname)
 {
 /* init */
@@ -1510,18 +1578,10 @@ L9BOOL intinitialise(char*filename,char*picname)
 	/* If there was no graphics file, look in the game data */
 	if (picturedata==NULL)
 	{
-		int sz=FileSize-(acodeptr-startdata);
-		int i=0;
-		while ((i<sz-0x1000)&&(picturedata==NULL))
+		if (!findsubs(&picturedata, &picturesize))
 		{
-			picturedata=acodeptr+i;
-			picturesize=sz-i;
-			if (!checksubs())
-			{
-				picturedata=NULL;
-				picturesize=0;
-			}
-			i++;
+			picturedata = NULL;
+			picturesize = 0;
 		}
 	}
 #endif
@@ -2969,22 +3029,6 @@ L9BOOL findsub(int d0,L9BYTE** a5)
 		if (!validgfxptr(*a5))
 			return FALSE;
 	}
-}
-
-L9BOOL checksubs(void)
-{
-	L9BYTE* a5;
-	int i,cnt=0;
-
-	if (picturedata[0]!=0 || picturedata[1]!=0)
-		return FALSE;
-
-	for (i = 1; i < 50; i++)
-	{
-		if (findsub(i,&a5))
-			cnt++;
-	}
-	return (cnt > 30);
 }
 
 void gosubd0(int d0, L9BYTE** a5)
