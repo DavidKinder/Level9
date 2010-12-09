@@ -237,13 +237,15 @@ History
 -------
 
   v5.0  V1 games are also now supported.
-        Added #seed and #play meta commands.
         The input logic now correctly handles commas and full stops
         in the user's input for v3 or later games.
         The input logic now allows hyphens and apostrophes to be
         input, which is needed for some v2 games.
         The dictionary listing for v2 games no longer has junk on the
         end.
+        The graphics detection algorithm has been improved, so that it
+        now correctly finds graphics in all known games.
+        Added #seed and #play meta commands.
 
   v4.1  Corrected a bug that made Lancelot unplayable.
         BBC B bitmaps are now shown as they appeared on the original
@@ -280,7 +282,8 @@ For version 4.0, David Kinder integrated the various bitmap decoders, but all
 the difficult work was done by Alan Staniforth and Dieter Baron. Alan also
 supplied the BBC B bitmap changes for version 4.1. David and Andreas Scherrer
 worked on version 5.0 to integrate script playback from Andreas' .NET port of
-the interpreter.
+the interpreter. Andreas created a test harness to play through all the games,
+and David and Andreas then worked through the problems this showed up.
 
 Help, testing and information on the various Level 9 formats was provided by
 Paul David Doherty. Testing of the fix for Lancelot in version 4.1 was
