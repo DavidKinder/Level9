@@ -1337,7 +1337,7 @@ void FullScan(L9BYTE* StartFile,L9UINT32 FileSize)
 }
 #endif
 
-L9BOOL findsubs(L9BYTE** picdata, L9UINT32 *picsize)
+L9BOOL findsubs(L9BYTE* testptr, L9UINT32 testsize, L9BYTE** picdata, L9UINT32 *picsize)
 {
 	int i, length, count;
 	L9BYTE *picptr, *startptr;
@@ -1351,11 +1351,11 @@ L9BOOL findsubs(L9BYTE** picdata, L9UINT32 *picsize)
 		lll : the subroutine length          ( <= 0x7ff )
 		If the pattern matches, try to find the next subroutines.
 	*/
-	for (i = FileSize - (acodeptr - startdata) - 2; i >= 0; i--)
+	for (i = testsize - 2; i >= 0; i--)
 	{
-		picptr = acodeptr + i;
+		picptr = testptr + i;
 
-		if ((*picptr & 0x80) || (*(picptr - 1) != 0xff) || (*(picptr + 1) &  0x08))
+		if ((*picptr & 0x80) || (*(picptr - 1) != 0xff) || (*(picptr + 1) & 0x08))
 			continue;
 
 		picptr -= 4;
@@ -1365,7 +1365,7 @@ L9BOOL findsubs(L9BYTE** picdata, L9UINT32 *picsize)
 
 		while (TRUE)
 		{
-			if (length > 0x7ff || picptr < acodeptr)
+			if (length > 0x7ff || picptr < testptr)
 				break;
 
 			if ((*picptr & 0x80) || (*(picptr + 1) & 0x08)
@@ -1397,7 +1397,7 @@ L9BOOL findsubs(L9BYTE** picdata, L9UINT32 *picsize)
 		if (count > 40)
 		{
 			*picdata = startptr;
-			picptr = acodeptr + i;
+			picptr = testptr + i;
 			*picsize = picptr - startptr;
 			*picsize += *(picptr + 2) + ((*(picptr + 1) & 0x0f) << 8);
 			return TRUE;
@@ -1445,7 +1445,6 @@ L9BOOL intinitialise(char*filename,char*picname)
 				pictureaddress=NULL;
 				picturesize=0;
 			}
-			picturedata=pictureaddress;
 			fclose(f);
 		}
 	}
@@ -1576,9 +1575,17 @@ L9BOOL intinitialise(char*filename,char*picname)
 
 #ifndef NO_SCAN_GRAPHICS
 	/* If there was no graphics file, look in the game data */
-	if (picturedata==NULL)
+	if (pictureaddress)
 	{
-		if (!findsubs(&picturedata, &picturesize))
+		if (!findsubs(pictureaddress, picturesize, &picturedata, &picturesize))
+		{
+			picturedata = NULL;
+			picturesize = 0;
+		}
+	}
+	else
+	{
+		if (!findsubs(acodeptr, FileSize-(acodeptr-startdata), &picturedata, &picturesize))
 		{
 			picturedata = NULL;
 			picturesize = 0;

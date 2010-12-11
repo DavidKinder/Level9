@@ -135,7 +135,8 @@ int ptr, space, lastspace, searching;
 				ptr = space;
 				searching = 0;
 			}
-			else lastspace = space;
+			else
+				lastspace = space;
 			space++;
 		}
 	}
