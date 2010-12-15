@@ -85,6 +85,7 @@ char story_name[MAX_FILE_NAME];
 char save_name[MAX_FILE_NAME];
 char gfx_name[MAX_FILE_NAME];
 char gfx_dir[MAX_FILE_NAME];
+char script_name[MAX_FILE_NAME];
 
 /* Custom font variables */
 #define FONT_WIDTH_OFFSET 1536
@@ -460,6 +461,8 @@ void screen_scroll(int y)
   rectfill(display,0,y,SCREEN_W-1,SCREEN_H-1,0);
 }
 
+extern FILE* scriptfile;
+
 /* Move the current text position down to the start of
    the next line. */
 void screen_newline(void)
@@ -477,13 +480,16 @@ void screen_newline(void)
        the last pause? If so, put up a [MORE] prompt. */
     if (page_counter >= page_limit)
     {
-      const char* more = "[MORE]";
+      if (scriptfile == NULL)
+      {
+        const char* more = "[MORE]";
 
-      draw_string(more,text_x,text_y);
-      draw_cursor(text_x+string_length(more),text_y,DEFAULT_CURSOR_WIDTH);
-      screen_update();
-      timer_readkey();
-      rectfill(display,0,text_y,SCREEN_W-1,SCREEN_H-1,0);
+        draw_string(more,text_x,text_y);
+        draw_cursor(text_x+string_length(more),text_y,DEFAULT_CURSOR_WIDTH);
+        screen_update();
+        timer_readkey();
+        rectfill(display,0,text_y,SCREEN_W-1,SCREEN_H-1,0);
+      }
 
       /* Set the counter to 1 so that the last line of this page
          is the first line of the next. */
@@ -1476,6 +1482,17 @@ L9BOOL os_save_file(L9BYTE* Ptr, int Bytes)
   fwrite(Ptr,1,Bytes,fp);
   fclose(fp);
   return TRUE;
+}
+
+/* Open a file to read commands from. */
+FILE* os_open_script_file(void)
+{
+  FILE *fp;
+
+  if (get_file_name("Script to read",NULL,script_name,FALSE) == FALSE)
+    return FALSE;
+
+  return fopen(script_name,"rt");
 }
 
 /* Print a character. */
