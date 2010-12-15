@@ -57,10 +57,12 @@ int MoreCount = 0;
 #define KEY_F12   390
 
 L9UINT32 filelength(FILE *f);
+extern FILE* scriptfile;
 
 int character(void);
 void into_buffer(char *buffer,char *newb,int *x,int *i);
 void store_hist(char *line);
+void more_prompt(void);
 
 void os_printchar(char c)
 {
@@ -68,21 +70,14 @@ void os_printchar(char c)
 	{
 		os_flush();
 		cprintf("\r\n");
-
-		if (++MoreCount >= TextInfo.screenheight)
-		{
-			MoreCount = 0;
-			cprintf("[More]");
-			character();
-			gotoxy(1,wherey());
-			cprintf("      ");
-			gotoxy(1,wherey());
-		}
+		more_prompt();
 		return;
 	}
 
-	if (isprint(c) == 0) return;
-	if (TextBufferPtr >= TEXTBUFFER_SIZE) os_flush();
+	if (isprint(c) == 0)
+		return;
+	if (TextBufferPtr >= TEXTBUFFER_SIZE)
+		os_flush();
 	*(TextBuffer + (TextBufferPtr++)) = c;
 }
 
@@ -90,6 +85,7 @@ L9BOOL os_input(char *ibuff, int size)
 {
 int x,y,c,i = 0;
 
+	os_flush();
 	x = wherex();
 	y = wherey();
 	*ibuff = '\0';
@@ -101,9 +97,9 @@ int x,y,c,i = 0;
 			case '\r':
 				if (strlen(ibuff) > 0 || Hotkey == 0)
 				{
-					os_printchar('\r');
-					MoreCount = 0;
+					cprintf("\r\n");
 					store_hist(ibuff);
+					MoreCount = 0;
 					return TRUE;
 				}
 			case '\b':
@@ -200,12 +196,10 @@ L9BOOL os_stoplist(void)
 
 void os_flush(void)
 {
-static int semaphore = 0;
 int ptr, space, lastspace, searching;
 
-	if (TextBufferPtr < 1) return;
-	if (semaphore) return;
-	semaphore = 1;
+	if (TextBufferPtr < 1)
+		return;
 
 	*(TextBuffer+TextBufferPtr) = ' ';
 	ptr = 0;
@@ -216,24 +210,35 @@ int ptr, space, lastspace, searching;
 		searching = 1;
 		while (searching)
 		{
-			while (TextBuffer[space] != ' ') space++;
+			while (TextBuffer[space] != ' ')
+				space++;
 			if (space-ptr+wherex()-1 > TextInfo.screenwidth)
 			{
 				space = lastspace;
-				cprintf("%.*s%s",space-ptr,TextBuffer+ptr,wherex()+space-ptr > TextInfo.screenwidth ? "" : "\r\n");
-				if (TextBuffer[space] == ' ') space++;
+				cprintf("%.*s", space-ptr, TextBuffer+ptr);
+				if (wherex() > 1)
+					cprintf("\r\n");
+				more_prompt();
+
+				space++;
+				if (TextBuffer[space] == ' ')
+					space++;
 				TextBufferPtr -= (space-ptr);
 				ptr = space;
 				searching = 0;
 			}
-			else lastspace = space;
+			else
+				lastspace = space;
 			space++;
 		}
 	}
-	cprintf("%.*s", TextBufferPtr, TextBuffer+ptr);
+	if (TextBufferPtr > 0)
+	{
+		cprintf("%.*s", TextBufferPtr, TextBuffer+ptr);
+		if (wherex() == 1)
+			more_prompt();
+	}
 	TextBufferPtr = 0;
-
-	semaphore = 0;
 }
 
 L9BOOL os_save_file(L9BYTE * Ptr, int Bytes)
@@ -248,7 +253,8 @@ FILE *f;
 	Hotkey = 1;
 
 	f = fopen(name, "wb");
-	if (!f) return FALSE;
+	if (!f)
+		return FALSE;
 	fwrite(Ptr, 1, Bytes, f);
 	fclose(f);
 	return TRUE;
@@ -266,7 +272,8 @@ FILE *f;
 	Hotkey = 1;
 
 	f = fopen(name, "rb");
-	if (!f) return FALSE;
+	if (!f)
+		return FALSE;
 
 	*Bytes = filelength(f);
 	if (*Bytes > Max)
@@ -330,11 +337,25 @@ void os_show_bitmap(int pic, int x, int y)
 {
 }
 
+FILE* os_open_script_file(void)
+{
+char name[256];
+
+	os_flush();
+	printf("Script file: ");
+	Hotkey = 0;
+	os_input(name,256);
+	Hotkey = 1;
+
+	return fopen(name, "rt");
+}
+
 int main(int argc, char **argv)
 {
 int i;
 
-	for (i = 0; i < HISTORY_LINES; i++) *(History+i) = NULL;
+	for (i = 0; i < HISTORY_LINES; i++)
+		*(History+i) = NULL;
 	gettextinfo(&TextInfo);
 
 	if (argc != 2)
@@ -372,7 +393,8 @@ int character(void)
 int c;
 
 	c = getch();
-	if (c == 0) c = getch()+256;
+	if (c == 0)
+		c = getch()+256;
 	if (c == KEY_F12 || c == KEY_BRK)
 	{
 		StopGame();
@@ -395,7 +417,8 @@ void into_buffer(char *buffer,char *newb,int *x,int *i)
 
 int cmp(const char *a,const char *b)
 {
-	if (a == 0 || b == 0) return 1;
+	if (a == 0 || b == 0)
+		return 1;
 	return strcmp(a,b);
 }
 
@@ -405,11 +428,31 @@ int i;
 
 	if (*line != NULL && cmp(*(History+HISTORY_LINES-1),line) != 0)
 	{
-		if (*History) free(*History);
-		for (i = 0; i < HISTORY_LINES-1; i++) *(History+i) = *(History+i+1);
+		if (*History)
+			free(*History);
+		for (i = 0; i < HISTORY_LINES-1; i++)
+			*(History+i) = *(History+i+1);
 		*(History+HISTORY_LINES-1) = malloc(strlen(line)+1);
-		if (*(History+HISTORY_LINES-1)) strcpy(*(History+HISTORY_LINES-1),line);
+		if (*(History+HISTORY_LINES-1))
+			strcpy(*(History+HISTORY_LINES-1),line);
 	}
 	HistoryPosition = HISTORY_LINES;
+}
+
+void more_prompt(void)
+{
+	if (scriptfile != NULL)
+		return;
+
+	MoreCount++;
+	if (MoreCount >= TextInfo.screenheight-1)
+	{
+		MoreCount = 0;
+		cprintf("[More]");
+		character();
+		gotoxy(1,wherey());
+		cprintf("      ");
+		gotoxy(1,wherey());
+	}
 }
 
