@@ -211,11 +211,7 @@ to the game. They are:
                 a long time.
 
   #dictionary   Lists the game dictionary. Press a key to stop the
-                listing and return to the input line. Note that the v2
-                dictionary appears to have random characters following
-                on the end: The original interpreter code to detect the
-                end of dictionary does not appear to agree with the
-                characters actually at the end.
+                listing and return to the input line.
 
   #picture      If graphics are available, shows the picture specified
                 as a number after the picture command, e.g. "#picture 520".
