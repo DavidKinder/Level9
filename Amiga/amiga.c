@@ -60,7 +60,7 @@ struct NewMenu NewMenus[] =
   {NM_ITEM, "Quit", "Q", 0, 0, 0},
   {NM_END, 0, 0, 0, 0, 0}};
 
-char Version[] = "$VER:Level9 5.0 (24.5.2010)";
+char Version[] = "$VER:Level9 5.0 (19.12.2010)";
 char TitleBar[] = "Level 9";
 
 #define TEXTBUFFER_SIZE 1024
@@ -79,7 +79,7 @@ struct RastPort *RastPort;
 struct Menu *Menus;
 struct DiskObject *Icon;
 struct TextFont *Font;
-struct FileRequester *GameReq, *SaveReq;
+struct FileRequester *GameReq, *SaveReq, *ScriptReq;
 struct Process *ThisProcess;
 APTR Visual;
 
@@ -87,6 +87,8 @@ int ScreenWidth, ScreenHeight;
 int DisplayHeight, PreviousHeight;
 int MoreCount;
 int Playing;
+
+extern FILE* scriptfile;
 
 void amiga_init (char *dir);
 void screen_ratio (struct Screen *screen);
@@ -137,27 +139,31 @@ void os_printchar (char c)
     rect (Window->BorderLeft,
 	  Window->BorderTop + DisplayHeight * RastPort->TxHeight,
 	  Window->Width - Window->BorderRight - 1,
-       Window->BorderTop + (DisplayHeight + 1) * RastPort->TxHeight - 1, 0);
+	  Window->BorderTop + (DisplayHeight + 1) * RastPort->TxHeight - 1, 0);
     reset_cursor ();
 
-    if (++MoreCount >= DisplayHeight)
+    if (scriptfile == NULL)
     {
-      MoreCount = 0;
-      text ("[More]", 6);
-      cursor (0);
-      get_key (0, -1, 1);
-      cursor (0);
-      rect (Window->BorderLeft,
-	    Window->BorderTop + DisplayHeight * RastPort->TxHeight,
-	    Window->Width - Window->BorderRight - 1,
-       Window->BorderTop + (DisplayHeight + 1) * RastPort->TxHeight - 1, 0);
-      reset_cursor ();
+      if (++MoreCount >= DisplayHeight)
+      {
+	MoreCount = 0;
+	text ("[More]", 6);
+	cursor (0);
+	get_key (0, -1, 1);
+	cursor (0);
+	rect (Window->BorderLeft,
+	      Window->BorderTop + DisplayHeight * RastPort->TxHeight,
+	      Window->Width - Window->BorderRight - 1,
+	      Window->BorderTop + (DisplayHeight + 1) * RastPort->TxHeight - 1, 0);
+        reset_cursor ();
+      }
     }
 
     return;
   }
 
-  if (isprint(c) == 0) return;
+  if (isprint(c) == 0)
+    return;
   if (TextBufferPtr >= TEXTBUFFER_SIZE)
     os_flush ();
   *(TextBuffer + (TextBufferPtr++)) = c;
@@ -295,7 +301,7 @@ L9BOOL os_input (char *ibuff, int size)
 	while ((*(History + HistoryPosition) == 0) && (HistoryPosition < HISTORY_LINES))
 	  HistoryPosition++;
 	into_buffer (ibuff, HistoryPosition == HISTORY_LINES ?
-	   (unsigned char *) "" : *(History + HistoryPosition), &pos, size);
+	  (unsigned char *) "" : *(History + HistoryPosition), &pos, size);
       }
       else
       {
@@ -319,7 +325,7 @@ L9BOOL os_input (char *ibuff, int size)
 	{
 	  HistoryPosition++;
 	  into_buffer (ibuff, HistoryPosition == HISTORY_LINES ?
-	   (unsigned char *) "" : *(History + HistoryPosition), &pos, size);
+	    (unsigned char *) "" : *(History + HistoryPosition), &pos, size);
 	}
 	else
 	{
@@ -372,16 +378,16 @@ L9BOOL os_stoplist (void)
 
 void os_flush (void)
 {
-  static int semaphore = 0;
-
   if (Window == 0)
     return;
   if (TextBufferPtr < 1)
     return;
 
-  if (semaphore)
+  static int flushing = 0;
+
+  if (flushing != 0)
     return;
-  semaphore = 1;
+  flushing = 1;
 
   char *ptr, *space, *lastspace;
   int searching;
@@ -402,7 +408,9 @@ void os_flush (void)
 	space = lastspace;
 	text (ptr, space - ptr);
 	os_printchar ('\r');
-	if (*space == ' ') space++;
+	space++;
+	if (*space == ' ')
+	  space++;
 	TextBufferPtr -= space - ptr;
 	ptr = space;
 	searching = 0;
@@ -412,10 +420,11 @@ void os_flush (void)
       space++;
     }
   }
-  text (ptr, TextBufferPtr);
+  if (TextBufferPtr > 0)
+    text (ptr, TextBufferPtr);
   TextBufferPtr = 0;
 
-  semaphore = 0;
+  flushing = 0;
 }
 
 L9BOOL os_save_file (L9BYTE * Ptr, int Bytes)
@@ -452,6 +461,17 @@ L9BOOL os_load_file(L9BYTE *Ptr,int *Bytes,int Max)
     return TRUE;
   }
   return FALSE;
+}
+
+FILE* os_open_script_file(void)
+{
+  char filename[256];
+
+  filereq (ScriptReq, filename, "Play Script", 0);
+  if (strcmp (filename, "") == 0)
+    return FALSE;
+
+  return fopen (filename, "rt");
 }
 
 L9BOOL os_get_game_file(char *NewName,int Size)
@@ -513,8 +533,10 @@ wbmain (struct WBStartup *wbmsg)
 
   strcpy (startdir, "");
   if (Icon = GetDiskObject (wbmsg->sm_ArgList[0].wa_Name))
+  {
     if (dir = FindToolType (Icon->do_ToolTypes, "DIR"))
       strcpy (startdir, dir);
+  }
 
   amiga_init (startdir);
   newgame (0);
@@ -570,7 +592,7 @@ void amiga_init (char *dir)
   {
     if ((Screen = OpenScreenTags (0,
 				  SA_Pens, pens,
-		    SA_DisplayID, GetVPModeID (&DefaultPubScreen->ViewPort),
+				  SA_DisplayID, GetVPModeID (&DefaultPubScreen->ViewPort),
 				  SA_Overscan, OSCAN_TEXT,
 				  SA_Depth, 2,
 				  SA_Type, CUSTOMSCREEN | AUTOSCROLL,
@@ -581,8 +603,8 @@ void amiga_init (char *dir)
 
   if ((Window = OpenWindowTags (0,
 				WA_Left, 0,
-		       WA_Top, Screen ? 2 : DefaultPubScreen->BarHeight + 1,
-			     WA_Width, Screen ? Screen->Width : ScreenWidth,
+				WA_Top, Screen ? 2 : DefaultPubScreen->BarHeight + 1,
+				WA_Width, Screen ? Screen->Width : ScreenWidth,
 				WA_Height, Screen ? Screen->Height - 2 : ScreenHeight - DefaultPubScreen->BarHeight - 1,
 				WA_SmartRefresh, 1,
 				WA_NewLookMenus, 1,
@@ -617,6 +639,8 @@ void amiga_init (char *dir)
     exit (1);
   if ((SaveReq = alloc_freq (dir)) == 0)
     exit (1);
+  if ((ScriptReq = alloc_freq (dir)) == 0)
+    exit (1);
 
   RastPort = Window->RPort;
   SetDrMd (RastPort, JAM2);
@@ -644,6 +668,8 @@ __autoexit void amiga_exit (void)
     FreeAslRequest (GameReq);
   if (SaveReq)
     FreeAslRequest (SaveReq);
+  if (ScriptReq)
+    FreeAslRequest (ScriptReq);
   if (Menus)
     FreeMenus (Menus);
   if (Visual)
@@ -727,7 +753,7 @@ void set_window (int limit, int x)
   if (limit)
   {
     WindowLimits (Window,
-	       RastPort->cp_x + RastPort->TxWidth + Window->BorderRight + x,
+		  RastPort->cp_x + RastPort->TxWidth + Window->BorderRight + x,
 		  Window->BorderTop + Window->BorderBottom + (RastPort->TxHeight * 3), ~0, ~0);
   }
   else
@@ -834,10 +860,12 @@ int get_key (UWORD * qualifier_addr, int c, int wait)
 	      }
 	      break;
 	    case 2:
-	      if (c != -1) return -2;
+	      if (c != -1)
+		return -2;
 	      break;
 	    case 3:
-	      if (c != -1) return -3;
+	      if (c != -1)
+		return -3;
 	      break;
 	    case 5:
 	      help ();
@@ -1032,7 +1060,7 @@ void busy (int busy)
 struct FileRequester * alloc_freq (char *initdir)
 {
   return AllocAslRequestTags (ASL_FileRequest,
-      strcmp (initdir, "") == 0 ? TAG_IGNORE : ASLFR_InitialDrawer, initdir,
+			      strcmp (initdir, "") == 0 ? TAG_IGNORE : ASLFR_InitialDrawer, initdir,
 			      ASLFR_SleepWindow, 1,
 			      ASLFR_RejectIcons, 1, TAG_DONE);
 }
@@ -1080,3 +1108,4 @@ BPTR lock;
     req ("Unable to load game", "Cancel");
   return -1;
 }
+
