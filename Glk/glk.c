@@ -1,6 +1,6 @@
 /* vi: set ts=2 shiftwidth=2 expandtab: 
  *
- * Copyright (C) 2002-2006  Simon Baldwin, simon_baldwin@yahoo.com
+ * Copyright (C) 2002-2010  Simon Baldwin, simon_baldwin@yahoo.com
  * Mac portions Copyright (C) 2002  Ben Hines
  *
  * This program is free software; you can redistribute it and/or modify
@@ -75,7 +75,7 @@ static const char GLN_FILE_DELIM = '/';
 /*---------------------------------------------------------------------*/
 
 /* Glk Level 9 port version number. */
-static const glui32 GLN_PORT_VERSION = 0x00020200;
+static const glui32 GLN_PORT_VERSION = 0x00020201;
 
 /*
  * We use a maximum of three Glk windows, one for status, one for pictures,
@@ -1225,7 +1225,7 @@ gln_gameid_lookup_patch (gln_uint16 length, gln_byte checksum,
  * entry of the game in the game table, or NULL if not found.
  *
  * This function uses startdata and FileSize from the core interpreter.
- * These aren't advertised symbols, so be warned.
+ * These aren't advertised symbols, so be warned. 
  */
 static gln_game_tableref_t
 gln_gameid_identify_game (void)
@@ -1237,7 +1237,7 @@ gln_gameid_identify_game (void)
   gln_patch_tableref_t patch;
 
   /* If the data file appears too short for a header, give up now. */
-  if (FileSize < 24)
+  if (FileSize < 30)
     return NULL;
 
   /*
@@ -3531,10 +3531,10 @@ gln_watchdog_has_timed_out (void)
           /* Reset the monitor and drop into FALSE return -- stop rejected. */
           gln_watchdog_tick ();
         }
-   }
+    }
 
-   /* No timeout indicated, or offer rejected by the user. */
-   return FALSE;
+  /* No timeout indicated, or offer rejected by the user. */
+  return FALSE;
 }
 
 
@@ -6062,6 +6062,18 @@ os_set_filenumber (char *newname, int size, int file_number)
   /* Encourage game name re-lookup, and return. */
   gln_gameid_game_name_reset ();
   gln_watchdog_tick ();
+}
+
+
+/*
+ * os_open_script_file()
+ *
+ * Handles player calls to the "#play" meta-command.  Because we have our
+ * own way of handling scripts, this function is a stub.
+ */
+FILE *
+os_open_script_file (void) {
+  return NULL;
 }
 
 
