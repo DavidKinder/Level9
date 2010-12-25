@@ -1,5 +1,5 @@
 /*
- * main.c - GTK+ 2.x interface for Level9 4.x
+ * main.c - GTK+ 2.x interface for Level9 5.0
  * Copyright (c) 2005 Torbjörn Andersson <d91tan@Update.UU.SE>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -151,6 +151,17 @@ L9BOOL os_save_file (L9BYTE *Ptr, int Bytes)
     g_io_channel_unref (file);
     g_free (filename);
     return TRUE;
+}
+
+FILE* os_open_script_file (void)
+{
+    gchar *filename;
+
+    filename = file_selector (FALSE, NULL, NULL, "Play script");
+    if (!filename)
+	return NULL;
+
+    return fopen (filename, "rt");
 }
 
 void do_about ()

@@ -29,7 +29,7 @@ LEVEL9 = ..
 
 CC = gcc
 
-OBJS = level9.o main.o config.o gui.o text.o graphics.o util.o
+OBJS = level9.o bitmap.o main.o config.o gui.o text.o graphics.o util.o
 
 DEF_CFLAGS = -Wall `pkg-config --cflags gtk+-2.0` -I$(LEVEL9)
 EMU_CFLAGS = -DBITMAP_DECODER $(DEF_CFLAGS) $(OPTIMIZE_CFLAGS) $(EXTRA_CFLAGS)
@@ -55,6 +55,8 @@ clean:
 
 level9.o:
 	$(CC) -c $(EMU_CFLAGS) -fno-strict-aliasing -DNEED_STRICMP_PROTOTYPE -Dstricmp=g_ascii_strcasecmp -Dstrnicmp=g_ascii_strncasecmp $(LEVEL9)/level9.c
+bitmap.o:
+	$(CC) -c $(EMU_CFLAGS) -fno-strict-aliasing $(LEVEL9)/bitmap.c
 
 main.o: main.c main.h version.h config.h gui.h text.h graphics.h util.h
 config.o: config.c config.h gui.h text.h graphics.h
