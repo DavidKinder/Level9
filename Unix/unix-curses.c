@@ -4,7 +4,6 @@
  * Copyright (c) Jim Cameron 1998
  */
 
-
 /*
  * 9-Jun-1998 fixed bug in os_load_file
  *
@@ -69,12 +68,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "level9.h"
 
 /*
- * You might have to change this to ncurses.h if using ncurses
+ * Some C libraries define these, so remove any definition
  */
-#include <curses.h>
+#ifdef stricmp
+#undef stricmp
+#endif
+#ifdef strnicmp
+#undef strnicmp
+#endif
+
+/*
+ * Include definitions and prototypes for the interpreter
+ */
+#include "level9.h"
+extern FILE* scriptfile;
+
+/*
+ * You might have to change this if not using ncurses
+ */
+#include <ncurses/curses.h>
 
 
 #define CTRL_A '\x01'
@@ -110,12 +124,6 @@ int  Line_pos = 0;
  * Justification kludge (see end of printline() )
  */
 L9BOOL Suppress_newline = FALSE;
-
-
-/*
- * curses' screen window
- */
-WINDOW *stdscr;
 
 
 /*
@@ -213,7 +221,7 @@ void os_printchar(char c)
 
   }
   
-  if (Lines == More_lines)
+  if ((scriptfile == NULL) && (Lines == More_lines))
   {
     printw ("[More]");
     refresh ();
@@ -668,6 +676,30 @@ L9BOOL os_load_file(L9BYTE *Ptr,int *Bytes,int Max)
 
 /*
  * From porting.txt :
+	os_load_file() should prompt the user for the name of a file to
+	load. At most Max bytes should be loaded into the memory pointed
+	to by Ptr, and the number of bytes read should be placed into the
+	variable pointed to by Bytes.
+ */
+FILE* os_open_script_file(void)
+{
+
+  char fname [256];
+
+  os_flush();
+  printw("\nPlay script: ");
+  refresh ();
+  input_i (fname, 256, TRUE);
+
+  return fopen (fname, "rt");
+
+}
+
+
+
+
+/*
+ * From porting.txt :
 	os_get_game_file() should prompt the user for a new game file, to
 	be stored in NewName, which can take a maximum name of Size
 	characters. This is used in the Adrian Mole games (and possibly
@@ -767,15 +799,17 @@ int main (int argc, char *argv [])
     exit (1);
   }
 
-  printf ("Level 9 Interpreter v5.0 by Glen Summers and David Kinder\n\n"
-	  "curses interface by jim"
-	  " (jim@madeira.physiol.ucl.ac.uk)\n\n");
+  printf ("Level 9 Interpreter v5.0\n"
+	  "Copyright (c) 1996-2010 Glen Summers and contributors.\n"
+	  "Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\n"
+	  "Dieter Baron and Andreas Scherrer.\n"
+	  "Unix Curses interface by Jim Cameron.\n");
 
   /*
    * Initialise the curses library---these are the recommended options from
    *  ncurses (3X) on my Linux box
    */
-  stdscr = initscr ();
+  initscr ();
   cbreak ();
   noecho ();
   nonl   ();
