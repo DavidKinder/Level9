@@ -241,6 +241,9 @@ History
         end.
         The graphics detection algorithm has been improved, so that it
         now correctly finds graphics in all known games.
+        A difference in the logic between the v2 and v3 line-drawn
+        graphics has been implemented, which corrects the scaling for
+        some v2 graphics.
         Added #seed and #play meta commands.
 
   v4.1  Corrected a bug that made Lancelot unplayable.

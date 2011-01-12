@@ -56,20 +56,12 @@
 #define RAMSAVESLOTS 10
 #define GFXSTACKSIZE 100
 
-
 /* Typedefs */
 typedef struct
 {
 	L9UINT16 vartable[256];
 	L9BYTE listarea[LISTAREASIZE];
 } SaveStruct;
-
-typedef struct
-{
-	L9BYTE *a5;
-	int scale;
-} GfxState;
-
 
 /* Enumerations */
 enum L9GameTypes { L9_V1, L9_V2, L9_V3, L9_V4 };
@@ -123,8 +115,10 @@ L9BYTE *gfxa5=NULL;
 L9BOOL scalegfx=TRUE;
 Bitmap* bitmap=NULL;
 
-GfxState GfxStack[GFXSTACKSIZE];
-int GfxStackPos=0;
+L9BYTE* GfxA5Stack[GFXSTACKSIZE];
+int GfxA5StackPos=0;
+int GfxScaleStack[GFXSTACKSIZE];
+int GfxScaleStackPos=0;
 
 char lastchar='.';
 char lastactualchar=0;
@@ -2936,7 +2930,7 @@ int scalex(int x)
 int scaley(int y)
 {
 	if (scalegfx)
-		return 96 - (((y>>5)+(y>>6))>>3);
+		return (L9GameType <= L9_V2) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
 	return (96<<3) - ((y>>5)+(y>>6));
 }
 
@@ -3040,17 +3034,19 @@ L9BOOL findsub(int d0,L9BYTE** a5)
 
 void gosubd0(int d0, L9BYTE** a5)
 {
-	if (GfxStackPos < GFXSTACKSIZE)
+	if (GfxA5StackPos < GFXSTACKSIZE)
 	{
-		GfxStack[GfxStackPos].a5 = *a5;
-		GfxStack[GfxStackPos].scale = scale;
-		GfxStackPos++;
+		GfxA5Stack[GfxA5StackPos] = *a5;
+		GfxA5StackPos++;
+		GfxScaleStack[GfxScaleStackPos] = scale;
+		GfxScaleStackPos++;
 
 		if (findsub(d0,a5) == FALSE)
 		{
-			GfxStackPos--;
-			*a5 = GfxStack[GfxStackPos].a5;
-			scale = GfxStack[GfxStackPos].scale;
+			GfxA5StackPos--;
+			*a5 = GfxA5Stack[GfxA5StackPos];
+			GfxScaleStackPos--;
+			scale = GfxScaleStack[GfxScaleStackPos];
 		}
 	}
 }
@@ -3219,8 +3215,12 @@ void size(int d7)
 		scale = (d0 < 0x100) ? d0 : 0xff;
 	}
 	else
-/* sizereset */
+	{
+		/* sizereset */
 		scale = 0x80;
+		if (L9GameType <= L9_V2)
+			GfxScaleStackPos = 0;	
+	}
 
 #ifdef L9DEBUG
 	printf("gfx - size 0x%.2x",scale);
@@ -3312,17 +3312,21 @@ void restorescale(void)
 #ifdef L9DEBUG
 	printf("gfx - restorescale");
 #endif
-	if (GfxStackPos > 0)
-		scale = GfxStack[GfxStackPos-1].scale;
+	if (GfxScaleStackPos > 0)
+		scale = GfxScaleStack[GfxScaleStackPos-1];
 }
 
 L9BOOL rts(L9BYTE** a5)
 {
-	if (GfxStackPos > 0)
+	if (GfxA5StackPos > 0)
 	{
-		GfxStackPos--;
-		*a5 = GfxStack[GfxStackPos].a5;
-		scale = GfxStack[GfxStackPos].scale;
+		GfxA5StackPos--;
+		*a5 = GfxA5Stack[GfxA5StackPos];
+		if (GfxScaleStackPos > 0)
+		{
+			GfxScaleStackPos--;
+			scale = GfxScaleStack[GfxScaleStackPos];
+		}
 		return TRUE;
 	}
 	return FALSE;
@@ -3404,7 +3408,8 @@ void show_picture(int pic)
 /* sizereset */
 		scale = 0x80;
 
-		GfxStackPos=0;
+		GfxA5StackPos=0;
+		GfxScaleStackPos=0;
 		absrunsub(0);
 		if (!findsub(pic,&gfxa5))
 			gfxa5 = NULL;
@@ -3430,7 +3435,7 @@ void GetPictureSize(int* width, int* height)
 		if (width != NULL)
 			*width = (L9GameType <= L9_V2) ? 160 : 320;
 		if (height != NULL)
-			*height = 96;
+			*height = (L9GameType <= L9_V2) ? 128 : 96;			
 	}
 	else
 	{
