@@ -34,7 +34,7 @@ FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "OK",1,94,94,48,13
     LTEXT           "Level 9 Interpreter v5.0",-1,40,9,90,8
-    LTEXT           "Copyright (c) 1996-2010 Glen Summers and contributors.",
+    LTEXT           "Copyright (c) 1996-2011 Glen Summers and contributors.",
                     -1,40,19,163,17
     ICON            IDI_ICON,IDC_LOGO,5,7,20,20,SS_REALSIZEIMAGE | WS_BORDER,
                     WS_EX_CLIENTEDGE

@@ -3,7 +3,7 @@
         An interpreter for Level 9 games in any format,
         including Spectrum snapshots.
 
-        Copyright (c) 1996-2010 Glen Summers and contributors.
+        Copyright (c) 1996-2011 Glen Summers and contributors.
         Contributions from David Kinder, Alan Staniforth,
         Simon Baldwin, Dieter Baron and Andreas Scherrer.
 

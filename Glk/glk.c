@@ -1,6 +1,6 @@
 /* vi: set ts=2 shiftwidth=2 expandtab: 
  *
- * Copyright (C) 2002-2010  Simon Baldwin, simon_baldwin@yahoo.com
+ * Copyright (C) 2002-2011  Simon Baldwin, simon_baldwin@yahoo.com
  * Mac portions Copyright (C) 2002  Ben Hines
  *
  * This program is free software; you can redistribute it and/or modify

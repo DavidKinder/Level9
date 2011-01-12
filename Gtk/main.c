@@ -179,7 +179,7 @@ void do_about ()
 	"v5.0",
 	
 	"copyright",
-	"Copyright (c) 1996-2010 Glen Summers and contributors.\n"
+	"Copyright (c) 1996-2011 Glen Summers and contributors.\n"
 	"Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\n"
 	"Dieter Baron and Andreas Scherrer.",
 
