@@ -2079,6 +2079,35 @@ void playback(void)
 		printstring("\rUnable to play back script file.\r");
 }
 
+void l9_fgets(char* s, int n, FILE* f)
+{
+	int c = '\0';
+	int count = 0;
+
+	while ((c != '\n') && (c != '\r') && (c != EOF) && (count < n-1))
+	{
+		c = fgetc(f);
+		*s++ = c;
+		count++;
+	}
+	*s = '\0';
+
+	if (c == EOF)
+	{
+		s--;
+		*s = '\n';
+	}
+	else if (c == '\r')
+	{
+		s--;
+		*s = '\n';
+
+		c = fgetc(f);
+		if ((c != '\r') && (c != EOF))
+			fseek(f,-1,SEEK_CUR);
+	}
+}
+
 L9BOOL scriptinput(char* ibuff, int size)
 {
 	while (scriptfile != NULL)
@@ -2092,7 +2121,7 @@ L9BOOL scriptinput(char* ibuff, int size)
 		{
 			char* p = ibuff;
 			*p = '\0';
-			fgets(ibuff,size,scriptfile);
+			l9_fgets(ibuff,size,scriptfile);
 			while (*p != '\0')
 			{
 				switch (*p)
