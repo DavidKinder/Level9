@@ -112,7 +112,6 @@ GameState CheatWorkspace;
 int reflectflag,scale,gintcolour,option;
 int l9textmode=0,drawx=0,drawy=0,screencalled=0,showtitle=1;
 L9BYTE *gfxa5=NULL;
-L9BOOL scalegfx=TRUE;
 Bitmap* bitmap=NULL;
 
 L9BYTE* GfxA5Stack[GFXSTACKSIZE];
@@ -2951,16 +2950,12 @@ void ifgtvt(void)
 
 int scalex(int x)
 {
-	if (scalegfx)
-		return (L9GameType <= L9_V2) ? x>>6 : x>>5;
-	return x;
+	return (L9GameType <= L9_V2) ? x>>6 : x>>5;
 }
 
 int scaley(int y)
 {
-	if (scalegfx)
-		return (L9GameType <= L9_V2) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
-	return (96<<3) - ((y>>5)+(y>>6));
+	return (L9GameType <= L9_V2) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
 }
 
 void _screen(void)
@@ -3459,19 +3454,12 @@ void GetPictureSize(int* width, int* height)
 		if (height != NULL)
 			*height = 0;
 	}
-	else if (scalegfx)
+	else
 	{
 		if (width != NULL)
 			*width = (L9GameType <= L9_V2) ? 160 : 320;
 		if (height != NULL)
 			*height = (L9GameType <= L9_V2) ? 128 : 96;			
-	}
-	else
-	{
-		if (width != NULL)
-			*width = 320<<6;
-		if (height != NULL)
-			*height = 96<<3;
 	}
 }
 
@@ -3484,11 +3472,6 @@ L9BOOL RunGraphics(void)
 		return TRUE;
 	}
 	return FALSE;
-}
-
-void SetScaleGraphics(L9BOOL scale)
-{
-	scalegfx = scale;
 }
 
 void initgetobj(void)
