@@ -1473,7 +1473,7 @@ L9BOOL intinitialise(char*filename,char*picname)
 	{
 		if (L9V1Game < 0)
 		{
-			error("\rWhat appears to be V1 game data was found, but the game was not recognised.\rPlease report this to the Level 9 interpreter authors!\r");
+			error("\rWhat appears to be V1 game data was found, but the game was not recognised.\rEither this is an unknown V1 game file or, more likely, it is corrupted.\r");
 			return FALSE;
 		}
 		for (i=0;i<6;i++)
