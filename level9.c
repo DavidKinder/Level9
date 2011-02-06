@@ -55,6 +55,7 @@
 #define IBUFFSIZE 500
 #define RAMSAVESLOTS 10
 #define GFXSTACKSIZE 100
+#define FIRSTLINESIZE 64
 
 /* Typedefs */
 typedef struct
@@ -86,6 +87,8 @@ char threechars[34];
 int L9GameType;
 int L9MsgType;
 char LastGame[MAX_PATH];
+char FirstLine[FIRSTLINESIZE];
+int FirstLinePos=0;
 
 
 #if defined(AMIGA) && defined(_DCC)
@@ -113,6 +116,7 @@ int reflectflag,scale,gintcolour,option;
 int l9textmode=0,drawx=0,drawy=0,screencalled=0,showtitle=1;
 L9BYTE *gfxa5=NULL;
 Bitmap* bitmap=NULL;
+L9BOOL lower_resolution=FALSE;
 
 L9BYTE* GfxA5Stack[GFXSTACKSIZE];
 int GfxA5StackPos=0;
@@ -303,14 +307,20 @@ void printchar(char c)
 {
 	if (Cheating) return;
 
-	if (c&128) lastchar=(c&=0x7f);
+	if (c&128)
+		lastchar=(c&=0x7f);
 	else if (c!=0x20 && c!=0x0d && (c<'\"' || c>='.'))
 	{
 		if (lastchar=='!' || lastchar=='?' || lastchar=='.') c=toupper(c);
 		lastchar=c;
 	}
 	/* eat multiple CRs */
-	if (c!=0x0d || lastactualchar!=0x0d) os_printchar(c);
+	if (c!=0x0d || lastactualchar!=0x0d)
+	{
+		os_printchar(c);
+		if (FirstLinePos < FIRSTLINESIZE-1)
+			FirstLine[FirstLinePos++]=c;
+	}
 	lastactualchar=c;
 }
 
@@ -335,7 +345,8 @@ void error(char *fmt,...)
 	va_start(ap,fmt);
 	vsprintf(buf,fmt,ap);
 	va_end(ap);
-	for (i=0;i< (int) strlen(buf);i++) os_printchar(buf[i]);
+	for (i=0;i< (int) strlen(buf);i++)
+		os_printchar(buf[i]);
 }
 
 void printautocase(int d0)
@@ -1585,6 +1596,11 @@ L9BOOL intinitialise(char*filename,char*picname)
 		}
 	}
 #endif
+
+	memset(FirstLine,0,FIRSTLINESIZE);
+	FirstLinePos=0;
+	lower_resolution=FALSE;
+
 	return TRUE;
 }
 
@@ -2950,18 +2966,32 @@ void ifgtvt(void)
 
 int scalex(int x)
 {
-	return (L9GameType <= L9_V2) ? x>>6 : x>>5;
+	return (L9GameType <= L9_V2 || lower_resolution) ? x>>6 : x>>5;
 }
 
 int scaley(int y)
 {
-	return (L9GameType <= L9_V2) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
+	return (L9GameType <= L9_V2 || lower_resolution) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
+}
+
+void test_resolution(void)
+{
+	lower_resolution = FALSE;
+
+	/* These V3 games need to use a lower resolution for graphics */
+	if (strstr(FirstLine,"Price of Magik") != 0)
+		lower_resolution = TRUE;
+	else if (strstr(FirstLine,"The Archers") != 0)
+		lower_resolution = TRUE;
+	else if (strstr(FirstLine,"Secret Diary of Adrian Mole") != 0)
+		lower_resolution = TRUE;
 }
 
 void _screen(void)
 {
 	int mode = 0;
 
+	test_resolution();
 	l9textmode = *codeptr++;
 	if (l9textmode)
 	{
@@ -3414,6 +3444,7 @@ void show_picture(int pic)
 		   graphics, so here graphics are enabled if necessary. */
 		if ((screencalled == 0) && (l9textmode == 0))
 		{
+			test_resolution();
 			l9textmode = 1;
 			os_graphics(1);
 		}
@@ -3457,9 +3488,9 @@ void GetPictureSize(int* width, int* height)
 	else
 	{
 		if (width != NULL)
-			*width = (L9GameType <= L9_V2) ? 160 : 320;
+			*width = (L9GameType <= L9_V2 || lower_resolution) ? 160 : 320;
 		if (height != NULL)
-			*height = (L9GameType <= L9_V2) ? 128 : 96;			
+			*height = (L9GameType <= L9_V2 || lower_resolution) ? 128 : 96;			
 	}
 }
 
