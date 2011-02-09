@@ -67,6 +67,7 @@ typedef struct
 /* Enumerations */
 enum L9GameTypes { L9_V1, L9_V2, L9_V3, L9_V4 };
 enum L9MsgTypes { MSGT_V1, MSGT_V2 };
+enum L9GfxTypes { GFX_V2, GFX_V3A, GFX_V3B };
 
 /* Global Variables */
 L9BYTE* startfile=NULL,*pictureaddress=NULL,*picturedata=NULL;
@@ -116,7 +117,7 @@ int reflectflag,scale,gintcolour,option;
 int l9textmode=0,drawx=0,drawy=0,screencalled=0,showtitle=1;
 L9BYTE *gfxa5=NULL;
 Bitmap* bitmap=NULL;
-L9BOOL lower_resolution=FALSE;
+int gfx_mode=GFX_V2;
 
 L9BYTE* GfxA5Stack[GFXSTACKSIZE];
 int GfxA5StackPos=0;
@@ -1599,7 +1600,6 @@ L9BOOL intinitialise(char*filename,char*picname)
 
 	memset(FirstLine,0,FIRSTLINESIZE);
 	FirstLinePos=0;
-	lower_resolution=FALSE;
 
 	return TRUE;
 }
@@ -2966,32 +2966,40 @@ void ifgtvt(void)
 
 int scalex(int x)
 {
-	return (L9GameType <= L9_V2 || lower_resolution) ? x>>6 : x>>5;
+	return (gfx_mode != GFX_V3B) ? x>>6 : x>>5;
 }
 
 int scaley(int y)
 {
-	return (L9GameType <= L9_V2 || lower_resolution) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
+	return (gfx_mode == GFX_V2) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
 }
 
-void test_resolution(void)
+void set_gfx_mode(void)
 {
-	lower_resolution = FALSE;
-
-	/* These V3 games need to use a lower resolution for graphics */
-	if (strstr(FirstLine,"Price of Magik") != 0)
-		lower_resolution = TRUE;
-	else if (strstr(FirstLine,"The Archers") != 0)
-		lower_resolution = TRUE;
-	else if (strstr(FirstLine,"Secret Diary of Adrian Mole") != 0)
-		lower_resolution = TRUE;
+	if (L9GameType == L9_V3)
+	{
+		/* These V3 games use graphics logic similar to the V2 games */
+		if (strstr(FirstLine,"Price of Magik") != 0)
+			gfx_mode = GFX_V3A;
+		else if (strstr(FirstLine,"The Archers") != 0)
+			gfx_mode = GFX_V3A;
+		else if (strstr(FirstLine,"Secret Diary of Adrian Mole") != 0)
+			gfx_mode = GFX_V3A;
+		else if ((strstr(FirstLine,"Worm in Paradise") != 0)
+		      && (strstr(FirstLine,"Silicon Dreams") == 0))
+			gfx_mode = GFX_V3A;
+		else
+			gfx_mode = GFX_V3B;
+	}
+	else
+		gfx_mode = GFX_V2;
 }
 
 void _screen(void)
 {
 	int mode = 0;
 
-	test_resolution();
+	set_gfx_mode();
 	l9textmode = *codeptr++;
 	if (l9textmode)
 	{
@@ -3272,7 +3280,7 @@ void size(int d7)
 	{
 		/* sizereset */
 		scale = 0x80;
-		if (L9GameType <= L9_V2)
+		if (gfx_mode != GFX_V3B)
 			GfxScaleStackPos = 0;	
 	}
 
@@ -3444,7 +3452,7 @@ void show_picture(int pic)
 		   graphics, so here graphics are enabled if necessary. */
 		if ((screencalled == 0) && (l9textmode == 0))
 		{
-			test_resolution();
+			set_gfx_mode();
 			l9textmode = 1;
 			os_graphics(1);
 		}
@@ -3488,9 +3496,9 @@ void GetPictureSize(int* width, int* height)
 	else
 	{
 		if (width != NULL)
-			*width = (L9GameType <= L9_V2 || lower_resolution) ? 160 : 320;
+			*width = (gfx_mode != GFX_V3B) ? 160 : 320;
 		if (height != NULL)
-			*height = (L9GameType <= L9_V2 || lower_resolution) ? 128 : 96;			
+			*height = (gfx_mode == GFX_V2) ? 128 : 96;			
 	}
 }
 
