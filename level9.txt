@@ -279,10 +279,13 @@ and Simon Baldwin.
 
 For version 4.0, David Kinder integrated the various bitmap decoders, but all
 the difficult work was done by Alan Staniforth and Dieter Baron. Alan also
-supplied the BBC B bitmap changes for version 4.1. David and Andreas Scherrer
-worked on version 5.0 to integrate script playback from Andreas' .NET port of
-the interpreter. Andreas created a test harness to play through all the games,
-and David and Andreas then worked through the problems this showed up.
+supplied the BBC B bitmap changes for version 4.1.
+
+David and Andreas Scherrer worked on version 5.0 to integrate script playback
+from Andreas' .NET port of the interpreter. Andreas created a test harness to
+play through all the games, and David and Andreas then worked through the
+problems this showed up. Andreas also put much effort into painstakingly
+checking all the graphics in the games, which revealed several issues.
 
 Help, testing and information on the various Level 9 formats was provided by
 Paul David Doherty. Testing of the fix for Lancelot in version 4.1 was
