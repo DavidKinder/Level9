@@ -55,7 +55,7 @@
 #define IBUFFSIZE 500
 #define RAMSAVESLOTS 10
 #define GFXSTACKSIZE 100
-#define FIRSTLINESIZE 64
+#define FIRSTLINESIZE 96
 
 /* Typedefs */
 typedef struct
@@ -67,7 +67,15 @@ typedef struct
 /* Enumerations */
 enum L9GameTypes { L9_V1, L9_V2, L9_V3, L9_V4 };
 enum L9MsgTypes { MSGT_V1, MSGT_V2 };
-enum L9GfxTypes { GFX_V2, GFX_V3A, GFX_V3B };
+/*
+	Graphics type    Resolution     Scale stack reset
+	-------------------------------------------------    
+	GFX_V2           160 x 128            yes
+	GFX_V3A          160 x 96             yes
+	GFX_V3B          160 x 96             no
+	GFX_V3C          320 x 96             no
+*/
+enum L9GfxTypes { GFX_V2, GFX_V3A, GFX_V3B, GFX_V3C };
 
 /* Global Variables */
 L9BYTE* startfile=NULL,*pictureaddress=NULL,*picturedata=NULL;
@@ -90,7 +98,7 @@ int L9MsgType;
 char LastGame[MAX_PATH];
 char FirstLine[FIRSTLINESIZE];
 int FirstLinePos=0;
-
+int FirstPicture=-1;
 
 #if defined(AMIGA) && defined(_DCC)
 __far SaveStruct ramsavearea[RAMSAVESLOTS];
@@ -320,7 +328,7 @@ void printchar(char c)
 	{
 		os_printchar(c);
 		if (FirstLinePos < FIRSTLINESIZE-1)
-			FirstLine[FirstLinePos++]=c;
+			FirstLine[FirstLinePos++]=tolower(c);
 	}
 	lastactualchar=c;
 }
@@ -1344,68 +1352,76 @@ void FullScan(L9BYTE* StartFile,L9UINT32 FileSize)
 
 L9BOOL findsubs(L9BYTE* testptr, L9UINT32 testsize, L9BYTE** picdata, L9UINT32 *picsize)
 {
-	int i, length, count;
-	L9BYTE *picptr, *startptr;
-	L9BOOL first;
+	int i, j, length, count;
+	L9BYTE *picptr, *startptr, *tmpptr;
+
+	if (testsize < 16) return FALSE;
 	
 	/*
-		Try to traverse the graphics subroutines backwards.
-		Check for this 4-byte pattern: rr | nn | nl | ll
-		rr  : end of the previous subroutine ( == 0x0ff )
-		nnn : the subroutine number          ( <= 0x7ff ) 
-		lll : the subroutine length          ( <= 0x7ff )
-		If the pattern matches, try to find the next subroutines.
+		Try to traverse the graphics subroutines.
+		
+		Each subroutine starts with a header: nn | nl | ll
+		nnn : the subroutine number ( 0x000 - 0x7ff ) 
+		lll : the subroutine length ( 0x004 - 0x3ff )
+		
+		The first subroutine usually has the number 0x000.
+		Each subroutine ends with 0xff.
+		
+		findsubs() searches for the header of the second subroutine
+		(pattern: 0xff | nn | nl | ll) and then tries to find the
+		first and next subroutines by evaluating the length fields
+		of the subroutine headers.
 	*/
-	for (i = testsize - 2; i >= 0; i--)
+	for (i = 4; i < (int)(testsize - 4); i++)
 	{
 		picptr = testptr + i;
-
-		if ((*picptr & 0x80) || (*(picptr - 1) != 0xff) || (*(picptr + 1) & 0x08))
+		if (*(picptr - 1) != 0xff || (*picptr & 0x80) || (*(picptr + 1) & 0x0c) || (*(picptr + 2) < 4))
 			continue;
 
-		picptr -= 4;
 		count = 0;
-		length = 4;
-		first = TRUE;
+		startptr = picptr;
 
 		while (TRUE)
-		{
-			if (length > 0x7ff || picptr < testptr)
+		{			
+			length = ((*(picptr + 1) & 0x0f) << 8) + *(picptr + 2);
+			if (length > 0x3ff || picptr + length + 4 > testptr + testsize)
 				break;
-
-			if ((*picptr & 0x80) || (*(picptr + 1) & 0x08)
-			 || *(picptr + 2) + ((*(picptr + 1) & 0x0f) << 8) != length)
-			{				
-				picptr--;
-				length++;
-				continue;
-			}
-
-			if (first)
+			
+			picptr += length;
+			if (*(picptr - 1) != 0xff)
 			{
-				startptr = picptr;
-				first = FALSE;
+				picptr -= length;
+				break;
 			}
-
-			if (*(picptr - 1) == 0xff)
-			{
-				count++;
-				startptr = picptr;
-				first = TRUE;
-				length = 0;
-			}
-
-			picptr--;
-			length++;
+			if ((*picptr & 0x80) || (*(picptr + 1) & 0x0c) || (*(picptr + 2) < 4))
+				break;
+			
+			count++;
 		}
 
-		if (count > 40)
+		if (count > 10)
 		{
-			*picdata = startptr;
-			picptr = testptr + i;
-			*picsize = picptr - startptr;
-			*picsize += *(picptr + 2) + ((*(picptr + 1) & 0x0f) << 8);
-			return TRUE;
+			/* Search for the start of the first subroutine */
+			for (j = 4; j < 0x3ff; j++)
+			{
+				tmpptr = startptr - j;				
+				if (*tmpptr == 0xff || tmpptr < testptr)
+					break;
+					
+				length = ((*(tmpptr + 1) & 0x0f) << 8) + *(tmpptr + 2);
+				if (tmpptr + length == startptr)
+				{
+					startptr = tmpptr;					
+					break;
+				}
+			}
+			
+			if (*tmpptr != 0xff)
+			{ 		
+				*picdata = startptr;
+				*picsize = picptr - startptr;
+				return TRUE;
+			}		
 		}
 	}
 	return FALSE;
@@ -1590,7 +1606,8 @@ L9BOOL intinitialise(char*filename,char*picname)
 	}
 	else
 	{
-		if (!findsubs(acodeptr, FileSize-(acodeptr-startdata), &picturedata, &picturesize))
+		if (!findsubs(startdata, FileSize, &picturedata, &picturesize)
+			&& !findsubs(startfile, startdata - startfile, &picturedata, &picturesize))
 		{
 			picturedata = NULL;
 			picturesize = 0;
@@ -2777,6 +2794,12 @@ L9BOOL inputV2(int *wordcount)
 
 void input(void)
 {
+	if (L9GameType == L9_V3 && FirstPicture >= 0)
+	{
+		show_picture(FirstPicture);
+		FirstPicture = -1;
+	}
+
 	/* if corruptinginput() returns false then, input will be called again
 	   next time around instructionloop, this is used when save() and restore()
 	   are called out of line */
@@ -2966,12 +2989,12 @@ void ifgtvt(void)
 
 int scalex(int x)
 {
-	return (gfx_mode != GFX_V3B) ? x>>6 : x>>5;
+	return (gfx_mode != GFX_V3C) ? (x>>6) : (x>>5);
 }
 
 int scaley(int y)
 {
-	return (gfx_mode == GFX_V2) ? 128 - (y>>7) : 96 - (((y>>5)+(y>>6))>>3);
+	return (gfx_mode == GFX_V2) ? 127 - (y>>7) : 95 - (((y>>5)+(y>>6))>>3);
 }
 
 void set_gfx_mode(void)
@@ -2979,17 +3002,30 @@ void set_gfx_mode(void)
 	if (L9GameType == L9_V3)
 	{
 		/* These V3 games use graphics logic similar to the V2 games */
-		if (strstr(FirstLine,"Price of Magik") != 0)
+		if (strstr(FirstLine,"price of magik") != 0)
 			gfx_mode = GFX_V3A;
-		else if (strstr(FirstLine,"The Archers") != 0)
+		else if (strstr(FirstLine,"the archers") != 0)
 			gfx_mode = GFX_V3A;
-		else if (strstr(FirstLine,"Secret Diary of Adrian Mole") != 0)
+		else if (strstr(FirstLine,"secret diary of adrian mole") != 0)
 			gfx_mode = GFX_V3A;
-		else if ((strstr(FirstLine,"Worm in Paradise") != 0)
-		      && (strstr(FirstLine,"Silicon Dreams") == 0))
+		else if ((strstr(FirstLine,"worm in paradise") != 0)
+			&& (strstr(FirstLine,"silicon dreams") == 0))
 			gfx_mode = GFX_V3A;
-		else
+		else if (strstr(FirstLine,"growing pains of adrian mole") != 0)
 			gfx_mode = GFX_V3B;
+		else if (strstr(FirstLine,"jewels of darkness") != 0 && picturesize < 11000)
+			gfx_mode = GFX_V3B;
+		else if (strstr(FirstLine,"silicon dreams") != 0)
+		{
+			if (picturesize > 11000
+				|| (startdata[0] == 0x14 && startdata[1] == 0x7d)  /* Return to Eden /SD (PC) */
+				|| (startdata[0] == 0xd7 && startdata[1] == 0x7c)) /* Worm in Paradise /SD (PC) */
+				gfx_mode = GFX_V3C;
+			else
+				gfx_mode = GFX_V3B;
+		} 
+		else
+			gfx_mode = GFX_V3C;
 	}
 	else
 		gfx_mode = GFX_V2;
@@ -2998,6 +3034,13 @@ void set_gfx_mode(void)
 void _screen(void)
 {
 	int mode = 0;
+
+	if (L9GameType == L9_V3 && strlen(FirstLine) == 0)
+	{
+		if (*codeptr++)
+			codeptr++;
+		return;
+	}
 
 	set_gfx_mode();
 	l9textmode = *codeptr++;
@@ -3280,7 +3323,7 @@ void size(int d7)
 	{
 		/* sizereset */
 		scale = 0x80;
-		if (gfx_mode != GFX_V3B)
+		if (gfx_mode == GFX_V2 || gfx_mode == GFX_V3A)
 			GfxScaleStackPos = 0;	
 	}
 
@@ -3446,6 +3489,12 @@ void absrunsub(int d0)
 
 void show_picture(int pic)
 {
+	if (L9GameType == L9_V3 && strlen(FirstLine) == 0)
+	{
+		FirstPicture = pic;
+		return;
+	}
+
 	if (picturedata)
 	{
 		/* Some games don't call the screen() opcode before drawing
@@ -3496,7 +3545,7 @@ void GetPictureSize(int* width, int* height)
 	else
 	{
 		if (width != NULL)
-			*width = (gfx_mode != GFX_V3B) ? 160 : 320;
+			*width = (gfx_mode != GFX_V3C) ? 160 : 320;
 		if (height != NULL)
 			*height = (gfx_mode == GFX_V2) ? 128 : 96;			
 	}

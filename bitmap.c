@@ -342,10 +342,7 @@ L9BOOL bitmap_st1_decode(char* file, int x, int y)
 
 	bitmap->npalette = 16;
 	for (i = 0; i < 16; i++)
-	{
-		L9UINT16 colour = data[1+(i*2)]+data[i*2]*256;
 		bitmap->palette[i] = bitmap_pcst_colour(data[(i*2)],data[1+(i*2)]);
-	}
 
 	free(data);
 	return TRUE;
