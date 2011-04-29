@@ -111,7 +111,7 @@ int history_index = 0;
 /* Display bitmap variables */
 BITMAP* display = NULL;
 PALETTE palette;
-int gfx_mode = GFX_AUTODETECT_FULLSCREEN;
+int allegro_gfx_mode = GFX_AUTODETECT_FULLSCREEN;
 int screen_width = 640;
 int screen_height = 480;
 int text_x = 0;
@@ -581,7 +581,7 @@ void prepare_screen(void)
 
   /* Set up the screen. */
   set_color_depth(8);
-  if (set_gfx_mode(gfx_mode,screen_width,screen_height,0,0) < 0)
+  if (set_gfx_mode(allegro_gfx_mode,screen_width,screen_height,0,0) < 0)
     fatal(allegro_error);
   clear(screen);
   set_default_palette();
@@ -1346,13 +1346,13 @@ int main(int argc, char** argv)
     /* Get the display mode, width and height. */
     if (display_type == 0)
     {
-      gfx_mode = GFX_AUTODETECT_WINDOWED;
+      allegro_gfx_mode = GFX_AUTODETECT_WINDOWED;
       screen_width = display_width;
       screen_height = display_height;
     }
     else
     {
-      gfx_mode = GFX_AUTODETECT_FULLSCREEN;
+      allegro_gfx_mode = GFX_AUTODETECT_FULLSCREEN;
       screen_width = display_modes[display_type].width;
       screen_height = display_modes[display_type].height;
     }
@@ -1404,7 +1404,7 @@ int main(int argc, char** argv)
 int get_file_name(const char* prompt, const char* filter, char* buffer, int save)
 {
 #ifdef _WIN32
-  if (gfx_mode == GFX_AUTODETECT_WINDOWED)
+  if (allegro_gfx_mode == GFX_AUTODETECT_WINDOWED)
   {
     OPENFILENAME open_file;
     BOOL got_file = FALSE;

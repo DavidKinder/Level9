@@ -2997,7 +2997,7 @@ int scaley(int y)
 	return (gfx_mode == GFX_V2) ? 127 - (y>>7) : 95 - (((y>>5)+(y>>6))>>3);
 }
 
-void set_gfx_mode(void)
+void detect_gfx_mode(void)
 {
 	if (L9GameType == L9_V3)
 	{
@@ -3042,7 +3042,7 @@ void _screen(void)
 		return;
 	}
 
-	set_gfx_mode();
+	detect_gfx_mode();
 	l9textmode = *codeptr++;
 	if (l9textmode)
 	{
@@ -3501,7 +3501,7 @@ void show_picture(int pic)
 		   graphics, so here graphics are enabled if necessary. */
 		if ((screencalled == 0) && (l9textmode == 0))
 		{
-			set_gfx_mode();
+			detect_gfx_mode();
 			l9textmode = 1;
 			os_graphics(1);
 		}
