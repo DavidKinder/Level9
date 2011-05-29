@@ -78,7 +78,7 @@ typedef struct
 } Bitmap;
 
 #define MAX_BITMAP_WIDTH 512
-#define MAX_BITMAP_HEIGHT 216
+#define MAX_BITMAP_HEIGHT 218
 
 #if defined(_Windows) || defined(__MSDOS__) || defined (_WIN32) || defined (__WIN32__)
 	#define L9WORD(x) (*(L9UINT16*)(x))

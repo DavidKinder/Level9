@@ -939,6 +939,10 @@ BitmapType bitmap_noext_type(char* file)
 			return MAC_BITMAPS;
 		if ((x == 0x0168) && (y == 0x00BC))
 			return MAC_BITMAPS;
+		if ((x == 0x0200) && (y == 0x00DA))
+			return MAC_BITMAPS;
+		if ((x == 0x0168) && (y == 0x00DA))
+			return MAC_BITMAPS;
 
 		x = data[35]+data[34]*256;
 		y = data[39]+data[38]*256;
