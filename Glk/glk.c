@@ -3574,7 +3574,7 @@ gln_status_update (void)
        */
       game_name = gln_gameid_get_game_name ();
       glk_put_string (game_name ? (char *) game_name
-                                : "Glk Level 9 version 5.0");
+                                : "Glk Level 9 version 5.1");
 
       glk_set_window (gln_main_window);
     }
@@ -6431,7 +6431,7 @@ gln_main (void)
         }
 
       /* Print out a short banner. */
-      gln_header_string ("\nLevel 9 Interpreter, version 5.0\n");
+      gln_header_string ("\nLevel 9 Interpreter, version 5.1\n");
       gln_banner_string ("Written by Glen Summers and David Kinder\n"
                          "Glk interface by Simon Baldwin\n\n");
 

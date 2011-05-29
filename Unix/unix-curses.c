@@ -799,7 +799,7 @@ int main (int argc, char *argv [])
     exit (1);
   }
 
-  printf ("Level 9 Interpreter v5.0\n"
+  printf ("Level 9 Interpreter v5.1\n"
 	  "Copyright (c) 1996-2011 Glen Summers and contributors.\n"
 	  "Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\n"
 	  "Dieter Baron and Andreas Scherrer.\n"

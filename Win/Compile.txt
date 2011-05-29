@@ -3,7 +3,7 @@ Source Code for Windows Version of the Level 9 Interpreter
 ----------------------------------------------------------
 
 Included in this archive is complete source code to rebuild the Windows version of
-the Level 9 interpreter, version 5.0. This source has been tested with Microsoft
+the Level 9 interpreter, version 5.1. This source has been tested with Microsoft
 Visual C++. However, it should be relatively easy to get it to compile with others.
 
 If using Visual C++, just load the project and build it. To compile with other

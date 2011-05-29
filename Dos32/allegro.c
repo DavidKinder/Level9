@@ -1,7 +1,7 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 5.0
+* Version 5.1
 * Copyright (c) 1996-2011 Glen Summers and contributors.
 * Contributions from David Kinder, Alan Staniforth, Simon Baldwin,
 * Dieter Baron and Andreas Scherrer.
@@ -752,7 +752,7 @@ void hotkey_info(void)
 {
   screen_string("\nHot key -- Copyright and License Information\n");
 
-  screen_string("\nLevel 9 Interpreter v5.0\n");
+  screen_string("\nLevel 9 Interpreter v5.1\n");
   screen_string("Copyright (c) 1996-2011 Glen Summers and contributors.\n");
   screen_string("Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\n");
   screen_string("Dieter Baron and Andreas Scherrer.\n\n");
@@ -1375,7 +1375,7 @@ int main(int argc, char** argv)
   {
     /* Print help information and exit. */
     puts(
-      "Level 9 Interpreter v5.0\n"
+      "Level 9 Interpreter v5.1\n"
       "Copyright (c) 1996-2011 Glen Summers and contributors.\n"
       "Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\n"
       "Dieter Baron and Andreas Scherrer.\n"

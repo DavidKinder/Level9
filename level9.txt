@@ -1,5 +1,5 @@
 
-        Level 9 Interpreter v5.0
+        Level 9 Interpreter v5.1
         An interpreter for Level 9 games in any format,
         including Spectrum snapshots.
 
@@ -231,6 +231,9 @@ Alt-H when playing a game to view a list of the available hotkeys.
 
 History
 -------
+
+  v5.1  The bitmap graphics from the US Macintosh release of Lancelot
+        now display correctly.
 
   v5.0  V1 games are also now supported.
         The input logic now correctly handles commas and full stops
