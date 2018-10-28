@@ -40,7 +40,7 @@ GTK_LIBS = `pkg-config --libs gtk+-2.0`
 
 #######################################################################
 
-LIBS = $(GTK_LIBS)
+LIBS = $(GTK_LIBS) -lm
 
 gtklevel9: $(OBJS)
 	$(CC) -o gtklevel9 $(OBJS) $(LIBS)
