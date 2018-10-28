@@ -26,23 +26,23 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
 // Dialog
 //
 
-IDD_ABOUT DIALOGEX 47, 43, 235, 112
+IDD_ABOUT DIALOGEX 47, 43, 235, 119
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
     WS_SYSMENU
 CAPTION "About"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    DEFPUSHBUTTON   "OK",1,94,94,48,13
+    DEFPUSHBUTTON   "OK",1,94,101,48,13
     LTEXT           "Level 9 Interpreter v5.1",-1,40,9,90,8
     LTEXT           "Copyright (c) 1996-2011 Glen Summers and contributors.",
                     -1,40,19,163,17
     ICON            IDI_ICON,IDC_LOGO,5,7,20,20,SS_REALSIZEIMAGE | WS_BORDER,
                     WS_EX_CLIENTEDGE
-    GROUPBOX        "",IDC_GROUP,34,0,195,89
-    LTEXT           "Contributions from David Kinder, Alan Staniforth, Simon Baldwin, Dieter Baron and Andreas Scherrer.",
-                    -1,40,38,175,19
+    GROUPBOX        "",IDC_GROUP,34,0,195,96
+    LTEXT           "Contributions from David Kinder, Alan Staniforth, Simon Baldwin, Dieter Baron, Andreas Scherrer and Stefano Bodrato.",
+                    -1,40,38,175,26
     LTEXT           "Level9 is released under the terms of the GNU General Public License. See the file COPYING that is included with this program for details.",
-                    -1,40,59,182,26
+                    -1,40,66,182,26
 END
 
 
@@ -101,6 +101,7 @@ BEGIN
     POPUP "&Options"
     BEGIN
         MENUITEM "&Select Font...",             CM_FONT
+        MENUITEM "&Dither Graphics Lines",      CM_DITHER
     END
     POPUP "&Help"
     BEGIN

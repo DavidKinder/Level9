@@ -6,7 +6,8 @@
 * Contributions from David Kinder, Alan Staniforth, Simon Baldwin,
 * Dieter Baron and Andreas Scherrer.
 *
-* Level9 32 bit Windows version by Glen Summers and David Kinder.
+* Level9 32 bit Windows version by Glen Summers and David Kinder,
+* with contributions from Stefano Bodrato.
 *
 * This program is free software; you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -63,6 +64,7 @@ HRGN hClip=0;
 int GfxMode=0;
 int GfxHeight=0;
 int GfxPicWidth=0,GfxPicHeight=0;
+BOOL GfxDither=FALSE;
 HBITMAP hGfx=0,hGfxDraw=0;
 HDC hGfxDC=0,hGfxDrawDC=0;
 int FontHeight=0,LineSpacing=0;
@@ -831,7 +833,18 @@ COLORREF LineColour2 = 0;
 VOID CALLBACK LineProc(int x, int y, LPARAM)
 {
   if (GetPixel(hGfxDC,x,y) == LineColour2)
+  {
     SetPixel(hGfxDC,x,y,LineColour1);
+    if (GfxDither)
+    {
+      SetPixel(hGfxDC,x+1,y,LineColour1);
+      SetPixel(hGfxDC,x,y+1,LineColour1);
+      SetPixel(hGfxDC,x+1,y+1,LineColour1);
+      SetPixel(hGfxDC,x+2,y,LineColour1);
+      SetPixel(hGfxDC,x,y+2,LineColour1);
+      SetPixel(hGfxDC,x+2,y+2,LineColour1);
+    }
+  }
 }
 
 void os_drawline(int x1, int y1, int x2, int y2, int colour1, int colour2)
@@ -954,6 +967,7 @@ public:
   void CmExit();
   void CmOpen();
   void CmSelectFont();
+  void CmToggleDither();
   void CmRestore() { HashCommand("#restore"); }
   void CmSave() { HashCommand("save"); }
   void CmDictionary() { HashCommand("#dictionary"); }
@@ -991,6 +1005,7 @@ EV_START(MainWindow)
   EV_COMMAND(CM_EXIT, CmExit)
   EV_COMMAND(CM_OPEN, CmOpen)
   EV_COMMAND(CM_FONT, CmSelectFont)
+  EV_COMMAND(CM_DITHER, CmToggleDither)
   EV_COMMAND(CM_FILELOAD, CmRestore)
   EV_COMMAND(CM_FILESAVE, CmSave)
   EV_COMMAND(CM_DICTIONARY, CmDictionary)
@@ -1042,6 +1057,7 @@ BOOL MainWindow::SetupWindow()
   SetMru(hWnd,CM_EXIT);
   hWndMain=hWnd;
   SetFont();
+  CheckMenuItem(CM_DITHER,GfxDither);
   Playing=FALSE;
 
   return TRUE;
@@ -1068,6 +1084,12 @@ void MainWindow::CmSelectFont()
     InvalidateRect(hWnd,NULL,TRUE);
     MakeCaret();
   }
+}
+
+void MainWindow::CmToggleDither()
+{
+  GfxDither = !GfxDither;
+  CheckMenuItem(CM_DITHER,GfxDither);
 }
 
 void MainWindow::SetFont()
@@ -1332,6 +1354,8 @@ void MyApp::SetDefs()
   strcpy(lf.lfFaceName,ncm.lfMessageFont.lfFaceName);
 
   FontColour=RGB(0,0,0);
+
+  GfxDither=0;
 }
 
 void MyApp::ReadIni()
@@ -1348,6 +1372,8 @@ void MyApp::ReadIni()
   ReadIniString("Font","Name",S);
   if (*S) strcpy(lf.lfFaceName,S);
   ReadIniInt("Font","Colour",(long&) FontColour);
+
+  ReadIniBool("Graphics","Dither",GfxDither);
 }
 
 void MyApp::WriteIni()
@@ -1362,6 +1388,8 @@ void MyApp::WriteIni()
   WriteIniInt("Font","Size",FontHeight);
   WriteIniString("Font","Name",lf.lfFaceName);
   WriteIniInt("Font","Colour",(long) FontColour);
+
+  WriteIniBool("Graphics","Dither",GfxDither);
 }
 
 MyApp::MyApp(char *Name) : App(Name,Ini)
