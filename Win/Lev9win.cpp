@@ -29,6 +29,10 @@
 #pragma hdrstop
 #include <htmlhelp.h>
 
+#ifndef WM_DPICHANGED
+#define WM_DPICHANGED 0x02E0
+#endif
+
 #include <ctype.h>
 
 #include "level9.h"
@@ -71,6 +75,7 @@ int FontHeight=0,LineSpacing=0;
 LOGFONT lf;
 HFONT Font=0;
 COLORREF FontColour;
+UINT dpi=0;
 int PageWidth=0,PageHeight=0,WndHeight=0;
 int Margin=0;
 SimpleList<int> InputChars;
@@ -975,6 +980,7 @@ public:
 
   void SetFont();
   void DelFonts();
+  void UpdateFont();
 
 // message response functions
 
@@ -989,6 +995,7 @@ public:
   BOOL WMSetFocus(TMSG&);
   BOOL WMKillFocus(TMSG&);
   BOOL WMTimer(TMSG&);
+  BOOL WMDpiChanged(TMSG&);
 
 // window paint request
   void Paint(HDC, BOOL, RECT&);
@@ -1022,6 +1029,7 @@ EV_START(MainWindow)
   EV_MESSAGE(WM_SETFOCUS, WMSetFocus)
   EV_MESSAGE(WM_KILLFOCUS, WMKillFocus)
   EV_MESSAGE(WM_TIMER, WMTimer)
+  EV_MESSAGE(WM_DPICHANGED, WMDpiChanged)
 
 EV_END
 
@@ -1060,6 +1068,18 @@ BOOL MainWindow::SetupWindow()
   CheckMenuItem(CM_DITHER,GfxDither);
   Playing=FALSE;
 
+  HMODULE user = LoadLibrary("user32.dll");
+  if (user)
+  {
+    typedef UINT(__stdcall *PFNGETDPIFORWINDOW)(HWND);
+
+    PFNGETDPIFORWINDOW getDpiForWindow = (PFNGETDPIFORWINDOW)
+      ::GetProcAddress(user,"GetDpiForWindow");
+    if (getDpiForWindow != NULL)
+      dpi = (*getDpiForWindow)(hWnd);
+    FreeLibrary(user);
+  }
+
   return TRUE;
 }
 
@@ -1076,13 +1096,8 @@ void MainWindow::CmSelectFont()
 
   if (ChooseFont(&cf))
   {
-    DelFonts();
-    SetFont();
     FontColour=cf.rgbColors;
-    KillCaret();
-    Paginate();
-    InvalidateRect(hWnd,NULL,TRUE);
-    MakeCaret();
+    UpdateFont();
   }
 }
 
@@ -1109,6 +1124,16 @@ void MainWindow::SetFont()
 void MainWindow::DelFonts()
 {
   DeleteObject(Font);
+}
+
+void MainWindow::UpdateFont()
+{
+  DelFonts();
+  SetFont();
+  KillCaret();
+  Paginate();
+  InvalidateRect(hWnd,NULL,TRUE);
+  MakeCaret();
 }
 
 // this is called when the window is destroyed
@@ -1311,6 +1336,21 @@ BOOL MainWindow::WMTimer(TMSG& Msg)
   return TRUE;
 }
 
+BOOL MainWindow::WMDpiChanged(TMSG& Msg)
+{
+  LPRECT newRect = (LPRECT)Msg.lParam;
+  MoveWindow(hWndMain,newRect->left,newRect->top,
+    newRect->right-newRect->left,newRect->bottom-newRect->top,TRUE);
+  UINT newDpi = HIWORD(Msg.wParam);
+  if (dpi != newDpi)
+  {
+    lf.lfHeight = MulDiv(lf.lfHeight,newDpi,dpi);
+    dpi = newDpi;
+    UpdateFont();
+  }
+  return TRUE;
+}
+
 // App *****************************************
 
 class MyApp : public App
@@ -1341,10 +1381,12 @@ void MyApp::SetDefs()
   ncm.cbSize = sizeof(ncm);
   SystemParametersInfo(SPI_GETNONCLIENTMETRICS,ncm.cbSize,&ncm,0);
 
+  HDC dc = GetDC(0);
+  dpi = GetDeviceCaps(dc,LOGPIXELSY);
+  ReleaseDC(0,dc);
+
   memset(&lf,0,sizeof(lf));
-  HDC dc = GetDC(hWndMain);
-  lf.lfHeight=-MulDiv(10,GetDeviceCaps(dc,LOGPIXELSY),72);
-  ReleaseDC(hWndMain,dc);
+  lf.lfHeight=-MulDiv(10,dpi,72);
   lf.lfWeight=FW_NORMAL;
   lf.lfCharSet=ANSI_CHARSET;
   lf.lfOutPrecision=OUT_TT_PRECIS;

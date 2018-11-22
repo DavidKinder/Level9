@@ -19,9 +19,10 @@
 // needs to be here to prevent <Unknown> knackeration
 #include <mmsystem.h>
 
+#ifndef MAXINT
 #define MAXINT INT_MAX
+#endif
 #define strnicmp _strnicmp
-#define asm __asm
 #define random(x) ((long)x*rand()/RAND_MAX)
 #endif
 
@@ -41,7 +42,6 @@ typedef int int32;
 typedef unsigned int uint32;
 typedef BYTE *bhp;
 #define huge
-#define export
 #ifndef WIN32
 #define WIN32
 #endif
