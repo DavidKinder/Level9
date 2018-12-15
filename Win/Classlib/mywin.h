@@ -138,3 +138,4 @@ public:\
 
 #include <printer.h>
 
+#include <dpi.h>

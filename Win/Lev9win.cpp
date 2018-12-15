@@ -162,7 +162,7 @@ void MakeCaret()
 {
   if (GetFocus()==hWndMain && Caret)
   {
-    CreateCaret(hWndMain, NULL, 2, FontHeight);
+    CreateCaret(hWndMain,NULL,2,FontHeight);
     SetCaretPos(Cursorx,Cursory+GfxHeight);
     ShowCaret(hWndMain);
   }
@@ -1060,6 +1060,14 @@ BOOL MainWindow::SetupWindow()
   SetIcon(IDI_ICON);
 #endif
 
+  dpi=GetDpiForWindow(hWnd);
+  LONG lfHeight=lf.lfHeight;
+  ReadIniInt("Font","Size",lfHeight);
+  if (lfHeight>0)
+    lf.lfHeight=-MulDiv(lfHeight,dpi,72);
+  else if (lfHeight<0)
+    lf.lfHeight=lfHeight;
+
   // load window pos from ini file (will also be automatically saved on exit)
   GetWindowState();
   SetMru(hWnd,CM_EXIT);
@@ -1067,18 +1075,6 @@ BOOL MainWindow::SetupWindow()
   SetFont();
   CheckMenuItem(CM_DITHER,GfxDither);
   Playing=FALSE;
-
-  HMODULE user = LoadLibrary("user32.dll");
-  if (user)
-  {
-    typedef UINT(__stdcall *PFNGETDPIFORWINDOW)(HWND);
-
-    PFNGETDPIFORWINDOW getDpiForWindow = (PFNGETDPIFORWINDOW)
-      ::GetProcAddress(user,"GetDpiForWindow");
-    if (getDpiForWindow != NULL)
-      dpi = (*getDpiForWindow)(hWnd);
-    FreeLibrary(user);
-  }
 
   return TRUE;
 }
@@ -1094,8 +1090,17 @@ void MainWindow::CmSelectFont()
 
   cf.Flags=CF_INITTOLOGFONTSTRUCT | CF_SCREENFONTS | CF_EFFECTS;
 
-  if (ChooseFont(&cf))
+  BOOL chosen=FALSE;
+  LONG lfHeight=lf.lfHeight;
   {
+    DpiContextSystem dpiSys;
+    lf.lfHeight=MulDiv(lf.lfHeight,GetDpiForSystem(),dpi);
+    chosen=ChooseFont(&cf);
+    lf.lfHeight=lfHeight;
+  }
+  if (chosen)
+  {
+    lf.lfHeight=-MulDiv(cf.iPointSize,dpi,720);
     FontColour=cf.rgbColors;
     UpdateFont();
   }
@@ -1378,12 +1383,9 @@ void MyApp::SetDefs()
 
   NONCLIENTMETRICS ncm;
   memset(&ncm,0,sizeof(ncm));
-  ncm.cbSize = sizeof(ncm);
+  ncm.cbSize=sizeof(ncm);
   SystemParametersInfo(SPI_GETNONCLIENTMETRICS,ncm.cbSize,&ncm,0);
-
-  HDC dc = GetDC(0);
-  dpi = GetDeviceCaps(dc,LOGPIXELSY);
-  ReleaseDC(0,dc);
+  dpi=GetDpiForSystem();
 
   memset(&lf,0,sizeof(lf));
   lf.lfHeight=-MulDiv(10,dpi,72);
@@ -1409,7 +1411,6 @@ void MyApp::ReadIni()
   ReadIniString("General","LastGameFile",(String&)LastGameFile);
   ReadIniInt("General","GameFiltIndex",GameFiltIndex);
 
-  ReadIniInt("Font","Size",lf.lfHeight);
   String S(LF_FACESIZE);
   ReadIniString("Font","Name",S);
   if (*S) strcpy(lf.lfFaceName,S);
@@ -1426,7 +1427,7 @@ void MyApp::WriteIni()
   WriteIniString("General","LastGameFile",LastGameFile);
   WriteIniInt("General","GameFiltIndex",GameFiltIndex);
 
-  long FontHeight=lf.lfHeight;
+  long FontHeight=abs(MulDiv(lf.lfHeight,72,dpi));
   WriteIniInt("Font","Size",FontHeight);
   WriteIniString("Font","Name",lf.lfFaceName);
   WriteIniInt("Font","Colour",(long) FontColour);

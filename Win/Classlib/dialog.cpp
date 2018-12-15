@@ -122,7 +122,7 @@ void Dialog::EndDialog(int) {}
 void Dialog::SaveDialogPos()
 {
 	RECT rc;
-	GetWindowRect(hWnd,&rc);
+	GetWindowRectDpiNeutral(hWnd,&rc);
 	WriteIniString(Section,"Position",String()<< (int) rc.left << ',' << (int) rc.top);
 }
 
@@ -137,7 +137,7 @@ void Dialog::GetDialogPos()
 	{
 		Parse P(S);
 		P >> rc.left >> rc.top;
-		SetWindowPos(hWnd,0,rc.left,rc.top,0,0,SWP_NOSIZE | SWP_NOZORDER);
+		SetWindowPosDpiNeutral(hWnd,0,rc.left,rc.top,0,0,SWP_NOSIZE | SWP_NOZORDER);
 	}
 }
 

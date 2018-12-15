@@ -575,7 +575,7 @@ void Window::SaveWindowState()
 {
 	WINDOWPLACEMENT wp;
 	wp.length=sizeof(WINDOWPLACEMENT);
-	GetWindowPlacement(hWnd,&wp);
+	GetWindowPlacementDpiNeutral(hWnd,&wp);
 
 	if (Flags & W_SAVESTATE)
 	{
@@ -597,7 +597,7 @@ void Window::GetWindowState(int aSaveFlags)
 
 	WINDOWPLACEMENT wp;
 	wp.length=sizeof(WINDOWPLACEMENT);
-	if (hWnd) GetWindowPlacement(hWnd,&wp); // fill max position
+	if (hWnd) GetWindowPlacementDpiNeutral(hWnd,&wp); // fill max position
 	wp.flags=0;
 	wp.showCmd=SW_SHOWNORMAL;
 
@@ -650,5 +650,5 @@ void Window::GetWindowState(int aSaveFlags)
 			wp.showCmd= (wp.flags==WPF_RESTORETOMAXIMIZED) ? SW_SHOWMAXIMIZED : SW_SHOWNORMAL;
 		}
 	}
-	if (hWnd) SetWindowPlacement(hWnd,&wp);
+	if (hWnd) SetWindowPlacementDpiNeutral(hWnd,&wp);
 }
