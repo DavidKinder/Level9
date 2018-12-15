@@ -205,6 +205,9 @@
 		<File
 			RelativePath=".\Window.cpp">
 		</File>
+		<File
+			RelativePath="dpi.cpp">
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
