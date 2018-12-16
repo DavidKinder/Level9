@@ -57,26 +57,37 @@ VOID* SetThreadDpiAwarenessContext(VOID* dpiContext)
 
 BOOL GetWindowPlacementDpiNeutral(HWND hWnd, WINDOWPLACEMENT* lpwndPlace)
 {
-  DpiContextSystem dpiSys;
+  DpiContextUnaware dpiNone;
   return GetWindowPlacement(hWnd,lpwndPlace);
 }
 
 BOOL SetWindowPlacementDpiNeutral(HWND hWnd, const WINDOWPLACEMENT* lpwndPlace)
 {
-  DpiContextSystem dpiSys;
+  DpiContextUnaware dpiNone;
   return SetWindowPlacement(hWnd,lpwndPlace);
 }
 
 BOOL GetWindowRectDpiNeutral(HWND hWnd, LPRECT lpRect)
 {
-  DpiContextSystem dpiSys;
+  DpiContextUnaware dpiNone;
   return GetWindowRect(hWnd,lpRect);
 }
 
 BOOL SetWindowPosDpiNeutral(HWND hWnd, HWND hWndAfter, int x, int y, int cx, int cy, UINT uFlag)
 {
-  DpiContextSystem dpiSys;
+  DpiContextUnaware dpiNone;
   return SetWindowPos(hWnd,hWndAfter,x,y,cx,cy,uFlag);
+}
+
+DpiContextUnaware::DpiContextUnaware()
+{
+  // DPI_AWARENESS_CONTEXT_UNAWARE
+  context = SetThreadDpiAwarenessContext((VOID*)-1); 
+}
+
+DpiContextUnaware::~DpiContextUnaware()
+{
+   SetThreadDpiAwarenessContext(context);
 }
 
 DpiContextSystem::DpiContextSystem()
