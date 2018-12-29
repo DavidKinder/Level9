@@ -1081,25 +1081,26 @@ BOOL MainWindow::SetupWindow()
 
 void MainWindow::CmSelectFont()
 {
+  LOGFONT intLf;
+  memcpy(&intLf,&lf,sizeof(LOGFONT));
+  intLf.lfHeight=MulDiv(intLf.lfHeight,GetDpiForSystem(),dpi);
+
   CHOOSEFONT cf;
-
-  cf.lStructSize=sizeof(cf);
+  cf.lStructSize=sizeof cf;
   cf.hwndOwner=hWnd;
-  cf.lpLogFont=&lf;
+  cf.lpLogFont=&intLf;
   cf.rgbColors=FontColour;
-
   cf.Flags=CF_INITTOLOGFONTSTRUCT | CF_SCREENFONTS | CF_EFFECTS;
 
   BOOL chosen=FALSE;
-  LONG lfHeight=lf.lfHeight;
   {
     DpiContextSystem dpiSys;
-    lf.lfHeight=MulDiv(lf.lfHeight,GetDpiForSystem(),dpi);
     chosen=ChooseFont(&cf);
-    lf.lfHeight=lfHeight;
   }
+
   if (chosen)
   {
+    memcpy(&lf,&intLf,sizeof(LOGFONT));
     lf.lfHeight=-MulDiv(cf.iPointSize,dpi,720);
     FontColour=cf.rgbColors;
     UpdateFont();
@@ -1349,7 +1350,8 @@ BOOL MainWindow::WMDpiChanged(TMSG& Msg)
   UINT newDpi = HIWORD(Msg.wParam);
   if (dpi != newDpi)
   {
-    lf.lfHeight = MulDiv(lf.lfHeight,newDpi,dpi);
+    long FontHeight = abs(MulDiv(lf.lfHeight,72,dpi));
+    lf.lfHeight = -MulDiv(FontHeight,newDpi,72);
     dpi = newDpi;
     UpdateFont();
   }
