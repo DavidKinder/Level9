@@ -54,8 +54,7 @@ LRESULT CALLBACK NullProc( HWND hWnd, UINT iMessage, WPARAM wParam,
 
 int Main();
 
-int PASCAL WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLine,
-						  int nCmdShow )
+int PASCAL WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLine, int nCmdShow )
 {
 	App::hInstance = hInstance;
 	App::hPrevInstance = hPrevInstance;
@@ -71,7 +70,7 @@ int PASCAL WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdL
 		App::MainWindow=(Object *) App::TextWindow;
 		String S(GetWindowTextLength(App::MainWindow->hWnd)+1);
 		GetWindowText(App::MainWindow->hWnd,S,S.Size());
-      S.Update();
+		S.Update();
 		S << " (finished)";
 		SetWindowText(App::MainWindow->hWnd,S);
 		ShowWindow(App::MainWindow->hWnd, SW_SHOW );

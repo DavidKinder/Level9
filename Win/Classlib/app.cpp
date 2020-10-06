@@ -121,8 +121,8 @@ int App::MessageLoop( void )
 
 	 while( GetMessage( &msg, NULL, 0, 0 ) )
 	 {
-		  TranslateMessage( &msg );
-		  DispatchMessage( &msg );
+			TranslateMessage( &msg );
+			DispatchMessage( &msg );
 	 }
 	 return msg.wParam;
 }

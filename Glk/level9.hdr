@@ -33,7 +33,7 @@
 #
 IFP_ENGINE_TYPE="Level9"
 IFP_ENGINE_NAME="Level9"
-IFP_ENGINE_VERSION="4.0"
+IFP_ENGINE_VERSION="4.1"
 
 IFP_ACCEPTOR_OFFSET=0
 IFP_ACCEPTOR_LENGTH=5
@@ -51,4 +51,4 @@ IFP_ENGINE_DESCRIPTION=\
  only snapshot files.  Other files need to be specially marked with
  'LVL9' in the first four bytes.\n"
 IFP_ENGINE_COPYRIGHT=\
-"Copyright (C) 2002-2005, by Glen Summers and David Kinder.\n"
+"Copyright (C) 2002-2007, by Glen Summers and David Kinder.\n"

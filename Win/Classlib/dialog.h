@@ -9,6 +9,7 @@ public:
 	Dialog(Object *,int,char *Sect=NULL);
 	virtual ~Dialog();
 	int Execute();
+	int ExecuteWithFont();
 	virtual BOOL SetupWindow();
 	virtual void Paint(HDC, BOOL, RECT &);
 	virtual void EndDialog(int Result);

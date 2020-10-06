@@ -1,12 +1,11 @@
 
 Level 9 interpreter
-Version 4.0
-Copyright (c) 1996 Glen Summers
-Copyright (c) 2002,2003 Glen Summers and David Kinder
-Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth,
-Simon Baldwin and Dieter Baron
-
-This guide by David Kinder (d.kinder@btinternet.com)
+Version 4.1
+Copyright (c) 1996 Glen Summers.
+Copyright (c) 2002,2003 Glen Summers and David Kinder.
+Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth,
+Simon Baldwin and Dieter Baron.
+This guide is by David Kinder.
 
 
 Level9 has already been compiled on DOS, Windows, Amiga, Acorn, Macintosh

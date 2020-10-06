@@ -78,7 +78,7 @@ double EvalParse::EvalTerm()
 		int i;
 		if (ID::EvalInt(Com,i))
 			d=i;
-      else if (sscanf(Com,"%lf",&d)!=1) Error=ERR_UNKNOWNID;
+			else if (sscanf(Com,"%lf",&d)!=1) Error=ERR_UNKNOWNID;
 	}
 	return d;
 }

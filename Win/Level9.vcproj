@@ -37,7 +37,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386"
-				AdditionalDependencies="classlib/debug/classlib.lib odbc32.lib odbccp32.lib"
+				AdditionalDependencies="classlib/debug/classlib.lib odbc32.lib odbccp32.lib htmlhelp.lib"
 				OutputFile=".\Debug/Level9.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="TRUE"
@@ -94,7 +94,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386"
-				AdditionalDependencies="classlib/release/classlib.lib odbc32.lib odbccp32.lib"
+				AdditionalDependencies="classlib/release/classlib.lib odbc32.lib odbccp32.lib htmlhelp.lib"
 				OutputFile=".\Release/Level9.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="TRUE"
@@ -128,26 +128,40 @@
 			RelativePath=".\Lev9win.cpp">
 		</File>
 		<File
-			RelativePath="Level9.hpj">
+			RelativePath="Help\Level9.hhp">
 			<FileConfiguration
 				Name="Debug|Win32">
 				<Tool
 					Name="VCCustomBuildTool"
 					Description="Making help file..."
-					CommandLine="hcw /C /E /M Level9.hlp
-move Level9.hlp &quot;$(OutDir)\Level9.hlp&quot;
+					CommandLine="hhc &quot;Help\Level9.hhp&quot;
+if not exist &quot;Help\Level9.chm&quot; goto :HelpError
+copy &quot;Help\Level9.chm&quot; &quot;$(OutDir)\Level9.chm&quot;
+goto :HelpDone
+:HelpError
+echo Help\Level9.hhp(1) : error:Problem encountered creating help file
+echo.
+:HelpDone
+echo.
 "
-					Outputs="$(OutDir)\$(ProjectName).hlp"/>
+					Outputs="$(OutDir)\$(ProjectName).chm"/>
 			</FileConfiguration>
 			<FileConfiguration
 				Name="Release|Win32">
 				<Tool
 					Name="VCCustomBuildTool"
 					Description="Making help file..."
-					CommandLine="hcw /C /E /M Level9.hlp
-move Level9.hlp &quot;$(OutDir)\Level9.hlp&quot;
+					CommandLine="hhc &quot;Help\Level9.hhp&quot;
+if not exist &quot;Help\Level9.chm&quot; goto :HelpError
+copy &quot;Help\Level9.chm&quot; &quot;$(OutDir)\Level9.chm&quot;
+goto :HelpDone
+:HelpError
+echo Help\Level9.hhp(1) : error:Problem encountered creating help file
+echo.
+:HelpDone
+echo.
 "
-					Outputs="$(OutDir)\$(ProjectName).hlp"/>
+					Outputs="$(OutDir)\$(ProjectName).chm"/>
 			</FileConfiguration>
 		</File>
 		<File
@@ -158,6 +172,9 @@ move Level9.hlp &quot;$(OutDir)\Level9.hlp&quot;
 		</File>
 		<File
 			RelativePath=".\Level9.rc">
+		</File>
+		<File
+			RelativePath="Resource.h">
 		</File>
 		<File
 			RelativePath="..\level9.c">

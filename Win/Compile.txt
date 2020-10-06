@@ -3,7 +3,7 @@ Source Code for Windows Version of the Level 9 Interpreter
 ----------------------------------------------------------
 
 Included in this archive is complete source code to rebuild the 32 bit versions of
-the Level 9 interpreter, version 4.0. This source has been tested with Microsoft
+the Level 9 interpreter, version 4.1. This source has been tested with Microsoft
 Visual C++. However, it should be relatively easy to get it to compile with others.
 
 Note that the 16 bit Windows version is no longer supported. None of the 16 bit

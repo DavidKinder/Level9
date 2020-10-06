@@ -1,10 +1,10 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 4.0
+* Version 4.1
 * Copyright (c) 1996 Glen Summers
 * Copyright (c) 2002,2003 Glen Summers and David Kinder
-* Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth,
+* Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth,
 * Simon Baldwin and Dieter Baron
 *
 * This program is free software; you can redistribute it and/or modify
@@ -152,7 +152,7 @@ void show_picture(int pic);
 
 
 #ifdef CODEFOLLOW
-#define CODEFOLLOWFILE "c:\\temp\\output"
+#define CODEFOLLOWFILE "c:\\temp\\level9.txt"
 FILE *f;
 L9UINT16 *cfvar,*cfvar2;
 char *codes[]=
@@ -1780,8 +1780,14 @@ void calldriver(void)
 
 void L9Random(void)
 {
+#ifdef CODEFOLLOW
+	fprintf(f," %d",randomseed);
+#endif
 	randomseed=(((randomseed<<8) + 0x0a - randomseed) <<2) + randomseed + 1;
 	*getvar()=randomseed & 0xff;
+#ifdef CODEFOLLOW
+	fprintf(f," %d",randomseed);
+#endif
 }
 
 void save(void)
@@ -2535,6 +2541,11 @@ void exit1(L9BYTE *d4,L9BYTE *d5,L9BYTE d6,L9BYTE d7)
 		do
 		{
 			d0=*a0;
+			if (L9GameType==L9_V4)
+			{
+				if ((d0==0) && (*(a0+1)==0))
+					goto notfn4;
+			}
 			a0+=2;
 		}
 		while ((d0&0x80)==0 || --d1);
@@ -2553,6 +2564,7 @@ void exit1(L9BYTE *d4,L9BYTE *d5,L9BYTE d6,L9BYTE d7)
 	while (((*d4)&0x80)==0);
 
 	/* notfn4 */
+notfn4:
 	d6=exitreversaltable[d6];
 	a0=absdatablock;
 	*d5=1;
@@ -2573,10 +2585,17 @@ void Exit(void)
 	L9BYTE d4,d5;
 	L9BYTE d7=(L9BYTE) *getvar();
 	L9BYTE d6=(L9BYTE) *getvar();
+#ifdef CODEFOLLOW
+	fprintf(f," d7=%d d6=%d",d7,d6);
+#endif
 	exit1(&d4,&d5,d6,d7);
 
 	*getvar()=(d4&0x70)>>4;
 	*getvar()=d5;
+#ifdef CODEFOLLOW
+	fprintf(f," Var[%d]=%d(d4=%d) Var[%d]=%d",
+		cfvar2-workspace.vartable,(d4&0x70)>>4,d4,cfvar-workspace.vartable,d5);
+#endif
 }
 
 void ifeqvt(void)
@@ -4605,13 +4624,31 @@ const Colour bitmap_c64_colours[] = {
 	{0x7c, 0x70, 0xda },
 	{0xab, 0xab, 0xab }};
 
+const Colour bitmap_bbc_colours[] = {
+	{0x00, 0x00, 0x00 },
+	{0xff, 0x00, 0x00 },
+	{0x00, 0xff, 0x00 },
+	{0xff, 0xff, 0x00 },
+	{0x00, 0x00, 0xff },
+	{0xff, 0x00, 0xff },
+	{0x00, 0xff, 0xff },
+	{0xff, 0xff, 0xff }};
+
 void bitmap_c64_name(int num, char* dir, char* out)
 {
 	if (num == 0)
-	{
-		FILE* f;
-
 		sprintf(out,"%stitle mpic",dir);
+	else
+		sprintf(out,"%spic%d",dir,num);
+}
+
+void bitmap_bbc_name(int num, char* dir, char* out)
+{
+	FILE* f;
+
+	if (num == 0)
+	{
+		sprintf(out,"%sP.Title",dir);
 		f = fopen(out,"rb");
 		if (f != NULL)
 		{
@@ -4622,15 +4659,17 @@ void bitmap_c64_name(int num, char* dir, char* out)
 		sprintf(out,"%stitle",dir);
 	}
 	else
-		sprintf(out,"%spic%d",dir,num);
-}
-
-void bitmap_bbc_name(int num, char* dir, char* out)
-{
-	if (num == 0)
-		sprintf(out,"%sP.Title",dir);
-	else
+	{
 		sprintf(out,"%sP.Pic%d",dir,num);
+		f = fopen(out,"rb");
+		if (f != NULL)
+		{
+			fclose(f);
+			return;
+		}
+
+		sprintf(out,"%spic%d",dir,num);
+	}
 }
 
 void bitmap_cpc_name(int num, char* dir, char* out)
@@ -4641,6 +4680,25 @@ void bitmap_cpc_name(int num, char* dir, char* out)
 		sprintf(out,"%s1.pic",dir);
 	else
 		sprintf(out,"%sallpics.pic",dir);
+}
+
+BitmapType bitmap_c64_type(char* file)
+{
+	BitmapType type = C64_BITMAPS;
+
+	FILE* f = fopen(file,"rb");
+	if (f != NULL)
+	{
+		L9UINT32 size = filelength(f);
+		fclose(f);
+
+		if (size == 10048)
+			type = BBC_BITMAPS;
+		if (size == 6494)
+			type = BBC_BITMAPS;
+	}
+
+	return type;
 }
 
 /*
@@ -4656,36 +4714,6 @@ void bitmap_cpc_name(int num, char* dir, char* out)
 	no "main" and "sub" images. All game graphics have the same
 	dimensions and each completely replaces its predecessor.
 
-
-	The graphics files used by the BBC B platform are virtually identical
-	to C64 graphics files. I assume that (as with the CPC and
-	Spectrum+3) this choice was made because the BBC mode 2 screen,
-	although more capable than the c64, was nearly the same size
-	(160*256) and displayed roughly the same number of colours. In
-	addition (a) the artwork already existed so no extra expense would
-	be incurred and (b) by accepting the C64's limitation of only four
-	colours in each 4*8 pixel block (but still with sixteen colours on
-	screen) they got a compressed file format allowing more pictures
-	on each disk.
-
-	The file organisation is very close to the C64. The naming system
-	can be the same eg "PIC12", but another form is also used :
-	"P.Pic12". Unlike the C64 the BBC has well defined title images,
-	called "TITLE" or P.Title. All pictures are in separate files.
-
-	The only difference seems to be:
-
-	*	There is either *no* header before the image data or a simple
-	10 byte header which I think *may* be a file system header
-	left in place by the extractor system.
-
-	*	There is an extra 32 bytes following the data at the end of
-	each file. I am almost certain this is palette information for
-	the BBC - probably a C64-BBC colour conversion table because
-	although the Beeb has 16 colours in mode 2, 8 of those are
-	flashing alternates of the other eight.
-
-	
 	The graphics files used on the Amstrad CPC and Spectrum +3 are also
 	virtually identical to C64 graphics files. This choice was presumably
 	made because although the CPC screen was more capable than the c64 it
@@ -4744,26 +4772,6 @@ L9BOOL bitmap_c64_decode(char* file, BitmapType type, int num)
 			off_bg = 6463;
 			col_comp = 1;
 		}
-		else if (size == 10048) /* BBC title picture */
-		{
-			max_x = 320;
-			max_y = 200;
-			off = 0;
-			off_scr = 8000;
-			off_bg = 9001;
-			off_col = 9016;
-			col_comp = 0;
-		}
-		else if (size == 6494) /* BBC picture */
-		{
-			max_x = 320;
-			max_y = 136;
-			off = 0;
-			off_scr = 5440;
-			off_col = 6120;
-			off_bg = 6461;
-			col_comp = 1;
-		}
 		else
 			return FALSE;
 	}
@@ -4779,6 +4787,16 @@ L9BOOL bitmap_c64_decode(char* file, BitmapType type, int num)
 			off_col = 9026;
 			col_comp = 0;
 		}
+		else if (size == 10048) /* BBC title picture */
+		{
+			max_x = 320;
+			max_y = 200;
+			off = 0;
+			off_scr = 8000;
+			off_bg = 9001;
+			off_col = 9016;
+			col_comp = 0;
+		}
 		else if (size == 6504) /* BBC picture */
 		{
 			max_x = 320;
@@ -4787,6 +4805,16 @@ L9BOOL bitmap_c64_decode(char* file, BitmapType type, int num)
 			off_scr = 5450;
 			off_col = 6130;
 			off_bg = 6471;
+			col_comp = 1;
+		}
+		else if (size == 6494) /* BBC picture */
+		{
+			max_x = 320;
+			max_y = 136;
+			off = 0;
+			off_scr = 5440;
+			off_col = 6120;
+			off_bg = 6461;
 			col_comp = 1;
 		}
 		else
@@ -4881,6 +4909,142 @@ L9BOOL bitmap_c64_decode(char* file, BitmapType type, int num)
 	return TRUE;
 }
 
+/*
+	The graphics files used by the BBC B are virtually identical
+	to C64 graphics files. I assume that (as with the CPC and
+	Spectrum+3) this choice was made because the BBC mode 2 screen,
+	was nearly the same size (160*256) and had roughly the same capability
+	as the C64 screen (displays 16 colours, although eight of those ar
+	just the first eight flashing).
+
+	In addition (a) the artwork already existed so no extra expense would
+	be incurred and (b) by accepting the C64's limitation of only four
+	colours in each 4*8 pixel block (but still with sixteen colours on
+	screen) they got a compressed file format allowing more pictures
+	on each disk.
+
+	The file organisation is very close to the C64. The naming system
+	can be the same eg "PIC12", but another form is also used :
+	"P.Pic12". Unlike the C64 the BBC has well defined title images,
+	called "TITLE" or P.Title. All pictures are in separate files.
+
+	The only difference seems to be:
+
+	* There is either *no* header before the image data or a simple
+	10 byte header which I think *may* be a file system header
+	left in place by the extractor system.
+
+	* There is an extra 32 bytes following the data at the end of
+	each file. These bytes encode a table to convert between the 16
+	C64 colours and 16, four-pixel pix-patterns used to let the BBC
+	(with only 8 colours) represent the sixteen possible C64 colours.
+
+	A pix-pattern looks like this:
+
+			 |   Even |   Odd   |
+			 | Column | Column  |
+		-----------------------------
+		Even Row |Pixel 1 | Pixel 2 |
+		---------|--------|---------|
+		Odd Row  |Pixel 3 | Pixel 4 |
+		-----------------------------
+
+	Each of the four pixel *can* be any of the eight BBC Mode 2
+	steady colours. In practice they seem either to be all the
+	same or a simple check of two colours - the pixels in the 
+	odd row being in the reverse order to those in the even row.
+
+	When converting a C64 pixel to a BBC pixel the game uses the
+	value of the C64 pixel as an index into the array of sixteen
+	BBC pix-patterns. The game looks at the selected pattern and
+	chooses the BBC pixel colour thus: if the pixel is in an even
+	numbered row and an even numbered column, it uses Pixel 1 from 
+	the pattern, if in an even row but an odd column, it uses Pixel 3
+	and so on.
+
+	The pix-pattern data is encoded thus: the first sixteen bytes 
+	encode the even row pixels for the patterns, one byte per
+	pattern, and in the same way the second sixteen bytes encode
+	the odd row pixels for each pattern. For example for the 
+	pattern representing C64 colour 0 the even row pixels are encoded 
+	in the first byte and the odd row pixels in the sixteenth byte.
+
+	Within each byte the pixels are encoded in this way:
+
+	Bit		7	6	5	4	3	2	1	0
+	-------------------------------------
+			0	0	1	0	0	1	1	1
+			|	|	|	|	|	|	|	|
+			+---|---+---|---+---|---+---|----- Even Pixel 0101 (5)
+				|		|		|		|
+				+-------+-------+-------+----- Odd Pixel 0011 (3)
+
+	This function calls the C64 decoding routines to do the actual
+	loading. See the comments to that function for details of how the
+	image is encoded and stored.
+*/
+L9BOOL bitmap_bbc_decode(char* file, BitmapType type, int num)
+{
+	unsigned char	patRowData[32];
+	unsigned char patArray[16][2][2];
+	FILE* f;
+	int i,j,k,isOddColumn,isOddRow;
+	L9BYTE pixel;
+
+	if (bitmap_c64_decode(file,type,num) == FALSE)
+		return FALSE;
+
+	f = fopen(file,"rb");
+	if (f == NULL)
+		return FALSE;
+
+	/* Seek to the offset of the pixPat data and read in the data */
+	fseek(f,filelength(f)-32,SEEK_SET);
+	fread(patRowData,sizeof (L9BYTE),32,f);
+	fclose(f);
+
+	/* Extract the patterns */
+	i = 0;
+	for (k = 0; k < 2; k++)
+	{
+		for (j = 0; j < 16; j++)
+		{
+			/* Extract the even col pixel for this pattern row */
+			patArray[j][k][0] =
+				((patRowData[i] >> 4) & 0x8) + ((patRowData[i] >> 3) & 0x4) +
+				((patRowData[i] >> 2) & 0x2) + ((patRowData[i] >> 1) & 0x1);
+			/* Extract the odd col pixel for this pattern row */
+			patArray[j][k][1] =
+				((patRowData[i] >> 3) & 0x8) + ((patRowData[i] >> 2) & 0x4) +
+				((patRowData[i] >> 1) & 0x2) + (patRowData[i] & 0x1);
+			i++;
+		}
+	}
+
+	/* Convert the image. Each BBC pixel is represented by two pixels here */
+	i = 0;
+	isOddRow = 0;
+	for (j = 0; j < bitmap->height; j++)
+	{
+		isOddColumn = 0;
+		for (k = 0; k < bitmap->width/2; k++)
+		{
+			pixel = bitmap->bitmap[i];
+			bitmap->bitmap[i] = patArray[pixel][isOddColumn][isOddRow];
+			bitmap->bitmap[i+1] = patArray[pixel][isOddColumn][isOddRow];
+			isOddColumn ^= 1;
+			i += 2;
+		}
+		isOddRow ^= 1;
+	}
+
+	bitmap->npalette = 8;
+	for (i = 0; i < 8; i++)
+		bitmap->palette[i] = bitmap_bbc_colours[i];
+
+	return TRUE;
+}
+
 BitmapType DetectBitmaps(char* dir)
 {
 	char file[MAX_PATH];
@@ -4895,7 +5059,7 @@ BitmapType DetectBitmaps(char* dir)
 
 	bitmap_c64_name(2,dir,file);
 	if (bitmap_exists(file))
-		return C64_BITMAPS;
+		return bitmap_c64_type(file);
 
 	bitmap_bbc_name(2,dir,file);
 	if (bitmap_exists(file))
@@ -4944,7 +5108,7 @@ Bitmap* DecodeBitmap(char* dir, BitmapType type, int num, int x, int y)
 
 	case BBC_BITMAPS:
 		bitmap_bbc_name(num,dir,file);
-		if (bitmap_c64_decode(file,type,num)) /* Nearly identical to C64 */
+		if (bitmap_bbc_decode(file,type,num))
 			return bitmap;
 		break;
 

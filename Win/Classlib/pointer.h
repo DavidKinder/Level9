@@ -33,9 +33,9 @@ public:
 		Free();
 		Data=new huge T[Size];
 	}
-   void Copy(T huge *D,int n);
-   void MemCopy(T huge *D,int n) { memcpy(Data,D,n*sizeof(T)); }
-   void CopyTo(T huge *D,int n);
+	void Copy(T huge *D,int n);
+	void MemCopy(T huge *D,int n) { memcpy(Data,D,n*sizeof(T)); }
+	void CopyTo(T huge *D,int n);
 
 	T huge *Data;
 	operator T huge *() { return Data; }
@@ -61,14 +61,14 @@ public:
 
 template <class T> void Pointer<T>::Copy(T huge *D,int n)
 {
-   Alloc(n);
-   T *Ptr=Data;
-   for (int i=0;i<n;i++) *Ptr++=*D++;
+	Alloc(n);
+	T *Ptr=Data;
+	for (int i=0;i<n;i++) *Ptr++=*D++;
 }
 template <class T> void Pointer<T>::CopyTo(T huge *D,int n)
 {
-   T *Ptr=Data;
-   for (int i=0;i<n;i++) *D++=*Ptr++;
+	T *Ptr=Data;
+	for (int i=0;i<n;i++) *D++=*Ptr++;
 }
 
 #endif

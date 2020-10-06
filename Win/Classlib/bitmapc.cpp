@@ -1,7 +1,7 @@
 #include <mywin.h>
 #pragma hdrstop
 
-#include <fstream.h>
+#include <fstream>
 
 #include <bitmapc.h>
 #include <findcol.h>
@@ -14,12 +14,12 @@ Bitmap::Bitmap(char*fName)
 {
 	BITMAPFILEHEADER bmfh;
 	BITMAPINFOHEADER bmih;
-	ifstream f(fName,ios::in | ios::binary);
+	std::ifstream f(fName,std::ios::in | std::ios::binary);
 	if (f.fail()) throw LoadFail();
 
-	f.read((bhp) &bmfh,sizeof(bmfh));
+	f.read((char*) &bmfh,sizeof(bmfh));
 	if (f.gcount()!=sizeof(bmfh)) throw LoadFail();
-	f.read((bhp) &bmih,sizeof(bmih));
+	f.read((char*) &bmih,sizeof(bmih));
 	if (f.gcount()!=sizeof(bmih)) throw LoadFail();
 	Width=bmih.biWidth;
 	Height=bmih.biHeight;
@@ -32,9 +32,9 @@ Bitmap::Bitmap(char*fName)
 	if (Bits==8)
 	{
 		Pal.Alloc(256);
-		f.read((bhp) Pal.Data,256*sizeof(RGBQUAD));
+		f.read((char*) Pal.Data,256*sizeof(RGBQUAD));
 	}
-	f.read(Image,(int32) Pitch*Height);
+	f.read((char*)Image.Data,(int32) Pitch*Height);
 	if (f.gcount()!=(int32) Pitch*Height) throw LoadFail();
 }
 
@@ -82,15 +82,15 @@ void Bitmap::SaveRaw(char *fName)
 // must have been converted to 8 bit first
 	if (Bits!=8) throw Incompatible();
 
-	ofstream f(fName,ios::out | ios::binary);
+	std::ofstream f(fName,std::ios::out | std::ios::binary);
 	if (f.fail()) throw SaveFail();
 	int32 Data=Width; // may be 16 bit
-	f.write((bhp) &(Data=Width),sizeof(int32));
-	f.write((bhp) &(Data=Height),sizeof(int32));
-	f.write((bhp) &(Data=1),sizeof(int32));
+	f.write((char*) &(Data=Width),sizeof(int32));
+	f.write((char*) &(Data=Height),sizeof(int32));
+	f.write((char*) &(Data=1),sizeof(int32));
 
 	for (int i=Height-1;i>=0;i--)
-		f.write( Image + (int32) i*Pitch,Width);
+		f.write((char*)(Image + (int32) i*Pitch),Width);
 }
 
 void Bitmap::ConvertTo24Bit()

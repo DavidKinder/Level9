@@ -150,7 +150,7 @@ void MDIFrame::SetWindowMenu(int Pos)
 	#else
 	SendMessage(hClient,WM_MDISETMENU,FALSE,MAKELPARAM(hm1,hm2));
 	#endif
-   DrawMenuBar(hWnd);
+	DrawMenuBar(hWnd);
 }
 
 //Change Menu on child activation

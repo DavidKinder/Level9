@@ -1,10 +1,10 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 4.0
+* Version 4.1
 * Copyright (c) 1996 Glen Summers
 * Copyright (c) 2002,2003 Glen Summers and David Kinder
-* Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth,
+* Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth,
 * Simon Baldwin and Dieter Baron
 *
 * This program is free software; you can redistribute it and/or modify
@@ -47,7 +47,7 @@ typedef struct
 	L9UINT16 codeptr,stackptr,listsize,stacksize,filenamesize,checksum;
 	L9UINT16 vartable[256];
 	L9BYTE listarea[LISTAREASIZE];
-	L9UINT16 stack[STACKSIZE];      
+	L9UINT16 stack[STACKSIZE];
 	char filename[MAX_PATH];
 } GameState;
 
@@ -72,10 +72,10 @@ typedef struct
 
 typedef struct
 {
-  L9UINT16 width, height;
-  L9BYTE* bitmap;
-  Colour palette[32];
-  L9UINT16 npalette;
+	L9UINT16 width, height;
+	L9BYTE* bitmap;
+	Colour palette[32];
+	L9UINT16 npalette;
 } Bitmap;
 
 #define MAX_BITMAP_WIDTH 512

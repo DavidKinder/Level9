@@ -40,6 +40,70 @@ int Dialog::Execute()
 		MAKEINTRESOURCE(ID), ParentHWnd,lpProcDialog);
 }
 
+static BYTE* offsetDWord(BYTE* ptr)
+{
+  int offset = (int)(DWORD_PTR)ptr;
+  if (offset & 3)
+    return ptr + (4 - (offset & 3));
+  return ptr;
+}
+
+int Dialog::ExecuteWithFont()
+{
+	IsModal=TRUE;
+	D=this; // temp storage to initialise
+
+  int code = -1;
+
+  NONCLIENTMETRICS ncm;
+  ::ZeroMemory(&ncm,sizeof ncm);
+  ncm.cbSize = sizeof ncm;
+  ::SystemParametersInfo(SPI_GETNONCLIENTMETRICS,sizeof ncm,&ncm,0);
+  OSVERSIONINFO osvi;
+  osvi.dwOSVersionInfoSize = sizeof osvi;
+  ::GetVersionEx(&osvi);
+  WCHAR fontName[256];
+  MultiByteToWideChar(CP_ACP,0,
+    ncm.lfMessageFont.lfFaceName,strlen(ncm.lfMessageFont.lfFaceName)+1,fontName,256);
+
+  HRSRC resInfo = FindResource(App::hInstance,MAKEINTRESOURCE(ID),RT_DIALOG);
+  if (resInfo != 0)
+  {
+    DWORD resSize = SizeofResource(App::hInstance,resInfo);
+    HGLOBAL resGlobal = LoadResource(App::hInstance,resInfo);
+    if (resGlobal != 0)
+    {
+      BYTE* resMem = (BYTE*)LockResource(resGlobal);
+      if (resMem != NULL)
+      {
+        HGLOBAL copyGlobal = GlobalAlloc(GMEM_ZEROINIT,resSize+64);
+        if (copyGlobal != 0)
+        {
+          BYTE* copyMem = (BYTE*)GlobalLock(copyGlobal);
+          if (copyMem != 0)
+          {
+            int titleLen = (wcslen(((WORD*)resMem)+15)+1)*sizeof(WCHAR);
+            int copy1Size = (18*sizeof(WORD))+titleLen;
+            int font1Len = (wcslen((WCHAR*)(resMem+copy1Size))+1)*sizeof(WCHAR);
+            int copy2Size = resSize-copy1Size-font1Len;
+            int font2Len = (wcslen(fontName)+1)*sizeof(WCHAR);
+
+            memcpy(copyMem,resMem,copy1Size);
+            wcscpy((WCHAR*)(copyMem+copy1Size),fontName);
+            memcpy(offsetDWord(copyMem+copy1Size+font2Len),offsetDWord(resMem+copy1Size+font1Len),copy2Size);
+            *((WORD*)(copyMem+copy1Size-(3*sizeof(WORD)))) = (osvi.dwMajorVersion < 6) ? 8 : 9;
+            GlobalUnlock(copyGlobal);
+          }
+          code = DialogBoxIndirect(App::hInstance,(LPDLGTEMPLATE)copyGlobal,ParentHWnd,lpProcDialog);
+          GlobalFree(copyGlobal);
+        }
+      }
+    }
+  }
+
+  return code;
+}
+
 BOOL Dialog::Create()
 {
 	IsModal=FALSE;

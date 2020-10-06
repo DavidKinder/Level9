@@ -52,14 +52,14 @@ public:
 		NewNode->Prev=After;
 		NewNode->BaseList=this;
 	}
-  void AddBefore(T *NewNode,T *Before)
-  {
+	void AddBefore(T *NewNode,T *Before)
+	{
 		Before->Prev->Next=NewNode;
 		NewNode->Prev=Before->Prev;
 		Before->Prev=NewNode;
 		NewNode->Next=Before;
 		NewNode->BaseList=this;
-   }
+	}
 	void Remove(T *Node)
 	{
 		// get next anchor before removing from chain

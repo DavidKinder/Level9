@@ -9,7 +9,7 @@ public:
 	CustFileDlg(Object *Parent ,int Id, char *Buf,int BufS,const char *aTitle,const char *Filt,int *FiltInd,long flgs=OFN_EXPLORER);
 	~CustFileDlg();
 	BOOL WndProc(TMSG &);
-	int Execute();
+	int Execute(BOOL hook = TRUE);
 	virtual void FileSelected(char*);
 private:
 	UINT FokMsg;
@@ -25,7 +25,7 @@ private:
 	virtual void Paint(HDC, BOOL, RECT &);
 	BOOL Create();
 
-	OPENFILENAME O;
+	OPENFILENAME *O;
 	static CustFileDlg *OpenDialog;
 	static UINT PASCAL MyOpenDlgProc(HWND hDlg,UINT Msg,WPARAM wParam,LPARAM lParam);
 };

@@ -19,7 +19,7 @@ public:
 	void Unload()
 	{
 		if (Loaded) FreeLibrary(Inst);
-      Loaded=FALSE;
+			Loaded=FALSE;
 	}
 	HINSTANCE Inst;
 	BOOL Loaded;

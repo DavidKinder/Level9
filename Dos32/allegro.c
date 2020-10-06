@@ -1,9 +1,9 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 4.0
+* Version 4.1
 * Copyright (c) 1996 Glen Summers
-* Copyright (c) 2002,2003,2005 Glen Summers and David Kinder
+* Copyright (c) 2002,2003,2005,2007 Glen Summers and David Kinder
 *
 * Level9, 32 bit DOS and Windows Allegro versions.
 * Allegro 32 bit interface by David Kinder.
@@ -121,7 +121,7 @@ int page_counter = 0;
 int page_limit = 0;
 
 /* Set this flag to indicate the interpreter should exit. */
-int exit_interpreter = FALSE;
+volatile int exit_interpreter = FALSE;
 
 /* Graphics variables */
 int high_res_pics = 0;
@@ -393,7 +393,7 @@ void wait(int millis)
 {
   int gfx_status = TRUE;
   int gfx_count = 0;
-  int gfx_limit = 2*millis;
+  int gfx_limit = millis/2;
 
   /* Run graphics */
   while (gfx_status && (fast_pics || (gfx_count < gfx_limit)))
@@ -745,10 +745,10 @@ void hotkey_info(void)
 {
   screen_string("\nHot key -- Copyright and License Information\n");
 
-  screen_string("\nLevel 9 Interpreter v4.0\n");
+  screen_string("\nLevel 9 Interpreter v4.1\n");
   screen_string("Copyright (c) 1996 Glen Summers\n");
   screen_string("Copyright (c) 2002,2003 Glen Summers and David Kinder\n");
-  screen_string("Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth, Simon Baldwin and Dieter Baron\n\n");
+  screen_string("Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth, Simon Baldwin and Dieter Baron\n\n");
 
   screen_string("Level9 is released under the terms of the GNU General Public License.\n");
   screen_string("See the file COPYING that is included with this program for details.\n");
@@ -979,8 +979,8 @@ void input_line(char* input, unsigned int input_size, int game_input)
   page_counter = -1;
 }
 
-/* Hook called when the close button is pressed. */
-void close_button_hook(void)
+/* Callback called when the close button is pressed. */
+void close_button_callback(void)
 {
   /* Set a flag to indicate the interpreter should exit. */
   exit_interpreter = TRUE;
@@ -1001,8 +1001,8 @@ void run_game(void)
   /* Initialize the Allegro graphics library. */
   install_allegro(SYSTEM_AUTODETECT,&errno,atexit);
 
-  /* Add a hook to handle the close button. */
-  set_window_close_hook(close_button_hook);
+  /* Add a callback to handle the close button. */
+  set_close_button_callback(close_button_callback);
 
   /* Add a hook to handle application switching. */
   set_display_switch_callback(SWITCH_IN,display_switch_hook);
@@ -1368,10 +1368,10 @@ int main(int argc, char** argv)
   {
     /* Print help information and exit. */
     puts(
-      "Level 9 Interpreter v4.0\n"
+      "Level 9 Interpreter v4.1\n"
       "Copyright (c) 1996 Glen Summers\n"
       "Copyright (c) 2002,2003 Glen Summers and David Kinder\n"
-      "Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth,\n"
+      "Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth,\n"
       "Simon Baldwin and Dieter Baron\n"
       "\n"
       "Level9 is released under the terms of the GNU General Public License.\n"

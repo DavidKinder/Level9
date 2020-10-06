@@ -11,7 +11,7 @@ public:
 
 	String Com;
 	char *GetCom();
-  char *GetTerm();
+	char *GetTerm();
 	char *GetQStr();
 	char *RestOfLine();
 	char *GetLine();

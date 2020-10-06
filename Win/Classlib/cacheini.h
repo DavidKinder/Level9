@@ -47,7 +47,7 @@ public:
 	BOOL GetItem(char *Section,char *Item,String &S);
 	BOOL GetItemInt(char *Section,char *Item,int &Int);
 	BOOL GetItemInt(char *Section,char *Item,long &Int);
-  BOOL GetItemBool(char *Section,char *Item);
+	BOOL GetItemBool(char *Section,char *Item);
 
 	BOOL GetSection(char *Section,String &Str);
 

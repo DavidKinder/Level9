@@ -67,9 +67,9 @@ void Window::DestroyWindow()
 
 BOOL Window::Register()
 {
-  WNDCLASS wc;
+	WNDCLASS wc;
 
-  if ( !GetClassInfo( 0, GetClassName(), &wc) &&
+	if ( !GetClassInfo( 0, GetClassName(), &wc) &&
 		 !GetClassInfo(App::hInstance, GetClassName(),&wc) )
 	{
 		wc.style = CS_DBLCLKS ; //CS_HREDRAW | CS_VREDRAW;
@@ -267,7 +267,7 @@ BOOL Window::WMGetMinMaxInfo(TMSG &Msg)
 	lpmmi->ptMaxPosition.x=(Deskrc.right-lpmmi->ptMaxSize.x)/2;
 	lpmmi->ptMaxPosition.y=(Deskrc.bottom-lpmmi->ptMaxSize.y)/2;
 
-#else    
+#else
 	//as xyMax are long only replace if neccesary, when int > xyMax so ok to cast to (int)
 	RECT rc;
 	GetWindowRect(GetDesktopWindow(),&rc);
@@ -337,16 +337,16 @@ void Window::SetVirtualExtent(long xSize,long ySize,int xSt, int ySt,int xPgSize
 
 	SCROLLINFO si;
 	si.cbSize=sizeof(si);
-  si.fMask=SIF_ALL;
-  si.nMin=0;
-  si.nMax=xMax-1;
+	si.fMask=SIF_ALL;
+	si.nMin=0;
+	si.nMax=xMax-1;
 	si.nPage=xPageSize;
-  si.nPos=xPos;
-  SetScrollInfo(hWnd,SB_HORZ,&si,TRUE);
-  si.nMax=yMax-1;
+	si.nPos=xPos;
+	SetScrollInfo(hWnd,SB_HORZ,&si,TRUE);
+	si.nMax=yMax-1;
 	si.nPage=yPageSize;
-  si.nPos=yPos;
-  SetScrollInfo(hWnd,SB_VERT,&si,TRUE);
+	si.nPos=yPos;
+	SetScrollInfo(hWnd,SB_VERT,&si,TRUE);
 	// scoll bars may have gone
 	GetClientRect(hWnd,&rc);
 	if (StatBar) rc.bottom-=StatBar->dyStatbar;
@@ -383,7 +383,7 @@ void Window::SetVirtualExtent(long xSize,long ySize,int xSt, int ySt,int xPgSize
 		UpdateWindow(hWnd);
 	}
 
-#else    
+#else
 
 	SetScrollRange(hWnd,SB_HORZ,0, max ( (int) ( xMax - rc.right ), 0 ) , FALSE );
 	// may have lost scrollbar, so get size again

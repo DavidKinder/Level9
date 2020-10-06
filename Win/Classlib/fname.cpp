@@ -54,7 +54,7 @@ void FName::NewName(char *n)
 		int p=rPos('\\');
 		if (p>=0) Len(p+1);
 	}
-	AddString(n);   
+	AddString(n);
 }
 
 char *FName::GetName()
@@ -164,7 +164,7 @@ void FName::Expand(char *Dir)
 	if (Empty() || Pos(':')>=0 || Str[0]=='\\') return;
 
 	int n=strlen(Dir);
-   if (Dir[n-1]=='\\') n--;
+	if (Dir[n-1]=='\\') n--;
 
 	char *Ptr=Str;
 	while (!strncmp(Ptr,"..\\",3))

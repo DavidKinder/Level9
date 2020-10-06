@@ -1,11 +1,11 @@
 
-        Level 9 Interpreter v4.0
+        Level 9 Interpreter v4.1
         An interpreter for Level 9 games in any format,
         including Spectrum snapshots.
 
         Copyright (c) 1996 Glen Summers
         Copyright (c) 2002,2003 Glen Summers and David Kinder
-        Copyright (c) 2005 Glen Summers, David Kinder,
+        Copyright (c) 2005,2007 Glen Summers, David Kinder,
         Alan Staniforth, Simon Baldwin and Dieter Baron
 
         Level9 is released under the terms of the GNU General
@@ -136,7 +136,7 @@ drawn graphics, and then bitmap graphics for the last games. These graphics
 are supported by some versions of the interpreter (The 32-bit DOS version
 does support graphics, while the 16-bit DOS version does not.).
 
-One some platforms the line-drawn graphics were placed into separate files
+On some platforms the line-drawn graphics were placed into separate files
 (For example, in the Amiga release of "Jewels of Darkness" the game is in
 "gamedata.dat" and the graphics in "picture.dat".). In order to show these
 pictures the graphics file can be passed as a second command line argument
@@ -228,6 +228,10 @@ Alt-H when playing a game to view a list of the available hotkeys.
 History
 -------
 
+  v4.1  Corrected a bug that made Lancelot unplayable.
+	BBC B bitmaps are now shown as they appeared on the original
+	computer.
+
   v4.0  Implemented support for bitmap graphics.
 
   v3.0  Implemented support for line-drawn graphics.
@@ -252,13 +256,14 @@ Credits
 -------
 
 The Level9 interpreter was originally written by Glen Summers. The changes for
-3.0 were made by David Kinder (d.kinder@btinternet.com) with additional code
+3.0 were made by David Kinder (davidk.kinder@virgin.net) with additional code
 from Alan Staniforth and Simon Baldwin. For 4.0, David Kinder integrated the
 various bitmap decoders, but all the difficult work was done by Alan Staniforth
-and Dieter Baron.
+and Dieter Baron. Alan also supplied the BBC B bitmap changes for 4.1.
 
 Help, testing and information on the various Level 9 formats was provided by
-Paul David Doherty.
+Paul David Doherty. Testing of the fix for Lancelot in 4.1 was performed by
+Guido Mureddu.
 
 
 The Interactive Fiction Archive

@@ -27,7 +27,7 @@ IFPHDRTOOL	= /usr/bin/ifphdr
 IFPHDR		= level9.hdr
 
 # Level9 version.
-VERSION		= 4.0
+VERSION		= 4.1
 
 # Common definitions.
 CC		=  gcc
@@ -89,7 +89,7 @@ distclean: clean
 maintainer-clean: clean
 dist: distclean
 	mkdir distribution binaries
-	cd ..; zip -r Glk/distribution/Level9_4.0_Source.zip \
+	cd ..; zip -r Glk/distribution/Level9_4.1_Source.zip \
 			* -x Glk/distribution/\* Glk/binaries/
 	cp ../COPYING glk_readme.txt binaries
 	$(MAKE) -f Makefile.glk \
@@ -108,7 +108,7 @@ dist: distclean
 			GLKLIBDIR=../../cheapglk GLKINCDIR=../../cheapglk \
 			GLKMAKEINC=../../cheapglk/Make.cheapglk glklevel9
 	mv glklevel9 binaries/cheaplevel9
-	cd binaries; tar zcvf ../distribution/Level9_4.0_Linux.tgz *
+	cd binaries; tar zcvf ../distribution/Level9_4.1_Linux.tgz *
 
 # Dependencies.
 glk.o: glk.c level9.h

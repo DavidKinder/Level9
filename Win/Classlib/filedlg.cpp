@@ -19,6 +19,17 @@ CustFileDlg::CustFileDlg(Object *Parent ,int Id, char *Buf,int BufS,const char *
 	hWnd=0;
 	TrapOK=FALSE;
 	Flags=flgs;
+
+	int ofnSize=sizeof(OPENFILENAME);
+	OSVERSIONINFO vi;
+	ZeroMemory(&vi,sizeof(OSVERSIONINFO));
+	vi.dwOSVersionInfoSize=sizeof(OSVERSIONINFO);
+	::GetVersionEx(&vi);
+	if (vi.dwPlatformId==VER_PLATFORM_WIN32_NT && vi.dwMajorVersion>=5)
+		ofnSize = 0x58; // sizeof(OPENFILENAME) for Windows 2000 and above
+	O=(OPENFILENAME*)malloc(ofnSize);
+	ZeroMemory(O,ofnSize);
+	O->lStructSize=ofnSize;
 }
 
 BOOL CustFileDlg::SetupWindow() { return TRUE; }
@@ -29,6 +40,7 @@ void CustFileDlg::EndDialog(int) {}
 
 CustFileDlg::~CustFileDlg()
 {
+	free(O);
 }
 
 #define IDC_FILE	1120
@@ -37,7 +49,7 @@ BOOL CustFileDlg::WndProc(TMSG &Msg)
 {
 	if (Msg.Msg==FokMsg && TrapOK)
 	{
-		FileSelected(O.lpstrFile);
+		FileSelected(O->lpstrFile);
 		TrapOK=FALSE;
 		return TRUE;
 	}
@@ -68,7 +80,7 @@ BOOL CustFileDlg::WndProc(TMSG &Msg)
 					EndDialog(LOWWPARAM(Msg.wParam));
 					break;
 				case IDC_FILE:
-            	// only trap for open file
+					// only trap for open file
 					if (!(Flags & OFN_OVERWRITEPROMPT) && HIWLPARAM(Msg)==LBN_SELCHANGE)
 					{
 						// bit of a hack
@@ -101,7 +113,7 @@ UINT CALLBACK CustFileDlg::MyOpenDlgProc(HWND hDlg,UINT Msg,WPARAM wParam,LPARAM
 //	OFN_LONGNAMES - force long names for 3.x modules
 
 
-int CustFileDlg::Execute()
+int CustFileDlg::Execute(BOOL hook)
 {
 	OpenDialog=this;
 	FName F(Buffer);
@@ -110,38 +122,37 @@ int CustFileDlg::Execute()
 	String Dir;
 	F.GetDir(Dir);
 
-	O.lStructSize=sizeof(OPENFILENAME);
-	O.hwndOwner=ParentHWnd;
-	O.hInstance=App::hInstance;
-	O.lpstrFilter=Filters;
-	O.lpstrCustomFilter=NULL;
-	O.nFilterIndex=FiltIndex ? *FiltIndex : 0;
-	O.lpstrFile=Name;
-	O.nMaxFile=Name.Size();
-	O.lpstrFileTitle=NULL;
-	O.lpstrInitialDir=Dir;
-	O.lpstrTitle=Title;
-	O.Flags=Flags | OFN_PATHMUSTEXIST | OFN_HIDEREADONLY | OFN_ENABLEHOOK;
+	O->hwndOwner=ParentHWnd;
+	O->hInstance=App::hInstance;
+	O->lpstrFilter=Filters;
+	O->lpstrCustomFilter=NULL;
+	O->nFilterIndex=FiltIndex ? *FiltIndex : 0;
+	O->lpstrFile=Name;
+	O->nMaxFile=Name.Size();
+	O->lpstrFileTitle=NULL;
+	O->lpstrInitialDir=Dir;
+	O->lpstrTitle=Title;
+	O->Flags=Flags | OFN_PATHMUSTEXIST | OFN_HIDEREADONLY | OFN_ENABLESIZING;
+	if (hook)
+		O->Flags |= OFN_ENABLEHOOK;
 
 	if (ID>=0)
 	{
-		O.lpTemplateName=MAKEINTRESOURCE(ID);
-		O.Flags |= OFN_ENABLETEMPLATE;
+		O->lpTemplateName=MAKEINTRESOURCE(ID);
+		O->Flags |= OFN_ENABLETEMPLATE;
 	}
-	O.lpstrDefExt=NULL;
-	//O.lCustData;
-
-	O.lpfnHook=MyOpenDlgProc;
+	O->lpstrDefExt=NULL;
+	O->lpfnHook=MyOpenDlgProc;
 
 	FokMsg=RegisterWindowMessage(FILEOKSTRING);
 
-	int ret=	(O.Flags & OFN_OVERWRITEPROMPT) ?
-		GetSaveFileName(&O) : GetOpenFileName(&O);
+	int ret=	(O->Flags & OFN_OVERWRITEPROMPT) ?
+		GetSaveFileName(O) : GetOpenFileName(O);
 
 	if (ret)
 	{
 		strcpy(Buffer,Name);
-		if (FiltIndex) *FiltIndex=O.nFilterIndex;
+		if (FiltIndex) *FiltIndex=O->nFilterIndex;
 	}
 	return ret;
 }

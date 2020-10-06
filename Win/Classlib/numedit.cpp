@@ -77,7 +77,7 @@ long NumEdit::GetValue(BOOL *err)
 {
 	long Value;
 	char *temp=GetString();
-  if (err) *err=0;
+	if (err) *err=0;
 	if (sscanf(temp,FLAGS & NE_HEX ? "%lX" : "%ld",&Value)<=0 && err) *err=1;
 	delete[] temp;
 	return Value;

@@ -123,11 +123,11 @@ public:
 	void ToUpper() { strupr(Str); }
 	void ToLower() { strlwr(Str); }
 
-  String & operator --()
-  {
-    if (Length) Str[--Length]=0;
-	return *this;
-  }
+	String & operator --()
+	{
+		if (Length) Str[--Length]=0;
+		return *this;
+	}
 };
 
 #endif

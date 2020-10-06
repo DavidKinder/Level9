@@ -1,9 +1,9 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 4.0
+* Version 4.1
 * Copyright (c) 1996 Glen Summers
-* Copyright (c) 2002,2003,2005 Glen Summers and David Kinder
+* Copyright (c) 2002,2003,2005,2007 Glen Summers and David Kinder
 *
 * Level9 16 bit DOS version by David Kinder.
 *
@@ -339,10 +339,10 @@ int i;
 	if (argc != 2)
 	{
 		cprintf(
-			"Level 9 Interpreter v4.0\r\n"
+			"Level 9 Interpreter v4.1\r\n"
 			"Copyright (c) 1996 Glen Summers\r\n"
 			"Copyright (c) 2002,2003 Glen Summers and David Kinder\r\n"
-			"Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth,\r\n"
+			"Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth,\r\n"
 			"Simon Baldwin and Dieter Baron\r\n"
 			"\r\n"
 			"Level9 is released under the terms of the GNU General Public License.\r\n"

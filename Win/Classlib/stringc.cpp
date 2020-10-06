@@ -47,16 +47,16 @@ void String::Insert(char *s,int p)
 {
 	int la=strlen(s);
 	if (Length+la+1>Max) ReAlloc(Length+la+1);
-   memmove(Str+p+la,Str+p,Length-p+1);
-   strncpy(Str+p,s,la);
+	memmove(Str+p+la,Str+p,Length-p+1);
+	strncpy(Str+p,s,la);
 	Length+=la;
 }
 
 void String::Insert(char c,int p)
 {
 	if (Length+2>Max) ReAlloc(Length+2);
-   memmove(Str+p+1,Str+p,Length-p+1);
-   Str[p]=c;
+	memmove(Str+p+1,Str+p,Length-p+1);
+	Str[p]=c;
 	Length+=1;
 }
 

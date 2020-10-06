@@ -126,7 +126,7 @@ BOOL CheckPath(HWND hw,char *Path,char *Title,BOOL Query)
 	if (DirExist(P)) return TRUE;
 	if (Query && MessageBox(hw,String()<<"Path \""<<Path<<"\" does not exist! Create?",Title,MB_YESNO | MB_ICONQUESTION)==IDNO) return FALSE;
 
-  int n=P.Pos('\\');
+	int n=P.Pos('\\');
 	do
 	{
 		strncpy(temp,P,n);
@@ -141,7 +141,7 @@ BOOL CheckPath(HWND hw,char *Path,char *Title,BOOL Query)
 			MessageBox(hw,String()<<"Error creating directory!\n\r"<<temp,Title,MB_OK | MB_ICONEXCLAMATION);
 			return FALSE;
 		}
-    n=P.Pos('\\',n+1);
+		n=P.Pos('\\',n+1);
 	} while (n>=0);
 	return TRUE;
 }
@@ -190,35 +190,35 @@ long fread(bhp ptr,int size,long num,FILE *f)
 int CALLBACK SetSelProc(HWND hWnd,UINT uMsg,LPARAM,LPARAM lpData)
 {
 	if (uMsg==BFFM_INITIALIZED) SendMessage(hWnd,BFFM_SETSELECTION,TRUE,lpData);
-   return 0;
+		return 0;
 }
 
 BOOL SelectDirectory(HWND hw,FName &Dir,char *Title)
 {
 	LPMALLOC pMalloc;
-   BOOL ret=FALSE;
-   if (SUCCEEDED(SHGetMalloc(&pMalloc)))
-   {
-      BROWSEINFO bi;
-      bi.hwndOwner=hw;
-      bi.pidlRoot=NULL;
-      bi.pszDisplayName=Dir;
-      bi.lpszTitle=Title;
-      bi.ulFlags=BIF_RETURNONLYFSDIRS;
-      bi.lpfn=SetSelProc;
-      bi.lParam=(LPARAM) (char*) Dir;
-      bi.iImage=0;
+	BOOL ret=FALSE;
+	if (SUCCEEDED(SHGetMalloc(&pMalloc)))
+	{
+		BROWSEINFO bi;
+		bi.hwndOwner=hw;
+		bi.pidlRoot=NULL;
+		bi.pszDisplayName=Dir;
+		bi.lpszTitle=Title;
+		bi.ulFlags=BIF_RETURNONLYFSDIRS;
+		bi.lpfn=SetSelProc;
+		bi.lParam=(LPARAM) (char*) Dir;
+		bi.iImage=0;
 
-      ITEMIDLIST *iList=SHBrowseForFolder(&bi);
-      if (iList)
-      {
-         ret=SHGetPathFromIDList(iList,Dir);
-         pMalloc->Free(iList);
-      }
-      pMalloc->Release();
-   }
+		ITEMIDLIST *iList=SHBrowseForFolder(&bi);
+		if (iList)
+		{
+			ret=SHGetPathFromIDList(iList,Dir);
+			pMalloc->Free(iList);
+		}
+		pMalloc->Release();
+	}
 
-   return ret;
+	return ret;
 }
 
 #endif

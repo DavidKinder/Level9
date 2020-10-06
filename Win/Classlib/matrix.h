@@ -16,7 +16,7 @@ public:
 	Vector(double x,double y,double z);
 	~Vector();
 	void ReSize(int m);
-   double Length();
+	double Length();
 	Vector &operator=(double);
 	Vector &operator=(Vector &);
 	Vector &operator+(Vector &);

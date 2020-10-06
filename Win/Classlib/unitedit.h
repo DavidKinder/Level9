@@ -12,7 +12,7 @@ class UnitEdit : public Edit {
 public:
 	UnitEdit(Object *Parent,int Id,double Value,int iUnit,char *Unit="",long Flags=0,double Min=0,double Max=0);
 	UnitEdit(Object *Parent,int Id,double Value,Unit *U,long Flags=0,double Min=0,double Max=0);
-   virtual ~UnitEdit();
+	virtual ~UnitEdit();
 	double GetValue(BOOL *err=NULL);
 	virtual BOOL WndProc(TMSG &);
 

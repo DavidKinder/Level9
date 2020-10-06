@@ -165,12 +165,12 @@ void do_about ()
 	"Level 9 Interpreter",
 	
 	"version",
-	"v4.0",
+	"v4.1",
 	
 	"copyright",
 	"Copyright (c) 1996 Glen Summers\n"
 	"Copyright (c) 2002,2003 Glen Summers and David Kinder\n"
-	"Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth",
+	"Copyright (c) 2005,2007 Glen Summers, David Kinder, Alan Staniforth",
 
 	"comments",
 	"GTK+ 2.6 interface v" LEVEL9_VERSION_GUI

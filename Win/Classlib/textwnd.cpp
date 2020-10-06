@@ -20,7 +20,7 @@ EV_END
 TextWindow::TextWindow(Object *Parent,char *title,BOOL Stay) : Window(Parent,title)
 {
 	App::TextWindow=this;
-  App::Active=TRUE; // hack
+	App::Active=TRUE; // hack
 	Style=WS_OVERLAPPEDWINDOW;
 	StayOpen=Stay;
 	First=NULL;
@@ -182,5 +182,5 @@ int printf(const char *fmt,...)
 	}
 	App::TextWindow->AddString(temp);
 	// if message loop??
-   return 0;
+	return 0;
 }

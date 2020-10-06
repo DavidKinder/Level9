@@ -1,9 +1,9 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 4.0
+* Version 4.1
 * Copyright (c) 1996 Glen Summers
-* Copyright (c) 2002,2003,2005 Glen Summers and David Kinder
+* Copyright (c) 2002,2003,2005,2007 Glen Summers and David Kinder
 *
 * Level9 Amiga version by David Kinder.
 *
@@ -59,7 +59,7 @@ struct NewMenu NewMenus[] =
   {NM_ITEM, "Quit", "Q", 0, 0, 0},
   {NM_END, 0, 0, 0, 0, 0}};
 
-char Version[] = "$VER:Level9 4.0 (24.6.2005)";
+char Version[] = "$VER:Level9 4.1 (19.5.2007)";
 char TitleBar[] = "Level 9";
 
 #define TEXTBUFFER_SIZE 1024
@@ -997,10 +997,10 @@ void help (void)
 
 void about (void)
 {
-  req ("Level 9 Interpreter v4.0\n"
+  req ("Level 9 Interpreter v4.1\n"
        "Copyright (c) 1996 Glen Summers\n"
        "Copyright (c) 2002,2003 Glen Summers and David Kinder\n"
-       "Copyright (c) 2005 Glen Summers, David Kinder,\n"
+       "Copyright (c) 2005,2007 Glen Summers, David Kinder,\n"
        "Alan Staniforth, Simon Baldwin and Dieter Baron\n\n"
        "Level9 is released under the terms of the GNU General\n"
        "Public License. See the file COPYING that is included\n"
