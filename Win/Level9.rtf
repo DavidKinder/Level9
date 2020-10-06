@@ -1,0 +1,299 @@
+{\rtf1\ansi
+
+{\fonttbl
+{\f0\fswiss\fcharset0\fprq2 Arial;}
+{\f1\fmodern\fcharset0\fprq1Courier New;}}
+
+{\colortbl;
+\red0\green0\blue255;}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}Level 9 Interpreter}}
+{{\super #}{\footnote{\super #}Contents}}
+{{\super K}{\footnote{\super K}Contents}}
+{\fs32\b\keepn\sb60\sa60 Level 9 Interpreter\par}
+\par Level 9 Interpreter v4.0
+\par An interpreter for Level 9 games in any format, including Spectrum snapshots.
+\par
+\par Copyright (c) 1996 Glen Summers
+\par Copyright (c) 2002,2003 Glen Summers and David Kinder
+\par Copyright (c) 2005 Glen Summers, David Kinder, Alan Staniforth,
+ Simon Baldwin and Dieter Baron
+\par
+\par Level9 is released under the terms of the GNU General Public License.
+ See the file COPYING that is included with this program for details.
+\par
+{\fs22
+\par\tab{\uldb Introduction}{\v Introduction}
+\par\tab{\uldb Supported Formats}{\v SupportedFormats}
+\par\tab{\uldb Graphics}{\v Graphics}
+\par\tab{\uldb Meta Commands and Menus}{\v Menus}
+\par\tab{\uldb History}{\v History}
+\par\tab{\uldb Credits}{\v Credits}
+\par\tab{\uldb The Interactive Fiction Archive}{\v IFArchive}}
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}Introduction}}
+{{\super #}{\footnote{\super #}Introduction}}
+{{\super K}{\footnote{\super K}Introduction}}
+{\fs32\b\keepn\sb60\sa60 Introduction\par}
+\par During the 1980s a small British company called Level 9, run by two brothers
+ (Mike and Pete Austin), produced a series of text adventure games for a variety of computers.
+ These games received considerable critical acclaim and are probably the best text adventures
+ written for the small cassette based 8 bit computers common in Britain in the 80s.
+\par
+\par Level 9 wrote their games using a custom designed system known as "A-Code", which evolved
+ from games on the 8 bit computers such as the Acorn BBC Model B, the Sinclair Spectrum and the
+ Commodore 64 to the (then new) 16 bit machines such as the Amiga and the Atari ST.
+\par
+\par From disassembly of Level 9 games there are thought to be four variants of A-Code, which
+ are detailed below. Thanks go to Paul David Doherty for analysing the games and producing the
+ table which follows. At present this interpreter supports v2, v3 and v4 games.
+\par
+{\pard\li700\ri500\fi-400\tx700\par{\b v1}\tab
+This was used for the earliest games. Spectrum v1 games had black text on a grey
+ background. Games known to be released in this format:\par}
+{\li1000\ri1000
+\par Colossal Adventure
+\par Adventure Quest
+\par Dungeon Adventure
+\par Snowball
+\par Lords of Time\par}
+{\pard\li700\ri500\fi-400\tx700\par{\b v2}\tab
+These releases were made between 1984 and 1985 (and usually say so in the initial copyright
+ message). This version introduced the yellow text on a black background which became standard.
+ Games in this format were:\par}
+{\li1000\ri1000
+\par Adventure Quest
+\par Dungeon Adventure
+\par Lords of Time
+\par Snowball
+\par Return to Eden
+\par Erik the Viking
+\par Emerald Isle
+\par Red Moon\par}
+{\pard\li700\ri500\fi-400\tx700\par{\b v3}\tab
+This format, dated 1986, was used by the largest number of releases. These were:\par}
+{\li1000\ri1000
+\par Worm in Paradise
+\par The Price of Magick
+\par The Secret Diary of Adrian Mole
+\par The Growing Pains of Adrian Mole
+\par The Archers
+\par The Jewels of Darkness Trilogy (Colossal Adventure, Adventure Quest and Dungeon Adventure
+ released as one package)
+\par The Silicon Dreams Trilogy (Snowball, Return to Eden and Worm in Paradise)\par}
+{\pard\li700\ri500\fi-400\tx700\par{\b v4}\tab
+This was used for the Time and Magick Trilogy (Lords of Time, Red Moon and
+ The Price of Magick), and all Level 9's new games from 1987 onwards:\par}
+{\li1000\ri1000
+\par Knight Orc
+\par Gnome Ranger
+\par Ingrid's Back
+\par Lancelot
+\par Scapeghost\par}
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}Supported Formats}}
+{{\super #}{\footnote{\super #}SupportedFormats}}
+{{\super K}{\footnote{\super K}Supported Formats}}
+{\fs32\b\keepn\sb60\sa60 Supported Formats\par}
+\par On several machines (such as the Amiga) Level 9 games were distributed as an interpreter
+ plus a data file, usually called "gamedata.dat" or something similar. These games can be played
+ with this interpreter simply by loading the "gamedata.dat" file.
+\par
+\par For the Amiga (and some other formats) the v4 games were released in three parts, each in
+ a separate data file:
+\par
+\par\tab gamedat1.dat
+\par\tab gamedat2.dat
+\par\tab gamedat3.dat
+\par
+\par Starting the first game gives a menu from which you can choose which part or game to play.
+ For this to work the files must have the same basic structure with a number in it somewhere,
+ e.g. file names
+\par
+\par\tab TimeAndMagick1.dat
+\par\tab TimeAndMagick2.dat
+\par\tab TimeAndMagick3.dat
+\par
+\par will work.
+\par
+\par On other (especially older and smaller) computers the games were distributed as a single
+ file containing both an interpreter and the game data. Level9 can cope with these files as well,
+ as it automatically searches files for valid Level 9 games. This however requires that the file
+ not be compressed in any way. For example, there are several Spectrum snapshots of Level 9 games
+ available which this interpreter can play, but these snapshots must be in an uncompressed format
+ (e.g. SNA). Commonly snapshots are available in the compressed Z80 format, but these files can
+ be converted to SNA using the widely available conversion program {\b SPConv}, version 1.06 or
+ higher.
+\par
+\par Paul David Doherty has written {\b L9Cut}, which can extract Level 9 games from many
+ different formats. L9Cut can also remove copy protection from Level 9 games. L9Cut can be
+ downloaded from
+\par
+\par{\f1  \ul\cf1 http://www.ifarchive.org/indexes/if-archiveXlevel9Xtools.html}
+\par
+\par This program has been tested on files obtained from releases for the Amiga, Atari ST, IBM PC,
+ C-64, Spectrum, Atari 800, BBC, Amstrad CPC, Apple 2, Apple Mac and MSX computers.
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}Graphics}}
+{{\super #}{\footnote{\super #}Graphics}}
+{{\super K}{\footnote{\super K}Graphics}}
+{\fs32\b\keepn\sb60\sa60 Graphics\par}
+\par The first games from Level 9 were text only, but later games included line-drawn graphics,
+ and then bitmap graphics for the last games. These graphics are supported by some versions of
+ the interpreter, including the Windows version.
+\par
+\par One some platforms the line-drawn graphics were placed into separate files (For example,
+ in the Amiga release of "Jewels of Darkness" the game is in "gamedata.dat" and the graphics in
+ "picture.dat".). In order to show the pictures the graphics file should be given the same name
+ as the game data file, but with an extension of ".pic", ".cga" or ".hrc" (the latter two being
+ used for graphics files in MS-DOS Level 9 releases).
+\par
+\par If no line-drawn graphics file is specified, Level 9 will search the given game data file
+ for graphics data. This is useful when the game data is a Spectrum SNA snapshot or a similar
+ memory dump of an emulator.
+\par
+\par The last Level 9 games use bitmap graphics. The interpreter can display the bitmap graphics
+ from C64, Amiga, Atari ST, MS-DOS, Apple Macintosh, BBC B, Amstrad CPC and Spectrum +3 versions
+ of the games (though for the last three, there is currently no way to extract the A-code game
+ data in a usable form).
+\par
+\par The graphics files contain a number somewhere in the file name, and there may also be a title
+ picture with a different file name. The interpreter searches for suitably named graphics files
+ using the following rules. In all cases copy the graphics and title files to the same directory as
+ the game.
+\par
+\par {\b Amiga, Macintosh and earlier Atari ST}
+\par {\pard\li400\ri400
+The graphics file name is just the number (e.g. "1", "2", etc.). The title file is called "title".\par}
+\par {\b Later Atari ST}
+\par {\pard\li400\ri400
+The graphics file name is the number with a "squ" file extension (e.g. "1.squ", "2.squ", etc.).
+ The title file is just one of the normal graphics files.\par}
+\par {\b MS-DOS}
+\par {\pard\li400\ri400
+The graphics file name is the number with a "pic" file extension (e.g. "1.pic", "2.pic", etc.).
+ The title file is just one of the normal graphics files.\par}
+\par {\b C64}
+\par {\pard\li400\ri400
+The graphics file name is "pic" followed by the number (e.g. "pic1", "pic2", etc.). The title file
+ is called "title mpic".\par}
+\par {\b BBC B "Lancelot"}
+\par {\pard\li400\ri400
+As for C64, except that the title file is called "title".\par}
+\par {\b BBC B except "Lancelot"}
+\par {\pard\li400\ri400
+The graphics file name is "P.Pic" followed by the number (e.g. "P.Pic1", "P.Pic2", etc.). The title
+ file is called "P.Title".\par}
+\par {\b Amstrad CPC and Spectrum +3}
+\par {\pard\li400\ri400
+All but the first graphic are contained in a single file called "allpics.pic". The first graphics file is
+ "1.pic" and the title file is "title.pic".\par}
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}Meta Commands and Menus}}
+{{\super #}{\footnote{\super #}Menus}}
+{{\super K}{\footnote{\super K}Meta Commands and Menus}}
+{\fs32\b\keepn\sb60\sa60 Meta Commands and Menus\par}
+\par Level9 supports several meta commands, which can be entered on the input line. These commands
+ are handled by the interpreter rather than being passed to the game. They are:
+\par
+{\pard\li1400\ri400\fi-1400\tx1400
+\par #save\tab Saves out a game position directly, bypassing any prompting
+ (such as for disk changes).\par
+\par #restore\tab Loads in a saved position directly, bypassing any protection code within
+ the game.\par
+\par #quit\tab Quits the current game.\par
+\par #cheat\tab Tries to bypass the copy protection code which asks for a specific word.
+ This is done by trying every word in the game's dictionary. On a slow machine, this can take
+ a long time.\par
+\par #dictionary\tab Lists the game dictionary. Press a key to stop the listing and return to the
+ input line. Note that the v2 dictionary appears to have random characters following on the end:
+ The original interpreter code to detect the end of dictionary does not appear to agree with the
+ characters actually at the end.\par
+\par #picture\tab If graphics are available, shows the picture specified as a number after the
+ picture command, e.g. "#picture 520".
+\par}
+\par The following menus are also available:
+\par
+\par Load Level 9 Game File...
+\par Starts playing the specified Level 9 game
+\par
+\par Restore Saved Position...
+\par Restores a previously saved position, the same as entering #restore.
+\par
+\par Save Current Position...
+\par Saves your current game position, the same as entering save.
+\par
+\par Game Dictionary
+\par Lists the game dictionary, the same as entering #dictionary.
+\par
+\par Select Font...
+\par Selects the font used in the game.
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}History}}
+{{\super #}{\footnote{\super #}History}}
+{{\super K}{\footnote{\super K}History}}
+{\fs32\b\keepn\sb60\sa60 History\par}
+{\pard\li800\ri400\fi-700\tx800
+\par{\b v4.0}\tab Implemented support for bitmap graphics.
+\par
+\par{\b v3.0}\tab Implemented support for line-drawn graphics.
+\par\tab Fixed a problem with v4 detection that stopped some versions of Scapeghost
+ running correctly.
+\par\tab Implemented an opcode used by the disk based versions of Time and Magick,
+ which now means that saving from these games works.
+\par\tab The interpreter now gives you a reasonable amount of time to enter the
+ Lenslok code in protected games, and also tells you what the code should be.
+\par
+\par{\b v2.0}\tab Revised the description of v4 games to include all the post-1987
+ games, which are now supported.
+\par\tab v2 games are also now supported.
+\par\tab Added meta commands.
+\par
+\par{\b v1.0}\tab First release.
+\par}
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}Credits}}
+{{\super #}{\footnote{\super #}Credits}}
+{{\super K}{\footnote{\super K}Credits}}
+{\fs32\b\keepn\sb60\sa60 Credits\par}
+\par The Level9 interpreter was originally written by Glen Summers. The changes for
+ 3.0 were made by David Kinder ({\ul\f1\cf1 d.kinder@btinternet.com}) with additional
+ code from Alan Staniforth and Simon Baldwin. For 4.0, David Kinder integrated the
+ various bitmap decoders, but all the difficult work was done by Alan Staniforth
+ and Dieter Baron.
+\par
+\par Help, testing and information on the various Level 9 formats was provided by
+ Paul David Doherty.
+}
+
+{\page\f0\fs18
+{{\super $}{\footnote{\super $}The Interactive Fiction Archive}}
+{{\super #}{\footnote{\super #}IFArchive}}
+{{\super K}{\footnote{\super K}The Interactive Fiction Archive}}
+{\fs32\b\keepn\sb60\sa60 The Interactive Fiction Archive\par}
+\par If you have access to the Internet and are interested in text adventures, then
+ you can find all sorts of programs and information at The Interactive Fiction Archive:
+\par
+\par{\f1  \ul\cf1 http://www.ifarchive.org/}
+\par
+\par The latest version of this program can always be found on this site, in
+\par
+\par{\f1  \ul\cf1 http://www.ifarchive.org/indexes/if-archiveXlevel9XinterpretersXlevel9.html}
+\par
+}
+
+}
+
