@@ -1,0 +1,179 @@
+
+Level9 Interpreter by Glen Summers (gsummers@physics.ox.ac.uk)
+This guide by David Kinder (david.kinder@physics.ox.ac.uk)
+
+
+Level9 has already been compiled on DOS, Windows, Amiga and Acorn systems,
+so it should be quite easy to get it working on any other modern computer.
+
+
+The first thing that must be done is to check the typedefs in level9.h.
+The typedefs must have the following properties:
+
+	L9BYTE		unsigned 8 bit quantity
+	L9UINT16	unsigned 16 bit quantity
+	L9UINT32	unsigned 32 bit quantity
+	L9BOOL		quantity capable of holding the values
+			TRUE (1) and FALSE (0)
+
+Also the defines FILE_DELIM (the file delimiter character of your file
+system, usually '/') and MAX_PATH (the maximum length of the full pathname
+of a file) must be set, e.g.
+
+	#define FILE_DELIM '/'
+	#define MAX_PATH 256
+
+
+It is required that several os_ functions be written for your system. Given
+below is a guide to these functions, and a very simple interface is included
+in generic.c.
+
+
+void os_printchar(char c)
+
+	os_printchar() prints a character to the output. The interface
+	can either buffer this character or print it immediately, but
+	if buffering is used then the characters must all be sent to the
+	output when the interpreter calls os_flush(). A paragraph of
+	text is output as one long stream of characters, without line
+	breaks, so the interface must provide its own word wrapping, and
+	any other features that are desired, such as justification or a
+	[More] prompt. The carriage return character is always '\r',
+        rather than '\n'.
+
+
+L9BOOL os_input (char *ibuff, int size)
+
+	os_input() reads a line of text from the user, usually to accept
+	the next command to be sent to the game. The text input must be
+	stored in ibuff with a terminating zero, and be no longer than
+	size characters. Normally os_input() should return TRUE, but may
+	return FALSE to cause the entire input so far to be discarded.
+	The reason for doing so is discussed in the section at the end
+	on allowing the interpreter to load a new game without exiting.
+
+
+char os_readchar (void)
+
+	os_readchar() looks to see if a key has been pressed and returns
+	the character to the interpreter immediately. If no key has been
+	pressed 0 should be returned. This is most commonly used when a
+	game is exited, causing it to print "Press SPACE to play again"
+	and then call os_readchar().
+
+
+void os_flush (void)
+
+	If the calls to os_printchar() are being buffered by the
+	interface then the buffered text must be printed when os_flush()
+	is called.
+
+
+L9BOOL os_save_file (L9BYTE * Ptr, int Bytes)
+
+	os_save_file() should prompt the user in some way (with either
+	text or a file requester) for a filename to save the area of
+	memory of size Bytes pointed to by Ptr. TRUE or FALSE should be
+	returned depending on whether or not the operation was successful.
+
+
+L9BOOL os_load_file (L9BYTE * Ptr, int * Bytes, int Max)
+
+	os_load_file() should prompt the user for the name of a file to
+	load. At most Max bytes should be loaded into the memory pointed
+	to by Ptr, and the number of bytes read should be placed into the
+	variable pointed to by Bytes.
+
+
+L9BOOL os_get_game_file(char *NewName,int Size)
+
+	os_get_game_file() should prompt the user for a new game file, to
+	be stored in NewName, which can take a maximum name of Size
+	characters. This is used in the Adrian Mole games (and possibly
+	others) which load in the next part of the game after the part
+	currently being played has completed. These games were originally
+	written for tape-based systems where the call was simply "load
+	the next game from the tape".
+
+
+void os_set_filenumber(char *NewName,int Size,int n)
+
+	os_set_filename() is for multi-part games originally written for
+	disk-based systems, which used game filenames such as
+
+		gamedat1.dat	gamedat2.dat
+
+	etc. The routine should take the full filename in NewName (of
+	maximum size Size) and modify it to reflect the number n, e.g.
+	os_set_filename("gamedat1.dat",2) should leave "gamedat2.dat"
+	in NewName.
+
+
+int main (int argc, char **argv)
+
+	You must provide your own main() entry point for the program.
+	The simplest such main() is given in generic.c, which just calls
+	LoadGame() and then sits in a loop calling RunGame(). These
+	functions are discussed below.
+
+
+The interpreter provides several functions to be called by the interface
+code. These are:
+
+
+L9BOOL LoadGame (char *filename)
+
+	LoadGame() attempts to load filename and then searches it for
+	a valid Level 9 game. If it is successful TRUE is returned, else
+	FALSE. The previous game in memory will be overwritten if the
+	file filename can be loaded, even if it does not contain a Level 9
+	game, so even if LoadGame() returns FALSE it must be assumed that
+	the game memory has changed.
+
+
+L9BOOL RunGame (void)
+
+	If LoadGame() has been successful, RunGame() can be called to run
+	the Level 9 game. Each call to RunGame() executes a single opcode
+	of the game. In pre-emptive multitasking systems or systems without
+	any multitasking it is enough to sit in a loop calling RunGame(),
+	i.e.
+		while (RunGame());
+
+	RunGame() returns TRUE if an opcode code was executed and FALSE if
+	the game is stopped, either by an error or by a call to StopGame().
+
+
+void StopGame (void)
+
+	StopGame() stops the current game from playing.
+
+
+void FreeMemory (void)
+
+	FreeMemory() frees memory used to store the game. This routine
+	should be called when exiting the interpreter.
+
+
+One more complex feature of the interpreter is that a new Level 9 game can
+be loaded without exiting and restarting the interpreter. This is of use
+in a windowing environment. In this case, both main() and the code that
+catches a "New Game" menu item should call a routine such as the example
+new_game() below. This ensures that each new game does not use up more and
+more of the interpreter's stack.
+
+int newgame (char *game_name)
+{
+static int playing = FALSE;
+
+  if (LoadGame (game))
+  {
+    if (playing) return -1;
+    playing = TRUE;
+    while (RunGame ())
+    playing = FALSE;
+  }
+  else warn ("Unable to load game");
+  return -1;
+}
+
