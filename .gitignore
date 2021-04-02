@@ -1,0 +1,8 @@
+Data/
+Debug/
+Release/
+.vs/
+*.exe
+*.chm
+*.user
+

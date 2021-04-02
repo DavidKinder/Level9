@@ -59,9 +59,6 @@ int Dialog::ExecuteWithFont()
   ::ZeroMemory(&ncm,sizeof ncm);
   ncm.cbSize = sizeof ncm;
   ::SystemParametersInfo(SPI_GETNONCLIENTMETRICS,sizeof ncm,&ncm,0);
-  OSVERSIONINFO osvi;
-  osvi.dwOSVersionInfoSize = sizeof osvi;
-  ::GetVersionEx(&osvi);
   WCHAR fontName[256];
   MultiByteToWideChar(CP_ACP,0,
     ncm.lfMessageFont.lfFaceName,strlen(ncm.lfMessageFont.lfFaceName)+1,fontName,256);
@@ -91,7 +88,7 @@ int Dialog::ExecuteWithFont()
             memcpy(copyMem,resMem,copy1Size);
             wcscpy((WCHAR*)(copyMem+copy1Size),fontName);
             memcpy(offsetDWord(copyMem+copy1Size+font2Len),offsetDWord(resMem+copy1Size+font1Len),copy2Size);
-            *((WORD*)(copyMem+copy1Size-(3*sizeof(WORD)))) = (osvi.dwMajorVersion < 6) ? 8 : 9;
+            *((WORD*)(copyMem+copy1Size-(3*sizeof(WORD)))) = 9;
             GlobalUnlock(copyGlobal);
           }
           code = DialogBoxIndirect(App::hInstance,(LPDLGTEMPLATE)copyGlobal,ParentHWnd,lpProcDialog);

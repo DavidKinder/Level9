@@ -10,7 +10,7 @@ static HMODULE GetUser32(void)
   return user;
 }
 
-UINT GetDpiForSystem(void)
+UINT call_GetDpiForSystem(void)
 {
   typedef UINT(__stdcall *PFNGETDPIFORSYSTEM)(VOID);
 
@@ -26,7 +26,7 @@ UINT GetDpiForSystem(void)
   return dpi;
 }
 
-UINT GetDpiForWindow(HWND hWnd)
+UINT call_GetDpiForWindow(HWND hWnd)
 {
   typedef UINT(__stdcall *PFNGETDPIFORWINDOW)(HWND);
 
@@ -42,7 +42,7 @@ UINT GetDpiForWindow(HWND hWnd)
   return dpi;
 }
 
-VOID* SetThreadDpiAwarenessContext(VOID* dpiContext)
+VOID* call_SetThreadDpiAwarenessContext(VOID* dpiContext)
 {
   typedef VOID*(__stdcall *PFNSETTHREADDPIAWARENESSCONTEXT)(VOID*);
 
@@ -82,21 +82,21 @@ BOOL SetWindowPosDpiNeutral(HWND hWnd, HWND hWndAfter, int x, int y, int cx, int
 DpiContextUnaware::DpiContextUnaware()
 {
   // DPI_AWARENESS_CONTEXT_UNAWARE
-  context = SetThreadDpiAwarenessContext((VOID*)-1); 
+  context = call_SetThreadDpiAwarenessContext((VOID*)-1); 
 }
 
 DpiContextUnaware::~DpiContextUnaware()
 {
-   SetThreadDpiAwarenessContext(context);
+  call_SetThreadDpiAwarenessContext(context);
 }
 
 DpiContextSystem::DpiContextSystem()
 {
   // DPI_AWARENESS_CONTEXT_SYSTEM_AWARE
-  context = SetThreadDpiAwarenessContext((VOID*)-2); 
+  context = call_SetThreadDpiAwarenessContext((VOID*)-2); 
 }
 
 DpiContextSystem::~DpiContextSystem()
 {
-   SetThreadDpiAwarenessContext(context);
+  call_SetThreadDpiAwarenessContext(context);
 }

@@ -21,12 +21,6 @@ CustFileDlg::CustFileDlg(Object *Parent ,int Id, char *Buf,int BufS,const char *
 	Flags=flgs;
 
 	int ofnSize=sizeof(OPENFILENAME);
-	OSVERSIONINFO vi;
-	ZeroMemory(&vi,sizeof(OSVERSIONINFO));
-	vi.dwOSVersionInfoSize=sizeof(OSVERSIONINFO);
-	::GetVersionEx(&vi);
-	if (vi.dwPlatformId==VER_PLATFORM_WIN32_NT && vi.dwMajorVersion>=5)
-		ofnSize = 0x58; // sizeof(OPENFILENAME) for Windows 2000 and above
 	O=(OPENFILENAME*)malloc(ofnSize);
 	ZeroMemory(O,ofnSize);
 	O->lStructSize=ofnSize;

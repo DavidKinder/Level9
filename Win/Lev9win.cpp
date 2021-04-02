@@ -1060,7 +1060,7 @@ BOOL MainWindow::SetupWindow()
   SetIcon(IDI_ICON);
 #endif
 
-  dpi=GetDpiForWindow(hWnd);
+  dpi=call_GetDpiForWindow(hWnd);
   LONG lfHeight=lf.lfHeight;
   ReadIniInt("Font","Size",lfHeight);
   if (lfHeight>0)
@@ -1083,7 +1083,7 @@ void MainWindow::CmSelectFont()
 {
   LOGFONT intLf;
   memcpy(&intLf,&lf,sizeof(LOGFONT));
-  intLf.lfHeight=MulDiv(intLf.lfHeight,GetDpiForSystem(),dpi);
+  intLf.lfHeight=MulDiv(intLf.lfHeight,call_GetDpiForSystem(),dpi);
 
   CHOOSEFONT cf;
   cf.lStructSize=sizeof cf;
@@ -1387,7 +1387,7 @@ void MyApp::SetDefs()
   memset(&ncm,0,sizeof(ncm));
   ncm.cbSize=sizeof(ncm);
   SystemParametersInfo(SPI_GETNONCLIENTMETRICS,ncm.cbSize,&ncm,0);
-  dpi=GetDpiForSystem();
+  dpi=call_GetDpiForSystem();
 
   memset(&lf,0,sizeof(lf));
   lf.lfHeight=-MulDiv(10,dpi,72);
@@ -1442,11 +1442,6 @@ MyApp::MyApp(char *Name) : App(Name,Ini)
   // enable 3d dialog boxes
 #ifdef WIN16
   EnableCtl3d();
-#else
-  OSVERSIONINFO ovi;
-  ovi.dwOSVersionInfoSize=sizeof(ovi);
-  GetVersionEx(&ovi);
-  if (ovi.dwMajorVersion == 3) EnableCtl3d();
 #endif
 
   // read from ini file

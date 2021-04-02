@@ -1,8 +1,8 @@
 // dpi.h
 
-UINT GetDpiForWindow(HWND hWnd);
-UINT GetDpiForSystem(void);
-VOID* SetThreadDpiAwarenessContext(VOID* dpiContext);
+UINT call_GetDpiForWindow(HWND hWnd);
+UINT call_GetDpiForSystem(void);
+VOID* call_SetThreadDpiAwarenessContext(VOID* dpiContext);
 
 BOOL GetWindowPlacementDpiNeutral(HWND hWnd, WINDOWPLACEMENT* lpwndPlace);
 BOOL SetWindowPlacementDpiNeutral(HWND hWnd, const WINDOWPLACEMENT* lpwndPlace);
