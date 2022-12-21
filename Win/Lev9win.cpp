@@ -75,6 +75,7 @@ int FontHeight=0,LineSpacing=0;
 LOGFONT lf;
 HFONT Font=0;
 COLORREF FontColour;
+COLORREF TextWindowColour;
 UINT dpi=0;
 int PageWidth=0,PageHeight=0,WndHeight=0;
 int Margin=0;
@@ -102,7 +103,8 @@ void DisplayLine(int Line,char *Str,int Len)
   HDC dc=GetDC(hWndMain);
   HFONT OldFont=(HFONT) SelectObject(dc,Font);
   COLORREF OldCol=SetTextColor(dc,FontColour);
-  COLORREF OldBk=SetBkColor(dc,GetSysColor(COLOR_WINDOW));
+  COLORREF OldBk=SetBkColor(dc, TextWindowColour);
+
   if(hClip) SelectClipRgn(dc,hClip);
   TextOut(dc,Margin,Line*LineSpacing-LineOffset+GfxHeight,Str,Len);
   SelectObject(dc,OldFont);
@@ -116,7 +118,7 @@ void DisplayLineJust(int Line,char *Str,int Len)
   HDC dc=GetDC(hWndMain);
   HFONT OldFont=(HFONT) SelectObject(dc,Font);
   COLORREF OldCol=SetTextColor(dc,FontColour);
-  COLORREF OldBk=SetBkColor(dc,GetSysColor(COLOR_WINDOW));
+  COLORREF OldBk=SetBkColor(dc,TextWindowColour);
   if(hClip) SelectClipRgn(dc,hClip);
 
   SIZE Size;
@@ -972,6 +974,7 @@ public:
   void CmExit();
   void CmOpen();
   void CmSelectFont();
+  void CmSelectColor();
   void CmToggleDither();
   void CmRestore() { HashCommand("#restore"); }
   void CmSave() { HashCommand("save"); }
@@ -1012,6 +1015,7 @@ EV_START(MainWindow)
   EV_COMMAND(CM_EXIT, CmExit)
   EV_COMMAND(CM_OPEN, CmOpen)
   EV_COMMAND(CM_FONT, CmSelectFont)
+  EV_COMMAND(CM_COLOR, CmSelectColor)
   EV_COMMAND(CM_DITHER, CmToggleDither)
   EV_COMMAND(CM_FILELOAD, CmRestore)
   EV_COMMAND(CM_FILESAVE, CmSave)
@@ -1067,12 +1071,16 @@ BOOL MainWindow::SetupWindow()
     lf.lfHeight=-MulDiv(lfHeight,dpi,72);
   else if (lfHeight<0)
     lf.lfHeight=lfHeight;
+  ReadIniInt("General", "WindowColour", (long&)TextWindowColour);
 
   // load window pos from ini file (will also be automatically saved on exit)
   GetWindowState();
   SetMru(hWnd,CM_EXIT);
   hWndMain=hWnd;
   SetFont();
+
+  SetBkColor(TextWindowColour);
+
   CheckMenuItem(CM_DITHER,GfxDither);
   Playing=FALSE;
 
@@ -1106,6 +1114,24 @@ void MainWindow::CmSelectFont()
     UpdateFont();
   }
 }
+
+void MainWindow::CmSelectColor()
+{
+    CHOOSECOLOR cc;
+    static COLORREF crCustClr[16];
+
+    ZeroMemory(&cc, sizeof(cc));
+    cc.lStructSize = sizeof(cc);
+    cc.hwndOwner = hWnd;
+    cc.lpCustColors = (LPDWORD)crCustClr;
+    cc.rgbResult = RGB(0, 255, 0);
+    cc.Flags = CC_FULLOPEN | CC_RGBINIT;
+    ChooseColor(&cc);
+    HDC hdcWindow = GetWindowDC(hWnd);
+    SetBkColor(cc.rgbResult);
+    TextWindowColour = (cc.rgbResult);
+}
+
 
 void MainWindow::CmToggleDither()
 {
@@ -1400,7 +1426,7 @@ void MyApp::SetDefs()
   strcpy(lf.lfFaceName,ncm.lfMessageFont.lfFaceName);
 
   FontColour=RGB(0,0,0);
-
+  TextWindowColour = GetSysColor(COLOR_WINDOW);
   GfxDither=0;
 }
 
@@ -1412,12 +1438,13 @@ void MyApp::ReadIni()
   ReadIniInt("General","FiltIndex",FiltIndex);
   ReadIniString("General","LastGameFile",(String&)LastGameFile);
   ReadIniInt("General","GameFiltIndex",GameFiltIndex);
+  ReadIniInt("General", "WindowColour", (long&) TextWindowColour);
 
   String S(LF_FACESIZE);
   ReadIniString("Font","Name",S);
   if (*S) strcpy(lf.lfFaceName,S);
   ReadIniInt("Font","Colour",(long&) FontColour);
-
+  ReadIniInt("Font","BackColour",(long&) TextWindowColour);
   ReadIniBool("Graphics","Dither",GfxDither);
 }
 
@@ -1428,12 +1455,13 @@ void MyApp::WriteIni()
   WriteIniInt("General","FiltIndex",FiltIndex);
   WriteIniString("General","LastGameFile",LastGameFile);
   WriteIniInt("General","GameFiltIndex",GameFiltIndex);
+  WriteIniInt("General","WindowColour",(long&)TextWindowColour);
 
   long FontHeight=abs(MulDiv(lf.lfHeight,72,dpi));
   WriteIniInt("Font","Size",FontHeight);
   WriteIniString("Font","Name",lf.lfFaceName);
   WriteIniInt("Font","Colour",(long) FontColour);
-
+  WriteIniInt("Font","BackColour",(long&) TextWindowColour);
   WriteIniBool("Graphics","Dither",GfxDither);
 }
 
