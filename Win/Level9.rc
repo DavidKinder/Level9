@@ -100,7 +100,8 @@ BEGIN
     END
     POPUP "&Options"
     BEGIN
-        MENUITEM "&Select Font...",             CM_FONT
+        MENUITEM "&Font...",                    CM_FONT
+        MENUITEM "&Background Colour...",       CM_BACKCOLOUR
         MENUITEM "&Dither Graphics Lines",      CM_DITHER
     END
     POPUP "&Help"
