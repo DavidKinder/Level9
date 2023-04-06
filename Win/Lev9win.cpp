@@ -1063,12 +1063,19 @@ BOOL MainWindow::SetupWindow()
 #endif
 
   dpi=call_GetDpiForWindow(hWnd);
-  LONG lfHeight=lf.lfHeight;
-  ReadIniInt("Font","Size",lfHeight);
+  LONG lfHeight=0;
+  ReadIniInt("Font","PointSize",lfHeight);
   if (lfHeight>0)
     lf.lfHeight=-MulDiv(lfHeight,dpi,72);
-  else if (lfHeight<0)
-    lf.lfHeight=lfHeight;
+  else
+  {
+    lfHeight=0;
+    ReadIniInt("Font","Size",lfHeight);
+    if (lfHeight>0)
+      lf.lfHeight=-MulDiv(lfHeight,dpi,72);
+    else if (lfHeight<0)
+      lf.lfHeight=lfHeight;
+  }
 
   // load window pos from ini file (will also be automatically saved on exit)
   GetWindowState();
@@ -1462,7 +1469,7 @@ void MyApp::WriteIni()
   WriteIniInt("General","BackColour",(long)BackColour);
 
   long FontHeight=abs(MulDiv(lf.lfHeight,72,dpi));
-  WriteIniInt("Font","Size",FontHeight);
+  WriteIniInt("Font","PointSize",FontHeight);
   WriteIniString("Font","Name",lf.lfFaceName);
   WriteIniInt("Font","Colour",(long) FontColour);
 
