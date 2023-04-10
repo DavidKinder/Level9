@@ -1,8 +1,8 @@
 /***********************************************************************\
 *
 * Level 9 interpreter
-* Version 5.1
-* Copyright (c) 1996-2011 Glen Summers and contributors.
+* Version 5.2
+* Copyright (c) 1996-2023 Glen Summers and contributors.
 * Contributions from David Kinder, Alan Staniforth, Simon Baldwin,
 * Dieter Baron and Andreas Scherrer.
 *
@@ -361,8 +361,8 @@ int i;
 	if (argc != 2)
 	{
 		cprintf(
-			"Level 9 Interpreter v5.1\r\n"
-			"Copyright (c) 1996-2011 Glen Summers and contributors.\r\n"
+			"Level 9 Interpreter v5.2\r\n"
+			"Copyright (c) 1996-2023 Glen Summers and contributors.\r\n"
 			"Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\r\n"
 			"Dieter Baron and Andreas Scherrer.\r\n"
 			"\r\n"

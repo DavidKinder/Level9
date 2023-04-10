@@ -1,5 +1,5 @@
 /*
- * main.c - GTK+ 2.x interface for Level9 5.1
+ * main.c - GTK+ 2.x interface for Level9 5.2
  * Copyright (c) 2005 Torbjörn Andersson <d91tan@Update.UU.SE>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -176,10 +176,10 @@ void do_about ()
 	"Level 9 Interpreter",
 	
 	"version",
-	"v5.1",
+	"v5.2",
 	
 	"copyright",
-	"Copyright (c) 1996-2011 Glen Summers and contributors.\n"
+	"Copyright (c) 1996-2023 Glen Summers and contributors.\n"
 	"Contributions from David Kinder, Alan Staniforth, Simon Baldwin,\n"
 	"Dieter Baron and Andreas Scherrer.",
 

@@ -1,9 +1,9 @@
 
-        Level 9 Interpreter v5.1
+        Level 9 Interpreter v5.2
         An interpreter for Level 9 games in any format,
         including Spectrum snapshots.
 
-        Copyright (c) 1996-2011 Glen Summers and contributors.
+        Copyright (c) 1996-2023 Glen Summers and contributors.
         Contributions from David Kinder, Alan Staniforth,
         Simon Baldwin, Dieter Baron and Andreas Scherrer.
 
@@ -231,6 +231,9 @@ Alt-H when playing a game to view a list of the available hotkeys.
 
 History
 -------
+
+  v5.2  An array overrun when handling the commands "forwards",
+        "backwards", "left" or "right" has been fixed.
 
   v5.1  The bitmap graphics from the US Macintosh release of Lancelot
         now display correctly.

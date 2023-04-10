@@ -1,5 +1,5 @@
 /*
- * main.h - GTK+ 2.x interface for Level9 5.1
+ * main.h - GTK+ 2.x interface for Level9 5.2
  * Copyright (c) 2005 Torbjörn Andersson <d91tan@Update.UU.SE>
  *
  * This program is free software; you can redistribute it and/or modify

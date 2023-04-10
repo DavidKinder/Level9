@@ -1,6 +1,6 @@
 
 Level 9 interpreter
-Version 5.1
+Version 5.2
 
 This guide is by David Kinder.
 
