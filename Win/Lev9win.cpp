@@ -29,10 +29,6 @@
 #pragma hdrstop
 #include <htmlhelp.h>
 
-#ifndef WM_DPICHANGED
-#define WM_DPICHANGED 0x02E0
-#endif
-
 #include <ctype.h>
 
 #include "level9.h"
@@ -928,7 +924,7 @@ void os_show_bitmap(int pic, int x, int y)
 class AboutDialog : public Dialog
 {
 public:
-  AboutDialog(Object *Parent) : Dialog(Parent,IDD_ABOUT,"AboutDialog") {}
+  AboutDialog(Object *Parent) : Dialog(Parent,IDD_ABOUT,"AboutDialog"), m_DarkMode(false) {}
 
   BOOL SetupWindow()
   {
@@ -949,8 +945,35 @@ public:
     logoRect.bottom = logoRect.top+(int)((logoRect.right-logoRect.left)/aspect);
     MoveWindow(logoWnd,logoRect.left,logoRect.top,
       logoRect.right-logoRect.left,logoRect.bottom-logoRect.top,TRUE);
+
+    m_DarkMode = g_DarkMode;
+    SetDarkTheme(GetDlgItem(hWnd,IDOK));
+    SetDarkTitle(hWnd);
     return TRUE;
   }
+
+  BOOL EV_FIND(TMSG& Msg)
+  {
+    switch (Msg.Msg)
+    {
+    case WM_CTLCOLORDLG:
+    case WM_CTLCOLORSTATIC:
+      return DarkCtlColor(Msg);
+    case WM_SETTINGCHANGE:
+      if (m_DarkMode != g_DarkMode)
+      {
+        m_DarkMode = g_DarkMode;
+        SetDarkTheme(GetDlgItem(hWnd,IDOK));
+        SetDarkTitle(hWnd);
+      }
+      return FALSE;
+    default:
+      return FALSE;
+    }
+  }
+
+private:
+  bool m_DarkMode;
 };
 
 // MainWindow *****************************************
@@ -997,6 +1020,8 @@ public:
   BOOL WMKillFocus(TMSG&);
   BOOL WMTimer(TMSG&);
   BOOL WMDpiChanged(TMSG&);
+  BOOL WMDrawMenuBar(TMSG&);
+  BOOL WMSettingChange(TMSG&);
 
 // window paint request
   void Paint(HDC, BOOL, RECT&);
@@ -1032,6 +1057,11 @@ EV_START(MainWindow)
   EV_MESSAGE(WM_KILLFOCUS, WMKillFocus)
   EV_MESSAGE(WM_TIMER, WMTimer)
   EV_MESSAGE(WM_DPICHANGED, WMDpiChanged)
+  EV_MESSAGE(WM_NCACTIVATE, WMDrawMenuBar)
+  EV_MESSAGE(WM_NCPAINT, WMDrawMenuBar)
+  EV_MESSAGE(WM_UAHDRAWMENU, WMDrawMenuBar)
+  EV_MESSAGE(WM_UAHDRAWMENUITEM, WMDrawMenuBar)
+  EV_MESSAGE(WM_SETTINGCHANGE, WMSettingChange)
 
 EV_END
 
@@ -1076,6 +1106,8 @@ BOOL MainWindow::SetupWindow()
     else if (lfHeight<0)
       lf.lfHeight=lfHeight;
   }
+
+  SetDarkTitle(hWnd);
 
   // load window pos from ini file (will also be automatically saved on exit)
   GetWindowState();
@@ -1394,6 +1426,18 @@ BOOL MainWindow::WMDpiChanged(TMSG& Msg)
   return TRUE;
 }
 
+BOOL MainWindow::WMDrawMenuBar(TMSG& Msg)
+{
+  return DarkDrawMenuBar(Msg,hWnd);
+}
+
+BOOL MainWindow::WMSettingChange(TMSG& Msg)
+{
+  if (SetDarkMode())
+    SetDarkTitle(hWnd);
+  return FALSE;
+}
+
 // App *****************************************
 
 class MyApp : public App
@@ -1435,8 +1479,8 @@ void MyApp::SetDefs()
   lf.lfPitchAndFamily=4;
   strcpy(lf.lfFaceName,ncm.lfMessageFont.lfFaceName);
 
-  FontColour=GetSysColor(COLOR_WINDOWTEXT);
-  BackColour=GetSysColor(COLOR_WINDOW);
+  FontColour=GetSysOrDarkColor(COLOR_WINDOWTEXT);
+  BackColour=GetSysOrDarkColor(COLOR_WINDOW);
 
   GfxDither=0;
 }
@@ -1482,6 +1526,8 @@ MyApp::MyApp(char *Name) : App(Name,Ini)
 #ifdef WIN16
   EnableCtl3d();
 #endif
+
+  SetDarkMode();
 
   // read from ini file
   ReadMru(4);

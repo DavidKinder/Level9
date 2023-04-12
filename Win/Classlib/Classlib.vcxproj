@@ -96,6 +96,7 @@
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="Cacheini.cpp" />
     <ClCompile Include="Colorbtn.cpp" />
+    <ClCompile Include="dark.cpp" />
     <ClCompile Include="Ddewnd.cpp" />
     <ClCompile Include="Dialog.cpp" />
     <ClCompile Include="Dlgwnd.cpp" />
