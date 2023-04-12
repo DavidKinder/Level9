@@ -120,7 +120,7 @@ Paul David Doherty has written "L9Cut", which can extract Level 9 games from
 many different formats. L9Cut can also remove copy protection from Level 9
 games. L9Cut can be downloaded from
 
-  http://www.ifarchive.org/indexes/if-archiveXlevel9Xtools.html
+  https://www.ifarchive.org/indexes/if-archive/level9/tools/
 
 This program has been tested on files obtained from releases for the Amiga,
 Atari ST, IBM PC, C-64, Spectrum, Atari 800, BBC, Amstrad CPC, Apple 2,
@@ -298,7 +298,7 @@ Paul David Doherty. Testing of the fix for Lancelot in version 4.1 was
 performed by Guido Mureddu.
 
 If you have any comments or queries, contact David Kinder.
-Web: http://www.davidkinder.co.uk/
+Web: https://www.davidkinder.co.uk/
 Email: davidk@davidkinder.co.uk
 
 
@@ -309,9 +309,9 @@ If you have access to the Internet and are interested in text adventures,
 then you can find all sorts of programs and information at The Interactive
 Fiction Archive:
 
-  http://www.ifarchive.org/
+  https://www.ifarchive.org/
 
 The latest version of this program can always be found on this site, in
 
-  http://www.ifarchive.org/indexes/if-archiveXlevel9XinterpretersXlevel9.html
+  https://www.ifarchive.org/indexes/if-archive/level9/interpreters/level9/
 
