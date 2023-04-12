@@ -28,11 +28,6 @@
 #include <mywin.h>
 #pragma hdrstop
 #include <htmlhelp.h>
-
-#ifndef WM_DPICHANGED
-#define WM_DPICHANGED 0x02E0
-#endif
-
 #include <ctype.h>
 
 #include "level9.h"

@@ -1,5 +1,9 @@
 // dpi.h
 
+#ifndef WM_DPICHANGED
+#define WM_DPICHANGED 0x02E0
+#endif
+
 UINT call_GetDpiForWindow(HWND hWnd);
 UINT call_GetDpiForSystem(void);
 VOID* call_SetThreadDpiAwarenessContext(VOID* dpiContext);
