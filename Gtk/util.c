@@ -56,13 +56,18 @@ L9BOOL os_get_game_file(char *NewName, int Size)
 
 void os_set_filenumber(char *NewName, int Size, int n)
 {
+    char *fname;
     int i;
 
+    fname = strrchr (NewName, '/');
+    if (fname == NULL)
+	fname = NewName;
+
     /* Assume that the number is one digit only. */
-    for (i = strlen(NewName) - 1; i >= 0; i--) {
-	if (isdigit(NewName[i])) {
-	    NewName[i] = n + '0';
-	    break;
+    for (i = strlen(fname) - 1; i >= 0; i--) {
+	if (isdigit(fname[i])) {
+	    fname[i] = n + '0';
+	    return;
 	}
     }
 }

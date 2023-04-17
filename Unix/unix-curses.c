@@ -740,7 +740,7 @@ void os_set_filenumber(char *NewName,int Size,int n)
     if (isdigit (leafname [i]))
     {
       leafname [i] = '0' + n;
-      break;
+      return;
     }
   }
 
