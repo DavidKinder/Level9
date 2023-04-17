@@ -51,20 +51,11 @@ all:glklevel9 level9-$(VERSION).so
 level9.h level9.c bitmap.c: ../level9.h ../level9.c ../bitmap.c
 	cp ../$@ $@
 
-# Level9.c uses the non-ANSI str[n]icmp functions, so here we #define them
-# to be functions provided by the Glk interface module (and, in a very
-# underhand way, by defining NEED_STRICMP_PROTOTYPE here, the str[n]icmp
-# prototypes from level9.h are macro-redefined into gln_str[n]casecmp, so
-# everything looks fine and dandy...).
 level9.o: level9.c level9.h
-	$(CC) $(CFLAGS) 						\
-		-DNEED_STRICMP_PROTOTYPE -Dstricmp=gln_strcasecmp	\
-		-Dstrnicmp=gln_strncasecmp -c -o $@ $<
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 bitmap.o: bitmap.c level9.h
-	$(CC) $(CFLAGS) 						\
-		-DNEED_STRICMP_PROTOTYPE -Dstricmp=gln_strcasecmp	\
-		-Dstrnicmp=gln_strncasecmp -c -o $@ $<
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 # Build the standalone Level9 interpreter.
 # See glk.c comments for details on the -Wl,--wrap... options.

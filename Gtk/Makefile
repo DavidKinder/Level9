@@ -48,15 +48,10 @@ gtklevel9: $(OBJS)
 clean:
 	$(RM) gtklevel9 *.o *~
 
-# The main Level 9 interpreter needs some special hackery. It uses stricmp()
-# and strnicmp(), which are not portable. Use the same dirty trick as the Glk
-# port to fix that. In addition, GCC 4 complains that it "will break strict-
-# aliasing rules", so turn off that kind of optimizations.
-
 level9.o:
-	$(CC) -c $(EMU_CFLAGS) -fno-strict-aliasing -DNEED_STRICMP_PROTOTYPE -Dstricmp=g_ascii_strcasecmp -Dstrnicmp=g_ascii_strncasecmp $(LEVEL9)/level9.c
+	$(CC) -c $(EMU_CFLAGS) $(LEVEL9)/level9.c
 bitmap.o:
-	$(CC) -c $(EMU_CFLAGS) -fno-strict-aliasing $(LEVEL9)/bitmap.c
+	$(CC) -c $(EMU_CFLAGS) $(LEVEL9)/bitmap.c
 
 main.o: main.c main.h version.h config.h gui.h text.h graphics.h util.h
 config.o: config.c config.h gui.h text.h graphics.h

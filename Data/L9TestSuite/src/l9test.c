@@ -68,7 +68,7 @@ L9BOOL os_input(char *ibuff, int size)
 
 char os_readchar(int millis)
 {
-	if (strnicmp("press space",TextBuffer,11) == 0)
+	if (strncasecmp("press space",TextBuffer,11) == 0)
 		return ' ';
 	return 0;
 }

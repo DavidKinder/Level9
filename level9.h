@@ -132,11 +132,6 @@ L9BOOL RunGraphics(void);
 BitmapType DetectBitmaps(char* dir);
 Bitmap* DecodeBitmap(char* dir, BitmapType type, int num, int x, int y);
 
-#ifdef NEED_STRICMP_PROTOTYPE
-int stricmp(const char* str1, const char* str2);
-int strnicmp(const char* str1, const char* str2, size_t n);
-#endif
-
 #ifdef __cplusplus
 }
 #endif

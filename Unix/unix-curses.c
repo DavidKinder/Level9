@@ -28,7 +28,6 @@
  *   Os_stoplist()
  *   NULL second arg on LoadGame
  *   Stub graphics functions
- *   Strnicmp definition
  */
 
 /*
@@ -68,16 +67,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-/*
- * Some C libraries define these, so remove any definition
- */
-#ifdef stricmp
-#undef stricmp
-#endif
-#ifdef strnicmp
-#undef strnicmp
-#endif
 
 /*
  * Include definitions and prototypes for the interpreter
@@ -1037,50 +1026,6 @@ void printline (void)
 }
 
 
-
-
-/*
- * jim -- being Linux, we must provide stricmp
- */
-int stricmp (const char *s1, const char *s2)
-{
-
-  int diff;
-
-  while ((*s1 != '\0') || (*s2 != '\0'))
-  {
-    diff = toupper (*s1) - toupper (*s2);
-    if (diff != 0)
-    {
-      return diff;
-    }
-    ++s1;
-    ++s2;
-  }
-
-  return 0;
-
-}
-int strnicmp (const char *s1, const char *s2, int n)
-{
-
-  int diff, count = 0;
-
-  while ((*s1 != '\0') || (*s2 != '\0') || count < n)
-  {
-    diff = toupper (*s1) - toupper (*s2);
-    if (diff != 0)
-    {
-      return diff;
-    }
-    ++s1;
-    ++s2;
-    ++count;
-  }
-
-  return 0;
-
-}
 
 /*
  * Stub graphics routines.
