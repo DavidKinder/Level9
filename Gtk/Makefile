@@ -31,7 +31,7 @@ CC = gcc
 
 OBJS = level9.o bitmap.o main.o config.o gui.o text.o graphics.o util.o
 
-DEF_CFLAGS = -Wall `pkg-config --cflags gtk+-2.0` -I$(LEVEL9)
+DEF_CFLAGS = `pkg-config --cflags gtk+-2.0` -I$(LEVEL9)
 EMU_CFLAGS = -DBITMAP_DECODER $(DEF_CFLAGS) $(OPTIMIZE_CFLAGS) $(EXTRA_CFLAGS)
 
 CFLAGS = $(EMU_CFLAGS) -ansi
