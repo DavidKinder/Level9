@@ -22,6 +22,7 @@
 * 
 \***********************************************************************/
 
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 #include "level9.h"
