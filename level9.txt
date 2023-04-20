@@ -234,6 +234,10 @@ History
 
   v5.2  An array overrun when handling the commands "forwards",
         "backwards", "left" or "right" has been fixed.
+        Bitmap files will be found even if the name is not exactly
+        the same case as expected on case sensitive file systems, e.g.
+        "1.PIC" will be found on Unix, when before "1.pic" was
+        required.
 
   v5.1  The bitmap graphics from the US Macintosh release of Lancelot
         now display correctly.

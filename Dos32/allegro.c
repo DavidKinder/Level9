@@ -1749,3 +1749,13 @@ void os_show_bitmap(int picnum, int x, int y)
   }
 }
 
+L9BOOL os_find_file(char* NewName)
+{
+  FILE* f = fopen(NewName,"rb");
+  if (f != NULL)
+  {
+    fclose(f);
+    return TRUE;
+  }
+  return FALSE;
+}

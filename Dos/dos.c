@@ -350,6 +350,11 @@ char name[256];
 	return fopen(name, "rt");
 }
 
+L9BOOL os_find_file(char* NewName)
+{
+  return FALSE;
+}
+
 int main(int argc, char **argv)
 {
 int i;

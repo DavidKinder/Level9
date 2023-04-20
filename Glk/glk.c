@@ -6077,6 +6077,52 @@ os_open_script_file (void) {
 }
 
 
+/*
+ * os_find_file()
+ *
+ */
+L9BOOL os_find_file(char *NewName)
+{
+  char *fname, *p;
+  FILE *f;
+
+  f = fopen(NewName, "rb");
+  if (f != NULL)
+    {
+      fclose(f);
+      return TRUE;
+    }
+
+  fname = strrchr(NewName, '/');
+  if (fname != NULL)
+    ++fname;
+  else
+    fname = NewName;
+
+  for (p = fname; *p != '\0'; ++p)
+    *p = toupper(*p);
+
+  f = fopen(NewName, "rb");
+  if (f != NULL)
+    {
+      fclose(f);
+      return TRUE;
+    }
+
+  for (p = fname; *p != '\0'; ++p)
+    *p = tolower(*p);
+
+  f = fopen(NewName, "rb");
+  if (f != NULL)
+    {
+      fclose(f);
+      return TRUE;
+    }
+
+  return FALSE;
+}
+
+
 /*---------------------------------------------------------------------*/
 /*  Functions intercepted by link-time wrappers                        */
 /*---------------------------------------------------------------------*/

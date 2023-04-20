@@ -78,6 +78,7 @@ extern FILE* scriptfile;
  * You might have to change this if not using ncurses
  */
 #include <ncurses/curses.h>
+#include <ncurses/term.h>
 
 
 #define CTRL_A '\x01'
@@ -1054,3 +1055,7 @@ void os_show_bitmap(int pic, int x, int y)
 {
 }
 
+L9BOOL os_find_file(char* NewName)
+{
+  return FALSE;
+}

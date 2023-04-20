@@ -118,6 +118,7 @@ void os_drawline(int x1, int y1, int x2, int y2, int colour1, int colour2);
 void os_fill(int x, int y, int colour1, int colour2);
 void os_show_bitmap(int pic, int x, int y);
 FILE* os_open_script_file(void);
+L9BOOL os_find_file(char* NewName);
 
 /* routines provided by level9 interpreter */
 L9BOOL LoadGame(char* filename, char* picname);

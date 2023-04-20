@@ -261,6 +261,17 @@ char *nl;
 	return fopen(name, "rt");
 }
 
+L9BOOL os_find_file(char* NewName)
+{
+	FILE* f = fopen(NewName,"rb");
+	if (f != NULL)
+	{
+		fclose(f);
+		return TRUE;
+	}
+	return FALSE;
+}
+
 int main(int argc, char **argv)
 {
 	printf("Level 9 Interpreter\n\n");
