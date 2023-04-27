@@ -31,7 +31,7 @@ VERSION		= 5.2
 
 # Common definitions.
 CC		=  gcc
-WARNINGS	= -Wall # -W
+WARNINGS	= # -W -Wall
 DEBUG		=
 OPTIMIZE	= -O2 -DBITMAP_DECODER
 
@@ -43,7 +43,7 @@ CFLAGS	= -fPIC -ansi -I$(GLKINCDIR) $(WARNINGS) $(DEBUG) $(OPTIMIZE)
 LDFLAGS	= $(DEBUG)
 
 OBJS	= level9.o bitmap.o glk.o
-OS_LIB	= $(LINKLIBS) -lm -L$(GLKLIBDIR) $(GLKLIB)
+OS_LIB	= -L$(GLKLIBDIR) $(GLKLIB) $(LINKLIBS) -lm
 
 all:glklevel9 level9-$(VERSION).so
 
