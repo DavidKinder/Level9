@@ -19,7 +19,7 @@
 * You should have received a copy of the GNU General Public License
 * along with this program; if not, write to the Free Software
 * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111, USA.
-*
+* 
 \***********************************************************************/
 
 #include <ctype.h>
@@ -33,6 +33,9 @@ int TextBufferPtr = 0;
 
 int Column = 0;
 #define SCREENWIDTH 76
+
+char TestScript[MAX_PATH];
+int PlayScript = 1;
 
 void os_printchar(char c)
 {
@@ -52,52 +55,22 @@ void os_printchar(char c)
 
 L9BOOL os_input(char *ibuff, int size)
 {
-char *nl;
-
 	os_flush();
-	fgets(ibuff, size, stdin);
-	nl = strchr(ibuff, '\n');
-	if (nl)
-		*nl = 0;
+	if (PlayScript)
+	{
+		strcpy(ibuff,"#play");
+		PlayScript = 0;
+	}
+	else
+		strcpy(ibuff,"#quit");
 	return TRUE;
 }
 
 char os_readchar(int millis)
 {
-	static int count = 0;
-	char c;
-
-	os_flush();
-	if (millis == 0)
-		return 0;
-
-	/* Some of the Level 9 games expect to be able to wait for
-	   a character for a short while as a way of pausing, and
-	   expect 0 to be returned, while the multiple-choice games
-	   (such as The Archers) expect 'proper' keys from this
-	   routine.
-
-	   To get round this, we return 0 for the first 1024 calls,
-	   and 'proper' keys thereafter. Since The Archers and
-	   similar games ignore the returned zeros, this works quite
-	   well. A 'correct' port would solve this properly by
-	   implementing a timed wait for a key, but this is not
-	   possible using only C stdio-functions.
-	*/
-	if (++count < 1024)
-		return 0;
-	count = 0;
-
-	c = getc(stdin); /* will require enter key as well */
-	if (c != '\n')
-	{
-		while (getc(stdin) != '\n')
-		{
-			/* unbuffer input until enter key */
-		}
-	}
-
-	return c;
+	if (strncasecmp("press space",TextBuffer,11) == 0)
+		return ' ';
+	return 0;
 }
 
 L9BOOL os_stoplist(void)
@@ -111,7 +84,6 @@ int ptr, space, lastspace, searching;
 
 	if (TextBufferPtr < 1)
 		return;
-
 	*(TextBuffer+TextBufferPtr) = ' ';
 	ptr = 0;
 	while (TextBufferPtr + Column > SCREENWIDTH)
@@ -121,12 +93,11 @@ int ptr, space, lastspace, searching;
 		searching = 1;
 		while (searching)
 		{
-			while (TextBuffer[space] != ' ')
-				space++;
+			while (TextBuffer[space] != ' ') space++;
 			if (space - ptr + Column > SCREENWIDTH)
 			{
 				space = lastspace;
-				printf("%.*s\n", space - ptr, TextBuffer + ptr);
+				printf("%.*s\n",space - ptr,TextBuffer + ptr);
 				Column = 0;
 				space++;
 				if (TextBuffer[space] == ' ')
@@ -142,7 +113,7 @@ int ptr, space, lastspace, searching;
 	}
 	if (TextBufferPtr > 0)
 	{
-		printf("%.*s", TextBufferPtr, TextBuffer + ptr);
+		printf("%.*s",TextBufferPtr,TextBuffer + ptr);
 		Column += TextBufferPtr;
 	}
 	TextBufferPtr = 0;
@@ -150,55 +121,17 @@ int ptr, space, lastspace, searching;
 
 L9BOOL os_save_file(L9BYTE * Ptr, int Bytes)
 {
-char name[256];
-char *nl;
-FILE *f;
-
-	os_flush();
-	printf("Save file: ");
-	fgets(name, 256, stdin);
-	nl = strchr(name, '\n');
-	if (nl)
-		*nl = 0;
-	f = fopen(name, "wb");
-	if (!f)
-		return FALSE;
-	fwrite(Ptr, 1, Bytes, f);
-	fclose(f);
-	return TRUE;
+	return FALSE;
 }
 
 L9BOOL os_load_file(L9BYTE *Ptr,int *Bytes,int Max)
 {
-char name[256];
-char *nl;
-FILE *f;
-
-	os_flush();
-	printf("Load file: ");
-	fgets(name, 256, stdin);
-	nl = strchr(name, '\n');
-	if (nl)
-		*nl = 0;
-	f = fopen(name, "rb");
-	if (!f)
-		return FALSE;
-	*Bytes = fread(Ptr, 1, Max, f);
-	fclose(f);
-	return TRUE;
+	return FALSE;
 }
 
 L9BOOL os_get_game_file(char *NewName,int Size)
 {
-char *nl;
-
-	os_flush();
-	printf("Load next game: ");
-	fgets(NewName, Size, stdin);
-	nl = strchr(NewName, '\n');
-	if (nl)
-		*nl = 0;
-	return TRUE;
+	return FALSE;
 }
 
 void os_set_filenumber(char *NewName,int Size,int n)
@@ -247,44 +180,18 @@ void os_show_bitmap(int pic, int x, int y)
 {
 }
 
-FILE* os_open_script_file(void)
+FILE *os_open_script_file()
 {
-char name[256];
-char *nl;
-
-	os_flush();
-	printf("Script file: ");
-	fgets(name, 256, stdin);
-	nl = strchr(name, '\n');
-	if (nl)
-		*nl = 0;
-	return fopen(name, "rt");
-}
-
-L9BOOL os_find_file(char* NewName)
-{
-	FILE* f = fopen(NewName,"rb");
-	if (f != NULL)
-	{
-		fclose(f);
-		return TRUE;
-	}
-	return FALSE;
+	return fopen(TestScript,"r");
 }
 
 int main(int argc, char **argv)
 {
-	printf("Level 9 Interpreter\n\n");
-	if (argc != 2)
-	{
-		printf("Use: %s <gamefile>\n",argv[0]);
+	if (argc != 3)
 		return 0;
-	}
 	if (!LoadGame(argv[1],NULL))
-	{
-		printf("Error: Unable to open game file\n");
 		return 0;
-	}
+	strncpy(TestScript,argv[2],MAX_PATH-1);
 	while (RunGame());
 	StopGame();
 	FreeMemory();

@@ -28,7 +28,6 @@
 #include <mywin.h>
 #pragma hdrstop
 #include <htmlhelp.h>
-
 #include <ctype.h>
 
 #include "level9.h"
@@ -619,6 +618,11 @@ FILE* os_open_script_file(void)
     return fopen(LastScriptFile,"rt");
   }
   return FALSE;
+}
+
+L9BOOL os_find_file(char* NewName)
+{
+  return (GetFileAttributes(NewName) != INVALID_FILE_ATTRIBUTES) ? TRUE : FALSE;
 }
 
 typedef struct tagBITMAPINFO32

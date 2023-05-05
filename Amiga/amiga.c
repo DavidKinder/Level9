@@ -519,6 +519,11 @@ void os_show_bitmap(int pic, int x, int y)
 {
 }
 
+L9BOOL os_find_file(char* NewName)
+{
+  return FALSE;
+}
+
 int main (int argc, char **argv)
 {
   amiga_init ("");

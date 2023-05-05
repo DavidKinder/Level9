@@ -11,7 +11,7 @@
 
 Dialog *D;
 
-LRESULT PASCAL DialogHandler (HWND hDlg, UINT uMessage, WPARAM wParam, LPARAM lParam);
+BOOL PASCAL DialogHandler (HWND hDlg, UINT uMessage, WPARAM wParam, LPARAM lParam);
 
 Dialog::Dialog(Object *Parent ,int Id, char *Sect) : Object(Parent)
 {
@@ -184,7 +184,7 @@ BOOL Dialog::ChildMessage(HWND hw,TMSG &Msg)
 
 // if breakpoint is set in this code then dialogs lose their modalness ?????
 
-LRESULT PASCAL DialogHandler (HWND hDlg, UINT uMessage, WPARAM wParam, LPARAM lParam)
+BOOL PASCAL DialogHandler (HWND hDlg, UINT uMessage, WPARAM wParam, LPARAM lParam)
 {
 //allow user to grab any message
 	Dialog *Dlg;

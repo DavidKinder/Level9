@@ -2011,6 +2011,32 @@ void save(void)
 	else printstring("\rUnable to save game.\r");
 }
 
+int StrCompare(const char *s1, const char *s2)
+{
+	int i = 0;
+
+	while (1)
+	{
+		i = toupper(*s1) - toupper(*s2);
+		if ((i != 0) || (*s1 == '\0')) return i;
+		++s1; ++s2;
+	}
+	return i;
+}
+
+int StrCompareN(const char *s1, const char *s2, int n)
+{
+	int i = 0;
+
+	while (n-- > 0)
+	{
+		i = toupper(*s1) - toupper(*s2);
+		if ((i != 0) || (*s1 == '\0')) return i;
+		++s1; ++s2;
+	}
+	return i;
+}
+
 L9BOOL CheckFile(GameState *gs)
 {
 	L9UINT16 checksum;
@@ -2022,7 +2048,7 @@ L9BOOL CheckFile(GameState *gs)
 	gs->checksum=0;
 	for (i=0;i<sizeof(GameState);i++) checksum-=*((L9BYTE*) gs+i);
 	if (checksum) return FALSE;
-	if (stricmp(gs->filename,LastGame))
+	if (StrCompare(gs->filename,LastGame))
 	{
 		printstring("\rWarning: game path name does not match, you may be about to load this position file into the wrong story file.\r");
 		printstring("Are you sure you want to restore? (Y/N)");
@@ -2165,7 +2191,7 @@ L9BOOL scriptinput(char* ibuff, int size)
 					*p = '\0';
 					break;
 				case '#':
-					if ((p==ibuff) && (strnicmp(p,"#seed ",6)==0))
+					if ((p==ibuff) && (StrCompareN(p,"#seed ",6)==0))
 						p++;
 					else
 						*p = '\0';
@@ -2404,24 +2430,24 @@ L9BOOL GetWordV3(char *buff,int Word)
 
 L9BOOL CheckHash(void)
 {
-	if (stricmp(ibuff,"#cheat")==0) StartCheat();
-	else if (stricmp(ibuff,"#save")==0)
+	if (StrCompare(ibuff,"#cheat")==0) StartCheat();
+	else if (StrCompare(ibuff,"#save")==0)
 	{
 		save();
 		return TRUE;
 	}
-	else if (stricmp(ibuff,"#restore")==0)
+	else if (StrCompare(ibuff,"#restore")==0)
 	{
 		restore();
 		return TRUE;
 	}
-	else if (stricmp(ibuff,"#quit")==0)
+	else if (StrCompare(ibuff,"#quit")==0)
 	{
 		StopGame();
 		printstring("\rGame Terminated\r");
 		return TRUE;
 	}
-	else if (stricmp(ibuff,"#dictionary")==0)
+	else if (StrCompare(ibuff,"#dictionary")==0)
 	{
 		CheatWord=0;
 		printstring("\r");
@@ -2433,7 +2459,7 @@ L9BOOL CheckHash(void)
 		printstring("\r");
 		return TRUE;
 	}
-	else if (strnicmp(ibuff,"#picture ",9)==0)
+	else if (StrCompareN(ibuff,"#picture ",9)==0)
 	{
 		int pic = 0;
 		if (sscanf(ibuff+9,"%d",&pic) == 1)
@@ -2448,7 +2474,7 @@ L9BOOL CheckHash(void)
 		printchar('\r');
 		return TRUE;
 	}
-	else if (strnicmp(ibuff,"#seed ",6)==0)
+	else if (StrCompareN(ibuff,"#seed ",6)==0)
 	{
 		int seed = 0;
 		if (sscanf(ibuff+6,"%d",&seed) == 1)
@@ -2457,7 +2483,7 @@ L9BOOL CheckHash(void)
 		printchar('\r');
 		return TRUE;
 	}
-	else if (stricmp(ibuff,"#play")==0)
+	else if (StrCompare(ibuff,"#play")==0)
 	{
 		playback();
 		return TRUE;
