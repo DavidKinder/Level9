@@ -1438,11 +1438,21 @@ BOOL MainWindow::WMDrawMenuBar(TMSG& Msg)
 
 BOOL MainWindow::WMSettingChange(TMSG& Msg)
 {
+  bool UpdateFont = (FontColour == GetSysOrDarkColor(COLOR_WINDOWTEXT));
+  bool UpdateBack = (BackColour == GetSysOrDarkColor(COLOR_WINDOW));
+
   if (SetDarkMode(false))
   {
     SetDarkTitle(hWnd);
     if (m_dialog)
       m_dialog->SetDarkMode();
+    if (UpdateFont)
+      FontColour = GetSysOrDarkColor(COLOR_WINDOWTEXT);
+    if (UpdateBack)
+    {
+      BackColour = GetSysOrDarkColor(COLOR_WINDOW);
+      SetBkColor(BackColour);
+    }
   }
   return FALSE;
 }
