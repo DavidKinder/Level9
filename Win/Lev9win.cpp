@@ -928,7 +928,7 @@ void os_show_bitmap(int pic, int x, int y)
 class AboutDialog : public Dialog
 {
 public:
-  AboutDialog(Object *Parent) : Dialog(Parent,IDD_ABOUT,"AboutDialog"), m_DarkMode(false) {}
+  AboutDialog(Object *Parent) : Dialog(Parent,IDD_ABOUT,"AboutDialog") {}
 
   BOOL SetupWindow()
   {
@@ -950,10 +950,14 @@ public:
     MoveWindow(logoWnd,logoRect.left,logoRect.top,
       logoRect.right-logoRect.left,logoRect.bottom-logoRect.top,TRUE);
 
-    m_DarkMode = g_DarkMode;
+    SetDarkMode();
+    return TRUE;
+  }
+
+  void SetDarkMode(void)
+  {
     SetDarkTheme(GetDlgItem(hWnd,IDOK));
     SetDarkTitle(hWnd);
-    return TRUE;
   }
 
   BOOL EV_FIND(TMSG& Msg)
@@ -963,21 +967,10 @@ public:
     case WM_CTLCOLORDLG:
     case WM_CTLCOLORSTATIC:
       return DarkCtlColor(Msg);
-    case WM_SETTINGCHANGE:
-      if (m_DarkMode != g_DarkMode)
-      {
-        m_DarkMode = g_DarkMode;
-        SetDarkTheme(GetDlgItem(hWnd,IDOK));
-        SetDarkTitle(hWnd);
-      }
-      return FALSE;
     default:
       return FALSE;
     }
   }
-
-private:
-  bool m_DarkMode;
 };
 
 // MainWindow *****************************************
@@ -1032,6 +1025,9 @@ public:
 
 // enable message response
   HASH_EV_ENABLE(MainWindow)
+
+private:
+  AboutDialog* m_dialog;
 };
 
 // define response functions
@@ -1082,6 +1078,8 @@ MainWindow::MainWindow(Object *Parent,char *Title) : HashWindow(Parent,Title,"Ma
 #endif
 
   Flags|=W_OVERSCROLL;
+
+  m_dialog=NULL;
 }
 
 // this is called to setup the window
@@ -1287,7 +1285,10 @@ void MainWindow::Paint(HDC, BOOL, RECT&)
 
 void MainWindow::CmAbout()
 {
-  AboutDialog(this).ExecuteWithFont();
+  AboutDialog dialog(this);
+  m_dialog = &dialog;
+  dialog.ExecuteWithFont();
+  m_dialog = NULL;
 }
 
 void MainWindow::CmPaste()
@@ -1438,7 +1439,11 @@ BOOL MainWindow::WMDrawMenuBar(TMSG& Msg)
 BOOL MainWindow::WMSettingChange(TMSG& Msg)
 {
   if (SetDarkMode(false))
+  {
     SetDarkTitle(hWnd);
+    if (m_dialog)
+      m_dialog->SetDarkMode();
+  }
   return FALSE;
 }
 
