@@ -10,7 +10,7 @@
 
 extern bool g_DarkMode;
 
-bool SetDarkMode(void);
+bool SetDarkMode(bool init);
 void SetDarkTitle(HWND hWnd);
 void SetDarkTheme(HWND hWnd);
 

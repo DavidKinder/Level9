@@ -53,6 +53,20 @@ static void call_SetAppDarkMode(int mode)
   }
 }
 
+static void call_FlushMenuThemes(void)
+{
+  if (CheckWindowsVersion(10,0,18362)) // Windows 10 build 1903 "19H1"
+  {
+    typedef void(__stdcall *PFNFLUSHMENUTHEMES)(void);
+
+    HMODULE uxtheme = GetUxtheme();
+    PFNFLUSHMENUTHEMES flushMenuThemes = (PFNFLUSHMENUTHEMES)
+      GetProcAddress(uxtheme,MAKEINTRESOURCE(136));
+    if (flushMenuThemes != NULL)
+      (*flushMenuThemes)();
+  }
+}
+
 static HRESULT call_SetWindowTheme(HWND hWnd, LPCWSTR pszName, LPCWSTR pszList)
 {
   typedef HRESULT(__stdcall *PFNSETWINDOWTHEME)(HWND,LPCWSTR,LPCWSTR);
@@ -105,7 +119,7 @@ static void SolidRect(HDC hdc, RECT* r, COLORREF c)
   ExtTextOut(hdc,0,0,ETO_OPAQUE,r,NULL,0,NULL);
 }
 
-bool SetDarkMode(void)
+bool SetDarkMode(bool init)
 {
   bool previous = g_DarkMode;
   g_DarkMode = false;
@@ -142,12 +156,18 @@ bool SetDarkMode(void)
     RegQueryValueEx(personalize,"AppsUseLightTheme",NULL,NULL,(LPBYTE)&light,&len);
     RegCloseKey(personalize);
   }
-  if (light != 0)
-    return (g_DarkMode != previous);
+  if (light == 0)
+    g_DarkMode = true;
 
-  // Turn on dark mode
-  g_DarkMode = true;
-  call_SetAppDarkMode(1);
+  // Turn dark mode on or off
+  if (!init)
+  {
+    call_SetAppDarkMode(g_DarkMode ? 2 : 3);
+    call_FlushMenuThemes();
+  }
+  else if (light == 0)
+    call_SetAppDarkMode(1);
+
   return (g_DarkMode != previous);
 }
 

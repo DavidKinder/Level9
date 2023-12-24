@@ -1437,7 +1437,7 @@ BOOL MainWindow::WMDrawMenuBar(TMSG& Msg)
 
 BOOL MainWindow::WMSettingChange(TMSG& Msg)
 {
-  if (SetDarkMode())
+  if (SetDarkMode(false))
     SetDarkTitle(hWnd);
   return FALSE;
 }
@@ -1531,7 +1531,7 @@ MyApp::MyApp(char *Name) : App(Name,Ini)
   EnableCtl3d();
 #endif
 
-  SetDarkMode();
+  SetDarkMode(true);
 
   // read from ini file
   ReadMru(4);
