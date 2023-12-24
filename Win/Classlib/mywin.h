@@ -138,4 +138,5 @@ public:\
 
 #include <printer.h>
 
+#include <dark.h>
 #include <dpi.h>
