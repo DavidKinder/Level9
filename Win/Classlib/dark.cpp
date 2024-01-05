@@ -184,7 +184,7 @@ void SetDarkTheme(HWND hWnd)
   call_SetWindowTheme(hWnd,theme,NULL);
 }
 
-BOOL DarkCtlColor(TMSG& Msg)
+BOOL DarkCtlColour(TMSG& Msg)
 {
   if (g_DarkMode)
   {
@@ -288,7 +288,7 @@ BOOL DarkDrawMenuBar(TMSG& Msg, HWND hWnd)
   return FALSE;
 }
 
-DWORD GetSysOrDarkColor(int nIndex)
+DWORD GetSysOrDarkColour(int nIndex)
 {
   if (g_DarkMode)
   {
@@ -301,4 +301,28 @@ DWORD GetSysOrDarkColor(int nIndex)
     }
   }
   return GetSysColor(nIndex);
+}
+
+DWORD UpdateColour(int nIndex, DWORD colour, bool wasDark)
+{
+  if (g_DarkMode == wasDark)
+    return colour;
+
+  DWORD defaultColour = GetSysColor(nIndex);
+  if (wasDark)
+  {
+    switch (nIndex)
+    {
+    case COLOR_WINDOW:
+      defaultColour = DarkBackColour;
+      break;
+    case COLOR_WINDOWTEXT:
+      defaultColour = DarkTextColour;
+      break;
+    }
+  }
+
+  if (colour == defaultColour)
+    return GetSysOrDarkColour(nIndex);
+  return colour;
 }

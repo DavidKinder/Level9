@@ -101,6 +101,7 @@ BEGIN
     POPUP "&Options"
     BEGIN
         MENUITEM "&Font...",                    CM_FONT
+        MENUITEM "&Text Colour...",             CM_TEXTCOLOUR
         MENUITEM "&Background Colour...",       CM_BACKCOLOUR
         MENUITEM "&Dither Graphics Lines",      CM_DITHER
     END

@@ -14,6 +14,7 @@ bool SetDarkMode(bool init);
 void SetDarkTitle(HWND hWnd);
 void SetDarkTheme(HWND hWnd);
 
-BOOL DarkCtlColor(TMSG& Msg);
+BOOL DarkCtlColour(TMSG& Msg);
 BOOL DarkDrawMenuBar(TMSG& Msg, HWND hWnd);
-DWORD GetSysOrDarkColor(int nIndex);
+DWORD GetSysOrDarkColour(int nIndex);
+DWORD UpdateColour(int nIndex, DWORD colour, bool wasDark);

@@ -15,17 +15,18 @@
 #define CM_DICTIONARY                   203
 #define CM_EXIT                         204
 #define CM_FONT                         205
-#define CM_BACKCOLOUR                   206
-#define CM_HELPCONTENTS                 207
-#define CM_ABOUT                        208
-#define CM_PASTE                        209
-#define CM_DITHER                       210
+#define CM_TEXTCOLOUR                   206
+#define CM_BACKCOLOUR                   207
+#define CM_HELPCONTENTS                 208
+#define CM_ABOUT                        209
+#define CM_PASTE                        210
+#define CM_DITHER                       211
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        211
+#define _APS_NEXT_RESOURCE_VALUE        212
 #define _APS_NEXT_COMMAND_VALUE         40000
 #define _APS_NEXT_CONTROL_VALUE         1000
 #define _APS_NEXT_SYMED_VALUE           106

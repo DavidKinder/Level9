@@ -966,7 +966,7 @@ public:
     {
     case WM_CTLCOLORDLG:
     case WM_CTLCOLORSTATIC:
-      return DarkCtlColor(Msg);
+      return DarkCtlColour(Msg);
     default:
       return FALSE;
     }
@@ -992,6 +992,7 @@ public:
   void CmExit();
   void CmOpen();
   void CmSelectFont();
+  void CmSelectTextColour();
   void CmSelectBackColour();
   void CmToggleDither();
   void CmRestore() { HashCommand("#restore"); }
@@ -1038,6 +1039,7 @@ EV_START(MainWindow)
   EV_COMMAND(CM_EXIT, CmExit)
   EV_COMMAND(CM_OPEN, CmOpen)
   EV_COMMAND(CM_FONT, CmSelectFont)
+  EV_COMMAND(CM_TEXTCOLOUR, CmSelectTextColour)
   EV_COMMAND(CM_BACKCOLOUR, CmSelectBackColour)
   EV_COMMAND(CM_DITHER, CmToggleDither)
   EV_COMMAND(CM_FILELOAD, CmRestore)
@@ -1133,8 +1135,7 @@ void MainWindow::CmSelectFont()
   cf.lStructSize=sizeof cf;
   cf.hwndOwner=hWnd;
   cf.lpLogFont=&intLf;
-  cf.rgbColors=FontColour;
-  cf.Flags=CF_INITTOLOGFONTSTRUCT | CF_SCREENFONTS | CF_EFFECTS;
+  cf.Flags=CF_INITTOLOGFONTSTRUCT | CF_SCREENFONTS;
 
   BOOL chosen=FALSE;
   {
@@ -1146,27 +1147,48 @@ void MainWindow::CmSelectFont()
   {
     memcpy(&lf,&intLf,sizeof(LOGFONT));
     lf.lfHeight=-MulDiv(cf.iPointSize,dpi,720);
-    FontColour=cf.rgbColors;
     UpdateFont();
   }
 }
 
-void MainWindow::CmSelectBackColour()
-{
-  static bool initCustom=true;
-  static COLORREF custom[16];
+static bool initCustomColours=true;
+static COLORREF customColours[16];
 
-  if (initCustom)
+void MainWindow::CmSelectTextColour()
+{
+  if (initCustomColours)
   {
     for (int i=0; i<16; i++)
-      custom[i]=RGB(255,255,255);
-    initCustom=false;
+      customColours[i]=RGB(255,255,255);
+    initCustomColours=false;
   }
 
   CHOOSECOLOR cc={0};
   cc.lStructSize=sizeof cc;
   cc.hwndOwner=hWnd;
-  cc.lpCustColors=(LPDWORD)custom;
+  cc.lpCustColors=(LPDWORD)customColours;
+  cc.rgbResult=FontColour;
+  cc.Flags=CC_FULLOPEN | CC_RGBINIT;
+  if (ChooseColor(&cc))
+  {
+    FontColour=cc.rgbResult;
+    InvalidateRect(hWnd,NULL,TRUE);
+  }
+}
+
+void MainWindow::CmSelectBackColour()
+{
+  if (initCustomColours)
+  {
+    for (int i=0; i<16; i++)
+      customColours[i]=RGB(255,255,255);
+    initCustomColours=false;
+  }
+
+  CHOOSECOLOR cc={0};
+  cc.lStructSize=sizeof cc;
+  cc.hwndOwner=hWnd;
+  cc.lpCustColors=(LPDWORD)customColours;
   cc.rgbResult=BackColour;
   cc.Flags=CC_FULLOPEN | CC_RGBINIT;
   if (ChooseColor(&cc))
@@ -1438,8 +1460,8 @@ BOOL MainWindow::WMDrawMenuBar(TMSG& Msg)
 
 BOOL MainWindow::WMSettingChange(TMSG& Msg)
 {
-  bool UpdateFont = (FontColour == GetSysOrDarkColor(COLOR_WINDOWTEXT));
-  bool UpdateBack = (BackColour == GetSysOrDarkColor(COLOR_WINDOW));
+  bool UpdateFont = (FontColour == GetSysOrDarkColour(COLOR_WINDOWTEXT));
+  bool UpdateBack = (BackColour == GetSysOrDarkColour(COLOR_WINDOW));
 
   if (SetDarkMode(false))
   {
@@ -1447,10 +1469,10 @@ BOOL MainWindow::WMSettingChange(TMSG& Msg)
     if (m_dialog)
       m_dialog->SetDarkMode();
     if (UpdateFont)
-      FontColour = GetSysOrDarkColor(COLOR_WINDOWTEXT);
+      FontColour = GetSysOrDarkColour(COLOR_WINDOWTEXT);
     if (UpdateBack)
     {
-      BackColour = GetSysOrDarkColor(COLOR_WINDOW);
+      BackColour = GetSysOrDarkColour(COLOR_WINDOW);
       SetBkColor(BackColour);
     }
   }
@@ -1498,8 +1520,8 @@ void MyApp::SetDefs()
   lf.lfPitchAndFamily=4;
   strcpy(lf.lfFaceName,ncm.lfMessageFont.lfFaceName);
 
-  FontColour=GetSysOrDarkColor(COLOR_WINDOWTEXT);
-  BackColour=GetSysOrDarkColor(COLOR_WINDOW);
+  FontColour=GetSysOrDarkColour(COLOR_WINDOWTEXT);
+  BackColour=GetSysOrDarkColour(COLOR_WINDOW);
 
   GfxDither=0;
 }
@@ -1520,6 +1542,11 @@ void MyApp::ReadIni()
   ReadIniInt("Font","Colour",(long&) FontColour);
 
   ReadIniBool("Graphics","Dither",GfxDither);
+
+  int wasDark = 0;
+  ReadIniInt("General","WasInDarkMode",wasDark);
+  BackColour = UpdateColour(COLOR_WINDOW,BackColour,wasDark != 0);
+  FontColour = UpdateColour(COLOR_WINDOWTEXT,FontColour,wasDark != 0);
 }
 
 void MyApp::WriteIni()
@@ -1530,6 +1557,7 @@ void MyApp::WriteIni()
   WriteIniString("General","LastGameFile",LastGameFile);
   WriteIniInt("General","GameFiltIndex",GameFiltIndex);
   WriteIniInt("General","BackColour",(long)BackColour);
+  WriteIniInt("General","WasInDarkMode",g_DarkMode ? 1 : 0);
 
   long FontHeight=abs(MulDiv(lf.lfHeight,72,dpi));
   WriteIniInt("Font","PointSize",FontHeight);
