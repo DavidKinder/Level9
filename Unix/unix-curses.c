@@ -83,7 +83,7 @@ extern FILE* scriptfile;
 #include <curses.h>
 #endif
 
-#if __has_include (<ncurses/curses.h>)
+#if __has_include (<ncurses/term.h>)
 #include <ncurses/term.h>
 #else 
 #include <term.h>
