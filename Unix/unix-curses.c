@@ -77,8 +77,17 @@ extern FILE* scriptfile;
 /*
  * You might have to change this if not using ncurses
  */
+#if __has_include (<ncurses/curses.h>)
 #include <ncurses/curses.h>
+#else 
+#include <curses.h>
+#endif
+
+#if __has_include (<ncurses/curses.h>)
 #include <ncurses/term.h>
+#else 
+#include <term.h>
+#endif
 
 
 #define CTRL_A '\x01'
