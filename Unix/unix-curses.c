@@ -39,7 +39,9 @@
 /*
  * Set this if you are compiling on a little-endian machine (ARM, Intel)
  */
+#ifndef LITTLEENDIAN
 #define LITTLEENDIAN 1
+#endif
 
 /*
  * Define this as 1 to get the Emacs-type key bindings
@@ -50,13 +52,17 @@
  *  Ctrl-F (forward one character)
  *  Ctrl-K (delete to end of line)
  */
+#ifndef EMACS_TYPE_KEYS
 #define EMACS_TYPE_KEYS 1
+#endif
 
 /*
  * This will make justified text look nicer in some circumstances, but is
  *  slower and a bit of a yucky kludge. Don't use it if not justifying
  */
+#ifndef REPRINT_FLUSHED_TEXT
 #define REPRINT_FLUSHED_TEXT 1
+#endif
 
 
 /*
