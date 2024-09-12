@@ -39,9 +39,7 @@
 /*
  * Set this if you are compiling on a little-endian machine (ARM, Intel)
  */
-#ifndef LITTLEENDIAN
 #define LITTLEENDIAN 1
-#endif
 
 /*
  * Define this as 1 to get the Emacs-type key bindings
@@ -83,8 +81,16 @@ extern FILE* scriptfile;
 /*
  * You might have to change this if not using ncurses
  */
+#ifndef INCLUDE_NCURSES
+#define INCLUDE_NCURSES 1
+#endif
+#if INCLUDE_NCURSES
 #include <ncurses/curses.h>
 #include <ncurses/term.h>
+#else
+#include <curses.h>
+#include <term.h>
+#endif
 
 
 #define CTRL_A '\x01'
