@@ -40,6 +40,8 @@ L9BOOL os_get_game_file(char *NewName, int Size)
     const gchar *filters[] =
 	{
 	    "Level 9 data files (*.dat)", "*.dat",
+	    "Level 9 Gargoyle files (*.l9)", "*.l9",
+	    "Spectrum tapes (*.tzx)", "*.tzx",
 	    "Spectrum snapshots (*.sna)", "*.sna",
 	    NULL
 	};

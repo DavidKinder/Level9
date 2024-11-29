@@ -237,6 +237,8 @@ void start_new_game (gchar *game_filename, gchar *graphics_filename)
     const gchar *filters[] =
 	{
 	    "Level 9 data files (*.dat)", "*.dat",
+	    "Level 9 Gargoyle files (*.l9)", "*.l9",
+	    "Spectrum tapes (*.tzx)", "*.tzx",
 	    "Spectrum snapshots (*.sna)", "*.sna",
 	    NULL
 	};
