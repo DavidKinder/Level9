@@ -542,7 +542,7 @@ void Resize()
   InvalidateRect(hWndMain,NULL,TRUE);
 }
 
-const char Filters[]="Level 9 Game Files (*.dat)\0*.dat\0Level 9 Gargoyle Files (*.l9)\0*.l9\0Spectrum Tapes (*.tzx)\0*.tzx\0Spectrum Snapshots (*.sna)\0*.sna\0All Files (*.*)\0*.*\0\0";
+const char Filters[]="All Supported Files (*.dat;*.l9;*.tzx;*.sna)\0*.dat;*.l9;*.tzx;*.sna\0Level 9 Game Files (*.dat)\0*.dat\0Level 9 Gargoyle Files (*.l9)\0*.l9\0Spectrum Tapes (*.tzx)\0*.tzx\0Spectrum Snapshots (*.sna)\0*.sna\0All Files (*.*)\0*.*\0\0";
 int FiltIndex;
 const char GameFilters[]="Saved game file (*.sav)\0*.sav\0All Files (*.*)\0*.*\0\0";
 FName LastGameFile;
@@ -1499,7 +1499,7 @@ void MyApp::SetDefs()
 {
   // Set application default settings here
   LastFile="";
-  FiltIndex=0;
+  FiltIndex=1;
   LastGameFile="";
   GameFiltIndex=0;
   LastScriptFile="";
