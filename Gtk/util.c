@@ -40,6 +40,7 @@ L9BOOL os_get_game_file(char *NewName, int Size)
     const gchar *filters[] =
 	{
 	    "Level 9 data files (*.dat)", "*.dat",
+	    "Level 9 Gargoyle files (*.l9)", "*.l9",
 	    "Spectrum snapshots (*.sna)", "*.sna",
 	    NULL
 	};
@@ -119,6 +120,16 @@ gchar *file_selector (gboolean save, gchar *name, const gchar *filters[],
     {
 	GtkFileFilter *filter;
 	int i;
+
+	if (!save)
+	{
+	    filter = gtk_file_filter_new ();
+	    gtk_file_filter_set_name (filter, "All supported files");
+	    for (i = 0; filters[i]; i += 2) {
+		gtk_file_filter_add_pattern (filter, filters[i + 1]);
+	    }
+	    gtk_file_chooser_add_filter (GTK_FILE_CHOOSER(dialog), filter);
+	}
 
 	for (i = 0; filters[i]; i += 2)
 	{

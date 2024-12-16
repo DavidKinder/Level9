@@ -542,9 +542,15 @@ void Resize()
   InvalidateRect(hWndMain,NULL,TRUE);
 }
 
-const char Filters[]="Level 9 Game Files (*.dat)\0*.dat\0Spectrum Snapshots (*.sna)\0*.sna\0All Files (*.*)\0*.*\0\0";
+const char Filters[]=
+  "All Supported Files (*.dat;*.l9;*.sna)\0*.dat;*.l9;*.sna\0"
+  "Level 9 Game Files (*.dat;*.l9)\0*.dat;*.l9\0"
+  "Spectrum Snapshots (*.sna)\0*.sna\0"
+  "All Files (*.*)\0*.*\0\0";
 int FiltIndex;
-const char GameFilters[]="Saved game file (*.sav)\0*.sav\0All Files (*.*)\0*.*\0\0";
+const char GameFilters[]=
+  "Saved game file (*.sav)\0*.sav\0"
+  "All Files (*.*)\0*.*\0\0";
 FName LastGameFile;
 int GameFiltIndex;
 
