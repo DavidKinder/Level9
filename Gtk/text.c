@@ -29,7 +29,6 @@
 #include "config.h"
 #include "graphics.h"
 #include "gui.h"
-#include "main.h"
 #include "text.h"
 #include "util.h"
 
@@ -59,6 +58,10 @@ static gulong hSigDelete = 0;
 static gulong hSigKeypress = 0;
 
 static GString *bufferedText = NULL;
+
+static GtkCssProvider *text_fg_provider = NULL;
+static GtkCssProvider *text_bg_provider = NULL;
+static GtkCssProvider *text_font_provider = NULL;
 
 static void set_input_pending (gboolean pending);
 
@@ -125,56 +128,98 @@ void text_reinit ()
 
 void text_refresh (void)
 {
-    GdkColor colour;
+    GdkRGBA colour;
+    gchar *css;
+    GtkStyleContext *style_context;
 
-#ifdef USE_CURSOR_COLOUR_HACK
-    GdkColor *cursor_colour;
-    char buffer[256];
-#endif
+    if (!gtk_widget_get_realized (Gui.text_view)) {
+        gtk_widget_realize (Gui.text_view);
+    }
+
+    style_context = gtk_widget_get_style_context (Gui.text_view);
+    if (!style_context) {
+        g_warning  ("Failed to get style context for text view");
+        return;
+    }
 
     if (Config.text_font)
     {
 	PangoFontDescription *font_desc;
-	
+	const char *family;
+	int size;
+	PangoWeight weight;
+	PangoStyle style;
+
 	font_desc = pango_font_description_from_string (Config.text_font);
-	gtk_widget_modify_font (GTK_WIDGET (Gui.text_view), font_desc);
+	family = pango_font_description_get_family (font_desc);
+	size = pango_font_description_get_size (font_desc) / PANGO_SCALE;
+	weight = pango_font_description_get_weight (font_desc);
+	style = pango_font_description_get_style (font_desc);
+
+	if (text_font_provider) {
+	    gtk_style_context_remove_provider (style_context,
+		GTK_STYLE_PROVIDER (text_font_provider));
+	    g_object_unref (text_font_provider);
+	}
+
+	text_font_provider = gtk_css_provider_new ();
+	css = g_strdup_printf (
+	"textview {font-family: '%s'; font-size: %dpt; font-weight: %s; font-style: %s;}",
+	family, size,
+	(weight >= PANGO_WEIGHT_BOLD) ? "bold" : "normal",
+	(style == PANGO_STYLE_ITALIC || style == PANGO_STYLE_OBLIQUE) ?
+	"italic" : "normal");
+	gtk_css_provider_load_from_data (text_font_provider, css, -1, NULL);
+	gtk_style_context_add_provider (style_context,
+	GTK_STYLE_PROVIDER (text_font_provider),
+	GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+	g_free (css);
 	pango_font_description_free (font_desc);
     }
 
-#ifdef USE_CURSOR_COLOUR_HACK
-    if (Config.text_fg && gdk_color_parse (Config.text_fg, &colour))
+    if (text_fg_provider)
     {
-	gtk_widget_modify_text (Gui.text_view, GTK_STATE_NORMAL, &colour);
-	cursor_colour = &colour;
-    } else {
-	GtkRcStyle *style;
-
-	gtk_widget_set_style (Gui.text_view, NULL);
-	gtk_widget_modify_text (Gui.text_view, GTK_STATE_NORMAL, NULL);
-
-	style = gtk_widget_get_modifier_style (Gui.text_view);
-	cursor_colour = &style->text[GTK_STATE_NORMAL];
+	gtk_style_context_remove_provider (
+	    gtk_widget_get_style_context (Gui.text_view),
+	    GTK_STYLE_PROVIDER (text_fg_provider));
+	g_object_unref (text_fg_provider);
+	text_fg_provider = NULL;
     }
 
-    sprintf(buffer,
-	    "style \"level9-style\" {\n"
-	    "  GtkTextView::cursor-color = { %d, %d, %d }\n"
-	    "}\n"
-	    "\n"
-	    "class \"GtkTextView\" style \"level9-style\"\n",
-	    cursor_colour->red, cursor_colour->green, cursor_colour->blue);
-    gtk_rc_parse_string (buffer);
-#else
-    if (Config.text_fg && gdk_color_parse (Config.text_fg, &colour))
-	gtk_widget_modify_text (Gui.text_view, GTK_STATE_NORMAL, &colour);
-    else
-	gtk_widget_modify_text (Gui.text_view, GTK_STATE_NORMAL, NULL);
-#endif
+    if (Config.text_fg && gdk_rgba_parse (&colour, Config.text_fg))
+    {
+	text_fg_provider = gtk_css_provider_new ();
+	css = g_strdup_printf ("textview text { color: %s; caret-color: %s; }",
+	    Config.text_fg, Config.text_fg);
+	gtk_css_provider_load_from_data (text_fg_provider, css, -1, NULL);
+	gtk_style_context_add_provider (
+	    gtk_widget_get_style_context (Gui.text_view),
+	    GTK_STYLE_PROVIDER (text_fg_provider),
+	    GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+	g_free (css);
+    }
 
-    if (Config.text_bg && gdk_color_parse (Config.text_bg, &colour))
-	gtk_widget_modify_base (Gui.text_view, GTK_STATE_NORMAL, &colour);
-    else
-	gtk_widget_modify_base (Gui.text_view, GTK_STATE_NORMAL, NULL);
+    if (text_bg_provider)
+    {
+	gtk_style_context_remove_provider (
+	    gtk_widget_get_style_context (Gui.text_view),
+	    GTK_STYLE_PROVIDER (text_bg_provider));
+	g_object_unref (text_bg_provider);
+	text_bg_provider = NULL;
+    }
+
+    if (Config.text_bg && gdk_rgba_parse (&colour, Config.text_bg))
+    {
+	text_bg_provider = gtk_css_provider_new ();
+	css = g_strdup_printf (
+	    "textview text { background-color: %s; }", Config.text_bg);
+	gtk_css_provider_load_from_data (text_bg_provider, css, -1, NULL);
+	gtk_style_context_add_provider (
+	    gtk_widget_get_style_context (Gui.text_view),
+	    GTK_STYLE_PROVIDER (text_bg_provider),
+	    GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+	g_free (css);
+    }
 }
 
 /* ------------------------------------------------------------------------- *
@@ -432,17 +477,17 @@ static gboolean sig_keypress (GtkWidget *widget, GdkEventKey *event,
 
     switch (event->keyval)
     {
-	case GDK_KP_Enter:
-	case GDK_Return:
+	case GDK_KEY_KP_Enter:
+	case GDK_KEY_Return:
 	    gtk_main_quit ();
 	    return TRUE;
 
-	case GDK_Up:
-	case GDK_KP_Up:
+	case GDK_KEY_Up:
+	case GDK_KEY_KP_Up:
 	    return do_history (-1);
 
-	case GDK_Down:
-	case GDK_KP_Down:
+	case GDK_KEY_Down:
+	case GDK_KEY_KP_Down:
 	    return do_history (1);
 	    
 	default:
@@ -507,6 +552,10 @@ void os_flush ()
 	    Gui.text_buffer, &end, line_count - MAX_SCROLLBACK);
 
 	gtk_text_buffer_delete (Gui.text_buffer, &start, &end);
+
+	gtk_widget_queue_draw (Gui.text_view);
+	while (gtk_events_pending ())
+	    gtk_main_iteration_do (FALSE);
     }
 
     set_input_pending (TRUE);
@@ -557,10 +606,12 @@ void scroll_text_buffer (gboolean force)
 	 * not quite a substitute for a "more" prompt, but it will have to do
 	 * for now.
 	 */
+	GtkTextIter iter_end;
+	gtk_text_buffer_get_end_iter (Gui.text_buffer, &iter_end);
 	gtk_text_view_scroll_to_mark (
 	    GTK_TEXT_VIEW (Gui.text_view), inputMark,
 	    0.0, TRUE, 0.0, 0.0);
-	gtk_text_buffer_move_mark (Gui.text_buffer, inputMark, &iter);
+	gtk_text_buffer_move_mark (Gui.text_buffer, inputMark, &iter_end);
     }
 
     gtk_text_buffer_insert_with_tags_by_name (
@@ -646,7 +697,7 @@ L9BOOL os_input (char *ibuff, int size)
 
     inputBuffer.buf = ibuff;
     inputBuffer.size = size;
-    
+
     set_input_pending (TRUE);
     scroll_text_buffer (TRUE);
 

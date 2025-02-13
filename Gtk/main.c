@@ -23,7 +23,6 @@
 #include "level9.h"
 
 #include "main.h"
-#include "version.h"
 #include "config.h"
 #include "gui.h"
 #include "text.h"
@@ -184,8 +183,8 @@ void do_about ()
 	"Dieter Baron and Andreas Scherrer.",
 
 	"comments",
-	"GTK+ 2.6 interface v" LEVEL9_VERSION_GUI
-	" by Torbj\303\266rn Andersson <d91tan@Update.UU.SE>",
+	"GTK 3.24 interface v2.0 by thr <r@sledinmay.com> ported from\n"
+	"GTK+ 2.6 interface v1.3 by Torbj\303\266rn Andersson <d91tan@Update.UU.SE>",
 	
 	"license",
 	"This program is free software; you can redistribute it and/or modify\n"
@@ -236,8 +235,8 @@ void start_new_game (gchar *game_filename, gchar *graphics_filename)
 
     const gchar *filters[] =
 	{
-	    "Level 9 data files (*.dat)", "*.dat",
-	    "Level 9 Gargoyle files (*.l9)", "*.l9",
+	    "All Supported Files", "*.dat;*.l9;*.sna",
+	    "Level 9 data Files (*.dat, *.l9)", "*.dat;*.l9",
 	    "Spectrum snapshots (*.sna)", "*.sna",
 	    NULL
 	};
@@ -334,6 +333,10 @@ int main (int argc, char *argv[])
     graphics_init ();
 
     read_config_file ();
+
+    text_refresh ();
+    graphics_refresh ();
+    gui_refresh ();
 
     if (argc >= 3)
 	graphics_filename = g_strdup (argv[2]);

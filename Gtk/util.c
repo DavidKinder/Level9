@@ -39,8 +39,8 @@ L9BOOL os_get_game_file(char *NewName, int Size)
 
     const gchar *filters[] =
 	{
-	    "Level 9 data files (*.dat)", "*.dat",
-	    "Level 9 Gargoyle files (*.l9)", "*.l9",
+	    "All Supported Files", "*.dat;*.l9;*.sna",
+	    "Level 9 data Files (*.dat, *.l9)", "*.dat;*.l9",
 	    "Spectrum snapshots (*.sna)", "*.sna",
 	    NULL
 	};
@@ -75,13 +75,17 @@ void os_set_filenumber(char *NewName, int Size, int n)
 
 static gchar *savedFolder = NULL;
 
-gchar *file_selector (gboolean save, gchar *name, const gchar *filters[],
+gchar *file_selector (gboolean save, gchar *name, const gchar **filters,
 		      const gchar *title_fmt, ...)
 {
     GtkWidget *dialog;
     va_list args;
     gchar *title;
     gchar *filename = NULL;
+    GtkFileFilter *filter;
+    const gchar **filter_ptr;
+    gchar **patterns;
+    gchar **pattern;
 
     /*
      * We need to turn off os_input and os_readchar here, because when using
@@ -99,8 +103,8 @@ gchar *file_selector (gboolean save, gchar *name, const gchar *filters[],
     dialog = gtk_file_chooser_dialog_new (
 	title, GTK_WINDOW (Gui.main_window),
 	save ? GTK_FILE_CHOOSER_ACTION_SAVE : GTK_FILE_CHOOSER_ACTION_OPEN,
-	GTK_STOCK_CANCEL, GTK_RESPONSE_CANCEL,
-	save ? GTK_STOCK_SAVE : GTK_STOCK_OPEN, GTK_RESPONSE_ACCEPT,
+	"_Cancel", GTK_RESPONSE_CANCEL,
+	save ? "_Save" : "_Open", GTK_RESPONSE_ACCEPT,
 	NULL);
 
     gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_ACCEPT);
@@ -118,24 +122,24 @@ gchar *file_selector (gboolean save, gchar *name, const gchar *filters[],
 
     if (filters)
     {
-	GtkFileFilter *filter;
-	int i;
-
-	if (!save)
+	for (filter_ptr = filters; *filter_ptr; filter_ptr += 2)
 	{
 	    filter = gtk_file_filter_new ();
-	    gtk_file_filter_set_name (filter, "All supported files");
-	    for (i = 0; filters[i]; i += 2) {
-		gtk_file_filter_add_pattern (filter, filters[i + 1]);
+	    gtk_file_filter_set_name (filter, filter_ptr[0]);
+	    patterns = g_strsplit (filter_ptr[1], ";", -1);
+	    pattern = patterns;
+	    while (*pattern != NULL)
+	    {
+		gtk_file_filter_add_pattern (filter, *pattern);
+		if (g_str_has_suffix (*pattern, ".dat"))
+		    gtk_file_filter_add_pattern (filter, "*.DAT");
+		else if (g_str_has_suffix (*pattern, ".l9"))
+		    gtk_file_filter_add_pattern (filter, "*.L9");
+                else if (g_str_has_suffix (*pattern, ".sna"))
+		    gtk_file_filter_add_pattern (filter, "*.SNA");
+		pattern++;
 	    }
-	    gtk_file_chooser_add_filter (GTK_FILE_CHOOSER(dialog), filter);
-	}
-
-	for (i = 0; filters[i]; i += 2)
-	{
-	    filter = gtk_file_filter_new ();
-	    gtk_file_filter_set_name (filter, filters[i]);
-	    gtk_file_filter_add_pattern (filter, filters[i + 1]);
+	    g_strfreev (patterns);
 	    gtk_file_chooser_add_filter (GTK_FILE_CHOOSER (dialog), filter);
 	}
 
@@ -184,6 +188,7 @@ gchar *file_selector (gboolean save, gchar *name, const gchar *filters[],
 	gtk_file_chooser_get_current_folder (GTK_FILE_CHOOSER (dialog));
 
     gtk_widget_destroy (dialog);
+    g_free (title);
     unblock_input ();
 
     return filename;

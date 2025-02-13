@@ -84,7 +84,7 @@ typedef struct
     gchar *text_font;
     gchar *text_fg;
     gchar *text_bg;
-    
+
     gboolean image_constant_height;
     gdouble image_scale;
     gint image_height;
@@ -95,6 +95,7 @@ typedef struct
     gchar *graphics_bg;
     gboolean animate_images;
     gint animation_speed;
+    gboolean horizontal_split;
 } Configuration;
 
 extern Configuration Config;
