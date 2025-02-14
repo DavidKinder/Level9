@@ -31,12 +31,12 @@ CC = gcc
 
 OBJS = level9.o bitmap.o main.o config.o gui.o text.o graphics.o util.o
 
-DEF_CFLAGS = `pkg-config --cflags gtk+-2.0` -I$(LEVEL9)
+DEF_CFLAGS = `pkg-config --cflags gtk+-3.0` -I$(LEVEL9)
 EMU_CFLAGS = -DBITMAP_DECODER $(DEF_CFLAGS) $(OPTIMIZE_CFLAGS) $(EXTRA_CFLAGS)
 
 CFLAGS = $(EMU_CFLAGS) -ansi
 
-GTK_LIBS = `pkg-config --libs gtk+-2.0`
+GTK_LIBS = `pkg-config --libs gtk+-3.0`
 
 #######################################################################
 
@@ -53,7 +53,7 @@ level9.o:
 bitmap.o:
 	$(CC) -c $(EMU_CFLAGS) $(LEVEL9)/bitmap.c
 
-main.o: main.c main.h version.h config.h gui.h text.h graphics.h util.h
+main.o: main.c main.h config.h gui.h text.h graphics.h util.h
 config.o: config.c config.h gui.h text.h graphics.h
 gui.o: gui.c main.h config.h gui.h
 text.o: text.c main.h config.h gui.h text.h util.h

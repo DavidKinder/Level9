@@ -54,7 +54,8 @@ Configuration Config =
     1.0,                    /* blue gamma                           */
     NULL,                   /* graphics background colour           */
     TRUE,                   /* animate images                       */
-    10                      /* animation speed                      */
+    10,                     /* animation speed                      */
+    FALSE                   /* horizontal split                     */
 };
 
 /* ------------------------------------------------------------------------- *
@@ -105,7 +106,8 @@ void write_config_file ()
 	    "      <width>%d</width>\n"
 	    "      <height>%d</height>\n"
 	    "      <split>%d</split>\n"
-	    "    </main_window>\n\n"
+	    "      <horizontal_split>%s</horizontal_split>\n"
+	    "    </main_window>\n"
 	    "  </layout>\n\n"
 	    
 	    "  <text>\n"
@@ -134,6 +136,7 @@ void write_config_file ()
 	    Config.window_width,
 	    Config.window_height,
 	    Config.window_split,
+	    Config.horizontal_split ? "TRUE" : "FALSE",
 	    Config.text_font ? Config.text_font : "",
 	    Config.text_fg ? Config.text_fg : "",
 	    Config.text_bg ? Config.text_bg : "",
@@ -256,6 +259,8 @@ static void config_parse_start_element (GMarkupParseContext *context,
 		parserInt = &(Config.window_height);
 	    else if (strcmp (element_name, "split") == 0)
 		parserInt = &(Config.window_split);
+	    else if (strcmp (element_name, "horizontal_split") == 0)
+		parserBool = &(Config.horizontal_split);
 	    break;
 
 	case CONFIG_PARSE_TEXT:
@@ -438,7 +443,8 @@ static GtkWidget *add_font_button (GtkWidget *tab, gchar *text, gchar *title)
     GtkWidget *font_button;
 
     label = gtk_label_new (text);
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+    gtk_label_set_yalign (GTK_LABEL (label), 0.5);
     gtk_box_pack_start (GTK_BOX (tab), label, TRUE, TRUE, 0);
 
     font_button = gtk_font_button_new ();
@@ -457,10 +463,12 @@ static GtkWidget *add_scale (GtkWidget *tab, gchar *text, gdouble min,
     GtkWidget *label;
 
     label = gtk_label_new (text);
-    gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
+    gtk_label_set_xalign (GTK_LABEL (label), 0.0);
+    gtk_label_set_yalign (GTK_LABEL (label), 0.5);
     gtk_box_pack_start (GTK_BOX (tab), label, TRUE, TRUE, 0);
     
-    scale = gtk_hscale_new_with_range (min, max, step);
+    scale = gtk_scale_new_with_range (GTK_ORIENTATION_HORIZONTAL,
+	min, max, step);
     gtk_scale_set_digits (GTK_SCALE (scale), 2);
     gtk_scale_set_value_pos (GTK_SCALE (scale), GTK_POS_RIGHT);
     gtk_range_set_value (GTK_RANGE (scale), value);
@@ -481,13 +489,13 @@ static void update_colour_setting (gchar **colour, ColourSetting *s)
 
     if (gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (s->checkbox)))
     {
-	GdkColor c;
+	GdkRGBA rgba;
 
-	gtk_color_button_get_color (GTK_COLOR_BUTTON (s->button), &c);
+	gtk_color_chooser_get_rgba (GTK_COLOR_CHOOSER (s->button), &rgba);
 	*colour = g_strdup_printf ("#%02X%02X%02X",
-				   c.red / 256,
-				   c.green / 256,
-				   c.blue / 256);
+				   (int) (rgba.red * 255),
+				   (int) (rgba.green * 255),
+				   (int) (rgba.blue * 255));
     } else
 	*colour = NULL;
 }
@@ -496,7 +504,7 @@ static ColourSetting *add_colour_setting (GtkWidget *tab, gchar *text,
 					  gchar *title, gchar *colour_name)
 {
     ColourSetting *s;
-    GdkColor colour;
+    GdkRGBA rgba;
 
     s = g_new (ColourSetting, 1);
 
@@ -507,10 +515,10 @@ static ColourSetting *add_colour_setting (GtkWidget *tab, gchar *text,
     gtk_box_pack_start (GTK_BOX (tab), s->button, TRUE, TRUE, 0);
     gtk_color_button_set_title (GTK_COLOR_BUTTON (s->button), title);
 
-    if (colour_name && gdk_color_parse (colour_name, &colour))
+    if (colour_name && gdk_rgba_parse (&rgba, colour_name))
     {
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (s->checkbox), TRUE);
-	gtk_color_button_set_color (GTK_COLOR_BUTTON (s->button), &colour);
+	gtk_color_chooser_set_rgba (GTK_COLOR_CHOOSER (s->button), &rgba);
     } else
 	gtk_widget_set_sensitive (GTK_WIDGET (s->button), FALSE);
 
@@ -607,6 +615,7 @@ void do_config ()
     GtkWidget *graphics_tab;
     GtkWidget *colour_tab;
     GtkWidget *constant_height;
+    GtkWidget *horizontal_split;
     GtkWidget *red_gamma;
     GtkWidget *green_gamma;
     GtkWidget *blue_gamma;
@@ -627,9 +636,9 @@ void do_config ()
 	"Preferences",
 	GTK_WINDOW (Gui.main_window),
 	GTK_DIALOG_MODAL | GTK_DIALOG_DESTROY_WITH_PARENT,
-	GTK_STOCK_OK,
+	"_OK",
 	GTK_RESPONSE_ACCEPT,
-	GTK_STOCK_CANCEL,
+	"_Cancel",
 	GTK_RESPONSE_REJECT,
 	NULL);
 
@@ -639,14 +648,15 @@ void do_config ()
 
     tabs = gtk_notebook_new ();
     gtk_box_pack_start (
-	GTK_BOX (GTK_DIALOG (dialog)->vbox), tabs, TRUE, TRUE, 0);
+	GTK_BOX (gtk_dialog_get_content_area (GTK_DIALOG (dialog))),
+	tabs, TRUE, TRUE, 0);
 
-    colour_tab = gtk_vbox_new (FALSE, 3);
+    colour_tab = gtk_box_new (GTK_ORIENTATION_VERTICAL, 3);
     gtk_container_set_border_width (GTK_CONTAINER (colour_tab), 5);
     gtk_notebook_append_page (GTK_NOTEBOOK (tabs), colour_tab,
 			      gtk_label_new ("Text and Colour"));
 
-    graphics_tab = gtk_vbox_new (FALSE, 1);
+    graphics_tab = gtk_box_new (GTK_ORIENTATION_VERTICAL, 1);
     gtk_container_set_border_width (GTK_CONTAINER (graphics_tab), 5);
     gtk_notebook_append_page (GTK_NOTEBOOK (tabs), graphics_tab,
 			      gtk_label_new ("Graphics"));
@@ -657,17 +667,22 @@ void do_config ()
     
     if (!Config.text_font)
     {
-	GtkStyle *style;
+	PangoFontDescription *font_desc;
 	gchar *font_name;
+	GtkStyleContext *context;
 
-	style = gtk_widget_get_style (Gui.text_view);
-	font_name = pango_font_description_to_string (style->font_desc);
-	gtk_font_button_set_font_name (
-	    GTK_FONT_BUTTON (text_font), font_name);
+	context = gtk_widget_get_style_context (Gui.text_view);
+	gtk_style_context_get (
+	    context, GTK_STATE_FLAG_NORMAL, "font", &font_desc, NULL);
+
+	font_name = pango_font_description_to_string (font_desc);
+	gtk_font_chooser_set_font (GTK_FONT_CHOOSER (text_font), font_name);
+
+	pango_font_description_free (font_desc);
 	g_free (font_name);
     } else {
-	gtk_font_button_set_font_name (
-	    GTK_FONT_BUTTON (text_font), Config.text_font);
+	gtk_font_chooser_set_font (
+	GTK_FONT_CHOOSER (text_font), Config.text_font);
     }
     
     text_fg = add_colour_setting (
@@ -694,11 +709,12 @@ void do_config ()
 	G_CALLBACK (toggle_constant_height), NULL);
 
     image_scale_label = gtk_label_new (NULL);
-    gtk_misc_set_alignment (GTK_MISC (image_scale_label), 0.0, 0.5);
-    gtk_box_pack_start (
-	GTK_BOX (graphics_tab), image_scale_label, TRUE, TRUE, 0);
+    gtk_label_set_xalign (GTK_LABEL (image_scale_label), 0.0);
+    gtk_label_set_yalign (GTK_LABEL (image_scale_label), 0.5);
+    gtk_box_pack_start (GTK_BOX (graphics_tab),
+	image_scale_label, TRUE, TRUE, 0);
 
-    image_scale = gtk_hscale_new (NULL);
+    image_scale = gtk_scale_new (GTK_ORIENTATION_HORIZONTAL, NULL);
     gtk_scale_set_value_pos (GTK_SCALE (image_scale), GTK_POS_RIGHT);
     gtk_box_pack_start (GTK_BOX (graphics_tab), image_scale, TRUE, TRUE, 0);
 
@@ -712,23 +728,24 @@ void do_config ()
     toggle_constant_height (GTK_TOGGLE_BUTTON (constant_height), NULL);
 
     dummy = gtk_label_new ("Interpolation mode:");
-    gtk_misc_set_alignment (GTK_MISC (dummy), 0.0, 0.5);
+    gtk_label_set_xalign (GTK_LABEL (dummy), 0.0);
+    gtk_label_set_yalign (GTK_LABEL (dummy), 0.5);
     gtk_box_pack_start (GTK_BOX (graphics_tab), dummy, TRUE, TRUE, 0);
 
-    image_filter = gtk_combo_box_new_text ();
+    image_filter = gtk_combo_box_text_new ();
     gtk_box_pack_start (GTK_BOX (graphics_tab), image_filter, TRUE, TRUE, 0);
 
     for (i = 0; i < G_N_ELEMENTS (imageFilters); i++)
     {
-	gtk_combo_box_append_text (
-	    GTK_COMBO_BOX (image_filter), imageFilters[i].description);
+	gtk_combo_box_text_append_text (
+	    GTK_COMBO_BOX_TEXT (image_filter), imageFilters[i].description);
     }
 
     gtk_combo_box_set_active (
 	GTK_COMBO_BOX (image_filter),
 	get_interp_type_index (Config.image_filter));
 
-    dummy = gtk_hseparator_new ();
+    dummy = gtk_separator_new (GTK_ORIENTATION_HORIZONTAL);
     gtk_box_pack_start (GTK_BOX (graphics_tab), dummy, TRUE, TRUE, 8);
 
     red_gamma = add_scale (
@@ -738,7 +755,7 @@ void do_config ()
     blue_gamma = add_scale (
 	graphics_tab, "Blue gamma:", 0.1, 5.0, 0.1, Config.blue_gamma);
 
-    dummy = gtk_hseparator_new ();
+    dummy = gtk_separator_new (GTK_ORIENTATION_HORIZONTAL);
     gtk_box_pack_start (GTK_BOX (graphics_tab), dummy, TRUE, TRUE, 8);
 
     animate_images = gtk_check_button_new_with_label ("Animate line drawing");
@@ -758,15 +775,23 @@ void do_config ()
 	G_OBJECT (animate_images), "toggled", G_CALLBACK (toggle_sensitivity),
 	animation_speed);
 
+    dummy = gtk_separator_new (GTK_ORIENTATION_HORIZONTAL);
+    gtk_box_pack_start (GTK_BOX (graphics_tab), dummy, TRUE, TRUE, 8);
+
+    horizontal_split = gtk_check_button_new_with_mnemonic ("_Horizontal split");
+    gtk_toggle_button_set_active (
+        GTK_TOGGLE_BUTTON (horizontal_split), Config.horizontal_split);
+    gtk_box_pack_start (GTK_BOX (graphics_tab), horizontal_split, TRUE, TRUE, 0);
+
     /* Run the dialog */
 
-    gtk_widget_show_all (GTK_WIDGET (GTK_DIALOG (dialog)->vbox));
+    gtk_widget_show_all (gtk_dialog_get_content_area (GTK_DIALOG(dialog)));
 
     if (gtk_dialog_run (GTK_DIALOG (dialog)) == GTK_RESPONSE_ACCEPT)
     {
 	g_free (Config.text_font);
-	Config.text_font = g_strdup (
-	    gtk_font_button_get_font_name (GTK_FONT_BUTTON (text_font)));
+	Config.text_font = gtk_font_chooser_get_font (
+	    GTK_FONT_CHOOSER (text_font));
 
 	update_colour_setting (&(Config.text_fg), text_fg);
 	update_colour_setting (&(Config.text_bg), text_bg);
@@ -791,6 +816,9 @@ void do_config ()
 	else
 	    Config.image_filter = GDK_INTERP_BILINEAR;
 	
+	Config.horizontal_split =
+	    gtk_toggle_button_get_active (GTK_TOGGLE_BUTTON (horizontal_split));
+
 	write_config_file ();
 
 	/* Apply settings */
