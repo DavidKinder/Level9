@@ -275,7 +275,13 @@ void start_new_game (gchar *game_filename, gchar *graphics_filename)
 	graphics_dir[0] = 0;
     
     if (!graphics_filename)
+	graphics_filename = change_file_extension (game_filename, "pic");
+
+    if (!g_file_test (graphics_filename, G_FILE_TEST_EXISTS))
+    {
+	g_free (graphics_filename);
 	graphics_filename = change_file_extension (game_filename, "cga");
+    }
 
     if (!g_file_test (graphics_filename, G_FILE_TEST_EXISTS))
     {
