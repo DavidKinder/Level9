@@ -1,3 +1,53 @@
+2025-03-XX - 2.1 (The "Diamonds for eyes" release.)
+
+Bugfixes
+
+- Fixed a crash when trying to open a new game file while waiting for
+  timeout or keypress to skip picture.
+
+- An issue with system locales using commas for decimals would prevent
+  loading floating-point numbers from the configuration file, so all
+  values were being rounded to the nearest integer. They're now parsed
+  correctly regardless of whether decimal points or commas are being
+  used.
+
+- Set a minimum fifty-pixel gap between the movable viewport divider and
+  the window edge to prevent viewports from unexpectedly having zero
+  width or height due to wonky window resizing mechanics.
+
+- Fixed Lancelot hanging up on moving back from part two to part one
+  when using files with .l9 and .l2 extensions.
+
+Other changes
+
+- Improved font rendering quality with antialiasing, light hinting
+  and subpixel rendering.
+
+- Text margins and line spacing have been adjusted for readability,
+  and both are now configurable.
+
+- There's now an option to dynamically scale graphics to fit the
+  viewport size, and this will be the default for new configurations.
+
+- The graphics pane can now be positioned to the left and right sides,
+  above and below the text box, or disabled altogether for a text-only
+  mode. This replaces the horizontal split option.
+
+- Reworked the preferences dialog, so it now features live preview,
+  "reset to default" buttons where appropriate, and keyboard mnemonics
+  for all options to enhance accessibility.
+
+- My hand slipped one too many times, so there's now a confirmation
+  dialog when quitting.
+
+- The configuration file has migrated from user's home directory and now
+  lives in the standard XDG .config directory. If the old file is found,
+  it will move over to its new place automatically.
+
+- Conflated "Scale image to constant height" and "Scale factor" options
+  into a single entry, as they were both doing basically the same thing
+  using different calculations.
+
 2025-02-XX - 2.0 (The "Two birds" release.)
 
 GTK 3 port.

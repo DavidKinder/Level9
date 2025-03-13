@@ -41,6 +41,9 @@ static gboolean interactedWithBitmap = FALSE;
 
 static GtkCssProvider *graphics_bg_provider = NULL;
 
+static void display_picture (void);
+static guchar apply_gamma (guchar colour, double gamma);
+
 /* ------------------------------------------------------------------------- *
  * Utility functions.                                                        *
  * ------------------------------------------------------------------------- */
@@ -98,6 +101,13 @@ static guchar apply_gamma (guchar colour, double gamma)
 #endif
 }
 
+static void on_picture_area_size_allocate (
+    GtkWidget *widget, GtkAllocation *allocation, gpointer data)
+{
+    if (Config.fit_to_window)
+	display_picture ();
+}
+
 void graphics_init ()
 {
     int i;
@@ -136,6 +146,9 @@ void graphics_init ()
 
     currentBitmap = -1;
     interactedWithBitmap = FALSE;
+
+    g_signal_connect (Gui.picture_area, "size-allocate",
+	G_CALLBACK (on_picture_area_size_allocate), NULL);
 }
 
 static void display_picture ()
@@ -175,26 +188,35 @@ static void display_picture ()
 
     pixbuf = gdk_pixbuf_new_from_data (
 	rgbBuffer, GDK_COLORSPACE_RGB, FALSE, 8, bitmapWidth, bitmapHeight,
-	3 * frameWidth,	NULL, NULL);
+	3 * frameWidth, NULL, NULL);
 
-    if ((Config.image_constant_height && Config.image_height != bitmapHeight)
-	|| (!Config.image_constant_height && Config.image_scale != 1.0))
+    if (Config.fit_to_window)
     {
 	GdkPixbuf *scaled_pixbuf;
-	gdouble scale_factor;
-
-	if (Config.image_constant_height)
-	    scale_factor =
-		(gdouble) Config.image_height / (gdouble) bitmapHeight;
-	else
-	    scale_factor = Config.image_scale;
+	GtkAllocation allocation;
+	gtk_widget_get_allocation (Gui.picture_area, &allocation);
+	gdouble width_scale = (gdouble) allocation.width / bitmapWidth;
+	gdouble height_scale = (gdouble) allocation.height / bitmapHeight;
+	gdouble scale_factor = MIN (width_scale, height_scale);
 
 	scaled_pixbuf = gdk_pixbuf_scale_simple (
 	    pixbuf,
-	    (gint) ((gdouble) bitmapWidth * scale_factor + 0.5),
-	    (gint) ((gdouble) bitmapHeight * scale_factor + 0.5),
+	    MAX ((gint) ((gdouble) bitmapWidth * scale_factor + 0.5), 1),
+	    MAX ((gint) ((gdouble) bitmapHeight * scale_factor + 0.5), 1),
 	    Config.image_filter);
-	
+
+	g_object_unref (pixbuf);
+	pixbuf = scaled_pixbuf;
+    }
+    else if (Config.image_scale != 1.0)
+    {
+	GdkPixbuf *scaled_pixbuf;
+	scaled_pixbuf = gdk_pixbuf_scale_simple (
+	    pixbuf,
+	    MAX ((gint) ((gdouble) bitmapWidth * Config.image_scale + 0.5), 1),
+	    MAX ((gint) ((gdouble) bitmapHeight * Config.image_scale + 0.5), 1),
+	    Config.image_filter);
+
 	g_object_unref (pixbuf);
 	pixbuf = scaled_pixbuf;
     }
@@ -299,6 +321,14 @@ void graphics_refresh ()
 		GTK_STYLE_PROVIDER (graphics_bg_provider),
 		GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
 	g_free (css);
+    }
+}
+
+static void cleanup_statusbar (guint context_id) {
+    if (GTK_IS_WIDGET (Gui.statusbar)) {
+	gtk_widget_hide (Gui.statusbar);
+	if (GTK_IS_STATUSBAR (Gui.statusbar))
+	    gtk_statusbar_pop (GTK_STATUSBAR (Gui.statusbar), context_id);
     }
 }
 
@@ -507,6 +537,9 @@ void os_show_bitmap (int pic, int x, int y)
     Bitmap *bitmap;
     int i;
 
+    if (applicationExiting)
+	return;
+
     if (pic == currentBitmap)
 	return;
 
@@ -515,8 +548,15 @@ void os_show_bitmap (int pic, int x, int y)
     if (!bitmap)
 	return;
 
+    guchar *initialFrameBuffer = frameBuffer;
+    int initialFrameWidth = frameWidth;
+    int initialFrameHeight = frameHeight;
+
     if (currentBitmap != -1 && !interactedWithBitmap)
     {
+	if (!GTK_IS_WIDGET (Gui.statusbar))
+	return;
+
 	guint context_id;
 
 	context_id = gtk_statusbar_get_context_id (
@@ -529,12 +569,35 @@ void os_show_bitmap (int pic, int x, int y)
 	os_flush ();
 	os_readchar (5000);
 
-	if (applicationExiting)
+	if (frameBuffer != initialFrameBuffer || 
+	    frameWidth != initialFrameWidth || 
+	    frameHeight != initialFrameHeight) {
+	    cleanup_statusbar (context_id);
 	    return;
+	}
 
-	gtk_widget_hide (Gui.statusbar);
-	gtk_statusbar_pop (GTK_STATUSBAR (Gui.statusbar), context_id);
+	if (applicationExiting) {
+	    cleanup_statusbar (context_id);
+	    return;
+	}
+
+	cleanup_statusbar (context_id);
     }
+
+    if (applicationExiting)
+	return;
+
+    if (frameBuffer != initialFrameBuffer || 
+	frameWidth != initialFrameWidth || 
+	frameHeight != initialFrameHeight)
+	return;
+
+    if (!frameBuffer || !bitmap->bitmap)
+	return;
+
+    if (frameWidth <= 0 || frameHeight <= 0 || 
+	bitmap->width <= 0 || bitmap->height <= 0)
+	return;
 
     interactedWithBitmap = FALSE;
     currentBitmap = pic;
@@ -551,6 +614,9 @@ void os_show_bitmap (int pic, int x, int y)
 
     for (i = 0; i < bitmap->height; i++)
     {
+	if ((i + 1) * frameWidth > frameWidth * frameHeight ||
+	    (i + 1) * bitmap->width > bitmap->width * bitmap->height)
+	    return;
 	memcpy (frameBuffer + i * frameWidth,
 		bitmap->bitmap + i * bitmap->width,
 		bitmap->width);
