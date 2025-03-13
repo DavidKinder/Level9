@@ -55,14 +55,28 @@ L9BOOL os_get_game_file(char *NewName, int Size)
     return TRUE;
 }
 
-void os_set_filenumber(char *NewName, int Size, int n)
+void os_set_filenumber (char *NewName, int Size, int n)
 {
-    char *fname;
+    char *fname, *ext;
     int i;
 
     fname = strrchr (NewName, '/');
     if (fname == NULL)
 	fname = NewName;
+
+    ext = strrchr (fname, '.');
+    if (ext != NULL) {
+	if ((ext[1] == 'l' || ext[1] == 'L') &&
+	    (isdigit (ext[2]) || ext[2] == '9') && ext[3] == '\0') {
+	    char lcase = ext[1];
+	    if (n == 1) {
+		sprintf (ext, ".%c9", lcase);
+	    } else {
+		sprintf (ext, ".%c%d", lcase, n);
+	    }
+	    return;
+	}
+    }
 
     /* Assume that the number is one digit only. */
     for (i = strlen(fname) - 1; i >= 0; i--) {
@@ -135,7 +149,7 @@ gchar *file_selector (gboolean save, gchar *name, const gchar **filters,
 		    gtk_file_filter_add_pattern (filter, "*.DAT");
 		else if (g_str_has_suffix (*pattern, ".l9"))
 		    gtk_file_filter_add_pattern (filter, "*.L9");
-                else if (g_str_has_suffix (*pattern, ".sna"))
+		else if (g_str_has_suffix (*pattern, ".sna"))
 		    gtk_file_filter_add_pattern (filter, "*.SNA");
 		pattern++;
 	    }

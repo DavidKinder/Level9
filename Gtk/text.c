@@ -53,6 +53,8 @@ static Buffer inputBuffer;
 
 static GtkTextMark *inputMark = NULL;
 
+static guint glib_handler_id = 0;
+
 static gulong hSigInsert = 0;
 static gulong hSigDelete = 0;
 static gulong hSigKeypress = 0;
@@ -132,14 +134,13 @@ void text_refresh (void)
     gchar *css;
     GtkStyleContext *style_context;
 
-    if (!gtk_widget_get_realized (Gui.text_view)) {
-        gtk_widget_realize (Gui.text_view);
-    }
+    if (!gtk_widget_get_realized (Gui.text_view))
+	gtk_widget_realize (Gui.text_view);
 
     style_context = gtk_widget_get_style_context (Gui.text_view);
     if (!style_context) {
-        g_warning  ("Failed to get style context for text view");
-        return;
+	g_warning  ("Failed to get style context for text view");
+	return;
     }
 
     if (Config.text_font)
@@ -220,6 +221,49 @@ void text_refresh (void)
 	    GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
 	g_free (css);
     }
+
+    gtk_text_view_set_left_margin (
+	GTK_TEXT_VIEW (Gui.text_view), Config.text_margin);
+    gtk_text_view_set_right_margin (
+	GTK_TEXT_VIEW (Gui.text_view), Config.text_margin);
+    gtk_text_view_set_top_margin (
+	GTK_TEXT_VIEW (Gui.text_view), Config.text_margin);
+    gtk_text_view_set_bottom_margin (
+	GTK_TEXT_VIEW (Gui.text_view), Config.text_margin);
+
+    int spacing = (int) (Config.text_leading * 4.0);
+    gtk_text_view_set_pixels_inside_wrap (
+	GTK_TEXT_VIEW (Gui.text_view), spacing);
+    gtk_text_view_set_pixels_above_lines (
+	GTK_TEXT_VIEW (Gui.text_view), spacing);
+    gtk_text_view_set_pixels_below_lines (
+	GTK_TEXT_VIEW (Gui.text_view), spacing);
+    gtk_text_view_set_wrap_mode (
+	GTK_TEXT_VIEW (Gui.text_view), GTK_WRAP_WORD);
+}
+
+/*
+ * GTK complaining about removing non-existent timers in Adrian Mole and
+ * Archers is a harmless side-effect of how os_readchar constantly polls
+ * for player input in these games, but the warnings are so spammy
+ * that I've used this crude workaround to silence them.
+ */
+
+static void log_handler (const gchar *domain, GLogLevelFlags level,
+                       const gchar *message, gpointer user_data)
+{
+    if (level == G_LOG_LEVEL_CRITICAL &&
+        strstr (message, "Source ID") &&
+        strstr (message, "was not found when attempting to remove it"))
+        return;
+
+    g_log_default_handler (domain, level, message, user_data);
+}
+
+static void init_log_handler (void)
+{
+    glib_handler_id = g_log_set_handler (
+	"GLib", G_LOG_LEVEL_CRITICAL, log_handler, NULL);
 }
 
 /* ------------------------------------------------------------------------- *
@@ -252,6 +296,8 @@ void text_init ()
     history.end = 0;
     history.retrieve = -1;
 
+    init_log_handler ();
+
     /*
      * The text signal handlers are used to detect when the user presses
      * ENTER or Up/Down-arrow and to make sure the text at the command prompt
@@ -269,6 +315,32 @@ void text_init ()
 	G_CALLBACK (sig_keypress), NULL);
 
     set_input_pending (FALSE);
+
+    GdkScreen *screen = gtk_widget_get_screen (Gui.text_view);
+    GtkSettings *settings = gtk_settings_get_for_screen (screen);
+
+    const cairo_font_options_t *font_options =
+	gdk_screen_get_font_options (screen);
+    cairo_subpixel_order_t subpixel_order = CAIRO_SUBPIXEL_ORDER_DEFAULT;
+
+    if (font_options)
+	subpixel_order = cairo_font_options_get_subpixel_order (font_options);
+
+    const char *rgba_type = "rgb";
+    switch (subpixel_order) {
+	case CAIRO_SUBPIXEL_ORDER_BGR:     rgba_type = "bgr"; break;
+	case CAIRO_SUBPIXEL_ORDER_VRGB:    rgba_type = "vrgb"; break;
+	case CAIRO_SUBPIXEL_ORDER_VBGR:    rgba_type = "vbgr"; break;
+	case CAIRO_SUBPIXEL_ORDER_DEFAULT: rgba_type = "none"; break;
+	default: break;
+    }
+
+    g_object_set (settings,
+	"gtk-xft-antialias", 1,
+	"gtk-xft-hinting", 1,
+	"gtk-xft-hintstyle", "hintslight",
+	"gtk-xft-rgba", rgba_type,
+	NULL);
 }
 
 static void history_insert (gchar *str)
@@ -635,6 +707,8 @@ static gboolean readchar_keypress (GtkWidget *widget, GdkEventKey *event,
 
 static gboolean readchar_timeout (gpointer user_data)
 {
+    if (!waitingForInput)
+	return FALSE;
     gtk_main_quit ();
     return FALSE;
 }
