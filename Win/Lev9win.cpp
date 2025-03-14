@@ -64,6 +64,7 @@ int GfxMode=0;
 int GfxHeight=0;
 int GfxPicWidth=0,GfxPicHeight=0;
 BOOL GfxDither=FALSE;
+BOOL GfxFitToWindow=TRUE;
 HBITMAP hGfx=0,hGfxDraw=0;
 HDC hGfxDC=0,hGfxDrawDC=0;
 int FontHeight=0,LineSpacing=0;
@@ -715,6 +716,23 @@ void DrawPicture(void)
         h *= 2;
       }
 
+      if (GfxFitToWindow)
+      {
+        double aspect = (double)w / h;
+        double windowAspect = (double)PageWidth / GfxHeight;
+
+        if (windowAspect > aspect)
+        {
+          h = GfxHeight;
+          w = (int)(h * aspect);
+        }
+        else
+        {
+          w = PageWidth;
+          h = (int)(w / aspect);
+        }
+      }
+
       int x = (PageWidth-w)/2;
       int y = (GfxHeight-h)/2;
       if (x < 0)
@@ -1001,6 +1019,7 @@ public:
   void CmSelectTextColour();
   void CmSelectBackColour();
   void CmToggleDither();
+  void CmToggleFitToWindow();
   void CmRestore() { HashCommand("#restore"); }
   void CmSave() { HashCommand("save"); }
   void CmDictionary() { HashCommand("#dictionary"); }
@@ -1048,6 +1067,7 @@ EV_START(MainWindow)
   EV_COMMAND(CM_TEXTCOLOUR, CmSelectTextColour)
   EV_COMMAND(CM_BACKCOLOUR, CmSelectBackColour)
   EV_COMMAND(CM_DITHER, CmToggleDither)
+  EV_COMMAND(CM_FITTOWINDOW, CmToggleFitToWindow)
   EV_COMMAND(CM_FILELOAD, CmRestore)
   EV_COMMAND(CM_FILESAVE, CmSave)
   EV_COMMAND(CM_DICTIONARY, CmDictionary)
@@ -1126,6 +1146,7 @@ BOOL MainWindow::SetupWindow()
   SetFont();
   SetBkColor(BackColour);
   CheckMenuItem(CM_DITHER,GfxDither);
+  CheckMenuItem(CM_FITTOWINDOW,GfxFitToWindow);
   Playing=FALSE;
 
   return TRUE;
@@ -1209,6 +1230,16 @@ void MainWindow::CmToggleDither()
 {
   GfxDither = !GfxDither;
   CheckMenuItem(CM_DITHER,GfxDither);
+}
+
+void MainWindow::CmToggleFitToWindow()
+{
+  GfxFitToWindow = !GfxFitToWindow;
+  CheckMenuItem(CM_FITTOWINDOW, GfxFitToWindow);
+  if (GfxMode == 2)
+  {
+    DrawPicture();
+  }
 }
 
 void MainWindow::SetFont()
@@ -1548,6 +1579,7 @@ void MyApp::ReadIni()
   ReadIniInt("Font","Colour",(long&) FontColour);
 
   ReadIniBool("Graphics","Dither",GfxDither);
+  ReadIniBool("Graphics","FitToWindow",GfxFitToWindow);
 
   int wasDark = 0;
   ReadIniInt("General","WasInDarkMode",wasDark);
@@ -1571,6 +1603,7 @@ void MyApp::WriteIni()
   WriteIniInt("Font","Colour",(long) FontColour);
 
   WriteIniBool("Graphics","Dither",GfxDither);
+  WriteIniBool("Graphics","FitToWindow",GfxFitToWindow);
 }
 
 MyApp::MyApp(char *Name) : App(Name,Ini)
