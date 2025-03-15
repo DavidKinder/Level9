@@ -64,7 +64,7 @@ int GfxMode=0;
 int GfxHeight=0;
 int GfxPicWidth=0,GfxPicHeight=0;
 BOOL GfxDither=FALSE;
-BOOL GfxFitToWindow=TRUE;
+BOOL GfxFitToWindow=FALSE;
 HBITMAP hGfx=0,hGfxDraw=0;
 HDC hGfxDC=0,hGfxDrawDC=0;
 int FontHeight=0,LineSpacing=0;
