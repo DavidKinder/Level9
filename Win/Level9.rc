@@ -104,7 +104,7 @@ BEGIN
         MENUITEM "&Text Colour...",             CM_TEXTCOLOUR
         MENUITEM "&Background Colour...",       CM_BACKCOLOUR
         MENUITEM "&Dither Graphics Lines",      CM_DITHER
-        MENUITEM "Fit to &Window",              CM_FITTOWINDOW
+        MENUITEM "Fit Bitmaps to &Window",      CM_FITTOWINDOW
     END
     POPUP "&Help"
     BEGIN
