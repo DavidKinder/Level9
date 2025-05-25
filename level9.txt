@@ -238,6 +238,9 @@ History
         the same case as expected on case sensitive file systems, e.g.
         "1.PIC" will be found on Unix, when before "1.pic" was
         required.
+        The GTK front-end has been updated to GTK3.
+        The Glk front-end has improved detection for MSX releases of
+        the games.
 
   v5.1  The bitmap graphics from the US Macintosh release of Lancelot
         now display correctly.
