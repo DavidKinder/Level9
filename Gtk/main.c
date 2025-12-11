@@ -183,7 +183,7 @@ void do_about ()
 	"Dieter Baron and Andreas Scherrer.",
 
 	"comments",
-	"GTK 3.24 interface v2.1 by thr <r@sledinmay.com> based on\n"
+	"GTK 3.24 interface v2.2 by thr <r@sledinmay.com> based on\n"
 	"GTK+ 2.6 interface v1.3 by Torbj\303\266rn Andersson <d91tan@Update.UU.SE>",
 	
 	"license",

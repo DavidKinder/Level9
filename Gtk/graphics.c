@@ -31,6 +31,10 @@
 
 #define ANIMATION_INTERVAL 20
 
+extern L9BYTE *startdata;
+extern L9UINT32 FileSize;
+extern void show_picture (int pic);
+
 static int graphicsMode = 0;
 static gchar *graphicsDir = NULL;
 static BitmapType bitmapType = NO_BITMAPS;
@@ -80,6 +84,9 @@ static GdkPixbuf *pixbuf = NULL;
 
 static guint animationTimer = 0;
 static guint animationCost = 0;
+
+static GdkPixbuf *erik_panel = NULL;
+static gboolean erik_capturing = FALSE;
 
 /*
  * Apply gamma-correction to a colour component. There are apparently several
@@ -147,9 +154,111 @@ void graphics_init ()
     currentBitmap = -1;
     interactedWithBitmap = FALSE;
 
+    if (erik_panel)
+    {
+	g_object_unref (erik_panel);
+	erik_panel = NULL;
+    }
+    erik_capturing = FALSE;
+
     g_signal_connect (Gui.picture_area, "size-allocate",
 	G_CALLBACK (on_picture_area_size_allocate), NULL);
 }
+
+static gboolean is_erik (void)
+{
+    int i;
+    if (!startdata || FileSize < 30)
+	return FALSE;
+    int is_version2 = (startdata[4] == 0x20 && startdata[5] == 0x00)
+	&& (startdata[10] == 0x00 && startdata[11] == 0x80)
+	&& startdata[20] == startdata[22] && startdata[21] == startdata[23];
+    L9UINT16 game_length = is_version2
+	? (startdata[28] | (startdata[29] << 8))
+	: (startdata[0] | (startdata[1] << 8));
+    if (game_length != 0x34b3 || game_length >= FileSize)
+	return FALSE;
+    L9BYTE checksum = 0;
+    for (i = 0; i < game_length + 1; i++)
+	checksum += startdata[i];
+    return checksum == 0x53;
+}
+
+static void erik_capture (void)
+{
+    if (erik_panel || erik_capturing || !is_erik ())
+	return;
+    erik_capturing = TRUE;
+    guchar *old_frame = frameBuffer, *old_rgb = rgbBuffer;
+    int old_frame_width = frameWidth, old_frame_height = frameHeight;
+    int old_bitmap_width = bitmapWidth, old_bitmap_height = bitmapHeight;
+    BitmapType old_bitmap_type = bitmapType;
+    palEntry saved_palette[32];
+    memcpy (saved_palette, imagePalette, sizeof (imagePalette));
+    guchar *saved_frame = NULL;
+    int saved_size = 0;
+    if (old_frame && old_frame_width > 0 && old_frame_height > 0)
+    {
+	saved_size = old_frame_width * old_frame_height;
+	saved_frame = (guchar *) g_malloc (saved_size);
+	memcpy (saved_frame, old_frame, saved_size);
+    }
+    guchar *temp_frame = (guchar *) g_malloc0 (20480), *temp_rgb = (guchar *) g_malloc (61440);
+    frameBuffer = temp_frame;
+    rgbBuffer = temp_rgb;
+    frameWidth = bitmapWidth = 160;
+    frameHeight = bitmapHeight = 128;
+    show_picture (500);
+    while (RunGraphics ());
+    {
+	int i, j;
+	guchar *ptr;
+	for (i = 0; i < frameHeight; i++)
+	{
+	    ptr = rgbBuffer + i * frameWidth * 3;
+	    for (j = 0; j < frameWidth; j++)
+	    {
+		guchar c = frameBuffer[i * frameWidth + j];
+		guchar r = imagePalette[c].red;
+		guchar g = imagePalette[c].green;
+		guchar b = imagePalette[c].blue;
+		if (b > 200 && g > 200 && r < 50)
+		{
+		    r = basePalette[3].red;
+		    g = basePalette[3].green;
+		    b = basePalette[3].blue;
+		}
+		*ptr++ = r;
+		*ptr++ = g;
+		*ptr++ = b;
+	    }
+	}
+    }
+    erik_panel = gdk_pixbuf_new_from_data (
+	rgbBuffer, GDK_COLORSPACE_RGB, FALSE, 8, 160, 128, 3 * 160, NULL, NULL);
+    if (erik_panel)
+	erik_panel = gdk_pixbuf_copy (erik_panel);
+    erik_capturing = FALSE;
+    frameBuffer = old_frame;
+    rgbBuffer = old_rgb;
+    frameWidth = old_frame_width;
+    frameHeight = old_frame_height;
+    bitmapWidth = old_bitmap_width;
+    bitmapHeight = old_bitmap_height;
+    bitmapType = old_bitmap_type;
+    g_free (temp_frame);
+    g_free (temp_rgb);
+    g_clear_object (&pixbuf);
+    if (old_frame)
+    {
+    show_picture (635);
+	if (saved_frame && frameWidth == old_frame_width && frameHeight == old_frame_height)
+	    memcpy (frameBuffer, saved_frame, saved_size);
+	memcpy (imagePalette, saved_palette, sizeof (imagePalette));
+	g_free (saved_frame);
+    }
+}
+
 
 static void display_picture ()
 {
@@ -165,6 +274,9 @@ static void display_picture ()
 
     if (bitmapWidth == 0 || bitmapHeight == 0)
 	return;
+
+    if (is_erik () && !erik_panel)
+	erik_capture ();
 
     for (i = 0; i < G_N_ELEMENTS (pal); i++)
     {
@@ -190,38 +302,87 @@ static void display_picture ()
 	rgbBuffer, GDK_COLORSPACE_RGB, FALSE, 8, bitmapWidth, bitmapHeight,
 	3 * frameWidth, NULL, NULL);
 
-    if (Config.fit_to_window)
+    gdouble scale = 1.0;
+    if (!erik_capturing && Config.fit_to_window)
     {
-	GdkPixbuf *scaled_pixbuf;
-	GtkAllocation allocation;
-	gtk_widget_get_allocation (Gui.picture_area, &allocation);
-	gdouble width_scale = (gdouble) allocation.width / bitmapWidth;
-	gdouble height_scale = (gdouble) allocation.height / bitmapHeight;
-	gdouble scale_factor = MIN (width_scale, height_scale);
-
-	scaled_pixbuf = gdk_pixbuf_scale_simple (
-	    pixbuf,
-	    MAX ((gint) ((gdouble) bitmapWidth * scale_factor + 0.5), 1),
-	    MAX ((gint) ((gdouble) bitmapHeight * scale_factor + 0.5), 1),
-	    Config.image_filter);
-
-	g_object_unref (pixbuf);
-	pixbuf = scaled_pixbuf;
+	GtkAllocation a;
+	gtk_widget_get_allocation (Gui.picture_area, &a);
+	gdouble total_width = (is_erik () && erik_panel)
+	    ? bitmapWidth * (1.0 + 364.0 / 598.0)
+	    : bitmapWidth;
+	gdouble ws = (gdouble) a.width / total_width;
+	gdouble hs = (gdouble) a.height / bitmapHeight;
+	scale = MIN (ws, hs);
     }
-    else if (Config.image_scale != 1.0)
-    {
-	GdkPixbuf *scaled_pixbuf;
-	scaled_pixbuf = gdk_pixbuf_scale_simple (
-	    pixbuf,
-	    MAX ((gint) ((gdouble) bitmapWidth * Config.image_scale + 0.5), 1),
-	    MAX ((gint) ((gdouble) bitmapHeight * Config.image_scale + 0.5), 1),
-	    Config.image_filter);
+    else if (!erik_capturing && Config.image_scale != 1.0)
+	scale = Config.image_scale;
 
+    if (scale != 1.0)
+    {
+	GdkPixbuf *s = gdk_pixbuf_scale_simple (
+	    pixbuf,
+	    MAX ((gint) ((gdouble) bitmapWidth * scale + 0.5), 1),
+	    MAX ((gint) ((gdouble) bitmapHeight * scale + 0.5), 1),
+	    Config.image_filter);
 	g_object_unref (pixbuf);
-	pixbuf = scaled_pixbuf;
+	pixbuf = s;
+    }
+
+    if (is_erik () && erik_panel)
+    {
+	int pw = gdk_pixbuf_get_width (pixbuf);
+	int ph = gdk_pixbuf_get_height (pixbuf);
+	int panel_w = MAX (1, (int)(pw * 0.2977 + 0.5));
+	int bar_w = MAX (1, (int)(pw * 0.0067 + 0.5));
+	double scale = MAX ((double)panel_w / 160.0, (double)ph / 128.0);
+	int scaled_w = MAX (1, (int)(160 * scale + 0.5));
+	int scaled_h = MAX (1, (int)(128 * scale + 0.5));
+	GdkPixbuf *scaled = gdk_pixbuf_scale_simple (erik_panel, scaled_w, scaled_h, Config.image_filter);
+	if (!scaled)
+	    return;
+	GdkPixbuf *panel = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8, panel_w, ph);
+	if (!panel)
+	{
+	    g_object_unref (scaled);
+	    return;
+	}
+	guint32 yellow = (basePalette[3].red << 24) | (basePalette[3].green << 16) | 
+			 (basePalette[3].blue << 8) | 0xFF;
+	gdk_pixbuf_fill (panel, yellow);
+	gdk_pixbuf_copy_area (scaled,
+	    (scaled_w > panel_w) ? (scaled_w - panel_w) / 2 : 0,
+	    (scaled_h > ph) ? (scaled_h - ph) / 2 : 0,
+	    MIN (scaled_w, panel_w), MIN (scaled_h, ph),
+	    panel,
+	    (panel_w > scaled_w) ? (panel_w - scaled_w) / 2 : 0,
+	    (ph > scaled_h) ? (ph - scaled_h) / 2 : 0);
+	g_object_unref (scaled);
+	GdkPixbuf *bar = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8, bar_w, ph);
+	if (!bar)
+	{
+	    g_object_unref (panel);
+	    return;
+	}
+	gdk_pixbuf_fill (bar, 0);
+	GdkPixbuf *comp = gdk_pixbuf_new (GDK_COLORSPACE_RGB, FALSE, 8,
+	    panel_w + bar_w + pw + bar_w + panel_w, ph);
+	if (comp)
+	{
+	    gdk_pixbuf_fill (comp, 0);
+	    gdk_pixbuf_copy_area (panel, 0, 0, panel_w, ph, comp, 0, 0);
+	    gdk_pixbuf_copy_area (bar, 0, 0, bar_w, ph, comp, panel_w, 0);
+	    gdk_pixbuf_copy_area (pixbuf, 0, 0, pw, ph, comp, panel_w + bar_w, 0);
+	    gdk_pixbuf_copy_area (bar, 0, 0, bar_w, ph, comp, panel_w + bar_w + pw, 0);
+	    gdk_pixbuf_copy_area (panel, 0, 0, panel_w, ph, comp, panel_w + bar_w + pw + bar_w, 0);
+	    g_object_unref (pixbuf);
+	    pixbuf = comp;
+	}
+	g_object_unref (panel);
+	g_object_unref (bar);
     }
 
     gtk_image_set_from_pixbuf (GTK_IMAGE (Gui.picture), pixbuf);
+    gtk_widget_queue_draw (Gui.picture);
 }
 
 static gboolean graphics_callback (gpointer user_data)
@@ -269,6 +430,7 @@ void graphics_run ()
 		    NULL, NULL);
 	} else
 	{
+	    RunGraphics ();
 	    while (RunGraphics ())
 		;
 	    display_picture ();
