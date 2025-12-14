@@ -686,6 +686,7 @@ void scroll_text_buffer (gboolean force)
 	gtk_text_buffer_move_mark (Gui.text_buffer, inputMark, &iter_end);
     }
 
+    gtk_text_buffer_get_end_iter (Gui.text_buffer, &iter);
     gtk_text_buffer_insert_with_tags_by_name (
 	Gui.text_buffer, &iter, " ", -1, "level9-input-padding", NULL);
     gtk_text_buffer_get_iter_at_mark (
