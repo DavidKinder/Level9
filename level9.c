@@ -2932,7 +2932,10 @@ void exit1(L9BYTE *d4,L9BYTE *d5,L9BYTE d6,L9BYTE d7)
 
 	/* notfn4 */
 notfn4:
-	d6=exitreversaltable[d6];
+	/* The table covers the unmapped direction codes 16-19, but some games
+	   (e.g. The Price of Magik) can pass a code beyond that, which would
+	   read past the end of the table: treat such codes as unmapped too. */
+	d6=(d6<sizeof exitreversaltable) ? exitreversaltable[d6] : 0xff;
 	a0=absdatablock;
 	*d5=1;
 
